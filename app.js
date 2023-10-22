@@ -12,5 +12,5 @@ document.addEventListener("DOMContentLoaded", function () {
 function gotIt() {
   const tip = document.querySelector(".tip");
   tip.style.display = "none";
-  localStorage.setItem("closed", "yes");
+  localStorage.setItem("close", "yes");
 }

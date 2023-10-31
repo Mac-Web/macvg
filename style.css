@@ -129,6 +129,14 @@ body {
   font-weight: bold;
 }
 
+.favorite-h {
+  font-size: 28px;
+  color: white;
+  text-align: center;
+  padding-block: 5px;
+  flex: 1 0 100% !important
+}
+
 .sub {
   font-size: 20px;
   padding: 20px;

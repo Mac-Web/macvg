@@ -39,6 +39,11 @@ function changeName() {
     favicon.outerHTML = `<link class="favicon" rel="icon" type="image/x-icon" href="${image}" />`;
   }
 }
+document.addEventListener("keydown", function (event) {
+  if (event.keyCode === 192) {
+    window.location.href = "https://www.google.com";
+  }
+});
 setInterval(changeName, 100);
 document.addEventListener("DOMContentLoaded", function () {
   const button = document.createElement("img");
@@ -52,13 +57,13 @@ document.addEventListener("DOMContentLoaded", function () {
   back.src = "/macvg/back.svg";
   let nameabc = document.getElementById("macvgmacvg").getAttribute("name");
   let existingDataa = localStorage.getItem("favorites");
-      let favoritesArray = existingDataa.split(",");
-      const index = favoritesArray.indexOf(nameabc);
-      if (index !== -1) {
-        star.src = "/macvg/star-solid.svg";
-      } else {
-        star.src = "/macvg/star.svg";
-      }
+  let favoritesArray = existingDataa.split(",");
+  const index = favoritesArray.indexOf(nameabc);
+  if (index !== -1) {
+    star.src = "/macvg/star-solid.svg";
+  } else {
+    star.src = "/macvg/star.svg";
+  }
   question.src = "/macvg/flag.svg";
   button.addEventListener("mouseover", function () {
     button.style.transform = "scale(1.1)";

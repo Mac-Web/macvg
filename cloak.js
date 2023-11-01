@@ -40,4 +40,9 @@ function changeName() {
     favicon.outerHTML = `<link class="favicon" rel="icon" type="image/x-icon" href="${image}" />`;
   }
 }
+document.addEventListener("keydown", function (event) {
+  if (event.keyCode === 192) {
+    window.location.href = "https://www.google.com";
+  }
+});
 setInterval(changeName, 100);

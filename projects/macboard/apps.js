@@ -1,4 +1,4 @@
-setInterval(volume,500);
+setInterval(volume, 500);
 
 function search() {
   var searchTerm = document.getElementById("searchInput").value.toLowerCase();
@@ -14,7 +14,6 @@ function search() {
       item.style.display = "none"; // Hide the anchor tag
     }
   }
-  
 }
 
 function volume() {
@@ -36,5 +35,25 @@ function stopAll() {
   const els = document.getElementsByTagName("AUDIO");
   Array.from(els).forEach((el) => {
     el.load();
+  });
+}
+
+function select() {
+  let list = document.getElementById("list");
+  let items = list.getElementsByTagName("div");
+  let itemsL = Array.from(items);
+  let r = Math.random();
+  let rw = Math.floor(r * 160);
+  let selected = items[rw];
+  itemsL.forEach(function (item) {
+    if (item.contains(selected)) {
+      let list = document.getElementById("randomList");
+      item.setAttribute("name", item.innerHTML);
+      item.style.paddingBottom = "12px";
+      list.innerHTML = item.outerHTML;
+
+      console.log(item);
+    } else {
+    }
   });
 }

@@ -1,8 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 body {
@@ -59,6 +59,7 @@ p {
   margin-bottom: 20px;
 }
 
+
 #searchInput {
   outline: none;
   border: 3px solid rgb(43, 43, 43);
@@ -67,15 +68,69 @@ p {
   padding-block: 10px;
   font-size: 18px;
   border-radius: 50px;
-  width: 30%;
-  margin-inline: 35%;
-  margin-bottom: 20px;
+  width: 24%;
+  margin-left: 35%;
+  margin-right: 1%;
   transition: border 0.5s ease;
+  box-sizing: border-box;
 }
+
 
 #searchInput:focus {
   border: 3px solid rgb(240, 182, 9);
 }
+
+.random {
+  outline: none;
+  border: 3px solid rgb(43, 43, 43);
+  text-align: center;
+  padding-block: 6px;
+  font-size: 21.6666px;
+  cursor: pointer;
+  background: linear-gradient(gold,red);
+  border-radius: 50px;
+  width: 5%;
+  margin-right: 35%;
+  box-sizing: border-box;
+}
+
+.functions {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.random {
+  position: relative;
+  z-index: 9;
+}
+
+.button-helper {
+  position: absolute;
+  border-radius: 50px;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background: linear-gradient(rgb(0, 255, 187),blue);
+  transition: opacity 0.5s ease;
+}
+
+.random:hover .button-helper {
+  opacity: 1;
+}
+
+
+#randomList {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+}
+
 
 .flex {
   display: flex;

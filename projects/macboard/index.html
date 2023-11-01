@@ -32,13 +32,14 @@
       value="0.5"
     />
     <p>Volume</p>
-    <input
+    <div class="functions"><input
       type="text"
       id="searchInput"
       oninput="search()"
       autocomplete="off"
-      placeholder="Search all 158 sounds"
-    />
+      placeholder="Search all 162 sounds"
+    /><button class="random" onclick="select()" id="random" title="Random Game Selector"><span class="button-helper"></span>🎲</button></div>
+    <div id="randomList"></div>
     <div class="flex" id="list">
       <div class="sound" onclick="document.getElementById('16').play();">
         <audio id="16" src="sounds/9+10=21.mp3"></audio>
@@ -364,6 +365,10 @@
         <audio id="86" src="sounds/its-a-banana-next-to-a-banana.mp3"></audio>
         <h3 class="name">It's a Bananana Next to a Bananana</h3>
       </div>
+      <div class="sound" onclick="document.getElementById('h3').play();">
+        <audio id="h3" src="sounds/beautiful-day.mp3"></audio>
+        <h3 class="name">It's a Beautiful Day</h3>
+      </div>
       <div class="sound" onclick="document.getElementById('99').play();">
         <audio id="99" src="sounds/itscorn.mp3"></audio>
         <h3 class="name">It's Corn</h3>
@@ -421,6 +426,10 @@
       <div class="sound" onclick="document.getElementById('31').play();">
         <audio id="31" src="sounds/hit-marker.mp3"></audio>
         <h3 class="name">MLG Hit Marker</h3>
+      </div>
+      <div class="sound" onclick="document.getElementById('310').play();">
+        <audio id="310" src="sounds/mb-remix.mp3"></audio>
+        <h3 class="name">MrBeast Meme</h3>
       </div>
       <div class="sound" onclick="document.getElementById('90').play();">
         <audio id="90" src="sounds/nahjittrippin.mp3"></audio>
@@ -490,6 +499,10 @@
         <audio id="5" src="sounds/full-table-broken.mp3"></audio>
         <h3 class="name">Our Table Is Broken</h3>
       </div>
+      <div class="sound" onclick="document.getElementById('520').play();">
+        <audio id="520" src="sounds/peaches.mp3"></audio>
+        <h3 class="name">Princess Peach</h3>
+      </div>
       <div class="sound" onclick="document.getElementById('52').play();">
         <audio id="52" src="sounds/psst.mp3"></audio>
         <h3 class="name">Pssst</h3>
@@ -551,7 +564,11 @@
       </div>
       <div class="sound" onclick="document.getElementById('107').play();">
         <audio id="107" src="sounds/skibidi-dop-dop-yes-yes.mp3"></audio>
-        <h3 class="name">Skibidi Dop Dop Yes Yes</h3>
+        <h3 class="name">Skibidi Dop Dop</h3>
+      </div>
+      <div class="sound" onclick="document.getElementById('1070').play();">
+        <audio id="1070" src="sounds/skibidi2.mp3"></audio>
+        <h3 class="name">Skibidi Dop Dop Wednesday</h3>
       </div>
       <div class="sound" onclick="document.getElementById('108').play();">
         <audio id="108" src="sounds/skibidi-toilet.mp3"></audio>
@@ -682,6 +699,10 @@
         <audio id="22" src="sounds/yeah.mp3"></audio>
         <h3 class="name">Yeah</h3>
       </div>
+      <div class="sound" onclick="document.getElementById('440').play();">
+        <audio id="440" src="sounds/yee.mp3"></audio>
+        <h3 class="name">Yee</h3>
+      </div>
       <div class="sound" onclick="document.getElementById('yeet').play();">
         <audio id="yeet" src="sounds/yeet.mp3"></audio>
         <h3 class="name">Yeet</h3>
@@ -693,6 +714,10 @@
       <div class="sound" onclick="document.getElementById('8').play();">
         <audio id="8" src="sounds/yoda-laugh.mp3"></audio>
         <h3 class="name">Yoda Laugh</h3>
+      </div>
+      <div class="sound" onclick="document.getElementById('800').play();">
+        <audio id="800" src="sounds/my-stick.mp3"></audio>
+        <h3 class="name">Yoda My Stick</h3>
       </div>
       <div class="sound" onclick="document.getElementById('600').play();">
         <audio id="600" src="sounds/you-didnt-have-to-cut-me-off.mp3"></audio>

@@ -13,7 +13,7 @@ function select() {
     if (item.contains(selected)) {
       let list = document.getElementById("randomList");
       item.setAttribute("name", item.innerHTML);
-      item.style.paddingBottom = "12px";
+      item.style.paddingBlock = "10px";
       list.innerHTML = item.outerHTML;
 
       console.log(item);

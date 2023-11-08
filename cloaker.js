@@ -46,6 +46,20 @@ document.addEventListener("keydown", function (event) {
 });
 setInterval(changeName, 100);
 document.addEventListener("DOMContentLoaded", function () {
+  const info = document.createElement("div");
+  const linkMacvg = document.createElement("a");
+  linkMacvg.href = "https://forms.gle/m7uEtoqaRQAtrccu6", "_blank";
+  linkMacvg.innerHTML = "Bug Report";
+  info.classList.add("info-popup");
+  info.innerHTML = "10 min till dawn" + linkMacvg;
+
+
+
+
+
+
+
+
   const button = document.createElement("img");
   const download = document.createElement("img");
   const back = document.createElement("img");
@@ -64,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
   } else {
     star.src = "/macvg/star.svg";
   }
-  question.src = "/macvg/flag.svg";
+  question.src = "/macvg/circle-info-solid.svg";
   button.addEventListener("mouseover", function () {
     button.style.transform = "scale(1.1)";
   });
@@ -207,12 +221,13 @@ document.addEventListener("DOMContentLoaded", function () {
     this.style.transform = "scale(1)";
   });
   question.addEventListener("click", function () {
-    window.open("https://forms.gle/m7uEtoqaRQAtrccu6", "_blank");
+    document.appendChild("a");
   });
   question.style.width = "23px";
   question.style.height = "23px";
   question.style.position = "fixed";
   question.style.top = "185px";
+  
   question.style.left = "5px";
   question.style.fontSize = "18px";
   question.style.borderRadius = "10px";
@@ -225,7 +240,7 @@ document.addEventListener("DOMContentLoaded", function () {
   question.style.padding = "7px";
   question.style.position = "fixed";
   question.style.zIndex = "10000";
-  question.title = "Bug Report";
+  question.title = "About";
   question.style.boxSizing = "content-box";
   const body = document.getElementsByTagName("body");
   let body2 = Array.from(body);
@@ -234,4 +249,16 @@ document.addEventListener("DOMContentLoaded", function () {
   body2[0].appendChild(back);
   body2[0].appendChild(download);
   body2[0].appendChild(question);
+  const up = document.getElementById("macvg-pop");
+  const off = document.getElementById("macvg-off");
+  question.addEventListener("click", function () {
+    up.classList.remove("macvg-close");
+  });
+  off.addEventListener("click", function () {
+    up.classList.add("macvg-close");
+  });
 });
+
+function feedback() {
+  window.open("https://forms.gle/m7uEtoqaRQAtrccu6", "_blank");
+}

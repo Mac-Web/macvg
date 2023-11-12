@@ -346,6 +346,8 @@ h2 {
   transition: 0.3s;
 }
 
+
+
 .game {
   position: relative;
 }
@@ -360,13 +362,18 @@ h2 {
   background-color: black;
   opacity: 0.6;
   padding-inline: 10px;
-  padding-block: 10%;
+  padding-block: 12px;
   transition: 0.3s;
   display: flex;
   justify-content: center;
   align-items: end;
   font-size: 14px;
   text-align: center;
+}
+
+.info-popup {
+  position: absolute;
+  z-index: 100000;
 }
 
 .game:hover::before {

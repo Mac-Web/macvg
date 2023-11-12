@@ -1,29 +1,62 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        
+  <head>
+    <meta charset="UTF-8" />
+
     <title class="cloak">Amoug Us | MacVG</title>
     <link class="favicon" rel="shortcut icon" href="/logo.png" />
     <script src="/macvg/cloaker.js"></script>
     <span id="macvgmacvg" name="game16"></span>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
-        <link rel="apple-touch-icon" sizes="256x256" href="img/red.png" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
+    <link rel="apple-touch-icon" sizes="256x256" href="img/red.png" />
 
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <script src="/js/main.js"></script>
-    <body>
-        <noscript>
-            <div id="notSupportedWrap">
-                <h2 id="notSupportedTitle">This content requires JavaScript</h2>
-                <p class="notSupportedMessage">JavaScript appears to be disabled. Please enable it to view this content. Thanks! :)</p>
-            </div>
-        </noscript>
-        <script src="scripts/supportcheck.js"></script>
-        <script src="scripts/offlineclient.js" type="module"></script>
-        <script src="scripts/main.js" type="module"></script>
-        <script src="scripts/register-sw.js" type="module"></script>
-    </body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <script src="/js/main.js"></script>
+  <body>
+    <div class="macvg-wrap macvg-close" id="macvg-pop">
+      <div class="macvg-message">
+        <h1>
+          <button
+            class="macvg-btn"
+            style="left: 25px"
+            title="Bug Report"
+            onclick="feedback()"
+          >
+            <img src="/macvg/flag.svg" alt="Close" width="20px" /></button
+          >Among Us<button class="macvg-btn" id="macvg-off" title="Close">
+            <img src="/macvg/xmark-solid.svg" alt="Close" width="20px" />
+          </button>
+        </h1>
+        <h2>How to Play</h2>
+        <p>
+          Among Us is a vastly popular multiplayer game where you are either an imposter or a crewmate. In this fanmade, you're the imposter and you're facing bot crewmates. Try to kill everybody before they complete the tasks and without being discovered by moving with arrow keys and clicking on different function buttons in the bottom right corner.
+        </p>
+        <h2>Game Information</h2>
+        <ul>
+          <li>Release Date: June 15, 2018</li>
+          <li>Developer: Innersloth LLC</li>
+          <li>Players: 600M+</li>
+        </ul>
+      </div>
+    </div>
+    <link rel="stylesheet" href="/macvg/info.css" />
+    <noscript>
+      <div id="notSupportedWrap">
+        <h2 id="notSupportedTitle">This content requires JavaScript</h2>
+        <p class="notSupportedMessage">
+          JavaScript appears to be disabled. Please enable it to view this
+          content. Thanks! :)
+        </p>
+      </div>
+    </noscript>
+    <script src="scripts/supportcheck.js"></script>
+    <script src="scripts/offlineclient.js" type="module"></script>
+    <script src="scripts/main.js" type="module"></script>
+    <script src="scripts/register-sw.js" type="module"></script>
+  </body>
 </html>

@@ -1,3 +1,110 @@
+document.addEventListener("DOMContentLoaded", function () {
+  let thing23 = document.getElementById("current");
+  let panicKeys = localStorage.getItem("panic");
+  let href = localStorage.getItem("href");
+  thing23.innerHTML =
+    "Current key: " + panicKeys + "<br>" + " Redirecting: " + href;
+  thing23.style.fontWeight = "bold";
+  thing23.style.color = "gold";
+});
+
+document.addEventListener("keydown", (event) => {
+  let panicKeys = localStorage.getItem("panic");
+  let href = localStorage.getItem("href");
+  if (panicKeys) {
+    if (href) {
+      let keys = panicKeys.split(",");
+      if (keys.length >= 2 && event.key === keys[0]) {
+        let key1Pressed = true;
+        document.addEventListener("keydown", (event) => {
+          if (event.key === keys[1] && key1Pressed) {
+            window.location.href = href;
+          }
+        });
+        document.addEventListener("keyup", (event) => {
+          if (event.key === keys[0]) {
+            key1Pressed = false;
+          }
+        });
+      } else if (keys.length >= 2 && event.key === keys[1]) {
+        let key1Pressed = true;
+        document.addEventListener("keydown", (event) => {
+          if (event.key === keys[0] && key1Pressed) {
+            window.location.href = href;
+          }
+        });
+        document.addEventListener("keyup", (event) => {
+          if (event.key === keys[0]) {
+            key1Pressed = false;
+          }
+        });
+      } else if (keys.length === 1 && event.key === keys[0]) {
+        window.location.href = href;
+      }
+    } else {
+      let href = "https://www.google.com";
+      let keys = panicKeys.split(",");
+      if (keys.length >= 2 && event.key === keys[0]) {
+        let key1Pressed = true;
+        document.addEventListener("keydown", (event) => {
+          if (event.key === keys[1] && key1Pressed) {
+            window.location.href = href;
+          }
+        });
+        document.addEventListener("keyup", (event) => {
+          if (event.key === keys[0]) {
+            key1Pressed = false;
+          }
+        });
+      } else if (keys.length >= 2 && event.key === keys[1]) {
+        let key1Pressed = true;
+        document.addEventListener("keydown", (event) => {
+          if (event.key === keys[0] && key1Pressed) {
+            window.location.href = href;
+          }
+        });
+        document.addEventListener("keyup", (event) => {
+          if (event.key === keys[0]) {
+            key1Pressed = false;
+          }
+        });
+      } else if (keys.length === 1 && event.key === keys[0]) {
+        window.location.href = href;
+      }
+    }
+  } else {
+    localStorage.setItem("panic", "`");
+    let keys = panicKeys.split(",");
+    if (keys.length >= 2 && event.key === keys[0]) {
+      let key1Pressed = true;
+      document.addEventListener("keydown", (event) => {
+        if (event.key === keys[1] && key1Pressed) {
+          window.location.href = href;
+        }
+      });
+      document.addEventListener("keyup", (event) => {
+        if (event.key === keys[0]) {
+          key1Pressed = false;
+        }
+      });
+    } else if (keys.length >= 2 && event.key === keys[1]) {
+      let key1Pressed = true;
+      document.addEventListener("keydown", (event) => {
+        if (event.key === keys[0] && key1Pressed) {
+          window.location.href = href;
+        }
+      });
+      document.addEventListener("keyup", (event) => {
+        if (event.key === keys[0]) {
+          key1Pressed = false;
+        }
+      });
+    } else if (keys.length === 1 && event.key === keys[0]) {
+      window.location.href = href;
+    }
+  }
+});
+
 const google = ["Google", "/macvg/google.png"];
 const canva = ["Home - Canva", "/macvg/canva.png"];
 const clever = ["Clever | Portal", "/macvg/clever.png"];
@@ -24,25 +131,47 @@ function newTab1() {
   localStorage.setItem("title", JSON.stringify(newTab));
 }
 
+function unCloak() {
+  localStorage.setItem("title", "");
+}
+
+function panic() {
+  const button = document.getElementById("name2").value;
+  localStorage.setItem("panic", button);
+}
+
+function url() {
+  const inputurl = document.getElementById("name3").value;
+  localStorage.setItem("href", inputurl);
+}
+
 function cloaking() {
   const name = document.getElementById("name").value;
-  localStorage.cloak = name;
+  localStorage.title = name;
 }
 
 function changeName() {
-  if (localStorage.title != null) {
+  if (localStorage.title !== "") {
     const pageTon = document.querySelector(".cloak");
     const favicon = document.querySelector(".favicon");
-    let all = JSON.parse(localStorage.getItem("title"));
-    let title = all[0];
-    let image = all[1];
-    pageTon.innerHTML = title;
-    favicon.outerHTML = `<link class="favicon" rel="icon" type="image/x-icon" href="${image}" />`;
+    if (localStorage.title != null) {
+      let all = localStorage.getItem("title");
+      if (
+        all.includes("Clever") ||
+        all.includes("Google") ||
+        all.includes("Canva") ||
+        all.includes("Schoology") ||
+        all.includes("New Tab")
+      ) {
+        let alln = JSON.parse(all);
+        let title = alln[0];
+        let image = alln[1];
+        pageTon.innerHTML = title;
+        favicon.outerHTML = `<link class="favicon" rel="icon" type="image/x-icon" href="${image}" />`;
+      } else {
+        pageTon.innerHTML = all;
+      }
+    }
   }
 }
-document.addEventListener("keydown", function (event) {
-  if (event.keyCode === 192) {
-    window.location.href = "https://www.google.com";
-  }
-});
 setInterval(changeName, 100);

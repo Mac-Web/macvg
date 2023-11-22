@@ -1,25 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y71QM9DR66"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-Y71QM9DR66');
-</script>
     <script>
       if (localStorage.getItem("favorites") === null) {
-        localStorage.setItem("favorites","bruh");
+        localStorage.setItem("favorites", "bruh");
       }
     </script>
     <title class="cloak">Home | MacVG</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <script src="search.js"></script>
-    
+
     <link
       class="favicon"
       rel="icon"
@@ -63,14 +54,21 @@
         ></i
       ></a>
     </nav>
+    <div class="wrap" style="padding-bottom: 40px;">
+
+    
     <div class="tip">
       <p>
-        <b>MacVG version 1.2</b> NOVEMBER UPDATE!<br />
-        FAVORITES, DOWNLOAD, AND MORE! Check them out
-        <a href="/blogs/updates/macvg.html" target="_blank">here</a>!<br /><button
-          class="got-it"
-          onclick="gotIt()"
+        <b style="font-size: 20px">MacVG version 1.4 December Update!</b
+        ><br />
+        <span style="display: block; padding-block: 15px; font-size: 25px; font-weight: bold">
+          PANIC BUTTON, GAME INFO, MOVABLE TOOL BAR, AND MORE!</span
         >
+        Check them out
+        <a href="/blogs/updates/macvg.html" target="_blank" style="color: white"
+          >here</a
+        >! <br />
+        <button class="got-it" onclick="gotIt()">
           <span class="helper"></span>
           Got it!
         </button>
@@ -88,9 +86,9 @@
       }
     </style>
     <header class="homeheader">
-      <div class="title">Welcome To MacVG!</div>
+      <div class="title">Enjoy The Holidays at MacVG!</div>
       <div class="sub">
-        A little place where you can have <strong>FUN!</strong>
+        A little place where you can have <strong>FUN</strong>, while celebrating the holidays!
       </div>
     </header>
     <div class="functions">
@@ -931,6 +929,7 @@
         Zombs Royale
       </a>
     </div>
+  </div>
     <footer class="footer">
       ©2023 <a href="/macvg/">MacVG</a
       ><span style="color: black; user-select: none; background-color: black"
@@ -960,7 +959,7 @@
       >
     </footer>
     <script>
-      if (localStorage.clse === "yes") {
+      if (localStorage.cse === "yes") {
         console.log("yes");
         const tip = document.querySelector(".tip");
         tip.style.display = "none";

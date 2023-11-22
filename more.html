@@ -59,6 +59,7 @@
         margin-inline: 10px;
       }
     </style>
+    <div class="wrap" style="padding-bottom: 40px;">
     <header class="homeheader">
       <div class="title" style="margin-bottom: 35px; margin-top: 20px">
         More
@@ -66,7 +67,7 @@
     </header>
     <hr />
     <section>
-      <h2>Cloaker Settings</h2>
+      <h2>Cloaker</h2>
       <form action="" id="cloaker">
         <input type="text" id="name" placeholder="Rename the tab!" />
         <button onclick="cloaking()" id="go" type="submit">Go!</button>
@@ -77,22 +78,28 @@
         <button onclick="clever1()" class="clbtn">Clever</button>
         <button onclick="schoology1()" class="clbtn">Schoology</button>
         <button onclick="newTab1()" class="clbtn">New Tab</button>
+        <button onclick="unCloak()" class="clbtn">Uncloak</button>
       </form>
       <h2>Panic Button</h2>
-      <p
-        style="
-          margin-inline: 25%;
-          width: 50%;
-          color: white;
-          text-decoration: none;
-          font-size: 20px;
-          line-height: 25px;
-          margin-block: 30px;
-        "
-      >
-        For now, only pressing the ` key works (manual setting coming in
-        December update!)
+      <p id="pbdescription">
+        Default button is ` and the url is https://www.google.com<br />
+        Only type one or two characters. If you have two characters (combination), put a comma
+        in between. For example: f,p<br />Do not enter any existing shortcut for
+        the browser!<br>
+        <spam id="current"></spam>
       </p>
+      <form action="" id="cloaker2">
+        <input type="text" id="name2" placeholder="Set your panic button!" />
+        <button onclick="panic()" id="go2" type="submit">Go!</button>
+      </form>
+      <form action="" id="cloaker2" style="margin-top: 0">
+        <input
+          type="text"
+          id="name3"
+          placeholder="https:// required! Enter the panic redirecting link here!"
+        />
+        <button onclick="url()" id="go2" type="submit">Go!</button>
+      </form>
     </section>
     <hr />
     <section>
@@ -104,14 +111,14 @@
           color: white;
           text-decoration: none;
           font-size: 20px;
-          line-height: 25px;
+          line-height: 30px;
         "
       >
         MacVG — The best unblocked game website out there! With 5 different
         catagories and a total of 254 unblocked free games, you can play
-        whatever you want, whenever you like🎮! You can search games, play them
-        in the featured, action, strategy, driving, or casual catagories, and
-        even rename the tab so teachers won't notice👍! Want to give a feedback
+        whatever you want, whenever you like🎮! You can search games, generate random games, favorite them, download them, play them
+        in the featured, action, strategy, driving, or casual catagories, 
+         rename the tab so teachers won't notice, set panic button, and so much more👍! Want to give a feedback
         or a game suggestion😀? Click
         <a
           id="fedback"
@@ -119,16 +126,15 @@
           style="color: white"
           target="_blank"
           >here</a
-        >!<br /><br />
-        Oh, and this website was coded entirely by this dude on the internet
-        called
+        >! We do monthly updates with brand new features!<br /><br />
+        Oh, and this website is the product of 
         <a
           id="fedback"
           href="https://github.com/Mac-Web"
           style="color: white"
           target="_blank"
-          >Mac-Web</a
-        >🫥, and yes, Reese's Reiley from engineering block 1, I'm talking to you! And thanks to
+          >MacWeb</a
+        >, and thanks to
         <a
           id="fedback"
           href="https://github.com/3kh0"
@@ -387,7 +393,7 @@
         <li>⏺️ Updated UI and UX.</li>
         <li>⏺️ Fixed new bugs and errors.</li>
       </ul>
-      <hr>
+      <hr />
       <h4 style="text-align: center; color: white; padding-top: 10px">
         v1.3 | 11/1/23
       </h4>
@@ -408,9 +414,9 @@
         <li>⏺️ Updated UI and UX.</li>
         <li>⏺️ Fixed new bugs and errors.</li>
       </ul>
-      <hr>
+      <hr />
       <h4 style="text-align: center; color: white; padding-top: 10px">
-        v1.4 | 12/1/23
+        v1.5 | 12/1/23
       </h4>
       <ul
         style="
@@ -423,10 +429,14 @@
       >
         <li>🔼 New feature: Panic Button!</li>
         <li>🔼 New feature: Game Information!</li>
-        <li>🔼 New feature: Share Game!</li>
         <li>🔼 New feature: Movable Tool Bar!</li>
+        <li>🔼 New feature: Share Game!</li>
+        <li>🔼 New feature: Uncloak!</li>
+        <li>🔼 New theme: The Holidays!</li>
+        <li>⏺️ New designs.</li>
+        <li>⏺️ New feature coming soon: Themes!</li>
         <li>⏺️ Improved UI and UX.</li>
-        <li>⏺️ Fixed some bugs and errors.</li>
+        <li>🔼 Fixed the bugs of tool bar not showing, too small, and custom cloaker not working.</li>
         <li>🔽 Removed 2 games because of crashing issues.</li>
       </ul>
     </section>
@@ -438,6 +448,7 @@
         font-size: 17px;
       }
     </style>
+    </div>
     <footer class="footer">
       ©2023 <a href="/macvg/">MacVG</a
       ><span style="color: black; user-select: none; background-color: black"

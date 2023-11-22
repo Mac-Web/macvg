@@ -5,9 +5,16 @@
   box-sizing: border-box;
 }
 
-
 body {
-  background-color: rgb(43, 43, 43);
+  background: url(/macvg/background.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.wrap {
+  background-color: rgba(0, 0, 0, 0.65);
+  /*og color is rgb 40 40 40*/
 }
 
 .tip {
@@ -33,7 +40,8 @@ body {
   padding-block: 7px;
   cursor: pointer;
   border-radius: 20px;
-  margin-top: 10px;overflow: hidden;
+  margin-top: 10px;
+  overflow: hidden;
   transition: box-shadow 0.2s;
   border: 2px solid black;
   text-shadow: 0px 0px 10px black;
@@ -58,7 +66,7 @@ body {
 
 #searchInput {
   outline: none;
-  border: 3px solid rgb(43, 43, 43);
+  border: 3px solid transparent;
   padding-inline: 2.5%;
   background-color: white;
   padding-block: 10px;
@@ -70,19 +78,19 @@ body {
   transition: border 0.5s ease;
 }
 
-
 #searchInput:focus {
   border: 3px solid rgb(240, 182, 9);
 }
 
 .random {
   outline: none;
-  border: 3px solid rgb(43, 43, 43);
+  box-sizing: border-box;
   text-align: center;
-  padding-block: 6px;
+  border: none;
+  padding-block: 9px;
   font-size: 21.6666px;
   cursor: pointer;
-  background: linear-gradient(gold,red);
+  background: linear-gradient(gold, red);
   border-radius: 50px;
   width: 5%;
   margin-right: 35%;
@@ -110,7 +118,7 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  background: linear-gradient(rgb(0, 255, 187),blue);
+  background: linear-gradient(rgb(0, 255, 187), blue);
   transition: opacity 0.5s ease;
 }
 
@@ -129,12 +137,16 @@ body {
   font-weight: bold;
 }
 
+#favoriteList .game {
+  padding-bottom: 10px !important;
+}
+
 .favorite-h {
   font-size: 28px;
   color: white;
   text-align: center;
   padding-block: 5px;
-  flex: 1 0 100% !important
+  flex: 1 0 100% !important;
 }
 
 .sub {
@@ -154,7 +166,6 @@ body {
   top: 0;
   z-index: 1000;
 }
-
 .nav-link {
   padding-block: 12px;
   padding-inline: 20px;
@@ -162,13 +173,29 @@ body {
   text-decoration: none;
   font-weight: bold;
   margin: 0;
+  position: relative;
   color: white;
   border-bottom: 2px solid black;
   transition: border-bottom 0.3s;
 }
 
-.nav-link:hover {
-  border-bottom: 2px solid gold;
+.nav-link::after {
+  content: "";
+  height: 2px;
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0px;
+  margin: 0;
+  background-color: gold;
+  transition: width 0.15s ease;
+}
+
+.nav-link:hover::after {
+  width: 80%;
+  background-color: gold;
+  transition: width 0.2s ease;
 }
 
 h2 {
@@ -210,15 +237,17 @@ h2 {
   background-color: rgb(60, 60, 60);
 }
 
-#name {
+#name,
+#name2,
+#name3 {
   outline: none;
-  border: 3px solid rgb(43, 43, 43);
+  border: 3px solid transparent;
   padding-inline: 2.5%;
   background-color: white;
   padding-block: 10px;
   font-size: 18px;
   border-radius: 50px;
-  width: 43%;
+  width: 90%;
   margin-bottom: 0px;
   transition: border 0.5s ease;
 }
@@ -230,7 +259,6 @@ h2 {
   padding-block: 15px;
   line-height: 28px;
   font-size: 15px;
-  margin-top: 40px;
 }
 
 .footer a {
@@ -244,25 +272,40 @@ h2 {
   text-decoration: underline;
 }
 
-#name:focus {
+#name:focus,
+#name2:focus,
+#name3:focus {
   border: 3px solid rgb(240, 182, 9);
 }
 
-#cloaker {
+#pbdescription {
+  width: 50%;
+  margin-inline: 25%;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 15px;
+  line-height: 28px;
+}
+
+#cloaker,
+#cloaker2 {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 30px;
+  width: 54%;
+  margin-inline: 23%;
 }
 
-#go {
+#go,
+#go2 {
   outline: none;
-  border: 3px solid rgb(43, 43, 43);
+  border: 3px solid transparent;
   background-color: white;
   padding-block: 10px;
   font-size: 18px;
   border-radius: 50px;
-  width: 5%;
+  width: 8%;
   margin-bottom: 00px;
   transition: border 0.5s ease;
   margin-left: 1%;
@@ -270,11 +313,13 @@ h2 {
   cursor: pointer;
 }
 
-#go:hover {
+#go:hover,
+#go2:hover {
   transform: scale(1.1);
 }
 
-#go:focus {
+#go:focus,
+#go2:focus {
   border: 3px solid rgb(240, 182, 9);
 }
 
@@ -286,16 +331,16 @@ h2 {
 
 .clbtn {
   outline: none;
-  border: 3px solid rgb(43, 43, 43);
+  border: 3px solid transparent;
   background-color: white;
   padding-block: 10px;
   font-size: 18px;
   border-radius: 50px;
-  width: 9%;
+  width: 8.2%;
   text-align: center;
   margin-bottom: 20px;
   transition: border 0.5s ease;
-  margin-inline: 0.5%;
+  margin-inline: 0.4%;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
@@ -345,8 +390,6 @@ h2 {
   overflow: hidden;
   transition: 0.3s;
 }
-
-
 
 .game {
   position: relative;
@@ -1232,7 +1275,6 @@ hr {
     ),
     url("projects/greybox/ico.png");
 }
-
 
 #game116 {
   background-image: linear-gradient(

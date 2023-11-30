@@ -2491,3 +2491,11 @@ hr {
     ),
     url("projects/zombs-royale/zomb.png");
 }
+
+#game290 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/funnyshooter2/FunnyShooter2_Yandex.jpg");
+}

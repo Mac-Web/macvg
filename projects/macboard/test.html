@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Test 2</title>
+  </head>
+  <body>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        background-color: black;
+      }
+      .main {
+        width: 100vh;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: radial-gradient(rgb(33, 33, 33), black, black);
+      }
+      .curves {
+        display: flex;
+        flex-direction: row;
+        margin-block: 0.5vw;
+      }
+      .curve1 {
+        background: linear-gradient(135deg, blue, green);
+        width: 10vw;
+        height: 10vw;
+        border-radius: 2vw 5vw 2vw 5vw;
+        margin-right: 1vw;
+        border: 0.25vw solid white;
+      }
+      .curve2 {
+        background: linear-gradient(-135deg, blue, green);
+        width: 10vw;
+        height: 10vw;
+        border-radius: 5vw 2vw 5vw 2vw;
+        border: 0.25vw solid white;
+      }
+    </style>
+    <div class="main">
+      <div class="curves">
+        <div class="curve1"></div>
+        <div class="curve2"></div>
+      </div>
+      <div class="curves">
+        <div class="curve1" style="border-radius: 5vw 2vw 5vw 2vw; background: linear-gradient(45deg, blue, green);"></div>
+        <div class="curve2" style="border-radius: 2vw 5vw 2vw 5vw; background: linear-gradient(-45deg, blue, green);"></div>
+      </div>
+    </div>
+  </body>
+</html>

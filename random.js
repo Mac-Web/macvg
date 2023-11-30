@@ -7,7 +7,7 @@ function select() {
   let items = list.getElementsByTagName("a");
   let itemsL = Array.from(items);
   let r = Math.random();
-  let rw = Math.floor(r * 256);
+  let rw = Math.floor(r * 257);
   let selected = items[rw];
   itemsL.forEach(function (item) {
     if (item.contains(selected)) {

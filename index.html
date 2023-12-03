@@ -16,11 +16,7 @@
       gtag("config", "G-Y71QM9DR66");
     </script>
 
-    <script>
-      if (localStorage.getItem("favorites") === null) {
-        localStorage.setItem("favorites", "bruh");
-      }
-    </script>
+    
     <title class="cloak">Home | MacVG</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
@@ -50,13 +46,12 @@
   <body>
     <nav class="nav">
       <a href="/macvg/" class="logo2" style="background-color: black">
-        <img src="/macvg/macvg-logo.png" alt="MacVG Logo" /> </a
-      ><a href="featured.html" class="nav-link">Featured</a
-      ><a href="action-adventure.html" class="nav-link">Action</a
-      ><a href="strategy-puzzle.html" class="nav-link">Strategy</a
-      ><a href="driving-sports.html" class="nav-link">Driving</a
-      ><a href="casual.html" class="nav-link">Casual</a
-      ><a href="more.html" class="nav-link">More</a>
+        <img src="/macvg/macvg-logo.png" alt="MacVG Logo" />
+        <a href="new.html" class="nav-link">New</a></a
+      ><a href="popular.html" class="nav-link">Popular</a
+      ><a href="groups" class="nav-link">Groups</a
+        ><a href="/macvg/projects/macboard/" class="nav-link">MacBoard</a
+        ><a href="more.html" class="nav-link">More</a>
       <a
         href="https://forms.gle/fpnxZqiK3SFrzUdSA"
         target="_blank"
@@ -68,6 +63,16 @@
           style="color: #ffffff; background-color: transparent"
         ></i
       ></a>
+      <div id="select">
+        <span id="header123">Catagories</span>
+        <ul id="cats">
+          <a href="featured.html">Featured</a>
+          <a href="action-adventure.html">Action</a>
+          <a href="strategy-puzzle.html">Strategy</a>
+          <a href="driving-sports.html">Driving</a>
+          <a href="casual.html">Casual</a>
+        </ul>
+      </div>
     </nav>
     <div class="wrap" style="padding-bottom: 40px">
       <div class="tip">
@@ -104,7 +109,7 @@
           position: absolute;
           margin: none;
           top: 4px;
-          right: 0px;
+          right: 10px;
           margin-inline: 10px;
         }
       </style>
@@ -128,8 +133,17 @@
       </div>
       <div class="games-container" id="favoriteList"></div>
       <div class="games-container" id="randomList"></div>
-
+      <script>
+        if (localStorage.getItem("favorites") === "bruh" || localStorage.getItem("favorites") === null) {
+          const favoriteList = document.getElementById("favoriteList");
+          favoriteList.style.display = "none";
+          localStorage.setItem("favorites", "bruh");
+          
+        }
+      </script>
       <script src="/macvg/random.js"></script>
+      <div class="games-container" id="list2">
+      <a href="projects/fortnite/" style="width: 20%; margin-inline: 40%; height: 20vw;" class="game" id="game11110"> FORTNITE </a></div>
       <div class="games-container" id="list">
         <a href="projects/1/" class="game" id="game1"> 1 </a>
         <a href="projects/1v1lol/" class="game" id="game2"> 1v1.lol </a>
@@ -190,8 +204,12 @@
 
         <a href="projects/backrooms/" class="game" id="game20"> Backrooms </a>
 
-        <a href="projects/backrooms-2d/" class="game" id="game292"> Backrooms 2D </a>
-        <a href="projects/bacon-may-die/" class="game" id="game293"> Bacon May Die</a>
+        <a href="projects/backrooms-2d/" class="game" id="game292">
+          Backrooms 2D
+        </a>
+        <a href="projects/bacon-may-die/" class="game" id="game293">
+          Bacon May Die</a
+        >
 
         <a href="projects/bad-ice-cream/" class="game" id="game21">
           Bad Ice Cream
@@ -227,7 +245,9 @@
         <a href="projects/bigredbutton/" class="game" id="game29">
           Big Red Button
         </a>
-        <a href="projects/bitcoin-clicker/" class="game" id="game295"> Bitcoin Clicker </a>
+        <a href="projects/bitcoin-clicker/" class="game" id="game295">
+          Bitcoin Clicker
+        </a>
         <a href="projects/bitlife/" class="game" id="game30"> Bitlife </a>
 
         <a href="projects/blacholesquare/" class="game" id="game31">
@@ -241,7 +261,6 @@
         <a href="projects/bloonstd/" class="game" id="game33"> Bloons TD </a>
 
         <a href="projects/bloonstd2/" class="game" id="game34"> Bloons TD 2 </a>
-        
 
         <a href="projects/bloxors/" class="game" id="game35"> Bloxors </a>
 
@@ -372,9 +391,13 @@
 
         <a href="projects/ducklife/" class="game" id="game297"> Duck Life </a>
 
-        <a href="projects/ducklife-2/" class="game" id="game298"> Duck Life 2 </a>
+        <a href="projects/ducklife-2/" class="game" id="game298">
+          Duck Life 2
+        </a>
 
-        <a href="projects/ducklife-3/" class="game" id="game299"> Duck Life 3 </a>
+        <a href="projects/ducklife-3/" class="game" id="game299">
+          Duck Life 3
+        </a>
 
         <a href="projects/ducklife4/" class="game" id="game79"> Duck Life 4 </a>
 
@@ -507,7 +530,6 @@
         </a>
 
         <a href="projects/happy-hop/" class="game" id="game118"> Happy Hop </a>
-        
 
         <a href="projects/hba/" class="game" id="game119"> Hover Bot Arena </a>
 
@@ -575,7 +597,7 @@
         <a href="projects/mario/" class="game" id="game140"> Mario </a>
 
         <a href="projects/mario-bros/" class="game" id="game305">
-         Mario Bros
+          Mario Bros
         </a>
 
         <a href="projects/marvinspectrum/" class="game" id="game141">
@@ -642,7 +664,6 @@
 
         <a href="projects/n-gon/" class="game" id="game159"> n-gon </a>
 
-        
         <a href="projects/ninja/" class="game" id="game160"> Ninja </a>
 
         <a href="projects/ninjavsevilcorp/" class="game" id="game161">
@@ -653,7 +674,7 @@
 
         <a href="projects/nut-simulator/" class="game" id="game306">
           Nut Simulator
-          </a>
+        </a>
         <a href="projects/OfflineParadise/" class="game" id="game164">
           Offline Paradise
         </a>
@@ -676,12 +697,10 @@
 
         <a href="projects/paperio2/" class="game" id="game170"> Paper.io 2 </a>
 
-        <a href="projects/paper-3/" class="game" id="game307">
-          Paper.io 3
-          </a>
-          <a href="projects/paper-minecraft/" class="game" id="game308">
-            Paper Minecraft
-            </a>
+        <a href="projects/paper-3/" class="game" id="game307"> Paper.io 3 </a>
+        <a href="projects/paper-minecraft/" class="game" id="game308">
+          Paper Minecraft
+        </a>
         <a href="projects/papery-planes/" class="game" id="game171">
           Papery Planes
         </a>
@@ -689,9 +708,7 @@
         <a href="projects/particle-clicker/" class="game" id="game172">
           Particle Clicker
         </a>
-        <a href="projects/pcraft/" class="game" id="game309">
-          P.Craft
-          </a>
+        <a href="projects/pcraft/" class="game" id="game309"> P.Craft </a>
 
         <a href="projects/pixel-gun-survival/" class="game" id="game173">
           Pixel Gun Survival
@@ -946,9 +963,7 @@
         <a href="projects/temple-run-2" class="game" id="game246">
           Temple Run 2
         </a>
-        <a href="projects/terraira/" class="game" id="game312">
-          Terraira
-        </a>
+        <a href="projects/terraira/" class="game" id="game312"> Terraira </a>
         <a href="projects/territorial/" class="game" id="game313">
           Territorial
         </a>
@@ -983,10 +998,7 @@
         </a>
 
         <a href="projects/townscaper" class="game" id="game256"> Townscaper </a>
-        <a href="projects/trimps/" class="game" id="game314">
-          Trimps
-        </a>
-
+        <a href="projects/trimps/" class="game" id="game314"> Trimps </a>
 
         <a href="projects/tube-jumpers" class="game" id="game257">
           Tube Jumpers
@@ -1019,7 +1031,9 @@
         <a href="projects/wallsmash" class="game" id="game268"> Wall Smash </a>
 
         <a href="projects/weavesilk" class="game" id="game269"> Weave Silk </a>
-        <a href="projects/wbwwb/" class="game" id="game315"> We Become What We Behold </a>
+        <a href="projects/wbwwb/" class="game" id="game315">
+          We Become What We Behold
+        </a>
 
         <a href="projects/webgl-fluid-simulation" class="game" id="game270">
           WebGL Fluid Sim

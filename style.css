@@ -82,6 +82,76 @@ body {
   border: 3px solid rgb(240, 182, 9);
 }
 
+#select {
+  position: absolute;
+  width: 120px;
+  right: 100px;
+  background-color: black;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-block: 8px;
+  padding-inline: 10px;
+  background-position: right center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  text-align: center;
+  top: 4px;
+  cursor: pointer;
+}
+
+#cats {
+  display: none;
+  flex-direction: column;
+  transition: display 0.3s ease;
+}
+
+#select:hover {
+  box-shadow: 0px 0px 15px rgb(60, 60, 60);
+}
+
+#select:hover #cats {
+  display: flex;
+}
+
+#cats a:first-child {
+  border-top: 2px solid white;
+  padding-top: 10px;
+  margin-top: 8px;
+}
+
+#cats a {
+  color: white;
+  text-decoration: none;
+  padding-block: 10px;
+  font-size: 18px;
+  position: relative;
+}
+
+#cats a::after {
+  content: "";
+  height: 2px;
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0px;
+  margin: 0;
+  background-color: gold;
+  transition: width 0.15s ease;
+}
+
+#cats a:hover::after {
+  width: 80%;
+  background-color: gold;
+  transition: width 0.2s ease;
+}
+
 .random {
   outline: none;
   box-sizing: border-box;
@@ -139,6 +209,14 @@ body {
 
 #favoriteList .game {
   padding-bottom: 10px !important;
+}
+
+#favoriteList {
+  width: 96%;
+  margin-inline: 2%;
+  margin-top: 25px;
+  border-radius: 30px;
+  background-color: rgba(40, 40, 40, 0.7);
 }
 
 .favorite-h {
@@ -395,6 +473,29 @@ h2 {
   position: relative;
 }
 
+#game11110::before {
+  content: attr(name);
+  position: absolute;
+  top: 0;
+  left: -150%;
+  width: 93%;
+  height: 91.6%;
+  background-color: black;
+  opacity: 0.6;
+  padding-inline: 10px;
+  padding-bottom: 100px;
+  transition: 0.3s; 
+  font-size: 14px;
+  z-index: 10000;
+  text-align: center;
+}
+
+
+
+#game11110:hover:before {
+  left: 0;
+}
+
 .game::before {
   content: attr(name);
   position: absolute;
@@ -442,6 +543,14 @@ hr {
 .thumbnail {
   width: 100%;
   border-radius: 20px;
+}
+
+#game11110 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/fortnite/Untitled.jpg");
 }
 
 #game1 {

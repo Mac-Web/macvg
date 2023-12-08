@@ -1,12 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
-  let thing23 = document.getElementById("current");
-  let panicKeys = localStorage.getItem("panic");
-  let href = localStorage.getItem("href");
-  thing23.innerHTML =
-    "Current key: " + panicKeys + "<br>" + " Redirecting: " + href;
-  thing23.style.fontWeight = "bold";
-  thing23.style.color = "gold";
-});
+
 
 document.addEventListener("keydown", (event) => {
   let panicKeys = localStorage.getItem("panic");
@@ -470,3 +462,13 @@ document.addEventListener("DOMContentLoaded", function () {
 function feedback() {
   window.open("https://forms.gle/m7uEtoqaRQAtrccu6", "_blank");
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  let thing23 = document.getElementById("current");
+  let panicKeys = localStorage.getItem("panic");
+  let href = localStorage.getItem("href");
+  thing23.innerHTML =
+    "Current key: " + panicKeys + "<br>" + " Redirecting: " + href;
+  thing23.style.fontWeight = "bold";
+  thing23.style.color = "gold";
+});

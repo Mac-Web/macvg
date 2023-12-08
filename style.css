@@ -14,6 +14,7 @@ body {
 
 .wrap {
   background-color: rgba(0, 0, 0, 0.65);
+  margin: 0;
   /*og color is rgb 40 40 40*/
 }
 
@@ -92,13 +93,9 @@ body {
   color: white;
   font-size: 18px;
   font-weight: bold;
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   padding-block: 8px;
   padding-inline: 10px;
-  background-position: right center;
-  background-repeat: no-repeat;
   border-radius: 20px;
   text-align: center;
   top: 4px;
@@ -120,7 +117,7 @@ body {
 }
 
 #cats a:first-child {
-  border-top: 2px solid white;
+  border-top: 2px solid gray;
   padding-top: 10px;
   margin-top: 8px;
 }
@@ -171,7 +168,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 .random {
@@ -215,7 +212,9 @@ body {
   width: 96%;
   margin-inline: 2%;
   margin-top: 25px;
+  margin-bottom: 20px;
   border-radius: 30px;
+  padding-bottom: 10px;
   background-color: rgba(40, 40, 40, 0.7);
 }
 
@@ -284,19 +283,32 @@ h2 {
 .logo {
   margin-inline: 35px;
   height: 32px;
+  background-color: transparent;
 }
 
 .logo img {
   height: 32px;
+  background-color: transparent;
 }
 
 .logo2 {
   margin-inline: 35px;
   height: 32px;
+  background-color: transparent;
 }
 
 .logo2 img {
   height: 32px;
+  /*
+  background-color: white;*/
+}
+
+.functions-l {
+  border: 3px solid rgb(40, 40, 40) !important;
+}
+
+.functions-l:focus {
+border: 3px solid rgb(255, 183, 0) !important;
 }
 
 #feedback {
@@ -439,11 +451,12 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-inline: 5px;
+  padding-inline: 5px;
+  padding-bottom: 40px;
 }
 
 #randomList {
-  margin-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 .game {
@@ -545,12 +558,21 @@ hr {
   border-radius: 20px;
 }
 
-#game11110 {
-  background-image: linear-gradient(
-      rgba(40, 40, 40, 0.2),
-      rgba(40, 40, 40, 0.85)
-    ),
-    url("projects/fortnite/Untitled.jpg");
+.light {
+  background-color: rgb(235, 235, 235) !important;
+  color: rgb(40, 40, 40) !important;
+  fill: rgb(40, 40, 40) !important;
+}
+
+.link-l {
+  border-bottom: 2px solid rgb(235, 235, 235) !important;
+}
+
+.link-l::after {
+  background-color: rgb(255, 183, 0) !important;
+}
+.shadow {
+  box-shadow: 0px 0px 5px rgb(84, 84, 84) !important;
 }
 
 #game1 {
@@ -1110,7 +1132,14 @@ hr {
       rgba(40, 40, 40, 0.2),
       rgba(40, 40, 40, 0.85)
     ),
-    url("projects/ducklife1/ducklife.png");
+    url("projects/ducklife/DuckLife.png");
+}
+#game77 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/ducklife-2/DuckLife2.png");
 }
 
 #game78 {
@@ -1118,7 +1147,7 @@ hr {
       rgba(40, 40, 40, 0.2),
       rgba(40, 40, 40, 0.85)
     ),
-    url("projects/ducklife3/duck.png");
+    url("projects/ducklife-3/DuckLife3.png");
 }
 
 #game79 {
@@ -2119,14 +2148,6 @@ hr {
       rgba(40, 40, 40, 0.85)
     ),
     url("projects/sort-the-court/img/splash.png");
-}
-
-#game217 {
-  background-image: linear-gradient(
-      rgba(40, 40, 40, 0.2),
-      rgba(40, 40, 40, 0.85)
-    ),
-    url("/logo.png");
 }
 
 #game218 {

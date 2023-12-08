@@ -1,12 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
-  let thing23 = document.getElementById("current");
-  let panicKeys = localStorage.getItem("panic");
-  let href = localStorage.getItem("href");
-  thing23.innerHTML =
-    "Current key: " + panicKeys + "<br>" + " Redirecting: " + href;
-  thing23.style.fontWeight = "bold";
-  thing23.style.color = "gold";
-});
+
 
 document.addEventListener("keydown", (event) => {
   let panicKeys = localStorage.getItem("panic");
@@ -175,3 +167,13 @@ function changeName() {
   }
 }
 setInterval(changeName, 100);
+
+document.addEventListener("DOMContentLoaded", function () {
+  let thing23 = document.getElementById("current");
+  let panicKeys = localStorage.getItem("panic");
+  let href = localStorage.getItem("href");
+  thing23.innerHTML =
+    "Current key: " + panicKeys + "<br>" + " Redirecting: " + href;
+  thing23.style.fontWeight = "bold";
+  thing23.style.color = "gold";
+});

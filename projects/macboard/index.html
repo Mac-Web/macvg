@@ -1,748 +1,1016 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="styles.css" />
     <title class="cloak">MacBoard | MacVG</title>
-    <span id="macvgmacvg" name="game217"></span>
-    <link class="favicon" rel="shortcut icon" href="/logo.png" />
-    <script src="/macvg/cloaker.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      class="favicon"
+      rel="icon"
+      type="image/x-icon"
+      href="/macvg/logo.png"
+    />
+    <link rel="stylesheet" href="/macvg/style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="/macvg/cloak.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
     <script src="apps.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      body {
+        background-color: transparent;
+      }
+
+      h1 {
+        color: white;
+        padding-top: 20px;
+        text-align: center;
+      }
+
+      .sub {
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        padding: 20px;
+      }
+
+      .btns {
+        width: 30%;
+        margin-inline: 35%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+
+      .btn {
+        background-color: white;
+        border: 2px solid transparent;
+        font-size: 18px;
+        padding-inline: 15px;
+        padding-block: 8px;
+        margin-inline: 10px;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+        border-radius: 30px;
+      }
+
+      .btn:hover {
+        transform: scale(1.1);
+        border: 2px solid transparent;
+      }
+
+      #volume {
+        width: 15%;
+        margin-inline: 42.5%;
+      }
+
+      p {
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+
+      #searchInput {
+        outline: none;
+        border: 3px solid transparent;
+        padding-inline: 2.5%;
+        background-color: white;
+        padding-block: 10px;
+        font-size: 18px;
+        border-radius: 50px;
+        width: 24%;
+        margin-left: 35%;
+        margin-right: 1%;
+        transition: border 0.5s ease;
+        box-sizing: border-box;
+      }
+
+      #searchInput:focus {
+        border: 3px solid rgb(240, 182, 9);
+      }
+
+      .random {
+        outline: none;
+        text-align: center;
+        padding-block: 8px;
+        font-size: 21.6666px;
+        cursor: pointer;
+        background: linear-gradient(gold, red);
+        border-radius: 50px;
+        width: 5%;
+        margin-right: 35%;
+        box-sizing: border-box;
+      }
+
+      .functions {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 5px;
+      }
+
+      .random {
+        position: relative;
+        z-index: 9;
+      }
+
+      .button-helper {
+        position: absolute;
+        border-radius: 50px;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        background: linear-gradient(rgb(0, 255, 187), blue);
+        transition: opacity 0.5s ease;
+      }
+
+      .random:hover .button-helper {
+        opacity: 1;
+      }
+
+      #randomList {
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .flex {
+        display: flex;
+        margin-inline: 5px;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .sound {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 110px;
+        height: 100px;
+        cursor: pointer;
+        border-radius: 10px;
+        margin-inline: 5px;
+        padding-inline: 10px;
+        padding-block: 10px;
+        background-color: rgb(61, 61, 61);
+        margin-block: 5px;
+        transition: transform 0.2s ease;
+      }
+
+      .sound:hover {
+        transform: scale(1.1);
+      }
+
+      .name {
+        text-align: center;
+        font-size: 17px;
+        font-weight: bold;
+        margin-block: 10px;
+        color: white;
+      }
+
+      .footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding-block: 15px;
+        line-height: 28px;
+        font-size: 15px;
+      }
+
+      .footer a {
+        color: white;
+        text-decoration: none;
+        background-color: black;
+      }
+
+      .footer a:hover {
+        color: gold;
+        text-decoration: underline;
+      }
+    </style>
+    <style>
+      #feedback {
+        color: white;
+        text-decoration: none;
+        position: absolute;
+        margin: none;
+        top: 4px;
+        right: 10px;
+        margin-inline: 10px;
+      }
+    </style>
   </head>
   <body>
-    <h1>MacBoard</h1>
-    <div class="sub">
-      A simple, easy to use, and abounding online platform for all kinds of
-      sounds.<br />Submit a sound
+    <nav class="nav">
+      <a href="/macvg/" class="logo2" style="background-color: black">
+        <img src="/macvg/macvg-logo.png" alt="MacVG Logo" />
+        <a href="/macvg/new.html" class="nav-link">New</a></a
+      ><a href="/macvg/popular.html" class="nav-link">Popular</a
+      ><a href="/macvg/groups.html" class="nav-link">Groups</a
+      ><a href="/macvg/projects/macboard/" class="nav-link">MacBoard</a
+      ><a href="/macvg/settings.html" class="nav-link">Settings</a>
       <a
-        href="https://forms.gle/sPE8esgJEAnp8VSi7"
+        href="https://forms.gle/fpnxZqiK3SFrzUdSA"
         target="_blank"
         style="color: white"
-        >here</a
-      >!
-    </div>
-    <div class="btns">
-      <button class="btn" onclick="playAll()">Play All 😈</button>
-      <button class="btn" onclick="stopAll()">Stop All 😇</button>
-    </div>
-    <input
-      type="range"
-      id="volume"
-      min="0.01"
-      max="1"
-      step="0.01"
-      value="0.5"
-    />
-    <p>Volume</p>
-    <div class="functions"><input
-      type="text"
-      id="searchInput"
-      oninput="search()"
-      autocomplete="off"
-      placeholder="Search all 167 sounds"
-    /><button class="random" onclick="select()" id="random" title="Random Game Selector"><span class="button-helper"></span>🎲</button></div>
-    <div id="randomList"></div>
-    <div class="flex" id="list">
-      <div class="sound" onclick="document.getElementById('16').play();">
-        <audio id="16" src="sounds/9+10=21.mp3"></audio>
-        <h3 class="name">9 + 10 = 21</h3>
+        id="feedback"
+        title="Feedback"
+        ><i
+          class="fa-solid fa-comment"
+          style="color: #ffffff; background-color: transparent"
+        ></i
+      ></a>
+      <div id="select">
+        <span id="header123">Catagories</span>
+        <ul id="cats">
+          <a href="/macvg/featured.html">Featured</a>
+          <a href="/macvg/action-adventure.html">Action</a>
+          <a href="/macvg/strategy-puzzle.html">Strategy</a>
+          <a href="/macvg/driving-sports.html">Driving</a>
+          <a href="/macvg/casual.html">Casual</a>
+        </ul>
       </div>
-      <div class="sound" onclick="document.getElementById('71').play();">
-        <audio id="71" src="sounds/afewmomentslater.mp3"></audio>
-        <h3 class="name">A Few Moments Later</h3>
+    </nav>
+    <div class="wrap" style="padding-bottom: 40px;">
+      <h1>MacBoard</h1>
+      <div class="sub">
+        A simple, easy to use, and abounding online platform for all kinds of
+        sounds.<br />Submit a sound
+        <a
+          href="https://forms.gle/sPE8esgJEAnp8VSi7"
+          target="_blank"
+          style="color: white"
+          >here</a
+        >!
       </div>
-      <div class="sound" onclick="document.getElementById('6').play();">
-        <audio id="6" src="sounds/airhorn.mp3"></audio>
-        <h3 class="name">Airhorn</h3>
+      <div class="btns">
+        <button class="btn" onclick="playAll()">Play All 😈</button>
+        <button class="btn" onclick="stopAll()">Stop All 😇</button>
       </div>
-      <div class="sound" onclick="document.getElementById('13').play();">
-        <audio id="13" src="sounds/imposter.mp3"></audio>
-        <h3 class="name">Amoung Us</h3>
+      <input
+        type="range"
+        id="volume"
+        min="0.01"
+        max="1"
+        step="0.01"
+        value="0.5"
+      />
+      <p>Volume</p>
+      <div class="functions">
+        <input
+          type="text"
+          id="searchInput"
+          oninput="search()"
+          autocomplete="off"
+          placeholder="Search all 167 sounds"
+        /><button
+          class="random"
+          onclick="select()"
+          id="random"
+          title="Random Game Selector"
+        >
+          <span class="button-helper"></span>🎲
+        </button>
       </div>
-      <div class="sound" onclick="document.getElementById('58').play();">
-        <audio id="58" src="sounds/amongus.mp3"></audio>
-        <h3 class="name">Amoug Us 2</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('59').play();">
-        <audio id="59" src="sounds/reportedbody.mp3"></audio>
-        <h3 class="name">Amoug Us 3</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('b').play();">
-        <audio id="b" src="sounds/android-notif.mp3"></audio>
-        <h3 class="name">Android Notification</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('84').play();">
-        <audio id="84" src="sounds/nokieringtone.mp3"></audio>
-        <h3 class="name">Arabic Ringtone</h3>
-      </div>
+      <div id="randomList"></div>
+      <div class="flex" id="list">
+        <div class="sound" onclick="document.getElementById('16').play();">
+          <audio id="16" src="sounds/9+10=21.mp3"></audio>
+          <h3 class="name">9 + 10 = 21</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('71').play();">
+          <audio id="71" src="sounds/afewmomentslater.mp3"></audio>
+          <h3 class="name">A Few Moments Later</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('6').play();">
+          <audio id="6" src="sounds/airhorn.mp3"></audio>
+          <h3 class="name">Airhorn</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('13').play();">
+          <audio id="13" src="sounds/imposter.mp3"></audio>
+          <h3 class="name">Amoung Us</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('58').play();">
+          <audio id="58" src="sounds/amongus.mp3"></audio>
+          <h3 class="name">Amoug Us 2</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('59').play();">
+          <audio id="59" src="sounds/reportedbody.mp3"></audio>
+          <h3 class="name">Amoug Us 3</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('b').play();">
+          <audio id="b" src="sounds/android-notif.mp3"></audio>
+          <h3 class="name">Android Notification</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('84').play();">
+          <audio id="84" src="sounds/nokieringtone.mp3"></audio>
+          <h3 class="name">Arabic Ringtone</h3>
+        </div>
 
-      <div class="sound" onclick="document.getElementById('116').play();">
-        <audio id="116" src="sounds/areyouseriousrnbro.mp3"></audio>
-        <h3 class="name">Are You Serious Right Now Bro</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('112').play();">
-        <audio
-          id="112"
-          src="sounds/are-you-stupid-or-something_TyCW2Af.mp3"
-        ></audio>
-        <h3 class="name">Are You Stupid or Something</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('33').play();">
-        <audio id="33" src="sounds/AUUGHHH.mp3"></audio>
-        <h3 class="name">Aughhh</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('47').play();">
-        <audio id="47" src="sounds/wii-sports-aww.mp3"></audio>
-        <h3 class="name">Awww</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('j').play();">
-        <audio id="j" src="sounds/bababooey.mp3"></audio>
-        <h3 class="name">Bababooey</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('109').play();">
-        <audio
-          id="109"
-          src="sounds/baby-shark-dance-sing-and-dance-animal-songs-pinkfong-songs-for-children-audiotrimmer.mp3"
-        ></audio>
-        <h3 class="name">Baby Shark</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('85').play();">
-        <audio id="85" src="sounds/bananadontjigglejiggle.mp3"></audio>
-        <h3 class="name">Banana No Jiggle Jiggle</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('bazinga').play();">
-        <audio id="bazinga" src="sounds/bazinga.mp3"></audio>
-        <h3 class="name">Bazinga</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('65').play();">
-        <audio id="65" src="sounds/ben.mp3"></audio>
-        <h3 class="name">Ben</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('bonk').play();">
-        <audio id="bonk" src="sounds/bonk.mp3"></audio>
-        <h3 class="name">Bonk</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('o').play();">
-        <audio id="o" src="sounds/vine-boom.mp3"></audio>
-        <h3 class="name">Boom</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('64').play();">
-        <audio id="64" src="sounds/whatthehellboy.mp3"></audio>
-        <h3 class="name">Boy What the Hell Boy</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('92').play();">
-        <audio id="92" src="sounds/breathair.mp3"></audio>
-        <h3 class="name">Breath Air</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('bruh').play();">
-        <audio id="bruh" src="sounds/bruh.mp3"></audio>
-        <h3 class="name">Bruh</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('l').play();">
-        <audio id="l" src="sounds/bye-have-a-great-time.mp3"></audio>
-        <h3 class="name">Bye Have a Great Time</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('35').play();">
-        <audio id="35" src="sounds/hiyah.mp3"></audio>
-        <h3 class="name">Can I Get a Hiyah</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('34').play();">
-        <audio id="34" src="sounds/Censor-Beep-Sound-Effect.mp3"></audio>
-        <h3 class="name">Censor Beep</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('68').play();">
-        <audio id="68" src="sounds/hoodclassic.mp3"></audio>
-        <h3 class="name">Certified Hood Classic</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('50').play();">
-        <audio id="50" src="sounds/coc-intro.mp3"></audio>
-        <h3 class="name">Clash of Clans</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('51').play();">
-        <audio id="51" src="sounds/cr-intro.mp3"></audio>
-        <h3 class="name">Clash Royale</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('66').play();">
-        <audio id="66" src="sounds/hehehe.mp3"></audio>
-        <h3 class="name">Clash Royale 2</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('29').play();">
-        <audio id="29" src="sounds/coffin-dance.mp3"></audio>
-        <h3 class="name">Coffin Dance</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('290').play();">
-        <audio id="290" src="sounds/crab-rave.mp3"></audio>
-        <h3 class="name">Crab Rave</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('3').play();">
-        <audio id="3" src="sounds/dababy-lets-go.mp3"></audio>
-        <h3 class="name">DaBaby Let's Go</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('9').play();">
-        <audio id="9" src="sounds/sad_song.mp3"></audio>
-        <h3 class="name">Damaged Coda</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('72').play();">
-        <audio id="72" src="sounds/danger-alarm.mp3"></audio>
-        <h3 class="name">Danger Alarm</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('r').play();">
-        <audio id="r" src="sounds/deez-nutz.mp3"></audio>
-        <h3 class="name">Deez Nuts</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('57').play();">
-        <audio id="57" src="sounds/boxingbell.mp3"></audio>
-        <h3 class="name">Ding Ding Ding</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('a').play();">
-        <audio id="a" src="sounds/discord-notification.mp3"></audio>
-        <h3 class="name">Discord Notification</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('501').play();">
-        <audio id="501" src="sounds/down-in-ohio.mp3"></audio>
-        <h3 class="name">Down in Ohio</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('7').play();">
-        <audio id="7" src="sounds/badumtss.mp3"></audio>
-        <h3 class="name">Drum</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('DUN_DUN').play();">
-        <audio id="DUN_DUN" src="sounds/DUN_DUN.mp3"></audio>
-        <h3 class="name">Dun Dun</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('u').play();">
-        <audio id="u" src="sounds/earape-base.mp3"></audio>
-        <h3 class="name">Ear Damage</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('x').play();">
-        <audio id="x" src="sounds/fn-default-bb.mp3"></audio>
-        <h3 class="name">Ear Damage 2</h3>
-      </div>
+        <div class="sound" onclick="document.getElementById('116').play();">
+          <audio id="116" src="sounds/areyouseriousrnbro.mp3"></audio>
+          <h3 class="name">Are You Serious Right Now Bro</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('112').play();">
+          <audio
+            id="112"
+            src="sounds/are-you-stupid-or-something_TyCW2Af.mp3"
+          ></audio>
+          <h3 class="name">Are You Stupid or Something</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('33').play();">
+          <audio id="33" src="sounds/AUUGHHH.mp3"></audio>
+          <h3 class="name">Aughhh</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('47').play();">
+          <audio id="47" src="sounds/wii-sports-aww.mp3"></audio>
+          <h3 class="name">Awww</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('j').play();">
+          <audio id="j" src="sounds/bababooey.mp3"></audio>
+          <h3 class="name">Bababooey</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('109').play();">
+          <audio
+            id="109"
+            src="sounds/baby-shark-dance-sing-and-dance-animal-songs-pinkfong-songs-for-children-audiotrimmer.mp3"
+          ></audio>
+          <h3 class="name">Baby Shark</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('85').play();">
+          <audio id="85" src="sounds/bananadontjigglejiggle.mp3"></audio>
+          <h3 class="name">Banana No Jiggle Jiggle</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('bazinga').play();">
+          <audio id="bazinga" src="sounds/bazinga.mp3"></audio>
+          <h3 class="name">Bazinga</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('65').play();">
+          <audio id="65" src="sounds/ben.mp3"></audio>
+          <h3 class="name">Ben</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('bonk').play();">
+          <audio id="bonk" src="sounds/bonk.mp3"></audio>
+          <h3 class="name">Bonk</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('o').play();">
+          <audio id="o" src="sounds/vine-boom.mp3"></audio>
+          <h3 class="name">Boom</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('64').play();">
+          <audio id="64" src="sounds/whatthehellboy.mp3"></audio>
+          <h3 class="name">Boy What the Hell Boy</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('92').play();">
+          <audio id="92" src="sounds/breathair.mp3"></audio>
+          <h3 class="name">Breath Air</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('bruh').play();">
+          <audio id="bruh" src="sounds/bruh.mp3"></audio>
+          <h3 class="name">Bruh</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('l').play();">
+          <audio id="l" src="sounds/bye-have-a-great-time.mp3"></audio>
+          <h3 class="name">Bye Have a Great Time</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('35').play();">
+          <audio id="35" src="sounds/hiyah.mp3"></audio>
+          <h3 class="name">Can I Get a Hiyah</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('34').play();">
+          <audio id="34" src="sounds/Censor-Beep-Sound-Effect.mp3"></audio>
+          <h3 class="name">Censor Beep</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('68').play();">
+          <audio id="68" src="sounds/hoodclassic.mp3"></audio>
+          <h3 class="name">Certified Hood Classic</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('50').play();">
+          <audio id="50" src="sounds/coc-intro.mp3"></audio>
+          <h3 class="name">Clash of Clans</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('51').play();">
+          <audio id="51" src="sounds/cr-intro.mp3"></audio>
+          <h3 class="name">Clash Royale</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('66').play();">
+          <audio id="66" src="sounds/hehehe.mp3"></audio>
+          <h3 class="name">Clash Royale 2</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('29').play();">
+          <audio id="29" src="sounds/coffin-dance.mp3"></audio>
+          <h3 class="name">Coffin Dance</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('290').play();">
+          <audio id="290" src="sounds/crab-rave.mp3"></audio>
+          <h3 class="name">Crab Rave</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('3').play();">
+          <audio id="3" src="sounds/dababy-lets-go.mp3"></audio>
+          <h3 class="name">DaBaby Let's Go</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('9').play();">
+          <audio id="9" src="sounds/sad_song.mp3"></audio>
+          <h3 class="name">Damaged Coda</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('72').play();">
+          <audio id="72" src="sounds/danger-alarm.mp3"></audio>
+          <h3 class="name">Danger Alarm</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('r').play();">
+          <audio id="r" src="sounds/deez-nutz.mp3"></audio>
+          <h3 class="name">Deez Nuts</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('57').play();">
+          <audio id="57" src="sounds/boxingbell.mp3"></audio>
+          <h3 class="name">Ding Ding Ding</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('a').play();">
+          <audio id="a" src="sounds/discord-notification.mp3"></audio>
+          <h3 class="name">Discord Notification</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('501').play();">
+          <audio id="501" src="sounds/down-in-ohio.mp3"></audio>
+          <h3 class="name">Down in Ohio</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('7').play();">
+          <audio id="7" src="sounds/badumtss.mp3"></audio>
+          <h3 class="name">Drum</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('DUN_DUN').play();">
+          <audio id="DUN_DUN" src="sounds/DUN_DUN.mp3"></audio>
+          <h3 class="name">Dun Dun</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('u').play();">
+          <audio id="u" src="sounds/earape-base.mp3"></audio>
+          <h3 class="name">Ear Damage</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('x').play();">
+          <audio id="x" src="sounds/fn-default-bb.mp3"></audio>
+          <h3 class="name">Ear Damage 2</h3>
+        </div>
 
-      <div class="sound" onclick="document.getElementById('81').play();">
-        <audio id="81" src="sounds/scotlandforever.mp3"></audio>
-        <h3 class="name">Ear Damage 3</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('102').play();">
-        <audio id="102" src="sounds/thomastankengine.mp3"></audio>
-        <h3 class="name">Ear Damage 4</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('17').play();">
-        <audio id="17" src="sounds/emotional-damage.mp3"></audio>
-        <h3 class="name">Emotional Damage</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('fart').play();">
-        <audio id="fart" src="sounds/fart.mp3"></audio>
-        <h3 class="name">Fart</h3>
-      </div>
-      <div
-        class="sound"
-        onclick="document.getElementById('fart-with-reverb').play();"
-      >
-        <audio id="fart-with-reverb" src="sounds/fart-with-reverb.mp3"></audio>
-        <h3 class="name">Fart 2</h3>
-      </div>
-      <div
-        class="sound"
-        onclick="document.getElementById('sloppy-fart').play();"
-      >
-        <audio id="sloppy-fart" src="sounds/sloppy-fart.mp3"></audio>
-        <h3 class="name">Fart 3</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('20').play();">
-        <audio id="20" src="sounds/fbi-open-up.mp3"></audio>
-        <h3 class="name">FBI Open Up</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('y').play();">
-        <audio
-          id="y"
-          src="sounds/five-nights-at-freddys-full-scream.mp3"
-        ></audio>
-        <h3 class="name">FNAF Jumpscare</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('111').play();">
-        <audio id="111" src="sounds/fanfend.mp3"></audio>
-        <h3 class="name">FNAF Toreador March</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('80').play();">
-        <audio id="80" src="sounds/fortnite-battlepass.mp3"></audio>
-        <h3 class="name">Fortnite Battlepass</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('4').play();">
-        <audio id="4" src="sounds/gas-gas-gas.mp3"></audio>
-        <h3 class="name">Gas Gas Gas</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('26').play();">
-        <audio id="26" src="sounds/goofy-yell.mp3"></audio>
-        <h3 class="name">Goofy Dog Yell</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('z').play();">
-        <audio id="z" src="sounds/gta5-wasted.mp3"></audio>
-        <h3 class="name">GTA Wasted</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('49').play();">
-        <audio id="49" src="sounds/guess-who-back.mp3"></audio>
-        <h3 class="name">Guess Who's Back</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('70').play();">
-        <audio id="70" src="sounds/happy-happy-happy-song.mp3"></audio>
-        <h3 class="name">Happy Happy Happy</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('88').play();">
-        <audio id="88" src="sounds/Voicy_Happy Monkey Circle.mp3"></audio>
-        <h3 class="name">Happy Monkey Circle</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('87').play();">
-        <audio
-          id="87"
-          src="sounds/helicopter-helicopter-parakofer-parakofer.mp3"
-        ></audio>
-        <h3 class="name">Helicopter Helicopter</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('6969').play();">
-        <audio id="6969" src="sounds/hello.mp3"></audio>
-        <h3 class="name">Hello</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('69').play();">
-        <audio id="69" src="sounds/darknessmyoldfriend.mp3"></audio>
-        <h3 class="name">Hello Darkness</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('d').play();">
-        <audio id="d" src="sounds/hello-there.mp3"></audio>
-        <h3 class="name">Hello There</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('79').play();">
-        <audio id="79" src="sounds/helloyourcomputerhasvirus.mp3"></audio>
-        <h3 class="name">Hello Your Computer Has Virus</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('82').play();">
-        <audio id="82" src="sounds/helpme.mp3"></audio>
-        <h3 class="name">Help Me</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('43').play();">
-        <audio id="43" src="sounds/x-games-mode.mp3"></audio>
-        <h3 class="name">He On X Games Mode</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('40').play();">
-        <audio id="40" src="sounds/hey-ya.mp3"></audio>
-        <h3 class="name">Hey Ya</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('18').play();">
-        <audio id="18" src="sounds/hog-rider.mp3"></audio>
-        <h3 class="name">Hog Rider</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('37').play();">
-        <audio id="37" src="sounds/talking-ben-ho-ho-ho.mp3"></audio>
-        <h3 class="name">Ho Ho Ho</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('62').play();">
-        <audio id="62" src="sounds/iamtheone.mp3"></audio>
-        <h3 class="name">I Am the One</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('1').play();">
-        <audio id="1" src="sounds/morgan-smell.mp3"></audio>
-        <h3 class="name">I Can Smell You</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('i').play();">
-        <audio id="i" src="sounds/turtles.mp3"></audio>
-        <h3 class="name">I Like Turtles</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('10').play();">
-        <audio id="10" src="sounds/cut-g.mp3"></audio>
-        <h3 class="name">I Like Your Cut G</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('11').play();">
-        <audio id="11" src="sounds/i_love_refrigerators.mp3"></audio>
-        <h3 class="name">I Love Refrigerators</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('m').play();">
-        <audio id="m" src="sounds/inception.mp3"></audio>
-        <h3 class="name">Inception</h3>
-      </div>
+        <div class="sound" onclick="document.getElementById('81').play();">
+          <audio id="81" src="sounds/scotlandforever.mp3"></audio>
+          <h3 class="name">Ear Damage 3</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('102').play();">
+          <audio id="102" src="sounds/thomastankengine.mp3"></audio>
+          <h3 class="name">Ear Damage 4</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('17').play();">
+          <audio id="17" src="sounds/emotional-damage.mp3"></audio>
+          <h3 class="name">Emotional Damage</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('fart').play();">
+          <audio id="fart" src="sounds/fart.mp3"></audio>
+          <h3 class="name">Fart</h3>
+        </div>
+        <div
+          class="sound"
+          onclick="document.getElementById('fart-with-reverb').play();"
+        >
+          <audio
+            id="fart-with-reverb"
+            src="sounds/fart-with-reverb.mp3"
+          ></audio>
+          <h3 class="name">Fart 2</h3>
+        </div>
+        <div
+          class="sound"
+          onclick="document.getElementById('sloppy-fart').play();"
+        >
+          <audio id="sloppy-fart" src="sounds/sloppy-fart.mp3"></audio>
+          <h3 class="name">Fart 3</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('20').play();">
+          <audio id="20" src="sounds/fbi-open-up.mp3"></audio>
+          <h3 class="name">FBI Open Up</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('y').play();">
+          <audio
+            id="y"
+            src="sounds/five-nights-at-freddys-full-scream.mp3"
+          ></audio>
+          <h3 class="name">FNAF Jumpscare</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('111').play();">
+          <audio id="111" src="sounds/fanfend.mp3"></audio>
+          <h3 class="name">FNAF Toreador March</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('80').play();">
+          <audio id="80" src="sounds/fortnite-battlepass.mp3"></audio>
+          <h3 class="name">Fortnite Battlepass</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('4').play();">
+          <audio id="4" src="sounds/gas-gas-gas.mp3"></audio>
+          <h3 class="name">Gas Gas Gas</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('26').play();">
+          <audio id="26" src="sounds/goofy-yell.mp3"></audio>
+          <h3 class="name">Goofy Dog Yell</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('z').play();">
+          <audio id="z" src="sounds/gta5-wasted.mp3"></audio>
+          <h3 class="name">GTA Wasted</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('49').play();">
+          <audio id="49" src="sounds/guess-who-back.mp3"></audio>
+          <h3 class="name">Guess Who's Back</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('70').play();">
+          <audio id="70" src="sounds/happy-happy-happy-song.mp3"></audio>
+          <h3 class="name">Happy Happy Happy</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('88').play();">
+          <audio id="88" src="sounds/Voicy_Happy Monkey Circle.mp3"></audio>
+          <h3 class="name">Happy Monkey Circle</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('87').play();">
+          <audio
+            id="87"
+            src="sounds/helicopter-helicopter-parakofer-parakofer.mp3"
+          ></audio>
+          <h3 class="name">Helicopter Helicopter</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('6969').play();">
+          <audio id="6969" src="sounds/hello.mp3"></audio>
+          <h3 class="name">Hello</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('69').play();">
+          <audio id="69" src="sounds/darknessmyoldfriend.mp3"></audio>
+          <h3 class="name">Hello Darkness</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('d').play();">
+          <audio id="d" src="sounds/hello-there.mp3"></audio>
+          <h3 class="name">Hello There</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('79').play();">
+          <audio id="79" src="sounds/helloyourcomputerhasvirus.mp3"></audio>
+          <h3 class="name">Hello Your Computer Has Virus</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('82').play();">
+          <audio id="82" src="sounds/helpme.mp3"></audio>
+          <h3 class="name">Help Me</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('43').play();">
+          <audio id="43" src="sounds/x-games-mode.mp3"></audio>
+          <h3 class="name">He On X Games Mode</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('40').play();">
+          <audio id="40" src="sounds/hey-ya.mp3"></audio>
+          <h3 class="name">Hey Ya</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('18').play();">
+          <audio id="18" src="sounds/hog-rider.mp3"></audio>
+          <h3 class="name">Hog Rider</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('37').play();">
+          <audio id="37" src="sounds/talking-ben-ho-ho-ho.mp3"></audio>
+          <h3 class="name">Ho Ho Ho</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('62').play();">
+          <audio id="62" src="sounds/iamtheone.mp3"></audio>
+          <h3 class="name">I Am the One</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('1').play();">
+          <audio id="1" src="sounds/morgan-smell.mp3"></audio>
+          <h3 class="name">I Can Smell You</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('i').play();">
+          <audio id="i" src="sounds/turtles.mp3"></audio>
+          <h3 class="name">I Like Turtles</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('10').play();">
+          <audio id="10" src="sounds/cut-g.mp3"></audio>
+          <h3 class="name">I Like Your Cut G</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('11').play();">
+          <audio id="11" src="sounds/i_love_refrigerators.mp3"></audio>
+          <h3 class="name">I Love Refrigerators</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('m').play();">
+          <audio id="m" src="sounds/inception.mp3"></audio>
+          <h3 class="name">Inception</h3>
+        </div>
 
-      <div class="sound" onclick="document.getElementById('74').play();">
-        <audio id="74" src="sounds/throwitbackay.mp3"></audio>
-        <h3 class="name">Industry Baby</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('89').play();">
-        <audio
-          id="89"
-          src="sounds/i-put-my-armor-on-made-with-Voicemod-technology.mp3"
-        ></audio>
-        <h3 class="name">I Put My Armour On Meme</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('86').play();">
-        <audio id="86" src="sounds/its-a-banana-next-to-a-banana.mp3"></audio>
-        <h3 class="name">It's a Bananana Next to a Bananana</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('h3').play();">
-        <audio id="h3" src="sounds/beautiful-day.mp3"></audio>
-        <h3 class="name">It's a Beautiful Day</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('99').play();">
-        <audio id="99" src="sounds/itscorn.mp3"></audio>
-        <h3 class="name">It's Corn</h3>
-      </div>
+        <div class="sound" onclick="document.getElementById('74').play();">
+          <audio id="74" src="sounds/throwitbackay.mp3"></audio>
+          <h3 class="name">Industry Baby</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('89').play();">
+          <audio
+            id="89"
+            src="sounds/i-put-my-armor-on-made-with-Voicemod-technology.mp3"
+          ></audio>
+          <h3 class="name">I Put My Armour On Meme</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('86').play();">
+          <audio id="86" src="sounds/its-a-banana-next-to-a-banana.mp3"></audio>
+          <h3 class="name">It's a Bananana Next to a Bananana</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('h3').play();">
+          <audio id="h3" src="sounds/beautiful-day.mp3"></audio>
+          <h3 class="name">It's a Beautiful Day</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('99').play();">
+          <audio id="99" src="sounds/itscorn.mp3"></audio>
+          <h3 class="name">It's Corn</h3>
+        </div>
 
-      <div class="sound" onclick="document.getElementById('48').play();">
-        <audio id="48" src="sounds/crona-time.mp3"></audio>
-        <h3 class="name">It's Corona Time</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('25').play();">
-        <audio id="25" src="sounds/mario.mp3"></audio>
-        <h3 class="name">It's Me, Mario</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('101').play();">
-        <audio id="101" src="sounds/quandale.mp3"></audio>
-        <h3 class="name">It's Quandale Dingle</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('12').play();">
-        <audio id="12" src="sounds/i-will-send-you-to-jesus.mp3"></audio>
-        <h3 class="name">I Will Send You to Jesus</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('2').play();">
-        <audio id="2" src="sounds/john-cena-intro.mp3"></audio>
-        <h3 class="name">John Cena Intro</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('95').play();">
-        <audio id="95" src="sounds/jurassicpark.mp3"></audio>
-        <h3 class="name">Jurrasic Park Theme Song</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('115').play();">
-        <audio id="115" src="sounds/kidsyay.mp3"></audio>
-        <h3 class="name">Kids Cheering</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('s').play();">
-        <audio id="s" src="sounds/lebron-james.mp3"></audio>
-        <h3 class="name">LeBron James</h3>
-      </div>
+        <div class="sound" onclick="document.getElementById('48').play();">
+          <audio id="48" src="sounds/crona-time.mp3"></audio>
+          <h3 class="name">It's Corona Time</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('25').play();">
+          <audio id="25" src="sounds/mario.mp3"></audio>
+          <h3 class="name">It's Me, Mario</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('101').play();">
+          <audio id="101" src="sounds/quandale.mp3"></audio>
+          <h3 class="name">It's Quandale Dingle</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('12').play();">
+          <audio id="12" src="sounds/i-will-send-you-to-jesus.mp3"></audio>
+          <h3 class="name">I Will Send You to Jesus</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('2').play();">
+          <audio id="2" src="sounds/john-cena-intro.mp3"></audio>
+          <h3 class="name">John Cena Intro</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('95').play();">
+          <audio id="95" src="sounds/jurassicpark.mp3"></audio>
+          <h3 class="name">Jurrasic Park Theme Song</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('115').play();">
+          <audio id="115" src="sounds/kidsyay.mp3"></audio>
+          <h3 class="name">Kids Cheering</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('s').play();">
+          <audio id="s" src="sounds/lebron-james.mp3"></audio>
+          <h3 class="name">LeBron James</h3>
+        </div>
 
-      <div class="sound" onclick="document.getElementById('103').play();">
-        <audio id="103" src="sounds/mariofalling.mp3"></audio>
-        <h3 class="name">Mario Falling</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('110').play();">
-        <audio id="110" src="sounds/mayonnaise.mp3"></audio>
-        <h3 class="name">Mayonnaise on an Escalator</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('100').play();">
-        <audio id="100" src="sounds/mepersonally.mp3"></audio>
-        <h3 class="name">Me Personally</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('46').play();">
-        <audio id="46" src="sounds/mc-anvil.mp3"></audio>
-        <h3 class="name">Minecraft Anvil Sound</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('31').play();">
-        <audio id="31" src="sounds/hit-marker.mp3"></audio>
-        <h3 class="name">MLG Hit Marker</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('310').play();">
-        <audio id="310" src="sounds/mb-remix.mp3"></audio>
-        <h3 class="name">MrBeast Meme</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('90').play();">
-        <audio id="90" src="sounds/nahjittrippin.mp3"></audio>
-        <h3 class="name">Nah Jit Tripping</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('30').play();">
-        <audio id="30" src="sounds/nestle-crunch.mp3"></audio>
-        <h3 class="name">Nestle Crunch</h3>
-      </div>
+        <div class="sound" onclick="document.getElementById('103').play();">
+          <audio id="103" src="sounds/mariofalling.mp3"></audio>
+          <h3 class="name">Mario Falling</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('110').play();">
+          <audio id="110" src="sounds/mayonnaise.mp3"></audio>
+          <h3 class="name">Mayonnaise on an Escalator</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('100').play();">
+          <audio id="100" src="sounds/mepersonally.mp3"></audio>
+          <h3 class="name">Me Personally</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('46').play();">
+          <audio id="46" src="sounds/mc-anvil.mp3"></audio>
+          <h3 class="name">Minecraft Anvil Sound</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('31').play();">
+          <audio id="31" src="sounds/hit-marker.mp3"></audio>
+          <h3 class="name">MLG Hit Marker</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('310').play();">
+          <audio id="310" src="sounds/mb-remix.mp3"></audio>
+          <h3 class="name">MrBeast Meme</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('90').play();">
+          <audio id="90" src="sounds/nahjittrippin.mp3"></audio>
+          <h3 class="name">Nah Jit Tripping</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('30').play();">
+          <audio id="30" src="sounds/nestle-crunch.mp3"></audio>
+          <h3 class="name">Nestle Crunch</h3>
+        </div>
 
-      <div class="sound" onclick="document.getElementById('105').play();">
-        <audio id="105" src="sounds/noamountof.mp3"></audio>
-        <h3 class="name">No Amount of Therapy</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('k').play();">
-        <audio id="k" src="sounds/nice.mp3"></audio>
-        <h3 class="name">Noice</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('v').play();">
-        <audio id="v" src="sounds/nomnomnomnom.mp3"></audio>
-        <h3 class="name">Nom Nom</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('83').play();">
-        <audio id="83" src="sounds/nootnoot.mp3"></audio>
-        <h3 class="name">Noot Noot</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('nope').play();">
-        <audio id="nope" src="sounds/nope.mp3"></audio>
-        <h3 class="name">Nope</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('nut').play();">
-        <audio id="nut" src="sounds/nut.mp3"></audio>
-        <h3 class="name">Nut</h3>
-      </div>
+        <div class="sound" onclick="document.getElementById('105').play();">
+          <audio id="105" src="sounds/noamountof.mp3"></audio>
+          <h3 class="name">No Amount of Therapy</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('k').play();">
+          <audio id="k" src="sounds/nice.mp3"></audio>
+          <h3 class="name">Noice</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('v').play();">
+          <audio id="v" src="sounds/nomnomnomnom.mp3"></audio>
+          <h3 class="name">Nom Nom</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('83').play();">
+          <audio id="83" src="sounds/nootnoot.mp3"></audio>
+          <h3 class="name">Noot Noot</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('nope').play();">
+          <audio id="nope" src="sounds/nope.mp3"></audio>
+          <h3 class="name">Nope</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('nut').play();">
+          <audio id="nut" src="sounds/nut.mp3"></audio>
+          <h3 class="name">Nut</h3>
+        </div>
 
-      <div class="sound" onclick="document.getElementById('41').play();">
-        <audio id="41" src="sounds/oh-baby-a-triple.mp3"></audio>
-        <h3 class="name">Oh Baby a Triple</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('106').play();">
-        <audio id="106" src="sounds/ohhellothereshreak.mp3"></audio>
-        <h3 class="name">Oh Hello There</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('75').play();">
-        <audio id="75" src="sounds/ohhmygod.mp3"></audio>
-        <h3 class="name">Ohhh My God</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('53').play();">
-        <audio id="53" src="sounds/ohmygod.mp3"></audio>
-        <h3 class="name">Oh My God</h3>
-      </div>
+        <div class="sound" onclick="document.getElementById('41').play();">
+          <audio id="41" src="sounds/oh-baby-a-triple.mp3"></audio>
+          <h3 class="name">Oh Baby a Triple</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('106').play();">
+          <audio id="106" src="sounds/ohhellothereshreak.mp3"></audio>
+          <h3 class="name">Oh Hello There</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('75').play();">
+          <audio id="75" src="sounds/ohhmygod.mp3"></audio>
+          <h3 class="name">Ohhh My God</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('53').play();">
+          <audio id="53" src="sounds/ohmygod.mp3"></audio>
+          <h3 class="name">Oh My God</h3>
+        </div>
 
-      <div class="sound" onclick="document.getElementById('77').play();">
-        <audio id="77" src="sounds/ohnoohnoohnonono.mp3"></audio>
-        <h3 class="name">Oh No Oh No</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('97').play();">
-        <audio id="97" src="sounds/oldspice.mp3"></audio>
-        <h3 class="name">Old Spice Whistle</h3>
-      </div>
+        <div class="sound" onclick="document.getElementById('77').play();">
+          <audio id="77" src="sounds/ohnoohnoohnonono.mp3"></audio>
+          <h3 class="name">Oh No Oh No</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('97').play();">
+          <audio id="97" src="sounds/oldspice.mp3"></audio>
+          <h3 class="name">Old Spice Whistle</h3>
+        </div>
 
-      <div class="sound" onclick="document.getElementById('500').play();">
-        <audio id="500" src="sounds/one-two-buckle-my-shoe.mp3"></audio>
-        <h3 class="name">One Two Buckle My Shoe</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('5').play();">
-        <audio id="5" src="sounds/full-table-broken.mp3"></audio>
-        <h3 class="name">Our Table Is Broken</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('520').play();">
-        <audio id="520" src="sounds/peaches.mp3"></audio>
-        <h3 class="name">Princess Peach</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('52').play();">
-        <audio id="52" src="sounds/psst.mp3"></audio>
-        <h3 class="name">Pssst</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('15').play();">
-        <audio id="15" src="sounds/radio-beep.mp3"></audio>
-        <h3 class="name">Radio Beep</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('f').play();">
-        <audio id="f" src="sounds/rick-roll.mp3"></audio>
-        <h3 class="name">Rickroll</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('45').play();">
-        <audio id="45" src="sounds/roblox-num-num.mp3"></audio>
-        <h3 class="name">Roblox Num Num Num</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('e').play();">
-        <audio id="e" src="sounds/oof.mp3"></audio>
-        <h3 class="name">Roblox Oof</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('14').play();">
-        <audio id="14" src="sounds/run.mp3"></audio>
-        <h3 class="name">Run</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('32').play();">
-        <audio id="32" src="sounds/sad-violin.mp3"></audio>
-        <h3 class="name">Sad Violin</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('23').play();">
-        <audio id="23" src="sounds/sans.mp3"></audio>
-        <h3 class="name">Sans Voice</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('67').play();">
-        <audio id="67" src="sounds/screamemoji.mp3"></audio>
-        <h3 class="name">Scream</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('93').play();">
-        <audio id="93" src="sounds/bluekidscream.mp3"></audio>
-        <h3 class="name">Scream 2</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('94').play();">
-        <audio
-          id="94"
-          src="sounds/kid-on-crack-full-vine-original-mp3cut.mp3"
-        ></audio>
-        <h3 class="name">Scream 3</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('c').play();">
-        <audio id="c" src="sounds/sheep.mp3"></audio>
-        <h3 class="name">Scream 4</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('n').play();">
-        <audio id="n" src="sounds/sicko.mp3"></audio>
-        <h3 class="name">Sicko Mode Beginning</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('27').play();">
-        <audio id="27" src="sounds/sike.mp3"></audio>
-        <h3 class="name">Sike</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('107').play();">
-        <audio id="107" src="sounds/skibidi-dop-dop-yes-yes.mp3"></audio>
-        <h3 class="name">Skibidi Dop Dop</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('1070').play();">
-        <audio id="1070" src="sounds/skibidi2.mp3"></audio>
-        <h3 class="name">Skibidi Dop Dop Wednesday</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('108').play();">
-        <audio id="108" src="sounds/skibidi-toilet.mp3"></audio>
-        <h3 class="name">Skibidi Toilet</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('24').play();">
-        <audio id="24" src="sounds/skull-trumpet.mp3"></audio>
-        <h3 class="name">Skull Trumpet Doot Doot</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('240').play();">
-        <audio id="240" src="sounds/smurf-cat.mp3"></audio>
-        <h3 class="name">Smurf Cat</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('36').play();">
-        <audio id="36" src="sounds/soviet.mp3"></audio>
-        <h3 class="name">Soviet Union Anthem</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('w').play();">
-        <audio id="w" src="sounds/spongebob-dolphin.mp3"></audio>
-        <h3 class="name">Spongebob Dolphin</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('q').play();">
-        <audio id="q" src="sounds/yummy.mp3"></audio>
-        <h3 class="name">Spongebob Yummy</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('39').play();">
-        <audio id="39" src="sounds/stop-the-cap.mp3"></audio>
-        <h3 class="name">Stop the Cap</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('63').play();">
-        <audio id="63" src="sounds/superidol.mp3"></audio>
-        <h3 class="name">Super Idol</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('taco-bell').play();">
-        <audio id="taco-bell" src="sounds/taco-bell.mp3"></audio>
-        <h3 class="name">Taco Bell</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('113').play();">
-        <audio id="113" src="sounds/notevenclose.mp3"></audio>
-        <h3 class="name">Technoblade 🫡</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('114').play();">
-        <audio id="114" src="sounds/technoneverdies.mp3"></audio>
-        <h3 class="name">Technoblade 2</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('56').play();">
-        <audio id="56" src="sounds/telephonedial.mp3"></audio>
-        <h3 class="name">Telephone Dial</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('76').play();">
-        <audio id="76" src="sounds/tetristheme.mp3"></audio>
-        <h3 class="name">Tetris Theme</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('h').play();">
-        <audio id="h" src="sounds/damage.mp3"></audio>
-        <h3 class="name">That's a Lot of Damage</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('98').play();">
-        <audio id="98" src="sounds/thefatratxenogenesis.mp3"></audio>
-        <h3 class="name">TheFatRat Xenogenesis</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('21').play();">
-        <audio id="21" src="sounds/to-be-continued.mp3"></audio>
-        <h3 class="name">To Be Countinued</h3>
-      </div>
+        <div class="sound" onclick="document.getElementById('500').play();">
+          <audio id="500" src="sounds/one-two-buckle-my-shoe.mp3"></audio>
+          <h3 class="name">One Two Buckle My Shoe</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('5').play();">
+          <audio id="5" src="sounds/full-table-broken.mp3"></audio>
+          <h3 class="name">Our Table Is Broken</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('520').play();">
+          <audio id="520" src="sounds/peaches.mp3"></audio>
+          <h3 class="name">Princess Peach</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('52').play();">
+          <audio id="52" src="sounds/psst.mp3"></audio>
+          <h3 class="name">Pssst</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('15').play();">
+          <audio id="15" src="sounds/radio-beep.mp3"></audio>
+          <h3 class="name">Radio Beep</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('f').play();">
+          <audio id="f" src="sounds/rick-roll.mp3"></audio>
+          <h3 class="name">Rickroll</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('45').play();">
+          <audio id="45" src="sounds/roblox-num-num.mp3"></audio>
+          <h3 class="name">Roblox Num Num Num</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('e').play();">
+          <audio id="e" src="sounds/oof.mp3"></audio>
+          <h3 class="name">Roblox Oof</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('14').play();">
+          <audio id="14" src="sounds/run.mp3"></audio>
+          <h3 class="name">Run</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('32').play();">
+          <audio id="32" src="sounds/sad-violin.mp3"></audio>
+          <h3 class="name">Sad Violin</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('23').play();">
+          <audio id="23" src="sounds/sans.mp3"></audio>
+          <h3 class="name">Sans Voice</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('67').play();">
+          <audio id="67" src="sounds/screamemoji.mp3"></audio>
+          <h3 class="name">Scream</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('93').play();">
+          <audio id="93" src="sounds/bluekidscream.mp3"></audio>
+          <h3 class="name">Scream 2</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('94').play();">
+          <audio
+            id="94"
+            src="sounds/kid-on-crack-full-vine-original-mp3cut.mp3"
+          ></audio>
+          <h3 class="name">Scream 3</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('c').play();">
+          <audio id="c" src="sounds/sheep.mp3"></audio>
+          <h3 class="name">Scream 4</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('n').play();">
+          <audio id="n" src="sounds/sicko.mp3"></audio>
+          <h3 class="name">Sicko Mode Beginning</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('27').play();">
+          <audio id="27" src="sounds/sike.mp3"></audio>
+          <h3 class="name">Sike</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('107').play();">
+          <audio id="107" src="sounds/skibidi-dop-dop-yes-yes.mp3"></audio>
+          <h3 class="name">Skibidi Dop Dop</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('1070').play();">
+          <audio id="1070" src="sounds/skibidi2.mp3"></audio>
+          <h3 class="name">Skibidi Dop Dop Wednesday</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('108').play();">
+          <audio id="108" src="sounds/skibidi-toilet.mp3"></audio>
+          <h3 class="name">Skibidi Toilet</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('24').play();">
+          <audio id="24" src="sounds/skull-trumpet.mp3"></audio>
+          <h3 class="name">Skull Trumpet Doot Doot</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('240').play();">
+          <audio id="240" src="sounds/smurf-cat.mp3"></audio>
+          <h3 class="name">Smurf Cat</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('36').play();">
+          <audio id="36" src="sounds/soviet.mp3"></audio>
+          <h3 class="name">Soviet Union Anthem</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('w').play();">
+          <audio id="w" src="sounds/spongebob-dolphin.mp3"></audio>
+          <h3 class="name">Spongebob Dolphin</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('q').play();">
+          <audio id="q" src="sounds/yummy.mp3"></audio>
+          <h3 class="name">Spongebob Yummy</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('39').play();">
+          <audio id="39" src="sounds/stop-the-cap.mp3"></audio>
+          <h3 class="name">Stop the Cap</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('63').play();">
+          <audio id="63" src="sounds/superidol.mp3"></audio>
+          <h3 class="name">Super Idol</h3>
+        </div>
+        <div
+          class="sound"
+          onclick="document.getElementById('taco-bell').play();"
+        >
+          <audio id="taco-bell" src="sounds/taco-bell.mp3"></audio>
+          <h3 class="name">Taco Bell</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('113').play();">
+          <audio id="113" src="sounds/notevenclose.mp3"></audio>
+          <h3 class="name">Technoblade 🫡</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('114').play();">
+          <audio id="114" src="sounds/technoneverdies.mp3"></audio>
+          <h3 class="name">Technoblade 2</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('56').play();">
+          <audio id="56" src="sounds/telephonedial.mp3"></audio>
+          <h3 class="name">Telephone Dial</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('76').play();">
+          <audio id="76" src="sounds/tetristheme.mp3"></audio>
+          <h3 class="name">Tetris Theme</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('h').play();">
+          <audio id="h" src="sounds/damage.mp3"></audio>
+          <h3 class="name">That's a Lot of Damage</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('980').play();">
+          <audio id="980" src="sounds/digital.mp3"></audio>
+          <h3 class="name">The Amazing Digital Circus</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('98').play();">
+          <audio id="98" src="sounds/thefatratxenogenesis.mp3"></audio>
+          <h3 class="name">TheFatRat Xenogenesis</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('21').play();">
+          <audio id="21" src="sounds/to-be-continued.mp3"></audio>
+          <h3 class="name">To Be Countinued</h3>
+        </div>
 
-      <div class="sound" onclick="document.getElementById('73').play();">
-        <audio id="73" src="sounds/hotpizzarolls.mp3"></audio>
-        <h3 class="name">Totino's Hot Pizza Rolls</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('g').play();">
-        <audio id="g" src="sounds/trololo.mp3"></audio>
-        <h3 class="name">Trololo</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('19').play();">
-        <audio id="19" src="sounds/sprite-cranberry.mp3"></audio>
-        <h3 class="name">Want a Sprite Cranberry</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('104').play();">
-        <audio id="104" src="sounds/watchyojet.mp3"></audio>
-        <h3 class="name">Watch Your Jet</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('what').play();">
-        <audio id="what" src="sounds/what-the-dog-doin.mp3"></audio>
-        <h3 class="name">What the Dog Doing</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('96').play();">
-        <audio id="96" src="sounds/wedonotcare.mp3"></audio>
-        <h3 class="name">We Do Not Care</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('91').play();">
-        <audio id="91" src="sounds/wewillberightback.mp3"></audio>
-        <h3 class="name">We'll Be Right Back</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('60').play();">
-        <audio id="60" src="sounds/damnwheredidyoufindthis.mp3"></audio>
-        <h3 class="name">Where'd You Find This</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('42').play();">
-        <audio id="42" src="sounds/who-touch-my.mp3"></audio>
-        <h3 class="name">Who Toucha My Spaghetti</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('28').play();">
-        <audio id="28" src="sounds/why-are-you-running.mp3"></audio>
-        <h3 class="name">Why Are You Running</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('55').play();">
-        <audio id="55" src="sounds/wiimusic.mp3"></audio>
-        <h3 class="name">Wii Theme Song</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('WinError').play();">
-        <audio id="WinError" src="sounds/WinError.mp3"></audio>
-        <h3 class="name">Windows Error</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('38').play();">
-        <audio id="38" src="sounds/winxpshutdown.mp3"></audio>
-        <h3 class="name">Windows Shutdown</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('78').play();">
-        <audio id="78" src="sounds/woahcalmdownjamal.mp3"></audio>
-        <h3 class="name">Woah Calm Down Jamal</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('t').play();">
-        <audio id="t" src="sounds/woody-woodpecker-laugh.mp3"></audio>
-        <h3 class="name">Woodpecker Laugh</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('p').play();">
-        <audio id="p" src="sounds/anime-wow.mp3"></audio>
-        <h3 class="name">Wow</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('22').play();">
-        <audio id="22" src="sounds/yeah.mp3"></audio>
-        <h3 class="name">Yeah</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('440').play();">
-        <audio id="440" src="sounds/yee.mp3"></audio>
-        <h3 class="name">Yee</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('yeet').play();">
-        <audio id="yeet" src="sounds/yeet.mp3"></audio>
-        <h3 class="name">Yeet</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('44').play();">
-        <audio id="44" src="sounds/ben-yes.mp3"></audio>
-        <h3 class="name">Yes</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('8').play();">
-        <audio id="8" src="sounds/yoda-laugh.mp3"></audio>
-        <h3 class="name">Yoda Laugh</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('800').play();">
-        <audio id="800" src="sounds/my-stick.mp3"></audio>
-        <h3 class="name">Yoda My Stick</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('600').play();">
-        <audio id="600" src="sounds/you-didnt-have-to-cut-me-off.mp3"></audio>
-        <h3 class="name">You Didn't Have to Cut Me Off</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('61').play();">
-        <audio id="61" src="sounds/yougotjebaited.mp3"></audio>
-        <h3 class="name">You Got Jebaited</h3>
-      </div>
-      <div class="sound" onclick="document.getElementById('54').play();">
-        <audio id="54" src="sounds/yourmom-deep.mp3"></audio>
-        <h3 class="name">Your Mom</h3>
+        <div class="sound" onclick="document.getElementById('73').play();">
+          <audio id="73" src="sounds/hotpizzarolls.mp3"></audio>
+          <h3 class="name">Totino's Hot Pizza Rolls</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('g').play();">
+          <audio id="g" src="sounds/trololo.mp3"></audio>
+          <h3 class="name">Trololo</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('19').play();">
+          <audio id="19" src="sounds/sprite-cranberry.mp3"></audio>
+          <h3 class="name">Want a Sprite Cranberry</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('104').play();">
+          <audio id="104" src="sounds/watchyojet.mp3"></audio>
+          <h3 class="name">Watch Your Jet</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('what').play();">
+          <audio id="what" src="sounds/what-the-dog-doin.mp3"></audio>
+          <h3 class="name">What the Dog Doing</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('96').play();">
+          <audio id="96" src="sounds/wedonotcare.mp3"></audio>
+          <h3 class="name">We Do Not Care</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('91').play();">
+          <audio id="91" src="sounds/wewillberightback.mp3"></audio>
+          <h3 class="name">We'll Be Right Back</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('60').play();">
+          <audio id="60" src="sounds/damnwheredidyoufindthis.mp3"></audio>
+          <h3 class="name">Where'd You Find This</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('42').play();">
+          <audio id="42" src="sounds/who-touch-my.mp3"></audio>
+          <h3 class="name">Who Toucha My Spaghetti</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('28').play();">
+          <audio id="28" src="sounds/why-are-you-running.mp3"></audio>
+          <h3 class="name">Why Are You Running</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('55').play();">
+          <audio id="55" src="sounds/wiimusic.mp3"></audio>
+          <h3 class="name">Wii Theme Song</h3>
+        </div>
+        <div
+          class="sound"
+          onclick="document.getElementById('WinError').play();"
+        >
+          <audio id="WinError" src="sounds/WinError.mp3"></audio>
+          <h3 class="name">Windows Error</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('38').play();">
+          <audio id="38" src="sounds/winxpshutdown.mp3"></audio>
+          <h3 class="name">Windows Shutdown</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('78').play();">
+          <audio id="78" src="sounds/woahcalmdownjamal.mp3"></audio>
+          <h3 class="name">Woah Calm Down Jamal</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('t').play();">
+          <audio id="t" src="sounds/woody-woodpecker-laugh.mp3"></audio>
+          <h3 class="name">Woodpecker Laugh</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('p').play();">
+          <audio id="p" src="sounds/anime-wow.mp3"></audio>
+          <h3 class="name">Wow</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('22').play();">
+          <audio id="22" src="sounds/yeah.mp3"></audio>
+          <h3 class="name">Yeah</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('440').play();">
+          <audio id="440" src="sounds/yee.mp3"></audio>
+          <h3 class="name">Yee</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('yeet').play();">
+          <audio id="yeet" src="sounds/yeet.mp3"></audio>
+          <h3 class="name">Yeet</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('44').play();">
+          <audio id="44" src="sounds/ben-yes.mp3"></audio>
+          <h3 class="name">Yes</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('8').play();">
+          <audio id="8" src="sounds/yoda-laugh.mp3"></audio>
+          <h3 class="name">Yoda Laugh</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('800').play();">
+          <audio id="800" src="sounds/my-stick.mp3"></audio>
+          <h3 class="name">Yoda My Stick</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('600').play();">
+          <audio id="600" src="sounds/you-didnt-have-to-cut-me-off.mp3"></audio>
+          <h3 class="name">You Didn't Have to Cut Me Off</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('61').play();">
+          <audio id="61" src="sounds/yougotjebaited.mp3"></audio>
+          <h3 class="name">You Got Jebaited</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('54').play();">
+          <audio id="54" src="sounds/yourmom-deep.mp3"></audio>
+          <h3 class="name">Your Mom</h3>
+        </div>
       </div>
     </div>
     <footer class="footer">

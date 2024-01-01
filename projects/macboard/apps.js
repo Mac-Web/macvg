@@ -43,7 +43,7 @@ function select() {
   let items = list.getElementsByTagName("div");
   let itemsL = Array.from(items);
   let r = Math.random();
-  let rw = Math.floor(r * 160);
+  let rw = Math.floor(r * 169);
   let selected = items[rw];
   itemsL.forEach(function (item) {
     if (item.contains(selected)) {

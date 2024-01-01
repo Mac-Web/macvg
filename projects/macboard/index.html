@@ -8,10 +8,11 @@
       class="favicon"
       rel="icon"
       type="image/x-icon"
-      href="/macvg/logo.png"
+      href="/logo.png"
     />
     <link rel="stylesheet" href="/macvg/style.css" />
     <link rel="stylesheet" href="style.css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -227,9 +228,10 @@
       <a href="/macvg/" class="logo2" style="background-color: black">
         <img src="/macvg/macvg-logo.png" alt="MacVG Logo" />
         <a href="/macvg/new.html" class="nav-link">New</a></a
-      ><a href="/macvg/popular.html" class="nav-link">Popular</a
+      ><a href="/macvg/trending.html" class="nav-link">Trending</a
       ><a href="/macvg/groups.html" class="nav-link">Groups</a
-      ><a href="/macvg/projects/macboard/" class="nav-link">MacBoard</a
+      ><a href="/macvg/bot.html" class="nav-link chat-btn">Chat</a
+        ><a href="/macvg/projects/macboard/" class="nav-link">MacBoard</a
       ><a href="/macvg/settings.html" class="nav-link">Settings</a>
       <a
         href="https://forms.gle/fpnxZqiK3SFrzUdSA"
@@ -245,11 +247,11 @@
       <div id="select">
         <span id="header123">Catagories</span>
         <ul id="cats">
-          <a href="/macvg/featured.html">Featured</a>
-          <a href="/macvg/action-adventure.html">Action</a>
-          <a href="/macvg/strategy-puzzle.html">Strategy</a>
-          <a href="/macvg/driving-sports.html">Driving</a>
-          <a href="/macvg/casual.html">Casual</a>
+          <a href="featured.html">Featured</a>
+          <a href="action-adventure.html">Action</a>
+          <a href="strategy-puzzle.html">Strategy</a>
+          <a href="driving-sports.html">Driving</a>
+          <a href="casual.html">Casual</a>
         </ul>
       </div>
     </nav>
@@ -284,7 +286,7 @@
           id="searchInput"
           oninput="search()"
           autocomplete="off"
-          placeholder="Search all 167 sounds"
+          placeholder="Search all 169 sounds"
         /><button
           class="random"
           onclick="select()"
@@ -308,17 +310,21 @@
           <audio id="6" src="sounds/airhorn.mp3"></audio>
           <h3 class="name">Airhorn</h3>
         </div>
+        <div class="sound" onclick="document.getElementById('601').play();">
+          <audio id="601" src="sounds/all-my-fellas.mp3"></audio>
+          <h3 class="name">All My Fellas</h3>
+        </div>
         <div class="sound" onclick="document.getElementById('13').play();">
           <audio id="13" src="sounds/imposter.mp3"></audio>
-          <h3 class="name">Amoung Us</h3>
+          <h3 class="name">Among Us</h3>
         </div>
         <div class="sound" onclick="document.getElementById('58').play();">
           <audio id="58" src="sounds/amongus.mp3"></audio>
-          <h3 class="name">Amoug Us 2</h3>
+          <h3 class="name">Among Us 2</h3>
         </div>
         <div class="sound" onclick="document.getElementById('59').play();">
           <audio id="59" src="sounds/reportedbody.mp3"></audio>
-          <h3 class="name">Amoug Us 3</h3>
+          <h3 class="name">Among Us 3</h3>
         </div>
         <div class="sound" onclick="document.getElementById('b').play();">
           <audio id="b" src="sounds/android-notif.mp3"></audio>
@@ -1014,17 +1020,17 @@
       </div>
     </div>
     <footer class="footer">
-      ©2023 <a href="/macvg/projects/macboard/">MacBoard</a
+      © 2023 <a href="https://mac-web.github.io" target="_blank">MacWeb</a
       ><span style="color: black; user-select: none; background-color: black"
         >MacBoard</span
       >
       All rights reserved<br />
-      Have fun with these funny sounds!🔊🔊🔊<br style="margin-bottom: 10px" />
+      Have fun playing with these funny sounds!🔊🔊🔊<br style="margin-bottom: 10px" />
 
       Created by
       <a href="https://github.com/3kh0/soundboard" target="_blank">3kh0</a>,
       massively revamped and improved by
-      <a href="/macvg/" target="_blank">MacVG</a>.
+      <a href="https://mac-web.github.io" target="_blank">MacWeb</a>.
     </footer>
   </body>
 </html>

@@ -1,321 +1,229 @@
 <!DOCTYPE html>
-<!-- Created with https://packager.turbowarp.org/ -->
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <!-- We only include this to explicitly loosen the CSP of various packager environments. It does not provide any security. -->
-  <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: blob:">
-  <title class="cloak">Getting Over It | MacVG</title>
-    <link class="favicon" rel="shortcut icon" href="/logo.png" />
-    <script src="/macvg/cloaker.js"></script>
-    <span id="macvgmacvg" name="game301"></span>
-  <style>
-    body {
-      color: #ffffff;
-      font-family: sans-serif;
-      overflow: hidden;
-      margin: 0;
-      padding: 0;
-    }
-    :root, body.is-fullscreen {
-      background-color: #000000;
-    }
-    [hidden] {
-      display: none !important;
-    }
-    h1 {
-      font-weight: normal;
-    }
-    a {
-      color: inherit;
-      text-decoration: underline;
-      cursor: pointer;
-    }
-
-    #app, #loading, #error, #launch {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-    .screen {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      cursor: default;
-      user-select: none;
-      -webkit-user-select: none;
-      background-color: #000000;
-    }
-    #launch {
-      background-color: rgba(0, 0, 0, 0.7);
-      cursor: pointer;
-    }
-    .green-flag {
-      width: 80px;
-      height: 80px;
-      padding: 16px;
-      border-radius: 100%;
-      background: rgba(255, 255, 255, 0.75);
-      border: 3px solid hsla(0, 100%, 100%, 1);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      box-sizing: border-box;
-    }
-    #loading {
-      
-    }
-    .progress-bar-outer {
-      border: 1px solid currentColor;
-      height: 10px;
-      width: 200px;
-      max-width: 200px;
-    }
-    .progress-bar-inner {
-      height: 100%;
-      width: 0;
-      background-color: currentColor;
-    }
-    .loading-text, noscript {
-      font-weight: normal;
-      font-size: 36px;
-      margin: 0 0 16px;
-    }
-    .loading-image {
-      margin: 0 0 16px;
-    }
-    #error-message, #error-stack {
-      font-family: monospace;
-      max-width: 600px;
-      white-space: pre-wrap;
-      user-select: text;
-      -webkit-user-select: text;
-    }
-    #error-stack {
-      text-align: left;
-      max-height: 200px;
-      overflow: auto;
-    }
-    .control-button {
-      width: 2rem;
-      height: 2rem;
-      padding: 0.375rem;
-      border-radius: 0.25rem;
-      margin-top: 0.5rem;
-      margin-bottom: 0.5rem;
-      user-select: none;
-      -webkit-user-select: none;
-      cursor: pointer;
-      border: 0;
-      border-radius: 4px;
-    }
-    .control-button:hover {
-      background: #ff4c4c26;
-    }
-    .control-button.active {
-      background: #ff4c4c59;
-    }
-    .fullscreen-button {
-      background: white !important;
-    }
-    .standalone-fullscreen-button {
-      position: absolute;
-      top: 0;
-      right: 0;
-      background-color: rgba(0, 0, 0, 0.5);
-      border-radius: 0 0 0 4px;
-      padding: 4px;
-      cursor: pointer;
-    }
-    .sc-canvas {
-      cursor: auto;
-    }
-    .sc-monitor-root[opcode^="data_"] .sc-monitor-value-color {
-      background-color: #ff8c1a;
-    }
-    .sc-monitor-row-value-outer {
-      background-color: #fc662c;
-    }
-    .sc-monitor-row-value-editing .sc-monitor-row-value-outer {
-      background-color: #e25b27;
-    }
-    
-  </style>
-  <meta name="theme-color" content="#000000">
-  
-</head>
-<body>
-  <div id="app"></div>
-
-  <div id="launch" class="screen" hidden title="Click to start">
-    <div class="green-flag">
-      <svg viewBox="0 0 16.63 17.5" width="42" height="44">
-        <defs><style>.cls-1,.cls-2{fill:#4cbf56;stroke:#45993d;stroke-linecap:round;stroke-linejoin:round;}.cls-2{stroke-width:1.5px;}</style></defs>
-        <path class="cls-1" d="M.75,2A6.44,6.44,0,0,1,8.44,2h0a6.44,6.44,0,0,0,7.69,0V12.4a6.44,6.44,0,0,1-7.69,0h0a6.44,6.44,0,0,0-7.69,0"/>
-        <line class="cls-2" x1="0.75" y1="16.75" x2="0.75" y2="0.75"/>
-      </svg>
-    </div>
-  </div>
-
-  <div id="loading" class="screen">
-    <noscript>Enable JavaScript</noscript>
-    
-    
-    <div class="progress-bar-outer"><div class="progress-bar-inner" id="loading-inner"></div></div>
-  </div>
-
-  <div id="error" class="screen" hidden>
-    <h1>Error</h1>
-    <details>
-      <summary id="error-message"></summary>
-      <p id="error-stack"></p>
-    </details>
-  </div>
-
-  <script src="script.js"></script>
-  <script>
-    const appElement = document.getElementById('app');
-    const launchScreen = document.getElementById('launch');
-    const loadingScreen = document.getElementById('loading');
-    const loadingInner = document.getElementById('loading-inner');
-    const errorScreen = document.getElementById('error');
-    const errorScreenMessage = document.getElementById('error-message');
-    const errorScreenStack = document.getElementById('error-stack');
-
-    const handleError = (error) => {
-      console.error(error);
-      if (!errorScreen.hidden) return;
-      errorScreen.hidden = false;
-      errorScreenMessage.textContent = '' + error;
-      let debug = error && error.stack || 'no stack';
-      debug += '\nUser agent: ' + navigator.userAgent;
-      errorScreenStack.textContent = debug;
-    };
-    const setProgress = (progress) => {
-      if (loadingInner) loadingInner.style.width = progress * 100 + '%';
-    };
-    const interpolate = (a, b, t) => a + t * (b - a);
-
-    try {
-      setProgress(0.1);
-
-      const scaffolding = new Scaffolding.Scaffolding();
-      scaffolding.width = 480;
-      scaffolding.height = 360;
-      scaffolding.resizeMode = "preserve-ratio";
-      scaffolding.editableLists = false;
-      scaffolding.usePackagedRuntime = true;
-      scaffolding.setup();
-      scaffolding.appendTo(appElement);
-
-      const vm = scaffolding.vm;
-      window.scaffolding = scaffolding;
-      window.vm = scaffolding.vm;
-      window.Scratch = {
-        vm,
-        renderer: vm.renderer,
-        audioEngine: vm.runtime.audioEngine,
-        bitmapAdapter: vm.runtime.v2BitmapAdapter,
-        videoProvider: vm.runtime.ioDevices.video.provider
-      };
-
-      scaffolding.setUsername("player####".replace(/#/g, () => Math.floor(Math.random() * 10)));
-      scaffolding.setAccentColor("#ff4c4c");
-
-      scaffolding.addCloudProvider(new Scaffolding.Cloud.WebSocketProvider(["wss://clouddata.turbowarp.org","wss://clouddata.turbowarp.xyz"], "389464290"));
-
-      vm.setTurboMode(true);
-      if (vm.setInterpolation) vm.setInterpolation(false);
-      if (vm.setFramerate) vm.setFramerate(60);
-      if (vm.renderer.setUseHighQualityRender) vm.renderer.setUseHighQualityRender(false);
-      if (vm.setRuntimeOptions) vm.setRuntimeOptions({
-        fencing: true,
-        miscLimits: true,
-        maxClones: 300,
-      });
-      if (vm.setCompilerOptions) vm.setCompilerOptions({
-        enabled: true,
-        warpTimer: false
-      });
-
-      if (typeof ScaffoldingAddons !== 'undefined') {
-        ScaffoldingAddons.run(scaffolding, {"gamepad":false,"pointerlock":false,"specialCloudBehaviors":false,"unsafeCloudBehaviors":false,"pause":false});
-      }
-
-      scaffolding.setExtensionSecurityManager({
-        getSandboxMode: 'unsandboxed',
-        canLoadExtensionFromProject: (url) => {
-          handleError(new Error('Missing custom extension: ' + url));
-          return Promise.resolve(false);
-        }
-      });
-      for (const extension of []) {
-        vm.extensionManager.loadExtensionURL(extension);
-      }
-
-    } catch (e) {
-      handleError(e);
-    }
-  </script>
-  
-  
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https:/www.googletagmanager.com/gtag/js?id=G-Y71QM9DR66"
+    ></script>
     <script>
-      const getProjectData = (function() {
-        const storage = scaffolding.storage;
-        storage.onprogress = (total, loaded) => {
-          setProgress(interpolate(0.2, 0.98, loaded / total));
-        };
-        
-        storage.addWebStore(
-          [storage.AssetType.ImageVector, storage.AssetType.ImageBitmap, storage.AssetType.Sound],
-          (asset) => new URL('./assets/' + asset.assetId + '.' + asset.dataFormat, location).href
-        );
-        return () => new Promise((resolve, reject) => {
-        const xhr = new XMLHttpRequest();
-        xhr.onload = () => {
-          resolve(xhr.response);
-        };
-        xhr.onerror = () => {
-          if (location.protocol === 'file:') {
-            reject(new Error('Zip environment must be used from a website, not from a file URL.'));
-          } else {
-            reject(new Error('Request to load project data failed.'));
-          }
-        };
-        xhr.onprogress = (e) => {
-          if (e.lengthComputable) {
-            setProgress(interpolate(0.1, 0.2, e.loaded / e.total));
-          }
-        };
-        xhr.responseType = 'arraybuffer';
-        xhr.open('GET', "./assets/project.json");
-        xhr.send();
-      });
-      })();
-    </script>
-  <script>
-    const run = async () => {
-      const projectData = await getProjectData();
-      await scaffolding.loadProject(projectData);
-      setProgress(1);
-      loadingScreen.hidden = true;
-      if (false) {
-        scaffolding.start();
-      } else {
-        launchScreen.hidden = false;
-        launchScreen.addEventListener('click', () => {
-          launchScreen.hidden = true;
-          scaffolding.start();
-        });
-        launchScreen.focus();
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
       }
-    };
-    run().catch(handleError);
-  </script>
-</body>
+      gtag("js", new Date());
+
+      gtag("config", "G-Y71QM9DR66");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title class="cloak">Getting Over It | MacVG</title>
+    <span id="macvgmacvg" name="game301"></span>
+    <link
+      rel="shortcut icon"
+      href="/logo.png"
+      type="image/x-icon"
+      class="favicon"
+    />
+    <link rel="stylesheet" href="/macvg/projects/style.css" />
+    <script src="/macvg/projects/app.js"></script>
+    <link rel="stylesheet" href="/macvg/info.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <div class="game-related">
+        <div class="actual" id="gameframe">
+          <iframe src="game.html" frameborder="0" id="iframe">
+          </iframe>
+          <div class="tool-bar">
+            <div class="more-left">
+              <img src="GettingOverIt.png" alt="" />
+            </div>
+            <div class="leftest">
+              <h5 class="title">Getting Over It</h5>
+              <a href="">Griffpatch
+              </a>
+            </div>
+            <img src="/macvg/back.svg" id="back" style="width: 20pxoo" />
+            <img src="/macvg/star-regular.svg" style="width: 20px" id="star" />
+            <img src="/macvg/share-solid.svg" style="width: 20px" id="share" />
+            <img src="/macvg/download.svg" id="download" />
+            <img src="/macvg/expand.svg" id="fullscreen" />
+          </div>
+        </div>
+        <div class="more-info">
+          <div class="info">
+            <h3>About</h3>
+            Oops, you caught us, we're still working hard to provide game
+            description on this game! In the upcoming updates, more and more
+            games will have their descriptions and instructions to help you beat
+            it, so stay tuned for more updates!<br /><br /><br /><br /><br /><br /><br />
+          </div>
+          <div class="info">
+            <h3>Controls</h3>
+            <ul>
+              Still working on this one O_O
+            </ul>
+          </div>
+          <div class="info">
+            <h3>Game Information</h3>
+            <ul>
+              No information is available for this game.
+            </ul>
+          </div>
+          <div class="info similar">
+            <h3>Similar Games</h3>
+            <div class="games">Still working on this one!</div>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="nav">
+          <a href="/macvg/" class="logo">
+            <img src="/macvg/macvg-logo.png" alt="" />
+          </a>
+          <div class="links">
+            <a href="/macvg/new.html" class="nav-link">New</a>
+            <a href="/macvg/trending.html" class="nav-link">Trending</a>
+            <a href="/macvg/groups.html" class="nav-link">Groups</a>
+            <a href="/macvg/bot.html" class="nav-link">Chat</a>
+            <a href="/macvg/projects/macboard/" class="nav-link">MacBoard</a>
+            <a href="/macvg/settings.html" class="nav-link">Settings</a>
+          </div>
+
+          <div class="copyright">© 2023 MacWeb</div>
+        </div>
+        <div class="featured">
+          <a href="/macvg/projects/2048/" class="game" id="game6"> 2048 </a>
+          <a
+            href="/macvg/projects/achievementunlocked/"
+            class="game"
+            id="game9"
+          >
+            Achievement Unlocked
+          </a>
+          <a href="/macvg/projects/backrooms/" class="game" id="game20">
+            Backrooms
+          </a>
+          <a href="/macvg/projects/bad-ice-cream/" class="game" id="game21">
+            Bad Ice Cream
+          </a>
+          <a href="/macvg/projects/basketball-stars/" class="game" id="game26">
+            Basketball Stars
+          </a>
+          <a href="/macvg/projects/bitlife/" class="game" id="game30">
+            Bitlife
+          </a>
+
+          <a href="/macvg/projects/bloonstd4/" class="game" id="game321">
+            Bloons TD 4
+          </a>
+          <a href="/macvg/projects/bloxors/" class="game" id="game35">
+            Bloxors
+          </a>
+          <a href="/macvg/projects/btts/" class="game" id="game40">
+            Big Tower Tiny Square
+          </a>
+          <a href="/macvg/projects/cell-machine/" class="game" id="game45">
+            Cell Machine
+          </a>
+          <a href="/macvg/projects/champion-island/" class="game" id="game46">
+            Champion Island
+          </a>
+          <a href="/macvg/projects/circlo/" class="game" id="game50">
+            circlO
+          </a>
+          <a href="/macvg/projects/cookie-clicker/" class="game" id="game53">
+            Cookie Clicker
+          </a>
+          <a
+            href="/macvg/projects/creativekillchamber/"
+            class="game"
+            id="game56"
+          >
+            Creative Kill Chamber
+          </a>
+          <a href="/macvg/projects/ctr/" class="game" id="game59">
+            Cut the Rope
+          </a>
+          <a href="/macvg/projects/dante/" class="game" id="game64"> Dante </a>
+          <a href="/macvg/projects/DogeMiner/" class="game" id="game70">
+            Doge Miner
+          </a>
+          <a href="/macvg/projects/drive-mad/" class="game" id="game75">
+            Drive Mad
+          </a>
+          <a
+            href="/macvg/projects/fireboywatergirlforesttemple/"
+            class="game"
+            id="game92"
+          >
+            Fireboy and Watergirl
+          </a>
+
+          <a href="/macvg/projects/funnyshooter2/" class="game" id="game290">
+            Funny Shooter 2
+          </a>
+          <a href="/macvg/projects/getaway-shootout/" class="game" id="game106">
+            Getaway Shootout
+          </a>
+          <a href="/macvg/projects/greybox/" class="game" id="game114">
+            Grey Box Testing
+          </a>
+          <a href="/macvg/projects/handshakes/" class="game" id="game117">
+            Handshakes
+          </a>
+          <a
+            href="/macvg/projects/minecraft-classic/"
+            class="game"
+            id="game148"
+          >
+            Minecraft Classic
+          </a>
+          <a href="/macvg/projects/minesweeper/" class="game" id="game150">
+            Minesweeper
+          </a>
+          <a href="/macvg/projects/motox3m/" class="game" id="game153">
+            MotoX3M
+          </a>
+          <a href="/macvg/projects/portalflash/" class="game" id="game176">
+            Portal (Flash)
+          </a>
+          <a href="/macvg/projects/rabbit-samurai/" class="game" id="game181">
+            Rabbit Samurai
+          </a>
+          <a href="/macvg/projects/retro-bowl/" class="game" id="game184">
+            Retro Bowl
+          </a>
+          <a href="/macvg/projects/riddleschool/" class="game" id="game185">
+            Riddle School 1
+          </a>
+          <a href="/macvg/projects/slope/" class="game" id="game205"> Slope </a>
+          <a href="/macvg/projects/soccer-random/" class="game" id="game212">
+            Soccer Random
+          </a>
+          <a href="/macvg/projects/soccer-skills/" class="game" id="game213">
+            Soccer Skills Euro Cup
+          </a>
+          <a href="/macvg/projects/stickman-hook/" class="game" id="game230">
+            Stickman Hook
+          </a>
+
+          <a href="/macvg/projects/the-final-earth/" class="game" id="game248">
+            The Final Earth
+          </a>
+          <a href="/macvg/projects/there-is-no-game/" class="game" id="game251">
+            There Is No Game
+          </a>
+          <a href="/macvg/projects/tosstheturtle/" class="game" id="game255">
+            Toss The Turtle
+          </a>
+          <a href="/macvg/projects/vex7/" class="game" id="game266"> Vex 7 </a>
+          <a href="/macvg/projects/xx142-b2exe/" class="game" id="game278">
+            xx142-b2exe
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

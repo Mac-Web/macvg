@@ -1,197 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title class="cloak">NS-SHAFT | MacVG</title>
-    <link class="favicon" rel="shortcut icon" href="/logo.png" />
-    <script src="/macvg/cloaker.js"></script>
-    <span id="macvgmacvg" name="game163"></span>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"
-    />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="white" />
-    <meta name="apple-mobile-web-app-title" content="NS-SHAFT | 3kh0" />
-    <meta content="https://3kh0.github.io/" property="og:url" />
-    <meta content="icon.png" property="og:image" />
-    <meta content="#000000" data-react-helmet="true" name="theme-color" />
-    <meta name="title" content="NS Shaft" />
-    <meta
-      name="description"
-      content="NS-Shaft is a simple Japanese game made by NAGI-P Soft. The object of the game is that the main character must go down (descend) as many floors (levels) as possible."
-    />
-    <meta
-      name="keywords"
-      content="games, ad blocker, trolls, unblocked games, web games, online games, fun, tags"
-    />
-    <meta name="robots" content="index, follow" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="language" content="English" />
-    <meta name="revisit-after" content="1 days" />
-    <meta name="author" content="3kh0" />
-    <link rel="apple-touch-icon" href="icon.png" />
-    <link rel="apple-touch-icon" href="icon.png" type="image/x-icon" />
-    <style>
-      body {
-        margin: 0;
-        -webkit-user-select: none;
-        user-select: none;
-      }
-      #content {
-        text-align: center;
-      }
-      kbd {
-        display: inline-block;
-        padding: 3px 5px;
-        color: #444d56;
-        background-color: #fafbfc;
-        border: solid 1px #c6cbd1;
-        border-bottom-color: #959da5;
-        border-radius: 3px;
-        box-shadow: inset 0 -1px 0 #959da5;
-      }
-      dl {
-        margin: 0 auto;
-        width: 95%;
-      }
-      dt {
-        font-weight: bold;
-        font-size: 18pt;
-      }
-      dd {
-        display: list-item;
-        font-size: 12pt;
-        margin-left: 1.5em;
-      }
-    </style>
-  </head>
-  <script type="application/javascript" src="/js/main.js"></script>
-  <body>
-    <div id="content">Loading...</div>
-    <dl>
-      <dt>How to play</dt>
-      <dd>
-        <strong>go left</strong>: press the left half of the screen (for touch
-        screen device), or press the <kbd>&larr;</kbd> key (for keyboard or
-        joystick)
-      </dd>
-      <dd>
-        <strong>go right</strong>: press the right half of the screen, or press
-        the <kbd>&rarr;</kbd> key
-      </dd>
-      <dd>
-        <strong>start/resume game</strong>: press the <kbd>play again</kbd> /
-        <kbd>continue</kbd> button on screen, or press the <kbd>Space</kbd> /
-        <kbd>Ok</kbd> key
-      </dd>
-      <dd>
-        <strong>life</strong>: hitting spikes on the top or on a floor reduces
-        the player's life, landing on a floor (without spikes) increases the
-        player's life
-      </dd>
-      <dd>
-        <strong>game over</strong>: falling off the bottom or running out of
-        life <img src="https://static.fouryes.com/smile.gif" />
-      </dd>
-    </dl>
-    <script>
-      window.onerror = function (msg, url, lineNo, columnNo, error) {
-        var node = document.body;
-        var string = msg.toLowerCase();
-        var substring = "script error";
-        if (string.indexOf(substring) > -1) {
-          node.appendChild(
-            document.createTextNode("Script Error: See Console for Detail")
-          );
-        } else {
-          var message = [
-            "Message: " + msg,
-            "URL: " + url,
-            "Line: " + lineNo,
-            "Column: " + columnNo,
-            "Error object: " + JSON.stringify(error),
-          ].join(" - ");
-          node.appendChild(document.createTextNode(message));
-        }
-        return false;
-      };
-    </script>
-    <script src="main.js"></script>
-    <script>
-      ~(function () {
-        var Game = window.Game;
-        Game && Game.launch(document.getElementById("content"));
-        if (/zh\-cn/i.test(navigator.language)) {
-          document.title = "是男人就下100层";
-        } else if (/zh\-/i.test(navigator.language)) {
-          document.title = "小朋友下樓梯";
-        }
-        if (true || /MicroMessenger/i.test(navigator.userAgent)) {
-          var script = document.createElement("script");
-          script.src = "sns.js";
-          document.body.appendChild(script);
-        }
-      })();
-    </script>
-    <script>
-      ~(function () {
-        var trackEvent;
-        if (new Date().getTimezoneOffset() == -480) {
-          window._hmt = window._hmt || [];
-          var script = document.createElement("script");
-          script.async = "async";
-          script.src =
-            "https://hm.baidu.com/hm.js?6998d97ddc26a42b1795408af4d9d9cc";
-          document.head.appendChild(script);
-
-          trackEvent = function (event, value) {
-            _hmt.push(["_trackEvent", "main", event, "all", value]);
-          };
-        } else {
-          var script = document.createElement("script");
-          script.async = "async";
-          script.src =
-            "https://www.googletagmanager.com/gtag/js?id=UA-173616513-1";
-          document.head.appendChild(script);
-
-          window.dataLayer = window.dataLayer || [];
-          function gtag() {
-            dataLayer.push(arguments);
-          }
-          gtag("js", new Date());
-          gtag("config", "UA-173616513-1");
-
-          trackEvent = function (event, value) {
-            gtag("event", event, { value: value });
-          };
-        }
-
-        var Game = window.Game;
-        Date.now ||
-          (Date.now = function () {
-            return new Date().getTime();
-          });
-        var startCount = 0;
-        var startTime;
-        Game &&
-          Game.on("gameStart", function () {
-            startTime = Date.now();
-            trackEvent("start", ++startCount);
-          });
-        Game &&
-          Game.on("gameOver", function (score, best) {
-            var duration = (startTime && Date.now() - startTime) || 0;
-            startTime = 0;
-            trackEvent("duration", duration);
-            trackEvent("score", score);
-          });
-      })();
-    </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Google tag (gtag.js) -->
     <script
       async
-      src="https://www.googletagmanager.com/gtag/js?id=G-98DP5VKS42"
+      src="https:/www.googletagmanager.com/gtag/js?id=G-Y71QM9DR66"
     ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -200,7 +13,228 @@
       }
       gtag("js", new Date());
 
-      gtag("config", "G-98DP5VKS42");
+      gtag("config", "G-Y71QM9DR66");
     </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title class="cloak">NS-Shaft | MacVG</title>
+    <span id="macvgmacvg" name="game163"></span>
+    <link
+      rel="shortcut icon"
+      href="/logo.png"
+      type="image/x-icon"
+      class="favicon"
+    />
+    <link rel="stylesheet" href="/macvg/projects/style.css" />
+    <script src="/macvg/projects/app.js"></script>
+    <link rel="stylesheet" href="/macvg/info.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <div class="game-related">
+        <div class="actual" id="gameframe">
+          <iframe src="game.html" frameborder="0" id="iframe">
+          </iframe>
+          <div class="tool-bar">
+            <div class="more-left">
+              <img src="favicon.png" alt="" />
+            </div>
+            <div class="leftest">
+              <h5 class="title">NS-Shaft</h5>
+              <a href="">Nagi-p Soft
+              </a>
+            </div>
+            <img src="/macvg/back.svg" id="back" style="width: 20pxoo" />
+            <img src="/macvg/star-regular.svg" style="width: 20px" id="star" />
+            <img src="/macvg/share-solid.svg" style="width: 20px" id="share" />
+            <img src="/macvg/download.svg" id="download" />
+            <img src="/macvg/expand.svg" id="fullscreen" />
+          </div>
+        </div>
+        <div class="more-info">
+          <div class="info">
+            <h3>About</h3>
+            Oops, you caught us, we're still working hard to provide game
+            description on this game! In the upcoming updates, more and more
+            games will have their descriptions and instructions to help you beat
+            it, so stay tuned for more updates!<br /><br /><br /><br /><br /><br /><br />
+          </div>
+          <div class="info">
+            <h3>Controls</h3>
+            <ul>
+              Still working on this one O_O
+            </ul>
+          </div>
+          <div class="info">
+            <h3>Game Information</h3>
+            <ul>
+              <li>Release Date: 1990
+              </li>
+            <li>Developer: 
+              Nagi-p Soft</li>
+            <li>Players: 10M+</li>
+            <li>Catagory:
+              <a href="/macvg/action-adventure.html" style="color: white"
+                >Action and Adventure</a
+              >
+            </li>
+            <li>Genre: Reaction Games</li>
+            <li>Build: HTML5, JavaScript</li>
+            </ul>
+          </div>
+          <div class="info similar">
+            <h3>Similar Games</h3>
+            <div class="games">Still working on this one!</div>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="nav">
+          <a href="/macvg/" class="logo">
+            <img src="/macvg/macvg-logo.png" alt="" />
+          </a>
+          <div class="links">
+            <a href="/macvg/new.html" class="nav-link">New</a>
+            <a href="/macvg/trending.html" class="nav-link">Trending</a>
+            <a href="/macvg/groups.html" class="nav-link">Groups</a>
+            <a href="/macvg/bot.html" class="nav-link">Chat</a>
+            <a href="/macvg/projects/macboard/" class="nav-link">MacBoard</a>
+            <a href="/macvg/settings.html" class="nav-link">Settings</a>
+          </div>
+
+          <div class="copyright">© 2023 MacWeb</div>
+        </div>
+        <div class="featured">
+          <a href="/macvg/projects/2048/" class="game" id="game6"> 2048 </a>
+          <a
+            href="/macvg/projects/achievementunlocked/"
+            class="game"
+            id="game9"
+          >
+            Achievement Unlocked
+          </a>
+          <a href="/macvg/projects/backrooms/" class="game" id="game20">
+            Backrooms
+          </a>
+          <a href="/macvg/projects/bad-ice-cream/" class="game" id="game21">
+            Bad Ice Cream
+          </a>
+          <a href="/macvg/projects/basketball-stars/" class="game" id="game26">
+            Basketball Stars
+          </a>
+          <a href="/macvg/projects/bitlife/" class="game" id="game30">
+            Bitlife
+          </a>
+
+          <a href="/macvg/projects/bloonstd4/" class="game" id="game321">
+            Bloons TD 4
+          </a>
+          <a href="/macvg/projects/bloxors/" class="game" id="game35">
+            Bloxors
+          </a>
+          <a href="/macvg/projects/btts/" class="game" id="game40">
+            Big Tower Tiny Square
+          </a>
+          <a href="/macvg/projects/cell-machine/" class="game" id="game45">
+            Cell Machine
+          </a>
+          <a href="/macvg/projects/champion-island/" class="game" id="game46">
+            Champion Island
+          </a>
+          <a href="/macvg/projects/circlo/" class="game" id="game50">
+            circlO
+          </a>
+          <a href="/macvg/projects/cookie-clicker/" class="game" id="game53">
+            Cookie Clicker
+          </a>
+          <a
+            href="/macvg/projects/creativekillchamber/"
+            class="game"
+            id="game56"
+          >
+            Creative Kill Chamber
+          </a>
+          <a href="/macvg/projects/ctr/" class="game" id="game59">
+            Cut the Rope
+          </a>
+          <a href="/macvg/projects/dante/" class="game" id="game64"> Dante </a>
+          <a href="/macvg/projects/DogeMiner/" class="game" id="game70">
+            Doge Miner
+          </a>
+          <a href="/macvg/projects/drive-mad/" class="game" id="game75">
+            Drive Mad
+          </a>
+          <a
+            href="/macvg/projects/fireboywatergirlforesttemple/"
+            class="game"
+            id="game92"
+          >
+            Fireboy and Watergirl
+          </a>
+
+          <a href="/macvg/projects/funnyshooter2/" class="game" id="game290">
+            Funny Shooter 2
+          </a>
+          <a href="/macvg/projects/getaway-shootout/" class="game" id="game106">
+            Getaway Shootout
+          </a>
+          <a href="/macvg/projects/greybox/" class="game" id="game114">
+            Grey Box Testing
+          </a>
+          <a href="/macvg/projects/handshakes/" class="game" id="game117">
+            Handshakes
+          </a>
+          <a
+            href="/macvg/projects/minecraft-classic/"
+            class="game"
+            id="game148"
+          >
+            Minecraft Classic
+          </a>
+          <a href="/macvg/projects/minesweeper/" class="game" id="game150">
+            Minesweeper
+          </a>
+          <a href="/macvg/projects/motox3m/" class="game" id="game153">
+            MotoX3M
+          </a>
+          <a href="/macvg/projects/portalflash/" class="game" id="game176">
+            Portal (Flash)
+          </a>
+          <a href="/macvg/projects/rabbit-samurai/" class="game" id="game181">
+            Rabbit Samurai
+          </a>
+          <a href="/macvg/projects/retro-bowl/" class="game" id="game184">
+            Retro Bowl
+          </a>
+          <a href="/macvg/projects/riddleschool/" class="game" id="game185">
+            Riddle School 1
+          </a>
+          <a href="/macvg/projects/slope/" class="game" id="game205"> Slope </a>
+          <a href="/macvg/projects/soccer-random/" class="game" id="game212">
+            Soccer Random
+          </a>
+          <a href="/macvg/projects/soccer-skills/" class="game" id="game213">
+            Soccer Skills Euro Cup
+          </a>
+          <a href="/macvg/projects/stickman-hook/" class="game" id="game230">
+            Stickman Hook
+          </a>
+
+          <a href="/macvg/projects/the-final-earth/" class="game" id="game248">
+            The Final Earth
+          </a>
+          <a href="/macvg/projects/there-is-no-game/" class="game" id="game251">
+            There Is No Game
+          </a>
+          <a href="/macvg/projects/tosstheturtle/" class="game" id="game255">
+            Toss The Turtle
+          </a>
+          <a href="/macvg/projects/vex7/" class="game" id="game266"> Vex 7 </a>
+          <a href="/macvg/projects/xx142-b2exe/" class="game" id="game278">
+            xx142-b2exe
+          </a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

@@ -1,3 +1,12 @@
+:root {
+  --black-color: rgb(0, 0, 0);
+  --text-color: white;
+  --bg-color: rgb(50, 50, 50);
+  --bg-color-2: white;
+  --shadow-color: transparent;
+  --group-bg-color: rgba(40, 40, 40, 0.7);
+}
+
 * {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -8,21 +17,20 @@
 body {
   background: url(/macvg/background.png);
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-attachment: fixed;
 }
 
 .wrap {
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: var(--bg-color);
   margin: 0;
-  /*og color is rgb 40 40 40*/
 }
 
 .tip {
   width: 100%;
-  background-color: black;
+  background-color: var(--black-color);
   border: 2px solid gold;
-  color: white;
+  color: var(--text-color);
   padding: 10px;
   border-radius: 10px;
   font-size: 22px;
@@ -34,7 +42,7 @@ body {
   z-index: 9;
   margin-left: 20px;
   background: linear-gradient(rgb(0, 255, 187), blue);
-  color: white;
+  color: var(--text-color);
   border: none;
   font-size: 18px;
   padding-inline: 10px;
@@ -44,8 +52,8 @@ body {
   margin-top: 10px;
   overflow: hidden;
   transition: box-shadow 0.2s;
-  border: 2px solid black;
-  text-shadow: 0px 0px 10px black;
+  border: 2px solid var(--black-color);
+  text-shadow: 0px 0px 10px var(--black-color);
 }
 
 .helper {
@@ -87,10 +95,10 @@ body {
   position: absolute;
   width: 120px;
   right: 100px;
-  background-color: black;
+  background-color: var(--black-color);
   border: none;
   outline: none;
-  color: white;
+  color: var(--text-color);
   font-size: 18px;
   font-weight: bold;
   appearance: none;
@@ -123,7 +131,7 @@ body {
 }
 
 #cats a {
-  color: white;
+  color: var(--text-color);
   text-decoration: none;
   padding-block: 10px;
   font-size: 18px;
@@ -194,7 +202,7 @@ body {
 }
 
 .homeheader {
-  color: white;
+  color: var(--text-color);
   padding-top: 20px;
   text-align: center;
 }
@@ -213,14 +221,149 @@ body {
   margin-inline: 2%;
   margin-top: 25px;
   margin-bottom: 20px;
-  border-radius: 30px;
+  border-radius: 15px;
   padding-bottom: 10px;
+  background-color: var(--group-bg-color);
+}
+
+.groups {
+  width: 49%;
+  margin-right: 1%;
+  list-style-type: none;
+}
+
+.groups:last-child {
+  width: 49%;
+  margin-left: 1%;
+  list-style-type: none;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.main-groups {
+  width: 96%;
+  margin-inline: 2%;
+  display: flex;
+}
+
+.groups li {
+  border-radius: 15px;
+  background-color: var(--group-bg-color);
+}
+
+.group-contain {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: start;
+  height: 0;
+  padding-inline: 20px;
+  overflow: auto !important;
+  transition: height 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.group-contain .game {
+  min-width: 100px;
+  min-height: 100px;
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.group-contain .game::before {
+  content: attr(name);
+  position: absolute;
+  top: 0;
+  left: -150%;
+  width: 80px;
+  height: 77%;
+  background-color: black;
+  opacity: 0.6;
+  padding-inline: 10px;
+  padding-block: 12px;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  font-size: 14px;
+  text-align: center;
+}
+
+.collapse {
+  transform: rotate(90deg);
+  padding: 0;
+  transition: transform 0.3s ease;
+}
+
+input[type="checkbox"]:checked + label + .group-contain {
+  height: 133.333333px;
+  overflow: visible;
+}
+
+input[type="checkbox"]:checked + label .collapse {
+  display: inline-block;
+  transform: rotate(180deg);
+}
+
+.add-group {
+  background-color: transparent;
+  width: 96%;
+  margin-inline: 2%;
+  padding-block: 30px;
+  font-size: 23px;
+  border: 3px dashed gray;
+  cursor: pointer;
+  border-radius: 15px;
+  margin-top: 10px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  color: var(--text-color);
+  align-items: center;
+}
+
+.add-group img {
+  width: 40px;
+  padding-bottom: 15px;
+}
+
+label {
+  padding-block: 15px;
+  font-size: 23px;
+  color: var(--text-color);
+  font-weight: bold;
+  padding-left: 30px;
+  cursor: pointer;
+  display: block;
+  transition: padding-left 0.3s ease;
+}
+label:hover {
+  padding-left: 50px;
+}
+
+.group {
+  width: 29.4%;
+  margin-left: 2%;
+  margin-block: 5px;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  display: flex;
+  padding-inline: 0;
+  flex-direction: column;
+  padding-block: 20px;
   background-color: rgba(40, 40, 40, 0.7);
+}
+
+.group h2 {
+  margin-block: 0px;
+  margin-bottom: 10px;
 }
 
 .favorite-h {
   font-size: 28px;
-  color: white;
+  color: var(--text-color);
   text-align: center;
   padding-block: 5px;
   flex: 1 0 100% !important;
@@ -232,8 +375,9 @@ body {
 }
 
 .nav {
-  background-color: black;
-  color: white;
+  background-color: var(--black-color);
+  color: var(--text-color);
+  box-shadow: var(--shadow-color);
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -251,8 +395,8 @@ body {
   font-weight: bold;
   margin: 0;
   position: relative;
-  color: white;
-  border-bottom: 2px solid black;
+  color: var(--text-color);
+  border-bottom: 2px solid var(--black-color);
   transition: border-bottom 0.3s;
 }
 
@@ -283,24 +427,24 @@ h2 {
 .logo {
   margin-inline: 35px;
   height: 32px;
-  background-color: transparent;
+  background-color: white;
 }
 
 .logo img {
   height: 32px;
-  background-color: transparent;
+  background-color: white;
 }
 
 .logo2 {
   margin-inline: 35px;
   height: 32px;
-  background-color: transparent;
+  background-color: white;
 }
 
 .logo2 img {
   height: 32px;
   /*
-  background-color: white;*/
+  background-color: var(--bg-color-2);*/
 }
 
 .functions-l {
@@ -308,13 +452,13 @@ h2 {
 }
 
 .functions-l:focus {
-border: 3px solid rgb(255, 183, 0) !important;
+  border: 3px solid rgb(255, 183, 0) !important;
 }
 
 #feedback {
-  color: white;
+  color: var(--text-color);
   text-decoration: none;
-  background-color: black;
+  background-color: var(--black-color);
   padding-inline: 20px;
   margin-inline: 10px;
   font-size: 18px;
@@ -325,6 +469,11 @@ border: 3px solid rgb(255, 183, 0) !important;
 
 #feedback:hover {
   background-color: rgb(60, 60, 60);
+}
+
+.glow {
+  background-color: rgb(192, 167, 10) !important;
+  transition: 0.3s;
 }
 
 #name,
@@ -371,7 +520,7 @@ border: 3px solid rgb(255, 183, 0) !important;
 #pbdescription {
   width: 50%;
   margin-inline: 25%;
-  color: white;
+  color: var(--text-color);
   font-size: 20px;
   margin-bottom: 15px;
   line-height: 28px;
@@ -452,7 +601,7 @@ border: 3px solid rgb(255, 183, 0) !important;
   flex-wrap: wrap;
   justify-content: center;
   padding-inline: 5px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 #randomList {
@@ -479,34 +628,30 @@ border: 3px solid rgb(255, 183, 0) !important;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  transition: 0.3s;
+  transition: all 0.2s;
+}
+
+.trend-des {
+  color: var(--text-color);
+  font-size: 25px;
+  font-weight: bold;
+  margin-inline: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.trend-des + a {
+  margin-inline: 30px;
+}
+
+.position {
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .game {
   position: relative;
-}
-
-#game11110::before {
-  content: attr(name);
-  position: absolute;
-  top: 0;
-  left: -150%;
-  width: 93%;
-  height: 91.6%;
-  background-color: black;
-  opacity: 0.6;
-  padding-inline: 10px;
-  padding-bottom: 100px;
-  transition: 0.3s; 
-  font-size: 14px;
-  z-index: 10000;
-  text-align: center;
-}
-
-
-
-#game11110:hover:before {
-  left: 0;
 }
 
 .game::before {
@@ -538,7 +683,7 @@ border: 3px solid rgb(255, 183, 0) !important;
 }
 
 h2 {
-  color: white;
+  color: var(--text-color);
   text-align: center;
   font-size: 25px;
   margin-block: 30px;
@@ -2827,4 +2972,85 @@ hr {
       rgba(40, 40, 40, 0.85)
     ),
     url("projects/wbwwb/WeBecomeWhatWeBehold.png");
+}
+
+#game316 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/tag/logo.avif");
+  background-position: center;
+}
+
+#game317 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/deepest-sword/logo.jpg");
+  background-position: center;
+}
+
+#game318 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/burrito-bison/Build/logo.png");
+  background-position: center;
+}
+
+#game319 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/roper/webapp/cover.jpg");
+  background-position: center;
+}
+
+#game320 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/crazy-cars/logo.jpg");
+  background-position: center;
+}
+
+#game321 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/bloonstd4/logo.jpg");
+  background-position: center;
+}
+
+#game322 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/snow-ride/logo.jpg");
+  background-position: center;
+}
+
+#game323 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/monkey-mart/logo.jpg");
+  background-position: center;
+}
+
+#game324 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/run-3/logo.png");
+  background-position: center;
 }

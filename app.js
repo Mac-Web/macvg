@@ -1,16 +1,87 @@
 document.addEventListener("DOMContentLoaded", function () {
+  let thing87638 = setInterval(() => {
+    let theme = localStorage.getItem("theme");
+    console.log(theme);
+  if (theme === "light") {
+    const root = document.documentElement;
+    root.style.setProperty("--text-color", "black");
+    root.style.setProperty("--shadow-color", "0px 0px 5px rgb(84, 84, 84)");
+    root.style.setProperty("--black-color", "rgb(235, 235, 235)");
+    root.style.setProperty("--bg-color", "rgb(235, 235, 235)");
+    root.style.setProperty("--bg-color-2", "rgb(30, 30, 30)");
+    root.style.setProperty("--group-bg-color", "rgb(140, 140, 140, 0.7)");
+  } else {
+    const root = document.documentElement;
+    root.style.setProperty("--text-color", "white");
+    root.style.setProperty("--shadow-color", "transparent");
+    root.style.setProperty("--black-color", "black");
+    root.style.setProperty("--bg-color", "rgb(50, 50, 50)");
+    root.style.setProperty("--bg-color-2", "white");
+    root.style.setProperty("--group-bg-color", "rgba(40, 40, 40, 0.7)");
+  }
+  }, 100);
   const games = document.querySelectorAll(".game");
-
   games.forEach(function (game) {
     game.addEventListener("mouseover", function () {
       let innerThing = game.innerHTML;
       game.setAttribute("name", innerThing);
     });
   });
+  const random = document.getElementById("random");
+  
+  random.addEventListener("click", select);
+
+  function select() {
+    let list = document.getElementById("list");
+    let items = list.getElementsByTagName("a");
+    let itemsL = Array.from(items);
+    let r = Math.random();
+    let rw = Math.floor(r * 275);
+    let selected = items[rw];
+    itemsL.forEach(function (item) {
+      if (item.contains(selected)) {
+        let list = document.getElementById("randomList");
+        item.setAttribute("name", item.innerHTML);
+        item.style.paddingBlock = "10px";
+        list.innerHTML = item.outerHTML;
+
+        console.log(item);
+      } else {
+      }
+    });
+  }
+  
 });
+
 
 function gotIt() {
   const tip = document.querySelector(".tip");
   tip.style.display = "none";
-  localStorage.setItem("cse", "yes");
+  localStorage.setItem("ccse", "yes");
+}
+
+function search() {
+  var searchTerm = document.getElementById("searchInput").value.toLowerCase();
+  var list = document.getElementById("list");
+  var items = list.getElementsByTagName("a");
+
+  for (var i = 0; i < items.length; i++) {
+    var item = items[i];
+    var itemText = item.innerText.toLowerCase();
+
+    if (itemText.includes(searchTerm)) {
+      item.style.display = "flex";
+      item.style.width = "110px";
+      item.style.height = "110px";
+      item.style.marginInline = "5px";
+      item.style.marginBlock = "6px";
+      item.style.paddingInline = "10px";
+      item.style.paddingBottom = "10px";
+    } else {
+      item.style.width = "0";
+      item.style.height = "0";
+      item.style.padding = "0";
+      item.style.margin = "0";
+    }
+  }
 }

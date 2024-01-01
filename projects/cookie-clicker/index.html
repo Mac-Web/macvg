@@ -1,225 +1,236 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <!-- external -->
-    <script type="text/javascript">
-      window.cookieconsent_options = {
-        message: "Unsurprisingly, this website uses cookies for ads and traffic analysis.",
-        dismiss: "Got it!",
-        learnMore: "Learn more",
-        link: "//orteil.dashnet.org/cookieconsentpolicy.html",
-        target: "_blank",
-        theme: "cookieconsent.css",
-        domain: "dashnet.org",
-      };
-    </script>
-    <span id="macvgmacvg" name="game53"></span>
-
-    <script type="text/javascript" src="cookieconsent.min.js"></script>
-
-    <!--<link href="https://fonts.googleapis.com/css?family=Kavoon&subset=latin,latin-ext" rel="stylesheet" type="text/css">-->
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:900&subset=latin,latin-ext" rel="stylesheet" type="text/css" />
-    <title class="cloak">Cookie Clicker | MacVG</title>
-    <link class="favicon" rel="shortcut icon" href="/logo.png" />
-    <script src="/macvg/cloaker.js"></script>
-    <!--
-      Code and graphics copyright Orteil, 2013-2022
-      Feel free to alter this code to your liking, but please do not re-host it, do not profit from it and do not present it as your own.
-    -->
-    <meta name="viewport" content="width=900, initial-scale=1" />
-    <script src="base64.js"></script>
-    <script src="/js/main.js"></script>
-
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https:/www.googletagmanager.com/gtag/js?id=G-Y71QM9DR66"
+    ></script>
     <script>
-      var VERSION = 2.048;
-      var BETA = 0;
-      var App = typeof App === "undefined" ? 0 : App;
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-Y71QM9DR66");
     </script>
-
-    <link href="style.css?v=5" rel="stylesheet" type="text/css" />
-    <script src="main.js?v=5"></script>
-
-    <!-- ad -->
-    <script src="showads.js"></script>
-    <!-- /ad -->
-
-    <!--[if IE]>
-      <style type="text/css">
-        #ifIE9 {
-          display: block;
-        }
-      </style>
-    <![endif]-->
-
-    <!--[if lt IE9]><script src="excanvas.compiled.js"></script><![endif]-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title class="cloak">Cookie Clicker | MacVG</title>
+    <span id="macvgmacvg" name="game53"></span>
+    <link
+      rel="shortcut icon"
+      href="/logo.png"
+      type="image/x-icon"
+      class="favicon"
+    />
+    <link rel="stylesheet" href="/macvg/projects/style.css" />
+    <script src="/macvg/projects/app.js"></script>
+    <link rel="stylesheet" href="/macvg/info.css" />
   </head>
   <body>
-    <div id="wrapper">
-      <div id="topBar">
-        <div><b style="font-weight: bold;">Cookie Clicker</b>&trade; &copy; <a href="//orteil.dashnet.org" target="_blank" id="topbarOrteil">Orteil</a>, 2022 - <a href="//dashnet.org" target="_blank" id="topbarDashnet">DashNet</a></div>
-        <div><a href="https://twitter.com/orteil42" target="_blank" id="topbarTwitter">twitter</a></div>
-        <div><a href="https://orteil42.tumblr.com" target="_blank" id="topbarTumblr">tumblr</a></div>
-        <div style="position: relative;">
-          <div style="width: 22px; height: 32px; background: url(img/discord.png); position: absolute; left: 0px; top: 0px; pointer-events: none;"></div>
-          <a href="https://discordapp.com/invite/cookie" target="_blank" style="padding-left: 16px;" id="topbarDiscord">Discord</a>
+    <div class="game-container">
+      <div class="game-related">
+        <div class="actual" id="gameframe">
+          <iframe src="game.html" frameborder="0" id="iframe" >
+          </iframe>
+          <div class="tool-bar">
+            <div class="more-left">
+              <img src="cookie1.jpeg" alt="" />
+            </div>
+            <div class="leftest">
+              <h5 class="title">Cookie Clicker</h5>
+              <a href=""> Orteil </a>
+            </div>
+            <img src="/macvg/back.svg" id="back" style="width: 20pxoo" />
+            <img src="/macvg/star-regular.svg" style="width: 20px" id="star" />
+            <img src="/macvg/share-solid.svg" style="width: 20px" id="share" />
+            <img src="/macvg/download.svg" id="download" />
+            <img src="/macvg/expand.svg" id="fullscreen" />
+          </div>
         </div>
-        <div style="position: relative;">
-          <div style="width: 25px; height: 32px; background: url(img/weeHoodie.png); position: absolute; left: -2px; top: 0px; pointer-events: none;"></div>
-          <a class="blueLink" href="http://www.redbubble.com/people/dashnet" target="_blank" style="padding-left: 12px;" id="topbarMerch">Merch!</a>
-        </div>
-        <div style="position: relative;">
-          <div style="width: 22px; height: 32px; background: url(img/patreon.png); position: absolute; left: 0px; top: 0px; pointer-events: none;"></div>
-          <a class="orangeLink" href="https://www.patreon.com/dashnet" target="_blank" style="padding-left: 16px;" id="topbarPatreon">Patreon</a>
-        </div>
-        <div style="position: relative; display: none; font-weight: bold;" id="heralds">
-          <div style="position: absolute; top: -4px; width: 31px; height: 39px; background: url(img/heraldFlag.png); left: 50%; margin-left: -15px; pointer-events: none;"></div>
-          <div id="heraldsAmount" style="position: relative; z-index: 10; text-shadow: 0px 1px 0px #000, 0px 0px 6px #ff00e4; color: #fff;">-</div>
-        </div>
-        <div><a class="lightblueLink" style="font-weight: bold;" href="https://play.google.com/store/apps/details?id=org.dashnet.cookieclicker" target="_blank" id="topbarMobileCC">Cookie Clicker for Android</a></div>
-        <div><a class="lightblueLink" style="font-weight: bold;" href="https://store.steampowered.com/app/1454400/Cookie_Clicker/" target="_blank" id="topbarSteamCC">Cookie Clicker on Steam</a></div>
-        <div><a href="//orteil.dashnet.org/randomgen/" target="_blank" id="topbarRandomgen">RandomGen</a></div>
-        <div><a href="//orteil.dashnet.org/igm/" target="_blank" id="topbarIGM">Idle Game Maker</a></div>
-        <div style="float: right; position: relative;">
-          <div id="tinyglobe" style="position: absolute; top: -4px; width: 22px; height: 22px; background: url(img/tinyglobeSheet.gif); right: 4px; top: 4px; pointer-events: none;"></div>
-          <a
-            id="changeLanguage"
-            style="font-variant: small-caps; padding-right: 20px;"
-            onmouseover="INTERVAL_TINYGLOBE=setInterval(function(){var tinyglobe=document.getElementById('tinyglobe');tinyglobe.style.backgroundPosition=(parseInt(tinyglobe.style.backgroundPosition)-22)+'px';},30);"
-            onmouseout="clearInterval(INTERVAL_TINYGLOBE);"
-          >
-            Change language
-          </a>
-          <script>
-            document.getElementById("tinyglobe").style.backgroundPosition = -[0, 19, 27][Math.floor(Math.random() * 3)] * 22 + "px";
-          </script>
-        </div>
-        <div id="links" class="hoverer">
-          Other versions
-          <div class="hoverable">
-            <a href="../" target="_blank" id="linkVersionLive">Live version</a>
-            <a href="beta" target="_blank" id="linkVersionBeta">Try the beta! (not working)</a>
-            <a href="//orteil.dashnet.org/cookieclicker/v10466" target="_blank" id="linkVersionOld">v. 1.0466</a>
-            <a href="//orteil.dashnet.org/experiments/cookie/" target="_blank">Classic</a>
+        <div class="more-info">
+          <div class="info">
+            <h3>About</h3>
+            Oops, you caught us, we're still working hard to provide game
+            description on this game! In the upcoming updates, more and more
+            games will have their descriptions and instructions to help you beat
+            it, so stay tuned for more updates!<br /><br /><br /><br /><br /><br /><br />
+          </div>
+          <div class="info">
+            <h3>Controls</h3>
+            <ul>
+              Still working on this one O_O
+            </ul>
+          </div>
+          <div class="info">
+            <h3>Game Information</h3>
+            <ul>
+              <li>Release Date: August 8, 2013</li>
+              <li>Developer: Orteil</li>
+              <li>Players: 100M+</li>
+              <li>Catagory:
+                <a href="/macvg/casual.html" style="color: white"
+                  >Casual</a
+                >
+              </li>
+              <li>Genre: Clicker Games</li>
+              <li>Build: HTML5, JavaScript</li>
+            </ul>
+          </div>
+          <div class="info similar">
+            <h3>Similar Games</h3>
+            <div class="games">Still working on this one!</div>
           </div>
         </div>
       </div>
-      <div id="game">
-        <div id="versionNumber" class="title"></div>
-        <script>
-          document.getElementById("versionNumber").innerHTML = "v. " + VERSION;
-        </script>
-        <div id="offGameMessageWrap">
-          <div id="offGameMessage">
-            <div id="loader">
-              <div class="spinnyBig"></div>
-              <div class="spinnySmall"></div>
-              <div id="loading" class="title">Loading...</div>
-              <div id="failedToLoad" class="title">
-                This is taking longer than expected...<br />
-                <div style="font-size: 65%; line-height: 120%;">
-                  <!-- error -->Slow connection? If not, please make sure your javascript is enabled, then refresh.<br />
-                  If problems persist, this might be on our side - wait a few minutes, then hit ctrl+f5!<br /><!-- /error -->
-                  If you can open a issue in the github so we know this happened!
-                </div>
-              </div>
-              <div id="ifIE9" class="title" style="font-size: 100%; line-height: 120%;">
-                Your browser may not be recent enough to run Cookie Clicker.<br />
-                You might want to update, or switch to a more modern browser such as Chrome or Firefox.
-              </div>
-            </div>
+      <div class="right">
+        <div class="nav">
+          <a href="/macvg/" class="logo">
+            <img src="/macvg/macvg-logo.png" alt="" />
+          </a>
+          <div class="links">
+            <a href="/macvg/new.html" class="nav-link">New</a>
+            <a href="/macvg/trending.html" class="nav-link">Trending</a>
+            <a href="/macvg/groups.html" class="nav-link">Groups</a>
+            <a href="/macvg/bot.html" class="nav-link">Chat</a>
+            <a href="/macvg/projects/macboard/" class="nav-link">MacBoard</a>
+            <a href="/macvg/settings.html" class="nav-link">Settings</a>
           </div>
+
+          <div class="copyright">© 2023 MacWeb</div>
         </div>
+        <div class="featured">
+          <a href="/macvg/projects/2048/" class="game" id="game6"> 2048 </a>
+          <a
+            href="/macvg/projects/achievementunlocked/"
+            class="game"
+            id="game9"
+          >
+            Achievement Unlocked
+          </a>
+          <a href="/macvg/projects/backrooms/" class="game" id="game20">
+            Backrooms
+          </a>
+          <a href="/macvg/projects/bad-ice-cream/" class="game" id="game21">
+            Bad Ice Cream
+          </a>
+          <a href="/macvg/projects/basketball-stars/" class="game" id="game26">
+            Basketball Stars
+          </a>
+          <a href="/macvg/projects/bitlife/" class="game" id="game30">
+            Bitlife
+          </a>
 
-        <canvas id="backgroundCanvas"></canvas>
+          <a href="/macvg/projects/bloonstd4/" class="game" id="game321">
+            Bloons TD 4
+          </a>
+          <a href="/macvg/projects/bloxors/" class="game" id="game35">
+            Bloxors
+          </a>
+          <a href="/macvg/projects/btts/" class="game" id="game40">
+            Big Tower Tiny Square
+          </a>
+          <a href="/macvg/projects/cell-machine/" class="game" id="game45">
+            Cell Machine
+          </a>
+          <a href="/macvg/projects/champion-island/" class="game" id="game46">
+            Champion Island
+          </a>
+          <a href="/macvg/projects/circlo/" class="game" id="game50">
+            circlO
+          </a>
+          <a href="/macvg/projects/cookie-clicker/" class="game" id="game53">
+            Cookie Clicker
+          </a>
+          <a
+            href="/macvg/projects/creativekillchamber/"
+            class="game"
+            id="game56"
+          >
+            Creative Kill Chamber
+          </a>
+          <a href="/macvg/projects/ctr/" class="game" id="game59">
+            Cut the Rope
+          </a>
+          <a href="/macvg/projects/dante/" class="game" id="game64"> Dante </a>
+          <a href="/macvg/projects/DogeMiner/" class="game" id="game70">
+            Doge Miner
+          </a>
+          <a href="/macvg/projects/drive-mad/" class="game" id="game75">
+            Drive Mad
+          </a>
+          <a
+            href="/macvg/projects/fireboywatergirlforesttemple/"
+            class="game"
+            id="game92"
+          >
+            Fireboy and Watergirl
+          </a>
 
-        <div id="goldenCookie" class="goldenCookie"></div>
-        <div id="seasonPopup" class="seasonPopup"></div>
-        <div id="shimmers"></div>
-        <div id="alert"></div>
-        <div id="particles"></div>
-        <div id="sparkles" class="sparkles"></div>
-        <div id="notes"></div>
-        <div id="darken"></div>
-        <div id="toggleBox" class="framed prompt"></div>
-        <div id="promptAnchor">
-          <div id="prompt" class="framed">
-            <div id="promptContent"></div>
-            <div id="promptClose" class="close" style="display: none;" onclick="PlaySound('snd/tickOff.mp3');Game.ClosePrompt();">x</div>
-          </div>
+          <a href="/macvg/projects/funnyshooter2/" class="game" id="game290">
+            Funny Shooter 2
+          </a>
+          <a href="/macvg/projects/getaway-shootout/" class="game" id="game106">
+            Getaway Shootout
+          </a>
+          <a href="/macvg/projects/greybox/" class="game" id="game114">
+            Grey Box Testing
+          </a>
+          <a href="/macvg/projects/handshakes/" class="game" id="game117">
+            Handshakes
+          </a>
+          <a
+            href="/macvg/projects/minecraft-classic/"
+            class="game"
+            id="game148"
+          >
+            Minecraft Classic
+          </a>
+          <a href="/macvg/projects/minesweeper/" class="game" id="game150">
+            Minesweeper
+          </a>
+          <a href="/macvg/projects/motox3m/" class="game" id="game153">
+            MotoX3M
+          </a>
+          <a href="/macvg/projects/portalflash/" class="game" id="game176">
+            Portal (Flash)
+          </a>
+          <a href="/macvg/projects/rabbit-samurai/" class="game" id="game181">
+            Rabbit Samurai
+          </a>
+          <a href="/macvg/projects/retro-bowl/" class="game" id="game184">
+            Retro Bowl
+          </a>
+          <a href="/macvg/projects/riddleschool/" class="game" id="game185">
+            Riddle School 1
+          </a>
+          <a href="/macvg/projects/slope/" class="game" id="game205"> Slope </a>
+          <a href="/macvg/projects/soccer-random/" class="game" id="game212">
+            Soccer Random
+          </a>
+          <a href="/macvg/projects/soccer-skills/" class="game" id="game213">
+            Soccer Skills Euro Cup
+          </a>
+          <a href="/macvg/projects/stickman-hook/" class="game" id="game230">
+            Stickman Hook
+          </a>
+
+          <a href="/macvg/projects/the-final-earth/" class="game" id="game248">
+            The Final Earth
+          </a>
+          <a href="/macvg/projects/there-is-no-game/" class="game" id="game251">
+            There Is No Game
+          </a>
+          <a href="/macvg/projects/tosstheturtle/" class="game" id="game255">
+            Toss The Turtle
+          </a>
+          <a href="/macvg/projects/vex7/" class="game" id="game266"> Vex 7 </a>
+          <a href="/macvg/projects/xx142-b2exe/" class="game" id="game278">
+            xx142-b2exe
+          </a>
         </div>
-        <div id="ascend">
-          <div id="ascendBG"></div>
-          <div id="ascendZoomable">
-            <div id="ascendContent"><div id="ascendUpgrades" style="position: absolute;"></div></div>
-          </div>
-          <div id="ascendOverlay"></div>
-        </div>
-
-        <div id="debug">
-          <div id="devConsole" class="framed"></div>
-          <div id="debugLog"></div>
-        </div>
-
-        <div id="sectionLeft" class="inset">
-          <canvas id="backgroundLeftCanvas" style="z-index: 5;"></canvas>
-          <div class="blackFiller"></div>
-          <div class="blackGradient"></div>
-          <div id="sectionLeftInfo"></div>
-          <div id="cookies" class="title"></div>
-          <div id="bakeryNameAnchor"><div id="bakeryName" class="title"></div></div>
-          <div id="specialPopup" class="framed prompt offScreen"></div>
-          <div id="buffs" class="crateBox"></div>
-          <div id="cookieAnchor">
-            <button id="bigCookie"></button>
-            <div id="cookieNumbers"></div>
-          </div>
-          <div id="sectionLeftExtra"></div>
-        </div>
-
-        <div class="separatorLeft" id="leftBeam"></div>
-        <div class="separatorRight" id="rightBeam"></div>
-
-        <div id="sectionMiddle" class="inset">
-          <div id="comments" class="inset title">
-            <div id="prefsButton" class="panelButton"><div class="subButton">Options</div></div>
-            <div id="statsButton" class="panelButton"><div>Stats</div></div>
-            <div id="logButton" class="panelButton">
-              <div>Info</div>
-              <div id="checkForUpdate">New update!</div>
-            </div>
-            <div id="legacyButton" class="panelButton">
-              <div class="subButton">Legacy</div>
-              <div id="ascendMeterContainer" class="smallFramed meterContainer"><div id="ascendMeter" class="meter filling"></div></div>
-              <div class="roundedPanel" id="ascendNumber"></div>
-              <div id="ascendTooltip" class="framed"></div>
-            </div>
-            <div id="commentsText">
-              <div id="commentsText1" class="commentsText"></div>
-              <div id="commentsText2" class="commentsText"></div>
-            </div>
-            <div class="separatorBottom"></div>
-          </div>
-          <div id="centerArea">
-            <div id="buildingsTitle" class="inset title zoneTitle">Buildings</div>
-            <div id="buildingsMaster"></div>
-            <div id="rows"></div>
-            <div id="menu"></div>
-          </div>
-        </div>
-
-        <div id="sectionRight" class="inset">
-          <div id="store">
-            <div id="storeTitle" class="inset title zoneTitle">Store</div>
-            <div id="toggleUpgrades" class="storeSection upgradeBox"></div>
-            <div id="techUpgrades" class="storeSection upgradeBox"></div>
-            <div id="vaultUpgrades" class="storeSection upgradeBox"></div>
-            <div id="upgrades" class="storeSection upgradeBox"></div>
-            <div id="products" class="storeSection"></div>
-          </div>
-        </div>
-
-        <div id="tooltipAnchor"><div id="tooltip" class="framed" onMouseOut="Game.tooltip.hide();"></div></div>
-        <div id="preloadImages" style="display: none;"></div>
       </div>
     </div>
   </body>

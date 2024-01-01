@@ -1,5 +1,9 @@
-
-
+document.addEventListener("DOMContentLoaded", function () {
+  
+  const thing = document.getElementById("macvg-pop");
+  thing.style.display = "none";
+})
+/*
 document.addEventListener("keydown", (event) => {
   let panicKeys = localStorage.getItem("panic");
   let href = localStorage.getItem("href");
@@ -472,3 +476,4 @@ document.addEventListener("DOMContentLoaded", function () {
   thing23.style.fontWeight = "bold";
   thing23.style.color = "gold";
 });
+*/

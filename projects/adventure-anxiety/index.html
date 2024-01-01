@@ -1,325 +1,209 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <!-- THE BIG META -->
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-Y71QM9DR66"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-Y71QM9DR66");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title class="cloak">Adventure with Anxiety | MacVG</title>
-    <link class="favicon" rel="shortcut icon" href="/logo.png" />
-    <script src="/macvg/cloaker.js"></script>
     <span id="macvgmacvg" name="game291"></span>
-    <!-- TRANSLATE -->
-    <meta
-      name="description"
-      content="A story-game about a human and their anxiety. You play as the anxiety."
+    <link
+      rel="shortcut icon"
+      href="/logo.png"
+      type="image/x-icon"
+      class="favicon"
     />
-    <!-- TRANSLATE: content -->
-
-    <!-- Twitter Card data -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@ncasenmare" />
-    <meta name="twitter:title" content="Adventures With Anxiety!" />
-    <!-- TRANSLATE: content -->
-    <meta
-      name="twitter:description"
-      content="A story-game about a human and their anxiety. You play as the anxiety."
-    />
-    <!-- TRANSLATE: content -->
-    <meta
-      name="twitter:image"
-      content="https://ncase.me/anxiety/sharing/thumb.png"
-    />
-
-    <!-- Open Graph data -->
-    <meta property="og:title" content="Adventures With Anxiety!" />
-    <!-- TRANSLATE: content -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://ncase.me/anxiety/" />
-    <meta
-      property="og:image"
-      content="https://ncase.me/anxiety/sharing/thumb.png"
-    />
-    <meta
-      property="og:description"
-      content="A story-game about a human and their anxiety. You play as the anxiety."
-    />
-    <!-- TRANSLATE: content -->
-    <meta property="og:site_name" content="Adventures With Anxiety!" />
-    <!-- TRANSLATE: content -->
-
-    <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="styles/game.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/macvg/projects/style.css" />
+    <script src="/macvg/projects/app.js"></script>
+    <link rel="stylesheet" href="/macvg/info.css" />
   </head>
   <body>
-    <!-- - - - - - - - - - - - - - - - - - -->
-    <!-- THE GAME ITSELF, FRONT AND CENTER -->
-    <!-- - - - - - - - - - - - - - - - - - -->
-
-    <div id="game_container">
-      <!-- The main game -->
-      <canvas id="game_canvas"></canvas>
-      <div id="game_words"></div>
-      <div id="game_hp"></div>
-      <div id="game_choices"></div>
-
-      <!-- Click to Advance-->
-      <div id="click_to_advance">
-        <span id="cta_text1">
-          <div class="mini-icon" pic="click" style="top: 3px"></div>
-          <span id="instructions_if_not_mobile">
-            click or spacebar
-            <!-- TRANSLATE THIS -->
-          </span>
-          <span id="instructions_if_mobile" style="display: none">
-            tap anywhere
-            <!-- TRANSLATE THIS -->
-          </span>
-        </span>
-        <span id="cta_text2">
-          <div class="mini-icon" pic="next"></div>
-        </span>
-      </div>
-
-      <!-- HACK: SPECIAL ATTACK -->
-      <div id="special_attack"></div>
-
-      <!-- Bottom Corner Tabs -->
-      <div
-        id="gear"
-        style="display: none"
-        onclick="publish('show_options'); sfx('ui_button1');"
-      >
-        <div class="icon">
-          <div class="mini-icon" pic="gear"></div>
-        </div>
-      </div>
-      <div id="huh" style="display: none">
-        <div class="icon">
-          <div class="mini-icon" pic="about"></div>
-        </div>
-      </div>
-
-      <!-- Paused Screen -->
-      <div id="paused">
-        <div>
-          <!-- TRANSLATE THIS -->
-          paused
-          <div>click anywhere to keep freaking out</div>
-        </div>
-      </div>
-
-      <!-- LOADING -->
-      <div id="loading">
-        <div id="loading_bar">
-          <div id="loading_bar_bg"></div>
-          <div id="loading_pic"></div>
-        </div>
-      </div>
-
-      <!-- CONTENT NOTES -->
-      <div id="content_notes">
-        <!-- TRANSLATE THIS -->
-        <p style="margin-top: 0.6em">
-          <i style="color: #ff4040">Adventures With Anxiety</i> is about, well,
-          anxiety.
-        </p>
-        <p>
-          But I've made this <i>for</i> folks with anxiety disorder, like
-          myself. I hope it can help you see – with humor – how anxiety works.
-          And, just maybe, reduce the fear of fear itself.
-        </p>
-        <p>
-          There's also badly-drawn stick figures and a hyperactive wolf. Enjoy!
-        </p>
-        <p style="color: #999; font-size: 16px; line-height: 1.3em">
-          other notes: alcohol abuse, sexuality<span class="hide-if-cuss-free"
-            >, a @✩$!load of swearing</span
-          >
-        </p>
-        <p>
-          <a target="_blank" href="https://ncase.me/mental-health/"
-            >mental health tips &amp; resources</a
-          >
-          &#x1f517;
-        </p>
-        <div id="cn_ok" onclick="publish('hide_cn');" style="float: none">
-          ok
-          <div class="mini-icon" pic="ok" style="top: 3px"></div>
-        </div>
-      </div>
-
-      <!-- ABOUT -->
-      <div id="about">
-        <!-- about=yes-->
-        <div id="about_words">
-          <!-- TRANSLATE THIS -->
-          <div style="font-size: 40px; margin-top: 42px; line-height: 30px">
-            mental health
-            <a href="https://ncase.me/mental-health/" target="_blank"
-              >resources</a
-            >
+    <div class="game-container">
+      <div class="game-related">
+        <div class="actual" id="gameframe">
+          <iframe src="game.html" frameborder="0" id="iframe"> </iframe>
+          <div class="tool-bar">
+            <div class="more-left">
+              <img src="splash.png" alt="" />
+            </div>
+            <div class="leftest">
+              <h5 class="title">Adventure with Anxiety</h5>
+              <a href="">Nicky Case</a>
+            </div>
+            <img src="/macvg/back.svg" id="back" style="width: 20pxoo" />
+            <img src="/macvg/star-regular.svg" style="width: 20px" id="star" />
+            <img src="/macvg/share-solid.svg" style="width: 20px" id="share" />
+            <img src="/macvg/download.svg" id="download" />
+            <img src="/macvg/expand.svg" id="fullscreen" />
           </div>
-
-          <div style="margin-top: 26px; color: #999">&mdash; or &mdash;</div>
-
-          <div
-            style="
-              font-size: 25px;
-              text-align: left;
-              width: 170px;
-              margin-left: 165px;
-              line-height: 25px;
-              margin-top: 31px;
-            "
-          >
-            <!-- TRANSLATE ALL THIS -->
-            <div>
-              play more of
-              <a href="https://ncase.me" target="_blank">my shtuff</a>
-            </div>
-            <div style="margin-top: 32px">
-              throw coins<br />at me
-              <a href="https://www.patreon.com/ncase" target="_blank"
-                >on Patreon</a
-              >
-            </div>
-            <div style="margin-top: 28px">
-              please your ear-holes with Monplaisir's
-              <a
-                href="https://chezmonplaisir.bandcamp.com/album/anxiety"
-                target="_blank"
-                >original soundtrack</a
-              >
+        </div>
+        <div class="more-info">
+          <div class="info">
+            <h3>About</h3>
+            Oops, you caught us, we're still working hard to provide game description on this game! In the upcoming updates, more and more games will have their descriptions and instructions to help you beat it, so stay tuned for more updates!<br><br><br><br><br><br><br>
+          </div>
+          <div class="info">
+            <h3>Controls</h3>
+            <ul>
+              Still working on this one O_O
+            </ul>
+          </div>
+          <div class="info">
+            <h3>Game Information</h3>
+            <ul>
+              <li>Release Date: September, 2019</li>
+              <li>Developer: Nicky Case</li>
+              <li>Players: 5M+</li>
+              <li>Catagory:
+                <a href="/macvg/strategy-puzzle.html" style="color: white"
+                  >Strategy and Puzzle</a
+                >
+              </li>
+              <li>Genre: Text-Based Strategy Games</li>
+              <li>Build: HTML5, JavaScript</li>
+            </ul>
+          </div>
+          <div class="info similar">
+            <h3>Similar Games</h3>
+            <div class="games">
+              Still working on this one!
             </div>
           </div>
-
-          <div id="replay"></div>
-
-          <div style="clear: both"></div>
-          <div
-            id="close_about"
-            style="margin: 0; float: right; margin-top: 20px"
-          >
-            close
+        </div>
+      </div>
+      <div class="right">
+        <div class="nav">
+          <a href="/macvg/" class="logo">
+            <img src="/macvg/macvg-logo.png" alt="" />
+          </a>
+          <div class="links">
+            <a href="/macvg/new.html" class="nav-link">New</a>
+            <a href="/macvg/trending.html" class="nav-link">Trending</a>
+            <a href="/macvg/groups.html" class="nav-link">Groups</a>
+            <a href="/macvg/bot.html" class="nav-link">Chat</a>
+            <a href="/macvg/projects/macboard/" class="nav-link">MacBoard</a>
+            <a href="/macvg/settings.html" class="nav-link">Settings</a>
           </div>
-          <!-- TRANSLATE -->
+
+          <div class="copyright">© 2023 MacWeb</div>
+        </div>
+        <div class="featured">
+          <a href="/macvg/projects//2048/" class="game" id="game6"> 2048 </a>
+          <a href="/macvg/projects//achievementunlocked/" class="game" id="game9">
+            Achievement Unlocked
+          </a>
+          <a href="/macvg/projects//backrooms/" class="game" id="game20"> Backrooms </a>
+          <a href="/macvg/projects//bad-ice-cream/" class="game" id="game21">
+            Bad Ice Cream
+          </a>
+          <a href="/macvg/projects//basketball-stars/" class="game" id="game26">
+            Basketball Stars
+          </a>
+          <a href="/macvg/projects//bitlife/" class="game" id="game30"> Bitlife </a>
+
+          <a href="/macvg/projects//bloonstd4/" class="game" id="game321">
+            Bloons TD 4
+          </a>
+          <a href="/macvg/projects//bloxors/" class="game" id="game35"> Bloxors </a>
+          <a href="/macvg/projects//btts/" class="game" id="game40">
+            Big Tower Tiny Square
+          </a>
+          <a href="/macvg/projects//cell-machine/" class="game" id="game45">
+            Cell Machine
+          </a>
+          <a href="/macvg/projects//champion-island/" class="game" id="game46">
+            Champion Island
+          </a>
+          <a href="/macvg/projects//circlo/" class="game" id="game50"> circlO </a>
+          <a href="/macvg/projects//cookie-clicker/" class="game" id="game53">
+            Cookie Clicker
+          </a>
+          <a href="/macvg/projects//creativekillchamber/" class="game" id="game56">
+            Creative Kill Chamber
+          </a>
+          <a href="/macvg/projects//ctr/" class="game" id="game59"> Cut the Rope </a>
+          <a href="/macvg/projects//dante/" class="game" id="game64"> Dante </a>
+          <a href="/macvg/projects//DogeMiner/" class="game" id="game70">
+            Doge Miner
+          </a>
+          <a href="/macvg/projects//drive-mad/" class="game" id="game75"> Drive Mad </a>
+          <a
+            href="/macvg/projects//fireboywatergirlforesttemple/"
+            class="game"
+            id="game92"
+          >
+            Fireboy and Watergirl
+          </a>
+
+          <a href="/macvg/projects//funnyshooter2/" class="game" id="game290">
+            Funny Shooter 2
+          </a>
+          <a href="/macvg/projects//getaway-shootout/" class="game" id="game106">
+            Getaway Shootout
+          </a>
+          <a href="/macvg/projects//greybox/" class="game" id="game114">
+            Grey Box Testing
+          </a>
+          <a href="/macvg/projects//handshakes/" class="game" id="game117">
+            Handshakes
+          </a>
+          <a href="/macvg/projects//minecraft-classic/" class="game" id="game148">
+            Minecraft Classic
+          </a>
+          <a href="/macvg/projects//minesweeper/" class="game" id="game150">
+            Minesweeper
+          </a>
+          <a href="/macvg/projects//motox3m/" class="game" id="game153"> MotoX3M </a>
+          <a href="/macvg/projects//portalflash/" class="game" id="game176">
+            Portal (Flash)
+          </a>
+          <a href="/macvg/projects//rabbit-samurai/" class="game" id="game181">
+            Rabbit Samurai
+          </a>
+          <a href="/macvg/projects//retro-bowl/" class="game" id="game184">
+            Retro Bowl
+          </a>
+          <a href="/macvg/projects//riddleschool/" class="game" id="game185">
+            Riddle School 1
+          </a>
+          <a href="/macvg/projects//slope/" class="game" id="game205"> Slope </a>
+          <a href="/macvg/projects//soccer-random/" class="game" id="game212">
+            Soccer Random
+          </a>
+          <a href="/macvg/projects//soccer-skills/" class="game" id="game213">
+            Soccer Skills Euro Cup
+          </a>
+          <a href="/macvg/projects//stickman-hook/" class="game" id="game230">
+            Stickman Hook
+          </a>
+
+          <a href="/macvg/projects//the-final-earth/" class="game" id="game248">
+            The Final Earth
+          </a>
+          <a href="/macvg/projects//there-is-no-game/" class="game" id="game251">
+            There Is No Game
+          </a>
+          <a href="/macvg/projects//tosstheturtle/" class="game" id="game255">
+            Toss The Turtle
+          </a>
+          <a href="/macvg/projects//vex7/" class="game" id="game266"> Vex 7 </a>
+          <a href="/macvg/projects//xx142-b2exe/" class="game" id="game278">
+            xx142-b2exe
+          </a>
         </div>
       </div>
-
-      <!-- OPTIONS -->
-      <div id="options">
-        <div style="width: 150px; height: 63px; float: left">
-          <div id="text_speed_preview"></div>
-          <input
-            id="text_speed_slider"
-            type="range"
-            min="0"
-            value="0.5"
-            max="1"
-            step="0.01"
-          />
-        </div>
-        <div style="float: right; width: 135px; height: 63px">
-          <!-- TRANSLATE THIS -->
-          And advance
-          <div id="text_automatic_toggle">on click</div>
-        </div>
-        <div style="clear: both"></div>
-        <span id="volume_options">
-          <div>Volume:</div>
-          <!-- TRANSLATE -->
-          <input
-            id="volume_slider"
-            type="range"
-            min="0"
-            max="1"
-            value="1"
-            step="0.01"
-          />
-        </span>
-        <div id="options_ok">
-          ok
-          <div class="mini-icon" pic="ok" style="top: 3px"></div>
-          <!-- TRANSLATE -->
-        </div>
-      </div>
-
-      <!-- Dialogue position debugging elements -->
-      <div
-        class="debug"
-        style="position: absolute; width: 5px; height: 250px; background: red"
-      ></div>
-      <div
-        class="debug"
-        style="position: absolute; width: 5px; height: 80px; background: white"
-      ></div>
-    </div>
-
-    <div class="debug" id="section_debug_list"></div>
-
-    <div class="corner-text" id="bottomright">
-      <span class="hide-if-cuss-free">
-        <br /><br />
-        <a href="?c=1">Cuss-Free Mode</a><br />
-      </span>
     </div>
   </body>
 </html>
-
-<!-- SCRIPTS -->
-<script src="scripts/lib/createImageBitmap.js"></script>
-<script src="scripts/lib/tickable_observer.js"></script>
-<script src="scripts/lib/helpers.js"></script>
-<script src="scripts/lib/rsvp.min.js"></script>
-<script src="scripts/lib/minpubsub.min.js"></script>
-<script src="scripts/lib/howler.min.js"></script>
-
-<script src="scripts/game/Loader.js"></script>
-<script src="scripts/game/Game.js"></script>
-<script src="scripts/game/Sprite.js"></script>
-<script src="scripts/game/HP.js"></script>
-<script src="scripts/game/BG_Anxiety.js"></script>
-<script src="scripts/game/Character.js"></script>
-<script src="scripts/game/Sounds.js"></script>
-<script src="scripts/game/Options.js"></script>
-<script src="scripts/game/About.js"></script>
-<script src="scripts/game/ContentNotes.js"></script>
-<script src="scripts/game/Sharing.js"></script>
-
-<!-- INTRO -->
-<script src="scripts/intro/Intro_SceneSetup.js"></script>
-<script src="scripts/intro/Intro_BG.js"></script>
-
-<!-- ACT I -->
-<script src="scripts/act1/Act1_SceneSetup.js"></script>
-<script src="scripts/act1/Act1_Hong.js"></script>
-<script src="scripts/act1/Act1_Beebee.js"></script>
-<script src="scripts/act1/Act1_Outro_BG.js"></script>
-
-<!-- ACT II -->
-<script src="scripts/act2/Act2_SceneSetup.js"></script>
-<script src="scripts/act2/Act2_BG.js"></script>
-<script src="scripts/act2/Act2_Hong.js"></script>
-<script src="scripts/act2/Act2_Beebee.js"></script>
-
-<!-- ACT III -->
-<script src="scripts/act3/Act3_SceneSetup.js"></script>
-<script src="scripts/act3/Act3_BG.js"></script>
-<script src="scripts/act3/Act3_Hong.js"></script>
-<script src="scripts/act3/Act3_Beebee.js"></script>
-
-<!-- ACT IV -->
-<script src="scripts/act4/Act4_SceneSetup.js"></script>
-<script src="scripts/act4/Act4_BG.js"></script>
-<script src="scripts/act4/Act4_Hong.js"></script>
-<script src="scripts/act4/Act4_Beebee.js"></script>
-
-<!-- CREDITS -->
-<script src="scripts/credits/Credits_SceneSetup.js"></script>
-<script src="scripts/credits/Credits_BG.js"></script>
-
-<!-- INTERMISSION -->
-<script src="scripts/intermission/Intermission_SceneSetup.js"></script>
-<script src="scripts/intermission/Intermission_BG.js"></script>
-
-<!-- LET'S GO! -->
-<script src="scripts/main.js"></script>

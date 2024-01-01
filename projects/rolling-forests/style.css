@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
 
-html, body {
+html,
+body {
   overflow: hidden;
   background-color: #000;
   -moz-user-select: -moz-none;

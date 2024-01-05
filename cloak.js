@@ -174,4 +174,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let href = localStorage.getItem("href");
   thing23.innerHTML =
     "Current key: " + panicKeys + "<br>" + " Redirecting: " + href;
+    
+  thing23.style.fontWeight = "bold";
+  thing23.style.color = "gold";
 });

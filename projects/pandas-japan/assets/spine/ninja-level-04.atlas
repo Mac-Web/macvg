@@ -1,0 +1,83 @@
+
+ninja-level-04.png
+size: 512,128
+format: RGBA8888
+filter: MipMapNearestNearest,MipMapNearestLinear
+repeat: none
+fist
+  rotate: false
+  xy: 385, 111
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+handNinja2
+  rotate: false
+  xy: 335, 76
+  size: 28, 50
+  orig: 28, 50
+  offset: 0, 0
+  index: -1
+ninja_body
+  rotate: true
+  xy: 129, 68
+  size: 58, 87
+  orig: 58, 87
+  offset: 0, 0
+  index: -1
+ninja_hand1
+  rotate: true
+  xy: 49, 4
+  size: 54, 67
+  orig: 54, 67
+  offset: 0, 0
+  index: -1
+ninja_hand10
+  rotate: false
+  xy: 365, 107
+  size: 18, 19
+  orig: 18, 19
+  offset: 0, 0
+  index: -1
+ninja_hand2
+  rotate: true
+  xy: 218, 72
+  size: 54, 67
+  orig: 54, 67
+  offset: 0, 0
+  index: -1
+ninja_hand20
+  rotate: false
+  xy: 365, 86
+  size: 18, 19
+  orig: 18, 19
+  offset: 0, 0
+  index: -1
+ninja_head
+  rotate: false
+  xy: 287, 72
+  size: 46, 54
+  orig: 46, 54
+  offset: 0, 0
+  index: -1
+ninja_leg
+  rotate: true
+  xy: 2, 2
+  size: 56, 45
+  orig: 56, 45
+  offset: 0, 0
+  index: -1
+ninja_leg0
+  rotate: true
+  xy: 385, 89
+  size: 20, 10
+  orig: 20, 10
+  offset: 0, 0
+  index: -1
+ninja_sword
+  rotate: true
+  xy: 2, 60
+  size: 66, 125
+  orig: 66, 125
+  offset: 0, 0
+  index: -1

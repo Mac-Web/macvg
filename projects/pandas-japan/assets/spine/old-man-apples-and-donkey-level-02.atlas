@@ -1,0 +1,328 @@
+
+old-man-apples-and-donkey-level-02.png
+size: 2048,128
+format: RGBA8888
+filter: MipMapNearestNearest,MipMapNearestLinear
+repeat: none
+apples/apple01
+  rotate: true
+  xy: 527, 10
+  size: 29, 31
+  orig: 29, 31
+  offset: 0, 0
+  index: -1
+apples/apple02
+  rotate: false
+  xy: 1101, 92
+  size: 32, 34
+  orig: 32, 34
+  offset: 0, 0
+  index: -1
+common/shadow
+  rotate: false
+  xy: 2, 58
+  size: 204, 10
+  orig: 204, 10
+  offset: 0, 0
+  index: -1
+donkey/body
+  rotate: false
+  xy: 267, 10
+  size: 138, 92
+  orig: 138, 92
+  offset: 0, 0
+  index: -1
+donkey/brows
+  rotate: true
+  xy: 625, 15
+  size: 24, 13
+  orig: 24, 13
+  offset: 0, 0
+  index: -1
+donkey/donkeyBackLeg1
+  rotate: false
+  xy: 179, 2
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+donkey/donkeyBackLeg2
+  rotate: true
+  xy: 739, 45
+  size: 15, 39
+  orig: 15, 39
+  offset: 0, 0
+  index: -1
+donkey/donkeyFrontLeg1
+  rotate: true
+  xy: 473, 10
+  size: 29, 52
+  orig: 29, 52
+  offset: 0, 0
+  index: -1
+donkey/donkeyFrontLeg2
+  rotate: true
+  xy: 24, 8
+  size: 17, 39
+  orig: 17, 39
+  offset: 0, 0
+  index: -1
+donkey/donkeyFrontLeg3
+  rotate: false
+  xy: 65, 9
+  size: 18, 16
+  orig: 18, 16
+  offset: 0, 0
+  index: -1
+donkey/donkeyHead
+  rotate: false
+  xy: 868, 55
+  size: 62, 71
+  orig: 62, 71
+  offset: 0, 0
+  index: -1
+donkey/donkeyTail
+  rotate: false
+  xy: 932, 58
+  size: 42, 68
+  orig: 42, 68
+  offset: 0, 0
+  index: -1
+donkey/earLeft
+  rotate: true
+  xy: 976, 53
+  size: 38, 50
+  orig: 38, 50
+  offset: 0, 0
+  index: -1
+donkey/earRight
+  rotate: true
+  xy: 1052, 85
+  size: 41, 47
+  orig: 41, 47
+  offset: 0, 0
+  index: -1
+donkey/eyes/eyes0001
+  rotate: false
+  xy: 1135, 95
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+donkey/eyes/eyes0002
+  rotate: false
+  xy: 1167, 95
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+donkey/eyes/eyes0014
+  rotate: false
+  xy: 1199, 95
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+donkey/eyes/eyes0015
+  rotate: false
+  xy: 1231, 95
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+donkey/eyes/eyes0017
+  rotate: false
+  xy: 1263, 95
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+donkey/eyes/eyes0044
+  rotate: false
+  xy: 1295, 95
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+donkey/eyes/eyes0045
+  rotate: false
+  xy: 1327, 95
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+donkey/eyes/eyes0078
+  rotate: false
+  xy: 1359, 95
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+donkey/eyes/eyes0079
+  rotate: false
+  xy: 1391, 95
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+donkey/harnessPart1
+  rotate: true
+  xy: 976, 93
+  size: 33, 74
+  orig: 33, 74
+  offset: 0, 0
+  index: -1
+donkey/harnessPart2
+  rotate: false
+  xy: 235, 2
+  size: 28, 66
+  orig: 28, 66
+  offset: 0, 0
+  index: -1
+donkey/harnessPart3
+  rotate: false
+  xy: 2, 27
+  size: 175, 29
+  orig: 175, 29
+  offset: 0, 0
+  index: -1
+donkey/harnessPart4
+  rotate: false
+  xy: 267, 104
+  size: 188, 22
+  orig: 188, 22
+  offset: 0, 0
+  index: -1
+old-man/arm
+  rotate: false
+  xy: 2, 2
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+old-man/armLeft
+  rotate: true
+  xy: 614, 2
+  size: 11, 21
+  orig: 11, 21
+  offset: 0, 0
+  index: -1
+old-man/armRight
+  rotate: true
+  xy: 208, 58
+  size: 10, 21
+  orig: 10, 21
+  offset: 0, 0
+  index: -1
+old-man/body
+  rotate: false
+  xy: 407, 10
+  size: 64, 92
+  orig: 64, 92
+  offset: 0, 0
+  index: -1
+old-man/bodyMirrored
+  rotate: true
+  xy: 699, 62
+  size: 64, 92
+  orig: 64, 92
+  offset: 0, 0
+  index: -1
+old-man/fist
+  rotate: false
+  xy: 640, 23
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+old-man/foot
+  rotate: false
+  xy: 560, 2
+  size: 25, 11
+  orig: 25, 11
+  offset: 0, 0
+  index: -1
+old-man/footMirrored
+  rotate: false
+  xy: 587, 2
+  size: 25, 11
+  orig: 25, 11
+  offset: 0, 0
+  index: -1
+old-man/forearm
+  rotate: false
+  xy: 1028, 53
+  size: 17, 38
+  orig: 17, 38
+  offset: 0, 0
+  index: -1
+old-man/forearm2
+  rotate: false
+  xy: 1475, 110
+  size: 18, 16
+  orig: 18, 16
+  offset: 0, 0
+  index: -1
+old-man/head
+  rotate: false
+  xy: 473, 41
+  size: 111, 85
+  orig: 111, 85
+  offset: 0, 0
+  index: -1
+old-man/headMirrored
+  rotate: false
+  xy: 586, 41
+  size: 111, 85
+  orig: 111, 85
+  offset: 0, 0
+  index: -1
+old-man/legPart1
+  rotate: false
+  xy: 1449, 96
+  size: 24, 30
+  orig: 24, 30
+  offset: 0, 0
+  index: -1
+old-man/legPart1Mirrored
+  rotate: true
+  xy: 593, 15
+  size: 24, 30
+  orig: 24, 30
+  offset: 0, 0
+  index: -1
+old-man/legPart2
+  rotate: false
+  xy: 1423, 95
+  size: 24, 31
+  orig: 24, 31
+  offset: 0, 0
+  index: -1
+old-man/legPart2Mirrored
+  rotate: true
+  xy: 560, 15
+  size: 24, 31
+  orig: 24, 31
+  offset: 0, 0
+  index: -1
+old-man/shoulder
+  rotate: true
+  xy: 699, 41
+  size: 19, 38
+  orig: 19, 38
+  offset: 0, 0
+  index: -1
+wagon/wagon
+  rotate: false
+  xy: 2, 70
+  size: 263, 56
+  orig: 263, 56
+  offset: 0, 0
+  index: -1
+wagon/wheel
+  rotate: false
+  xy: 793, 55
+  size: 73, 71
+  orig: 73, 71
+  offset: 0, 0
+  index: -1

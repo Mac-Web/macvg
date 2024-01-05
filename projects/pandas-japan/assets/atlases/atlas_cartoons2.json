@@ -1,0 +1,93 @@
+{"frames": {
+
+"cartoon13":
+{
+	"frame": {"x":1,"y":1,"w":567,"h":702},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":567,"h":702},
+	"sourceSize": {"w":567,"h":702},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"cartoon22":
+{
+	"frame": {"x":1,"y":705,"w":568,"h":693},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":568,"h":693},
+	"sourceSize": {"w":568,"h":693},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"cartoon23":
+{
+	"frame": {"x":711,"y":1119,"w":556,"h":691},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":556,"h":691},
+	"sourceSize": {"w":562,"h":695},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"cartoon32":
+{
+	"frame": {"x":1284,"y":1,"w":585,"h":674},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":585,"h":674},
+	"sourceSize": {"w":585,"h":674},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"cartoon33":
+{
+	"frame": {"x":1279,"y":677,"w":581,"h":656},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":581,"h":656},
+	"sourceSize": {"w":581,"h":656},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"cartoon41":
+{
+	"frame": {"x":1,"y":1400,"w":708,"h":548},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":708,"h":548},
+	"sourceSize": {"w":709,"h":548},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"cartoon42":
+{
+	"frame": {"x":1269,"y":1335,"w":700,"h":549},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":700,"h":549},
+	"sourceSize": {"w":700,"h":550},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"cartoon43":
+{
+	"frame": {"x":571,"y":560,"w":706,"h":557},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":706,"h":557},
+	"sourceSize": {"w":706,"h":558},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"cartoon44":
+{
+	"frame": {"x":570,"y":1,"w":712,"h":557},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":712,"h":557},
+	"sourceSize": {"w":712,"h":558},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "atlas_cartoons2.png",
+	"format": "RGBA8888",
+	"size": {"w":1970,"h":1949},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:577cc8e19670e5e6ddc8ff0352829b7e:60e5369b39848f893a6dc94e95f85b16:801aed7751f9b0e10d4514313eef8797$"
+}
+}

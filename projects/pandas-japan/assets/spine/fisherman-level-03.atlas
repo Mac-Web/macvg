@@ -1,0 +1,272 @@
+
+fisherman-level-03.png
+size: 512,512
+format: RGBA8888
+filter: MipMapNearestNearest,MipMapNearestLinear
+repeat: none
+ball
+  rotate: false
+  xy: 294, 399
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 412, 72
+  size: 63, 84
+  orig: 63, 84
+  offset: 0, 0
+  index: -1
+body0
+  rotate: false
+  xy: 105, 32
+  size: 87, 72
+  orig: 87, 72
+  offset: 0, 0
+  index: -1
+bucket_empty
+  rotate: true
+  xy: 407, 11
+  size: 59, 61
+  orig: 59, 61
+  offset: 0, 0
+  index: -1
+feet
+  rotate: false
+  xy: 194, 14
+  size: 66, 36
+  orig: 66, 36
+  offset: 0, 0
+  index: -1
+fish01Rotate0001
+  rotate: true
+  xy: 412, 158
+  size: 106, 46
+  orig: 106, 46
+  offset: 0, 0
+  index: -1
+fish02Rotate0001
+  rotate: false
+  xy: 297, 79
+  size: 112, 53
+  orig: 112, 53
+  offset: 0, 0
+  index: -1
+fish03Rotate0001
+  rotate: true
+  xy: 361, 134
+  size: 118, 49
+  orig: 118, 49
+  offset: 0, 0
+  index: -1
+fish04Rotate0001
+  rotate: true
+  xy: 442, 394
+  size: 116, 61
+  orig: 116, 61
+  offset: 0, 0
+  index: -1
+fish_in_backet
+  rotate: false
+  xy: 164, 274
+  size: 128, 135
+  orig: 128, 135
+  offset: 0, 0
+  index: -1
+fish_in_bucket2
+  rotate: true
+  xy: 194, 52
+  size: 66, 100
+  orig: 66, 100
+  offset: 0, 0
+  index: -1
+fishes
+  rotate: true
+  xy: 306, 398
+  size: 112, 134
+  orig: 112, 134
+  offset: 0, 0
+  index: -1
+fishes0
+  rotate: true
+  xy: 105, 106
+  size: 139, 87
+  orig: 139, 87
+  offset: 0, 0
+  index: -1
+fishes1
+  rotate: false
+  xy: 294, 274
+  size: 116, 122
+  orig: 116, 122
+  offset: 0, 0
+  index: -1
+fishes2
+  rotate: false
+  xy: 194, 120
+  size: 101, 132
+  orig: 101, 132
+  offset: 0, 0
+  index: -1
+hand_left0
+  rotate: false
+  xy: 460, 193
+  size: 19, 36
+  orig: 19, 36
+  offset: 0, 0
+  index: -1
+hand_left1
+  rotate: false
+  xy: 475, 275
+  size: 21, 37
+  orig: 21, 37
+  offset: 0, 0
+  index: -1
+hand_left2
+  rotate: false
+  xy: 176, 10
+  size: 16, 20
+  orig: 16, 20
+  offset: 0, 0
+  index: -1
+hand_right0
+  rotate: false
+  xy: 262, 14
+  size: 24, 36
+  orig: 24, 36
+  offset: 0, 0
+  index: -1
+hand_right1
+  rotate: true
+  xy: 460, 231
+  size: 41, 19
+  orig: 41, 19
+  offset: 0, 0
+  index: -1
+hand_right2
+  rotate: true
+  xy: 68, 32
+  size: 13, 19
+  orig: 13, 19
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 412, 274
+  size: 118, 61
+  orig: 118, 61
+  offset: 0, 0
+  index: -1
+head0
+  rotate: true
+  xy: 297, 134
+  size: 118, 62
+  orig: 118, 62
+  offset: 0, 0
+  index: -1
+leg_left0
+  rotate: false
+  xy: 68, 2
+  size: 52, 28
+  orig: 52, 28
+  offset: 0, 0
+  index: -1
+leg_left1
+  rotate: false
+  xy: 475, 354
+  size: 24, 38
+  orig: 24, 38
+  offset: 0, 0
+  index: -1
+leg_left2
+  rotate: true
+  xy: 460, 166
+  size: 25, 19
+  orig: 25, 19
+  offset: 0, 0
+  index: -1
+leg_right0
+  rotate: false
+  xy: 122, 2
+  size: 52, 28
+  orig: 52, 28
+  offset: 0, 0
+  index: -1
+leg_right1
+  rotate: false
+  xy: 475, 314
+  size: 24, 38
+  orig: 24, 38
+  offset: 0, 0
+  index: -1
+leg_right2
+  rotate: true
+  xy: 481, 205
+  size: 25, 19
+  orig: 25, 19
+  offset: 0, 0
+  index: -1
+line0
+  rotate: true
+  xy: 164, 254
+  size: 10, 236
+  orig: 10, 236
+  offset: 0, 0
+  index: -1
+line1
+  rotate: true
+  xy: 164, 266
+  size: 6, 257
+  orig: 6, 257
+  offset: 0, 0
+  index: -1
+line2
+  rotate: false
+  xy: 2, 247
+  size: 160, 162
+  orig: 160, 162
+  offset: 0, 0
+  index: -1
+rod
+  rotate: false
+  xy: 2, 411
+  size: 302, 99
+  orig: 302, 99
+  offset: 0, 0
+  index: -1
+sack_wood
+  rotate: false
+  xy: 296, 20
+  size: 109, 57
+  orig: 109, 57
+  offset: 0, 0
+  index: -1
+sak
+  rotate: false
+  xy: 2, 47
+  size: 101, 198
+  orig: 101, 198
+  offset: 0, 0
+  index: -1
+shadow0
+  rotate: false
+  xy: 2, 2
+  size: 64, 43
+  orig: 64, 43
+  offset: 0, 0
+  index: -1
+water_circle0
+  rotate: false
+  xy: 423, 266
+  size: 23, 6
+  orig: 23, 6
+  offset: 0, 0
+  index: -1
+water_circle1
+  rotate: true
+  xy: 481, 232
+  size: 41, 11
+  orig: 41, 11
+  offset: 0, 0
+  index: -1

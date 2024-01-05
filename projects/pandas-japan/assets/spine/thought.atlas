@@ -1,0 +1,27 @@
+
+thought.png
+size: 512,256
+format: RGBA8888
+filter: MipMapNearestNearest,MipMapNearestLinear
+repeat: none
+bigOval
+  rotate: false
+  xy: 2, 26
+  size: 254, 171
+  orig: 254, 171
+  offset: 0, 0
+  index: -1
+mediumOval
+  rotate: false
+  xy: 2, 2
+  size: 29, 22
+  orig: 29, 22
+  offset: 0, 0
+  index: -1
+smallOval
+  rotate: false
+  xy: 258, 184
+  size: 15, 13
+  orig: 15, 13
+  offset: 0, 0
+  index: -1

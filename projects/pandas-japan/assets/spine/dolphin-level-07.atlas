@@ -1,0 +1,139 @@
+
+dolphin-level-07.png
+size: 2048,256
+format: RGBA8888
+filter: MipMapNearestNearest,MipMapNearestLinear
+repeat: none
+body
+  rotate: true
+  xy: 1767, 60
+  size: 190, 201
+  orig: 190, 201
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 1970, 87
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+fish
+  rotate: true
+  xy: 2, 2
+  size: 22, 70
+  orig: 22, 70
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 1488, 76
+  size: 60, 61
+  orig: 60, 61
+  offset: 0, 0
+  index: -1
+lowerFin
+  rotate: false
+  xy: 1970, 113
+  size: 34, 83
+  orig: 34, 83
+  offset: 0, 0
+  index: -1
+lowerJaw
+  rotate: false
+  xy: 1414, 63
+  size: 72, 74
+  orig: 72, 74
+  offset: 0, 0
+  index: -1
+lowerTailFin
+  rotate: true
+  xy: 1414, 29
+  size: 32, 57
+  orig: 32, 57
+  offset: 0, 0
+  index: -1
+splash0001
+  rotate: false
+  xy: 2, 26
+  size: 351, 111
+  orig: 351, 111
+  offset: 0, 0
+  index: -1
+splash0002
+  rotate: false
+  xy: 355, 139
+  size: 351, 111
+  orig: 351, 111
+  offset: 0, 0
+  index: -1
+splash0003
+  rotate: false
+  xy: 355, 26
+  size: 351, 111
+  orig: 351, 111
+  offset: 0, 0
+  index: -1
+splash0004
+  rotate: false
+  xy: 708, 139
+  size: 351, 111
+  orig: 351, 111
+  offset: 0, 0
+  index: -1
+splash0005
+  rotate: false
+  xy: 708, 26
+  size: 351, 111
+  orig: 351, 111
+  offset: 0, 0
+  index: -1
+splash0006
+  rotate: false
+  xy: 1061, 139
+  size: 351, 111
+  orig: 351, 111
+  offset: 0, 0
+  index: -1
+splash0007
+  rotate: false
+  xy: 1061, 26
+  size: 351, 111
+  orig: 351, 111
+  offset: 0, 0
+  index: -1
+splash0008
+  rotate: false
+  xy: 1414, 139
+  size: 351, 111
+  orig: 351, 111
+  offset: 0, 0
+  index: -1
+splash0009
+  rotate: false
+  xy: 2, 139
+  size: 351, 111
+  orig: 351, 111
+  offset: 0, 0
+  index: -1
+upperFin
+  rotate: false
+  xy: 1550, 95
+  size: 70, 42
+  orig: 70, 42
+  offset: 0, 0
+  index: -1
+upperJaw
+  rotate: false
+  xy: 1970, 198
+  size: 74, 52
+  orig: 74, 52
+  offset: 0, 0
+  index: -1
+upperTailFin
+  rotate: true
+  xy: 2006, 139
+  size: 57, 32
+  orig: 57, 32
+  offset: 0, 0
+  index: -1

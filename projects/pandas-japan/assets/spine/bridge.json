@@ -1,0 +1,63 @@
+{
+"skeleton": { "hash": "cC7YHwiB/C6lED9XpTrd2NL51jA", "spine": "3.6.52", "width": 329.74, "height": 256.09, "images": "./Images/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bridge", "parent": "root", "rotation": 39, "x": 70, "y": -45 },
+	{ "name": "cross", "parent": "root", "x": 202, "y": 14 },
+	{ "name": "rope", "parent": "bridge", "x": 16.14, "y": 141.22 }
+],
+"slots": [
+	{ "name": "rope_for_bridge", "bone": "rope", "attachment": "rope_for_bridge" },
+	{ "name": "bridge", "bone": "bridge", "attachment": "bridge" },
+	{ "name": "cross", "bone": "bridge", "attachment": "cross_for_bridge" },
+	{ "name": "cross_for_bridge", "bone": "cross", "attachment": "cross_for_bridge" }
+],
+"skins": {
+	"default": {
+		"bridge": {
+			"bridge": { "x": 15.64, "y": 135.31, "width": 47, "height": 287 }
+		},
+		"cross": {
+			"cross_for_bridge": { "x": 15.53, "y": 143.12, "rotation": -55, "width": 23, "height": 23 }
+		},
+		"cross_for_bridge": {
+			"cross_for_bridge": { "y": -1, "rotation": 39, "width": 23, "height": 23 }
+		},
+		"rope_for_bridge": {
+			"rope_for_bridge": { "x": 64.94, "y": -83.47, "width": 127, "height": 182 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"slots": {
+			"cross_for_bridge": {
+				"attachment": [
+					{ "time": 0, "name": "cross_for_bridge" },
+					{ "time": 0.0333, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bridge": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2667, "angle": 58 },
+					{ "time": 0.3333, "angle": 52 },
+					{ "time": 0.4, "angle": 58 }
+				]
+			},
+			"rope": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3667, "angle": -101 },
+					{ "time": 0.4333, "angle": -133 },
+					{ "time": 0.5667, "angle": -141 },
+					{ "time": 0.6667, "angle": -127 },
+					{ "time": 0.7333, "angle": -131 }
+				]
+			}
+		}
+	}
+}
+}

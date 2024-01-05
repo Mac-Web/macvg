@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:89fc3a2fe8f778344a5e9445c0969aa0:2d9f79bfb194b7029e533df6458886f7:ba1201ad2da1ebf2763dd815923bcb50$ -->
+<TextureAtlas imagePath="Atlas0.png">
+    <SubTexture name="10x_icon" x="897" y="976" width="260" height="188"/>
+    <SubTexture name="10x_icon_sel" x="1633" y="1041" width="326" height="237"/>
+    <SubTexture name="5x_icon" x="897" y="1165" width="260" height="188"/>
+    <SubTexture name="5x_icon_sel" x="243" y="912" width="326" height="237"/>
+    <SubTexture name="ChangeOvl-1" x="1" y="912" width="241" height="241" frameX="-5" frameY="-4" frameWidth="250" frameHeight="250"/>
+    <SubTexture name="CloseWindowOverlay-1" x="1115" y="1354" width="35" height="35"/>
+    <SubTexture name="RasteredBM1" x="895" y="1354" width="179" height="166"/>
+    <SubTexture name="RasteredBM6" x="570" y="912" width="466" height="48"/>
+    <SubTexture name="RasteredBM7X" x="231" y="1279" width="45" height="59"/>
+    <SubTexture name="RasteredBM8-1" x="1" y="1232" width="165" height="46" frameX="-14" frameY="-33" frameWidth="188" frameHeight="139"/>
+    <SubTexture name="RasteredBM8" x="518" y="1401" width="49" height="49"/>
+    <SubTexture name="TableDigits_0" x="2035" y="14" width="9" height="11"/>
+    <SubTexture name="TableDigits_1" x="2042" y="122" width="5" height="11"/>
+    <SubTexture name="TableDigits_2" x="2035" y="26" width="9" height="11"/>
+    <SubTexture name="TableDigits_3" x="2035" y="86" width="8" height="11"/>
+    <SubTexture name="TableDigits_4" x="2035" y="38" width="9" height="11"/>
+    <SubTexture name="TableDigits_5" x="2035" y="98" width="8" height="11"/>
+    <SubTexture name="TableDigits_6" x="2035" y="50" width="9" height="11"/>
+    <SubTexture name="TableDigits_7" x="2035" y="110" width="8" height="11"/>
+    <SubTexture name="TableDigits_8" x="2035" y="62" width="9" height="11"/>
+    <SubTexture name="TableDigits_9" x="2035" y="74" width="9" height="11"/>
+    <SubTexture name="TableDigits_Def" x="2042" y="134" width="5" height="2"/>
+    <SubTexture name="TableDigits_LS" x="2035" y="122" width="6" height="13"/>
+    <SubTexture name="TableDigits_X" x="2035" y="1" width="10" height="12"/>
+    <SubTexture name="TournamentBtnImg" x="307" y="1339" width="143" height="143"/>
+    <SubTexture name="TranspBl" x="2046" y="1" width="1" height="1" frameX="0" frameY="0" frameWidth="14" frameHeight="14"/>
+    <SubTexture name="bowlingClassicLogo" x="1633" y="684" width="411" height="356"/>
+    <SubTexture name="bowling_bg" x="1162" y="600" width="470" height="565"/>
+    <SubTexture name="btnD_winner1-1" x="568" y="1437" width="269" height="179"/>
+    <SubTexture name="btnD_winner1_1" x="1" y="1637" width="269" height="179"/>
+    <SubTexture name="btnD_winner2-1" x="1" y="1817" width="269" height="179"/>
+    <SubTexture name="btnD_winner2_1" x="1150" y="1404" width="269" height="179"/>
+    <SubTexture name="btnDarts_1p" x="307" y="1483" width="179" height="166"/>
+    <SubTexture name="btnDarts_2p" x="1420" y="1404" width="179" height="166"/>
+    <SubTexture name="btnDarts_Sound" x="838" y="1521" width="179" height="166"/>
+    <SubTexture name="btnDarts_SoundOff" x="1600" y="1411" width="179" height="166"/>
+    <SubTexture name="btnDarts_home" x="1420" y="1571" width="179" height="166"/>
+    <SubTexture name="btnDarts_pause" x="1780" y="1474" width="179" height="166"/>
+    <SubTexture name="btnDarts_play" x="1600" y="1578" width="179" height="166"/>
+    <SubTexture name="btnDarts_replay" x="1780" y="1641" width="179" height="166"/>
+    <SubTexture name="cursor" x="518" y="1344" width="49" height="56"/>
+    <SubTexture name="difcltyIcon_1" x="1761" y="369" width="273" height="178"/>
+    <SubTexture name="difcltyIcon_1_sel" x="570" y="961" width="326" height="237"/>
+    <SubTexture name="difcltyIcon_2" x="1761" y="1" width="273" height="184"/>
+    <SubTexture name="difcltyIcon_2_sel" x="568" y="1199" width="326" height="237"/>
+    <SubTexture name="difcltyIcon_3" x="1761" y="186" width="273" height="182"/>
+    <SubTexture name="difcltyIcon_3_sel" x="1158" y="1166" width="326" height="237"/>
+    <SubTexture name="digitsBold_0" x="167" y="1232" width="47" height="43"/>
+    <SubTexture name="digitsBold_1" x="323" y="1276" width="22" height="41"/>
+    <SubTexture name="digitsBold_2" x="388" y="1296" width="39" height="42"/>
+    <SubTexture name="digitsBold_3" x="215" y="1232" width="44" height="43"/>
+    <SubTexture name="digitsBold_4" x="1995" y="1408" width="45" height="41"/>
+    <SubTexture name="digitsBold_5" x="346" y="1296" width="41" height="42"/>
+    <SubTexture name="digitsBold_6" x="260" y="1232" width="43" height="43"/>
+    <SubTexture name="digitsBold_7" x="1075" y="1354" width="39" height="41"/>
+    <SubTexture name="digitsBold_8" x="304" y="1232" width="43" height="43"/>
+    <SubTexture name="digitsBold_9" x="1995" y="1450" width="43" height="43"/>
+    <SubTexture name="digitsBold_r_0" x="1960" y="1276" width="71" height="65"/>
+    <SubTexture name="digitsBold_r_1" x="130" y="1279" width="33" height="62"/>
+    <SubTexture name="digitsBold_r_2" x="1548" y="1303" width="59" height="63"/>
+    <SubTexture name="digitsBold_r_3" x="451" y="1344" width="66" height="65"/>
+    <SubTexture name="digitsBold_r_4" x="1" y="1279" width="68" height="62"/>
+    <SubTexture name="digitsBold_r_5" x="1485" y="1303" width="62" height="63"/>
+    <SubTexture name="digitsBold_r_6" x="451" y="1410" width="65" height="65"/>
+    <SubTexture name="digitsBold_r_7" x="70" y="1279" width="59" height="62"/>
+    <SubTexture name="digitsBold_r_8" x="1959" y="1342" width="65" height="65"/>
+    <SubTexture name="digitsBold_r_9" x="1929" y="1408" width="65" height="65"/>
+    <SubTexture name="firework1" x="1115" y="1390" width="34" height="35" frameX="-1" frameY="-2" frameWidth="36" frameHeight="38"/>
+    <SubTexture name="firework2" x="1929" y="1279" width="30" height="30" frameX="-2" frameY="-4" frameWidth="36" frameHeight="38"/>
+    <SubTexture name="firework3" x="1929" y="1310" width="29" height="37" frameX="-3" frameY="-1" frameWidth="36" frameHeight="38"/>
+    <SubTexture name="firework4" x="1115" y="1390" width="34" height="35" frameX="-1" frameY="-2" frameWidth="36" frameHeight="38"/>
+    <SubTexture name="firework5" x="1929" y="1279" width="30" height="30" frameX="-2" frameY="-4" frameWidth="36" frameHeight="38"/>
+    <SubTexture name="firework6" x="1929" y="1310" width="29" height="37" frameX="-3" frameY="-1" frameWidth="36" frameHeight="38"/>
+    <SubTexture name="kubok" x="1485" y="1166" width="142" height="136"/>
+    <SubTexture name="lights" x="1" y="1342" width="305" height="294"/>
+    <SubTexture name="lightsLogo" x="1162" y="1" width="598" height="598"/>
+    <SubTexture name="lights_center" x="1" y="1" width="1160" height="910"/>
+    <SubTexture name="score_icon" x="1960" y="1041" width="87" height="114"/>
+    <SubTexture name="tabel_1" x="277" y="1279" width="45" height="59"/>
+    <SubTexture name="tabel_1_1" x="164" y="1279" width="66" height="59"/>
+    <SubTexture name="tutor_hand2" x="1960" y="1156" width="83" height="119"/>
+    <SubTexture name="x0" x="1633" y="600" width="117" height="65"/>
+    <SubTexture name="x1" x="457" y="1280" width="92" height="63"/>
+    <SubTexture name="x2" x="457" y="1215" width="109" height="64"/>
+    <SubTexture name="x3" x="1" y="1166" width="113" height="65"/>
+    <SubTexture name="x4" x="1037" y="912" width="115" height="63"/>
+    <SubTexture name="x5" x="457" y="1150" width="110" height="64"/>
+    <SubTexture name="x6" x="115" y="1166" width="113" height="65"/>
+    <SubTexture name="x7" x="348" y="1232" width="108" height="63"/>
+    <SubTexture name="x8" x="229" y="1166" width="113" height="65"/>
+    <SubTexture name="x9" x="343" y="1166" width="113" height="65"/>
+    <SubTexture name="x_spare" x="1761" y="548" width="272" height="135"/>
+    <SubTexture name="x_strike" x="1628" y="1279" width="300" height="131"/>
+</TextureAtlas>

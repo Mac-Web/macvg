@@ -1,0 +1,97 @@
+
+bucket-level-03.png
+size: 2048,128
+format: RGBA8888
+filter: MipMapNearestNearest,MipMapNearestLinear
+repeat: none
+bottom
+  rotate: false
+  xy: 1227, 112
+  size: 39, 14
+  orig: 39, 14
+  offset: 0, 0
+  index: -1
+bucketGlow
+  rotate: true
+  xy: 1115, 34
+  size: 92, 110
+  orig: 92, 110
+  offset: 0, 0
+  index: -1
+centerBack
+  rotate: false
+  xy: 64, 2
+  size: 56, 53
+  orig: 56, 53
+  offset: 0, 0
+  index: -1
+centerFront
+  rotate: false
+  xy: 2, 2
+  size: 60, 53
+  orig: 60, 53
+  offset: 0, 0
+  index: -1
+food
+  rotate: false
+  xy: 1227, 98
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+handle
+  rotate: false
+  xy: 122, 32
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+splash0001
+  rotate: false
+  xy: 2, 57
+  size: 157, 69
+  orig: 157, 69
+  offset: 0, 0
+  index: -1
+splash0002
+  rotate: false
+  xy: 161, 57
+  size: 157, 69
+  orig: 157, 69
+  offset: 0, 0
+  index: -1
+splash0003
+  rotate: false
+  xy: 320, 57
+  size: 157, 69
+  orig: 157, 69
+  offset: 0, 0
+  index: -1
+splash0004
+  rotate: false
+  xy: 479, 57
+  size: 157, 69
+  orig: 157, 69
+  offset: 0, 0
+  index: -1
+splash0005
+  rotate: false
+  xy: 638, 57
+  size: 157, 69
+  orig: 157, 69
+  offset: 0, 0
+  index: -1
+splash0006
+  rotate: false
+  xy: 797, 57
+  size: 157, 69
+  orig: 157, 69
+  offset: 0, 0
+  index: -1
+splash0007
+  rotate: false
+  xy: 956, 57
+  size: 157, 69
+  orig: 157, 69
+  offset: 0, 0
+  index: -1

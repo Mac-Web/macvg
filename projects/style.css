@@ -21,7 +21,7 @@ body {
 .game-container {
   display: flex;
   justify-content: center;
-  padding-top: 10px;
+  padding-top: 0.5vw;
 }
 
 iframe {
@@ -71,6 +71,13 @@ iframe {
   list-style-type: square;
 }
 
+.infos {
+  width: 95%;
+  margin-inline: 2.5%;
+  margin-top: 1vw;
+  height: 26vw;
+}
+
 .tool-bar {
   background-color: var(--black-color);
   padding-block: 8px;
@@ -82,6 +89,7 @@ iframe {
   align-items: center;
   position: relative;
   padding-inline: 20px;
+  height: 3vw;
 }
 
 .tool-bar img {
@@ -204,6 +212,7 @@ iframe {
   flex-direction: column;
   color: white;
   padding-block: 10px;
+  height: 16vw;
 }
 
 .nav-link {
@@ -2664,5 +2673,32 @@ hr {
       rgba(40, 40, 40, 0.85)
     ),
     url("/macvg/projects/monkey-mart/logo.jpg");
+  background-position: center;
+}
+
+#game324 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("/macvg/projects/run-3/logo.png");
+  background-position: center;
+}
+
+#game325 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("/macvg/projects/volley-random/splash.png");
+  background-position: center;
+}
+
+#game326 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("/macvg/projects/vex8/assets/icon.png");
   background-position: center;
 }

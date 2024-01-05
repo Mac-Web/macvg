@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
 function gotIt() {
   const tip = document.querySelector(".tip");
   tip.style.display = "none";
-  localStorage.setItem("ccse", "yes");
+  localStorage.setItem("cccse", "yes");
 }
 
 function search() {

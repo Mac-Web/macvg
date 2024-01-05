@@ -172,28 +172,6 @@ document.addEventListener("DOMContentLoaded", function () {
   let thing23 = document.getElementById("current");
   let panicKeys = localStorage.getItem("panic");
   let href = localStorage.getItem("href");
-  const chat = document.getElementsByTagName("a");
-  let thing = Array.from(chat);
-  thing.forEach(function (things) {
-    if (things.innerHTML === "Chat") {
-      things.style.backgroundColor = "red";
-      things.style.borderRadius = "15px";
-      things.style.paddingBlock = "8px";
-      things.style.position = "absolute";
-      things.style.right = "250px";
-      things.style.textShadow = "0px 0px 10px black"
-      things.style.transition = "background-color 1s ease";
-      setInterval(function () {
-        color(things);
-      }, 1500);
-      
-    }
-  })
   thing23.innerHTML =
     "Current key: " + panicKeys + "<br>" + " Redirecting: " + href;
-  thing23.style.fontWeight = "bold";
-  thing23.style.color = "gold";
-  function color(element) {
-    element.classList.toggle("glow");
-  }
 });

@@ -3054,3 +3054,94 @@ hr {
     url("projects/run-3/logo.png");
   background-position: center;
 }
+
+#game325 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/volley-random/splash.png");
+  background-position: center;
+}
+
+#game326 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/vex8/assets/icon.png");
+  background-position: center;
+}
+
+#game327 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/drift-boss/drift-boss.png");
+  background-position: center;
+}
+
+#game328 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/3d-bowling/logo.jpg");
+  background-position: center;
+}
+
+#game329 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/color-match/splash.png");
+  background-position: center;
+}
+
+#game330 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/pandas-japan/logo.jpg");
+  background-position: center;
+}
+
+#game331 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/8-ball/tmp/8BallBilliardsClassicTeaser.jpg");
+  background-position: center;
+}
+
+
+#game332 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/adam-eve/logo.jpg");
+  background-position: center;
+}
+
+#game333 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/adam-eve-2/logo.jpg");
+  background-position: center;
+}
+
+#game334 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/apple-shooter/Untitled.jpg");
+  background-position: center;
+}

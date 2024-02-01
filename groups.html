@@ -28,27 +28,20 @@
     <script src="/macvg/app.js"></script>
   </head>
   <body>
-    <nav class="nav">
-      <a href="/macvg/" class="logo2" style="background-color: var(--black-color)">
-        <img src="/macvg/macvg-logo.png" alt="MacVG Logo" />
-        <a href="/macvg/new.html" class="nav-link">New</a></a
-      ><a href="/macvg/trending.html" class="nav-link">Trending</a
-      ><a href="/macvg/groups.html" class="nav-link">Groups</a
-      ><a href="/macvg/bot.html" class="nav-link chat-btn">Chat</a
-      ><a href="/macvg/projects/macboard/" class="nav-link">MacBoard</a
-      ><a href="/macvg/settings.html" class="nav-link">Settings</a>
+    <nav class="nav" id="nav">
       <a
-        href="https://forms.gle/fpnxZqiK3SFrzUdSA"
-        target="_blank"
-        style="color: white"
-        id="feedback"
-        title="Feedback"
-        ><i
-          class="fa-solid fa-comment"
-          style="color: #ffffff; background-color: transparent"
-        ></i
-      ></a>
-      <div id="select">
+        href="/macvg/"
+        class="logo2"
+        style="background-color: var(--black-color)"
+      >
+        <img src="/macvg/macvg-logo.png" alt="MacVG Logo" />
+        <a href="new.html" class="nav-link">New</a></a
+      ><a href="trending.html" class="nav-link">Trending</a
+      ><a href="groups.html" class="nav-link">Groups</a
+      ><a href="recent.html" class="nav-link">Recent</a
+      ><a href="/macvg/originals/" class="nav-link">Originals</a
+      ><a href="/macvg/settings.html" class="nav-link">Settings</a>
+      <div class="select">
         <span id="header123">Catagories</span>
         <ul id="cats">
           <a href="featured.html">Featured</a>
@@ -58,7 +51,40 @@
           <a href="casual.html">Casual</a>
         </ul>
       </div>
+      <div class="select">
+        <span id="header123">Help</span>
+        <ul id="cats">
+          <a href="/macblog/projects/macvg/" target="_blank">About</a>
+          <a href="/macblog/updates/macvg/" target="_blank">Updates</a>
+          <a href="/macblog/projects/macvg/" target="_blank">Docs</a>
+          <a href="https://forms.gle/UpHgbAmLtUPCD5bs8" target="_blank">Feedback</a>
+        </ul>
+      </div>
     </nav>
+
+    <div class="announce">
+      <h2>
+        Check out the
+        <a href="/macblog/updates/macvg/2024/february.html" target="_blank"
+          >MacVG February Update</a
+        >: New games, new looks, and new features!
+        <img src="/maclearn/xmark-solid.svg" alt="Close" id="closea" />
+      </h2>
+    </div>
+
+    <script>
+      let clos = document.getElementById("closea");
+      if (localStorage.getItem("macvgclose")) {
+        clos.parentElement.parentElement.style.display = "none";
+      }
+    </script>
+    <div class="macsidebar" id="sidebar">
+      <a href="/"><img src="/logo.png" alt="" /></a>
+      <a href="/maclearn/"><img src="/MacLearn Logo.png" alt="" /></a>
+      <a href="/mactime/"><img src="/MacTime Logo.png" alt="" /></a>
+      <a href="/macvg/"><img src="/MacVG Logo.png" alt="" /></a>
+      <a href="/macblog/"><img src="/MacBlog Logo.png" alt="" /></a>
+    </div>
     <div class="wrap" style="padding-bottom: 40px">
       <style>
         #feedback {
@@ -142,6 +168,9 @@
               Series</label
             >
             <div class="group-contain">
+              <a href="/macvg/projects/dino-bros/" class="game" id="game349">
+                Dino Bros
+              </a>
               <a href="projects/drive-mad/" class="game" id="game75">
                 Drive Mad
               </a>
@@ -394,9 +423,11 @@
           </li>
         </ul>
       </div>
+      <!--
       <button class="add-group">
         <img src="/maclist/add.svg" />Add a Group (Coming in February Update)
       </button>
+    -->
     </div>
     <footer class="footer">
       © 2024 <a href="/">MacWeb</a

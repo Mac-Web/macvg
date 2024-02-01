@@ -1,8 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-  
   const thing = document.getElementById("macvg-pop");
   thing.style.display = "none";
-})
+});
 /*
 document.addEventListener("keydown", (event) => {
   let panicKeys = localStorage.getItem("panic");

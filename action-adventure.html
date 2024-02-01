@@ -22,27 +22,20 @@
     <script src="app.js"></script>
   </head>
   <body>
-    <nav class="nav">
-      <a href="/macvg/" class="logo2" style="background-color: var(--black-color)">
-        <img src="/macvg/macvg-logo.png" alt="MacVG Logo" />
-        <a href="/macvg/new.html" class="nav-link">New</a></a
-      ><a href="/macvg/trending.html" class="nav-link">Trending</a
-      ><a href="/macvg/groups.html" class="nav-link">Groups</a
-      ><a href="/macvg/bot.html" class="nav-link chat-btn">Chat</a
-        ><a href="/macvg/projects/macboard/" class="nav-link">MacBoard</a
-      ><a href="/macvg/settings.html" class="nav-link">Settings</a>
+    <nav class="nav" id="nav">
       <a
-        href="https://forms.gle/fpnxZqiK3SFrzUdSA"
-        target="_blank"
-        style="color: white"
-        id="feedback"
-        title="Feedback"
-        ><i
-          class="fa-solid fa-comment"
-          style="color: #ffffff; background-color: transparent"
-        ></i
-      ></a>
-      <div id="select">
+        href="/macvg/"
+        class="logo2"
+        style="background-color: var(--black-color)"
+      >
+        <img src="/macvg/macvg-logo.png" alt="MacVG Logo" />
+        <a href="new.html" class="nav-link">New</a></a
+      ><a href="trending.html" class="nav-link">Trending</a
+      ><a href="groups.html" class="nav-link">Groups</a
+      ><a href="recent.html" class="nav-link">Recent</a
+      ><a href="/macvg/originals/" class="nav-link">Originals</a
+      ><a href="/macvg/settings.html" class="nav-link">Settings</a>
+      <div class="select">
         <span id="header123">Catagories</span>
         <ul id="cats">
           <a href="featured.html">Featured</a>
@@ -52,18 +45,40 @@
           <a href="casual.html">Casual</a>
         </ul>
       </div>
+      <div class="select">
+        <span id="header123">Help</span>
+        <ul id="cats">
+          <a href="/macblog/projects/macvg/" target="_blank">About</a>
+          <a href="/macblog/updates/macvg/" target="_blank">Updates</a>
+          <a href="/macblog/projects/macvg/" target="_blank">Docs</a>
+          <a href="https://forms.gle/UpHgbAmLtUPCD5bs8" target="_blank">Feedback</a>
+        </ul>
+      </div>
     </nav>
-    <style>
-      #feedback {
-        color: white;
-        text-decoration: none;
-        position: absolute;
-        margin: none;
-        top: 4px;
-        right: 0px;
-        margin-inline: 10px;
+
+    <div class="announce">
+      <h2>
+        Check out the
+        <a href="/macblog/updates/macvg/2024/february.html" target="_blank"
+          >MacVG February Update</a
+        >: New games, new looks, and new features!
+        <img src="/maclearn/xmark-solid.svg" alt="Close" id="closea" />
+      </h2>
+    </div>
+
+    <script>
+      let clos = document.getElementById("closea");
+      if (localStorage.getItem("macvgclose")) {
+        clos.parentElement.parentElement.style.display = "none";
       }
-    </style>
+    </script>
+    <div class="macsidebar" id="sidebar">
+      <a href="/"><img src="/logo.png" alt="" /></a>
+      <a href="/maclearn/"><img src="/MacLearn Logo.png" alt="" /></a>
+      <a href="/mactime/"><img src="/MacTime Logo.png" alt="" /></a>
+      <a href="/macvg/"><img src="/MacVG Logo.png" alt="" /></a>
+      <a href="/macblog/"><img src="/MacBlog Logo.png" alt="" /></a>
+    </div>
 <div class="wrap" style="padding-bottom: 40px;">
     <header class="homeheader">
       <div class="title">Action and Adventure Games</div>
@@ -110,8 +125,9 @@
       <a href="/macvg/projects/apple-shooter/" class="game" id="game334">
         Apple Shooter
       </a>
+      <a href="/macvg/projects/arcane-archer/" class="game" id="game338"> Arcane Archer </a>
       <a href="projects/avalanche/" class="game" id="game19"> Avalanche </a>
-
+      <a href="/macvg/projects/awesome-tanks-2/" class="game" id="game337"> Awesome Tanks 2 </a>
       <a href="projects/backrooms/" class="game" id="game20"> Backrooms </a>
       <a
           href="projects/backrooms-2d/"
@@ -135,10 +151,12 @@
       <a href="projects/blackknight/" class="game" id="game32">
         Black Knight
       </a>
+      <a href="/macvg/projects/blumgi-slime/" class="game" id="game348"> Blumgi Slime </a>
       <a href="projects/bobtherobber2/" class="game" id="game36">
         Bob the Robber 2
       </a>
       <a href="projects/boxhead2play/" class="game" id="game37"> Box Head </a>
+      <a href="/macvg/projects/boxel-rebound/" class="game" id="game347">Boxel Rebound</a>
       <a href="projects/champion-island/" class="game" id="game46">
         Champion Island
       </a>
@@ -203,6 +221,9 @@
       <a href="projects/helicopter/" class="game" id="game120"> Helicopter </a>
       <a href="projects/hungry-lamu/" class="game" id="game124">
         Hungry Lamu
+      </a>
+      <a href="/macvg/projects/infinite-soccer/" class="game" id="game336">
+        Infinite Soccer
       </a>
       <a
           href="projects/iron-snout/"

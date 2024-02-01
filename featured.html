@@ -27,27 +27,20 @@
     />
   </head>
   <body>
-    <nav class="nav">
-      <a href="/macvg/" class="logo2" style="background-color: var(--black-color)">
-        <img src="/macvg/macvg-logo.png" alt="MacVG Logo" />
-        <a href="/macvg/new.html" class="nav-link">New</a></a
-      ><a href="/macvg/trending.html" class="nav-link">Trending</a
-      ><a href="/macvg/groups.html" class="nav-link">Groups</a
-      ><a href="/macvg/bot.html" class="nav-link chat-btn">Chat</a
-        ><a href="/macvg/projects/macboard/" class="nav-link">MacBoard</a
-      ><a href="/macvg/settings.html" class="nav-link">Settings</a>
+    <nav class="nav" id="nav">
       <a
-        href="https://forms.gle/fpnxZqiK3SFrzUdSA"
-        target="_blank"
-        style="color: white"
-        id="feedback"
-        title="Feedback"
-        ><i
-          class="fa-solid fa-comment"
-          style="color: #ffffff; background-color: transparent"
-        ></i
-      ></a>
-      <div id="select">
+        href="/macvg/"
+        class="logo2"
+        style="background-color: var(--black-color)"
+      >
+        <img src="/macvg/macvg-logo.png" alt="MacVG Logo" />
+        <a href="new.html" class="nav-link">New</a></a
+      ><a href="trending.html" class="nav-link">Trending</a
+      ><a href="groups.html" class="nav-link">Groups</a
+      ><a href="recent.html" class="nav-link">Recent</a
+      ><a href="/macvg/originals/" class="nav-link">Originals</a
+      ><a href="/macvg/settings.html" class="nav-link">Settings</a>
+      <div class="select">
         <span id="header123">Catagories</span>
         <ul id="cats">
           <a href="featured.html">Featured</a>
@@ -57,18 +50,40 @@
           <a href="casual.html">Casual</a>
         </ul>
       </div>
+      <div class="select">
+        <span id="header123">Help</span>
+        <ul id="cats">
+          <a href="/macblog/projects/macvg/" target="_blank">About</a>
+          <a href="/macblog/updates/macvg/" target="_blank">Updates</a>
+          <a href="/macblog/projects/macvg/" target="_blank">Docs</a>
+          <a href="https://forms.gle/UpHgbAmLtUPCD5bs8" target="_blank">Feedback</a>
+        </ul>
+      </div>
     </nav>
-    <style>
-      #feedback {
-        color: white;
-        text-decoration: none;
-        position: absolute;
-        margin: none;
-        top: 4px;
-        right: 0px;
-        margin-inline: 10px;
+
+    <div class="announce">
+      <h2>
+        Check out the
+        <a href="/macblog/updates/macvg/2024/february.html" target="_blank"
+          >MacVG February Update</a
+        >: New games, new looks, and new features!
+        <img src="/maclearn/xmark-solid.svg" alt="Close" id="closea" />
+      </h2>
+    </div>
+
+    <script>
+      let clos = document.getElementById("closea");
+      if (localStorage.getItem("macvgclose")) {
+        clos.parentElement.parentElement.style.display = "none";
       }
-    </style>
+    </script>
+    <div class="macsidebar" id="sidebar">
+      <a href="/"><img src="/logo.png" alt="" /></a>
+      <a href="/maclearn/"><img src="/MacLearn Logo.png" alt="" /></a>
+      <a href="/mactime/"><img src="/MacTime Logo.png" alt="" /></a>
+      <a href="/macvg/"><img src="/MacVG Logo.png" alt="" /></a>
+      <a href="/macblog/"><img src="/MacBlog Logo.png" alt="" /></a>
+    </div>
     <div class="wrap" style="padding-bottom: 40px">
       <header class="homeheader">
         <div class="title">Featured Games</div>
@@ -89,6 +104,7 @@
       </header>
 
       <div class="games-container" id="list">
+        <a href="/macvg/projects/1v1lol/" class="game" id="game2"> 1v1.lol </a>
         <a href="projects/2048/" class="game" id="game6"> 2048 </a>
         <a href="projects/achievementunlocked/" class="game" id="game9">
           Achievement Unlocked
@@ -99,6 +115,9 @@
         <a href="projects/bad-ice-cream/" class="game" id="game21">
           Bad Ice Cream
         </a>
+        <a href="/macvg/projects/basket-and-ball/" class="game" id="game345">
+          Basket and Ball
+        </a>
         <a href="projects/basketball-stars/" class="game" id="game26">
           Basketball Stars
         </a>
@@ -107,9 +126,6 @@
           Black Hole Square
         </a>
         <a href="projects/bloxors/" class="game" id="game35"> Bloxors </a>
-        <a href="projects/boxing-random/" class="game" id="game38">
-          Boxing Random
-        </a>
         <a href="projects/btts/" class="game" id="game40">
           Big Tower Tiny Square
         </a>
@@ -194,7 +210,6 @@
         <a href="projects/tag/" class="game" id="game316">
           Tag
         </a>
-        <a href="projects/thebattle" class="game" id="game247"> The Battle </a>
 
         <a href="projects/the-final-earth" class="game" id="game248">
           The Final Earth

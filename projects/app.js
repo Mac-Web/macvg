@@ -1,27 +1,43 @@
 document.addEventListener("DOMContentLoaded", function () {
+  let nameabc = document.getElementById("macvgmacvg").getAttribute("name");
+  let eRecent = localStorage.getItem("macvgRecents");
+  if (eRecent === null) {
+    eRecent = "bruh";
+  }
+  let recentArray = eRecent.split(",");
+  if (!recentArray.includes(nameabc)) {
+    recentArray.push(nameabc);
+    eRecent = recentArray.join(",");
+    localStorage.setItem("macvgRecents", eRecent);
+  }
+});
+
+document.addEventListener("DOMContentLoaded", function () {
   let thing87638 = setInterval(() => {
     let theme = localStorage.getItem("theme");
-    console.log(theme);
-  if (theme === "light") {
-    const root = document.documentElement;
-    root.style.setProperty("--text-color", "black");
-  root.style.setProperty("--shadow-color", "rgb(84, 84, 84)");
-  root.style.setProperty("--black-color", "white");
-  root.style.setProperty("--bg-color", "rgb(225, 225, 225)");
-  root.style.setProperty("--bg-color-2", "rgb(30, 30, 30)");
-  root.style.setProperty("--group-bg-color", "rgb(140, 140, 140, 0.7)");
-  } else {
-    const root = document.documentElement;
-    root.style.setProperty("--text-color", "white");
-    root.style.setProperty("--shadow-color", "transparent");
-    root.style.setProperty("--black-color", "black");
-    root.style.setProperty("--bg-color", "rgb(50, 50, 50)");
-    root.style.setProperty("--bg-color-2", "white");
-    root.style.setProperty("--group-bg-color", "rgba(40, 40, 40, 0.7)");
-  }
+    if (theme === "light") {
+      const root = document.documentElement;
+      root.style.setProperty("--text-color", "black");
+      root.style.setProperty("--shadow-color", "rgb(84, 84, 84)");
+      root.style.setProperty("--black-color", "white");
+      root.style.setProperty("--bg-color", "rgb(225, 225, 225)");
+      root.style.setProperty("--bg-color-2", "rgb(30, 30, 30)");
+      root.style.setProperty("--group-bg-color", "rgb(140, 140, 140, 0.7)");
+    } else {
+      const root = document.documentElement;
+      root.style.setProperty("--text-color", "white");
+      root.style.setProperty("--shadow-color", "transparent");
+      root.style.setProperty("--black-color", "black");
+      root.style.setProperty("--bg-color", "rgb(50, 50, 50)");
+      root.style.setProperty("--bg-color-2", "white");
+      root.style.setProperty("--group-bg-color", "rgba(40, 40, 40, 0.7)");
+    }
   }, 100);
   const fullScreen = document.getElementById("fullscreen");
   const iframe = document.getElementById("iframe");
+  iframe.contentWindow.addEventListener("keydown", function (e) {
+    e.preventDefault();
+  });
   const download = document.getElementById("download");
   const toolBar = document.querySelector(".tool-bar");
   const report = document.createElement("img");
@@ -107,7 +123,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   report.addEventListener("click", function () {
     window.open("https://forms.gle/vKN71eKeMNGiswUY7", "_blank");
-  })
+  });
   star.addEventListener("click", function () {
     let name = document.getElementById("macvgmacvg").getAttribute("name");
     if (star.src.includes("star-solid")) {
@@ -145,6 +161,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+setInterval(() => {
+  const gameIframe = document.getElementById("iframe");
+  gameIframe.contentWindow.focus();
+}, 100);
 
 document.addEventListener("keydown", (event) => {
   let panicKeys = localStorage.getItem("panic");

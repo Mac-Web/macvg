@@ -1,0 +1,23 @@
+@font-face{
+	font-family: 'SoupOfJustice';
+	src: url('assets/static/soupofjustice.eot');
+	src: url('assets/static/soupofjustice.eot?#iefix') format('embedded-opentype'),
+	url('assets/static/soupofjustice.woff') format('woff'),
+	url('assets/static/soupofjustice.ttf') format('truetype'),
+	url('assets/static/soupofjustice.svg#WebSymbolsRegular') format('svg');
+}
+
+body, html {
+	width:100%;
+	height:100%;
+	margin: 0;
+	padding:0;
+}
+
+canvas {
+	margin: 0 auto;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}

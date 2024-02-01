@@ -3,6 +3,7 @@
 document.addEventListener("keydown", (event) => {
   let panicKeys = localStorage.getItem("panic");
   let href = localStorage.getItem("href");
+  
   if (panicKeys) {
     if (href) {
       let keys = panicKeys.split(",");
@@ -169,12 +170,15 @@ function changeName() {
 setInterval(changeName, 100);
 
 document.addEventListener("DOMContentLoaded", function () {
+  
+  const close = document.getElementById("closea");
+  close.addEventListener("click", function () {
+    close.parentElement.parentElement.style.display = "none";
+    localStorage.setItem("macvgclose","closed");
+  })
   let thing23 = document.getElementById("current");
   let panicKeys = localStorage.getItem("panic");
   let href = localStorage.getItem("href");
   thing23.innerHTML =
     "Current key: " + panicKeys + "<br>" + " Redirecting: " + href;
-    
-  thing23.style.fontWeight = "bold";
-  thing23.style.color = "gold";
 });

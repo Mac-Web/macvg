@@ -15,11 +15,45 @@
 }
 
 body {
-  background: url(/macvg/background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: var(--bg-color);
 }
+
+
+.movingbar {
+  transform: translateX(0px) !important;
+}
+
+.macsidebar {
+  position: fixed;
+  top: 9vh;
+  left: 3px;
+  transform: translateX(-120%);
+  transition: transform 0.15s ease;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.85);
+  padding-inline: 8px;
+  height: 90vh;
+  z-index: 10000000;
+  border-radius: 15px;
+  padding-block: 10px;
+  overflow: auto;
+}
+
+.macsidebar img {
+  width: 38px;
+  margin-top: 2px;
+}
+
+.macsidebar a {
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.macsidebar a:hover {
+  transform: scale(1.2);
+}
+
 
 .wrap {
   background-color: var(--bg-color);
@@ -91,43 +125,46 @@ body {
   border: 3px solid rgb(240, 182, 9);
 }
 
-#select {
-  position: absolute;
-  width: 120px;
-  right: 100px;
-  background-color: var(--black-color);
+.select {
+  background-color: black;
   border: none;
   outline: none;
-  color: var(--text-color);
+  color: white;
   font-size: 18px;
+  border-bottom: 2px solid black;
   font-weight: bold;
   appearance: none;
-  padding-block: 8px;
-  padding-inline: 10px;
+  padding-block: 12px;
+  padding-inline: 20px;
   border-radius: 20px;
   text-align: center;
-  top: 4px;
+  z-index: 100000;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 
 #cats {
   display: none;
   flex-direction: column;
+  position: absolute;
+  top: 35px;
+  width: 140px;
+  border-radius: 0px 0px 10px 10px;
+  background-color: black;
+  padding-bottom: 10px;
+  
+  z-index: 100000;
   transition: display 0.3s ease;
 }
 
-#select:hover {
-  box-shadow: 0px 0px 15px rgb(60, 60, 60);
-}
-
-#select:hover #cats {
+.select:hover #cats {
   display: flex;
-}
-
-#cats a:first-child {
-  border-top: 2px solid gray;
-  padding-top: 10px;
-  margin-top: 8px;
+  
+  z-index: 100000;
+  box-shadow: 0px 10px 15px rgb(60, 60, 60);
 }
 
 #cats a {
@@ -152,7 +189,7 @@ body {
 }
 
 #cats a:hover::after {
-  width: 80%;
+  width: 50%;
   background-color: gold;
   transition: width 0.2s ease;
 }
@@ -222,6 +259,7 @@ body {
   margin-top: 25px;
   margin-bottom: 20px;
   border-radius: 15px;
+  padding-inline: 0px;
   padding-bottom: 10px;
   background-color: var(--group-bg-color);
 }
@@ -654,6 +692,90 @@ h2 {
   position: relative;
 }
 
+.ogcontainer {
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-inline: 7.5%;
+}
+
+.og {
+  background-color: var(--group-bg-color);
+  width: 300px;
+  padding-inline: 25px;
+  padding-block: 30px;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-block: 30px;
+  cursor: pointer;
+  margin-inline: 30px;
+  transition: transform 0.25s ease, box-shadow 0.3s ease;
+}
+
+.og:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 0px 15px rgb(100, 100, 100);
+}
+
+.og img {
+  width: 50%;
+  margin-bottom: 25px;
+  border-radius: 30px;
+  margin-inline: 25%;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.og:hover img {
+  transform: scale(1.05);
+  filter: drop-shadow(0px 0px 10px rgb(100,100,100));
+}
+
+.ogtitle {
+  color: var(--text-color);
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.ogdes {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 25.6px;
+}
+
+.announce {
+  background-color: rgb(30, 30, 30);
+  position: sticky;
+  padding-block: 11.5px;
+  top: 46.5px;
+  z-index: 100;
+}
+
+#closea {
+  float: right;
+  width: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  margin-right: 30px;
+}
+
+#closea:hover {
+  transform: rotate(-90deg);
+}
+
+.announce h2 {
+  font-size: 18px;
+  text-align: left;
+  padding-left: 30px;
+  margin-block: 0;
+}
+
+.announce a {
+  color: white;
+}
+
+
 .game::before {
   content: attr(name);
   position: absolute;
@@ -696,6 +818,32 @@ hr {
   width: 70%;
   margin-inline: 15%;
   background-color: rgb(255, 255, 255);
+}
+
+.special-st {
+  width: 200px;
+  height: 200px;
+  border: 5px solid gold;
+  box-sizing: content-box;
+  box-shadow: 0px 0px 15px gold;
+  transition: box-shadow 0.2s linear;
+  transition: border-color 0.2s;
+  border-radius: 45px;
+}
+
+.special-st::before {
+  display: none;
+}
+
+.special-st:active {
+  width: 180px;
+  height: 180px;
+  margin-block: 15px;
+}
+
+.special-st:hover {
+  box-shadow: 0px 0px 25px rgb(255, 132, 0);
+  border-color: rgb(255, 132, 0);
 }
 
 .thumbnail {
@@ -3143,5 +3291,140 @@ hr {
       rgba(40, 40, 40, 0.85)
     ),
     url("projects/apple-shooter/Untitled.jpg");
+  background-position: center;
+}
+
+#game335 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/idle-mining/logo.jpg");
+  background-position: center;
+}
+
+#game336 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/infinite-soccer/logo.avif");
+  background-position: center;
+}
+
+#game337 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/awesome-tanks-2/logo.jpg");
+  background-position: center;
+}
+
+#game338 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/arcane-archer/logo.avif");
+  background-position: center;
+}
+
+#game339 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/1v1-soccer/logo.jpg");
+  background-position: center;
+}
+
+#game340 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/1010-deluxe/logo.jpg");
+  background-position: center;
+}
+
+#game341 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/ball-sort-halloween/logo.jpg");
+  background-position: center;
+}
+
+#game342 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/ball-sort-puzzle/logo.png");
+  background-position: center;
+}
+
+#game343 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/ball-sort-soccer/logo.png");
+  background-position: center;
+}
+
+#game344 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/ballistic/logo.jpg");
+  background-position: center;
+}
+
+#game345 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/basket-and-ball/logo.avif");
+  background-position: center;
+}
+
+#game346 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/block-pig/logo.avif");
+  background-position: center;
+}
+
+#game347 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/boxel-rebound/logo.jpg");
+  background-position: center;
+}
+
+#game348 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/blumgi-slime/logo.jpg");
+  background-position: center;
+}
+
+#game349 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/dino-bros/logo.jpg");
   background-position: center;
 }

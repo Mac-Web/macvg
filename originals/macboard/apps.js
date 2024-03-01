@@ -1,5 +1,3 @@
-setInterval(volume, 500);
-
 function search() {
   var searchTerm = document.getElementById("searchInput").value.toLowerCase();
   var list = document.getElementById("list");
@@ -57,3 +55,40 @@ function select() {
     }
   });
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  setInterval(() => {
+    let theme = localStorage.getItem("theme");
+    console.log(theme);
+    if (theme === "light") {
+      const root = document.documentElement;
+      root.style.setProperty("--text-color", "black");
+      root.style.setProperty("--shadow-color", "0px 0px 5px rgb(84, 84, 84)");
+      root.style.setProperty("--black-color", "rgb(235, 235, 235)");
+      root.style.setProperty("--bg-color", "rgb(235, 235, 235)");
+      root.style.setProperty("--bg-color-2", "rgb(30, 30, 30)");
+      root.style.setProperty("--group-bg-color", "rgb(140, 140, 140, 0.7)");
+      root.style.setProperty("--bar-color", "rgb(200, 200, 200)");
+    } else if (theme === "deep") {
+      const root = document.documentElement;
+      root.style.setProperty("--text-color", "white");
+      root.style.setProperty("--shadow-color", "0px 5px 5px rgb(25,25,25)");
+      root.style.setProperty("--black-color", "black");
+      root.style.setProperty("--bg-color", "black");
+      root.style.setProperty("--bg-color-2", "black");
+      root.style.setProperty("--group-bg-color", "black");
+      root.style.setProperty("--bar-color", "black");
+      root.style.setProperty("--border", "rgb(50,50,50)");
+    } else {
+      const root = document.documentElement;
+      root.style.setProperty("--text-color", "white");
+      root.style.setProperty("--shadow-color", "transparent");
+      root.style.setProperty("--black-color", "black");
+      root.style.setProperty("--bg-color", "rgb(50, 50, 50)");
+      root.style.setProperty("--bg-color-2", "white");
+      root.style.setProperty("--group-bg-color", "rgba(40, 40, 40, 0.7)");
+      root.style.setProperty("--bar-color", "rgb(70, 70, 70)");
+    }
+  }, 100);
+  setInterval(volume, 500);
+});

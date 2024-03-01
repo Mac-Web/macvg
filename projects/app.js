@@ -23,7 +23,16 @@ document.addEventListener("DOMContentLoaded", function () {
       root.style.setProperty("--bg-color", "rgb(225, 225, 225)");
       root.style.setProperty("--bg-color-2", "rgb(30, 30, 30)");
       root.style.setProperty("--group-bg-color", "rgb(140, 140, 140, 0.7)");
-    } else {
+    } else if (theme === "deep") {
+      const root = document.documentElement;
+      root.style.setProperty("--text-color", "white");
+      root.style.setProperty("--shadow-color", "0px 0px 5px black");
+      root.style.setProperty("--black-color", "black");
+      root.style.setProperty("--bg-color", "black");
+      root.style.setProperty("--bg-color-2", "black");
+      root.style.setProperty("--group-bg-color", "black");
+      root.style.setProperty("--bar-color", "black");
+    }  else {
       const root = document.documentElement;
       root.style.setProperty("--text-color", "white");
       root.style.setProperty("--shadow-color", "transparent");
@@ -33,6 +42,25 @@ document.addEventListener("DOMContentLoaded", function () {
       root.style.setProperty("--group-bg-color", "rgba(40, 40, 40, 0.7)");
     }
   }, 100);
+  let links = document.querySelector(".links");
+  let recent = document.createElement("a");
+  let linky = Array.from(links.children);
+  recent.innerHTML = "Recent";
+  recent.classList.add("nav-link");
+  recent.setAttribute("href", "/macvg/recent.html");
+  links.insertBefore(recent,linky[3]);
+  let linkss = Array.from(document.querySelectorAll(".nav-link"));
+  linkss.forEach(function (link) {
+    if (link.innerHTML === "Chat") {
+      link.style.display = "none";
+    }
+    if (link.innerHTML === "MacBoard") {
+      link.innerHTML = "Originals";
+      link.setAttribute("href", "/macvg/originals");
+    }
+  })
+  let crr = document.querySelector(".copyright");
+  crr.innerHTML = "© 2024 MacWeb";
   const fullScreen = document.getElementById("fullscreen");
   const iframe = document.getElementById("iframe");
   iframe.contentWindow.addEventListener("keydown", function (e) {
@@ -45,6 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
   report.style.width = "18px";
   toolBar.insertBefore(report, download);
   const back = document.getElementById("back");
+  back.style.display = "none";
   const share = document.getElementById("share");
   const gameFrame = document.getElementById("gameframe");
   const star = document.getElementById("star");
@@ -164,104 +193,32 @@ document.addEventListener("DOMContentLoaded", function () {
 setInterval(() => {
   const gameIframe = document.getElementById("iframe");
   gameIframe.contentWindow.focus();
-}, 100);
-
-document.addEventListener("keydown", (event) => {
-  let panicKeys = localStorage.getItem("panic");
-  let href = localStorage.getItem("href");
-  if (panicKeys) {
-    if (href) {
-      let keys = panicKeys.split(",");
-      if (keys.length >= 2 && event.key === keys[0]) {
-        let key1Pressed = true;
-        document.addEventListener("keydown", (event) => {
-          if (event.key === keys[1] && key1Pressed) {
-            window.location.href = href;
-          }
-        });
-        document.addEventListener("keyup", (event) => {
-          if (event.key === keys[0]) {
-            key1Pressed = false;
-          }
-        });
-      } else if (keys.length >= 2 && event.key === keys[1]) {
-        let key1Pressed = true;
-        document.addEventListener("keydown", (event) => {
-          if (event.key === keys[0] && key1Pressed) {
-            window.location.href = href;
-          }
-        });
-        document.addEventListener("keyup", (event) => {
-          if (event.key === keys[0]) {
-            key1Pressed = false;
-          }
-        });
-      } else if (keys.length === 1 && event.key === keys[0]) {
-        window.location.href = href;
+  gameIframe.contentWindow.addEventListener("keydown", (event) => {
+    let panicKeys = localStorage.getItem("panic");
+    let href = localStorage.getItem("href");
+    if (panicKeys) {
+      if (href) {
+        let keys = panicKeys.split(",");
+        if (keys.length === 1 && event.key === keys[0]) {
+          window.location.href = href;
+        }
+      } else {
+        let href = "https://www.google.com";
+        let keys = panicKeys.split(",");
+        if (keys.length === 1 && event.key === keys[0]) {
+          window.location.href = href;
+        }
       }
     } else {
-      let href = "https://www.google.com";
+      localStorage.setItem("panic", "`");
       let keys = panicKeys.split(",");
-      if (keys.length >= 2 && event.key === keys[0]) {
-        let key1Pressed = true;
-        document.addEventListener("keydown", (event) => {
-          if (event.key === keys[1] && key1Pressed) {
-            window.location.href = href;
-          }
-        });
-        document.addEventListener("keyup", (event) => {
-          if (event.key === keys[0]) {
-            key1Pressed = false;
-          }
-        });
-      } else if (keys.length >= 2 && event.key === keys[1]) {
-        let key1Pressed = true;
-        document.addEventListener("keydown", (event) => {
-          if (event.key === keys[0] && key1Pressed) {
-            window.location.href = href;
-          }
-        });
-        document.addEventListener("keyup", (event) => {
-          if (event.key === keys[0]) {
-            key1Pressed = false;
-          }
-        });
-      } else if (keys.length === 1 && event.key === keys[0]) {
+      if (keys.length === 1 && event.key === keys[0]) {
         window.location.href = href;
       }
     }
-  } else {
-    localStorage.setItem("panic", "`");
-    let keys = panicKeys.split(",");
-    if (keys.length >= 2 && event.key === keys[0]) {
-      let key1Pressed = true;
-      document.addEventListener("keydown", (event) => {
-        if (event.key === keys[1] && key1Pressed) {
-          window.location.href = href;
-        }
-      });
-      document.addEventListener("keyup", (event) => {
-        if (event.key === keys[0]) {
-          key1Pressed = false;
-        }
-      });
-    } else if (keys.length >= 2 && event.key === keys[1]) {
-      let key1Pressed = true;
-      document.addEventListener("keydown", (event) => {
-        if (event.key === keys[0] && key1Pressed) {
-          window.location.href = href;
-        }
-      });
-      document.addEventListener("keyup", (event) => {
-        if (event.key === keys[0]) {
-          key1Pressed = false;
-        }
-      });
-    } else if (keys.length === 1 && event.key === keys[0]) {
-      window.location.href = href;
-    }
-  }
-});
+  });
+}, 100);
+
 
 const google = ["Google", "/macvg/google.png"];
 const canva = ["Home - Canva", "/macvg/canva.png"];

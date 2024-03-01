@@ -1,0 +1,230 @@
+:root {
+  --black-color: rgb(0, 0, 0);
+  --text-color: white;
+  --bg-color: rgb(50, 50, 50);
+  --bg-color-2: white;
+  --shadow-color: transparent;
+  --group-bg-color: rgba(40, 40, 40, 0.7);
+  --bar-color: rgb(70, 70, 70);
+  --border: transparent;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+h1 {
+  color: white;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.sub {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.btns {
+  width: 20%;
+  border-radius: 12px;
+  margin-inline: 40%;
+  display: flex;
+  justify-content: center;
+  border: 2px solid var(--border);
+  margin-bottom: 20px;
+}
+
+.btn {
+  color: var(--text-color);
+  font-size: 18px;
+  border: none;
+  width: 50%;
+  padding-inline: 15px;
+  padding-block: 8px;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+  background-color: var(--bar-color);
+}
+
+.btn:first-of-type {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.btn:last-of-type {
+  border-radius: 0px 10px 10px 0px;
+}
+
+.btn:hover {
+ background-color: rgb(90, 90, 90);
+}
+
+.btn:active {
+  background-color: rgb(80, 80, 80);
+}
+
+#volume {
+  width: 15%;
+  margin-inline: 42.5%;
+}
+
+p {
+  color: var(--text-color);
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+
+body {
+  background-color: transparent;
+}
+
+h1 {
+  color: var(--text-color);
+  padding-top: 20px;
+  text-align: center;
+}
+
+.sub {
+  color: var(--text-color);
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+}
+
+#volume {
+  width: 15%;
+  margin-inline: 42.5%;
+}
+
+.flex {
+  display: flex;
+  margin-inline: 5px;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 100px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-inline: 5px;
+  padding-inline: 10px;
+  padding-block: 10px;
+  background-color: rgb(61, 61, 61);
+  margin-block: 5px;
+  transition: transform 0.2s ease;
+}
+
+.sound:hover {
+  transform: scale(1.1);
+}
+
+.name {
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  margin-block: 10px;
+  color: white;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-block: 15px;
+  margin-top: 0 !important;
+  line-height: 28px;
+  font-size: 15px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+}
+
+.footer a:hover {
+  color: gold;
+  text-decoration: underline;
+}
+
+
+#randomList {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.flex {
+  display: flex;
+  margin-inline: 5px;
+  padding-bottom: 20px;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.sound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 100px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-inline: 5px;
+  padding-inline: 10px;
+  padding-block: 10px;
+  background-color: rgb(61, 61, 61);
+  margin-block: 5px;
+  transition: transform 0.2s ease;
+}
+
+.sound:hover {
+  transform: scale(1.1);
+}
+
+.name {
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  margin-block: 10px;
+  color: white;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-block: 15px;
+  line-height: 28px;
+  font-size: 15px;
+  margin-top: 40px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+}
+
+.footer a:hover {
+  color: gold;
+  text-decoration: underline;
+}

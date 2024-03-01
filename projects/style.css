@@ -234,13 +234,13 @@ iframe {
   transform: translateX(-50%);
   width: 0px;
   margin: 0;
-  background-color: gold;
+  background-color: rgb(225, 139, 9);
   transition: width 0.15s ease;
 }
 
 .nav-link:hover::after {
   width: 80%;
-  background-color: gold;
+  background-color: rgb(225, 139, 9);
   transition: width 0.2s ease;
 }
 

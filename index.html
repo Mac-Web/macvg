@@ -67,7 +67,9 @@
           <a href="/macblog/projects/macvg/" target="_blank">About</a>
           <a href="/macblog/updates/macvg/" target="_blank">Updates</a>
           <a href="/macblog/projects/macvg/" target="_blank">Docs</a>
-          <a href="https://forms.gle/UpHgbAmLtUPCD5bs8" target="_blank">Feedback</a>
+          <a href="https://forms.gle/UpHgbAmLtUPCD5bs8" target="_blank"
+            >Feedback</a
+          >
         </ul>
       </div>
     </nav>
@@ -75,16 +77,16 @@
     <div class="announce">
       <h2>
         Check out the
-        <a href="/macblog/updates/macvg/2024/february.html" target="_blank"
-          >MacVG February Update</a
-        >: New games, new looks, and new features!
-        <img src="/maclearn/xmark-solid.svg" alt="Close" id="closea" />
+        <a href="/macblog/updates/macvg/2024/march.html" target="_blank"
+          >MacVG March Update</a
+        >: New features, new looks, and more!
+        <img src="/maclearn/xmark-solid.svg" alt="X" id="closea" />
       </h2>
     </div>
 
     <script>
       let clos = document.getElementById("closea");
-      if (localStorage.getItem("macvgclose")) {
+      if (localStorage.getItem("macvgclosee")) {
         clos.parentElement.parentElement.style.display = "none";
       }
     </script>
@@ -110,7 +112,7 @@
           autocomplete="off"
           placeholder="Search 300+ Games"
         /><button class="random" id="random" title="Random Game Selector">
-          <span class="button-helper"></span>🎲
+          🎲
         </button>
       </div>
       <div class="games-container" id="favoriteList"></div>

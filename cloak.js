@@ -1,98 +1,23 @@
-
-
 document.addEventListener("keydown", (event) => {
   let panicKeys = localStorage.getItem("panic");
   let href = localStorage.getItem("href");
-  
   if (panicKeys) {
     if (href) {
       let keys = panicKeys.split(",");
-      if (keys.length >= 2 && event.key === keys[0]) {
-        let key1Pressed = true;
-        document.addEventListener("keydown", (event) => {
-          if (event.key === keys[1] && key1Pressed) {
-            window.location.href = href;
-          }
-        });
-        document.addEventListener("keyup", (event) => {
-          if (event.key === keys[0]) {
-            key1Pressed = false;
-          }
-        });
-      } else if (keys.length >= 2 && event.key === keys[1]) {
-        let key1Pressed = true;
-        document.addEventListener("keydown", (event) => {
-          if (event.key === keys[0] && key1Pressed) {
-            window.location.href = href;
-          }
-        });
-        document.addEventListener("keyup", (event) => {
-          if (event.key === keys[0]) {
-            key1Pressed = false;
-          }
-        });
-      } else if (keys.length === 1 && event.key === keys[0]) {
+      if (keys.length === 1 && event.key === keys[0]) {
         window.location.href = href;
       }
     } else {
       let href = "https://www.google.com";
       let keys = panicKeys.split(",");
-      if (keys.length >= 2 && event.key === keys[0]) {
-        let key1Pressed = true;
-        document.addEventListener("keydown", (event) => {
-          if (event.key === keys[1] && key1Pressed) {
-            window.location.href = href;
-          }
-        });
-        document.addEventListener("keyup", (event) => {
-          if (event.key === keys[0]) {
-            key1Pressed = false;
-          }
-        });
-      } else if (keys.length >= 2 && event.key === keys[1]) {
-        let key1Pressed = true;
-        document.addEventListener("keydown", (event) => {
-          if (event.key === keys[0] && key1Pressed) {
-            window.location.href = href;
-          }
-        });
-        document.addEventListener("keyup", (event) => {
-          if (event.key === keys[0]) {
-            key1Pressed = false;
-          }
-        });
-      } else if (keys.length === 1 && event.key === keys[0]) {
+      if (keys.length === 1 && event.key === keys[0]) {
         window.location.href = href;
       }
     }
   } else {
     localStorage.setItem("panic", "`");
     let keys = panicKeys.split(",");
-    if (keys.length >= 2 && event.key === keys[0]) {
-      let key1Pressed = true;
-      document.addEventListener("keydown", (event) => {
-        if (event.key === keys[1] && key1Pressed) {
-          window.location.href = href;
-        }
-      });
-      document.addEventListener("keyup", (event) => {
-        if (event.key === keys[0]) {
-          key1Pressed = false;
-        }
-      });
-    } else if (keys.length >= 2 && event.key === keys[1]) {
-      let key1Pressed = true;
-      document.addEventListener("keydown", (event) => {
-        if (event.key === keys[0] && key1Pressed) {
-          window.location.href = href;
-        }
-      });
-      document.addEventListener("keyup", (event) => {
-        if (event.key === keys[0]) {
-          key1Pressed = false;
-        }
-      });
-    } else if (keys.length === 1 && event.key === keys[0]) {
+    if (keys.length === 1 && event.key === keys[0]) {
       window.location.href = href;
     }
   }
@@ -170,15 +95,22 @@ function changeName() {
 setInterval(changeName, 100);
 
 document.addEventListener("DOMContentLoaded", function () {
-  
   const close = document.getElementById("closea");
   close.addEventListener("click", function () {
     close.parentElement.parentElement.style.display = "none";
-    localStorage.setItem("macvgclose","closed");
-  })
+    localStorage.setItem("macvgclosee", "closed");
+  });
   let thing23 = document.getElementById("current");
-  let panicKeys = localStorage.getItem("panic");
-  let href = localStorage.getItem("href");
-  thing23.innerHTML =
-    "Current key: " + panicKeys + "<br>" + " Redirecting: " + href;
+    let panicKeys = localStorage.getItem("panic");
+    let href = localStorage.getItem("href");
+    if (panicKeys && href) {
+      thing23.innerHTML =
+      "Current key: " + panicKeys + "<br>" + " Redirecting: " + href;
+    } else if (panicKeys) {
+      thing23.innerHTML =
+      "Current key: " + panicKeys + "<br>" + " Redirecting: https://google.com";
+    } else {
+      thing23.innerHTML =
+      "Current key: `" + "<br>" + " Redirecting: https://google.com";
+    }
 });

@@ -18,247 +18,27 @@
     <title class="cloak">MacBoard | MacVG</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <link
-      class="favicon"
-      rel="icon"
-      type="image/x-icon"
-      href="/logo.png"
-    />
+    <link class="favicon" rel="icon" type="image/x-icon" href="/logo.png" />
     <link rel="stylesheet" href="/macvg/style.css" />
     <link rel="stylesheet" href="style.css" />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
     <script src="/macvg/cloak.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
-    />
     <script src="apps.js"></script>
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        font-family: Arial, Helvetica, sans-serif;
-      }
-
-      body {
-        background-color: transparent;
-      }
-
-      h1 {
-        color: white;
-        padding-top: 20px;
-        text-align: center;
-      }
-
-      .sub {
-        color: white;
-        text-align: center;
-        font-size: 20px;
-        padding: 20px;
-      }
-
-      .btns {
-        width: 30%;
-        margin-inline: 35%;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 20px;
-      }
-
-      .btn {
-        background-color: white;
-        border: 2px solid transparent;
-        font-size: 18px;
-        padding-inline: 15px;
-        padding-block: 8px;
-        margin-inline: 10px;
-        cursor: pointer;
-        transition: transform 0.3s ease;
-        border-radius: 30px;
-      }
-
-      .btn:hover {
-        transform: scale(1.1);
-        border: 2px solid transparent;
-      }
-
-      #volume {
-        width: 15%;
-        margin-inline: 42.5%;
-      }
-
-      p {
-        color: white;
-        text-align: center;
-        font-size: 20px;
-        margin-bottom: 20px;
-      }
-
-      #searchInput {
-        outline: none;
-        border: 3px solid transparent;
-        padding-inline: 2.5%;
-        background-color: white;
-        padding-block: 10px;
-        font-size: 18px;
-        border-radius: 50px;
-        width: 24%;
-        margin-left: 35%;
-        margin-right: 1%;
-        transition: border 0.5s ease;
-        box-sizing: border-box;
-      }
-
-      #searchInput:focus {
-        border: 3px solid rgb(240, 182, 9);
-      }
-
-      .random {
-        outline: none;
-        text-align: center;
-        padding-block: 8px;
-        font-size: 21.6666px;
-        cursor: pointer;
-        background: linear-gradient(gold, red);
-        border-radius: 50px;
-        width: 5%;
-        margin-right: 35%;
-        box-sizing: border-box;
-      }
-
-      .functions {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin-bottom: 5px;
-      }
-
-      .random {
-        position: relative;
-        z-index: 9;
-      }
-
-      .button-helper {
-        position: absolute;
-        border-radius: 50px;
-        z-index: -1;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        opacity: 0;
-        background: linear-gradient(rgb(0, 255, 187), blue);
-        transition: opacity 0.5s ease;
-      }
-
-      .random:hover .button-helper {
-        opacity: 1;
-      }
-
-      #randomList {
-        margin-bottom: 5px;
-        display: flex;
-        justify-content: center;
-      }
-
-      .flex {
-        display: flex;
-        margin-inline: 5px;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-      }
-
-      .sound {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 110px;
-        height: 100px;
-        cursor: pointer;
-        border-radius: 10px;
-        margin-inline: 5px;
-        padding-inline: 10px;
-        padding-block: 10px;
-        background-color: rgb(61, 61, 61);
-        margin-block: 5px;
-        transition: transform 0.2s ease;
-      }
-
-      .sound:hover {
-        transform: scale(1.1);
-      }
-
-      .name {
-        text-align: center;
-        font-size: 17px;
-        font-weight: bold;
-        margin-block: 10px;
-        color: white;
-      }
-
-      .footer {
-        background-color: black;
-        color: white;
-        text-align: center;
-        padding-block: 15px;
-        line-height: 28px;
-        font-size: 15px;
-      }
-
-      .footer a {
-        color: white;
-        text-decoration: none;
-        background-color: black;
-      }
-
-      .footer a:hover {
-        color: gold;
-        text-decoration: underline;
-      }
-    </style>
-    <style>
-      #feedback {
-        color: white;
-        text-decoration: none;
-        position: absolute;
-        margin: none;
-        top: 4px;
-        right: 10px;
-        margin-inline: 10px;
-      }
-    </style>
   </head>
   <body>
-    <nav class="nav">
-      <a href="/macvg/" class="logo2" style="background-color: var(--black-color)">
+    <nav class="nav" id="nav">
+      <a
+        href="/macvg/"
+        class="logo2"
+        style="background-color: var(--black-color)"
+      >
         <img src="/macvg/macvg-logo.png" alt="MacVG Logo" />
         <a href="/macvg/new.html" class="nav-link">New</a></a
       ><a href="/macvg/trending.html" class="nav-link">Trending</a
       ><a href="/macvg/groups.html" class="nav-link">Groups</a
-      ><a href="/macvg/bot.html" class="nav-link chat-btn">Chat</a
-        ><a href="/macvg/projects/macboard/" class="nav-link">MacBoard</a
+      ><a href="/macvg/recent.html" class="nav-link">Recent</a
+      ><a href="/macvg/originals/" class="nav-link">Originals</a
       ><a href="/macvg/settings.html" class="nav-link">Settings</a>
-      <a
-        href="https://forms.gle/fpnxZqiK3SFrzUdSA"
-        target="_blank"
-        style="color: white"
-        id="feedback"
-        title="Feedback"
-        ><i
-          class="fa-solid fa-comment"
-          style="color: #ffffff; background-color: transparent"
-        ></i
-      ></a>
-      <div id="select">
+      <div class="select">
         <span id="header123">Catagories</span>
         <ul id="cats">
           <a href="/macvg/featured.html">Featured</a>
@@ -268,8 +48,19 @@
           <a href="/macvg/casual.html">Casual</a>
         </ul>
       </div>
+      <div class="select">
+        <span id="header123">Help</span>
+        <ul id="cats">
+          <a href="/macblog/projects/macvg/" target="_blank">About</a>
+          <a href="/macblog/updates/macvg/" target="_blank">Updates</a>
+          <a href="/macblog/projects/macvg/" target="_blank">Docs</a>
+          <a href="https://forms.gle/UpHgbAmLtUPCD5bs8" target="_blank"
+            >Feedback</a
+          >
+        </ul>
+      </div>
     </nav>
-    <div class="wrap" style="padding-bottom: 40px;">
+    <div class="wrap">
       <h1>MacBoard</h1>
       <div class="sub">
         A simple, easy to use, and abounding online platform for all kinds of
@@ -300,7 +91,7 @@
           id="searchInput"
           oninput="search()"
           autocomplete="off"
-          placeholder="Search all 170 sounds"
+          placeholder="Search 170+ sounds"
         /><button
           class="random"
           onclick="select()"
@@ -1038,13 +829,14 @@
       </div>
     </div>
     <footer class="footer">
-      © 2023 <a href="https://mac-web.github.io" target="_blank">MacWeb</a
+      © 2024 <a href="/">MacWeb</a
       ><span style="color: black; user-select: none; background-color: black"
         >MacBoard</span
       >
       All rights reserved<br />
-      Have fun playing with these funny sounds!🔊🔊🔊<br style="margin-bottom: 10px" />
-
+      Have fun playing with these funny sounds!🔊🔊🔊<br
+        style="margin-bottom: 10px"
+      />
       Created by
       <a href="https://github.com/3kh0/soundboard" target="_blank">3kh0</a>,
       massively revamped and improved by

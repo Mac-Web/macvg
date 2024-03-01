@@ -60,20 +60,18 @@
         </ul>
       </div>
     </nav>
-
     <div class="announce">
       <h2>
         Check out the
-        <a href="/macblog/updates/macvg/2024/february.html" target="_blank"
-          >MacVG February Update</a
-        >: New games, new looks, and new features!
-        <img src="/maclearn/xmark-solid.svg" alt="Close" id="closea" />
+        <a href="/macblog/updates/macvg/2024/march.html" target="_blank"
+          >MacVG March Update</a
+        >: New features, new looks, and more!
+        <img src="/maclearn/xmark-solid.svg" alt="X" id="closea" />
       </h2>
     </div>
-
     <script>
       let clos = document.getElementById("closea");
-      if (localStorage.getItem("macvgclose")) {
+      if (localStorage.getItem("macvgclosee")) {
         clos.parentElement.parentElement.style.display = "none";
       }
     </script>
@@ -117,14 +115,13 @@
         <h2>Themes</h2>
         <form action="" id="clform">
           <button onclick="dark()" class="clbtn">Dark</button>
+          <button onclick="ddark()" class="clbtn">Deep Dark</button>
           <button onclick="light()" class="clbtn">Light</button>
           <button onclick="holidays()" class="clbtn" style="cursor: not-allowed; background-color: gray;">Holidays</button>
         </form>
         <h2>Panic Button</h2>
         <p id="pbdescription">
-          Default button is ` and the url is https://www.google.com<br />
-          Only type one or two characters. If you have two characters
-          (combination), put a comma in between. For example: f,p<br />
+          Only type one character for the panic key.<br />
           <spam id="current"></spam>
         </p>
         <form action="" id="cloaker2">

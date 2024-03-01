@@ -5,6 +5,8 @@
   --bg-color-2: white;
   --shadow-color: transparent;
   --group-bg-color: rgba(40, 40, 40, 0.7);
+  --bar-color: rgb(70, 70, 70);
+  --border: transparent;
 }
 
 * {
@@ -17,7 +19,6 @@
 body {
   background-color: var(--bg-color);
 }
-
 
 .movingbar {
   transform: translateX(0px) !important;
@@ -54,84 +55,36 @@ body {
   transform: scale(1.2);
 }
 
-
 .wrap {
   background-color: var(--bg-color);
   margin: 0;
 }
 
-.tip {
-  width: 100%;
-  background-color: var(--black-color);
-  border: 2px solid gold;
-  color: var(--text-color);
-  padding: 10px;
-  border-radius: 10px;
-  font-size: 22px;
-  text-align: center;
-}
-
-.tip button {
-  position: relative;
-  z-index: 9;
-  margin-left: 20px;
-  background: linear-gradient(rgb(0, 255, 187), blue);
-  color: var(--text-color);
-  border: none;
-  font-size: 18px;
-  padding-inline: 10px;
-  padding-block: 7px;
-  cursor: pointer;
-  border-radius: 20px;
-  margin-top: 10px;
-  overflow: hidden;
-  transition: box-shadow 0.2s;
-  border: 2px solid var(--black-color);
-  text-shadow: 0px 0px 10px var(--black-color);
-}
-
-.helper {
-  position: absolute;
-  border-radius: 20px;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  background: linear-gradient(gold, red);
-  transition: opacity 0.5s ease;
-}
-
-.tip button:hover .helper {
-  opacity: 1;
-}
-
 #searchInput {
   outline: none;
-  border: 3px solid transparent;
-  padding-inline: 2.5%;
-  background-color: white;
+  border: 2px solid var(--border);
+  background-color: var(--bar-color);
   padding-block: 10px;
   font-size: 18px;
-  border-radius: 50px;
-  width: 24%;
-  margin-left: 35%;
-  margin-right: 1%;
-  transition: border 0.5s ease;
+  height: 100%;
+  border-radius: 12px 0px 0px 12px;
+  width: 85%;
+  color: var(--text-color);
+  padding-inline: 20px;
+  transition: border 0.25s ease;
 }
 
 #searchInput:focus {
-  border: 3px solid rgb(240, 182, 9);
+  border: 2px solid rgb(100, 100, 100);
 }
 
 .select {
-  background-color: black;
+  background-color: var(--black-color);
   border: none;
   outline: none;
-  color: white;
+  color: var(--text-color);
   font-size: 18px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid var(--black-color);
   font-weight: bold;
   appearance: none;
   padding-block: 12px;
@@ -153,18 +106,16 @@ body {
   top: 35px;
   width: 140px;
   border-radius: 0px 0px 10px 10px;
-  background-color: black;
+  background-color: var(--black-color);
   padding-bottom: 10px;
-  
   z-index: 100000;
   transition: display 0.3s ease;
 }
 
 .select:hover #cats {
   display: flex;
-  
   z-index: 100000;
-  box-shadow: 0px 10px 15px rgb(60, 60, 60);
+  box-shadow: var(--shadow-color);
 }
 
 #cats a {
@@ -184,13 +135,13 @@ body {
   transform: translateX(-50%);
   width: 0px;
   margin: 0;
-  background-color: gold;
+  background-color: rgb(225, 139, 9);
   transition: width 0.15s ease;
 }
 
 #cats a:hover::after {
   width: 50%;
-  background-color: gold;
+  background-color: rgb(225, 139, 9);
   transition: width 0.2s ease;
 }
 
@@ -198,22 +149,26 @@ body {
   outline: none;
   box-sizing: border-box;
   text-align: center;
-  border: none;
-  padding-block: 9px;
+  border: 2px solid var(--border);
+  height: 100%;
+  border-left: 2px solid rgb(190, 190, 190);
+  background-color: var(--bar-color);
   font-size: 21.6666px;
   cursor: pointer;
-  background: linear-gradient(gold, red);
-  border-radius: 50px;
-  width: 5%;
-  margin-right: 35%;
+  border-radius: 0px 12px 12px 0px;
+  width: 15%;
+  transition: background-color 0.25s ease;
 }
 
 .functions {
-  width: 100%;
+  width: 35%;
+  margin-inline: 32.5%;
+  height: 46px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border-radius: 30px;
 }
 
 .random {
@@ -234,8 +189,12 @@ body {
   transition: opacity 0.5s ease;
 }
 
-.random:hover .button-helper {
-  opacity: 1;
+.random:hover {
+  background-color: rgb(90, 90, 90);
+}
+
+.random:active {
+  background-color: rgb(80, 80, 80);
 }
 
 .homeheader {
@@ -447,13 +406,13 @@ label:hover {
   transform: translateX(-50%);
   width: 0px;
   margin: 0;
-  background-color: gold;
+  background-color: rgb(225, 139, 9);
   transition: width 0.15s ease;
 }
 
 .nav-link:hover::after {
   width: 80%;
-  background-color: gold;
+  background-color: rgb(225, 139, 9);
   transition: width 0.2s ease;
 }
 
@@ -518,13 +477,15 @@ h2 {
 #name2,
 #name3 {
   outline: none;
-  border: 3px solid transparent;
+  border: 2px solid var(--border);
   padding-inline: 2.5%;
-  background-color: white;
+  background-color: var(--bar-color);
   padding-block: 10px;
+  color: var(--text-color);
   font-size: 18px;
-  border-radius: 50px;
+  border-radius: 12px 0px 0px 12px;
   width: 90%;
+  height: 100%;
   margin-bottom: 0px;
   transition: border 0.5s ease;
 }
@@ -542,17 +503,18 @@ h2 {
   color: white;
   text-decoration: none;
   background-color: black;
+  transition: color 0.15s ease;
 }
 
 .footer a:hover {
-  color: gold;
+  color: rgb(225, 139, 9);
   text-decoration: underline;
 }
 
 #name:focus,
 #name2:focus,
 #name3:focus {
-  border: 3px solid rgb(240, 182, 9);
+  border: 2px solid rgb(100, 100, 100);
 }
 
 #pbdescription {
@@ -569,69 +531,80 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 30px;
+  margin-bottom: 15px;
+  height: 46px;
+  border-radius: 15px;
   width: 54%;
+  background-color: white;
   margin-inline: 23%;
 }
 
 #go,
 #go2 {
   outline: none;
-  border: 3px solid transparent;
-  background-color: white;
-  padding-block: 10px;
-  font-size: 18px;
-  border-radius: 50px;
-  width: 8%;
-  margin-bottom: 00px;
-  transition: border 0.5s ease;
-  margin-left: 1%;
-  transition: transform 0.3s ease;
+  box-sizing: border-box;
+  text-align: center;
+  border: 2px solid var(--border);
+  height: 100%;
+  border-left: 2px solid rgb(190, 190, 190);
+  background-color: var(--bar-color);
+  font-size: 21.6666px;
   cursor: pointer;
+  color: var(--text-color);
+  border-radius: 0px 12px 12px 0px;
+  width: 15%;
+  transition: background-color 0.25s ease;
 }
 
 #go:hover,
 #go2:hover {
-  transform: scale(1.1);
+  background-color: rgb(90, 90, 90);
 }
 
-#go:focus,
-#go2:focus {
-  border: 3px solid rgb(240, 182, 9);
+#go:active,
+#go2:active {
+  background-color: rgb(80, 80, 80);
 }
 
 #clform {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  width: 54%;
+  margin-inline: 23%;
+  border: 2px solid var(--border);
+  margin-bottom: 20px;
+  border-radius: 12px;
+  background-color: var(--bar-color);
 }
 
 .clbtn {
   outline: none;
-  border: 3px solid transparent;
-  background-color: white;
+  border: none;
   padding-block: 10px;
   font-size: 18px;
-  border-radius: 50px;
-  width: 8.2%;
+  background-color: transparent;
+  color: var(--text-color);
+  width: 16%;
   text-align: center;
-  margin-bottom: 20px;
-  transition: border 0.5s ease;
-  margin-inline: 0.4%;
   cursor: pointer;
-  transition: transform 0.3s ease;
+  transition: background-color 0.15s ease;
+}
+
+.clbtn:first-of-type {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.clbtn:last-of-type {
+  border-radius: 0px 10px 10px 0px;
 }
 
 .clbtn:hover {
-  transform: scale(1.1);
+  background-color: rgb(90, 90, 90);
 }
 
-.clbtn:focus {
-  border: 3px solid rgb(240, 182, 9);
-}
-
-#go {
-  background-color: white;
+.clbtn:active {
+  background-color: rgb(80, 80, 80);
 }
 
 .games-container {
@@ -660,7 +633,7 @@ h2 {
   font-weight: bold;
   text-decoration: none;
   text-align: center;
-  border-radius: 15px;
+  border-radius: 10px;
   height: 110px;
   padding-bottom: 10px;
   background-repeat: no-repeat;
@@ -728,7 +701,7 @@ h2 {
 
 .og:hover img {
   transform: scale(1.05);
-  filter: drop-shadow(0px 0px 10px rgb(100,100,100));
+  filter: drop-shadow(0px 0px 10px rgb(100, 100, 100));
 }
 
 .ogtitle {
@@ -774,7 +747,6 @@ h2 {
 .announce a {
   color: white;
 }
-
 
 .game::before {
   content: attr(name);
@@ -823,9 +795,9 @@ hr {
 .special-st {
   width: 200px;
   height: 200px;
-  border: 5px solid gold;
+  border: 5px solid rgb(225, 139, 9);
   box-sizing: content-box;
-  box-shadow: 0px 0px 15px gold;
+  box-shadow: 0px 0px 15px rgb(225, 139, 9);
   transition: box-shadow 0.2s linear;
   transition: border-color 0.2s;
   border-radius: 45px;
@@ -3265,7 +3237,6 @@ hr {
     url("projects/8-ball/tmp/8BallBilliardsClassicTeaser.jpg");
   background-position: center;
 }
-
 
 #game332 {
   background-image: linear-gradient(

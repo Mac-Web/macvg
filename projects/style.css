@@ -5,6 +5,7 @@
   --bg-color-2: white;
   --shadow-color: transparent;
   --group-bg-color: rgba(40, 40, 40, 0.7);
+  --link: rgb(225, 139, 9);
 }
 
 * {
@@ -12,9 +13,11 @@
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
+  transition: background-color 0.35s ease;
 }
 
 body {
+  transition: background-color 0.3s ease;
   background-color: var(--bg-color);
 }
 
@@ -25,7 +28,7 @@ body {
 }
 
 iframe {
-  background-color: rgb(110, 110, 110);
+  background-color: var(--black-color);
   width: 100%;
   border-radius: 10px 10px 0px 0px;
 }
@@ -110,7 +113,7 @@ iframe {
 
 .more-left {
   position: absolute;
-  left: -10px;
+  left: -5px;
   color: var(--text-color);
   display: flex;
   flex-direction: column;
@@ -123,8 +126,7 @@ iframe {
 }
 
 .more-left img:hover {
-  transform: scale(1);
-  cursor: initial;
+  transform: none;
 }
 
 .leftest {
@@ -234,13 +236,13 @@ iframe {
   transform: translateX(-50%);
   width: 0px;
   margin: 0;
-  background-color: rgb(225, 139, 9);
+  background-color: var(--link);
   transition: width 0.15s ease;
 }
 
 .nav-link:hover::after {
   width: 80%;
-  background-color: rgb(225, 139, 9);
+  background-color: var(--link);
   transition: width 0.2s ease;
 }
 
@@ -248,7 +250,6 @@ iframe {
   width: 100% !important;
   display: flex;
   margin: 0;
-  background-color: var(--black-color);
   padding: 0;
   justify-content: center;
   align-items: center;
@@ -313,10 +314,11 @@ iframe {
   left: -150%;
   width: 90px;
   height: 80%;
-  background-color: black;
+  background-color: var(--bg-color);
   opacity: 0.6;
   padding-inline: 10px;
   padding-block: 12px;
+  color: white;
   transition: 0.3s;
   display: flex;
   justify-content: center;

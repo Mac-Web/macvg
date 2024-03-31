@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (theme === "light") {
       const root = document.documentElement;
       root.style.setProperty("--text-color", "black");
+      root.style.setProperty("--link", "rgb(225, 139, 9)");
       root.style.setProperty("--shadow-color", "rgb(84, 84, 84)");
       root.style.setProperty("--black-color", "white");
       root.style.setProperty("--bg-color", "rgb(225, 225, 225)");
@@ -26,17 +27,37 @@ document.addEventListener("DOMContentLoaded", function () {
     } else if (theme === "deep") {
       const root = document.documentElement;
       root.style.setProperty("--text-color", "white");
+      root.style.setProperty("--link", "rgb(225, 139, 9)");
       root.style.setProperty("--shadow-color", "0px 0px 5px black");
       root.style.setProperty("--black-color", "black");
       root.style.setProperty("--bg-color", "black");
       root.style.setProperty("--bg-color-2", "black");
       root.style.setProperty("--group-bg-color", "black");
       root.style.setProperty("--bar-color", "black");
-    }  else {
+    } else if (theme === "cyber") {
+      const root = document.documentElement;
+      root.style.setProperty("--text-color", "white");
+      root.style.setProperty("--shadow-color", "0px 5px 5px #42053f");
+      root.style.setProperty("--black-color", "rgb(48,4,98)");
+      root.style.setProperty("--bg-color", "#0b023a");
+      root.style.setProperty("--link", "rgb(225, 139, 9)");
+      root.style.setProperty("--bg-color-2", "#ff00a0");
+      root.style.setProperty("--group-bg-color", "rgba(48, 4, 98, 0.7)");
+      root.style.setProperty("--bar-color", "#12827e");
+      root.style.setProperty("--border", "rgb(50,50,50)");
+    } else if (theme === "custom") {
+      let first = localStorage.getItem("first");
+      let second = localStorage.getItem("second");
+      const root = document.documentElement.style;
+      root.setProperty("--bg-color", first);
+      root.setProperty("--black-color", "rgba(0,0,0,0.4)");
+      root.setProperty("--link", second);
+    } else {
       const root = document.documentElement;
       root.style.setProperty("--text-color", "white");
       root.style.setProperty("--shadow-color", "transparent");
       root.style.setProperty("--black-color", "black");
+      root.style.setProperty("--link", "rgb(225, 139, 9)");
       root.style.setProperty("--bg-color", "rgb(50, 50, 50)");
       root.style.setProperty("--bg-color-2", "white");
       root.style.setProperty("--group-bg-color", "rgba(40, 40, 40, 0.7)");
@@ -48,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
   recent.innerHTML = "Recent";
   recent.classList.add("nav-link");
   recent.setAttribute("href", "/macvg/recent.html");
-  links.insertBefore(recent,linky[3]);
+  links.insertBefore(recent, linky[3]);
   let linkss = Array.from(document.querySelectorAll(".nav-link"));
   linkss.forEach(function (link) {
     if (link.innerHTML === "Chat") {
@@ -58,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
       link.innerHTML = "Originals";
       link.setAttribute("href", "/macvg/originals");
     }
-  })
+  });
   let crr = document.querySelector(".copyright");
   crr.innerHTML = "© 2024 MacWeb";
   const fullScreen = document.getElementById("fullscreen");
@@ -66,18 +87,23 @@ document.addEventListener("DOMContentLoaded", function () {
   iframe.contentWindow.addEventListener("keydown", function (e) {
     e.preventDefault();
   });
-  const download = document.getElementById("download");
   const toolBar = document.querySelector(".tool-bar");
   const report = document.createElement("img");
   report.src = "/macvg/flag.svg";
   report.style.width = "18px";
-  toolBar.insertBefore(report, download);
+  toolBar.insertBefore(report, fullScreen);
   const back = document.getElementById("back");
   back.style.display = "none";
+  const download = document.getElementById("downloadd");
+  let nameabc = document.getElementById("macvgmacvg").getAttribute("name");
+  if (download) {
+    download.addEventListener("click", function () {
+      window.location.href = `/macvg/projects/_zips/${nameabc}.zip`;
+    });
+  }
   const share = document.getElementById("share");
   const gameFrame = document.getElementById("gameframe");
   const star = document.getElementById("star");
-  let nameabc = document.getElementById("macvgmacvg").getAttribute("name");
   let existingDataa = localStorage.getItem("favorites");
   let favoritesArray = existingDataa.split(",");
   const index = favoritesArray.indexOf(nameabc);
@@ -96,6 +122,8 @@ document.addEventListener("DOMContentLoaded", function () {
       fullScreen.src = "/macvg/compress.svg";
     }
   });
+  const downloadd = document.getElementById("download");
+  downloadd.style.display = "none";
   const up2 = document.createElement("div");
   const macvgClose = document.createElement("button");
   up2.style.width = "50%";
@@ -139,9 +167,6 @@ document.addEventListener("DOMContentLoaded", function () {
   up2.appendChild(macvgClose);
   back.addEventListener("click", function () {
     history.back();
-  });
-  download.addEventListener("click", function () {
-    window.open("https://forms.gle/dqpitEzRd6rQbTVd7", "_blank");
   });
   share.addEventListener("click", function () {
     let thing123 = window.location.href;
@@ -219,7 +244,6 @@ setInterval(() => {
   });
 }, 100);
 
-
 const google = ["Google", "/macvg/google.png"];
 const canva = ["Home - Canva", "/macvg/canva.png"];
 const clever = ["Clever | Portal", "/macvg/clever.png"];
@@ -227,26 +251,30 @@ const schoology = ["Home | Schoology", "/macvg/schoology.png"];
 const newTab = ["New Tab", "/macvg/new-tab.png"];
 
 function google1() {
-  localStorage.setItem("title", JSON.stringify(google));
+  localStorage.setItem("title", google);
 }
 
 function canva1() {
-  localStorage.setItem("title", JSON.stringify(canva));
+  localStorage.setItem("title", canva);
 }
 
 function clever1() {
-  localStorage.setItem("title", JSON.stringify(clever));
+  localStorage.setItem("title", clever);
 }
 
 function schoology1() {
-  localStorage.setItem("title", JSON.stringify(schoology));
+  localStorage.setItem("title", schoology);
 }
 
 function newTab1() {
-  localStorage.setItem("title", JSON.stringify(newTab));
+  localStorage.setItem("title", newTab);
 }
 
 function unCloak() {
+  const pageTon = document.querySelector(".cloak");
+  const favicon = document.querySelector(".favicon");
+  favicon.outerHTML = `<link class="favicon" rel="icon" type="image/x-icon" href="/macvg/logo.png" />`;
+  pageTon.innerHTML = "Settings | MacVG";
   localStorage.setItem("title", "");
 }
 
@@ -262,30 +290,31 @@ function url() {
 
 function cloaking() {
   const name = document.getElementById("name").value;
-  localStorage.title = name;
+  const favicon = document.querySelector(".favicon");
+  localStorage.title = name + "," + favicon.href;
+}
+
+function faviconing() {
+  const pageTon = document.querySelector(".cloak");
+  const favicon = document.querySelector(".favicon");
+  const faviSRC = document.getElementById("name4").value;
+  let thingy = [pageTon.innerHTML, faviSRC];
+  favicon.outerHTML = `<link class="favicon" rel="icon" type="image/x-icon" href="${faviSRC}" />`;
+  localStorage.setItem("title", thingy);
 }
 
 function changeName() {
+  console.log(localStorage.title);
   if (localStorage.title !== "") {
     const pageTon = document.querySelector(".cloak");
     const favicon = document.querySelector(".favicon");
     if (localStorage.title != null) {
       let all = localStorage.getItem("title");
-      if (
-        all.includes("Clever") ||
-        all.includes("Google") ||
-        all.includes("Canva") ||
-        all.includes("Schoology") ||
-        all.includes("New Tab")
-      ) {
-        let alln = JSON.parse(all);
-        let title = alln[0];
-        let image = alln[1];
-        pageTon.innerHTML = title;
-        favicon.outerHTML = `<link class="favicon" rel="icon" type="image/x-icon" href="${image}" />`;
-      } else {
-        pageTon.innerHTML = all;
-      }
+      let alln = all.split(",");
+      let title = alln[0];
+      let image = alln[1];
+      pageTon.innerHTML = title;
+      favicon.outerHTML = `<link class="favicon" rel="icon" type="image/x-icon" href="${image}" />`;
     }
   }
 }

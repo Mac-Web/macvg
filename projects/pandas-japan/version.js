@@ -1,2 +1,0 @@
-version="2";
-libs=["patch/cdn/phaser/2.2/phaser-ads.min.js", "patch/cdn/phaser/2.0/phaser-cachebuster.min.js", "patch/cdn/phaser/3.0/phaser-spine.min.js", "patch/cdn/phaser/1.0/phaser-super-storage.min.js", "patch/cdn/phaser/3.5/splash.min.js"];

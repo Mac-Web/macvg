@@ -1,0 +1,55 @@
+
+weapon-level-14.png
+size: 512,256
+format: RGBA8888
+filter: MipMapNearestNearest,MipMapNearestLinear
+repeat: none
+background
+  rotate: false
+  xy: 2, 79
+  size: 149, 149
+  orig: 149, 149
+  offset: 0, 0
+  index: -1
+bow
+  rotate: true
+  xy: 153, 161
+  size: 67, 153
+  orig: 67, 153
+  offset: 0, 0
+  index: -1
+dagger
+  rotate: false
+  xy: 308, 185
+  size: 128, 43
+  orig: 128, 43
+  offset: 0, 0
+  index: -1
+halfCircle
+  rotate: true
+  xy: 153, 101
+  size: 58, 149
+  orig: 58, 149
+  offset: 0, 0
+  index: -1
+helmet
+  rotate: true
+  xy: 308, 92
+  size: 91, 95
+  orig: 91, 95
+  offset: 0, 0
+  index: -1
+nunchuck
+  rotate: false
+  xy: 405, 95
+  size: 60, 88
+  orig: 60, 88
+  offset: 0, 0
+  index: -1
+sword
+  rotate: true
+  xy: 2, 2
+  size: 75, 141
+  orig: 75, 141
+  offset: 0, 0
+  index: -1

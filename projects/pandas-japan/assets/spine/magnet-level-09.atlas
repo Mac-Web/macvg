@@ -1,0 +1,111 @@
+
+magnet-level-09.png
+size: 2048,128
+format: RGBA8888
+filter: MipMapNearestNearest,MipMapNearestLinear
+repeat: none
+chain
+  rotate: true
+  xy: 2, 101
+  size: 25, 675
+  orig: 25, 675
+  offset: 0, 0
+  index: -1
+hook
+  rotate: false
+  xy: 1436, 68
+  size: 43, 58
+  orig: 43, 58
+  offset: 0, 0
+  index: -1
+magnet
+  rotate: false
+  xy: 679, 2
+  size: 107, 124
+  orig: 107, 124
+  offset: 0, 0
+  index: -1
+waves0001
+  rotate: false
+  xy: 164, 42
+  size: 160, 57
+  orig: 160, 57
+  offset: 0, 0
+  index: -1
+waves0002
+  rotate: false
+  xy: 326, 42
+  size: 160, 57
+  orig: 160, 57
+  offset: 0, 0
+  index: -1
+waves0003
+  rotate: false
+  xy: 488, 42
+  size: 160, 57
+  orig: 160, 57
+  offset: 0, 0
+  index: -1
+waves0004
+  rotate: false
+  xy: 788, 69
+  size: 160, 57
+  orig: 160, 57
+  offset: 0, 0
+  index: -1
+waves0005
+  rotate: false
+  xy: 788, 10
+  size: 160, 57
+  orig: 160, 57
+  offset: 0, 0
+  index: -1
+waves0006
+  rotate: false
+  xy: 950, 69
+  size: 160, 57
+  orig: 160, 57
+  offset: 0, 0
+  index: -1
+waves0007
+  rotate: false
+  xy: 950, 10
+  size: 160, 57
+  orig: 160, 57
+  offset: 0, 0
+  index: -1
+waves0008
+  rotate: false
+  xy: 1112, 69
+  size: 160, 57
+  orig: 160, 57
+  offset: 0, 0
+  index: -1
+waves0009
+  rotate: false
+  xy: 1112, 10
+  size: 160, 57
+  orig: 160, 57
+  offset: 0, 0
+  index: -1
+waves0010
+  rotate: false
+  xy: 1274, 69
+  size: 160, 57
+  orig: 160, 57
+  offset: 0, 0
+  index: -1
+waves0011
+  rotate: false
+  xy: 1274, 10
+  size: 160, 57
+  orig: 160, 57
+  offset: 0, 0
+  index: -1
+waves0012
+  rotate: false
+  xy: 2, 42
+  size: 160, 57
+  orig: 160, 57
+  offset: 0, 0
+  index: -1

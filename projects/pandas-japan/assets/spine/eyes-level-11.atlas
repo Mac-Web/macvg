@@ -1,0 +1,90 @@
+
+eyes-level-11.png
+size: 256,32
+format: RGBA8888
+filter: MipMapNearestNearest,MipMapNearestLinear
+repeat: none
+blinking0001
+  rotate: false
+  xy: 2, 12
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+blinking0002
+  rotate: false
+  xy: 22, 12
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+blinking0003
+  rotate: false
+  xy: 42, 12
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+blinking0004
+  rotate: false
+  xy: 62, 12
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+blinking0005
+  rotate: false
+  xy: 82, 12
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+hello0001
+  rotate: false
+  xy: 121, 15
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+hello0002
+  rotate: false
+  xy: 138, 15
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+hello0003
+  rotate: false
+  xy: 155, 15
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+hello0004
+  rotate: false
+  xy: 172, 15
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+hello0005
+  rotate: false
+  xy: 189, 15
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+level11_eye
+  rotate: false
+  xy: 2, 2
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+level11_eye_back
+  rotate: false
+  xy: 102, 13
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1

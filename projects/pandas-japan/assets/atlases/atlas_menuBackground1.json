@@ -1,0 +1,30 @@
+{"frames": {
+
+"mainMenuBackgroundLandscape":
+{
+	"frame": {"x":1,"y":1,"w":1136,"h":768},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1136,"h":768},
+	"sourceSize": {"w":1136,"h":768},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"mainMenuBackgroundPortrait":
+{
+	"frame": {"x":1139,"y":1,"w":768,"h":1136},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":768,"h":1136},
+	"sourceSize": {"w":768,"h":1136},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "atlas_menuBackground1.png",
+	"format": "RGBA8888",
+	"size": {"w":1908,"h":1138},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:235b9e58d788d62a008a2e296959fd2e:2b5a6780595de1c27fdd4bae6d450c48:283598c3d43cf13f6a960695a8445fee$"
+}
+}

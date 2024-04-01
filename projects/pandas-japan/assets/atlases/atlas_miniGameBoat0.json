@@ -1,0 +1,120 @@
+{"frames": {
+
+"backRock1":
+{
+	"frame": {"x":1153,"y":320,"w":139,"h":145},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":139,"h":145},
+	"sourceSize": {"w":141,"h":148},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"backRock2":
+{
+	"frame": {"x":1182,"y":166,"w":197,"h":152},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":4,"w":197,"h":152},
+	"sourceSize": {"w":199,"h":162},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"backRock3":
+{
+	"frame": {"x":1414,"y":1,"w":136,"h":234},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":136,"h":234},
+	"sourceSize": {"w":140,"h":236},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"backRock4":
+{
+	"frame": {"x":1381,"y":237,"w":158,"h":210},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":8,"w":158,"h":210},
+	"sourceSize": {"w":166,"h":222},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"backRock5":
+{
+	"frame": {"x":1,"y":1,"w":909,"h":135},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":4,"w":909,"h":135},
+	"sourceSize": {"w":909,"h":141},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"rock1":
+{
+	"frame": {"x":649,"y":138,"w":261,"h":340},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":261,"h":340},
+	"sourceSize": {"w":261,"h":346},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"rock2":
+{
+	"frame": {"x":365,"y":138,"w":282,"h":295},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":282,"h":295},
+	"sourceSize": {"w":285,"h":297},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"rock3":
+{
+	"frame": {"x":1,"y":138,"w":362,"h":280},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":362,"h":280},
+	"sourceSize": {"w":363,"h":284},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"rock4":
+{
+	"frame": {"x":912,"y":1,"w":268,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":3,"w":268,"h":179},
+	"sourceSize": {"w":270,"h":186},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"tree1":
+{
+	"frame": {"x":912,"y":182,"w":239,"h":154},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":1,"w":239,"h":154},
+	"sourceSize": {"w":248,"h":156},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"tree2":
+{
+	"frame": {"x":912,"y":338,"w":212,"h":140},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":212,"h":140},
+	"sourceSize": {"w":214,"h":140},
+	"pivot": {"x":0.5,"y":0.5}
+},
+"tree3":
+{
+	"frame": {"x":1182,"y":1,"w":230,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":230,"h":163},
+	"sourceSize": {"w":234,"h":164},
+	"pivot": {"x":0.5,"y":0.5}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "atlas_miniGameBoat0.png",
+	"format": "RGBA8888",
+	"size": {"w":1551,"h":479},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a87ef9619398f50c163a73fa38c8ff90:bc5ab10136cc9eeb7a408ab9f4c5602a:5b49dc3750c08b91c835121937b23e16$"
+}
+}

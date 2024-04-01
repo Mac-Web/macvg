@@ -1,0 +1,111 @@
+
+panda-big-level-selector.png
+size: 256,128
+format: RGBA8888
+filter: MipMapNearestNearest,MipMapNearestLinear
+repeat: none
+big/bigBody
+  rotate: false
+  xy: 2, 44
+  size: 96, 82
+  orig: 96, 82
+  offset: 0, 0
+  index: -1
+big/bigHand
+  rotate: false
+  xy: 145, 67
+  size: 21, 36
+  orig: 21, 36
+  offset: 0, 0
+  index: -1
+big/bigLeftLeg
+  rotate: true
+  xy: 190, 104
+  size: 22, 27
+  orig: 22, 27
+  offset: 0, 0
+  index: -1
+big/bigMouthNotHappy
+  rotate: false
+  xy: 100, 52
+  size: 24, 5
+  orig: 24, 5
+  offset: 0, 0
+  index: -1
+big/bigMouthO
+  rotate: false
+  xy: 2, 2
+  size: 18, 17
+  orig: 18, 17
+  offset: 0, 0
+  index: -1
+big/bigNose
+  rotate: false
+  xy: 168, 70
+  size: 16, 12
+  orig: 16, 12
+  offset: 0, 0
+  index: -1
+big/bigRightLeg
+  rotate: true
+  xy: 219, 104
+  size: 22, 27
+  orig: 22, 27
+  offset: 0, 0
+  index: -1
+big/bigSmile
+  rotate: false
+  xy: 22, 12
+  size: 22, 7
+  orig: 22, 7
+  offset: 0, 0
+  index: -1
+big/ear
+  rotate: false
+  xy: 168, 84
+  size: 20, 19
+  orig: 20, 19
+  offset: 0, 0
+  index: -1
+big/eyes0001
+  rotate: false
+  xy: 100, 105
+  size: 43, 21
+  orig: 43, 21
+  offset: 0, 0
+  index: -1
+big/eyes0002
+  rotate: false
+  xy: 47, 21
+  size: 43, 21
+  orig: 43, 21
+  offset: 0, 0
+  index: -1
+big/eyes0003
+  rotate: false
+  xy: 100, 82
+  size: 43, 21
+  orig: 43, 21
+  offset: 0, 0
+  index: -1
+big/eyes0004
+  rotate: false
+  xy: 145, 105
+  size: 43, 21
+  orig: 43, 21
+  offset: 0, 0
+  index: -1
+big/eyes0005
+  rotate: false
+  xy: 100, 59
+  size: 43, 21
+  orig: 43, 21
+  offset: 0, 0
+  index: -1
+big/eyes0006
+  rotate: false
+  xy: 2, 21
+  size: 43, 21
+  orig: 43, 21
+  offset: 0, 0
+  index: -1

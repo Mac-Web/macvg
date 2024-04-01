@@ -1,0 +1,181 @@
+
+mini-game-battle-panda-big.png
+size: 2048,128
+format: RGBA8888
+filter: MipMapNearestNearest,MipMapNearestLinear
+repeat: none
+big/big_angel_base
+  rotate: true
+  xy: 1010, 30
+  size: 96, 109
+  orig: 96, 109
+  offset: 0, 0
+  index: -1
+big/big_arm
+  rotate: true
+  xy: 144, 13
+  size: 19, 22
+  orig: 19, 22
+  offset: 0, 0
+  index: -1
+big/big_belt
+  rotate: false
+  xy: 2, 7
+  size: 95, 48
+  orig: 95, 48
+  offset: 0, 0
+  index: -1
+big/big_body
+  rotate: false
+  xy: 1121, 44
+  size: 96, 82
+  orig: 96, 82
+  offset: 0, 0
+  index: -1
+big/big_hand
+  rotate: true
+  xy: 1356, 66
+  size: 24, 34
+  orig: 24, 34
+  offset: 0, 0
+  index: -1
+big/big_helmet
+  rotate: false
+  xy: 1219, 58
+  size: 90, 68
+  orig: 90, 68
+  offset: 0, 0
+  index: -1
+big/big_leg
+  rotate: true
+  xy: 1453, 104
+  size: 22, 27
+  orig: 22, 27
+  offset: 0, 0
+  index: -1
+big/big_mouth
+  rotate: false
+  xy: 99, 2
+  size: 22, 7
+  orig: 22, 7
+  offset: 0, 0
+  index: -1
+big/big_nose
+  rotate: false
+  xy: 1121, 30
+  size: 16, 12
+  orig: 16, 12
+  offset: 0, 0
+  index: -1
+big/big_sword
+  rotate: true
+  xy: 1311, 92
+  size: 34, 95
+  orig: 34, 95
+  offset: 0, 0
+  index: -1
+big/big_wings0001
+  rotate: false
+  xy: 170, 57
+  size: 166, 69
+  orig: 166, 69
+  offset: 0, 0
+  index: -1
+big/big_wings0003
+  rotate: false
+  xy: 338, 57
+  size: 166, 69
+  orig: 166, 69
+  offset: 0, 0
+  index: -1
+big/big_wings0009
+  rotate: false
+  xy: 338, 57
+  size: 166, 69
+  orig: 166, 69
+  offset: 0, 0
+  index: -1
+big/big_wings0004
+  rotate: false
+  xy: 506, 57
+  size: 166, 69
+  orig: 166, 69
+  offset: 0, 0
+  index: -1
+big/big_wings0008
+  rotate: false
+  xy: 506, 57
+  size: 166, 69
+  orig: 166, 69
+  offset: 0, 0
+  index: -1
+big/big_wings0005
+  rotate: false
+  xy: 674, 57
+  size: 166, 69
+  orig: 166, 69
+  offset: 0, 0
+  index: -1
+big/big_wings0007
+  rotate: false
+  xy: 674, 57
+  size: 166, 69
+  orig: 166, 69
+  offset: 0, 0
+  index: -1
+big/big_wings0006
+  rotate: false
+  xy: 842, 57
+  size: 166, 69
+  orig: 166, 69
+  offset: 0, 0
+  index: -1
+big/big_wings0010
+  rotate: false
+  xy: 2, 57
+  size: 166, 69
+  orig: 166, 69
+  offset: 0, 0
+  index: -1
+big/big_wings0002
+  rotate: false
+  xy: 2, 57
+  size: 166, 69
+  orig: 166, 69
+  offset: 0, 0
+  index: -1
+big/eyes/big_eyes0001
+  rotate: false
+  xy: 99, 34
+  size: 43, 21
+  orig: 43, 21
+  offset: 0, 0
+  index: -1
+big/eyes/big_eyes0002
+  rotate: false
+  xy: 1311, 69
+  size: 43, 21
+  orig: 43, 21
+  offset: 0, 0
+  index: -1
+big/eyes/big_eyes0003
+  rotate: false
+  xy: 1408, 105
+  size: 43, 21
+  orig: 43, 21
+  offset: 0, 0
+  index: -1
+big/eyes/big_eyes0004
+  rotate: false
+  xy: 99, 11
+  size: 43, 21
+  orig: 43, 21
+  offset: 0, 0
+  index: -1
+big/eyes/big_eyes0005
+  rotate: false
+  xy: 144, 34
+  size: 43, 21
+  orig: 43, 21
+  offset: 0, 0
+  index: -1

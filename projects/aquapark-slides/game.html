@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title class="cloak">Aquapark Slides | MacVG</title>
+    <link class="favicon" rel="shortcut icon" href="/logo.png" />
+    <script src="/macvg/cloaker.js"></script>
+    <span id="macvgmacvg" name="game18"></span>
+    <link href="shared/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="TemplateData56/style.css" />
+    <script src="TemplateData56/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script src="/js/main.js"></script>
+    <script>
+      window.origBlob = window.Blob;
+      window.Blob = function (array, options) {
+        if (array[1] instanceof Uint8Array) {
+          array[1] = new TextDecoder("utf-8").decode(array[1]).replace(/window\.top\.location\.href|window\.location\.href|document\.referrer|document\.URL/g, '"https://storage.y8.com/"');
+        }
+        return new window.origBlob(array, options);
+      };
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WaterParkSlides3Dx2.json", {
+        onProgress: UnityProgress,
+        Module: {
+          onRuntimeInitialized: function () {
+            UnityProgress(gameInstance, "complete");
+          },
+        },
+      });
+    </script>
+  </head>
+
+  <body>
+    <div class="macvg-wrap macvg-close" id="macvg-pop">
+      <div class="macvg-message">
+        <h1>
+          <button class="macvg-btn" style="left: 25px" title="Bug Report" onclick="feedback()">
+            <img src="/macvg/flag.svg" alt="Close" width="20px" /></button
+          >Aquapark Slides<button class="macvg-btn" id="macvg-off" title="Close">
+            <img src="/macvg/xmark-solid.svg" alt="Close" width="20px" />
+          </button>
+        </h1>
+        <h2>How to Play</h2>
+        <p>
+         Aquapark Slides is a browser remix version of the popular mobile game. Drag the mouse left and right to turn, get on speed boosts, and avoid hitting other players, which will slow you down. Try to get first place each time to advance to the next level.
+      </p>
+        <h2>Game Information</h2>
+        <ul>
+          <li>Release Date: July 6, 2019</li>
+          <li>Developer: Y8</li>
+          <li>Players: 3M+</li>
+        </ul>
+      </div>
+    </div>
+    <link rel="stylesheet" href="/macvg/info.css" />
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 100vw; height: 100vh;"></div>
+    </div>
+  </body>
+</html>

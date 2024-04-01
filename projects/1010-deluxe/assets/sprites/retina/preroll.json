@@ -1,0 +1,84 @@
+{"frames": {
+
+"bg":
+{
+	"frame": {"x":6,"y":6,"w":1152,"h":2048},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1152,"h":2048},
+	"sourceSize": {"w":1152,"h":2048}
+},
+"load-bar-bg":
+{
+	"frame": {"x":311,"y":2242,"w":1911,"h":148},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1911,"h":148},
+	"sourceSize": {"w":1911,"h":148}
+},
+"load-bar":
+{
+	"frame": {"x":311,"y":2061,"w":1886,"h":174},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1886,"h":174},
+	"sourceSize": {"w":1886,"h":174}
+},
+"load-frame-left":
+{
+	"frame": {"x":138,"y":2061,"w":124,"h":242},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":124,"h":242},
+	"sourceSize": {"w":124,"h":242}
+},
+"load-frame-middle":
+{
+	"frame": {"x":269,"y":2061,"w":35,"h":242},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":35,"h":242},
+	"sourceSize": {"w":35,"h":242}
+},
+"load-frame-right":
+{
+	"frame": {"x":6,"y":2061,"w":125,"h":242},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":125,"h":242},
+	"sourceSize": {"w":125,"h":242}
+},
+"logo":
+{
+	"frame": {"x":1165,"y":6,"w":1008,"h":638},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1008,"h":638},
+	"sourceSize": {"w":1008,"h":638}
+},
+"poki-logo-small":
+{
+	"frame": {"x":2180,"y":6,"w":200,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":99},
+	"sourceSize": {"w":200,"h":99}
+},
+"poki-logo":
+{
+	"frame": {"x":1165,"y":651,"w":976,"h":485},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":976,"h":485},
+	"sourceSize": {"w":976,"h":485}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "preroll.png",
+	"format": "RGBA8888",
+	"size": {"w":2396,"h":2396},
+	"scale": "0.8",
+	"smartupdate": "$TexturePacker:SmartUpdate:685dbcc7de9a83d9003406d4cf2379d5:18fb0fbed9a8432e276eefcc6b8620c7:2847c32e49e7a0dcc74527bfc4556e0a$"
+}
+}

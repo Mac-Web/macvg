@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      if (localStorage.getItem("favorites") === null) {
+        localStorage.setItem("favorites", "bruh");
+      }
+    </script>
+    <title class="cloak">Originals | MacVG</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link class="favicon" rel="icon" type="image/x-icon" href="/logo.png" />
+    <link href="/macvg/style.css" rel="stylesheet" type="text/css" />
+    <script src="/macvg/cloak.js"></script>
+    <script src="/macvg/app.js"></script>
+  </head>
+  <body>
+    <nav class="nav" id="nav">
+      <a
+        href="/macvg/"
+        class="logo2"
+        style="background-color: var(--black-color)"
+      >
+        <img src="/macvg/macvg-logo.png" alt="MacVG Logo" />
+        <a href="/macvg/new.html" class="nav-link">New</a></a
+      ><a href="/macvg/trending.html" class="nav-link">Trending</a
+      ><a href="/macvg/groups.html" class="nav-link">Groups</a
+      ><a href="/macvg/recent.html" class="nav-link">Recent</a
+      ><a href="/macvg/originals/" class="nav-link">Originals</a
+      ><a href="/macvg/settings.html" class="nav-link">Settings</a>
+      <div class="select">
+        <span id="header123">Catagories</span>
+        <ul id="cats">
+          <a href="/macvg/featured.html">Featured</a>
+          <a href="/macvg/action-adventure.html">Action</a>
+          <a href="/macvg/strategy-puzzle.html">Strategy</a>
+          <a href="/macvg/driving-sports.html">Driving</a>
+          <a href="/macvg/casual.html">Casual</a>
+        </ul>
+      </div>
+      <div class="select">
+        <span id="header123">Help</span>
+        <ul id="cats">
+          <a href="/macblog/projects/macvg/" target="_blank">About</a>
+          <a href="/macblog/updates/macvg/" target="_blank">Updates</a>
+          <a href="/macblog/projects/macvg/" target="_blank">Docs</a>
+          <a href="https://forms.gle/UpHgbAmLtUPCD5bs8" target="_blank">Feedback</a>
+        </ul>
+      </div>
+    </nav>
+    <div class="announce">
+      <h2>
+        Check out the
+        <a href="/macblog/updates/macvg/2024/march.html" target="_blank"
+          >MacVG March Update</a
+        >: New features, new looks, and more!
+        <img src="/maclearn/xmark-solid.svg" alt="X" id="closea" />
+      </h2>
+    </div>
+    <script>
+      let clos = document.getElementById("closea");
+      if (localStorage.getItem("macvgclosee")) {
+        clos.parentElement.parentElement.style.display = "none";
+      }
+    </script>
+    <div class="macsidebar" id="sidebar">
+      <a href="/"><img src="/logo.png" alt="" /></a>
+      <a href="/maclearn/"><img src="/MacLearn Logo.png" alt="" /></a>
+      <a href="/mactime/"><img src="/MacTime Logo.png" alt="" /></a>
+      <a href="/macvg/"><img src="/MacVG Logo.png" alt="" /></a>
+      <a href="/macblog/"><img src="/MacBlog Logo.png" alt="" /></a>
+    </div>
+    <div class="wrap" style="padding-bottom: 40px">
+      <header class="homeheader">
+        <div class="title">MacVG Originals</div>
+        <div
+          class="sub"
+          style="
+            width: 65%;
+            margin-inline: 17.5%;
+            text-align: left;
+            line-height: 30px;
+          "
+        >
+          Here are a couple original fun games and apps devloped and presented by the MacVG team for you to enjoy. We're continually <del>and slowly</del> working on new releases, so stay tuned for more exciting MacVG Originals in future updates! Hope you like them ; &#41;
+        </div>
+      </header>
+      <div class="ogcontainer">
+        <a href="macboard/" class="og">
+          <img src="/MacVG Logo.png" alt="MacBoard Logo" />
+          <h2 class="ogtitle">MacBoard</h2>
+          <p class="ogdes">
+            MacBoard is a fun and abounding online soundboard for all kinds of
+            meme sounds and funny noises.
+          </p>
+        </a>
+        <div class="og">
+          <img src="clicker/logo.png" alt="Cosmic Clicker Logo" />
+          <h2 class="ogtitle">Cosmic Clicker</h2>
+          <p class="ogdes">Cosmic Clicker coming in MacVG March Update!</p>
+        </div>
+        <!--
+        <div class="og">
+          <img src="/MacVG Logo.png" alt="MacBoard Logo">
+          <h2 class="ogtitle">Cosmic Clicker</h2>
+          <p class="ogdes">
+            Cosmic Clicker coming in MacVG March Update!
+          </p>
+        </div>
+      --></div>
+    </div>
+    <footer class="footer">
+      © 2024 <a href="/">MacWeb</a
+      ><span style="color: black; user-select: none; background-color: black"
+        >MacVG</span
+      >
+      All rights reserved<br />
+      Have fun playing these unblocked fun games!🎮🎮🎮<br
+        style="margin-bottom: 10px"
+      />
+      <a
+        href="https://github.com/Mac-Web/macvg"
+        target="_blank"
+        style="padding-inline: 10px; text-decoration: underline"
+        >GitHub</a
+      >
+      <a
+        href="https://www.youtube.com/channel/UCE2BzeKnoYbaL4B2Iidz2ag"
+        target="_blank"
+        style="padding-inline: 10px; text-decoration: underline"
+        >YouTube</a
+      >
+      <a
+        href="https://www.youtube.com/watch?v=xvFZjo5PgG0"
+        target="_blank"
+        style="padding-inline: 10px; text-decoration: underline"
+        >More games!</a
+      >
+    </footer>
+  </body>
+</html>

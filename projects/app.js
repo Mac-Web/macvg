@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let nameabc = document.getElementById("macvgmacvg").getAttribute("name");
   if (download) {
     download.addEventListener("click", function () {
-      window.location.href = `/macvg/projects/_zips/${nameabc}.zip`;
+      window.location.href = `/macvg/projects/zips/${nameabc}.zip`;
     });
   }
   const share = document.getElementById("share");

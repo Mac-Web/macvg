@@ -2,10 +2,7 @@
 <html>
   <head>
     <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-Y71QM9DR66"
-    ></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y71QM9DR66"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
@@ -30,47 +27,34 @@
       referrerpolicy="no-referrer"
     />
     <script src="cloak.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <script src="/macvg/app.js"></script>
     <script src="/macvg/modes.js"></script>
   </head>
   <body>
     <div class="overflow-menu shoot" id="overflow-menu">
-      <a href="new.html" class="olink">New</a
-      ><a href="trending.html" class="olink">Trending</a
-      ><a href="groups.html" class="olink">Groups</a
-      ><a href="recent.html" class="olink">Recent</a
-      ><a href="/macvg/originals/" class="olink">Originals</a
-      ><a href="/macvg/settings.html" class="olink">Settings</a>
+      <a href="new.html" class="olink">New</a><a href="trending.html" class="olink">Trending</a><a href="groups.html" class="olink">Groups</a><a href="recent.html" class="olink">Recent</a>
+      <a href="/macvg/originals/" class="olink">Originals</a><a href="/macvg/settings.html" class="olink">Settings</a>
     </div>
     <nav class="nav" id="nav">
       <div class="overflowm shoot" id="overflowm">
         <img src="bars-solid.svg" alt="Menu" class="shoot" />
       </div>
-      <a
-        href="/macvg/"
-        class="logo2"
-        style="background-color: var(--black-color)"
-      >
+      <a href="/macvg/" class="logo2" style="background-color: var(--black-color);">
         <img src="/macvg/macvg-logo.png" alt="MacVG Logo" />
-        <a href="new.html" class="nav-link">New</a></a
-      ><a href="trending.html" class="nav-link">Trending</a
-      ><a href="groups.html" class="nav-link">Groups</a
-      ><a href="recent.html" class="nav-link">Recent</a
-      ><a href="/macvg/originals/" class="nav-link">Originals</a
-      ><a href="/macvg/settings.html" class="nav-link">Settings</a>
+        <a href="new.html" class="nav-link">New</a>
+      </a>
+      <a href="trending.html" class="nav-link">Trending</a><a href="groups.html" class="nav-link">Groups</a><a href="recent.html" class="nav-link">Recent</a><a href="/macvg/originals/" class="nav-link">Originals</a>
+      <a href="/macvg/settings.html" class="nav-link">Settings</a>
       <div class="select secondselect">
         <span id="header123">Tabs</span>
         <ul id="cats">
-          <a href="new.html">New</a
-          ><a href="trending.html">Trending</a
-          ><a href="groups.html">Groups</a
-          ><a href="recent.html">Recent</a
-          ><a href="/macvg/originals/">Originals</a
-          ><a href="/macvg/settings.html">Settings</a>
+          <a href="new.html">New</a>
+          <a href="trending.html">Trending</a>
+          <a href="groups.html">Groups</a>
+          <a href="recent.html">Recent</a>
+          <a href="/macvg/originals/">Originals</a>
+          <a href="/macvg/settings.html">Settings</a>
         </ul>
       </div>
       <div class="select">
@@ -89,18 +73,14 @@
           <a href="/macblog/projects/macvg/" target="_blank">About</a>
           <a href="/macblog/updates/macvg/" target="_blank">Updates</a>
           <a href="/macblog/projects/macvg/" target="_blank">Docs</a>
-          <a href="https://forms.gle/UpHgbAmLtUPCD5bs8" target="_blank"
-            >Feedback</a
-          >
+          <a href="https://forms.gle/UpHgbAmLtUPCD5bs8" target="_blank">Feedback</a>
         </ul>
       </div>
     </nav>
     <div class="announce">
       <h2>
         Check out the
-        <a href="/macblog/updates/macvg/2024/april.html" target="_blank"
-          >MacVG April Update</a
-        >: New features, new looks, and more!
+        <a href="/macblog/updates/macvg/2024/april.html" target="_blank">MacVG April Update</a>: New features, new looks, and more!
         <img src="/maclearn/xmark-solid.svg" alt="X" id="closea" />
       </h2>
     </div>
@@ -121,28 +101,18 @@
     <div class="wrap" id="wrap">
       <header class="homeheader">
         <div class="title" name="Welcome to MacVG!">Welcome to MacVG!</div>
-        <div class="sub">
-          A little place where you can have <strong>FUN</strong>!
-        </div>
+        <div class="sub">A little place where you can have <strong>FUN</strong>!</div>
       </header>
       <div class="functions" id="functions">
-        <input
-          type="text"
-          id="searchInput"
-          oninput="search()"
-          autocomplete="off"
-          placeholder="Search 300+ Games"
-        /><button class="random" id="random" title="Random Game Selector">
+        <input type="text" id="searchInput" oninput="search()" autocomplete="off" placeholder="Search 300+ Games" />
+        <button class="random" id="random" title="Random Game Selector">
           🎲
         </button>
       </div>
       <div class="games-container" id="favoriteList"></div>
       <div class="games-container" id="randomList"></div>
       <script>
-        if (
-          localStorage.getItem("favorites") === "bruh" ||
-          localStorage.getItem("favorites") === null
-        ) {
+        if (localStorage.getItem("favorites") === "bruh" || localStorage.getItem("favorites") === null) {
           const favoriteList = document.getElementById("favoriteList");
           favoriteList.style.display = "none";
           localStorage.setItem("favorites", "bruh");
@@ -256,9 +226,7 @@
         <a href="/macvg/projects/backrooms-2d/" class="game" id="game292">
           Backrooms 2D
         </a>
-        <a href="/macvg/projects/bacon-may-die/" class="game" id="game293">
-          Bacon May Die</a
-        >
+        <a href="/macvg/projects/bacon-may-die/" class="game" id="game293"> Bacon May Die</a>
 
         <a href="/macvg/projects/bad-ice-cream/" class="game" id="game21">
           Bad Ice Cream
@@ -275,11 +243,7 @@
         <a href="/macvg/projects/baldis-basics/" class="game" id="game24">
           Baldi's Basics
         </a>
-        <a
-          href="/macvg/projects/ball-sort-halloween/"
-          class="game"
-          id="game341"
-        >
+        <a href="/macvg/projects/ball-sort-halloween/" class="game" id="game341">
           Ball Sort Halloween
         </a>
         <a href="/macvg/projects/ball-sort-puzzle/" class="game" id="game342">
@@ -352,9 +316,7 @@
         <a href="/macvg/projects/boxhead2play/" class="game" id="game37">
           Box Head
         </a>
-        <a href="/macvg/projects/boxel-rebound/" class="game" id="game347"
-          >Boxel Rebound</a
-        >
+        <a href="/macvg/projects/boxel-rebound/" class="game" id="game347">Boxel Rebound</a>
 
         <a href="/macvg/projects/boxing-random/" class="game" id="game38">
           Boxing Random
@@ -548,11 +510,7 @@
           Factory Balls Forever
         </a>
 
-        <a
-          href="/macvg/projects/fancypantsadventures/"
-          class="game"
-          id="game90"
-        >
+        <a href="/macvg/projects/fancypantsadventures/" class="game" id="game90">
           Fancy Pants Adventures
         </a>
 
@@ -560,11 +518,7 @@
           Fake Virus
         </a>
 
-        <a
-          href="/macvg/projects/fireboywatergirlforesttemple/"
-          class="game"
-          id="game92"
-        >
+        <a href="/macvg/projects/fireboywatergirlforesttemple/" class="game" id="game92">
           Fireboy and Watergirl
         </a>
 
@@ -594,11 +548,7 @@
           Game Inside a Game Inside a Game...
         </a>
 
-        <a
-          href="/macvg/projects/generic-fishing-game/"
-          class="game"
-          id="game103"
-        >
+        <a href="/macvg/projects/generic-fishing-game/" class="game" id="game103">
           Generic Fishing Game
         </a>
 
@@ -606,11 +556,7 @@
           Geometry Dash Scratch
         </a>
 
-        <a
-          href="/macvg/projects/georgeandtheprinter/"
-          class="game"
-          id="game105"
-        >
+        <a href="/macvg/projects/georgeandtheprinter/" class="game" id="game105">
           George and the Printer
         </a>
 
@@ -727,11 +673,7 @@
           Learn To Fly 2
         </a>
 
-        <a
-          href="/macvg/projects/madalin-stunt-cars-2/"
-          class="game"
-          id="game138"
-        >
+        <a href="/macvg/projects/madalin-stunt-cars-2/" class="game" id="game138">
           Madalin Stunt Cars 2
         </a>
 
@@ -1107,11 +1049,7 @@
           Superhot
         </a>
 
-        <a
-          href="/macvg/projects/supermarioconstruct/"
-          class="game"
-          id="game237"
-        >
+        <a href="/macvg/projects/supermarioconstruct/" class="game" id="game237">
           Super Mario Construct
         </a>
 
@@ -1121,11 +1059,7 @@
           Synesthesia
         </a>
 
-        <a
-          href="/macvg/projects/tactical-weapon-pack-2/"
-          class="game"
-          id="game242"
-        >
+        <a href="/macvg/projects/tactical-weapon-pack-2/" class="game" id="game242">
           Tactical Weapon Pack 2
         </a>
 
@@ -1236,11 +1170,7 @@
           We Become What We Behold
         </a>
 
-        <a
-          href="/macvg/projects/webgl-fluid-simulation/"
-          class="game"
-          id="game270"
-        >
+        <a href="/macvg/projects/webgl-fluid-simulation/" class="game" id="game270">
           WebGL Fluid Sim
         </a>
 
@@ -1250,19 +1180,11 @@
 
         <a href="/macvg/projects/wordle/" class="game" id="game274"> Wordle </a>
 
-        <a
-          href="/macvg/projects/worlds-hardest-game/"
-          class="game"
-          id="game275"
-        >
+        <a href="/macvg/projects/worlds-hardest-game/" class="game" id="game275">
           World's Hardest Game
         </a>
 
-        <a
-          href="/macvg/projects/worlds-hardest-game-2/"
-          class="game"
-          id="game276"
-        >
+        <a href="/macvg/projects/worlds-hardest-game-2/" class="game" id="game276">
           World's Hardest Game 2
         </a>
 
@@ -1284,32 +1206,11 @@
       </div>
     </div>
     <footer class="footer">
-      © 2024 <a href="/">MacWeb</a
-      ><span style="color: black; user-select: none; background-color: black"
-        >MacVG</span
-      >
-      All rights reserved<br />
-      Have fun playing these unblocked fun games!🎮🎮🎮<br
-        style="margin-bottom: 10px"
-      />
-      <a
-        href="https://github.com/Mac-Web/macvg"
-        target="_blank"
-        style="padding-inline: 10px; text-decoration: underline"
-        >GitHub</a
-      >
-      <a
-        href="https://www.youtube.com/channel/UCE2BzeKnoYbaL4B2Iidz2ag"
-        target="_blank"
-        style="padding-inline: 10px; text-decoration: underline"
-        >YouTube</a
-      >
-      <a
-        href="https://www.youtube.com/watch?v=xvFZjo5PgG0"
-        target="_blank"
-        style="padding-inline: 10px; text-decoration: underline"
-        >More games!</a
-      >
+      © 2024 <a href="/">MacWeb</a><span style="color: black; user-select: none; background-color: black;">MacVG</span> All rights reserved<br />
+      Have fun playing these unblocked fun games!🎮🎮🎮<br style="margin-bottom: 10px;" />
+      <a href="https://github.com/Mac-Web/macvg" target="_blank" style="padding-inline: 10px; text-decoration: underline;">GitHub</a>
+      <a href="https://www.youtube.com/channel/UCE2BzeKnoYbaL4B2Iidz2ag" target="_blank" style="padding-inline: 10px; text-decoration: underline;">YouTube</a>
+      <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank" style="padding-inline: 10px; text-decoration: underline;">More games!</a>
     </footer>
     <script>
       if (localStorage.cccse === "yes") {

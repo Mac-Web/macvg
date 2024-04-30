@@ -406,7 +406,8 @@ label:hover {
   font-size: 28px;
   color: var(--text-color);
   text-align: center;
-  padding-block: 5px;
+  padding-block: 10px;
+  padding-bottom: 20px;
   flex: 1 0 100% !important;
 }
 
@@ -488,7 +489,8 @@ label:hover {
   top: 0;
   z-index: 1000;
 }
-.nav-link {
+.nav-link,
+.olink {
   padding-block: 12px;
   padding-inline: 20px;
   font-size: 18px;
@@ -501,7 +503,8 @@ label:hover {
   transition: border-bottom 0.3s;
 }
 
-.nav-link::after {
+.nav-link::after,
+.olink::before {
   content: "";
   height: 2px;
   position: absolute;
@@ -520,6 +523,23 @@ label:hover {
   transition: width 0.2s ease;
 }
 
+.olink {
+  transition: color 0.15s ease;
+  border-color: rgb(30, 30, 30);
+}
+
+.olink::before {
+  height: 0px;
+  transform: translateY(-50%);
+  width: 3px;
+  left: 0;
+  top: 50%;
+  transition: height 0.2s ease;
+}
+
+.olink:hover::before {
+  height: 80%;
+}
 h2 {
   text-align: center;
   margin-block: 20px;
@@ -659,6 +679,21 @@ h2 {
   margin-inline: 23%;
 }
 
+#fvrbtn {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: var(--bg-color);
+  border: none;
+}
+
+#fvrbtn img {
+  height: 60%;
+  margin-block: 20%;
+}
+
 #go,
 #go2 {
   outline: none;
@@ -747,6 +782,7 @@ h2 {
   margin-inline: 6px;
   margin-block: 5px;
   width: 110px;
+  background-position: center center;
   background-color: gray;
   color: white;
   padding-inline: 10px;
@@ -757,9 +793,10 @@ h2 {
   height: 110px;
   padding-bottom: 10px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
+  transform: scale(1);
   overflow: hidden;
-  transition: all 0.2s;
+  transition: all 0.4s !important;
 }
 
 .trend-des {
@@ -873,11 +910,12 @@ h2 {
   content: attr(name);
   position: absolute;
   top: 0;
-  left: -150%;
+  left: 0;
   width: 90px;
   height: 80%;
+  opacity: 0;
   background-color: var(--bg-color);
-  opacity: 0.6;
+  opacity: 0;
   padding-inline: 10px;
   padding-block: 12px;
   transition: 0.3s;
@@ -887,6 +925,7 @@ h2 {
   align-items: end;
   font-size: 14px;
   text-align: center;
+  transition: opacity 0.3s ease;
 }
 
 .info-popup {
@@ -895,7 +934,12 @@ h2 {
 }
 
 .game:hover::before {
-  left: 0;
+  opacity: 0.6;
+}
+
+.game:hover {
+  background-size: 115%;
+  transform: scale(1.1);
 }
 
 h2 {
@@ -960,6 +1004,96 @@ hr {
 }
 .shadow {
   box-shadow: 0px 0px 5px rgb(84, 84, 84) !important;
+}
+
+.overflowm {
+  display: none;
+  width: 40px;
+  padding: 10px;
+  height: 40px;
+  border-radius: 10px;
+  margin-inline: 25px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  transition: background-color 0.2s ease !important;
+}
+
+.overflowm:hover {
+  background-color: rgb(30, 30, 30);
+}
+
+.overflow-menu {
+  display: flex;
+  flex-direction: column;
+  transform: translateX(-50vw);
+  width: 50vw;
+  position: fixed;
+  padding-block: 20px;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 10000;
+  background-color: rgb(30, 30, 30);
+  transition: transform 0.3s ease !important;
+}
+
+.menu-slide {
+  transform: translateX(0px);
+  box-shadow: 0px 0px 10px rgb(30, 30, 30);
+}
+
+.secondselect {
+  display: none;
+}
+
+@media (width < 1050px) {
+  .nav-link {
+    display: none;
+  }
+  .secondselect {
+    display: flex;
+  }
+}
+
+@media (width < 850px) {
+  label:hover {
+    padding-left: 30px;
+  }
+  label {
+    font-size: 18px;
+  }
+}
+
+@media (width < 700px) {
+  .functions {
+    width: 70%;
+    margin-inline: 15%;
+  }
+  #cloaker, #clform, #cloaker2 {
+    width: 90%;
+    margin-inline: 5%;
+  }
+  .clbtn {
+    padding-inline: 0;
+  }
+}
+
+@media (width < 500px) {
+  .nav-link,
+  .select {
+    display: none;
+  }
+  .logo2 {
+    padding-block: 8px;
+    box-sizing: content-box;
+    margin: 0;
+  }
+  .overflowm {
+    display: flex;
+  }
 }
 
 #game1 {
@@ -3519,5 +3653,103 @@ hr {
       rgba(40, 40, 40, 0.85)
     ),
     url("projects/dino-bros/logo.jpg");
+  background-position: center;
+}
+
+#game350 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/blumgi-rocket/thumb.png");
+  background-position: center;
+}
+
+#game351 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/bottle-flip/icons/icon-256.png");
+  background-position: center;
+}
+#game352 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/bouncy-woods/thumb.png");
+  background-position: center;
+}
+#game353 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/bubble-pop/thumb.jpg");
+  background-position: center;
+}
+#game354 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/car-rush/thumb.png");
+  background-position: center;
+}
+#game355 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/dead-again/thumb.png");
+  background-position: center;
+}
+#game356 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/circlo2/thumv.png");
+  background-position: center;
+}
+#game357 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/checkers-legend/thumb.jpg");
+  background-position: center;
+}
+#game358 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/clicker-heroes/thumb.jpg");
+  background-position: center;
+}
+#game359 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/climb-over-it/thumb.jpg");
+  background-position: center;
+}
+#game360 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/dino-merge/thumb.jpg");
+  background-position: center;
+}
+#game361 {
+  background-image: linear-gradient(
+      rgba(40, 40, 40, 0.2),
+      rgba(40, 40, 40, 0.85)
+    ),
+    url("projects/penalty-shooter-2/icon-256.png");
   background-position: center;
 }

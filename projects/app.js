@@ -123,7 +123,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
   const downloadd = document.getElementById("download");
-  downloadd.style.display = "none";
+  if (downloadd) {
+    downloadd.style.display = "none";
+  }
   const up2 = document.createElement("div");
   const macvgClose = document.createElement("button");
   up2.style.width = "50%";
@@ -236,6 +238,7 @@ setInterval(() => {
       }
     } else {
       localStorage.setItem("panic", "`");
+      panicKeys = localStorage.getItem("panic");
       let keys = panicKeys.split(",");
       if (keys.length === 1 && event.key === keys[0]) {
         window.location.href = href;

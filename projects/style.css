@@ -352,6 +352,56 @@ hr {
   border-radius: 20px;
 }
 
+@media (width < 1000px) {
+  .featured {
+    display: none;
+  }
+  .game-related, .right {
+    margin-inline: 5%;
+    width: 90% !important;
+    flex-shrink: 0;
+  }
+  .game-related {
+    padding-bottom: 0 !important;
+  }
+  .right img {
+    width: 20%;
+  }
+  .nav {
+    width: 100%;
+    margin: 0;
+    height: 180px;
+    margin-top: 15px;
+  }
+  .tool-bar {
+    padding-block: 20px;
+  }
+  .game-container {
+    flex-direction: column;
+  }
+  .similar {
+    display: none;
+  }
+}
+
+@media (width < 500px) {
+  .right img {
+    width: 40%;
+  }
+  .tool-bar img {
+    width: 15px !important;
+  }
+  .title {
+    font-size: 15px !important;
+  }
+  .leftest a {
+    font-size: 10px !important;
+  }
+  .more-left img {
+    width: 25px !important;
+  }
+}
+
 #game1 {
   background-image: linear-gradient(
       rgba(40, 40, 40, 0.2),

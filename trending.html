@@ -25,12 +25,7 @@
     <meta name="viewport" content="width=device-width" />
     <script src="search.js"></script>
 
-    <link
-      class="favicon"
-      rel="icon"
-      type="image/x-icon"
-      href="/logo.png"
-    />
+    <link class="favicon" rel="icon" type="image/x-icon" href="/logo.png" />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link
       rel="stylesheet"
@@ -47,7 +42,18 @@
     <script src="/macvg/app.js"></script>
   </head>
   <body>
+    <div class="overflow-menu shoot" id="overflow-menu">
+      <a href="new.html" class="olink">New</a
+      ><a href="trending.html" class="olink">Trending</a
+      ><a href="groups.html" class="olink">Groups</a
+      ><a href="recent.html" class="olink">Recent</a
+      ><a href="/macvg/originals/" class="olink">Originals</a
+      ><a href="/macvg/settings.html" class="olink">Settings</a>
+    </div>
     <nav class="nav" id="nav">
+      <div class="overflowm shoot" id="overflowm">
+        <img src="bars-solid.svg" alt="Menu" class="shoot" />
+      </div>
       <a
         href="/macvg/"
         class="logo2"
@@ -60,6 +66,17 @@
       ><a href="recent.html" class="nav-link">Recent</a
       ><a href="/macvg/originals/" class="nav-link">Originals</a
       ><a href="/macvg/settings.html" class="nav-link">Settings</a>
+      <div class="select secondselect">
+        <span id="header123">Tabs</span>
+        <ul id="cats">
+          <a href="new.html">New</a
+          ><a href="trending.html">Trending</a
+          ><a href="groups.html">Groups</a
+          ><a href="recent.html">Recent</a
+          ><a href="/macvg/originals/">Originals</a
+          ><a href="/macvg/settings.html">Settings</a>
+        </ul>
+      </div>
       <div class="select">
         <span id="header123">Catagories</span>
         <ul id="cats">
@@ -76,13 +93,16 @@
           <a href="/macblog/projects/macvg/" target="_blank">About</a>
           <a href="/macblog/updates/macvg/" target="_blank">Updates</a>
           <a href="/macblog/projects/macvg/" target="_blank">Docs</a>
-          <a href="https://forms.gle/UpHgbAmLtUPCD5bs8" target="_blank">Feedback</a>
+          <a href="https://forms.gle/UpHgbAmLtUPCD5bs8" target="_blank"
+            >Feedback</a
+          >
         </ul>
       </div>
     </nav>
-    
+
     <div class="macsidebar" id="sidebar">
       <a href="/"><img src="/logo.png" alt="" /></a>
+      <a href="/macideas/"><img src="/MacIdeas Logo.png" alt="" /></a>
       <a href="/maclearn/"><img src="/MacLearn Logo.png" alt="" /></a>
       <a href="/mactime/"><img src="/MacTime Logo.png" alt="" /></a>
       <a href="/macvg/"><img src="/MacVG Logo.png" alt="" /></a>
@@ -111,21 +131,38 @@
             line-height: 30px;
           "
         >
-          Here are the top 10 games on MacVG right now, sorted by total plays! Now you can see and play what's trending and what
-          everybody's playing, even compete with them, all easily through the
-          Trending tab! (This list updates every month)
+          Here are the top 10 games on MacVG right now, sorted by total plays!
+          Now you can see and play what's trending and what everybody's playing,
+          even compete with them, all easily through the Trending tab! (This
+          list updates every month)
         </div>
       </header>
-      <h2 style="margin-bottom: 60px;">Top 10 games in January</h2>
-      <div class="games-container" id="list" style="flex-direction: column; align-items: center; margin-bottom: 50px;">
-        <div class="trend-des" style=" font-size: 40px; color: gold; text-shadow: 0px 0px 8px rgb(75, 75, 75); padding-bottom: 10px;">
+      <h2 style="margin-bottom: 60px">Top 10 games in January</h2>
+      <div
+        class="games-container"
+        id="list"
+        style="flex-direction: column; align-items: center; margin-bottom: 50px"
+      >
+        <div
+          class="trend-des"
+          style="
+            font-size: 40px;
+            color: gold;
+            text-shadow: 0px 0px 8px rgb(75, 75, 75);
+            padding-bottom: 10px;
+          "
+        >
           <div class="position">#1</div>
           <div class="stats">85,563 Plays</div>
         </div>
-        <a href="/macvg/projects/1v1lol/" class="game special-st" id="game2"> 1v1.lol </a>
+        <a href="/macvg/projects/1v1lol/" class="game special-st" id="game2">
+          1v1.lol
+        </a>
       </div>
       <div class="games-container" id="list">
-        <a href="/macvg/projects/bitlife/" class="game" id="game30"> BitLife </a>
+        <a href="/macvg/projects/bitlife/" class="game" id="game30">
+          BitLife
+        </a>
         <div class="trend-des">
           <div class="position">#2</div>
           <div class="stats">78,068 Plays</div>
@@ -159,9 +196,7 @@
         </a>
       </div>
       <div class="games-container" id="list">
-        <a href="/macvg/projects/slope/" class="game" id="game205">
-          Slope
-        </a>
+        <a href="/macvg/projects/slope/" class="game" id="game205"> Slope </a>
         <div class="trend-des">
           <div class="position">#6</div>
           <div class="stats">33,034 Plays</div>

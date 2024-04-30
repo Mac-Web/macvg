@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(40,40,40);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.thumb {
+  width: 70%;
+  margin-inline: 15%;
+}
+
+.menu {
+  display: flex;
+  width: 800px;
+  align-items: end;
+  justify-content: space-between;
+  position: absolute;
+  top: 30px;
+  flex-direction: row;
+}
+
+.time {
+  font-size: 25px;
+  color: white;
+  visibility: hidden;
+}
+
+h1 {
+  color: white;
+  font-size: 30px;
+  transition: color 0.3s ease;
+  display: none;
+}
+
+canvas, .cover {
+  width: 800px;
+  border-radius: 10px;
+  height: 450px;
+  background-color: rgb(80, 176, 32);
+  border: 5px solid rgb(50, 96, 18);
+  position: absolute;
+  top: 70px;
+}
+
+.cover {
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.7);
+  left: calc((100vw - 800px) / 2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  color: white;
+  margin-bottom: 40px;
+  font-size: 40px;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.btn, .card {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-block: 15px;
+  padding-inline: 25px;
+  width: 45%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0px 0px 8px rgb(80, 80, 80);
+  transition: box-shadow 0.3s ease;
+}
+
+.cards {
+  display: none;
+  justify-content: space-evenly;
+  width: 75%;
+}
+
+.card {
+  width: 45%;
+  padding: 10px;
+  padding-block: 15px;
+}
+
+.cardt {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.cardd {
+  font-size: 16px;
+  font-weight: normal;
+  padding-inline: 10px;
+}
+
+.btn:hover, .card:hover {
+  box-shadow: 0px 0px 15px rgb(80, 80, 80);
+}
+
+.btn:active, .card:active {
+  box-shadow: 0px 0px 5px rgb(80, 80, 80);
+}

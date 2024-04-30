@@ -1,12 +1,20 @@
 document.addEventListener("DOMContentLoaded", function () {
   const bar = document.getElementById("sidebar");
+  const overflowMenu = document.getElementById("overflow-menu");
+  document.addEventListener("click", function () {
+    bar.classList.remove("movingbar");
+  });
+  document.addEventListener("click", (e) => {
+    if (e.target.classList.contains("shoot")) {
+      overflowMenu.classList.add("menu-slide");
+    } else {
+      overflowMenu.classList.remove("menu-slide");
+    }
+  });
   document.addEventListener("mousemove", function (event) {
     if (event.clientX <= 5 && bar.classList.contains("movingbar") !== true) {
       bar.classList.add("movingbar");
     }
-  });
-  document.addEventListener("click", function () {
-    bar.classList.remove("movingbar");
   });
 });
 
@@ -91,7 +99,14 @@ document.addEventListener("DOMContentLoaded", function () {
   const random = document.getElementById("random");
 
   random.addEventListener("click", select);
-
+  const removeFavorites = document.getElementById("fvrbtn");
+  const list = document.getElementById("favoriteList");
+  removeFavorites.addEventListener("click", () => {
+    if (confirm("Are you sure you want to remove all your favorite games on MacVG?")){
+      list.style.display = "none";
+      localStorage.removeItem("favorites");
+    }
+  })
   function select() {
     let list = document.getElementById("list");
     let items = list.getElementsByTagName("a");

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img src="apple.png" id="apple" style="display: none" />
+    <audio id="munch">
+      <source src="munch.mp3" type="audio/mpeg" />
+    </audio>
+    <div class="menu">
+      <h1 id="score">Score: 0</h1>
+      <span id="time" class="time">0:30</span>      
+    </div>
+    <div class="cover" id="cover">
+      <h2 class="title">Snake Game</h2>
+      <div class="btns" id="btns">
+        <button class="btn" id="onep">One Player</button>
+        <button class="btn" id="twopwork">Two Players</button>
+      </div>
+      <div class="cards" id="cards">
+        <div class="card" id="classic">
+          <img src="classic.png" alt="Classic Mode" class="thumb">
+          <h3 class="cardt">Classic</h3>
+          <p class="cardd">
+            Guide your snake to eat the most apples and don't die!
+          </p>
+        </div>
+        <div class="card" id="timed">
+          <img src="timed.png" alt="Timed Mode" class="thumb">
+          <h3 class="cardt">Timed</h3>
+          <p class="cardd">
+            How many apples can you eat in a short amount of time?
+          </p>
+        </div>
+      </div>
+    </div>
+    <canvas id="canvas" height="450" width="800"></canvas>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -25,27 +25,49 @@
     <script src="apps.js"></script>
   </head>
   <body>
+    <div class="overflow-menu shoot" id="overflow-menu">
+      <a href="new.html" class="olink">New</a
+      ><a href="trending.html" class="olink">Trending</a
+      ><a href="groups.html" class="olink">Groups</a
+      ><a href="recent.html" class="olink">Recent</a
+      ><a href="/macvg/originals/" class="olink">Originals</a
+      ><a href="/macvg/settings.html" class="olink">Settings</a>
+    </div>
     <nav class="nav" id="nav">
+      <div class="overflowm shoot" id="overflowm">
+        <img src="/macvg/bars-solid.svg" alt="Menu" class="shoot" />
+      </div>
       <a
         href="/macvg/"
         class="logo2"
         style="background-color: var(--black-color)"
       >
         <img src="/macvg/macvg-logo.png" alt="MacVG Logo" />
-        <a href="/macvg/new.html" class="nav-link">New</a></a
-      ><a href="/macvg/trending.html" class="nav-link">Trending</a
-      ><a href="/macvg/groups.html" class="nav-link">Groups</a
-      ><a href="/macvg/recent.html" class="nav-link">Recent</a
+        <a href="new.html" class="nav-link">New</a></a
+      ><a href="trending.html" class="nav-link">Trending</a
+      ><a href="groups.html" class="nav-link">Groups</a
+      ><a href="recent.html" class="nav-link">Recent</a
       ><a href="/macvg/originals/" class="nav-link">Originals</a
       ><a href="/macvg/settings.html" class="nav-link">Settings</a>
+      <div class="select secondselect">
+        <span id="header123">Tabs</span>
+        <ul id="cats">
+          <a href="new.html">New</a
+          ><a href="trending.html">Trending</a
+          ><a href="groups.html">Groups</a
+          ><a href="recent.html">Recent</a
+          ><a href="/macvg/originals/">Originals</a
+          ><a href="/macvg/settings.html">Settings</a>
+        </ul>
+      </div>
       <div class="select">
         <span id="header123">Catagories</span>
         <ul id="cats">
-          <a href="/macvg/featured.html">Featured</a>
-          <a href="/macvg/action-adventure.html">Action</a>
-          <a href="/macvg/strategy-puzzle.html">Strategy</a>
-          <a href="/macvg/driving-sports.html">Driving</a>
-          <a href="/macvg/casual.html">Casual</a>
+          <a href="featured.html">Featured</a>
+          <a href="action-adventure.html">Action</a>
+          <a href="strategy-puzzle.html">Strategy</a>
+          <a href="driving-sports.html">Driving</a>
+          <a href="casual.html">Casual</a>
         </ul>
       </div>
       <div class="select">
@@ -60,21 +82,33 @@
         </ul>
       </div>
     </nav>
+    <div class="macsidebar" id="sidebar">
+      <a href="/"><img src="/logo.png" alt="" /></a>
+      <a href="/macideas/"><img src="/MacIdeas Logo.png" alt="" /></a>
+      <a href="/maclearn/"><img src="/MacLearn Logo.png" alt="" /></a>
+      <a href="/mactime/"><img src="/MacTime Logo.png" alt="" /></a>
+      <a href="/macvg/"><img src="/MacVG Logo.png" alt="" /></a>
+      <a href="/macblog/"><img src="/MacBlog Logo.png" alt="" /></a>
+    </div>
     <div class="wrap">
-      <h1>MacBoard</h1>
-      <div class="sub">
-        A simple, easy to use, and abounding online platform for all kinds of
-        sounds.<br />Submit a sound
-        <a
-          href="https://forms.gle/sPE8esgJEAnp8VSi7"
-          target="_blank"
-          style="color: white"
-          >here</a
-        >!
+      <div class="homeheader">
+        <div class="title" name="MacBoard">MacBoard</div>
+        <div class="sub">
+          A simple, easy to use, and abounding online platform for all kinds of
+          sounds.<br />Submit a sound
+          <a
+            href="https://forms.gle/sPE8esgJEAnp8VSi7"
+            target="_blank"
+            style="color: white"
+            >here</a
+          >!
+        </div>
       </div>
       <div class="btns">
         <button class="btn" onclick="playAll()">Play All 😈</button>
-        <button class="btn" onclick="stopAll()">Stop All 😇</button>
+        <button class="btn" onclick="stopAll()" id="stopall">
+          Stop All 😇
+        </button>
       </div>
       <input
         type="range"
@@ -91,7 +125,7 @@
           id="searchInput"
           oninput="search()"
           autocomplete="off"
-          placeholder="Search 170+ sounds"
+          placeholder="Search 180+ sounds"
         /><button
           class="random"
           onclick="select()"
@@ -99,6 +133,15 @@
           title="Random Game Selector"
         >
           <span class="button-helper"></span>🎲
+        </button>
+      </div>
+      <div id="favoriteList">
+        <button
+          id="fvrbtn"
+          style="position: absolute; top: 0; right: 0"
+          title="Clear Favorites"
+        >
+          <img src="/macvg/trash-solid.svg" />
         </button>
       </div>
       <div id="randomList"></div>
@@ -197,9 +240,17 @@
           <audio id="64" src="sounds/whatthehellboy.mp3"></audio>
           <h3 class="name">Boy What the Hell Boy</h3>
         </div>
+        <div class="sound" onclick="document.getElementById('92000').play();">
+          <audio id="92000" src="sounds/brawl-stars-loose-sound.mp3"></audio>
+          <h3 class="name">Brawl Stars</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('9200').play();">
+          <audio id="9200" src="sounds/brawl-stars-loading-sound.mp3"></audio>
+          <h3 class="name">Brawl Stars 2</h3>
+        </div>
         <div class="sound" onclick="document.getElementById('920').play();">
           <audio id="920" src="sounds/el-primo.mp3"></audio>
-          <h3 class="name">Brawl Stars El Primo</h3>
+          <h3 class="name">Brawl Stars 3</h3>
         </div>
         <div class="sound" onclick="document.getElementById('92').play();">
           <audio id="92" src="sounds/breathair.mp3"></audio>
@@ -273,6 +324,10 @@
           <audio id="501" src="sounds/down-in-ohio.mp3"></audio>
           <h3 class="name">Down in Ohio</h3>
         </div>
+        <div class="sound" onclick="document.getElementById('7c').play();">
+          <audio id="7c" src="sounds/driftveil-city.mp3"></audio>
+          <h3 class="name">Driftveil City</h3>
+        </div>
         <div class="sound" onclick="document.getElementById('7').play();">
           <audio id="7" src="sounds/badumtss.mp3"></audio>
           <h3 class="name">Drum</h3>
@@ -297,6 +352,10 @@
         <div class="sound" onclick="document.getElementById('102').play();">
           <audio id="102" src="sounds/thomastankengine.mp3"></audio>
           <h3 class="name">Ear Damage 4</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('170').play();">
+          <audio id="170" src="sounds/emoji-death.mp3"></audio>
+          <h3 class="name">Emoji Death</h3>
         </div>
         <div class="sound" onclick="document.getElementById('17').play();">
           <audio id="17" src="sounds/emotional-damage.mp3"></audio>
@@ -498,6 +557,10 @@
           <audio id="103" src="sounds/mariofalling.mp3"></audio>
           <h3 class="name">Mario Falling</h3>
         </div>
+        <div class="sound" onclick="document.getElementById('1700').play();">
+          <audio id="1700" src="sounds/e_meme.mp3"></audio>
+          <h3 class="name">Markiplier E</h3>
+        </div>
         <div class="sound" onclick="document.getElementById('110').play();">
           <audio id="110" src="sounds/mayonnaise.mp3"></audio>
           <h3 class="name">Mayonnaise on an Escalator</h3>
@@ -618,6 +681,10 @@
           <audio id="14" src="sounds/run.mp3"></audio>
           <h3 class="name">Run</h3>
         </div>
+        <div class="sound" onclick="document.getElementById('14000').play();">
+          <audio id="14000" src="sounds/rush-e.mp3"></audio>
+          <h3 class="name">Rush E</h3>
+        </div>
         <div class="sound" onclick="document.getElementById('32').play();">
           <audio id="32" src="sounds/sad-violin.mp3"></audio>
           <h3 class="name">Sad Violin</h3>
@@ -645,6 +712,10 @@
           <audio id="c" src="sounds/sheep.mp3"></audio>
           <h3 class="name">Scream 4</h3>
         </div>
+        <div class="sound" onclick="document.getElementById('noo').play();">
+          <audio id="noo" src="sounds/shreksophone.mp3"></audio>
+          <h3 class="name">Shreksophone</h3>
+        </div>
         <div class="sound" onclick="document.getElementById('n').play();">
           <audio id="n" src="sounds/sicko.mp3"></audio>
           <h3 class="name">Sicko Mode Beginning</h3>
@@ -664,6 +735,10 @@
         <div class="sound" onclick="document.getElementById('108').play();">
           <audio id="108" src="sounds/skibidi-toilet.mp3"></audio>
           <h3 class="name">Skibidi Toilet</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('1080').play();">
+          <audio id="1080" src="sounds/skibidi-mine.mp3"></audio>
+          <h3 class="name">Skibidi Toilet Will be Mine</h3>
         </div>
         <div class="sound" onclick="document.getElementById('24').play();">
           <audio id="24" src="sounds/skull-trumpet.mp3"></audio>
@@ -765,6 +840,10 @@
           <audio id="91" src="sounds/wewillberightback.mp3"></audio>
           <h3 class="name">We'll Be Right Back</h3>
         </div>
+        <div class="sound" onclick="document.getElementById('6000').play();">
+          <audio id="6000" src="sounds/sigma.mp3"></audio>
+          <h3 class="name">What the Sigma</h3>
+        </div>
         <div class="sound" onclick="document.getElementById('60').play();">
           <audio id="60" src="sounds/damnwheredidyoufindthis.mp3"></audio>
           <h3 class="name">Where'd You Find This</h3>
@@ -827,6 +906,13 @@
         <div class="sound" onclick="document.getElementById('800').play();">
           <audio id="800" src="sounds/my-stick.mp3"></audio>
           <h3 class="name">Yoda My Stick</h3>
+        </div>
+        <div class="sound" onclick="document.getElementById('60000').play();">
+          <audio
+            id="60000"
+            src="sounds/you-are-my-sunshine-lebron-james.mp3"
+          ></audio>
+          <h3 class="name">You Are My Sunshine</h3>
         </div>
         <div class="sound" onclick="document.getElementById('600').play();">
           <audio id="600" src="sounds/you-didnt-have-to-cut-me-off.mp3"></audio>

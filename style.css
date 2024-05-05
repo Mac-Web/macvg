@@ -959,28 +959,22 @@ hr {
 }
 
 .special-st {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border: 5px solid rgb(225, 139, 9);
   box-sizing: content-box;
-  box-shadow: 0px 0px 15px rgb(225, 139, 9);
+  box-shadow: 0px 0px 8px rgb(225, 139, 9);
   transition: box-shadow 0.2s linear;
   transition: border-color 0.2s;
-  border-radius: 45px;
+  border-radius: 20px;
 }
 
 .special-st::before {
   display: none;
 }
 
-.special-st:active {
-  width: 180px;
-  height: 180px;
-  margin-block: 15px;
-}
-
 .special-st:hover {
-  box-shadow: 0px 0px 25px rgb(255, 132, 0);
+  box-shadow: 0px 0px 20px rgb(255, 132, 0);
   border-color: rgb(255, 132, 0);
 }
 
@@ -1117,7 +1111,7 @@ hr {
       rgba(40, 40, 40, 0.2),
       rgba(40, 40, 40, 0.85)
     ),
-    url("projects/10-minutes-till-dawn/media.png");
+    url("projects/10-minutes-till-dawn/splash.png");
 }
 
 #game6 {
@@ -2500,7 +2494,7 @@ hr {
       rgba(40, 40, 40, 0.2),
       rgba(40, 40, 40, 0.85)
     ),
-    url("projects/rooftop-snipers/img/preview.png");
+    url("projects/rooftop-snipers/img/thumb.png");
 }
 
 #game195 {
@@ -2660,7 +2654,7 @@ hr {
       rgba(40, 40, 40, 0.2),
       rgba(40, 40, 40, 0.85)
     ),
-    url("projects/solitaire/screen-shot.png");
+    url("projects/solitaire/logo.jpg");
 }
 
 #game216 {
@@ -3148,7 +3142,7 @@ hr {
       rgba(40, 40, 40, 0.2),
       rgba(40, 40, 40, 0.85)
     ),
-    url("projects/funnyshooter2/FunnyShooter2_Yandex.jpg");
+    url("projects/funnyshooter2/thumb.png");
 }
 
 #game291 {
@@ -3355,7 +3349,7 @@ hr {
       rgba(40, 40, 40, 0.2),
       rgba(40, 40, 40, 0.85)
     ),
-    url("projects/tag/logo.avif");
+    url("projects/tag/logo.jpg");
   background-position: center;
 }
 

@@ -1,0 +1,97 @@
+
+cart.png
+size: 512,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1x1
+  rotate: false
+  xy: 233, 29
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+bottom
+  rotate: false
+  xy: 343, 38
+  size: 43, 23
+  orig: 43, 23
+  offset: 0, 0
+  index: -1
+edge1
+  rotate: false
+  xy: 289, 35
+  size: 52, 26
+  orig: 52, 26
+  offset: 0, 0
+  index: -1
+edge2
+  rotate: false
+  xy: 2, 9
+  size: 55, 52
+  orig: 55, 52
+  offset: 0, 0
+  index: -1
+edge3
+  rotate: false
+  xy: 179, 27
+  size: 52, 34
+  orig: 52, 34
+  offset: 0, 0
+  index: -1
+edge4
+  rotate: false
+  xy: 122, 14
+  size: 55, 47
+  orig: 55, 47
+  offset: 0, 0
+  index: -1
+edge5
+  rotate: false
+  xy: 233, 32
+  size: 54, 29
+  orig: 54, 29
+  offset: 0, 0
+  index: -1
+edge6
+  rotate: false
+  xy: 59, 18
+  size: 61, 43
+  orig: 61, 43
+  offset: 0, 0
+  index: -1
+wheel1
+  rotate: false
+  xy: 179, 14
+  size: 11, 11
+  orig: 11, 11
+  offset: 0, 0
+  index: -1
+wheel2_1
+  rotate: true
+  xy: 2, 2
+  size: 5, 11
+  orig: 5, 11
+  offset: 0, 0
+  index: -1
+wheel2_4
+  rotate: true
+  xy: 2, 2
+  size: 5, 11
+  orig: 5, 11
+  offset: 0, 0
+  index: -1
+wheel2_2
+  rotate: true
+  xy: 59, 11
+  size: 5, 11
+  orig: 5, 11
+  offset: 0, 0
+  index: -1
+wheel2_3
+  rotate: false
+  xy: 388, 50
+  size: 5, 11
+  orig: 5, 11
+  offset: 0, 0
+  index: -1

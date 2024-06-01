@@ -1,0 +1,51 @@
+{
+    "name": "bomb_explosion_center3",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "bomb_exp_base": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "exp4_10.png"
+                },
+                {
+                    "frame": 67,
+                    "value": "exp4_1.png"
+                },
+                {
+                    "frame": 133,
+                    "value": "exp4_2.png"
+                },
+                {
+                    "frame": 217,
+                    "value": "exp4_3.png"
+                },
+                {
+                    "frame": 283,
+                    "value": "exp4_5.png"
+                },
+                {
+                    "frame": 333,
+                    "value": "exp4_6.png"
+                },
+                {
+                    "frame": 383,
+                    "value": "exp4_7.png"
+                },
+                {
+                    "frame": 467,
+                    "value": "exp4_8.png"
+                },
+                {
+                    "frame": 550,
+                    "value": "exp4_9.png"
+                },
+                {
+                    "frame": 617,
+                    "value": "exp4_10.png"
+                }
+            ]
+        }
+    }
+}

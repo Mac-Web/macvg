@@ -1,0 +1,37 @@
+{
+    "hierarchy": {
+        "name": "center_boutique",
+        "children": [
+            {
+                "name": "boutique_base"
+            },
+            {
+                "name": "boutique_fx"
+            }
+        ],
+        "animations": [
+            "center_boutique_play"
+        ]
+    },
+    "properties": {
+        "boutique_base": {
+            "file": "center_boutique.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -4.9,
+                "y": -16.6
+            },
+            "type": "sprite"
+        },
+        "boutique_fx": {
+            "file": "center_boutique_fx1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 1.5,
+                "y": -14.8
+            },
+            "alpha": 0,
+            "type": "sprite"
+        }
+    }
+}

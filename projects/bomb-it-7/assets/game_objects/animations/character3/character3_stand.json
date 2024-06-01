@@ -1,0 +1,74 @@
+{
+    "name": "character3_stand",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "base/eye": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        23.5,
+                        -6.9
+                    ]
+                },
+                {
+                    "frame": 250,
+                    "value": [
+                        18.9,
+                        -0.6
+                    ]
+                },
+                {
+                    "frame": 400,
+                    "value": [
+                        16.2,
+                        0.2
+                    ]
+                },
+                {
+                    "frame": 500,
+                    "value": [
+                        23.5,
+                        -6.9
+                    ]
+                },
+                {
+                    "frame": 750,
+                    "value": [
+                        23.5,
+                        -6.9
+                    ]
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 250,
+                    "value": 1
+                },
+                {
+                    "frame": 400,
+                    "value": 0
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 250,
+                    "value": 1
+                },
+                {
+                    "frame": 400,
+                    "value": 0
+                }
+            ]
+        }
+    }
+}

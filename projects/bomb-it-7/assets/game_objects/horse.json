@@ -1,0 +1,158 @@
+{
+    "hierarchy": {
+        "name": "horse",
+        "children": [
+            {
+                "name": "leg_r1"
+            },
+            {
+                "name": "leg_l1"
+            },
+            {
+                "name": "dust_botttom"
+            },
+            {
+                "name": "horse_body"
+            },
+            {
+                "name": "horse_neck"
+            },
+            {
+                "name": "leg_r2"
+            },
+            {
+                "name": "leg_l2"
+            },
+            {
+                "name": "tail"
+            },
+            {
+                "name": "head"
+            },
+            {
+                "name": "dust_top"
+            }
+        ],
+        "animations": [
+            "horse_run_side",
+            "horse_run_front",
+            "horse_run_back"
+        ]
+    },
+    "properties": {
+        "leg_r1": {
+            "file": "horse_leg4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 13.8,
+                "y": -31.6
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.19999999999999996
+            },
+            "type": "sprite"
+        },
+        "leg_l1": {
+            "file": "horse_leg5.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -11.6,
+                "y": -26.8
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.19999999999999996
+            },
+            "type": "sprite"
+        },
+        "dust_botttom": {
+            "file": "horse_dust1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 12.1,
+                "y": -8
+            },
+            "type": "sprite"
+        },
+        "horse_body": {
+            "file": "horse_body2_side.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 7.4,
+                "y": -30.1
+            },
+            "type": "sprite"
+        },
+        "horse_neck": {
+            "file": "horse_body_side.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -7.8,
+                "y": -34.4
+            },
+            "type": "sprite"
+        },
+        "leg_r2": {
+            "file": "horse_leg4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 17,
+                "y": -31.6
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.19999999999999996
+            },
+            "type": "sprite"
+        },
+        "leg_l2": {
+            "file": "horse_leg5.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -8.4,
+                "y": -26.8
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.19999999999999996
+            },
+            "type": "sprite"
+        },
+        "tail": {
+            "file": "horse_tail_side.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 21.5,
+                "y": -40.9
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.19999999999999996
+            },
+            "type": "sprite"
+        },
+        "head": {
+            "file": "horse_head_side.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -12,
+                "y": -43.3
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.4
+            },
+            "type": "sprite"
+        },
+        "dust_top": {
+            "file": "horse_dust1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -13.4,
+                "y": -8.6
+            },
+            "type": "sprite"
+        }
+    }
+}

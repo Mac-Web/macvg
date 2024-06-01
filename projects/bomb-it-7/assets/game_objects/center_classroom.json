@@ -1,0 +1,302 @@
+{
+    "hierarchy": {
+        "name": "center_classroom",
+        "children": [
+            {
+                "name": "classroom_base"
+            },
+            {
+                "name": "classroom_board"
+            },
+            {
+                "name": "classroom_desk_bottom"
+            },
+            {
+                "name": "classroom_teacher",
+                "children": [
+                    {
+                        "name": "teacher_board_fx"
+                    },
+                    {
+                        "name": "teacher_leg_r"
+                    },
+                    {
+                        "name": "teacher_leg_l"
+                    },
+                    {
+                        "name": "teacher_body"
+                    },
+                    {
+                        "name": "teacher_leg2_r"
+                    },
+                    {
+                        "name": "teacher_arm1_r"
+                    },
+                    {
+                        "name": "teacher_arm1_l"
+                    },
+                    {
+                        "name": "teacher_head",
+                        "children": [
+                            {
+                                "name": "teacher_glasses"
+                            },
+                            {
+                                "name": "teacher_lips"
+                            },
+                            {
+                                "name": "head_sign1"
+                            },
+                            {
+                                "name": "head_sign2"
+                            },
+                            {
+                                "name": "head_sign3"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "teacher_arm_stick"
+                    },
+                    {
+                        "name": "teacher_arm2_r"
+                    }
+                ]
+            },
+            {
+                "name": "classroom_desk_top"
+            }
+        ],
+        "animations": [
+            "center_classroom_play",
+            "center_classroom_stand"
+        ]
+    },
+    "properties": {
+        "classroom_base": {
+            "file": "classroom_base.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -0.4,
+                "y": -0.1
+            },
+            "type": "sprite"
+        },
+        "classroom_board": {
+            "file": "board.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -2.6,
+                "y": -43.4
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "classroom_desk_bottom": {
+            "file": "desk.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 29.7
+            },
+            "type": "sprite"
+        },
+        "classroom_teacher": {
+            "position": {
+                "x": 0,
+                "y": 7
+            },
+            "type": "container"
+        },
+        "classroom_teacher/teacher_board_fx": {
+            "file": "board_fx1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0.6,
+                "y": -44.4
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "classroom_teacher/teacher_leg_r": {
+            "file": "leg_l.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 5.9,
+                "y": 7.5
+            },
+            "anchor": {
+                "x": 0.4,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "classroom_teacher/teacher_leg_l": {
+            "file": "leg_l.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -3.8,
+                "y": 8.4
+            },
+            "scale": {
+                "x": -1,
+                "y": 1
+            },
+            "anchor": {
+                "x": 0.4,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "classroom_teacher/teacher_body": {
+            "file": "body1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -2.5,
+                "y": -1.6
+            },
+            "type": "sprite"
+        },
+        "classroom_teacher/teacher_leg2_r": {
+            "file": "leg_l3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 5.3,
+                "y": 5.6
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.6
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "classroom_teacher/teacher_arm1_r": {
+            "file": "arm_l2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 4.2,
+                "y": -10
+            },
+            "angle": -88,
+            "anchor": {
+                "x": 0.5,
+                "y": 0.2
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "classroom_teacher/teacher_arm1_l": {
+            "file": "arm_l2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -6.7,
+                "y": -8.1
+            },
+            "angle": 70,
+            "anchor": {
+                "x": 0.5,
+                "y": 0.2
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "classroom_teacher/teacher_head": {
+            "file": "head5.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -2.1,
+                "y": -14.7
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "classroom_teacher/teacher_head/teacher_glasses": {
+            "file": "glasses.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -0.4,
+                "y": -12.5
+            },
+            "type": "sprite"
+        },
+        "classroom_teacher/teacher_head/teacher_lips": {
+            "file": "lips1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0.7,
+                "y": -0.3
+            },
+            "type": "sprite"
+        },
+        "classroom_teacher/teacher_head/head_sign1": {
+            "file": "sign3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -18.3,
+                "y": -36.1
+            },
+            "type": "sprite"
+        },
+        "classroom_teacher/teacher_head/head_sign2": {
+            "file": "sign3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 15.2,
+                "y": -29.1
+            },
+            "type": "sprite"
+        },
+        "classroom_teacher/teacher_head/head_sign3": {
+            "file": "sign3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 6.7,
+                "y": -7.4
+            },
+            "type": "sprite"
+        },
+        "classroom_teacher/teacher_arm_stick": {
+            "file": "arm_r.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 23.1,
+                "y": -19.3
+            },
+            "anchor": {
+                "x": 0.2,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "classroom_teacher/teacher_arm2_r": {
+            "file": "arm_l2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 12.9,
+                "y": -8.6
+            },
+            "angle": 52,
+            "anchor": {
+                "x": 0.5,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "classroom_desk_top": {
+            "file": "desk.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 29.7
+            },
+            "type": "sprite"
+        }
+    }
+}

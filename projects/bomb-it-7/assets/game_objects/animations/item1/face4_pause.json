@@ -1,0 +1,24 @@
+{
+    "name": "face4_pause",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "eyes": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        31.7,
+                        -6.6
+                    ]
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ]
+        }
+    }
+}

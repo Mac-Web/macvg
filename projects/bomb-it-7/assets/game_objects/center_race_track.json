@@ -1,0 +1,21 @@
+{
+    "hierarchy": {
+        "name": "center_race_track",
+        "children": [
+            {
+                "name": "base_race_track"
+            }
+        ]
+    },
+    "properties": {
+        "base_race_track": {
+            "file": "center_race_track.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 13.2,
+                "y": -26
+            },
+            "type": "sprite"
+        }
+    }
+}

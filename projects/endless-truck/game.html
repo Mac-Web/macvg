@@ -1,0 +1,216 @@
+<html>
+  <head>
+    <title>Endless Truck | MacVG</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui"
+    />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <style type="text/css">
+      body {
+        padding: 0;
+        border: 0;
+        margin: 0px;
+        background-color: #023;
+      }
+
+      .WebGLDIV {
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+      }
+
+      .ErrorDIV {
+        padding: 20px;
+        margin: auto;
+        margin-top: 20px;
+        overflow: hidden;
+        width: 80%;
+        height: 290px;
+        background-color: #bbb;
+        color: #777;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        text-align: center;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+        display: none;
+      }
+
+      #overlay {
+        display: none;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 1000;
+        background-image: url("html/images/overlay.png");
+      }
+
+      #DialBox {
+        width: 500px;
+        height: 90%;
+        margin: auto;
+        margin-top: 30px;
+        padding: 6px;
+        z-index: 1001;
+        background-color: #fff;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        box-shadow: 0px 2px 100px rgba(0, 0, 0, 1);
+      }
+
+      #fb-login {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        width: 250px;
+        height: 200px;
+        margin: 0px;
+        padding: 6px;
+        z-index: 1000;
+        background-color: #fff;
+        -moz-border-radius: 0 5px 0px 5px;
+        border-radius: 0 5px 0px 5px;
+        box-shadow: 0px 2px 100px rgba(0, 0, 0, 1);
+        overflow: hidden;
+      }
+    </style>
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <script>
+      // Package-ID
+      window.famobi_gameID = "endless-truck";
+      window.famobi_gameJS = [
+        "js/all.js",
+        function () {
+          DLG_WebGLStart();
+
+          window.famobi_Pref_User_Sound = null;
+          window.famobi_Pref_User_Music = null;
+
+          var hidden, visibilityChange;
+          if (typeof document.hidden !== "undefined") {
+            // Opera 12.10 and Firefox 18 and later support
+            hidden = "hidden";
+            visibilityChange = "visibilitychange";
+          } else if (typeof document.mozHidden !== "undefined") {
+            hidden = "mozHidden";
+            visibilityChange = "mozvisibilitychange";
+          } else if (typeof document.msHidden !== "undefined") {
+            hidden = "msHidden";
+            visibilityChange = "msvisibilitychange";
+          } else if (typeof document.webkitHidden !== "undefined") {
+            hidden = "webkitHidden";
+            visibilityChange = "webkitvisibilitychange";
+          }
+
+          // Handle page visibility change
+          document.addEventListener(
+            visibilityChange,
+            handleVisibilityChange,
+            false
+          );
+
+          // If the page is hidden, pause the video;
+          // if the page is shown, play the video
+          function handleVisibilityChange() {
+            if (document[hidden]) {
+              window.famobi_mute();
+            } else {
+              window.famobi_unmute();
+            }
+          }
+
+          window.famobi_onPauseRequested = function () {
+            window.famobi_paused = true;
+            window.famobi_mute();
+          };
+
+          window.famobi_onResumeRequested = function () {
+            window.famobi_paused = false;
+            window.famobi_unmute();
+          };
+
+          window.famobi_mute = function () {
+            if (window.famobi_Pref_User_Sound === null)
+              window.famobi_Pref_User_Sound = Pref_User_Sound;
+            if (window.famobi_Pref_User_Music === null)
+              window.famobi_Pref_User_Music = v61;
+            Pref_User_Sound = 0;
+            f99();
+          };
+
+          window.famobi_unmute = function () {
+            if (window.famobi_paused) return;
+
+            if (window.famobi_Pref_User_Sound !== null)
+              Pref_User_Sound = window.famobi_Pref_User_Sound;
+            if (window.famobi_Pref_User_Music !== null)
+              v61 = window.famobi_Pref_User_Music;
+
+            if (v61) f100(-1);
+
+            window.famobi_Pref_User_Sound = null;
+            window.famobi_Pref_User_Music = null;
+          };
+        },
+      ];
+
+      (function (document, url, fgJS, firstJS) {
+        fgJS = document.createElement("script");
+        firstJS = document.getElementsByTagName("script")[0];
+        fgJS.src = url + encodeURIComponent(document.location.href);
+        firstJS.parentNode.insertBefore(fgJS, firstJS);
+      })(document, "v1.js?e=");
+    </script>
+  </head>
+
+  <body>
+    <input
+      autocapitalize="off"
+      autocorrect="off"
+      type="url"
+      id="dlg-textfield"
+      type="text"
+      name="lastname"
+      style="margin: 0px; position: absolute; top: -50px"
+      value="Hello"
+      onblur="try{TextField_Selected = -1;}catch(e){}"
+    />
+    <canvas class="WebGLDIV" id="dlg-webgl-canvas"></canvas>
+    <div class="ErrorDIV" id="dlg-error-div">
+      <img src="pics/error.png" /><br /><span
+        style="font-weight: bold; font-size: 22px"
+        >Could not initialise WebGL</span
+      ><br />Your browser seem to not support 3D rendering<br />Please try again
+      with Firefox or Google Chrome
+    </div>
+    <div id="overlay">
+      <div id="DialBox">
+        <iframe
+          id="OverlayFrame"
+          width="100%"
+          height="100%"
+          frameborder="0"
+          scrolling="vertical"
+          marginheight="0"
+          marginwidth="0"
+          src=""
+          ><p>Votre navigateur ne supporte pas l'??ent iframe</p>
+        </iframe>
+      </div>
+    </div>
+  </body>
+</html>

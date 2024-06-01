@@ -1,0 +1,630 @@
+{
+    "hierarchy": {
+        "name": "gameover",
+        "children": [
+            {
+                "name": "skin",
+                "children": [
+                    {
+                        "name": "line1"
+                    },
+                    {
+                        "name": "line2"
+                    },
+                    {
+                        "name": "line3"
+                    },
+                    {
+                        "name": "line4"
+                    },
+                    {
+                        "name": "line5"
+                    },
+                    {
+                        "name": "line6"
+                    },
+                    {
+                        "name": "line7"
+                    },
+                    {
+                        "name": "line8"
+                    },
+                    {
+                        "name": "line9"
+                    },
+                    {
+                        "name": "line10"
+                    },
+                    {
+                        "name": "line11"
+                    },
+                    {
+                        "name": "line12"
+                    },
+                    {
+                        "name": "line13"
+                    },
+                    {
+                        "name": "line14"
+                    },
+                    {
+                        "name": "line15"
+                    },
+                    {
+                        "name": "star1"
+                    },
+                    {
+                        "name": "star2"
+                    },
+                    {
+                        "name": "star3"
+                    },
+                    {
+                        "name": "star4"
+                    },
+                    {
+                        "name": "star5"
+                    },
+                    {
+                        "name": "smoke"
+                    },
+                    {
+                        "name": "shadow"
+                    },
+                    {
+                        "name": "head"
+                    },
+                    {
+                        "name": "body"
+                    },
+                    {
+                        "name": "balloon1"
+                    },
+                    {
+                        "name": "balloon2"
+                    },
+                    {
+                        "name": "balloon3"
+                    },
+                    {
+                        "name": "balloon4"
+                    },
+                    {
+                        "name": "balloon5"
+                    },
+                    {
+                        "name": "balloon6"
+                    },
+                    {
+                        "name": "balloon7"
+                    },
+                    {
+                        "name": "balloon8"
+                    },
+                    {
+                        "name": "balloon9"
+                    },
+                    {
+                        "name": "robots_bottom_l"
+                    },
+                    {
+                        "name": "robots_bottom_r"
+                    }
+                ],
+                "animations": [
+                    "hero1_go",
+                    "hero2_go",
+                    "hero3_go",
+                    "hero4_go",
+                    "hero5_go",
+                    "hero6_go",
+                    "hero7_go",
+                    "hero8_go"
+                ]
+            }
+        ],
+        "animations": [
+            "gameover_stand"
+        ]
+    },
+    "properties": {
+        "skin": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "skin/line1": {
+            "file": "line_go.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 422,
+                "y": -479
+            },
+            "scale": {
+                "x": 1,
+                "y": 0.6
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "skin/line2": {
+            "file": "line_go.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 358,
+                "y": -479
+            },
+            "scale": {
+                "x": 1,
+                "y": 0.8
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "skin/line3": {
+            "file": "line_go.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 293,
+                "y": -479
+            },
+            "scale": {
+                "x": 1,
+                "y": 0.6
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "skin/line4": {
+            "file": "line_go.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 229,
+                "y": -479
+            },
+            "scale": {
+                "x": 1,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "skin/line5": {
+            "file": "line_go.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 164,
+                "y": -479
+            },
+            "scale": {
+                "x": 1,
+                "y": 0.3
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "skin/line6": {
+            "file": "line_go.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 100,
+                "y": -479
+            },
+            "scale": {
+                "x": 1,
+                "y": 0.2
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "skin/line7": {
+            "file": "line_go.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 35,
+                "y": -479
+            },
+            "scale": {
+                "x": 1,
+                "y": 0.3
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "skin/line8": {
+            "file": "line_go.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -161,
+                "y": -479
+            },
+            "scale": {
+                "x": 1,
+                "y": 0.2
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "skin/line9": {
+            "file": "line_go.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -202,
+                "y": -479
+            },
+            "scale": {
+                "x": 1,
+                "y": 0.3
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "skin/line10": {
+            "file": "line_go.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -243,
+                "y": -479
+            },
+            "scale": {
+                "x": 1,
+                "y": 0.4
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "skin/line11": {
+            "file": "line_go.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -284,
+                "y": -479
+            },
+            "scale": {
+                "x": 1,
+                "y": 0.7
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "skin/line12": {
+            "file": "line_go.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -325,
+                "y": -479
+            },
+            "scale": {
+                "x": 1,
+                "y": 0.3
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "skin/line13": {
+            "file": "line_go.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -366,
+                "y": -479
+            },
+            "scale": {
+                "x": 1,
+                "y": 0.5
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "skin/line14": {
+            "file": "line_go.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -407,
+                "y": -479
+            },
+            "scale": {
+                "x": 1,
+                "y": 0.7
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "skin/line15": {
+            "file": "line_go.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -448,
+                "y": -479
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "skin/star1": {
+            "file": "go_anim_star0001.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 298,
+                "y": 179
+            },
+            "type": "sprite"
+        },
+        "skin/star2": {
+            "file": "go_anim_star0001.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 379,
+                "y": -107
+            },
+            "angle": 16,
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "skin/star3": {
+            "file": "go_anim_star0001.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -404.8,
+                "y": -147.2
+            },
+            "angle": -29,
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "skin/star4": {
+            "file": "go_anim_star0001.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -400.2,
+                "y": 152
+            },
+            "angle": -28,
+            "scale": {
+                "x": 0.6,
+                "y": 0.6
+            },
+            "type": "sprite"
+        },
+        "skin/star5": {
+            "file": "go_anim_star0001.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 435,
+                "y": 116.6
+            },
+            "angle": 12,
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "skin/smoke": {
+            "file": "smoke_anim11.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 9,
+                "y": -151
+            },
+            "scale": {
+                "x": 1.1,
+                "y": 1.1
+            },
+            "type": "sprite"
+        },
+        "skin/shadow": {
+            "file": "go_hero1_shadow.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 25.9,
+                "y": 316.2
+            },
+            "type": "sprite"
+        },
+        "skin/head": {
+            "file": "go_hero1_head.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -22.5,
+                "y": -65.6
+            },
+            "type": "sprite"
+        },
+        "skin/body": {
+            "file": "go_hero1_body.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 9.6,
+                "y": 82.6
+            },
+            "type": "sprite"
+        },
+        "skin/balloon1": {
+            "file": "ballon_green1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -410.6,
+                "y": -235.2
+            },
+            "scale": {
+                "x": 2,
+                "y": 2
+            },
+            "type": "sprite"
+        },
+        "skin/balloon2": {
+            "file": "ballon_blue1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 345,
+                "y": -160
+            },
+            "scale": {
+                "x": 2,
+                "y": 2
+            },
+            "type": "sprite"
+        },
+        "skin/balloon3": {
+            "file": "ballon_pink1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -325,
+                "y": 14
+            },
+            "scale": {
+                "x": 2,
+                "y": 2
+            },
+            "type": "sprite"
+        },
+        "skin/balloon4": {
+            "file": "ballon_pink2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 385,
+                "y": 184
+            },
+            "scale": {
+                "x": 2,
+                "y": 2
+            },
+            "type": "sprite"
+        },
+        "skin/balloon5": {
+            "file": "ballon_yellow1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 200,
+                "y": 7
+            },
+            "scale": {
+                "x": 2,
+                "y": 2
+            },
+            "type": "sprite"
+        },
+        "skin/balloon6": {
+            "file": "ballon_yellow2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -271,
+                "y": 149
+            },
+            "scale": {
+                "x": 2,
+                "y": 2
+            },
+            "type": "sprite"
+        },
+        "skin/balloon7": {
+            "file": "ballon_blue2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -433,
+                "y": 213
+            },
+            "scale": {
+                "x": 2,
+                "y": 2
+            },
+            "type": "sprite"
+        },
+        "skin/balloon8": {
+            "file": "ballon_green3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -197,
+                "y": 341
+            },
+            "type": "sprite"
+        },
+        "skin/balloon9": {
+            "file": "ballon_green2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 215,
+                "y": 314
+            },
+            "type": "sprite"
+        },
+        "skin/robots_bottom_l": {
+            "file": "robots_bottom_l.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -362,
+                "y": 271
+            },
+            "scale": {
+                "x": 2,
+                "y": 2
+            },
+            "type": "sprite"
+        },
+        "skin/robots_bottom_r": {
+            "file": "robots_bottom_r.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 329,
+                "y": 329
+            },
+            "scale": {
+                "x": 2,
+                "y": 2
+            },
+            "type": "sprite"
+        }
+    }
+}

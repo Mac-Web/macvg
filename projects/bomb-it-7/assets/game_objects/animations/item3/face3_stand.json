@@ -1,0 +1,59 @@
+{
+    "name": "face3_stand",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "eyes": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "item4_2_1.png"
+                },
+                {
+                    "frame": 17,
+                    "value": "item4_2_2.png"
+                },
+                {
+                    "frame": 33,
+                    "value": "item4_2_3.png"
+                },
+                {
+                    "frame": 50,
+                    "value": "item4_2_4.png"
+                },
+                {
+                    "frame": 67,
+                    "value": "item4_2_5.png"
+                },
+                {
+                    "frame": 83,
+                    "value": "item4_2_6.png"
+                },
+                {
+                    "frame": 117,
+                    "value": "item4_2_5.png"
+                },
+                {
+                    "frame": 133,
+                    "value": "item4_2_4.png"
+                },
+                {
+                    "frame": 150,
+                    "value": "item4_2_3.png"
+                },
+                {
+                    "frame": 167,
+                    "value": "item4_2_2.png"
+                },
+                {
+                    "frame": 183,
+                    "value": "item4_2_1.png"
+                },
+                {
+                    "frame": 917,
+                    "value": "item4_2_1.png"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{"frames": [
+
+{
+	"filename": "backlight.png",
+	"frame": {"x":516,"y":115,"w":209,"h":121},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":229,"y":123,"w":209,"h":121},
+	"sourceSize": {"w":600,"h":375},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "frame_AI.png",
+	"frame": {"x":921,"y":60,"w":99,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":99,"h":74},
+	"sourceSize": {"w":99,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "frame_player.png",
+	"frame": {"x":727,"y":115,"w":99,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":99,"h":74},
+	"sourceSize": {"w":99,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "seats.png",
+	"frame": {"x":1,"y":1,"w":513,"h":144},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":80,"y":193,"w":513,"h":144},
+	"sourceSize": {"w":600,"h":375},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "seats_1.png",
+	"frame": {"x":516,"y":1,"w":424,"h":57},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":271,"w":424,"h":57},
+	"sourceSize": {"w":600,"h":375},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "seats_2.png",
+	"frame": {"x":516,"y":60,"w":403,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":135,"y":233,"w":403,"h":53},
+	"sourceSize": {"w":600,"h":375},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "texture_atlas_2.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":256},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:ef5a718175fa992011eae4270c95b037:8857bafc3e4f1ce8b525c60b853e9959:1841566b8127e300c587f5f8309c1e38$"
+}
+}

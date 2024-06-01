@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="ruffle.js"></script>
+    <title>Infiltrating the Airship | MacVG</title>
+  </head>
+  <body style="margin: 0px">
+    <div id="container" style="width: 100vw; height: 100vh"></div>
+    <script type="text/javascript">
+      function play() {
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+        player.config = {
+          contextMenu: "off",
+          autoplay: true,
+          warnOnUnsupportedContent: false,
+          allowScriptAccess: true,
+          maxExecutionDuration: 30,
+        };
+        const container = document.getElementById("container");
+        container.appendChild(player);
+        player.style.cssText = "width:100%; height: 100%;";
+        player.style.display = "block";
+        player.load(
+          "https://files.crazygames.com/infiltrating-the-airship/2/infiltrating_the_airship.swf"
+        );
+      }
+      play();
+    </script>
+  </body>
+</html>

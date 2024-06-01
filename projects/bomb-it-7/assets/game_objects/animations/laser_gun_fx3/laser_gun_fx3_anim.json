@@ -1,0 +1,51 @@
+{
+    "name": "laser_gun_fx3_anim",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "laser_gun_fx3_base": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "laser_fx5.png"
+                },
+                {
+                    "frame": 50,
+                    "value": "laser_fx1.png"
+                },
+                {
+                    "frame": 100,
+                    "value": "laser_fx2.png"
+                },
+                {
+                    "frame": 150,
+                    "value": "laser_fx3.png"
+                },
+                {
+                    "frame": 200,
+                    "value": "laser_fx4.png"
+                },
+                {
+                    "frame": 250,
+                    "value": "laser_fx1.png"
+                },
+                {
+                    "frame": 300,
+                    "value": "laser_fx2.png"
+                },
+                {
+                    "frame": 350,
+                    "value": "laser_fx3.png"
+                },
+                {
+                    "frame": 400,
+                    "value": "laser_fx4.png"
+                },
+                {
+                    "frame": 450,
+                    "value": "laser_fx5.png"
+                }
+            ]
+        }
+    }
+}

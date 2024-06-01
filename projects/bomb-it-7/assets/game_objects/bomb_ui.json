@@ -1,0 +1,40 @@
+{
+    "hierarchy": {
+        "name": "bomb_ui",
+        "children": [
+            {
+                "name": "bomb"
+            },
+            {
+                "name": "fire"
+            }
+        ],
+        "animations": [
+            "bomb_decor"
+        ]
+    },
+    "properties": {
+        "bomb": {
+            "file": "title_decor_bomb.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -6.7,
+                "y": -16.4
+            },
+            "scale": {
+                "x": 1.1,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "fire": {
+            "file": "title_decor_bomb_shine.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -63.4,
+                "y": -9.4
+            },
+            "type": "sprite"
+        }
+    }
+}

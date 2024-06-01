@@ -1,0 +1,29 @@
+{
+    "hierarchy": {
+        "name": "container",
+        "children": [
+            {
+                "name": "image"
+            }
+        ],
+        "animations": [
+            "game_over_play"
+        ]
+    },
+    "properties": {
+        "image": {
+            "file": "pause_win.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "angle": 16,
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "hierarchy": {
+        "name": "mighty_hammer_fx1",
+        "children": [
+            {
+                "name": "m_hammer_fx1_base"
+            }
+        ],
+        "animations": [
+            "mighty_hammer_fx1_anim"
+        ]
+    },
+    "properties": {
+        "m_hammer_fx1_base": {
+            "file": "anim_super_hammer2_fx4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "anchor": {
+                "x": 1,
+                "y": 0.7
+            },
+            "type": "sprite"
+        }
+    }
+}

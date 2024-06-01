@@ -1,0 +1,375 @@
+{
+    "name": "center_toy_store_play",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "toy_store_rocket": {
+            "y": [
+                {
+                    "frame": 167,
+                    "value": -54.5
+                },
+                {
+                    "frame": 400,
+                    "value": -137.7
+                },
+                {
+                    "frame": 633,
+                    "value": -181
+                },
+                {
+                    "frame": 1133,
+                    "value": 68
+                },
+                {
+                    "frame": 1467,
+                    "value": -54.5
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 633,
+                    "value": 1
+                },
+                {
+                    "frame": 667,
+                    "value": 0
+                },
+                {
+                    "frame": 1133,
+                    "value": 0
+                },
+                {
+                    "frame": 1333,
+                    "value": 1
+                },
+                {
+                    "frame": 1467,
+                    "value": 1
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 633,
+                    "value": 1
+                },
+                {
+                    "frame": 1100,
+                    "value": 1
+                },
+                {
+                    "frame": 1133,
+                    "value": 0
+                },
+                {
+                    "frame": 1467,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 633,
+                    "value": 1
+                },
+                {
+                    "frame": 1100,
+                    "value": 1
+                },
+                {
+                    "frame": 1133,
+                    "value": 0
+                },
+                {
+                    "frame": 1467,
+                    "value": 1
+                }
+            ]
+        },
+        "toy_store_exp": {
+            "alpha": [
+                {
+                    "frame": 600,
+                    "value": 0
+                },
+                {
+                    "frame": 633,
+                    "value": 1
+                },
+                {
+                    "frame": 1367,
+                    "value": 1
+                },
+                {
+                    "frame": 1400,
+                    "value": 0
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 600,
+                    "value": "center_toy_store_rocket_exp1.png"
+                },
+                {
+                    "frame": 700,
+                    "value": "center_toy_store_rocket_exp2.png"
+                },
+                {
+                    "frame": 767,
+                    "value": "center_toy_store_rocket_exp3.png"
+                },
+                {
+                    "frame": 833,
+                    "value": "center_toy_store_rocket_exp4.png"
+                },
+                {
+                    "frame": 900,
+                    "value": "center_toy_store_rocket_exp5.png"
+                },
+                {
+                    "frame": 967,
+                    "value": "center_toy_store_rocket_exp6.png"
+                },
+                {
+                    "frame": 1033,
+                    "value": "center_toy_store_rocket_exp7.png"
+                },
+                {
+                    "frame": 1100,
+                    "value": "center_toy_store_rocket_exp8.png"
+                },
+                {
+                    "frame": 1167,
+                    "value": "center_toy_store_rocket_exp9.png"
+                },
+                {
+                    "frame": 1233,
+                    "value": "center_toy_store_rocket_exp10.png"
+                },
+                {
+                    "frame": 1300,
+                    "value": "center_toy_store_rocket_exp11.png"
+                }
+            ]
+        },
+        "toy_store_light": {
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 733,
+                    "value": 0.6
+                },
+                {
+                    "frame": 1333,
+                    "value": 0.6
+                },
+                {
+                    "frame": 1467,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 733,
+                    "value": 0.6
+                },
+                {
+                    "frame": 1333,
+                    "value": 0.6
+                },
+                {
+                    "frame": 1467,
+                    "value": 1
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 600,
+                    "value": 1
+                },
+                {
+                    "frame": 733,
+                    "value": 0
+                },
+                {
+                    "frame": 1300,
+                    "value": 0
+                },
+                {
+                    "frame": 1333,
+                    "value": 1
+                }
+            ]
+        },
+        "toy_store_fire_l": {
+            "alpha": [
+                {
+                    "frame": 167,
+                    "value": 0
+                },
+                {
+                    "frame": 200,
+                    "value": 1
+                },
+                {
+                    "frame": 633,
+                    "value": 1
+                },
+                {
+                    "frame": 667,
+                    "value": 0
+                }
+            ],
+            "position": [
+                {
+                    "frame": 200,
+                    "value": [
+                        -23,
+                        33.6
+                    ]
+                },
+                {
+                    "frame": 400,
+                    "value": [
+                        -23,
+                        -38.8
+                    ]
+                },
+                {
+                    "frame": 633,
+                    "value": [
+                        -23,
+                        -79.7
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 200,
+                    "value": "center_toy_store_rocket_fire1.png"
+                },
+                {
+                    "frame": 267,
+                    "value": "center_toy_store_rocket_fire2.png"
+                },
+                {
+                    "frame": 333,
+                    "value": "center_toy_store_rocket_fire3.png"
+                },
+                {
+                    "frame": 400,
+                    "value": "center_toy_store_rocket_fire4.png"
+                },
+                {
+                    "frame": 467,
+                    "value": "center_toy_store_rocket_fire1.png"
+                },
+                {
+                    "frame": 533,
+                    "value": "center_toy_store_rocket_fire2.png"
+                },
+                {
+                    "frame": 600,
+                    "value": "center_toy_store_rocket_fire3.png"
+                }
+            ]
+        },
+        "toy_store_fire_r": {
+            "alpha": [
+                {
+                    "frame": 167,
+                    "value": 0
+                },
+                {
+                    "frame": 200,
+                    "value": 1
+                },
+                {
+                    "frame": 633,
+                    "value": 1
+                },
+                {
+                    "frame": 667,
+                    "value": 0
+                }
+            ],
+            "position": [
+                {
+                    "frame": 200,
+                    "value": [
+                        26.5,
+                        33.6
+                    ]
+                },
+                {
+                    "frame": 400,
+                    "value": [
+                        26.5,
+                        -35.9
+                    ]
+                },
+                {
+                    "frame": 633,
+                    "value": [
+                        26.5,
+                        -79.7
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 200,
+                    "value": "center_toy_store_rocket_fire1.png"
+                },
+                {
+                    "frame": 267,
+                    "value": "center_toy_store_rocket_fire2.png"
+                },
+                {
+                    "frame": 333,
+                    "value": "center_toy_store_rocket_fire3.png"
+                },
+                {
+                    "frame": 400,
+                    "value": "center_toy_store_rocket_fire4.png"
+                },
+                {
+                    "frame": 467,
+                    "value": "center_toy_store_rocket_fire1.png"
+                },
+                {
+                    "frame": 533,
+                    "value": "center_toy_store_rocket_fire2.png"
+                },
+                {
+                    "frame": 600,
+                    "value": "center_toy_store_rocket_fire3.png"
+                }
+            ]
+        }
+    },
+    "events": [
+        {
+            "frame": 733,
+            "name": ""
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "hero8_gc",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "image4/part2": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "image4_8.png"
+                }
+            ]
+        },
+        "image3/part3": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "image3_9.png"
+                }
+            ]
+        },
+        "image2/part2": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "image2_8.png"
+                }
+            ]
+        }
+    }
+}

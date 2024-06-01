@@ -1,0 +1,518 @@
+{
+    "hierarchy": {
+        "name": "game_completed",
+        "children": [
+            {
+                "name": "skin",
+                "children": [
+                    {
+                        "name": "image1",
+                        "children": [
+                            {
+                                "name": "part1"
+                            },
+                            {
+                                "name": "part2"
+                            },
+                            {
+                                "name": "part3"
+                            },
+                            {
+                                "name": "part4"
+                            },
+                            {
+                                "name": "part5"
+                            },
+                            {
+                                "name": "part6"
+                            },
+                            {
+                                "name": "part7"
+                            },
+                            {
+                                "name": "part8"
+                            },
+                            {
+                                "name": "part9"
+                            },
+                            {
+                                "name": "part10"
+                            },
+                            {
+                                "name": "part11"
+                            },
+                            {
+                                "name": "part12"
+                            },
+                            {
+                                "name": "part13"
+                            },
+                            {
+                                "name": "part14"
+                            },
+                            {
+                                "name": "part15"
+                            },
+                            {
+                                "name": "part16"
+                            },
+                            {
+                                "name": "part17"
+                            },
+                            {
+                                "name": "part18"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "image2",
+                        "children": [
+                            {
+                                "name": "part1"
+                            },
+                            {
+                                "name": "part2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "image3",
+                        "children": [
+                            {
+                                "name": "part1"
+                            },
+                            {
+                                "name": "part2"
+                            },
+                            {
+                                "name": "part3"
+                            },
+                            {
+                                "name": "part4"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "image4",
+                        "children": [
+                            {
+                                "name": "part1"
+                            },
+                            {
+                                "name": "part2"
+                            },
+                            {
+                                "name": "part3"
+                            },
+                            {
+                                "name": "part4"
+                            },
+                            {
+                                "name": "part5"
+                            },
+                            {
+                                "name": "part6"
+                            }
+                        ]
+                    }
+                ],
+                "animations": [
+                    "hero1_gc",
+                    "hero2_gc",
+                    "hero3_gc",
+                    "hero4_gc",
+                    "hero5_gc",
+                    "hero6_gc",
+                    "hero7_gc",
+                    "hero8_gc"
+                ]
+            }
+        ],
+        "animations": [
+            "game_completed_play"
+        ]
+    },
+    "properties": {
+        "skin": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "skin/image1": {
+            "position": {
+                "x": 0,
+                "y": -156
+            },
+            "alpha": 0,
+            "type": "container"
+        },
+        "skin/image1/part1": {
+            "file": "image1_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 13
+            },
+            "scale": {
+                "x": 2,
+                "y": 2
+            },
+            "type": "sprite"
+        },
+        "skin/image1/part2": {
+            "file": "image1_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 5,
+                "y": 317
+            },
+            "type": "sprite"
+        },
+        "skin/image1/part3": {
+            "file": "pg3_shiny.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -49,
+                "y": 7
+            },
+            "scale": {
+                "x": 2.1,
+                "y": 2.1
+            },
+            "type": "sprite"
+        },
+        "skin/image1/part4": {
+            "file": "shine_trophy.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 157,
+                "y": 19
+            },
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "skin/image1/part5": {
+            "file": "shine_trophy.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -157,
+                "y": 69
+            },
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "skin/image1/part6": {
+            "file": "shine_trophy.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -113,
+                "y": -44
+            },
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "skin/image1/part7": {
+            "file": "shine_trophy.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 46,
+                "y": 96
+            },
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "skin/image1/part8": {
+            "file": "shine_trophy.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 159,
+                "y": -60
+            },
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "skin/image1/part9": {
+            "file": "pg1_3_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 247,
+                "y": 390
+            },
+            "angle": 23,
+            "type": "sprite"
+        },
+        "skin/image1/part10": {
+            "file": "pg1_3_3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 202,
+                "y": 312
+            },
+            "angle": 10,
+            "type": "sprite"
+        },
+        "skin/image1/part11": {
+            "file": "pg1_3_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 109,
+                "y": 330
+            },
+            "type": "sprite"
+        },
+        "skin/image1/part12": {
+            "file": "pg1_3_3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 4,
+                "y": 292
+            },
+            "type": "sprite"
+        },
+        "skin/image1/part13": {
+            "file": "pg1_3_3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -152,
+                "y": 377
+            },
+            "type": "sprite"
+        },
+        "skin/image1/part14": {
+            "file": "pg1_3_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -297,
+                "y": 313
+            },
+            "type": "sprite"
+        },
+        "skin/image1/part15": {
+            "file": "pg1_3_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -311,
+                "y": 396
+            },
+            "type": "sprite"
+        },
+        "skin/image1/part16": {
+            "file": "pg1_3_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -184,
+                "y": 279
+            },
+            "type": "sprite"
+        },
+        "skin/image1/part17": {
+            "file": "pg1_3_4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 291,
+                "y": 271
+            },
+            "angle": -12,
+            "type": "sprite"
+        },
+        "skin/image1/part18": {
+            "file": "pg1_3_4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -254,
+                "y": 244
+            },
+            "type": "sprite"
+        },
+        "skin/image2": {
+            "position": {
+                "x": -243,
+                "y": 165
+            },
+            "alpha": 0,
+            "type": "container"
+        },
+        "skin/image2/part1": {
+            "file": "image3_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 130,
+                "y": 48.4
+            },
+            "scale": {
+                "x": 1.8,
+                "y": 1.8
+            },
+            "type": "sprite"
+        },
+        "skin/image2/part2": {
+            "file": "image2_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -316,
+                "y": 43
+            },
+            "scale": {
+                "x": 2,
+                "y": 2
+            },
+            "type": "sprite"
+        },
+        "skin/image3": {
+            "position": {
+                "x": 188,
+                "y": 171
+            },
+            "alpha": 0,
+            "type": "container"
+        },
+        "skin/image3/part1": {
+            "file": "image3_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -31,
+                "y": -24
+            },
+            "scale": {
+                "x": 1.7,
+                "y": 1.7
+            },
+            "type": "sprite"
+        },
+        "skin/image3/part2": {
+            "file": "image3_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -63,
+                "y": -66
+            },
+            "anchor": {
+                "x": 0.1,
+                "y": 0.3
+            },
+            "type": "sprite"
+        },
+        "skin/image3/part3": {
+            "file": "image3_3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -463,
+                "y": -188
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.3
+            },
+            "type": "sprite"
+        },
+        "skin/image3/part4": {
+            "file": "image3_11.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -36,
+                "y": -35
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.4
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "skin/image4": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "container"
+        },
+        "skin/image4/part1": {
+            "file": "image4_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": 2,
+                "y": 2
+            },
+            "type": "sprite"
+        },
+        "skin/image4/part2": {
+            "file": "image4_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -166,
+                "y": -87
+            },
+            "type": "sprite"
+        },
+        "skin/image4/part3": {
+            "file": "image4_10.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 129,
+                "y": -82
+            },
+            "type": "sprite"
+        },
+        "skin/image4/part4": {
+            "file": "robots_bottom_l.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -215,
+                "y": 219
+            },
+            "scale": {
+                "x": 1.5,
+                "y": 1.5
+            },
+            "type": "sprite"
+        },
+        "skin/image4/part5": {
+            "file": "robots_bottom_r.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 197,
+                "y": 219
+            },
+            "scale": {
+                "x": 1.5,
+                "y": 1.5
+            },
+            "type": "sprite"
+        },
+        "skin/image4/part6": {
+            "file": "pg3_shiny.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": 2.5,
+                "y": 2.5
+            },
+            "type": "sprite"
+        }
+    }
+}

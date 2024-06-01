@@ -1,0 +1,98 @@
+{
+    "name": "hammock_vertical",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "tree1": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -3.2,
+                        -69
+                    ]
+                }
+            ]
+        },
+        "tree2": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -3.8,
+                        37.9
+                    ]
+                }
+            ]
+        },
+        "hammock_base": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        1.4,
+                        0
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "hammock_front1.png"
+                },
+                {
+                    "frame": 61,
+                    "value": "hammock_front2.png"
+                },
+                {
+                    "frame": 121,
+                    "value": "hammock_front3.png"
+                },
+                {
+                    "frame": 182,
+                    "value": "hammock_front4.png"
+                },
+                {
+                    "frame": 242,
+                    "value": "hammock_front5.png"
+                },
+                {
+                    "frame": 303,
+                    "value": "hammock_front6.png"
+                },
+                {
+                    "frame": 364,
+                    "value": "hammock_front7.png"
+                },
+                {
+                    "frame": 424,
+                    "value": "hammock_front8.png"
+                },
+                {
+                    "frame": 485,
+                    "value": "hammock_front9.png"
+                },
+                {
+                    "frame": 545,
+                    "value": "hammock_front10.png"
+                },
+                {
+                    "frame": 606,
+                    "value": "hammock_front11.png"
+                },
+                {
+                    "frame": 667,
+                    "value": "hammock_front12.png"
+                },
+                {
+                    "frame": 727,
+                    "value": "hammock_front13.png"
+                },
+                {
+                    "frame": 788,
+                    "value": "hammock_front1.png"
+                }
+            ]
+        }
+    }
+}

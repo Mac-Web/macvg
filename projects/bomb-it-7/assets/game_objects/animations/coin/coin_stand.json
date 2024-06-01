@@ -1,0 +1,186 @@
+{
+    "name": "coin_stand",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "coin_base": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        0,
+                        -33.2
+                    ]
+                },
+                {
+                    "frame": 1067,
+                    "value": [
+                        0,
+                        -27.9
+                    ]
+                },
+                {
+                    "frame": 2200,
+                    "value": [
+                        0,
+                        -33.2
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "coin_anim1.png"
+                },
+                {
+                    "frame": 67,
+                    "value": "coin_anim2.png"
+                },
+                {
+                    "frame": 133,
+                    "value": "coin_anim3.png"
+                },
+                {
+                    "frame": 200,
+                    "value": "coin_anim4.png"
+                },
+                {
+                    "frame": 267,
+                    "value": "coin_anim5.png"
+                },
+                {
+                    "frame": 333,
+                    "value": "coin_anim6.png"
+                },
+                {
+                    "frame": 400,
+                    "value": "coin_anim7.png"
+                },
+                {
+                    "frame": 467,
+                    "value": "coin_anim8.png"
+                },
+                {
+                    "frame": 533,
+                    "value": "coin_anim9.png"
+                },
+                {
+                    "frame": 600,
+                    "value": "coin_anim10.png"
+                },
+                {
+                    "frame": 667,
+                    "value": "coin_anim11.png"
+                },
+                {
+                    "frame": 733,
+                    "value": "coin_anim12.png"
+                },
+                {
+                    "frame": 800,
+                    "value": "coin_anim13.png"
+                },
+                {
+                    "frame": 867,
+                    "value": "coin_anim14.png"
+                },
+                {
+                    "frame": 933,
+                    "value": "coin_anim15.png"
+                },
+                {
+                    "frame": 1000,
+                    "value": "coin_anim16.png"
+                },
+                {
+                    "frame": 1067,
+                    "value": "coin_anim17.png"
+                },
+                {
+                    "frame": 1133,
+                    "value": "coin_anim18.png"
+                },
+                {
+                    "frame": 1200,
+                    "value": "coin_anim19.png"
+                },
+                {
+                    "frame": 1267,
+                    "value": "coin_anim20.png"
+                },
+                {
+                    "frame": 1333,
+                    "value": "coin_anim21.png"
+                },
+                {
+                    "frame": 1400,
+                    "value": "coin_anim22.png"
+                },
+                {
+                    "frame": 1467,
+                    "value": "coin_anim23.png"
+                },
+                {
+                    "frame": 1533,
+                    "value": "coin_anim24.png"
+                },
+                {
+                    "frame": 1600,
+                    "value": "coin_anim25.png"
+                },
+                {
+                    "frame": 1667,
+                    "value": "coin_anim26.png"
+                },
+                {
+                    "frame": 1733,
+                    "value": "coin_anim27.png"
+                },
+                {
+                    "frame": 1800,
+                    "value": "coin_anim28.png"
+                },
+                {
+                    "frame": 1867,
+                    "value": "coin_anim29.png"
+                },
+                {
+                    "frame": 1933,
+                    "value": "coin_anim30.png"
+                },
+                {
+                    "frame": 2000,
+                    "value": "coin_anim31.png"
+                },
+                {
+                    "frame": 2067,
+                    "value": "coin_anim32.png"
+                },
+                {
+                    "frame": 2133,
+                    "value": "coin_anim33.png"
+                },
+                {
+                    "frame": 2200,
+                    "value": "coin_anim1.png"
+                }
+            ]
+        },
+        "shadow_coin": {
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 0.8
+                },
+                {
+                    "frame": 1067,
+                    "value": 0.7
+                },
+                {
+                    "frame": 2200,
+                    "value": 0.8
+                }
+            ]
+        }
+    }
+}

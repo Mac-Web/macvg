@@ -1,0 +1,63 @@
+{
+    "name": "character4_stand",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "base/eye": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "face_eye.png"
+                },
+                {
+                    "frame": 140,
+                    "value": "face4_eye1.png"
+                },
+                {
+                    "frame": 160,
+                    "value": "face4_eye2.png"
+                },
+                {
+                    "frame": 180,
+                    "value": "face4_eye3.png"
+                },
+                {
+                    "frame": 200,
+                    "value": "face4_eye4.png"
+                },
+                {
+                    "frame": 220,
+                    "value": "face4_eye5.png"
+                },
+                {
+                    "frame": 280,
+                    "value": "face4_eye5.png"
+                },
+                {
+                    "frame": 300,
+                    "value": "face4_eye4.png"
+                },
+                {
+                    "frame": 320,
+                    "value": "face4_eye3.png"
+                },
+                {
+                    "frame": 340,
+                    "value": "face4_eye2.png"
+                },
+                {
+                    "frame": 360,
+                    "value": "face4_eye1.png"
+                },
+                {
+                    "frame": 380,
+                    "value": "face_eye.png"
+                },
+                {
+                    "frame": 1600,
+                    "value": "face_eye.png"
+                }
+            ]
+        }
+    }
+}

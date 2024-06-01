@@ -1,0 +1,121 @@
+{
+    "name": "center_boutique_play",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "boutique_fx": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "center_boutique_fx1.png"
+                },
+                {
+                    "frame": 33,
+                    "value": "center_boutique_fx2.png"
+                },
+                {
+                    "frame": 67,
+                    "value": "center_boutique_fx3.png"
+                },
+                {
+                    "frame": 100,
+                    "value": "center_boutique_fx4.png"
+                },
+                {
+                    "frame": 133,
+                    "value": "center_boutique_fx5.png"
+                },
+                {
+                    "frame": 167,
+                    "value": "center_boutique_fx6.png"
+                },
+                {
+                    "frame": 200,
+                    "value": "center_boutique_fx7.png"
+                },
+                {
+                    "frame": 233,
+                    "value": "center_boutique_fx8.png"
+                },
+                {
+                    "frame": 267,
+                    "value": "center_boutique_fx9.png"
+                },
+                {
+                    "frame": 300,
+                    "value": "center_boutique_fx10.png"
+                },
+                {
+                    "frame": 333,
+                    "value": "center_boutique_fx11.png"
+                },
+                {
+                    "frame": 367,
+                    "value": "center_boutique_fx12.png"
+                },
+                {
+                    "frame": 400,
+                    "value": "center_boutique_fx13.png"
+                },
+                {
+                    "frame": 433,
+                    "value": "center_boutique_fx14.png"
+                },
+                {
+                    "frame": 467,
+                    "value": "center_boutique_fx15.png"
+                },
+                {
+                    "frame": 500,
+                    "value": "center_boutique_fx16.png"
+                },
+                {
+                    "frame": 533,
+                    "value": "center_boutique_fx17.png"
+                },
+                {
+                    "frame": 567,
+                    "value": "center_boutique_fx18.png"
+                },
+                {
+                    "frame": 600,
+                    "value": "center_boutique_fx19.png"
+                },
+                {
+                    "frame": 633,
+                    "value": "center_boutique_fx20.png"
+                },
+                {
+                    "frame": 667,
+                    "value": "center_boutique_fx21.png"
+                },
+                {
+                    "frame": 700,
+                    "value": "center_boutique_fx22.png"
+                },
+                {
+                    "frame": 733,
+                    "value": "center_boutique_fx23.png"
+                },
+                {
+                    "frame": 767,
+                    "value": "center_boutique_fx24.png"
+                },
+                {
+                    "frame": 800,
+                    "value": "center_boutique_fx25.png"
+                },
+                {
+                    "frame": 833,
+                    "value": "center_boutique_fx1.png"
+                }
+            ]
+        }
+    }
+}

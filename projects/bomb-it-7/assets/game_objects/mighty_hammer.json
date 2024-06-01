@@ -1,0 +1,30 @@
+{
+    "hierarchy": {
+        "name": "mighty_hammer",
+        "children": [
+            {
+                "name": "mighty_hammer_base"
+            }
+        ],
+        "animations": [
+            "mighty_hammer_down",
+            "mighty_hammer_side",
+            "mighty_hammer_up"
+        ]
+    },
+    "properties": {
+        "mighty_hammer_base": {
+            "file": "super_hammer_anim1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -11,
+                "y": 19.5
+            },
+            "anchor": {
+                "x": 0.4,
+                "y": 0.6
+            },
+            "type": "sprite"
+        }
+    }
+}

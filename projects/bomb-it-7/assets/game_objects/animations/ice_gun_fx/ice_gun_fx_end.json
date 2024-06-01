@@ -1,0 +1,31 @@
+{
+    "name": "ice_gun_fx_end",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "ice_gun_fx_base": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "ice_anim1.png"
+                },
+                {
+                    "frame": 50,
+                    "value": "ice_anim5.png"
+                },
+                {
+                    "frame": 100,
+                    "value": "ice_anim6.png"
+                },
+                {
+                    "frame": 150,
+                    "value": "ice_anim7.png"
+                },
+                {
+                    "frame": 217,
+                    "value": "ice_anim8.png"
+                }
+            ]
+        }
+    }
+}

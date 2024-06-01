@@ -1,0 +1,35 @@
+{
+    "name": "brick2_explosion_anim",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "brick2_exp_base": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "exp_play5.png"
+                },
+                {
+                    "frame": 50,
+                    "value": "exp_play1.png"
+                },
+                {
+                    "frame": 100,
+                    "value": "exp_play2.png"
+                },
+                {
+                    "frame": 150,
+                    "value": "exp_play3.png"
+                },
+                {
+                    "frame": 200,
+                    "value": "exp_play4.png"
+                },
+                {
+                    "frame": 250,
+                    "value": "exp_play5.png"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,510 @@
+#fontFace="font" #fontSize=86
+#lineHeight=98 #baseLine=81 #textureWidth=1024 #textureHeight=1024
+#textureFile="fontpopo.png"
+#charsCount=189
+#charId=32 #uvStart=(0.0391, 0.6602) #uvEnd=(0.0391, 0.6602) #size=(0.0, 0.0) #xOffset=0 #yOffset=81 #xAdvance=21 
+#charId=33 #uvStart=(0.1152, 0.9297) #uvEnd=(0.1387, 1.0000) #size=(24.0, 72.0) #xOffset=3 #yOffset=19 #xAdvance=17 
+#charId=34 #uvStart=(0.3301, 0.5859) #uvEnd=(0.3672, 0.6191) #size=(38.0, 34.0) #xOffset=3 #yOffset=17 #xAdvance=33 
+#charId=35 #uvStart=(0.3887, 0.3652) #uvEnd=(0.4512, 0.4297) #size=(64.0, 66.0) #xOffset=2 #yOffset=25 #xAdvance=57 
+#charId=36 #uvStart=(0.0488, 0.0898) #uvEnd=(0.0938, 0.1719) #size=(46.0, 84.0) #xOffset=2 #yOffset=15 #xAdvance=38 
+#charId=37 #uvStart=(0.6719, 0.2402) #uvEnd=(0.7305, 0.3105) #size=(60.0, 72.0) #xOffset=2 #yOffset=19 #xAdvance=53 
+#charId=38 #uvStart=(0.5410, 0.1680) #uvEnd=(0.5977, 0.2402) #size=(58.0, 74.0) #xOffset=3 #yOffset=17 #xAdvance=50 
+#charId=39 #uvStart=(0.3672, 0.5859) #uvEnd=(0.3887, 0.6191) #size=(22.0, 34.0) #xOffset=3 #yOffset=17 #xAdvance=16 
+#charId=40 #uvStart=(0.1895, 0.8730) #uvEnd=(0.2227, 0.9434) #size=(34.0, 72.0) #xOffset=2 #yOffset=19 #xAdvance=28 
+#charId=41 #uvStart=(0.1895, 0.8027) #uvEnd=(0.2227, 0.8730) #size=(34.0, 72.0) #xOffset=3 #yOffset=19 #xAdvance=28 
+#charId=42 #uvStart=(0.3301, 0.5098) #uvEnd=(0.3691, 0.5488) #size=(40.0, 40.0) #xOffset=2 #yOffset=20 #xAdvance=32 
+#charId=43 #uvStart=(0.9355, 0.3105) #uvEnd=(0.9805, 0.3555) #size=(46.0, 46.0) #xOffset=2 #yOffset=35 #xAdvance=38 
+#charId=44 #uvStart=(0.3613, 0.6641) #uvEnd=(0.3828, 0.6934) #size=(22.0, 30.0) #xOffset=2 #yOffset=69 #xAdvance=15 
+#charId=45 #uvStart=(0.8867, 0.3105) #uvEnd=(0.9355, 0.3359) #size=(50.0, 26.0) #xOffset=3 #yOffset=48 #xAdvance=45 
+#charId=46 #uvStart=(0.3613, 0.6953) #uvEnd=(0.3828, 0.7168) #size=(22.0, 22.0) #xOffset=3 #yOffset=69 #xAdvance=17 
+#charId=47 #uvStart=(0.1895, 0.7324) #uvEnd=(0.2324, 0.8027) #size=(44.0, 72.0) #xOffset=1 #yOffset=19 #xAdvance=34 
+#charId=48 #uvStart=(0.4902, 0.1680) #uvEnd=(0.5410, 0.2402) #size=(52.0, 74.0) #xOffset=2 #yOffset=17 #xAdvance=45 
+#charId=49 #uvStart=(0.1895, 0.6621) #uvEnd=(0.2266, 0.7324) #size=(38.0, 72.0) #xOffset=1 #yOffset=19 #xAdvance=31 
+#charId=50 #uvStart=(0.4414, 0.1680) #uvEnd=(0.4902, 0.2402) #size=(50.0, 74.0) #xOffset=2 #yOffset=17 #xAdvance=44 
+#charId=51 #uvStart=(0.8730, 0.0898) #uvEnd=(0.9199, 0.1641) #size=(48.0, 76.0) #xOffset=2 #yOffset=15 #xAdvance=41 
+#charId=52 #uvStart=(0.6230, 0.2402) #uvEnd=(0.6719, 0.3105) #size=(50.0, 72.0) #xOffset=1 #yOffset=19 #xAdvance=41 
+#charId=53 #uvStart=(0.0938, 0.7051) #uvEnd=(0.1426, 0.7812) #size=(50.0, 78.0) #xOffset=2 #yOffset=19 #xAdvance=43 
+#charId=54 #uvStart=(0.3906, 0.1680) #uvEnd=(0.4414, 0.2402) #size=(52.0, 74.0) #xOffset=2 #yOffset=18 #xAdvance=45 
+#charId=55 #uvStart=(0.3418, 0.1680) #uvEnd=(0.3906, 0.2402) #size=(50.0, 74.0) #xOffset=3 #yOffset=17 #xAdvance=42 
+#charId=56 #uvStart=(0.8203, 0.0898) #uvEnd=(0.8730, 0.1641) #size=(54.0, 76.0) #xOffset=2 #yOffset=18 #xAdvance=47 
+#charId=57 #uvStart=(0.7715, 0.0898) #uvEnd=(0.8203, 0.1641) #size=(50.0, 76.0) #xOffset=2 #yOffset=18 #xAdvance=43 
+#charId=58 #uvStart=(0.8652, 0.3105) #uvEnd=(0.8867, 0.3594) #size=(22.0, 50.0) #xOffset=3 #yOffset=41 #xAdvance=17 
+#charId=59 #uvStart=(0.1660, 0.3848) #uvEnd=(0.1875, 0.4434) #size=(22.0, 60.0) #xOffset=2 #yOffset=39 #xAdvance=16 
+#charId=60 #uvStart=(0.7793, 0.3105) #uvEnd=(0.8184, 0.3633) #size=(40.0, 54.0) #xOffset=1 #yOffset=35 #xAdvance=31 
+#charId=61 #uvStart=(0.3301, 0.4297) #uvEnd=(0.3730, 0.4707) #size=(44.0, 42.0) #xOffset=3 #yOffset=39 #xAdvance=39 
+#charId=62 #uvStart=(0.7402, 0.3105) #uvEnd=(0.7793, 0.3633) #size=(40.0, 54.0) #xOffset=2 #yOffset=35 #xAdvance=31 
+#charId=63 #uvStart=(0.5762, 0.2402) #uvEnd=(0.6230, 0.3105) #size=(48.0, 72.0) #xOffset=1 #yOffset=19 #xAdvance=39 
+#charId=64 #uvStart=(0.8926, 0.2402) #uvEnd=(0.9453, 0.3086) #size=(54.0, 70.0) #xOffset=3 #yOffset=23 #xAdvance=48 
+#charId=65 #uvStart=(0.5293, 0.2402) #uvEnd=(0.5762, 0.3105) #size=(48.0, 72.0) #xOffset=2 #yOffset=19 #xAdvance=40 
+#charId=66 #uvStart=(0.0938, 0.6289) #uvEnd=(0.1426, 0.7051) #size=(50.0, 78.0) #xOffset=3 #yOffset=16 #xAdvance=42 
+#charId=67 #uvStart=(0.1426, 0.0898) #uvEnd=(0.1953, 0.1680) #size=(54.0, 80.0) #xOffset=3 #yOffset=13 #xAdvance=46 
+#charId=68 #uvStart=(0.4824, 0.2402) #uvEnd=(0.5293, 0.3105) #size=(48.0, 72.0) #xOffset=3 #yOffset=19 #xAdvance=42 
+#charId=69 #uvStart=(0.2344, 0.8730) #uvEnd=(0.2812, 0.9434) #size=(48.0, 72.0) #xOffset=3 #yOffset=19 #xAdvance=43 
+#charId=70 #uvStart=(0.4336, 0.2402) #uvEnd=(0.4824, 0.3105) #size=(50.0, 72.0) #xOffset=3 #yOffset=19 #xAdvance=42 
+#charId=71 #uvStart=(0.7227, 0.0898) #uvEnd=(0.7715, 0.1641) #size=(50.0, 76.0) #xOffset=3 #yOffset=17 #xAdvance=42 
+#charId=72 #uvStart=(0.1426, 0.8184) #uvEnd=(0.1895, 0.8906) #size=(48.0, 74.0) #xOffset=3 #yOffset=18 #xAdvance=43 
+#charId=73 #uvStart=(0.1426, 0.7461) #uvEnd=(0.1699, 0.8184) #size=(28.0, 74.0) #xOffset=2 #yOffset=18 #xAdvance=22 
+#charId=74 #uvStart=(0.1426, 0.6738) #uvEnd=(0.1895, 0.7461) #size=(48.0, 74.0) #xOffset=1 #yOffset=18 #xAdvance=41 
+#charId=75 #uvStart=(0.2344, 0.8027) #uvEnd=(0.2812, 0.8730) #size=(48.0, 72.0) #xOffset=3 #yOffset=19 #xAdvance=42 
+#charId=76 #uvStart=(0.1426, 0.6016) #uvEnd=(0.1895, 0.6738) #size=(48.0, 74.0) #xOffset=3 #yOffset=17 #xAdvance=40 
+#charId=77 #uvStart=(0.2344, 0.7324) #uvEnd=(0.2812, 0.8027) #size=(48.0, 72.0) #xOffset=3 #yOffset=19 #xAdvance=42 
+#charId=78 #uvStart=(0.2344, 0.6621) #uvEnd=(0.2812, 0.7324) #size=(48.0, 72.0) #xOffset=3 #yOffset=19 #xAdvance=42 
+#charId=79 #uvStart=(0.1426, 0.5293) #uvEnd=(0.1895, 0.6016) #size=(48.0, 74.0) #xOffset=3 #yOffset=18 #xAdvance=42 
+#charId=80 #uvStart=(0.2930, 0.1680) #uvEnd=(0.3418, 0.2402) #size=(50.0, 74.0) #xOffset=3 #yOffset=17 #xAdvance=42 
+#charId=81 #uvStart=(0.2441, 0.1680) #uvEnd=(0.2930, 0.2402) #size=(50.0, 74.0) #xOffset=3 #yOffset=17 #xAdvance=43 
+#charId=82 #uvStart=(0.1895, 0.1680) #uvEnd=(0.2441, 0.2402) #size=(56.0, 74.0) #xOffset=3 #yOffset=17 #xAdvance=49 
+#charId=83 #uvStart=(0.3789, 0.2402) #uvEnd=(0.4336, 0.3105) #size=(56.0, 72.0) #xOffset=2 #yOffset=19 #xAdvance=48 
+#charId=84 #uvStart=(0.2344, 0.5918) #uvEnd=(0.2812, 0.6621) #size=(48.0, 72.0) #xOffset=2 #yOffset=19 #xAdvance=40 
+#charId=85 #uvStart=(0.2344, 0.5215) #uvEnd=(0.2812, 0.5918) #size=(48.0, 72.0) #xOffset=3 #yOffset=21 #xAdvance=43 
+#charId=86 #uvStart=(0.2344, 0.4512) #uvEnd=(0.2812, 0.5215) #size=(48.0, 72.0) #xOffset=2 #yOffset=19 #xAdvance=40 
+#charId=87 #uvStart=(0.2344, 0.3809) #uvEnd=(0.2812, 0.4512) #size=(48.0, 72.0) #xOffset=3 #yOffset=18 #xAdvance=41 
+#charId=88 #uvStart=(0.3301, 0.2402) #uvEnd=(0.3789, 0.3105) #size=(50.0, 72.0) #xOffset=3 #yOffset=19 #xAdvance=43 
+#charId=89 #uvStart=(0.2344, 0.3105) #uvEnd=(0.2812, 0.3809) #size=(48.0, 72.0) #xOffset=3 #yOffset=19 #xAdvance=41 
+#charId=90 #uvStart=(0.2812, 0.2402) #uvEnd=(0.3301, 0.3105) #size=(50.0, 72.0) #xOffset=3 #yOffset=19 #xAdvance=44 
+#charId=91 #uvStart=(0.1895, 0.5918) #uvEnd=(0.2227, 0.6621) #size=(34.0, 72.0) #xOffset=3 #yOffset=19 #xAdvance=28 
+#charId=92 #uvStart=(0.1895, 0.5215) #uvEnd=(0.2324, 0.5918) #size=(44.0, 72.0) #xOffset=1 #yOffset=19 #xAdvance=34 
+#charId=93 #uvStart=(0.1895, 0.4512) #uvEnd=(0.2227, 0.5215) #size=(34.0, 72.0) #xOffset=3 #yOffset=19 #xAdvance=28 
+#charId=94 #uvStart=(0.1426, 0.9609) #uvEnd=(0.1895, 0.9902) #size=(48.0, 30.0) #xOffset=1 #yOffset=21 #xAdvance=38 
+#charId=95 #uvStart=(0.4609, 0.3105) #uvEnd=(0.5195, 0.3301) #size=(60.0, 20.0) #xOffset=3 #yOffset=83 #xAdvance=55 
+#charId=96 #uvStart=(0.3301, 0.6953) #uvEnd=(0.3613, 0.7207) #size=(32.0, 26.0) #xOffset=2 #yOffset=20 #xAdvance=22 
+#charId=97 #uvStart=(0.2812, 0.9375) #uvEnd=(0.3281, 0.9902) #size=(48.0, 54.0) #xOffset=3 #yOffset=37 #xAdvance=42 
+#charId=98 #uvStart=(0.1895, 0.3809) #uvEnd=(0.2344, 0.4512) #size=(46.0, 72.0) #xOffset=3 #yOffset=19 #xAdvance=40 
+#charId=99 #uvStart=(0.2812, 0.5566) #uvEnd=(0.3281, 0.6133) #size=(48.0, 58.0) #xOffset=2 #yOffset=35 #xAdvance=40 
+#charId=100 #uvStart=(0.1895, 0.3105) #uvEnd=(0.2344, 0.3809) #size=(46.0, 72.0) #xOffset=2 #yOffset=19 #xAdvance=40 
+#charId=101 #uvStart=(0.2812, 0.4414) #uvEnd=(0.3262, 0.5000) #size=(46.0, 60.0) #xOffset=2 #yOffset=33 #xAdvance=40 
+#charId=102 #uvStart=(0.8496, 0.2402) #uvEnd=(0.8926, 0.3086) #size=(44.0, 70.0) #xOffset=2 #yOffset=21 #xAdvance=35 
+#charId=103 #uvStart=(0.2344, 0.2402) #uvEnd=(0.2812, 0.3105) #size=(48.0, 72.0) #xOffset=2 #yOffset=36 #xAdvance=41 
+#charId=104 #uvStart=(0.1426, 0.4570) #uvEnd=(0.1875, 0.5293) #size=(46.0, 74.0) #xOffset=3 #yOffset=17 #xAdvance=39 
+#charId=105 #uvStart=(0.1426, 0.3848) #uvEnd=(0.1660, 0.4570) #size=(24.0, 74.0) #xOffset=2 #yOffset=17 #xAdvance=18 
+#charId=106 #uvStart=(0.6758, 0.0000) #uvEnd=(0.7129, 0.0879) #size=(38.0, 90.0) #xOffset=1 #yOffset=17 #xAdvance=30 
+#charId=107 #uvStart=(0.1426, 0.3125) #uvEnd=(0.1875, 0.3848) #size=(46.0, 74.0) #xOffset=3 #yOffset=17 #xAdvance=39 
+#charId=108 #uvStart=(0.9688, 0.0898) #uvEnd=(0.9922, 0.1621) #size=(24.0, 74.0) #xOffset=2 #yOffset=17 #xAdvance=18 
+#charId=109 #uvStart=(0.3965, 0.3105) #uvEnd=(0.4609, 0.3652) #size=(66.0, 56.0) #xOffset=3 #yOffset=35 #xAdvance=60 
+#charId=110 #uvStart=(0.2812, 0.7773) #uvEnd=(0.3262, 0.8320) #size=(46.0, 56.0) #xOffset=3 #yOffset=35 #xAdvance=40 
+#charId=111 #uvStart=(0.2344, 0.9434) #uvEnd=(0.2812, 1.0000) #size=(48.0, 58.0) #xOffset=2 #yOffset=35 #xAdvance=41 
+#charId=112 #uvStart=(0.1895, 0.2402) #uvEnd=(0.2344, 0.3105) #size=(46.0, 72.0) #xOffset=3 #yOffset=37 #xAdvance=40 
+#charId=113 #uvStart=(0.9473, 0.1680) #uvEnd=(0.9922, 0.2383) #size=(46.0, 72.0) #xOffset=1 #yOffset=37 #xAdvance=40 
+#charId=114 #uvStart=(0.2812, 0.7227) #uvEnd=(0.3203, 0.7773) #size=(40.0, 56.0) #xOffset=3 #yOffset=35 #xAdvance=32 
+#charId=115 #uvStart=(0.2812, 0.5000) #uvEnd=(0.3301, 0.5566) #size=(50.0, 58.0) #xOffset=2 #yOffset=34 #xAdvance=43 
+#charId=116 #uvStart=(0.1426, 0.8906) #uvEnd=(0.1855, 0.9609) #size=(44.0, 72.0) #xOffset=2 #yOffset=19 #xAdvance=35 
+#charId=117 #uvStart=(0.2812, 0.6680) #uvEnd=(0.3262, 0.7227) #size=(46.0, 56.0) #xOffset=3 #yOffset=36 #xAdvance=40 
+#charId=118 #uvStart=(0.2812, 0.6133) #uvEnd=(0.3262, 0.6680) #size=(46.0, 56.0) #xOffset=2 #yOffset=35 #xAdvance=39 
+#charId=119 #uvStart=(0.3301, 0.3105) #uvEnd=(0.3965, 0.3652) #size=(68.0, 56.0) #xOffset=2 #yOffset=35 #xAdvance=62 
+#charId=120 #uvStart=(0.2812, 0.8848) #uvEnd=(0.3262, 0.9375) #size=(46.0, 54.0) #xOffset=3 #yOffset=37 #xAdvance=40 
+#charId=121 #uvStart=(0.8984, 0.1680) #uvEnd=(0.9473, 0.2383) #size=(50.0, 72.0) #xOffset=2 #yOffset=36 #xAdvance=43 
+#charId=122 #uvStart=(0.2812, 0.8320) #uvEnd=(0.3262, 0.8848) #size=(46.0, 54.0) #xOffset=3 #yOffset=37 #xAdvance=41 
+#charId=123 #uvStart=(0.8145, 0.2402) #uvEnd=(0.8496, 0.3086) #size=(36.0, 70.0) #xOffset=1 #yOffset=22 #xAdvance=28 
+#charId=124 #uvStart=(0.7031, 0.0898) #uvEnd=(0.7227, 0.1641) #size=(20.0, 76.0) #xOffset=3 #yOffset=17 #xAdvance=16 
+#charId=125 #uvStart=(0.7793, 0.2402) #uvEnd=(0.8145, 0.3086) #size=(36.0, 70.0) #xOffset=3 #yOffset=22 #xAdvance=28 
+#charId=126 #uvStart=(0.4609, 0.3301) #uvEnd=(0.5176, 0.3633) #size=(58.0, 34.0) #xOffset=2 #yOffset=47 #xAdvance=50 
+#charId=161 #uvStart=(0.0938, 0.9297) #uvEnd=(0.1152, 1.0000) #size=(22.0, 72.0) #xOffset=3 #yOffset=26 #xAdvance=17 
+#charId=162 #uvStart=(0.2812, 0.3770) #uvEnd=(0.3184, 0.4414) #size=(38.0, 66.0) #xOffset=2 #yOffset=23 #xAdvance=31 
+#charId=163 #uvStart=(0.7305, 0.2402) #uvEnd=(0.7793, 0.3086) #size=(50.0, 70.0) #xOffset=1 #yOffset=21 #xAdvance=41 
+#charId=164 #uvStart=(0.3301, 0.3652) #uvEnd=(0.3887, 0.4297) #size=(60.0, 66.0) #xOffset=3 #yOffset=23 #xAdvance=54 
+#charId=165 #uvStart=(0.8457, 0.1680) #uvEnd=(0.8984, 0.2383) #size=(54.0, 72.0) #xOffset=2 #yOffset=19 #xAdvance=45 
+#charId=166 #uvStart=(0.0391, 0.6504) #uvEnd=(0.0488, 0.6602) #size=(10.0, 10.0) #xOffset=0 #yOffset=81 #xAdvance=72 
+#charId=167 #uvStart=(0.0391, 0.6406) #uvEnd=(0.0488, 0.6504) #size=(10.0, 10.0) #xOffset=0 #yOffset=81 #xAdvance=72 
+#charId=168 #uvStart=(0.3301, 0.6191) #uvEnd=(0.3652, 0.6387) #size=(36.0, 20.0) #xOffset=3 #yOffset=26 #xAdvance=31 
+#charId=169 #uvStart=(0.6328, 0.3105) #uvEnd=(0.6875, 0.3633) #size=(56.0, 54.0) #xOffset=3 #yOffset=27 #xAdvance=48 
+#charId=171 #uvStart=(0.5762, 0.3105) #uvEnd=(0.6328, 0.3633) #size=(58.0, 54.0) #xOffset=2 #yOffset=36 #xAdvance=51 
+#charId=172 #uvStart=(0.8867, 0.3359) #uvEnd=(0.9316, 0.3652) #size=(46.0, 30.0) #xOffset=1 #yOffset=39 #xAdvance=39 
+#charId=173 #uvStart=(0.0391, 0.6309) #uvEnd=(0.0488, 0.6406) #size=(10.0, 10.0) #xOffset=0 #yOffset=81 #xAdvance=0 
+#charId=174 #uvStart=(0.6875, 0.3105) #uvEnd=(0.7402, 0.3633) #size=(54.0, 54.0) #xOffset=3 #yOffset=27 #xAdvance=48 
+#charId=175 #uvStart=(0.0293, 0.1758) #uvEnd=(0.0645, 0.1875) #size=(36.0, 12.0) #xOffset=4 #yOffset=17 #xAdvance=40 
+#charId=176 #uvStart=(0.3301, 0.6641) #uvEnd=(0.3613, 0.6953) #size=(32.0, 32.0) #xOffset=3 #yOffset=24 #xAdvance=26 
+#charId=177 #uvStart=(0.2812, 0.3105) #uvEnd=(0.3301, 0.3770) #size=(50.0, 68.0) #xOffset=2 #yOffset=22 #xAdvance=42 
+#charId=178 #uvStart=(0.3574, 0.4707) #uvEnd=(0.3848, 0.5098) #size=(28.0, 40.0) #xOffset=3 #yOffset=22 #xAdvance=23 
+#charId=179 #uvStart=(0.3301, 0.4707) #uvEnd=(0.3574, 0.5098) #size=(28.0, 40.0) #xOffset=2 #yOffset=22 #xAdvance=21 
+#charId=180 #uvStart=(0.3301, 0.6387) #uvEnd=(0.3613, 0.6641) #size=(32.0, 26.0) #xOffset=1 #yOffset=20 #xAdvance=22 
+#charId=181 #uvStart=(0.0488, 0.9316) #uvEnd=(0.0918, 1.0000) #size=(44.0, 70.0) #xOffset=3 #yOffset=35 #xAdvance=38 
+#charId=182 #uvStart=(0.0957, 0.0000) #uvEnd=(0.1602, 0.0898) #size=(66.0, 92.0) #xOffset=2 #yOffset=17 #xAdvance=59 
+#charId=183 #uvStart=(0.1699, 0.7461) #uvEnd=(0.1895, 0.7695) #size=(20.0, 24.0) #xOffset=3 #yOffset=45 #xAdvance=13 
+#charId=184 #uvStart=(0.3613, 0.6387) #uvEnd=(0.3848, 0.6621) #size=(24.0, 24.0) #xOffset=2 #yOffset=79 #xAdvance=17 
+#charId=185 #uvStart=(0.3594, 0.5488) #uvEnd=(0.3828, 0.5859) #size=(24.0, 38.0) #xOffset=1 #yOffset=24 #xAdvance=16 
+#charId=186 #uvStart=(0.3301, 0.5488) #uvEnd=(0.3594, 0.5859) #size=(30.0, 38.0) #xOffset=2 #yOffset=24 #xAdvance=22 
+#charId=187 #uvStart=(0.5195, 0.3105) #uvEnd=(0.5762, 0.3633) #size=(58.0, 54.0) #xOffset=3 #yOffset=36 #xAdvance=51 
+#charId=188 #uvStart=(0.7871, 0.1680) #uvEnd=(0.8457, 0.2383) #size=(60.0, 72.0) #xOffset=2 #yOffset=19 #xAdvance=51 
+#charId=189 #uvStart=(0.7285, 0.1680) #uvEnd=(0.7871, 0.2383) #size=(60.0, 72.0) #xOffset=2 #yOffset=19 #xAdvance=52 
+#charId=190 #uvStart=(0.6680, 0.1680) #uvEnd=(0.7285, 0.2383) #size=(62.0, 72.0) #xOffset=2 #yOffset=19 #xAdvance=54 
+#charId=191 #uvStart=(0.1426, 0.2402) #uvEnd=(0.1895, 0.3125) #size=(48.0, 74.0) #xOffset=1 #yOffset=26 #xAdvance=39 
+#charId=192 #uvStart=(0.6289, 0.0000) #uvEnd=(0.6758, 0.0879) #size=(48.0, 90.0) #xOffset=2 #yOffset=1 #xAdvance=40 
+#charId=193 #uvStart=(0.5820, 0.0000) #uvEnd=(0.6289, 0.0879) #size=(48.0, 90.0) #xOffset=2 #yOffset=1 #xAdvance=40 
+#charId=194 #uvStart=(0.5352, 0.0000) #uvEnd=(0.5820, 0.0879) #size=(48.0, 90.0) #xOffset=2 #yOffset=1 #xAdvance=40 
+#charId=195 #uvStart=(0.0488, 0.0000) #uvEnd=(0.0957, 0.0898) #size=(48.0, 92.0) #xOffset=2 #yOffset=-1 #xAdvance=42 
+#charId=196 #uvStart=(0.9434, 0.0000) #uvEnd=(0.9902, 0.0840) #size=(48.0, 86.0) #xOffset=2 #yOffset=5 #xAdvance=40 
+#charId=197 #uvStart=(0.0000, 0.9004) #uvEnd=(0.0469, 0.9902) #size=(48.0, 92.0) #xOffset=2 #yOffset=-1 #xAdvance=40 
+#charId=198 #uvStart=(0.5977, 0.1680) #uvEnd=(0.6680, 0.2383) #size=(72.0, 72.0) #xOffset=2 #yOffset=19 #xAdvance=65 
+#charId=199 #uvStart=(0.0938, 0.0898) #uvEnd=(0.1426, 0.1699) #size=(50.0, 82.0) #xOffset=3 #yOffset=20 #xAdvance=43 
+#charId=200 #uvStart=(0.4883, 0.0000) #uvEnd=(0.5352, 0.0879) #size=(48.0, 90.0) #xOffset=3 #yOffset=1 #xAdvance=41 
+#charId=201 #uvStart=(0.4414, 0.0000) #uvEnd=(0.4883, 0.0879) #size=(48.0, 90.0) #xOffset=2 #yOffset=1 #xAdvance=41 
+#charId=202 #uvStart=(0.3945, 0.0000) #uvEnd=(0.4414, 0.0879) #size=(48.0, 90.0) #xOffset=3 #yOffset=1 #xAdvance=41 
+#charId=203 #uvStart=(0.8965, 0.0000) #uvEnd=(0.9434, 0.0840) #size=(48.0, 86.0) #xOffset=3 #yOffset=5 #xAdvance=42 
+#charId=204 #uvStart=(0.0000, 0.8105) #uvEnd=(0.0312, 0.9004) #size=(32.0, 92.0) #xOffset=2 #yOffset=0 #xAdvance=24 
+#charId=205 #uvStart=(0.0000, 0.7207) #uvEnd=(0.0332, 0.8105) #size=(34.0, 92.0) #xOffset=2 #yOffset=0 #xAdvance=26 
+#charId=206 #uvStart=(0.0000, 0.6309) #uvEnd=(0.0391, 0.7207) #size=(40.0, 92.0) #xOffset=2 #yOffset=0 #xAdvance=30 
+#charId=207 #uvStart=(0.8145, 0.0000) #uvEnd=(0.8496, 0.0859) #size=(36.0, 88.0) #xOffset=2 #yOffset=4 #xAdvance=28 
+#charId=208 #uvStart=(0.6523, 0.0898) #uvEnd=(0.7031, 0.1641) #size=(52.0, 76.0) #xOffset=2 #yOffset=15 #xAdvance=44 
+#charId=209 #uvStart=(0.0000, 0.5410) #uvEnd=(0.0488, 0.6309) #size=(50.0, 92.0) #xOffset=3 #yOffset=0 #xAdvance=44 
+#charId=210 #uvStart=(0.3477, 0.0000) #uvEnd=(0.3945, 0.0879) #size=(48.0, 90.0) #xOffset=2 #yOffset=2 #xAdvance=41 
+#charId=211 #uvStart=(0.3008, 0.0000) #uvEnd=(0.3477, 0.0879) #size=(48.0, 90.0) #xOffset=2 #yOffset=2 #xAdvance=41 
+#charId=212 #uvStart=(0.2539, 0.0000) #uvEnd=(0.3008, 0.0879) #size=(48.0, 90.0) #xOffset=2 #yOffset=2 #xAdvance=41 
+#charId=213 #uvStart=(0.0000, 0.4512) #uvEnd=(0.0469, 0.5410) #size=(48.0, 92.0) #xOffset=3 #yOffset=0 #xAdvance=42 
+#charId=214 #uvStart=(0.8496, 0.0000) #uvEnd=(0.8965, 0.0840) #size=(48.0, 86.0) #xOffset=2 #yOffset=6 #xAdvance=42 
+#charId=215 #uvStart=(0.5820, 0.0898) #uvEnd=(0.6523, 0.1641) #size=(72.0, 76.0) #xOffset=3 #yOffset=16 #xAdvance=67 
+#charId=216 #uvStart=(0.5352, 0.0898) #uvEnd=(0.5820, 0.1641) #size=(48.0, 76.0) #xOffset=3 #yOffset=17 #xAdvance=42 
+#charId=217 #uvStart=(0.0000, 0.3613) #uvEnd=(0.0469, 0.4512) #size=(48.0, 92.0) #xOffset=3 #yOffset=1 #xAdvance=42 
+#charId=218 #uvStart=(0.0000, 0.2715) #uvEnd=(0.0469, 0.3613) #size=(48.0, 92.0) #xOffset=2 #yOffset=1 #xAdvance=42 
+#charId=219 #uvStart=(0.0000, 0.1816) #uvEnd=(0.0469, 0.2715) #size=(48.0, 92.0) #xOffset=2 #yOffset=1 #xAdvance=42 
+#charId=220 #uvStart=(0.7676, 0.0000) #uvEnd=(0.8145, 0.0859) #size=(48.0, 88.0) #xOffset=3 #yOffset=5 #xAdvance=42 
+#charId=221 #uvStart=(0.2070, 0.0000) #uvEnd=(0.2539, 0.0879) #size=(48.0, 90.0) #xOffset=2 #yOffset=1 #xAdvance=40 
+#charId=222 #uvStart=(0.1426, 0.1680) #uvEnd=(0.1895, 0.2402) #size=(48.0, 74.0) #xOffset=3 #yOffset=18 #xAdvance=40 
+#charId=223 #uvStart=(0.9199, 0.0898) #uvEnd=(0.9688, 0.1621) #size=(50.0, 74.0) #xOffset=1 #yOffset=17 #xAdvance=39 
+#charId=224 #uvStart=(0.4883, 0.0898) #uvEnd=(0.5352, 0.1641) #size=(48.0, 76.0) #xOffset=2 #yOffset=15 #xAdvance=41 
+#charId=225 #uvStart=(0.4414, 0.0898) #uvEnd=(0.4883, 0.1641) #size=(48.0, 76.0) #xOffset=2 #yOffset=15 #xAdvance=41 
+#charId=226 #uvStart=(0.3945, 0.0898) #uvEnd=(0.4414, 0.1641) #size=(48.0, 76.0) #xOffset=2 #yOffset=15 #xAdvance=41 
+#charId=227 #uvStart=(0.0938, 0.5527) #uvEnd=(0.1406, 0.6289) #size=(48.0, 78.0) #xOffset=2 #yOffset=13 #xAdvance=42 
+#charId=228 #uvStart=(0.3477, 0.0898) #uvEnd=(0.3945, 0.1641) #size=(48.0, 76.0) #xOffset=2 #yOffset=15 #xAdvance=42 
+#charId=229 #uvStart=(0.3008, 0.0898) #uvEnd=(0.3477, 0.1641) #size=(48.0, 76.0) #xOffset=2 #yOffset=15 #xAdvance=41 
+#charId=230 #uvStart=(0.2266, 0.0898) #uvEnd=(0.3008, 0.1504) #size=(76.0, 62.0) #xOffset=1 #yOffset=34 #xAdvance=68 
+#charId=231 #uvStart=(0.9453, 0.2402) #uvEnd=(0.9922, 0.3066) #size=(48.0, 68.0) #xOffset=2 #yOffset=35 #xAdvance=40 
+#charId=232 #uvStart=(0.0488, 0.7070) #uvEnd=(0.0938, 0.7832) #size=(46.0, 78.0) #xOffset=2 #yOffset=15 #xAdvance=39 
+#charId=233 #uvStart=(0.0488, 0.6309) #uvEnd=(0.0938, 0.7070) #size=(46.0, 78.0) #xOffset=2 #yOffset=15 #xAdvance=39 
+#charId=234 #uvStart=(0.0488, 0.5547) #uvEnd=(0.0938, 0.6309) #size=(46.0, 78.0) #xOffset=2 #yOffset=15 #xAdvance=39 
+#charId=235 #uvStart=(0.0488, 0.1719) #uvEnd=(0.0938, 0.2500) #size=(46.0, 80.0) #xOffset=2 #yOffset=13 #xAdvance=40 
+#charId=236 #uvStart=(0.1953, 0.0898) #uvEnd=(0.2266, 0.1641) #size=(32.0, 76.0) #xOffset=1 #yOffset=15 #xAdvance=23 
+#charId=237 #uvStart=(0.0938, 0.8555) #uvEnd=(0.1250, 0.9297) #size=(32.0, 76.0) #xOffset=2 #yOffset=15 #xAdvance=23 
+#charId=238 #uvStart=(0.0938, 0.7812) #uvEnd=(0.1328, 0.8555) #size=(40.0, 76.0) #xOffset=1 #yOffset=15 #xAdvance=30 
+#charId=239 #uvStart=(0.0488, 0.4785) #uvEnd=(0.0859, 0.5547) #size=(38.0, 78.0) #xOffset=2 #yOffset=13 #xAdvance=31 
+#charId=240 #uvStart=(0.7129, 0.0000) #uvEnd=(0.7676, 0.0859) #size=(56.0, 88.0) #xOffset=2 #yOffset=6 #xAdvance=48 
+#charId=241 #uvStart=(0.0488, 0.4023) #uvEnd=(0.0938, 0.4785) #size=(46.0, 78.0) #xOffset=3 #yOffset=13 #xAdvance=40 
+#charId=242 #uvStart=(0.0938, 0.4766) #uvEnd=(0.1406, 0.5527) #size=(48.0, 78.0) #xOffset=2 #yOffset=15 #xAdvance=40 
+#charId=243 #uvStart=(0.0938, 0.4004) #uvEnd=(0.1406, 0.4766) #size=(48.0, 78.0) #xOffset=1 #yOffset=15 #xAdvance=40 
+#charId=244 #uvStart=(0.0938, 0.3242) #uvEnd=(0.1406, 0.4004) #size=(48.0, 78.0) #xOffset=2 #yOffset=15 #xAdvance=40 
+#charId=245 #uvStart=(0.0938, 0.1699) #uvEnd=(0.1406, 0.2480) #size=(48.0, 80.0) #xOffset=2 #yOffset=13 #xAdvance=41 
+#charId=246 #uvStart=(0.0938, 0.2480) #uvEnd=(0.1406, 0.3242) #size=(48.0, 78.0) #xOffset=2 #yOffset=15 #xAdvance=41 
+#charId=247 #uvStart=(0.8184, 0.3105) #uvEnd=(0.8652, 0.3594) #size=(48.0, 50.0) #xOffset=1 #yOffset=41 #xAdvance=38 
+#charId=248 #uvStart=(0.1895, 0.9434) #uvEnd=(0.2266, 1.0000) #size=(38.0, 58.0) #xOffset=3 #yOffset=35 #xAdvance=31 
+#charId=249 #uvStart=(0.0488, 0.8574) #uvEnd=(0.0938, 0.9316) #size=(46.0, 76.0) #xOffset=2 #yOffset=16 #xAdvance=39 
+#charId=250 #uvStart=(0.0488, 0.7832) #uvEnd=(0.0938, 0.8574) #size=(46.0, 76.0) #xOffset=2 #yOffset=16 #xAdvance=39 
+#charId=251 #uvStart=(0.0488, 0.3262) #uvEnd=(0.0938, 0.4023) #size=(46.0, 78.0) #xOffset=2 #yOffset=14 #xAdvance=39 
+#charId=252 #uvStart=(0.0488, 0.2500) #uvEnd=(0.0938, 0.3262) #size=(46.0, 78.0) #xOffset=2 #yOffset=14 #xAdvance=40 
+#charId=253 #uvStart=(0.0000, 0.0918) #uvEnd=(0.0488, 0.1816) #size=(50.0, 92.0) #xOffset=2 #yOffset=16 #xAdvance=42 
+#charId=254 #uvStart=(0.1602, 0.0000) #uvEnd=(0.2070, 0.0879) #size=(48.0, 90.0) #xOffset=3 #yOffset=16 #xAdvance=40 
+#charId=255 #uvStart=(0.0000, 0.0000) #uvEnd=(0.0488, 0.0918) #size=(50.0, 94.0) #xOffset=2 #yOffset=14 #xAdvance=43 
+#kerningsCount=316
+#kerning #first=229 #second=106 #amount=-4
+#kerning #first=121 #second=116 #amount=1
+#kerning #first=65 #second=117 #amount=-1
+#kerning #first=237 #second=118 #amount=-2
+#kerning #first=110 #second=115 #amount=-1
+#kerning #first=65 #second=118 #amount=-1
+#kerning #first=82 #second=79 #amount=-1
+#kerning #first=205 #second=101 #amount=-2
+#kerning #first=65 #second=119 #amount=-1
+#kerning #first=77 #second=106 #amount=-4
+#kerning #first=80 #second=106 #amount=-3
+#kerning #first=249 #second=106 #amount=-4
+#kerning #first=76 #second=84 #amount=-3
+#kerning #first=237 #second=119 #amount=-2
+#kerning #first=75 #second=111 #amount=-2
+#kerning #first=76 #second=86 #amount=-3
+#kerning #first=114 #second=122 #amount=1
+#kerning #first=67 #second=97 #amount=-1
+#kerning #first=80 #second=97 #amount=-1
+#kerning #first=76 #second=87 #amount=-2
+#kerning #first=205 #second=102 #amount=-1
+#kerning #first=67 #second=204 #amount=-1
+#kerning #first=84 #second=45 #amount=-4
+#kerning #first=76 #second=89 #amount=-1
+#kerning #first=79 #second=83 #amount=-1
+#kerning #first=89 #second=121 #amount=-3
+#kerning #first=205 #second=103 #amount=-1
+#kerning #first=87 #second=101 #amount=-1
+#kerning #first=114 #second=65 #amount=-1
+#kerning #first=102 #second=106 #amount=-5
+#kerning #first=110 #second=118 #amount=-1
+#kerning #first=75 #second=115 #amount=-3
+#kerning #first=227 #second=106 #amount=-4
+#kerning #first=237 #second=120 #amount=-2
+#kerning #first=79 #second=87 #amount=1
+#kerning #first=79 #second=88 #amount=-1
+#kerning #first=74 #second=106 #amount=-3
+#kerning #first=110 #second=119 #amount=-1
+#kerning #first=122 #second=106 #amount=-2
+#kerning #first=112 #second=121 #amount=-1
+#kerning #first=87 #second=45 #amount=-1
+#kerning #first=75 #second=117 #amount=-3
+#kerning #first=237 #second=121 #amount=-3
+#kerning #first=88 #second=115 #amount=-2
+#kerning #first=67 #second=83 #amount=-1
+#kerning #first=82 #second=69 #amount=-2
+#kerning #first=107 #second=97 #amount=-1
+#kerning #first=80 #second=83 #amount=-1
+#kerning #first=111 #second=106 #amount=-4
+#kerning #first=101 #second=121 #amount=-2
+#kerning #first=87 #second=106 #amount=-4
+#kerning #first=90 #second=106 #amount=-4
+#kerning #first=86 #second=97 #amount=-3
+#kerning #first=237 #second=122 #amount=-1
+#kerning #first=205 #second=106 #amount=-4
+#kerning #first=108 #second=118 #amount=-1
+#kerning #first=84 #second=101 #amount=-3
+#kerning #first=86 #second=99 #amount=-1
+#kerning #first=107 #second=99 #amount=-3
+#kerning #first=99 #second=237 #amount=1
+#kerning #first=114 #second=233 #amount=1
+#kerning #first=70 #second=65 #amount=-3
+#kerning #first=100 #second=106 #amount=-3
+#kerning #first=72 #second=115 #amount=-2
+#kerning #first=237 #second=97 #amount=-2
+#kerning #first=115 #second=83 #amount=-1
+#kerning #first=108 #second=119 #amount=-1
+#kerning #first=225 #second=106 #amount=-3
+#kerning #first=83 #second=83 #amount=-1
+#kerning #first=68 #second=106 #amount=-4
+#kerning #first=71 #second=106 #amount=-4
+#kerning #first=114 #second=98 #amount=1
+#kerning #first=115 #second=84 #amount=-1
+#kerning #first=89 #second=97 #amount=-5
+#kerning #first=118 #second=103 #amount=-2
+#kerning #first=110 #second=99 #amount=-1
+#kerning #first=237 #second=99 #amount=-2
+#kerning #first=120 #second=106 #amount=-3
+#kerning #first=110 #second=121 #amount=-2
+#kerning #first=109 #second=106 #amount=-3
+#kerning #first=84 #second=106 #amount=-5
+#kerning #first=205 #second=109 #amount=-1
+#kerning #first=98 #second=114 #amount=1
+#kerning #first=86 #second=83 #amount=-1
+#kerning #first=104 #second=114 #amount=1
+#kerning #first=67 #second=72 #amount=-1
+#kerning #first=105 #second=100 #amount=1
+#kerning #first=97 #second=106 #amount=-3
+#kerning #first=65 #second=106 #amount=-3
+#kerning #first=114 #second=237 #amount=1
+#kerning #first=204 #second=85 #amount=1
+#kerning #first=205 #second=71 #amount=-1
+#kerning #first=118 #second=106 #amount=-4
+#kerning #first=108 #second=121 #amount=-1
+#kerning #first=89 #second=83 #amount=-2
+#kerning #first=32 #second=121 #amount=-2
+#kerning #first=204 #second=86 #amount=1
+#kerning #first=67 #second=79 #amount=-1
+#kerning #first=82 #second=115 #amount=-3
+#kerning #first=32 #second=33 #amount=-2
+#kerning #first=113 #second=114 #amount=1
+#kerning #first=205 #second=110 #amount=-1
+#kerning #first=205 #second=73 #amount=-1
+#kerning #first=78 #second=106 #amount=-3
+#kerning #first=81 #second=106 #amount=-4
+#kerning #first=107 #second=106 #amount=-3
+#kerning #first=243 #second=106 #amount=-2
+#kerning #first=205 #second=74 #amount=-1
+#kerning #first=116 #second=104 #amount=1
+#kerning #first=75 #second=101 #amount=-2
+#kerning #first=205 #second=111 #amount=-2
+#kerning #first=65 #second=99 #amount=-1
+#kerning #first=86 #second=71 #amount=-2
+#kerning #first=116 #second=105 #amount=1
+#kerning #first=106 #second=120 #amount=1
+#kerning #first=71 #second=205 #amount=1
+#kerning #first=113 #second=116 #amount=1
+#kerning #first=205 #second=112 #amount=-2
+#kerning #first=102 #second=97 #amount=-1
+#kerning #first=89 #second=111 #amount=-4
+#kerning #first=116 #second=106 #amount=-2
+#kerning #first=227 #second=115 #amount=-2
+#kerning #first=67 #second=65 #amount=-1
+#kerning #first=205 #second=113 #amount=-1
+#kerning #first=80 #second=65 #amount=-3
+#kerning #first=122 #second=115 #amount=-1
+#kerning #first=75 #second=106 #amount=-3
+#kerning #first=86 #second=79 #amount=-1
+#kerning #first=111 #second=114 #amount=1
+#kerning #first=65 #second=81 #amount=-2
+#kerning #first=106 #second=122 #amount=1
+#kerning #first=67 #second=68 #amount=-1
+#kerning #first=105 #second=106 #amount=-4
+#kerning #first=65 #second=83 #amount=-2
+#kerning #first=89 #second=115 #amount=-5
+#kerning #first=114 #second=104 #amount=1
+#kerning #first=237 #second=100 #amount=-1
+#kerning #first=65 #second=84 #amount=-3
+#kerning #first=236 #second=98 #amount=1
+#kerning #first=65 #second=204 #amount=-1
+#kerning #first=111 #second=115 #amount=-1
+#kerning #first=65 #second=85 #amount=-1
+#kerning #first=84 #second=97 #amount=-5
+#kerning #first=88 #second=106 #amount=-4
+#kerning #first=65 #second=86 #amount=-2
+#kerning #first=121 #second=237 #amount=1
+#kerning #first=115 #second=121 #amount=-1
+#kerning #first=205 #second=115 #amount=-2
+#kerning #first=65 #second=87 #amount=-2
+#kerning #first=87 #second=121 #amount=-1
+#kerning #first=89 #second=117 #amount=-3
+#kerning #first=114 #second=105 #amount=1
+#kerning #first=237 #second=101 #amount=-3
+#kerning #first=86 #second=111 #amount=-3
+#kerning #first=89 #second=79 #amount=-2
+#kerning #first=100 #second=115 #amount=-1
+#kerning #first=120 #second=97 #amount=-2
+#kerning #first=114 #second=106 #amount=-3
+#kerning #first=237 #second=102 #amount=-2
+#kerning #first=250 #second=106 #amount=-3
+#kerning #first=86 #second=113 #amount=-1
+#kerning #first=98 #second=100 #amount=1
+#kerning #first=69 #second=106 #amount=-3
+#kerning #first=72 #second=106 #amount=-1
+#kerning #first=87 #second=97 #amount=-1
+#kerning #first=86 #second=65 #amount=-3
+#kerning #first=107 #second=111 #amount=-3
+#kerning #first=120 #second=115 #amount=-1
+#kerning #first=67 #second=111 #amount=-2
+#kerning #first=70 #second=111 #amount=-3
+#kerning #first=205 #second=117 #amount=-2
+#kerning #first=237 #second=103 #amount=-2
+#kerning #first=108 #second=205 #amount=1
+#kerning #first=86 #second=115 #amount=-2
+#kerning #first=68 #second=89 #amount=-2
+#kerning #first=205 #second=224 #amount=-1
+#kerning #first=85 #second=106 #amount=-4
+#kerning #first=228 #second=106 #amount=-4
+#kerning #first=65 #second=71 #amount=-1
+#kerning #first=84 #second=83 #amount=-2
+#kerning #first=205 #second=118 #amount=-1
+#kerning #first=116 #second=110 #amount=1
+#kerning #first=84 #second=121 #amount=-3
+#kerning #first=86 #second=117 #amount=-3
+#kerning #first=70 #second=114 #amount=-2
+#kerning #first=82 #second=101 #amount=-3
+#kerning #first=97 #second=237 #amount=1
+#kerning #first=99 #second=115 #amount=-1
+#kerning #first=89 #second=65 #amount=-1
+#kerning #first=205 #second=225 #amount=-1
+#kerning #first=108 #second=237 #amount=1
+#kerning #first=75 #second=97 #amount=-2
+#kerning #first=67 #second=115 #amount=-3
+#kerning #first=70 #second=115 #amount=-3
+#kerning #first=205 #second=119 #amount=-3
+#kerning #first=74 #second=65 #amount=-1
+#kerning #first=207 #second=229 #amount=-1
+#kerning #first=98 #second=106 #amount=-4
+#kerning #first=229 #second=230 #amount=-1
+#kerning #first=66 #second=106 #amount=-3
+#kerning #first=117 #second=205 #amount=1
+#kerning #first=32 #second=97 #amount=-2
+#kerning #first=97 #second=121 #amount=-1
+#kerning #first=118 #second=115 #amount=-2
+#kerning #first=112 #second=106 #amount=-3
+#kerning #first=205 #second=226 #amount=-1
+#kerning #first=237 #second=106 #amount=-4
+#kerning #first=83 #second=115 #amount=-1
+#kerning #first=72 #second=83 #amount=-1
+#kerning #first=106 #second=205 #amount=1
+#kerning #first=205 #second=227 #amount=-1
+#kerning #first=107 #second=115 #amount=-3
+#kerning #first=122 #second=121 #amount=-1
+#kerning #first=79 #second=106 #amount=-3
+#kerning #first=101 #second=106 #amount=-3
+#kerning #first=82 #second=106 #amount=-6
+#kerning #first=226 #second=106 #amount=-4
+#kerning #first=205 #second=120 #amount=-1
+#kerning #first=205 #second=228 #amount=-1
+#kerning #first=121 #second=106 #amount=-3
+#kerning #first=111 #second=121 #amount=-3
+#kerning #first=116 #second=114 #amount=1
+#kerning #first=75 #second=83 #amount=-3
+#kerning #first=205 #second=121 #amount=-3
+#kerning #first=89 #second=101 #amount=-3
+#kerning #first=237 #second=109 #amount=-1
+#kerning #first=110 #second=106 #amount=-3
+#kerning #first=100 #second=121 #amount=-1
+#kerning #first=32 #second=118 #amount=-2
+#kerning #first=114 #second=112 #amount=1
+#kerning #first=65 #second=67 #amount=-1
+#kerning #first=84 #second=79 #amount=-1
+#kerning #first=76 #second=106 #amount=-3
+#kerning #first=32 #second=119 #amount=-2
+#kerning #first=75 #second=121 #amount=-2
+#kerning #first=119 #second=106 #amount=-5
+#kerning #first=89 #second=105 #amount=-3
+#kerning #first=224 #second=106 #amount=-4
+#kerning #first=82 #second=97 #amount=-2
+#kerning #first=66 #second=204 #amount=-1
+#kerning #first=68 #second=65 #amount=-1
+#kerning #first=89 #second=106 #amount=-4
+#kerning #first=86 #second=45 #amount=-3
+#kerning #first=205 #second=97 #amount=-2
+#kerning #first=114 #second=114 #amount=1
+#kerning #first=237 #second=110 #amount=-2
+#kerning #first=87 #second=111 #amount=-1
+#kerning #first=86 #second=101 #amount=-3
+#kerning #first=108 #second=106 #amount=-2
+#kerning #first=205 #second=98 #amount=-1
+#kerning #first=66 #second=83 #amount=-1
+#kerning #first=205 #second=99 #amount=-2
+#kerning #first=237 #second=111 #amount=-2
+#kerning #first=116 #second=119 #amount=1
+#kerning #first=118 #second=121 #amount=-1
+#kerning #first=84 #second=65 #amount=-4
+#kerning #first=233 #second=106 #amount=-3
+#kerning #first=70 #second=97 #amount=-3
+#kerning #first=72 #second=121 #amount=-1
+#kerning #first=89 #second=45 #amount=-5
+#kerning #first=74 #second=117 #amount=-1
+#kerning #first=70 #second=101 #amount=-3
+#kerning #first=114 #second=116 #amount=1
+#kerning #first=237 #second=112 #amount=-2
+#kerning #first=102 #second=205 #amount=1
+#kerning #first=75 #second=79 #amount=-3
+#kerning #first=97 #second=84 #amount=-1
+#kerning #first=69 #second=83 #amount=-2
+#kerning #first=112 #second=113 #amount=1
+#kerning #first=117 #second=106 #amount=-3
+#kerning #first=82 #second=83 #amount=-3
+#kerning #first=86 #second=106 #amount=-5
+#kerning #first=82 #second=84 #amount=-1
+#kerning #first=237 #second=113 #amount=-2
+#kerning #first=87 #second=117 #amount=-1
+#kerning #first=82 #second=85 #amount=-1
+#kerning #first=84 #second=111 #amount=-3
+#kerning #first=87 #second=65 #amount=-3
+#kerning #first=82 #second=86 #amount=-1
+#kerning #first=112 #second=114 #amount=1
+#kerning #first=82 #second=87 #amount=-2
+#kerning #first=114 #second=118 #amount=1
+#kerning #first=237 #second=114 #amount=-2
+#kerning #first=99 #second=106 #amount=-4
+#kerning #first=67 #second=106 #amount=-6
+#kerning #first=70 #second=106 #amount=-3
+#kerning #first=84 #second=114 #amount=-3
+#kerning #first=66 #second=121 #amount=-1
+#kerning #first=65 #second=111 #amount=-1
+#kerning #first=237 #second=115 #amount=-4
+#kerning #first=116 #second=121 #amount=-2
+#kerning #first=70 #second=83 #amount=-1
+#kerning #first=84 #second=115 #amount=-2
+#kerning #first=97 #second=113 #amount=-2
+#kerning #first=119 #second=111 #amount=-2
+#kerning #first=101 #second=115 #amount=-1
+#kerning #first=204 #second=67 #amount=1
+#kerning #first=83 #second=106 #amount=-5
+#kerning #first=106 #second=108 #amount=1
+#kerning #first=65 #second=113 #amount=-1
+#kerning #first=237 #second=116 #amount=-2
+#kerning #first=115 #second=106 #amount=-3
+#kerning #first=82 #second=121 #amount=-1
+#kerning #first=75 #second=67 #amount=-3
+#kerning #first=84 #second=117 #amount=-3
+#kerning #first=119 #second=97 #amount=-2
+#kerning #first=80 #second=101 #amount=-1
+#kerning #first=88 #second=83 #amount=-1
+#kerning #first=82 #second=71 #amount=-2
+#kerning #first=97 #second=115 #amount=-1
+#kerning #first=106 #second=109 #amount=1
+#kerning #first=121 #second=115 #amount=-1
+#kerning #first=237 #second=117 #amount=-2
+#kerning #first=84 #second=119 #amount=-2
+#kerning #first=104 #second=106 #amount=-3
+#kerning #first=65 #second=116 #amount=-2

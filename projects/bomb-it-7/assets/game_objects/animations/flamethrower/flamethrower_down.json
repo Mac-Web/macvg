@@ -1,0 +1,175 @@
+{
+    "name": "flamethrower_down",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "base/fire": {
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": -9
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        3.3,
+                        -7.4
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "fire2_anim44.png"
+                },
+                {
+                    "frame": 33,
+                    "value": "fire2_anim1.png"
+                },
+                {
+                    "frame": 67,
+                    "value": "fire2_anim2.png"
+                },
+                {
+                    "frame": 100,
+                    "value": "fire2_anim4.png"
+                },
+                {
+                    "frame": 133,
+                    "value": "fire2_anim6.png"
+                },
+                {
+                    "frame": 167,
+                    "value": "fire2_anim7.png"
+                },
+                {
+                    "frame": 200,
+                    "value": "fire2_anim8.png"
+                },
+                {
+                    "frame": 233,
+                    "value": "fire2_anim9.png"
+                },
+                {
+                    "frame": 267,
+                    "value": "fire2_anim10.png"
+                },
+                {
+                    "frame": 300,
+                    "value": "fire2_anim11.png"
+                },
+                {
+                    "frame": 333,
+                    "value": "fire2_anim12.png"
+                },
+                {
+                    "frame": 367,
+                    "value": "fire2_anim14.png"
+                },
+                {
+                    "frame": 400,
+                    "value": "fire2_anim15.png"
+                },
+                {
+                    "frame": 433,
+                    "value": "fire2_anim16.png"
+                },
+                {
+                    "frame": 467,
+                    "value": "fire2_anim17.png"
+                },
+                {
+                    "frame": 500,
+                    "value": "fire2_anim18.png"
+                },
+                {
+                    "frame": 533,
+                    "value": "fire2_anim19.png"
+                },
+                {
+                    "frame": 567,
+                    "value": "fire2_anim20.png"
+                },
+                {
+                    "frame": 600,
+                    "value": "fire2_anim21.png"
+                },
+                {
+                    "frame": 633,
+                    "value": "fire2_anim22.png"
+                },
+                {
+                    "frame": 667,
+                    "value": "fire2_anim23.png"
+                },
+                {
+                    "frame": 700,
+                    "value": "fire2_anim24.png"
+                },
+                {
+                    "frame": 733,
+                    "value": "fire2_anim25.png"
+                },
+                {
+                    "frame": 767,
+                    "value": "fire2_anim26.png"
+                },
+                {
+                    "frame": 800,
+                    "value": "fire2_anim27.png"
+                },
+                {
+                    "frame": 833,
+                    "value": "fire2_anim31.png"
+                },
+                {
+                    "frame": 867,
+                    "value": "fire2_anim33.png"
+                },
+                {
+                    "frame": 900,
+                    "value": "fire2_anim35.png"
+                },
+                {
+                    "frame": 933,
+                    "value": "fire2_anim37.png"
+                },
+                {
+                    "frame": 967,
+                    "value": "fire2_anim39.png"
+                },
+                {
+                    "frame": 1000,
+                    "value": "fire2_anim41.png"
+                },
+                {
+                    "frame": 1033,
+                    "value": "fire2_anim43.png"
+                },
+                {
+                    "frame": 1067,
+                    "value": "fire2_anim44.png"
+                }
+            ]
+        },
+        "base": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -15.4,
+                        -37.9
+                    ]
+                }
+            ]
+        }
+    },
+    "events": [
+        {
+            "frame": 367,
+            "name": ""
+        }
+    ]
+}

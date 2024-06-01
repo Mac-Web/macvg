@@ -1,0 +1,79 @@
+{
+    "hierarchy": {
+        "name": "trophy",
+        "children": [
+            {
+                "name": "shine_star"
+            },
+            {
+                "name": "shine_trophy"
+            },
+            {
+                "name": "star"
+            },
+            {
+                "name": "base"
+            },
+            {
+                "name": "score"
+            }
+        ],
+        "animations": [
+            "trophy_stand"
+        ]
+    },
+    "properties": {
+        "shine_star": {
+            "file": "stars_trophy_shine.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -31.8,
+                "y": -3.3
+            },
+            "type": "sprite"
+        },
+        "shine_trophy": {
+            "file": "trophy_shine.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 22.9,
+                "y": -66.1
+            },
+            "type": "sprite"
+        },
+        "star": {
+            "file": "stars_trophy.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -34.4,
+                "y": -2.9
+            },
+            "type": "sprite"
+        },
+        "base": {
+            "file": "trophy.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 23.1,
+                "y": -68
+            },
+            "type": "sprite"
+        },
+        "score": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 28
+            },
+            "text": "3000",
+            "align": "center",
+            "stroke": "#640000",
+            "strokeThickness": 5,
+            "position": {
+                "x": 45.8,
+                "y": 0.5
+            },
+            "color": "#ffe000",
+            "type": "text"
+        }
+    }
+}

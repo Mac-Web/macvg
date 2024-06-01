@@ -1,0 +1,151 @@
+{
+    "hierarchy": {
+        "name": "forest_portal_yellow",
+        "children": [
+            {
+                "name": "tree_base"
+            },
+            {
+                "name": "light_bottom"
+            },
+            {
+                "name": "white_circle1"
+            },
+            {
+                "name": "white_circle2"
+            },
+            {
+                "name": "white_circle3"
+            },
+            {
+                "name": "white_circle4"
+            },
+            {
+                "name": "white_circle5"
+            },
+            {
+                "name": "white_circle6"
+            },
+            {
+                "name": "white_circle7"
+            },
+            {
+                "name": "white_circle8"
+            },
+            {
+                "name": "light_top"
+            }
+        ],
+        "animations": [
+            "forest_portal_stand"
+        ]
+    },
+    "properties": {
+        "tree_base": {
+            "file": "brick_portal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -21.5
+            },
+            "type": "sprite"
+        },
+        "light_bottom": {
+            "file": "yellow_bottom.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -0.5,
+                "y": -73.4
+            },
+            "type": "sprite"
+        },
+        "white_circle1": {
+            "file": "circle1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -5.9,
+                "y": -24.4
+            },
+            "type": "sprite"
+        },
+        "white_circle2": {
+            "file": "circle1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -14.9,
+                "y": -38.7
+            },
+            "alpha": 0.94,
+            "type": "sprite"
+        },
+        "white_circle3": {
+            "file": "circle1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -4.8,
+                "y": -45.1
+            },
+            "alpha": 0.78,
+            "type": "sprite"
+        },
+        "white_circle4": {
+            "file": "circle1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 9.5,
+                "y": -39.5
+            },
+            "alpha": 0.94,
+            "type": "sprite"
+        },
+        "white_circle5": {
+            "file": "circle1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 9.2,
+                "y": -55.6
+            },
+            "alpha": 0.55,
+            "type": "sprite"
+        },
+        "white_circle6": {
+            "file": "circle1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -2.2,
+                "y": -72
+            },
+            "alpha": 0.47,
+            "type": "sprite"
+        },
+        "white_circle7": {
+            "file": "circle1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -11.2,
+                "y": -82.1
+            },
+            "alpha": 0.39,
+            "type": "sprite"
+        },
+        "white_circle8": {
+            "file": "circle1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 10.2,
+                "y": -85.3
+            },
+            "alpha": 0.39,
+            "type": "sprite"
+        },
+        "light_top": {
+            "file": "yellow_top.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -0.5,
+                "y": -73.4
+            },
+            "type": "sprite"
+        }
+    }
+}

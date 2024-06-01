@@ -1,0 +1,1097 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "bomb"
+            },
+            {
+                "name": "container",
+                "children": [
+                    {
+                        "name": "bg"
+                    },
+                    {
+                        "name": "container_powerup",
+                        "children": [
+                            {
+                                "name": "star"
+                            },
+                            {
+                                "name": "power_ups_text"
+                            },
+                            {
+                                "name": "bomb_icon",
+                                "children": [
+                                    {
+                                        "name": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "power_blast_icon",
+                                "children": [
+                                    {
+                                        "name": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "speed_icon",
+                                "children": [
+                                    {
+                                        "name": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "life_icon",
+                                "children": [
+                                    {
+                                        "name": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "shield_icon",
+                                "children": [
+                                    {
+                                        "name": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "bomb_launcher_icon",
+                                "children": [
+                                    {
+                                        "name": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "invincibility_icon",
+                                "children": [
+                                    {
+                                        "name": "text"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "container_weapoms",
+                        "children": [
+                            {
+                                "name": "star"
+                            },
+                            {
+                                "name": "weapons_text"
+                            },
+                            {
+                                "name": "flamethrower_icon",
+                                "children": [
+                                    {
+                                        "name": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "lightning_icon",
+                                "children": [
+                                    {
+                                        "name": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "hammer_icon",
+                                "children": [
+                                    {
+                                        "name": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "electric_gun_icon",
+                                "children": [
+                                    {
+                                        "name": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "thor_hammer_icon",
+                                "children": [
+                                    {
+                                        "name": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "ice_gun_icon",
+                                "children": [
+                                    {
+                                        "name": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "doll_bomb_icon",
+                                "children": [
+                                    {
+                                        "name": "text"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "container_vehicles",
+                        "children": [
+                            {
+                                "name": "star"
+                            },
+                            {
+                                "name": "vehicles_text"
+                            },
+                            {
+                                "name": "stag_icon",
+                                "children": [
+                                    {
+                                        "name": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "cart_icon",
+                                "children": [
+                                    {
+                                        "name": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "horse_icon",
+                                "children": [
+                                    {
+                                        "name": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "skateboard_icon",
+                                "children": [
+                                    {
+                                        "name": "text"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "edge"
+                    },
+                    {
+                        "name": "container_title",
+                        "children": [
+                            {
+                                "name": "title"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "medall"
+                    },
+                    {
+                        "name": "back_button",
+                        "children": [
+                            {
+                                "name": "back_text"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "controls_button",
+                        "children": [
+                            {
+                                "name": "control_text"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 1280,
+                "height": 720
+            },
+            "type": "canvas"
+        },
+        "bomb": {
+            "file": "bg_black13.png",
+            "image": "SIMPLE",
+            "type": "sprite",
+            "alignment": {
+                "type": "CENTER",
+                "offset": {
+                    "x": 0,
+                    "y": -253.5
+                }
+            },
+            "orientation": {
+                "landscape": {
+                    "properties": {},
+                    "alignment": {
+                        "type": "CENTER",
+                        "offset": {
+                            "x": 0,
+                            "y": -253.5
+                        }
+                    }
+                },
+                "portrait": {
+                    "properties": {},
+                    "alignment": {
+                        "type": "CENTER",
+                        "offset": {
+                            "x": 0,
+                            "y": -374.8
+                        }
+                    }
+                }
+            }
+        },
+        "container": {
+            "type": "container",
+            "alignment": {
+                "type": "CENTER"
+            }
+        },
+        "container/bg": {
+            "file": "container2.png",
+            "image": "SLICED",
+            "slice": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+            },
+            "size": {
+                "width": 743.3,
+                "height": 477.6
+            },
+            "position": {
+                "x": 1.9,
+                "y": 1
+            },
+            "type": "sprite",
+            "orientation": {
+                "landscape": {
+                    "properties": {}
+                },
+                "portrait": {
+                    "properties": {
+                        "position": {
+                            "x": -4,
+                            "y": -7.4
+                        }
+                    }
+                }
+            }
+        },
+        "container/container_powerup": {
+            "file": "powerup_container3.png",
+            "image": "SLICED",
+            "slice": {
+                "top": 7,
+                "bottom": 7,
+                "left": 7,
+                "right": 7
+            },
+            "size": {
+                "width": 253.6,
+                "height": 247.3
+            },
+            "position": {
+                "x": -160,
+                "y": -22.8
+            },
+            "type": "sprite",
+            "orientation": {
+                "landscape": {
+                    "properties": {}
+                },
+                "portrait": {
+                    "properties": {
+                        "position": {
+                            "x": -183.8,
+                            "y": -57.1
+                        }
+                    }
+                }
+            }
+        },
+        "container/container_powerup/star": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -70,
+                "y": -131.1
+            },
+            "scale": {
+                "x": 0.9,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "container/container_powerup/power_ups_text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 24
+            },
+            "text": "POWER-UPS",
+            "align": "center",
+            "stroke": "#340b05",
+            "strokeThickness": 4.4,
+            "position": {
+                "x": 32.4,
+                "y": -132.5
+            },
+            "color": "#fece0d",
+            "type": "text"
+        },
+        "container/container_powerup/bomb_icon": {
+            "file": "powerup_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -93.2,
+                "y": -101.1
+            },
+            "type": "sprite"
+        },
+        "container/container_powerup/bomb_icon/text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 22
+            },
+            "text": "BOMB +1",
+            "align": "center",
+            "position": {
+                "x": 104.5,
+                "y": 1.7
+            },
+            "color": "#06316e",
+            "type": "text"
+        },
+        "container/container_powerup/power_blast_icon": {
+            "file": "powerup_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -94.9,
+                "y": -65.7
+            },
+            "type": "sprite"
+        },
+        "container/container_powerup/power_blast_icon/text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 22
+            },
+            "text": "POWER BLAST +1",
+            "align": "center",
+            "position": {
+                "x": 106.2,
+                "y": 0.3
+            },
+            "color": "#06316e",
+            "type": "text"
+        },
+        "container/container_powerup/speed_icon": {
+            "file": "powerup_3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -91.9,
+                "y": -32.4
+            },
+            "type": "sprite"
+        },
+        "container/container_powerup/speed_icon/text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 22
+            },
+            "text": "SPEED +10%",
+            "align": "center",
+            "position": {
+                "x": 103.2,
+                "y": 1
+            },
+            "color": "#06316e",
+            "type": "text"
+        },
+        "container/container_powerup/life_icon": {
+            "file": "powerup_4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -97.8,
+                "y": 3.1
+            },
+            "type": "sprite"
+        },
+        "container/container_powerup/life_icon/text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 22
+            },
+            "text": "LIFE +1",
+            "align": "center",
+            "position": {
+                "x": 109.1,
+                "y": -0.5
+            },
+            "color": "#06316e",
+            "type": "text"
+        },
+        "container/container_powerup/shield_icon": {
+            "file": "powerup_5.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -93.2,
+                "y": 35.3
+            },
+            "type": "sprite"
+        },
+        "container/container_powerup/shield_icon/text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 22
+            },
+            "text": "SHIELD",
+            "align": "center",
+            "position": {
+                "x": 104.5,
+                "y": 1.3
+            },
+            "color": "#06316e",
+            "type": "text"
+        },
+        "container/container_powerup/bomb_launcher_icon": {
+            "file": "powerup_6.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -93.4,
+                "y": 70.5
+            },
+            "type": "sprite"
+        },
+        "container/container_powerup/bomb_launcher_icon/text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 22
+            },
+            "text": "BOMB LAUNCHER",
+            "align": "center",
+            "position": {
+                "x": 104.7,
+                "y": 0.1
+            },
+            "color": "#06316e",
+            "type": "text"
+        },
+        "container/container_powerup/invincibility_icon": {
+            "file": "powerup_7.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -94.8,
+                "y": 101.3
+            },
+            "type": "sprite"
+        },
+        "container/container_powerup/invincibility_icon/text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 22
+            },
+            "text": "INVINCIBILITY",
+            "align": "center",
+            "position": {
+                "x": 106.1,
+                "y": 3.3
+            },
+            "color": "#06316e",
+            "type": "text"
+        },
+        "container/container_weapoms": {
+            "file": "powerup_container3.png",
+            "image": "SLICED",
+            "slice": {
+                "top": 7,
+                "bottom": 7,
+                "left": 7,
+                "right": 7
+            },
+            "size": {
+                "width": 253.2,
+                "height": 249
+            },
+            "position": {
+                "x": 157.3,
+                "y": -22.2
+            },
+            "type": "sprite",
+            "orientation": {
+                "landscape": {
+                    "properties": {}
+                },
+                "portrait": {
+                    "properties": {
+                        "position": {
+                            "x": 177.3,
+                            "y": -57.5
+                        }
+                    }
+                }
+            }
+        },
+        "container/container_weapoms/star": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -68.7,
+                "y": -130.9
+            },
+            "scale": {
+                "x": 0.9,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "container/container_weapoms/weapons_text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 24
+            },
+            "text": "WEAPONS",
+            "align": "center",
+            "stroke": "#340b05",
+            "strokeThickness": 4.4,
+            "position": {
+                "x": 2.4,
+                "y": -130.7
+            },
+            "color": "#fece0d",
+            "type": "text"
+        },
+        "container/container_weapoms/flamethrower_icon": {
+            "file": "powerup_8.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -92.5,
+                "y": -98.8
+            },
+            "type": "sprite"
+        },
+        "container/container_weapoms/flamethrower_icon/text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 22
+            },
+            "text": "FLAMETHROWER",
+            "align": "center",
+            "position": {
+                "x": 109.6,
+                "y": 7.2
+            },
+            "color": "#06316e",
+            "type": "text"
+        },
+        "container/container_weapoms/lightning_icon": {
+            "file": "powerup_9.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -100.1,
+                "y": -64.9
+            },
+            "type": "sprite"
+        },
+        "container/container_weapoms/lightning_icon/text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 22
+            },
+            "text": "LIGHTNING GUN",
+            "align": "center",
+            "position": {
+                "x": 110.7,
+                "y": 4.4
+            },
+            "color": "#06316e",
+            "type": "text"
+        },
+        "container/container_weapoms/hammer_icon": {
+            "file": "powerup_10.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -97.7,
+                "y": -31
+            },
+            "type": "sprite"
+        },
+        "container/container_weapoms/hammer_icon/text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 22
+            },
+            "text": "HAMMER",
+            "align": "center",
+            "position": {
+                "x": 105.4,
+                "y": 0.5
+            },
+            "color": "#06316e",
+            "type": "text"
+        },
+        "container/container_weapoms/electric_gun_icon": {
+            "file": "powerup_11.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -97.7,
+                "y": 2.9
+            },
+            "type": "sprite"
+        },
+        "container/container_weapoms/electric_gun_icon/text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 22
+            },
+            "text": "ELECTRIC GUN",
+            "align": "center",
+            "position": {
+                "x": 110.7,
+                "y": -0.5
+            },
+            "color": "#06316e",
+            "type": "text"
+        },
+        "container/container_weapoms/thor_hammer_icon": {
+            "file": "powerup_12.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -97.3,
+                "y": 36.8
+            },
+            "type": "sprite"
+        },
+        "container/container_weapoms/thor_hammer_icon/text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 22
+            },
+            "text": "THOR HAMMER",
+            "align": "center",
+            "position": {
+                "x": 110.3,
+                "y": -2.6
+            },
+            "color": "#06316e",
+            "type": "text"
+        },
+        "container/container_weapoms/ice_gun_icon": {
+            "file": "powerup_13.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -96.4,
+                "y": 70.7
+            },
+            "type": "sprite"
+        },
+        "container/container_weapoms/ice_gun_icon/text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 22
+            },
+            "text": "ICE GUN",
+            "align": "center",
+            "position": {
+                "x": 109.4,
+                "y": -2.3
+            },
+            "color": "#06316e",
+            "type": "text"
+        },
+        "container/container_weapoms/doll_bomb_icon": {
+            "file": "powerup_14.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -95.6,
+                "y": 104.6
+            },
+            "type": "sprite"
+        },
+        "container/container_weapoms/doll_bomb_icon/text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 22
+            },
+            "text": "DOLL BOMB",
+            "align": "center",
+            "position": {
+                "x": 105.1,
+                "y": 0.2
+            },
+            "color": "#06316e",
+            "type": "text"
+        },
+        "container/container_vehicles": {
+            "file": "powerup_container3.png",
+            "image": "SLICED",
+            "slice": {
+                "top": 7,
+                "bottom": 7,
+                "left": 7,
+                "right": 7
+            },
+            "size": {
+                "width": 567.3,
+                "height": 89.5
+            },
+            "position": {
+                "x": -2.9,
+                "y": 165.9
+            },
+            "type": "sprite",
+            "orientation": {
+                "landscape": {
+                    "properties": {}
+                },
+                "portrait": {
+                    "properties": {
+                        "position": {
+                            "x": -5.7,
+                            "y": 156.4
+                        }
+                    }
+                }
+            }
+        },
+        "container/container_vehicles/star": {
+            "file": "star.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -63.2,
+                "y": -50
+            },
+            "scale": {
+                "x": 0.9,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "container/container_vehicles/vehicles_text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 24
+            },
+            "text": "VEHICLES",
+            "align": "center",
+            "stroke": "#340b05",
+            "strokeThickness": 4.4,
+            "position": {
+                "x": 7.8,
+                "y": -48.9
+            },
+            "color": "#fece0d",
+            "type": "text"
+        },
+        "container/container_vehicles/stag_icon": {
+            "file": "powerup_15.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -252.3,
+                "y": -15.7
+            },
+            "type": "sprite"
+        },
+        "container/container_vehicles/stag_icon/text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 22
+            },
+            "text": "STAG",
+            "align": "center",
+            "position": {
+                "x": 104.9,
+                "y": -1.4
+            },
+            "color": "#06316e",
+            "type": "text"
+        },
+        "container/container_vehicles/cart_icon": {
+            "file": "powerup_16.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -251.3,
+                "y": 18.1
+            },
+            "type": "sprite"
+        },
+        "container/container_vehicles/cart_icon/text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 22
+            },
+            "text": "CART",
+            "align": "center",
+            "position": {
+                "x": 103.9,
+                "y": 3.3
+            },
+            "color": "#06316e",
+            "type": "text"
+        },
+        "container/container_vehicles/horse_icon": {
+            "file": "powerup_17.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 71.3,
+                "y": -16.9
+            },
+            "type": "sprite"
+        },
+        "container/container_vehicles/horse_icon/text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 22
+            },
+            "text": "HORSE",
+            "align": "center",
+            "position": {
+                "x": 99.1,
+                "y": 4.1
+            },
+            "color": "#06316e",
+            "type": "text"
+        },
+        "container/container_vehicles/skateboard_icon": {
+            "file": "powerup_18.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 67.5,
+                "y": 22.8
+            },
+            "type": "sprite"
+        },
+        "container/container_vehicles/skateboard_icon/text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 22
+            },
+            "text": "SKATEBOARD",
+            "align": "center",
+            "position": {
+                "x": 102.9,
+                "y": -2.6
+            },
+            "color": "#06316e",
+            "type": "text"
+        },
+        "container/edge": {
+            "file": "container4.png",
+            "image": "SLICED",
+            "slice": {
+                "top": 36,
+                "bottom": 104,
+                "left": 70,
+                "right": 64
+            },
+            "size": {
+                "width": 776.4,
+                "height": 539
+            },
+            "position": {
+                "x": 2.1,
+                "y": 18.5
+            },
+            "type": "sprite",
+            "orientation": {
+                "landscape": {
+                    "properties": {}
+                },
+                "portrait": {
+                    "properties": {
+                        "position": {
+                            "x": -1.8,
+                            "y": 7.6
+                        }
+                    }
+                }
+            }
+        },
+        "container/container_title": {
+            "file": "title_decor.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 11,
+                "y": -234
+            },
+            "scale": {
+                "x": 1.1,
+                "y": 1.1
+            },
+            "type": "sprite",
+            "orientation": {
+                "landscape": {
+                    "properties": {}
+                },
+                "portrait": {
+                    "properties": {
+                        "position": {
+                            "x": 11,
+                            "y": -356
+                        }
+                    }
+                }
+            }
+        },
+        "container/container_title/title": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 50
+            },
+            "text": "POWER-UPS",
+            "align": "center",
+            "stroke": "#660000",
+            "strokeThickness": 5,
+            "position": {
+                "x": 0,
+                "y": 15.1
+            },
+            "scale": {
+                "x": 0.9,
+                "y": 0.9
+            },
+            "color": "#fece0d",
+            "type": "text"
+        },
+        "container/medall": {
+            "file": "decor_medall.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 350.9,
+                "y": 214.4
+            },
+            "type": "sprite",
+            "orientation": {
+                "landscape": {
+                    "properties": {}
+                },
+                "portrait": {
+                    "properties": {
+                        "position": {
+                            "x": 322.5,
+                            "y": 312
+                        }
+                    }
+                }
+            }
+        },
+        "container/back_button": {
+            "file": "button.png",
+            "image": "SLICED",
+            "slice": {
+                "top": 0,
+                "bottom": 0,
+                "left": 19,
+                "right": 19
+            },
+            "size": {
+                "width": 199,
+                "height": 48
+            },
+            "position": {
+                "x": -241.5,
+                "y": 250
+            },
+            "type": "button",
+            "orientation": {
+                "landscape": {
+                    "properties": {}
+                },
+                "portrait": {
+                    "properties": {
+                        "position": {
+                            "x": -230.5,
+                            "y": 348
+                        }
+                    }
+                }
+            }
+        },
+        "container/back_button/back_text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 21
+            },
+            "text": "BACK",
+            "align": "center",
+            "stroke": "#c55d18",
+            "strokeThickness": 3,
+            "position": {
+                "x": 1.1,
+                "y": 0.1
+            },
+            "type": "text"
+        },
+        "container/controls_button": {
+            "file": "button.png",
+            "image": "SLICED",
+            "slice": {
+                "top": 0,
+                "bottom": 0,
+                "left": 19,
+                "right": 19
+            },
+            "size": {
+                "width": 199,
+                "height": 48
+            },
+            "position": {
+                "x": 243.9,
+                "y": 251
+            },
+            "type": "button",
+            "orientation": {
+                "landscape": {
+                    "properties": {}
+                },
+                "portrait": {
+                    "properties": {
+                        "position": {
+                            "x": 223,
+                            "y": 349
+                        }
+                    }
+                }
+            }
+        },
+        "container/controls_button/control_text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 21
+            },
+            "text": "CONTROLS",
+            "align": "center",
+            "stroke": "#c55d18",
+            "strokeThickness": 3,
+            "position": {
+                "x": 1.1,
+                "y": 0.1
+            },
+            "type": "text"
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "name": "anim_explosion_line",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "bomb_exp_line_base": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "exp1_2.png"
+                },
+                {
+                    "frame": 57,
+                    "value": "exp5_1.png"
+                },
+                {
+                    "frame": 143,
+                    "value": "exp5_2.png"
+                },
+                {
+                    "frame": 229,
+                    "value": "exp5_3.png"
+                },
+                {
+                    "frame": 286,
+                    "value": "exp5_4.png"
+                },
+                {
+                    "frame": 429,
+                    "value": "exp5_3.png"
+                },
+                {
+                    "frame": 486,
+                    "value": "exp5_5.png"
+                },
+                {
+                    "frame": 543,
+                    "value": "exp5_6.png"
+                },
+                {
+                    "frame": 629,
+                    "value": "exp1_2.png"
+                }
+            ]
+        }
+    }
+}

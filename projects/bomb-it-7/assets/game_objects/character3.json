@@ -1,0 +1,42 @@
+{
+    "hierarchy": {
+        "name": "character3",
+        "children": [
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "eye"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "character3_stand"
+        ]
+    },
+    "properties": {
+        "base": {
+            "file": "face3_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "base/eye": {
+            "file": "face3_eye1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 23.5,
+                "y": -6.9
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

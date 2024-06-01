@@ -82,7 +82,7 @@
 }
 ,{
 	"filename": "btn_daily instance 10000",
-	"frame": {"x":730,"y":344,"w":241,"h":188},
+	"frame": {"x":1,"y":324,"w":241,"h":188},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":241,"h":188},
@@ -90,7 +90,7 @@
 }
 ,{
 	"filename": "btn_green instance 10000",
-	"frame": {"x":284,"y":948,"w":281,"h":99},
+	"frame": {"x":366,"y":847,"w":281,"h":99},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":281,"h":99},
@@ -98,7 +98,7 @@
 }
 ,{
 	"filename": "btn_grey instance 10000",
-	"frame": {"x":1,"y":920,"w":281,"h":99},
+	"frame": {"x":284,"y":948,"w":281,"h":99},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":281,"h":99},
@@ -122,7 +122,7 @@
 }
 ,{
 	"filename": "btn_skins instance 10000",
-	"frame": {"x":244,"y":344,"w":241,"h":188},
+	"frame": {"x":730,"y":344,"w":241,"h":188},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":241,"h":188},
@@ -130,7 +130,7 @@
 }
 ,{
 	"filename": "btn_tower instance 10000",
-	"frame": {"x":1,"y":324,"w":241,"h":188},
+	"frame": {"x":244,"y":344,"w":241,"h":188},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":241,"h":188},
@@ -146,7 +146,7 @@
 }
 ,{
 	"filename": "btn_yellow instance 10000",
-	"frame": {"x":366,"y":847,"w":281,"h":99},
+	"frame": {"x":1,"y":920,"w":281,"h":99},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":281,"h":99},
@@ -226,7 +226,7 @@
 }
 ,{
 	"filename": "flag_de instance 10000",
-	"frame": {"x":707,"y":989,"w":120,"h":91},
+	"frame": {"x":123,"y":1105,"w":120,"h":91},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":91},
@@ -234,7 +234,7 @@
 }
 ,{
 	"filename": "flag_en instance 10000",
-	"frame": {"x":603,"y":1175,"w":116,"h":88},
+	"frame": {"x":721,"y":1175,"w":116,"h":88},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":116,"h":88},
@@ -242,7 +242,7 @@
 }
 ,{
 	"filename": "flag_es instance 10000",
-	"frame": {"x":829,"y":989,"w":120,"h":91},
+	"frame": {"x":829,"y":1082,"w":120,"h":91},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":91},
@@ -250,7 +250,7 @@
 }
 ,{
 	"filename": "flag_fr instance 10000",
-	"frame": {"x":245,"y":1197,"w":116,"h":88},
+	"frame": {"x":603,"y":1175,"w":116,"h":88},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":116,"h":88},
@@ -258,14 +258,14 @@
 }
 ,{
 	"filename": "flag_hi instance 10000",
-	"frame": {"x":707,"y":1082,"w":120,"h":91},
+	"frame": {"x":829,"y":989,"w":120,"h":91},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":91},
 	"sourceSize": {"w":120,"h":91}
 }
 ,{
-	"filename": "flag_in instance 10000",
+	"filename": "flag_id instance 10000",
 	"frame": {"x":245,"y":1105,"w":120,"h":90},
 	"rotated": false,
 	"trimmed": false,
@@ -282,7 +282,7 @@
 }
 ,{
 	"filename": "flag_ja instance 10000",
-	"frame": {"x":721,"y":1175,"w":116,"h":88},
+	"frame": {"x":245,"y":1197,"w":116,"h":88},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":116,"h":88},
@@ -298,7 +298,7 @@
 }
 ,{
 	"filename": "flag_pt instance 10000",
-	"frame": {"x":829,"y":1082,"w":120,"h":91},
+	"frame": {"x":707,"y":989,"w":120,"h":91},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":91},
@@ -306,7 +306,7 @@
 }
 ,{
 	"filename": "flag_ru instance 10000",
-	"frame": {"x":123,"y":1105,"w":120,"h":91},
+	"frame": {"x":707,"y":1082,"w":120,"h":91},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":91},
@@ -410,7 +410,7 @@
 }
 ,{
 	"filename": "iconTower instance 10000",
-	"frame": {"x":774,"y":1469,"w":38,"h":47},
+	"frame": {"x":981,"y":1300,"w":38,"h":47},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":47},
@@ -418,7 +418,7 @@
 }
 ,{
 	"filename": "iconTrophie instance 10000",
-	"frame": {"x":981,"y":1300,"w":38,"h":47},
+	"frame": {"x":774,"y":1469,"w":38,"h":47},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":47},
@@ -770,14 +770,6 @@
 }
 ,{
 	"filename": "trophie_allActs instance 10000",
-	"frame": {"x":207,"y":1287,"w":101,"h":100},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":101,"h":100},
-	"sourceSize": {"w":101,"h":100}
-}
-,{
-	"filename": "trophie_allActsHard instance 10000",
 	"frame": {"x":878,"y":1265,"w":101,"h":100},
 	"rotated": false,
 	"trimmed": false,
@@ -785,8 +777,16 @@
 	"sourceSize": {"w":101,"h":100}
 }
 ,{
+	"filename": "trophie_allActsHard instance 10000",
+	"frame": {"x":207,"y":1287,"w":101,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":101,"h":100},
+	"sourceSize": {"w":101,"h":100}
+}
+,{
 	"filename": "trophie_allSkins instance 10000",
-	"frame": {"x":466,"y":1220,"w":101,"h":100},
+	"frame": {"x":1,"y":1198,"w":101,"h":100},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":101,"h":100},
@@ -794,7 +794,7 @@
 }
 ,{
 	"filename": "trophie_daily10 instance 10000",
-	"frame": {"x":775,"y":1265,"w":101,"h":100},
+	"frame": {"x":104,"y":1198,"w":101,"h":100},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":101,"h":100},
@@ -802,7 +802,7 @@
 }
 ,{
 	"filename": "trophie_daily100 instance 10000",
-	"frame": {"x":569,"y":1265,"w":101,"h":100},
+	"frame": {"x":775,"y":1265,"w":101,"h":100},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":101,"h":100},
@@ -810,7 +810,7 @@
 }
 ,{
 	"filename": "trophie_daily50 instance 10000",
-	"frame": {"x":1,"y":1198,"w":101,"h":100},
+	"frame": {"x":363,"y":1197,"w":101,"h":100},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":101,"h":100},
@@ -850,7 +850,7 @@
 }
 ,{
 	"filename": "trophie_gasping instance 10000",
-	"frame": {"x":514,"y":1367,"w":100,"h":100},
+	"frame": {"x":412,"y":1322,"w":100,"h":100},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
@@ -858,7 +858,7 @@
 }
 ,{
 	"filename": "trophie_killAndroid instance 10000",
-	"frame": {"x":104,"y":1198,"w":101,"h":100},
+	"frame": {"x":466,"y":1220,"w":101,"h":100},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":101,"h":100},
@@ -866,7 +866,7 @@
 }
 ,{
 	"filename": "trophie_killBatteringRam instance 10000",
-	"frame": {"x":363,"y":1197,"w":101,"h":100},
+	"frame": {"x":569,"y":1265,"w":101,"h":100},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":101,"h":100},
@@ -882,7 +882,7 @@
 }
 ,{
 	"filename": "trophie_playh instance 10000",
-	"frame": {"x":412,"y":1322,"w":100,"h":100},
+	"frame": {"x":514,"y":1367,"w":100,"h":100},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},

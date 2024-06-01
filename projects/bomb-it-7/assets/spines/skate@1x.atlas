@@ -1,0 +1,41 @@
+
+skate.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1x1
+  rotate: false
+  xy: 2, 2
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+kateboard_ws
+  rotate: false
+  xy: 54, 21
+  size: 54, 28
+  orig: 54, 28
+  offset: 0, 0
+  index: -1
+shadow_skate_front
+  rotate: false
+  xy: 2, 5
+  size: 50, 44
+  orig: 50, 44
+  offset: 0, 0
+  index: -1
+skateboard_down
+  rotate: true
+  xy: 110, 18
+  size: 31, 43
+  orig: 31, 43
+  offset: 0, 0
+  index: -1
+skateboard_up
+  rotate: true
+  xy: 155, 18
+  size: 31, 43
+  orig: 31, 43
+  offset: 0, 0
+  index: -1

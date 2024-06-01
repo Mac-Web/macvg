@@ -1,0 +1,38 @@
+{
+    "hierarchy": {
+        "name": "character4",
+        "children": [
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "eye"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "character4_stand"
+        ]
+    },
+    "properties": {
+        "base": {
+            "file": "face4_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "base/eye": {
+            "file": "face_eye.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

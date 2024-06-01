@@ -1,0 +1,25 @@
+{
+    "hierarchy": {
+        "name": "ice_gun_fx",
+        "children": [
+            {
+                "name": "ice_gun_fx_base"
+            }
+        ],
+        "animations": [
+            "ice_gun_fx_anim",
+            "ice_gun_fx_end"
+        ]
+    },
+    "properties": {
+        "ice_gun_fx_base": {
+            "file": "ice_anim1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

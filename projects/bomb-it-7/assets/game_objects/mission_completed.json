@@ -1,0 +1,70 @@
+{
+    "hierarchy": {
+        "name": "mission_completed",
+        "children": [
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "empty",
+                        "children": [
+                            {
+                                "name": "check"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "description"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "mission_completed_in"
+        ]
+    },
+    "properties": {
+        "base": {
+            "file": "lvlc_bar_3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "base/empty": {
+            "file": "empty.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -224.1,
+                "y": -0.1
+            },
+            "type": "sprite"
+        },
+        "base/empty/check": {
+            "file": "check.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "base/description": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 17
+            },
+            "text": "Destroy 15 blocks when riding wapiti in 1 level in arcade mode.",
+            "align": "center",
+            "stroke": "#1870d6",
+            "strokeThickness": 5,
+            "position": {
+                "x": 20.8,
+                "y": -1
+            },
+            "type": "text"
+        }
+    }
+}

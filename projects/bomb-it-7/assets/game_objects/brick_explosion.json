@@ -1,0 +1,24 @@
+{
+    "hierarchy": {
+        "name": "brick_explosion",
+        "children": [
+            {
+                "name": "brick_exp_base"
+            }
+        ],
+        "animations": [
+            "brick_explosion_anim"
+        ]
+    },
+    "properties": {
+        "brick_exp_base": {
+            "file": "brick_exp6.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

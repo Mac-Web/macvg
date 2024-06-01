@@ -1,0 +1,24 @@
+{
+    "hierarchy": {
+        "name": "change_button",
+        "children": [
+            {
+                "name": "base"
+            }
+        ],
+        "animations": [
+            "change_button_stand"
+        ]
+    },
+    "properties": {
+        "base": {
+            "file": "change_button.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -23
+            },
+            "type": "sprite"
+        }
+    }
+}

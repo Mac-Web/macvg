@@ -1,0 +1,31 @@
+{
+    "name": "mighty_hammer_fx1_anim",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "m_hammer_fx1_base": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "anim_super_hammer2_fx4.png"
+                },
+                {
+                    "frame": 83,
+                    "value": "anim_super_hammer2_fx1.png"
+                },
+                {
+                    "frame": 167,
+                    "value": "anim_super_hammer2_fx2.png"
+                },
+                {
+                    "frame": 250,
+                    "value": "anim_super_hammer2_fx3.png"
+                },
+                {
+                    "frame": 333,
+                    "value": "anim_super_hammer2_fx4.png"
+                }
+            ]
+        }
+    }
+}

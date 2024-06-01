@@ -1,0 +1,299 @@
+{
+    "hierarchy": {
+        "name": "doll_bomb",
+        "children": [
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "doll_house_lava1"
+                    },
+                    {
+                        "name": "doll_house_lava2"
+                    },
+                    {
+                        "name": "doll_house_lava3"
+                    },
+                    {
+                        "name": "doll_house_lava4"
+                    },
+                    {
+                        "name": "doll_house_lava5"
+                    },
+                    {
+                        "name": "doll_house_lava6"
+                    },
+                    {
+                        "name": "doll_house_lava7"
+                    },
+                    {
+                        "name": "doll_house_lava8"
+                    },
+                    {
+                        "name": "doll_house_lava9"
+                    },
+                    {
+                        "name": "doll6"
+                    },
+                    {
+                        "name": "doll4"
+                    },
+                    {
+                        "name": "doll5"
+                    },
+                    {
+                        "name": "doll1"
+                    },
+                    {
+                        "name": "doll2"
+                    },
+                    {
+                        "name": "doll3"
+                    },
+                    {
+                        "name": "doll_fx"
+                    }
+                ]
+            },
+            {
+                "name": "doll_shine"
+            },
+            {
+                "name": "doll_center_big"
+            },
+            {
+                "name": "doll_center_small"
+            }
+        ],
+        "animations": [
+            "doll_bomb_up",
+            "doll_bomb_down",
+            "doll_bomb_side"
+        ]
+    },
+    "properties": {
+        "base": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "base/doll_house_lava1": {
+            "file": "tile_doll.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -49,
+                "y": -49
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/doll_house_lava2": {
+            "file": "tile_doll.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -49
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/doll_house_lava3": {
+            "file": "tile_doll.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 48.7,
+                "y": -49
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/doll_house_lava4": {
+            "file": "tile_doll.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -49,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/doll_house_lava5": {
+            "file": "tile_doll.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/doll_house_lava6": {
+            "file": "tile_doll.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 49,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/doll_house_lava7": {
+            "file": "tile_doll.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -49,
+                "y": 49
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/doll_house_lava8": {
+            "file": "tile_doll.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0.6,
+                "y": 49
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/doll_house_lava9": {
+            "file": "tile_doll.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 49,
+                "y": 49
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/doll6": {
+            "file": "doll2_big.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -1.5,
+                "y": -231.4
+            },
+            "scale": {
+                "x": 1,
+                "y": 0.8
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/doll4": {
+            "file": "doll2_big.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 84.6,
+                "y": -179.3
+            },
+            "scale": {
+                "x": 1,
+                "y": 0.8
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/doll5": {
+            "file": "doll2_big.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -87.5,
+                "y": -179.3
+            },
+            "scale": {
+                "x": 1,
+                "y": 0.8
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/doll1": {
+            "file": "doll2_big.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -99.5,
+                "y": -85.3
+            },
+            "scale": {
+                "x": 1,
+                "y": 0.8
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/doll2": {
+            "file": "doll2_big.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -36.2
+            },
+            "scale": {
+                "x": 1,
+                "y": 0.8
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/doll3": {
+            "file": "doll2_big.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 93.7,
+                "y": -85.3
+            },
+            "scale": {
+                "x": 1,
+                "y": 0.8
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "base/doll_fx": {
+            "file": "fx_yellow15.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 1,
+                "y": -119
+            },
+            "type": "sprite"
+        },
+        "doll_shine": {
+            "file": "doll_shine.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0.6,
+                "y": -97
+            },
+            "scale": {
+                "x": 0.4,
+                "y": 0.4
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "doll_center_big": {
+            "file": "doll2_big.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -1.4,
+                "y": -127.6
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "doll_center_small": {
+            "file": "doll1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -99.2
+            },
+            "type": "sprite"
+        }
+    }
+}

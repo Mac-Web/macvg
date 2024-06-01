@@ -1,0 +1,335 @@
+{
+    "name": "forest_portal_stand",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "white_circle1": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 37,
+                    "value": 0
+                },
+                {
+                    "frame": 74,
+                    "value": 1
+                },
+                {
+                    "frame": 1444,
+                    "value": 0
+                }
+            ],
+            "y": [
+                {
+                    "frame": 0,
+                    "value": -24.4
+                },
+                {
+                    "frame": 1444,
+                    "value": -97.5
+                },
+                {
+                    "frame": 1481,
+                    "value": -24.4
+                }
+            ]
+        },
+        "white_circle2": {
+            "y": [
+                {
+                    "frame": 0,
+                    "value": -38.7
+                },
+                {
+                    "frame": 1148,
+                    "value": -96.4
+                },
+                {
+                    "frame": 1185,
+                    "value": -22.2
+                },
+                {
+                    "frame": 1481,
+                    "value": -38.7
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0.94
+                },
+                {
+                    "frame": 1111,
+                    "value": 0
+                },
+                {
+                    "frame": 1185,
+                    "value": 0
+                },
+                {
+                    "frame": 1222,
+                    "value": 1
+                },
+                {
+                    "frame": 1481,
+                    "value": 0.94
+                }
+            ]
+        },
+        "white_circle3": {
+            "y": [
+                {
+                    "frame": 0,
+                    "value": -45.1
+                },
+                {
+                    "frame": 1074,
+                    "value": -95.9
+                },
+                {
+                    "frame": 1111,
+                    "value": -17.4
+                },
+                {
+                    "frame": 1481,
+                    "value": -45.1
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0.78
+                },
+                {
+                    "frame": 1037,
+                    "value": 0
+                },
+                {
+                    "frame": 1111,
+                    "value": 0
+                },
+                {
+                    "frame": 1148,
+                    "value": 1
+                },
+                {
+                    "frame": 1481,
+                    "value": 0.78
+                }
+            ]
+        },
+        "white_circle4": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0.94
+                },
+                {
+                    "frame": 1074,
+                    "value": 0
+                },
+                {
+                    "frame": 1148,
+                    "value": 0
+                },
+                {
+                    "frame": 1185,
+                    "value": 1
+                },
+                {
+                    "frame": 1481,
+                    "value": 0.94
+                }
+            ],
+            "y": [
+                {
+                    "frame": 0,
+                    "value": -39.5
+                },
+                {
+                    "frame": 1111,
+                    "value": -93.2
+                },
+                {
+                    "frame": 1148,
+                    "value": -20.8
+                },
+                {
+                    "frame": 1481,
+                    "value": -39.5
+                }
+            ]
+        },
+        "white_circle5": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0.55
+                },
+                {
+                    "frame": 667,
+                    "value": 0
+                },
+                {
+                    "frame": 741,
+                    "value": 0
+                },
+                {
+                    "frame": 778,
+                    "value": 1
+                },
+                {
+                    "frame": 1481,
+                    "value": 0.55
+                }
+            ],
+            "y": [
+                {
+                    "frame": 0,
+                    "value": -55.6
+                },
+                {
+                    "frame": 704,
+                    "value": -88.2
+                },
+                {
+                    "frame": 741,
+                    "value": -20.7
+                },
+                {
+                    "frame": 1481,
+                    "value": -55.6
+                }
+            ]
+        },
+        "white_circle6": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0.47
+                },
+                {
+                    "frame": 185,
+                    "value": 0
+                },
+                {
+                    "frame": 259,
+                    "value": 0
+                },
+                {
+                    "frame": 296,
+                    "value": 1
+                },
+                {
+                    "frame": 1481,
+                    "value": 0.47
+                }
+            ],
+            "y": [
+                {
+                    "frame": 0,
+                    "value": -72
+                },
+                {
+                    "frame": 222,
+                    "value": -83.9
+                },
+                {
+                    "frame": 259,
+                    "value": -17.4
+                },
+                {
+                    "frame": 1481,
+                    "value": -72
+                }
+            ]
+        },
+        "white_circle7": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0.39
+                },
+                {
+                    "frame": 185,
+                    "value": 0
+                },
+                {
+                    "frame": 259,
+                    "value": 0
+                },
+                {
+                    "frame": 296,
+                    "value": 1
+                },
+                {
+                    "frame": 1481,
+                    "value": 0.39
+                }
+            ],
+            "y": [
+                {
+                    "frame": 0,
+                    "value": -82.1
+                },
+                {
+                    "frame": 222,
+                    "value": -91.6
+                },
+                {
+                    "frame": 259,
+                    "value": -19.8
+                },
+                {
+                    "frame": 1481,
+                    "value": -82.1
+                }
+            ]
+        },
+        "white_circle8": {
+            "y": [
+                {
+                    "frame": 0,
+                    "value": -85.3
+                },
+                {
+                    "frame": 148,
+                    "value": -91.9
+                },
+                {
+                    "frame": 185,
+                    "value": -21.2
+                },
+                {
+                    "frame": 1481,
+                    "value": -85.3
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0.39
+                },
+                {
+                    "frame": 111,
+                    "value": 0
+                },
+                {
+                    "frame": 185,
+                    "value": 0
+                },
+                {
+                    "frame": 222,
+                    "value": 1
+                },
+                {
+                    "frame": 1481,
+                    "value": 0.39
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,401 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "bomb"
+            },
+            {
+                "name": "container",
+                "children": [
+                    {
+                        "name": "bg"
+                    },
+                    {
+                        "name": "description"
+                    },
+                    {
+                        "name": "mode_image"
+                    },
+                    {
+                        "name": "bomb_container",
+                        "children": [
+                            {
+                                "name": "bomb1",
+                                "children": [
+                                    {
+                                        "name": "bomb"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "bomb2",
+                                "children": [
+                                    {
+                                        "name": "bomb"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "bomb3",
+                                "children": [
+                                    {
+                                        "name": "bomb"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "bomb4",
+                                "children": [
+                                    {
+                                        "name": "bomb"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "bomb5",
+                                "children": [
+                                    {
+                                        "name": "bomb"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "bomb6",
+                                "children": [
+                                    {
+                                        "name": "bomb"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "edge"
+                    },
+                    {
+                        "name": "medall"
+                    },
+                    {
+                        "name": "container_title",
+                        "children": [
+                            {
+                                "name": "title"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 1280,
+                "height": 720
+            },
+            "type": "canvas"
+        },
+        "bomb": {
+            "file": "bg_black13.png",
+            "image": "SIMPLE",
+            "type": "sprite",
+            "alignment": {
+                "type": "CENTER",
+                "offset": {
+                    "x": 0,
+                    "y": -254.7
+                }
+            }
+        },
+        "container": {
+            "type": "container",
+            "alignment": {
+                "type": "CENTER"
+            }
+        },
+        "container/bg": {
+            "file": "container3.png",
+            "image": "SLICED",
+            "slice": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+            },
+            "size": {
+                "width": 743.3,
+                "height": 477.6
+            },
+            "position": {
+                "x": 3.9,
+                "y": 8
+            },
+            "type": "sprite",
+            "orientation": {
+                "landscape": {
+                    "properties": {}
+                },
+                "portrait": {
+                    "properties": {
+                        "position": {
+                            "x": -0.4,
+                            "y": 8
+                        }
+                    }
+                }
+            }
+        },
+        "container/description": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 24
+            },
+            "text": "Place your bombs tactically to destroy all enemies!",
+            "align": "center",
+            "stroke": "#ffffff",
+            "strokeThickness": 4,
+            "position": {
+                "x": 0,
+                "y": -118.5
+            },
+            "color": "#1870d6",
+            "type": "text"
+        },
+        "container/mode_image": {
+            "file": "loading_image1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 2.4,
+                "y": 31.4
+            },
+            "type": "sprite"
+        },
+        "container/bomb_container": {
+            "position": {
+                "x": 0,
+                "y": 190.9
+            },
+            "type": "container"
+        },
+        "container/bomb_container/bomb1": {
+            "file": "loading_bar_bomb.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -132.2,
+                "y": -1.2
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/bomb_container/bomb1/bomb": {
+            "file": "loading_bar_bomb_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -0.3,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/bomb_container/bomb2": {
+            "file": "loading_bar_bomb.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -81.2,
+                "y": -1.2
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/bomb_container/bomb2/bomb": {
+            "file": "loading_bar_bomb_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -0.3,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/bomb_container/bomb3": {
+            "file": "loading_bar_bomb.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -30.2,
+                "y": -1.2
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/bomb_container/bomb3/bomb": {
+            "file": "loading_bar_bomb_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -0.3,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/bomb_container/bomb4": {
+            "file": "loading_bar_bomb.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 20.7,
+                "y": -1.2
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/bomb_container/bomb4/bomb": {
+            "file": "loading_bar_bomb_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -0.3,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/bomb_container/bomb5": {
+            "file": "loading_bar_bomb.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 71.7,
+                "y": -1.2
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/bomb_container/bomb5/bomb": {
+            "file": "loading_bar_bomb_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -0.3,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/bomb_container/bomb6": {
+            "file": "loading_bar_bomb.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 122.7,
+                "y": -1.2
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/bomb_container/bomb6/bomb": {
+            "file": "loading_bar_bomb_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -0.3,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/edge": {
+            "file": "container4.png",
+            "image": "SLICED",
+            "slice": {
+                "top": 36,
+                "bottom": 104,
+                "left": 70,
+                "right": 64
+            },
+            "size": {
+                "width": 776.4,
+                "height": 552.8
+            },
+            "position": {
+                "x": 2.1,
+                "y": 25.4
+            },
+            "type": "sprite",
+            "orientation": {
+                "landscape": {
+                    "properties": {}
+                },
+                "portrait": {
+                    "properties": {
+                        "position": {
+                            "x": -1.3,
+                            "y": 32.4
+                        }
+                    }
+                }
+            }
+        },
+        "container/medall": {
+            "file": "decor_medall.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 350.9,
+                "y": 214.4
+            },
+            "type": "sprite",
+            "orientation": {
+                "landscape": {
+                    "properties": {}
+                },
+                "portrait": {
+                    "properties": {
+                        "position": {
+                            "x": 323.2,
+                            "y": 221.4
+                        }
+                    }
+                }
+            }
+        },
+        "container/container_title": {
+            "file": "title_decor.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 13,
+                "y": -235.2
+            },
+            "scale": {
+                "x": 1.1,
+                "y": 1.1
+            },
+            "type": "sprite"
+        },
+        "container/container_title/title": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 50
+            },
+            "text": "ARCADE",
+            "align": "center",
+            "stroke": "#660000",
+            "strokeThickness": 5,
+            "position": {
+                "x": 0,
+                "y": 15.1
+            },
+            "scale": {
+                "x": 0.9,
+                "y": 0.9
+            },
+            "color": "#fece0d",
+            "type": "text"
+        }
+    }
+}

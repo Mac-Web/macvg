@@ -1,0 +1,65 @@
+{
+    "name": "monster_side_unfrozen",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "monster_frozen": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 333,
+                    "value": 0
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "monster_side_frozen.png"
+                }
+            ]
+        },
+        "monster_ice": {
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 333,
+                    "value": 1.4
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 333,
+                    "value": 0
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 333,
+                    "value": 0
+                }
+            ]
+        },
+        "monster_normal": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "monster_side.png"
+                }
+            ]
+        }
+    }
+}

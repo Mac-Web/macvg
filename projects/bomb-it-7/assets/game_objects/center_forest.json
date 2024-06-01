@@ -1,0 +1,192 @@
+{
+    "hierarchy": {
+        "name": "center_forest",
+        "children": [
+            {
+                "name": "forest_base"
+            },
+            {
+                "name": "animal2"
+            },
+            {
+                "name": "leaf3"
+            },
+            {
+                "name": "leaf5"
+            },
+            {
+                "name": "animal1"
+            },
+            {
+                "name": "leaf4"
+            },
+            {
+                "name": "animal3"
+            },
+            {
+                "name": "leaf1"
+            },
+            {
+                "name": "animal4"
+            },
+            {
+                "name": "leaf2"
+            },
+            {
+                "name": "eye1"
+            },
+            {
+                "name": "eye2"
+            },
+            {
+                "name": "eye3"
+            },
+            {
+                "name": "eye4"
+            }
+        ],
+        "animations": [
+            "center_forest_anim"
+        ]
+    },
+    "properties": {
+        "forest_base": {
+            "file": "center_forest_base.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "animal2": {
+            "file": "animal_0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -20.8,
+                "y": -32.4
+            },
+            "angle": -23,
+            "type": "sprite"
+        },
+        "leaf3": {
+            "file": "center_forest_leaf3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -23.5,
+                "y": -57.6
+            },
+            "type": "sprite"
+        },
+        "leaf5": {
+            "file": "center_forest_leaf5.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -8,
+                "y": -13.5
+            },
+            "type": "sprite"
+        },
+        "animal1": {
+            "file": "animal_0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -19.4,
+                "y": 9.3
+            },
+            "angle": -30,
+            "type": "sprite"
+        },
+        "leaf4": {
+            "file": "center_forest_leaf4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -39.5,
+                "y": 19.6
+            },
+            "type": "sprite"
+        },
+        "animal3": {
+            "file": "animal_0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 18.3,
+                "y": -32.3
+            },
+            "angle": 1,
+            "scale": {
+                "x": -1,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "leaf1": {
+            "file": "center_forest_leaf1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 27.2,
+                "y": -45.1
+            },
+            "type": "sprite"
+        },
+        "animal4": {
+            "file": "animal_0.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 21.2,
+                "y": 3.3
+            },
+            "angle": 32,
+            "scale": {
+                "x": -1,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "leaf2": {
+            "file": "center_forest_leaf2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 25.2,
+                "y": 18.4
+            },
+            "type": "sprite"
+        },
+        "eye1": {
+            "file": "eyes3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -34.4,
+                "y": 45.5
+            },
+            "type": "sprite"
+        },
+        "eye2": {
+            "file": "eyes3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 37.8,
+                "y": 22.1
+            },
+            "type": "sprite"
+        },
+        "eye3": {
+            "file": "eyes3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -35.1,
+                "y": -31
+            },
+            "type": "sprite"
+        },
+        "eye4": {
+            "file": "eyes3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 22.9,
+                "y": -66.1
+            },
+            "type": "sprite"
+        }
+    }
+}

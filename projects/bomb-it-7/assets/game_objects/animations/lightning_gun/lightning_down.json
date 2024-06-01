@@ -1,0 +1,91 @@
+{
+    "name": "lightning_down",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "lightning_gun_fx": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -17.4,
+                        -25.7
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": -90
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "lightning_play1.png"
+                },
+                {
+                    "frame": 17,
+                    "value": "lightning_play2.png"
+                },
+                {
+                    "frame": 33,
+                    "value": "lightning_play3.png"
+                },
+                {
+                    "frame": 67,
+                    "value": "lightning_play4.png"
+                },
+                {
+                    "frame": 100,
+                    "value": "lightning_play5.png"
+                },
+                {
+                    "frame": 133,
+                    "value": "lightning_play6.png"
+                },
+                {
+                    "frame": 167,
+                    "value": "lightning_play7.png"
+                },
+                {
+                    "frame": 200,
+                    "value": "lightning_play8.png"
+                },
+                {
+                    "frame": 233,
+                    "value": "lightning_play9.png"
+                },
+                {
+                    "frame": 267,
+                    "value": "lightning_play10.png"
+                },
+                {
+                    "frame": 300,
+                    "value": "lightning_play11.png"
+                },
+                {
+                    "frame": 333,
+                    "value": "lightning_play12.png"
+                }
+            ]
+        },
+        "lightning_gun_base": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -16.8,
+                        -26.9
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "lightning_front.png"
+                }
+            ]
+        }
+    }
+}

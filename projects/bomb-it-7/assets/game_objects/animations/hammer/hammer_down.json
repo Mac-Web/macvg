@@ -1,0 +1,122 @@
+{
+    "name": "hammer_down",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "hammer_base": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -10.3,
+                        -34.9
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "hammer_front1.png"
+                },
+                {
+                    "frame": 33,
+                    "value": "hammer_front2.png"
+                },
+                {
+                    "frame": 67,
+                    "value": "hammer_front3.png"
+                },
+                {
+                    "frame": 100,
+                    "value": "hammer_front4.png"
+                },
+                {
+                    "frame": 133,
+                    "value": "hammer_front5.png"
+                },
+                {
+                    "frame": 167,
+                    "value": "hammer_front6.png"
+                },
+                {
+                    "frame": 200,
+                    "value": "hammer_front7.png"
+                },
+                {
+                    "frame": 233,
+                    "value": "hammer_front8.png"
+                },
+                {
+                    "frame": 267,
+                    "value": "hammer_front9.png"
+                },
+                {
+                    "frame": 300,
+                    "value": "hammer_front10.png"
+                },
+                {
+                    "frame": 333,
+                    "value": "hammer_front11.png"
+                },
+                {
+                    "frame": 367,
+                    "value": "hammer_front12.png"
+                },
+                {
+                    "frame": 400,
+                    "value": "hammer_front13.png"
+                },
+                {
+                    "frame": 433,
+                    "value": "hammer_front14.png"
+                },
+                {
+                    "frame": 467,
+                    "value": "hammer_front15.png"
+                },
+                {
+                    "frame": 500,
+                    "value": "hammer_front16.png"
+                },
+                {
+                    "frame": 533,
+                    "value": "hammer_front17.png"
+                },
+                {
+                    "frame": 567,
+                    "value": "hammer_front18.png"
+                },
+                {
+                    "frame": 600,
+                    "value": "hammer_front19.png"
+                },
+                {
+                    "frame": 633,
+                    "value": "hammer_front22.png"
+                },
+                {
+                    "frame": 667,
+                    "value": "hammer_front23.png"
+                },
+                {
+                    "frame": 700,
+                    "value": "hammer_front25.png"
+                },
+                {
+                    "frame": 733,
+                    "value": "hammer_front27.png"
+                },
+                {
+                    "frame": 750,
+                    "value": "anim_super_hammer2_fx4.png"
+                }
+            ]
+        }
+    },
+    "events": [
+        {
+            "frame": 567,
+            "name": ""
+        }
+    ]
+}

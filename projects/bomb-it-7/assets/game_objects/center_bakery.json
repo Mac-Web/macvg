@@ -1,0 +1,96 @@
+{
+    "hierarchy": {
+        "name": "center_bakery",
+        "children": [
+            {
+                "name": "bakery_edge_bottom"
+            },
+            {
+                "name": "bakery_edge_r"
+            },
+            {
+                "name": "bakery_edge_l"
+            },
+            {
+                "name": "bakety_chimney"
+            },
+            {
+                "name": "bakery_house"
+            },
+            {
+                "name": "bakery_edge_top"
+            }
+        ],
+        "animations": [
+            "center_bakery_play"
+        ]
+    },
+    "properties": {
+        "bakery_edge_bottom": {
+            "file": "center_bakery_bottom.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0.6,
+                "y": -62.1
+            },
+            "type": "sprite"
+        },
+        "bakery_edge_r": {
+            "file": "center_bakery_edge.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 73,
+                "y": 2.4
+            },
+            "type": "sprite"
+        },
+        "bakery_edge_l": {
+            "file": "center_bakery_edge.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -73.6,
+                "y": 2.4
+            },
+            "scale": {
+                "x": -1,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "bakety_chimney": {
+            "file": "center_bakery_anim.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -44,
+                "y": -45.5
+            },
+            "anchor": {
+                "x": 0.6,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "bakery_house": {
+            "file": "center_bakery_base.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 2.5,
+                "y": 53.8
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "bakery_edge_top": {
+            "file": "center_bakery_top.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0.1,
+                "y": 59
+            },
+            "type": "sprite"
+        }
+    }
+}

@@ -1,0 +1,737 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "bg",
+                "children": [
+                    {
+                        "name": "mission1",
+                        "children": [
+                            {
+                                "name": "close"
+                            },
+                            {
+                                "name": "empty",
+                                "children": [
+                                    {
+                                        "name": "check"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "star"
+                            },
+                            {
+                                "name": "score"
+                            },
+                            {
+                                "name": "mission"
+                            },
+                            {
+                                "name": "description"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "mission2",
+                        "children": [
+                            {
+                                "name": "close"
+                            },
+                            {
+                                "name": "empty",
+                                "children": [
+                                    {
+                                        "name": "check"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "star"
+                            },
+                            {
+                                "name": "score"
+                            },
+                            {
+                                "name": "mission"
+                            },
+                            {
+                                "name": "description"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "mission3",
+                        "children": [
+                            {
+                                "name": "close"
+                            },
+                            {
+                                "name": "empty",
+                                "children": [
+                                    {
+                                        "name": "check"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "star"
+                            },
+                            {
+                                "name": "score"
+                            },
+                            {
+                                "name": "mission"
+                            },
+                            {
+                                "name": "description"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "edge"
+                    },
+                    {
+                        "name": "title"
+                    },
+                    {
+                        "name": "description"
+                    }
+                ]
+            },
+            {
+                "name": "sound_container",
+                "children": [
+                    {
+                        "name": "audio_button"
+                    },
+                    {
+                        "name": "music_button"
+                    }
+                ]
+            },
+            {
+                "name": "main_menu_button",
+                "children": [
+                    {
+                        "name": "text"
+                    }
+                ]
+            },
+            {
+                "name": "pause_button",
+                "children": [
+                    {
+                        "name": "text"
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 1280,
+                "height": 720
+            },
+            "type": "canvas"
+        },
+        "bg": {
+            "file": "container2.png",
+            "image": "SLICED",
+            "slice": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+            },
+            "size": {
+                "width": 556,
+                "height": 304.3
+            },
+            "type": "sprite",
+            "alignment": {
+                "type": "CENTER",
+                "offset": {
+                    "x": -2,
+                    "y": 10.1
+                }
+            }
+        },
+        "bg/mission1": {
+            "file": "lvlc_bar.png",
+            "image": "SLICED",
+            "slice": {
+                "top": 18,
+                "bottom": 18,
+                "left": 16,
+                "right": 16
+            },
+            "size": {
+                "width": 507,
+                "height": 57.2
+            },
+            "position": {
+                "x": -0.5,
+                "y": -76.4
+            },
+            "type": "sprite"
+        },
+        "bg/mission1/close": {
+            "file": "x.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 250,
+                "y": -30.7
+            },
+            "type": "button"
+        },
+        "bg/mission1/empty": {
+            "file": "empty.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -224.1,
+                "y": -0.1
+            },
+            "type": "sprite"
+        },
+        "bg/mission1/empty/check": {
+            "file": "check.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "bg/mission1/star": {
+            "file": "star_mission.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 159.9,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "bg/mission1/score": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 25
+            },
+            "text": "3500",
+            "align": "center",
+            "stroke": "#640000",
+            "strokeThickness": 5,
+            "position": {
+                "x": 216.2,
+                "y": -1
+            },
+            "color": "#ffe000",
+            "type": "text"
+        },
+        "bg/mission1/mission": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 25
+            },
+            "text": "0/5",
+            "align": "center",
+            "stroke": "#640000",
+            "strokeThickness": 5,
+            "position": {
+                "x": 132.3,
+                "y": -1
+            },
+            "anchor": {
+                "x": 1,
+                "y": 0.5
+            },
+            "color": "#ffe000",
+            "type": "text"
+        },
+        "bg/mission1/description": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 20
+            },
+            "text": "Freeze 5 enemies in 10 seconds",
+            "align": "center",
+            "stroke": "#1870d6",
+            "strokeThickness": 5,
+            "position": {
+                "x": -192.5,
+                "y": -1
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "text"
+        },
+        "bg/mission2": {
+            "file": "lvlc_bar.png",
+            "image": "SLICED",
+            "slice": {
+                "top": 18,
+                "bottom": 18,
+                "left": 16,
+                "right": 16
+            },
+            "size": {
+                "width": 507,
+                "height": 57.2
+            },
+            "position": {
+                "x": -0.5,
+                "y": 1.7
+            },
+            "type": "sprite"
+        },
+        "bg/mission2/close": {
+            "file": "x.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 250,
+                "y": -30.7
+            },
+            "type": "button"
+        },
+        "bg/mission2/empty": {
+            "file": "empty.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -224.1,
+                "y": -0.1
+            },
+            "type": "sprite"
+        },
+        "bg/mission2/empty/check": {
+            "file": "check.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "bg/mission2/star": {
+            "file": "star_mission.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 159.9,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "bg/mission2/score": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 25
+            },
+            "text": "3500",
+            "align": "center",
+            "stroke": "#640000",
+            "strokeThickness": 5,
+            "position": {
+                "x": 216.2,
+                "y": -1
+            },
+            "color": "#ffe000",
+            "type": "text"
+        },
+        "bg/mission2/mission": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 25
+            },
+            "text": "0/5",
+            "align": "center",
+            "stroke": "#640000",
+            "strokeThickness": 5,
+            "position": {
+                "x": 132.3,
+                "y": -1
+            },
+            "anchor": {
+                "x": 1,
+                "y": 0.5
+            },
+            "color": "#ffe000",
+            "type": "text"
+        },
+        "bg/mission2/description": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 20
+            },
+            "text": "Freeze 5 enemies in 10 seconds",
+            "align": "center",
+            "stroke": "#1870d6",
+            "strokeThickness": 5,
+            "position": {
+                "x": -192.5,
+                "y": -1
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "text"
+        },
+        "bg/mission3": {
+            "file": "lvlc_bar.png",
+            "image": "SLICED",
+            "slice": {
+                "top": 18,
+                "bottom": 18,
+                "left": 16,
+                "right": 16
+            },
+            "size": {
+                "width": 507,
+                "height": 57.2
+            },
+            "position": {
+                "x": -0.5,
+                "y": 79.1
+            },
+            "type": "sprite"
+        },
+        "bg/mission3/close": {
+            "file": "x.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 250,
+                "y": -30.7
+            },
+            "type": "button"
+        },
+        "bg/mission3/empty": {
+            "file": "empty.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -224.1,
+                "y": -0.1
+            },
+            "type": "sprite"
+        },
+        "bg/mission3/empty/check": {
+            "file": "check.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "bg/mission3/star": {
+            "file": "star_mission.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 159.9,
+                "y": 0.2
+            },
+            "type": "sprite"
+        },
+        "bg/mission3/score": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 25
+            },
+            "text": "3500",
+            "align": "center",
+            "stroke": "#640000",
+            "strokeThickness": 5,
+            "position": {
+                "x": 216.2,
+                "y": -1
+            },
+            "color": "#ffe000",
+            "type": "text"
+        },
+        "bg/mission3/mission": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 25
+            },
+            "text": "0/5",
+            "align": "center",
+            "stroke": "#640000",
+            "strokeThickness": 5,
+            "position": {
+                "x": 132.3,
+                "y": -1
+            },
+            "anchor": {
+                "x": 1,
+                "y": 0.5
+            },
+            "color": "#ffe000",
+            "type": "text"
+        },
+        "bg/mission3/description": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 20
+            },
+            "text": "Freeze 5 enemies in 10 seconds",
+            "align": "center",
+            "stroke": "#1870d6",
+            "strokeThickness": 5,
+            "position": {
+                "x": -192.5,
+                "y": -1
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "text"
+        },
+        "bg/edge": {
+            "file": "container1.png",
+            "image": "SLICED",
+            "slice": {
+                "top": 31,
+                "bottom": 64,
+                "left": 44,
+                "right": 44
+            },
+            "size": {
+                "width": 580,
+                "height": 347
+            },
+            "type": "sprite",
+            "alignment": {
+                "type": "CENTER",
+                "offset": {
+                    "x": 1,
+                    "y": 13.9
+                }
+            }
+        },
+        "bg/title": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 45
+            },
+            "text": "MISSIONS",
+            "align": "center",
+            "stroke": "#660000",
+            "strokeThickness": 5,
+            "position": {
+                "x": 2,
+                "y": -148.5
+            },
+            "scale": {
+                "x": 0.91,
+                "y": 0.91
+            },
+            "color": "#fece0d",
+            "type": "text"
+        },
+        "bg/description": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 38
+            },
+            "text": "Complete these missions to get stars!",
+            "align": "center",
+            "stroke": "#660000",
+            "strokeThickness": 5,
+            "position": {
+                "x": 2,
+                "y": -250.8
+            },
+            "scale": {
+                "x": 0.91,
+                "y": 0.91
+            },
+            "color": "#fece0d",
+            "type": "text"
+        },
+        "sound_container": {
+            "file": "bg_black13.png",
+            "image": "SIMPLE",
+            "type": "sprite",
+            "alignment": {
+                "type": "CENTER",
+                "offset": {
+                    "x": 324.2,
+                    "y": -197.8
+                }
+            },
+            "orientation": {
+                "landscape": {
+                    "properties": {},
+                    "alignment": {
+                        "type": "CENTER",
+                        "offset": {
+                            "x": 355.2,
+                            "y": -197.8
+                        }
+                    }
+                },
+                "portrait": {
+                    "properties": {},
+                    "alignment": {
+                        "type": "CENTER",
+                        "offset": {
+                            "x": 324.2,
+                            "y": -197.8
+                        }
+                    }
+                }
+            }
+        },
+        "sound_container/audio_button": {
+            "file": "mm_audio.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "mm_audio.png",
+                "pressed": "mm_audio_off.png",
+                "hover": "mm_audio.png"
+            },
+            "position": {
+                "x": -0.2,
+                "y": 30.7
+            },
+            "type": "button"
+        },
+        "sound_container/music_button": {
+            "file": "mm_music.png",
+            "image": "SIMPLE",
+            "transitionMode": "image",
+            "transition": {
+                "normal": "mm_music.png",
+                "pressed": "mm_music_off.png",
+                "hover": "mm_music.png"
+            },
+            "position": {
+                "x": -0.21,
+                "y": -31.1
+            },
+            "type": "button"
+        },
+        "main_menu_button": {
+            "file": "button.png",
+            "image": "SLICED",
+            "slice": {
+                "top": 0,
+                "bottom": 0,
+                "left": 19,
+                "right": 19
+            },
+            "size": {
+                "width": 199,
+                "height": 48
+            },
+            "type": "button",
+            "alignment": {
+                "type": "CENTER",
+                "offset": {
+                    "x": -228.9,
+                    "y": 247.7
+                }
+            },
+            "orientation": {
+                "landscape": {
+                    "properties": {},
+                    "alignment": {
+                        "type": "CENTER",
+                        "offset": {
+                            "x": -252.9,
+                            "y": 247.7
+                        }
+                    }
+                },
+                "portrait": {
+                    "properties": {},
+                    "alignment": {
+                        "type": "CENTER",
+                        "offset": {
+                            "x": -228.9,
+                            "y": 247.7
+                        }
+                    }
+                }
+            }
+        },
+        "main_menu_button/text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 21
+            },
+            "text": "MAIN MENU",
+            "align": "center",
+            "stroke": "#c55d18",
+            "strokeThickness": 3,
+            "position": {
+                "x": 1.1,
+                "y": 0.1
+            },
+            "type": "text"
+        },
+        "pause_button": {
+            "file": "button.png",
+            "image": "SLICED",
+            "slice": {
+                "top": 0,
+                "bottom": 0,
+                "left": 19,
+                "right": 19
+            },
+            "size": {
+                "width": 199,
+                "height": 48
+            },
+            "type": "button",
+            "alignment": {
+                "type": "CENTER",
+                "offset": {
+                    "x": 221.8,
+                    "y": 247.7
+                }
+            },
+            "orientation": {
+                "landscape": {
+                    "properties": {},
+                    "alignment": {
+                        "type": "CENTER",
+                        "offset": {
+                            "x": 253.6,
+                            "y": 247.7
+                        }
+                    }
+                },
+                "portrait": {
+                    "properties": {},
+                    "alignment": {
+                        "type": "CENTER",
+                        "offset": {
+                            "x": 221.8,
+                            "y": 247.7
+                        }
+                    }
+                }
+            }
+        },
+        "pause_button/text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 21
+            },
+            "text": "RESUME",
+            "align": "center",
+            "stroke": "#c55d18",
+            "strokeThickness": 3,
+            "position": {
+                "x": 1.1,
+                "y": 0.1
+            },
+            "type": "text"
+        }
+    }
+}

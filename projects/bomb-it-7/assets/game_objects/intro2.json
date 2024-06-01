@@ -1,0 +1,182 @@
+{
+    "hierarchy": {
+        "name": "intro2",
+        "children": [
+            {
+                "name": "part1"
+            },
+            {
+                "name": "part2"
+            },
+            {
+                "name": "part3"
+            },
+            {
+                "name": "part4"
+            },
+            {
+                "name": "part5"
+            },
+            {
+                "name": "part6"
+            },
+            {
+                "name": "part7"
+            },
+            {
+                "name": "part8"
+            },
+            {
+                "name": "part9"
+            },
+            {
+                "name": "part10"
+            }
+        ],
+        "animations": [
+            "intro2_play"
+        ]
+    },
+    "properties": {
+        "part1": {
+            "file": "pg3_bg.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": 2,
+                "y": 2
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "part2": {
+            "file": "pg3_shiny.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "part3": {
+            "file": "pg3_ch1_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 432,
+                "y": -485
+            },
+            "scale": {
+                "x": 1.1,
+                "y": 1.1
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "part4": {
+            "file": "pg3_ch2_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -461,
+                "y": -468
+            },
+            "scale": {
+                "x": 1.1,
+                "y": 1.1
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "part5": {
+            "file": "pg3_ch3_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -806,
+                "y": -124
+            },
+            "scale": {
+                "x": 1.1,
+                "y": 1.1
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "part6": {
+            "file": "pg3_ch4_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 825,
+                "y": -145
+            },
+            "scale": {
+                "x": 1.1,
+                "y": 1.1
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "part7": {
+            "file": "pg3_ch5_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -851,
+                "y": 200
+            },
+            "scale": {
+                "x": 1.1,
+                "y": 1.1
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "part8": {
+            "file": "pg3_ch6_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 894,
+                "y": 179
+            },
+            "scale": {
+                "x": 1.1,
+                "y": 1.1
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "part9": {
+            "file": "pg3_ch8_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 34,
+                "y": -631
+            },
+            "scale": {
+                "x": 1.1,
+                "y": 1.1
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "part10": {
+            "file": "pg3_ch7_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -38,
+                "y": 642
+            },
+            "scale": {
+                "x": 1.1,
+                "y": 1.1
+            },
+            "alpha": 0,
+            "type": "sprite"
+        }
+    }
+}

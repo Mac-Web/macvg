@@ -1,0 +1,110 @@
+{
+    "name": "hammer_side",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "hammer_base": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -31.9,
+                        -26.7
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "hammer_side1.png"
+                },
+                {
+                    "frame": 33,
+                    "value": "hammer_side2.png"
+                },
+                {
+                    "frame": 67,
+                    "value": "hammer_side3.png"
+                },
+                {
+                    "frame": 100,
+                    "value": "hammer_side4.png"
+                },
+                {
+                    "frame": 133,
+                    "value": "hammer_side5.png"
+                },
+                {
+                    "frame": 167,
+                    "value": "hammer_side6.png"
+                },
+                {
+                    "frame": 200,
+                    "value": "hammer_side7.png"
+                },
+                {
+                    "frame": 233,
+                    "value": "hammer_side8.png"
+                },
+                {
+                    "frame": 267,
+                    "value": "hammer_side9.png"
+                },
+                {
+                    "frame": 300,
+                    "value": "hammer_side10.png"
+                },
+                {
+                    "frame": 333,
+                    "value": "hammer_side11.png"
+                },
+                {
+                    "frame": 367,
+                    "value": "hammer_side12.png"
+                },
+                {
+                    "frame": 400,
+                    "value": "hammer_side13.png"
+                },
+                {
+                    "frame": 433,
+                    "value": "hammer_side14.png"
+                },
+                {
+                    "frame": 467,
+                    "value": "hammer_side15.png"
+                },
+                {
+                    "frame": 500,
+                    "value": "hammer_side16.png"
+                },
+                {
+                    "frame": 533,
+                    "value": "hammer_side17.png"
+                },
+                {
+                    "frame": 567,
+                    "value": "hammer_side18.png"
+                },
+                {
+                    "frame": 600,
+                    "value": "hammer_side19.png"
+                },
+                {
+                    "frame": 633,
+                    "value": "hammer_side20.png"
+                },
+                {
+                    "frame": 667,
+                    "value": "anim_super_hammer2_fx4.png"
+                }
+            ]
+        }
+    },
+    "events": [
+        {
+            "frame": 533,
+            "name": ""
+        }
+    ]
+}

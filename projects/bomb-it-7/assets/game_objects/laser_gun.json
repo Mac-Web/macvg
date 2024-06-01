@@ -1,0 +1,50 @@
+{
+    "hierarchy": {
+        "name": "laser_gun",
+        "children": [
+            {
+                "name": "laser_gun_base"
+            },
+            {
+                "name": "laser_fx"
+            },
+            {
+                "name": "laser_light"
+            }
+        ],
+        "animations": [
+            "laser_gun_side",
+            "laser_gun_down",
+            "laser_gun_up"
+        ]
+    },
+    "properties": {
+        "laser_gun_base": {
+            "file": "laser_gun_base.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -4.7,
+                "y": -37.3
+            },
+            "type": "sprite"
+        },
+        "laser_fx": {
+            "file": "laser_gun_fx1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -42,
+                "y": -40.4
+            },
+            "type": "sprite"
+        },
+        "laser_light": {
+            "file": "laser_gun_ligh1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 23.2,
+                "y": -39.1
+            },
+            "type": "sprite"
+        }
+    }
+}

@@ -115,8 +115,13 @@ p {
   margin-bottom: 20px;
 }
 
+.wrap {
+  width: 100%;
+}
+
 body {
   background-color: transparent;
+  width: 100%;
 }
 
 h1 {
@@ -260,7 +265,6 @@ h1 {
   color: var(--text-color);
   padding-top: 20px;
   text-align: center;
-  width: 100vw;
 }
 
 .title::before {
@@ -328,4 +332,15 @@ h1 {
 .footer a:hover {
   color: gold;
   text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--text-color);
+  border: 3px solid var(--bg-color);
+  border-radius: 10px;
 }

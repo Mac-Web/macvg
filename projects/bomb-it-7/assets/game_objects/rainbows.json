@@ -1,0 +1,36 @@
+{
+    "hierarchy": {
+        "name": "rainbows",
+        "children": [
+            {
+                "name": "rainbows_bottom"
+            },
+            {
+                "name": "rainbows_top"
+            }
+        ],
+        "animations": [
+            "rainbows_stand"
+        ]
+    },
+    "properties": {
+        "rainbows_bottom": {
+            "file": "rainbow_fx2_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -43
+            },
+            "type": "sprite"
+        },
+        "rainbows_top": {
+            "file": "rainbow_fx1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -43
+            },
+            "type": "sprite"
+        }
+    }
+}

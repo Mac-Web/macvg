@@ -1,0 +1,75 @@
+{
+    "hierarchy": {
+        "name": "buttons_bombit",
+        "children": [
+            {
+                "name": "bombit2"
+            },
+            {
+                "name": "bombit3"
+            },
+            {
+                "name": "bombit4"
+            },
+            {
+                "name": "bombit5"
+            },
+            {
+                "name": "bombit6"
+            }
+        ],
+        "animations": [
+            "buttons_bombit_stand"
+        ]
+    },
+    "properties": {
+        "bombit2": {
+            "file": "bombit2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -66.2,
+                "y": -4
+            },
+            "type": "sprite"
+        },
+        "bombit3": {
+            "file": "bombit3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 83.8,
+                "y": -4
+            },
+            "type": "sprite"
+        },
+        "bombit4": {
+            "file": "bombit4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -66.2,
+                "y": -4
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "bombit5": {
+            "file": "bombit5.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 83.8,
+                "y": -4
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "bombit6": {
+            "file": "bombit6.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 83.8,
+                "y": -4
+            },
+            "alpha": 0,
+            "type": "sprite"
+        }
+    }
+}

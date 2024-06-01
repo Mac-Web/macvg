@@ -1,0 +1,63 @@
+{
+    "name": "character6_stand",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "base/eye": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "face_eye.png"
+                },
+                {
+                    "frame": 1714,
+                    "value": "face_eye.png"
+                },
+                {
+                    "frame": 1743,
+                    "value": "face6_eye1.png"
+                },
+                {
+                    "frame": 1771,
+                    "value": "face6_eye2.png"
+                },
+                {
+                    "frame": 1800,
+                    "value": "face6_eye3.png"
+                },
+                {
+                    "frame": 1829,
+                    "value": "face6_eye4.png"
+                },
+                {
+                    "frame": 1857,
+                    "value": "face6_eye5.png"
+                },
+                {
+                    "frame": 1943,
+                    "value": "face6_eye4.png"
+                },
+                {
+                    "frame": 1971,
+                    "value": "face6_eye3.png"
+                },
+                {
+                    "frame": 2000,
+                    "value": "face6_eye2.png"
+                },
+                {
+                    "frame": 2029,
+                    "value": "face6_eye1.png"
+                },
+                {
+                    "frame": 2057,
+                    "value": "face_eye.png"
+                },
+                {
+                    "frame": 2286,
+                    "value": "face_eye.png"
+                }
+            ]
+        }
+    }
+}

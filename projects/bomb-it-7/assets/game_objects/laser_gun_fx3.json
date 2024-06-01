@@ -1,0 +1,28 @@
+{
+    "hierarchy": {
+        "name": "laser_gun_fx3",
+        "children": [
+            {
+                "name": "laser_gun_fx3_base"
+            }
+        ],
+        "animations": [
+            "laser_gun_fx3_anim"
+        ]
+    },
+    "properties": {
+        "laser_gun_fx3_base": {
+            "file": "laser_fx5.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "type": "sprite"
+        }
+    }
+}

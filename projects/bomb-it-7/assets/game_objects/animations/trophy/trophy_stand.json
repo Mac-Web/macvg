@@ -1,0 +1,95 @@
+{
+    "name": "trophy_stand",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "base": {
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 167,
+                    "value": 12
+                },
+                {
+                    "frame": 333,
+                    "value": -13
+                },
+                {
+                    "frame": 500,
+                    "value": 12
+                },
+                {
+                    "frame": 667,
+                    "value": -13
+                },
+                {
+                    "frame": 833,
+                    "value": 0
+                },
+                {
+                    "frame": 1500,
+                    "value": 0
+                }
+            ]
+        },
+        "shine_star": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 333,
+                    "value": 0
+                },
+                {
+                    "frame": 683,
+                    "value": 1
+                },
+                {
+                    "frame": 833,
+                    "value": 1
+                },
+                {
+                    "frame": 1167,
+                    "value": 0
+                },
+                {
+                    "frame": 1500,
+                    "value": 0
+                }
+            ]
+        },
+        "shine_trophy": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 333,
+                    "value": 0
+                },
+                {
+                    "frame": 683,
+                    "value": 1
+                },
+                {
+                    "frame": 833,
+                    "value": 1
+                },
+                {
+                    "frame": 1167,
+                    "value": 0
+                },
+                {
+                    "frame": 1500,
+                    "value": 0
+                }
+            ]
+        }
+    }
+}

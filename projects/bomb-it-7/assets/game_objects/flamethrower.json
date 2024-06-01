@@ -1,0 +1,43 @@
+{
+    "hierarchy": {
+        "name": "flamethrower",
+        "children": [
+            {
+                "name": "base",
+                "children": [
+                    {
+                        "name": "fire"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "flamethrower_down",
+            "flamethrower_up",
+            "flamethrower_side"
+        ]
+    },
+    "properties": {
+        "base": {
+            "position": {
+                "x": -15.4,
+                "y": -37.9
+            },
+            "type": "container"
+        },
+        "base/fire": {
+            "file": "fire2_anim44.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 4.6,
+                "y": -5.1
+            },
+            "angle": -9,
+            "anchor": {
+                "x": 0.7,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

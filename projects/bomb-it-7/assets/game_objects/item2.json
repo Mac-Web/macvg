@@ -1,0 +1,321 @@
+{
+    "hierarchy": {
+        "name": "item2",
+        "children": [
+            {
+                "name": "bottom"
+            },
+            {
+                "name": "image"
+            },
+            {
+                "name": "face1_anim",
+                "children": [
+                    {
+                        "name": "dizzy_r"
+                    },
+                    {
+                        "name": "dizzy_l"
+                    }
+                ],
+                "animations": [
+                    "face1_stand",
+                    "face1_pause"
+                ]
+            },
+            {
+                "name": "face2_anim",
+                "children": [
+                    {
+                        "name": "heart_r"
+                    },
+                    {
+                        "name": "heart_l"
+                    }
+                ],
+                "animations": [
+                    "face2_stand",
+                    "face2_pause"
+                ]
+            },
+            {
+                "name": "black",
+                "children": [
+                    {
+                        "name": "star4"
+                    },
+                    {
+                        "name": "star5"
+                    },
+                    {
+                        "name": "star6"
+                    },
+                    {
+                        "name": "star7"
+                    },
+                    {
+                        "name": "star2"
+                    },
+                    {
+                        "name": "star3"
+                    },
+                    {
+                        "name": "star1"
+                    }
+                ],
+                "animations": [
+                    "unlock_play"
+                ]
+            },
+            {
+                "name": "bubble_item2",
+                "children": [
+                    {
+                        "name": "label"
+                    }
+                ]
+            },
+            {
+                "name": "price"
+            },
+            {
+                "name": "star_empty"
+            }
+        ]
+    },
+    "properties": {
+        "bottom": {
+            "file": "item_bottom.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "image": {
+            "file": "item1_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "face1_anim": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "face1_anim/dizzy_r": {
+            "file": "item6_2_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 16.9,
+                "y": -4.7
+            },
+            "type": "sprite"
+        },
+        "face1_anim/dizzy_l": {
+            "file": "item6_2_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -20.6,
+                "y": -4.7
+            },
+            "type": "sprite"
+        },
+        "face2_anim": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "face2_anim/heart_r": {
+            "file": "item7_1_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 17.5,
+                "y": -0.2
+            },
+            "angle": 3,
+            "type": "sprite"
+        },
+        "face2_anim/heart_l": {
+            "file": "item7_1_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -16.2,
+                "y": -0.5
+            },
+            "angle": -15,
+            "type": "sprite"
+        },
+        "black": {
+            "file": "bg_black1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": 0.97,
+                "y": 0.98
+            },
+            "type": "sprite"
+        },
+        "black/star4": {
+            "file": "bg_star20029.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -87.3,
+                "y": -6
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "black/star5": {
+            "file": "bg_star20029.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -94.7,
+                "y": -8.8
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "black/star6": {
+            "file": "bg_star20029.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -94.7,
+                "y": 1.4
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "black/star7": {
+            "file": "bg_star20029.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -87.3,
+                "y": -1.4
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "black/star2": {
+            "file": "bg_star1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -72.4,
+                "y": -22.6
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "black/star3": {
+            "file": "bg_star1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -116.2,
+                "y": 19.8
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "black/star1": {
+            "file": "bg_star1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -86.4,
+                "y": -4.2
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "bubble_item2": {
+            "file": "bubble2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 19,
+                "y": -33.8
+            },
+            "anchor": {
+                "x": 0.3,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "bubble_item2/label": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 17
+            },
+            "text": "You dont yet have enough stars\nto unlock this outfit!",
+            "align": "left",
+            "position": {
+                "x": 50.3,
+                "y": -66.9
+            },
+            "color": "#000000",
+            "type": "text"
+        },
+        "price": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 21
+            },
+            "text": "3500",
+            "align": "center",
+            "stroke": "#660000",
+            "strokeThickness": 3.8,
+            "position": {
+                "x": 13.7,
+                "y": 28.8
+            },
+            "color": "#ffdf1f",
+            "type": "text"
+        },
+        "star_empty": {
+            "file": "dress_up_star_empty.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -27.8,
+                "y": 25.9
+            },
+            "type": "sprite"
+        }
+    }
+}

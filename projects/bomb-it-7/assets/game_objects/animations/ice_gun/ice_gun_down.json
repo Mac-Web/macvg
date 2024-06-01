@@ -1,0 +1,67 @@
+{
+    "name": "ice_gun_down",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "ice_gun_base": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -0.3,
+                        -24.4
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "frozen_front.png"
+                }
+            ]
+        },
+        "ice_gun_fx": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -1,
+                        -25.8
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 180
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "anim_snow5.png"
+                },
+                {
+                    "frame": 57,
+                    "value": "anim_snow1.png"
+                },
+                {
+                    "frame": 114,
+                    "value": "anim_snow2.png"
+                },
+                {
+                    "frame": 171,
+                    "value": "anim_snow3.png"
+                },
+                {
+                    "frame": 229,
+                    "value": "anim_snow4.png"
+                },
+                {
+                    "frame": 286,
+                    "value": "anim_snow5.png"
+                }
+            ]
+        }
+    }
+}

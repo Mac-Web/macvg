@@ -1,0 +1,174 @@
+
+pony.png
+size: 1024,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1x1
+  rotate: false
+  xy: 190, 2
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+horse_body2_side
+  rotate: false
+  xy: 313, 30
+  size: 39, 32
+  orig: 39, 32
+  offset: 0, 0
+  index: -1
+horse_body_back
+  rotate: true
+  xy: 2, 17
+  size: 45, 69
+  orig: 45, 69
+  offset: 0, 0
+  index: -1
+horse_body_fron
+  rotate: true
+  xy: 73, 17
+  size: 45, 57
+  orig: 45, 57
+  offset: 0, 0
+  index: -1
+horse_body_side
+  rotate: true
+  xy: 354, 32
+  size: 30, 38
+  orig: 30, 38
+  offset: 0, 0
+  index: -1
+horse_dust1
+  rotate: false
+  xy: 481, 39
+  size: 40, 23
+  orig: 40, 23
+  offset: 0, 0
+  index: -1
+horse_dust2
+  rotate: false
+  xy: 523, 39
+  size: 40, 23
+  orig: 40, 23
+  offset: 0, 0
+  index: -1
+horse_dust3
+  rotate: false
+  xy: 565, 39
+  size: 40, 23
+  orig: 40, 23
+  offset: 0, 0
+  index: -1
+horse_dust4
+  rotate: false
+  xy: 607, 39
+  size: 40, 23
+  orig: 40, 23
+  offset: 0, 0
+  index: -1
+horse_dust5
+  rotate: false
+  xy: 649, 39
+  size: 40, 23
+  orig: 40, 23
+  offset: 0, 0
+  index: -1
+horse_dust6
+  rotate: false
+  xy: 691, 39
+  size: 40, 23
+  orig: 40, 23
+  offset: 0, 0
+  index: -1
+horse_dust7
+  rotate: false
+  xy: 733, 39
+  size: 40, 23
+  orig: 40, 23
+  offset: 0, 0
+  index: -1
+horse_dust8
+  rotate: false
+  xy: 775, 39
+  size: 40, 23
+  orig: 40, 23
+  offset: 0, 0
+  index: -1
+horse_dust9
+  rotate: false
+  xy: 817, 39
+  size: 40, 23
+  orig: 40, 23
+  offset: 0, 0
+  index: -1
+horse_head_back
+  rotate: true
+  xy: 132, 26
+  size: 36, 63
+  orig: 36, 63
+  offset: 0, 0
+  index: -1
+horse_head_front
+  rotate: true
+  xy: 197, 26
+  size: 36, 63
+  orig: 36, 63
+  offset: 0, 0
+  index: -1
+horse_head_side
+  rotate: true
+  xy: 262, 30
+  size: 32, 49
+  orig: 32, 49
+  offset: 0, 0
+  index: -1
+horse_leg1
+  rotate: true
+  xy: 190, 5
+  size: 19, 39
+  orig: 19, 39
+  offset: 0, 0
+  index: -1
+horse_leg2
+  rotate: true
+  xy: 859, 44
+  size: 18, 38
+  orig: 18, 38
+  offset: 0, 0
+  index: -1
+horse_leg4
+  rotate: true
+  xy: 438, 39
+  size: 23, 41
+  orig: 23, 41
+  offset: 0, 0
+  index: -1
+horse_leg5
+  rotate: true
+  xy: 899, 42
+  size: 20, 35
+  orig: 20, 35
+  offset: 0, 0
+  index: -1
+horse_leg6
+  rotate: true
+  xy: 132, 2
+  size: 22, 56
+  orig: 22, 56
+  offset: 0, 0
+  index: -1
+horse_tail_back
+  rotate: true
+  xy: 394, 39
+  size: 23, 42
+  orig: 23, 42
+  offset: 0, 0
+  index: -1
+horse_tail_side
+  rotate: true
+  xy: 936, 39
+  size: 23, 33
+  orig: 23, 33
+  offset: 0, 0
+  index: -1

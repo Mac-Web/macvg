@@ -1,0 +1,145 @@
+{
+    "hierarchy": {
+        "name": "center_christmas",
+        "children": [
+            {
+                "name": "chistmas_edge"
+            },
+            {
+                "name": "christmas_shadow"
+            },
+            {
+                "name": "christmas_santa",
+                "children": [
+                    {
+                        "name": "christmas_hand"
+                    },
+                    {
+                        "name": "christmas_gift1"
+                    },
+                    {
+                        "name": "christmas_gift2"
+                    },
+                    {
+                        "name": "christmas_gift3"
+                    },
+                    {
+                        "name": "christmas_gift4"
+                    },
+                    {
+                        "name": "christmas_santa_base"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "center_christmas_stand",
+            "center_christmas_play"
+        ]
+    },
+    "properties": {
+        "chistmas_edge": {
+            "file": "center_christmas_base.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -5
+            },
+            "type": "sprite"
+        },
+        "christmas_shadow": {
+            "file": "center_christmas_santa_shadow.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 4.9,
+                "y": -4.6
+            },
+            "type": "sprite"
+        },
+        "christmas_santa": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "christmas_santa/christmas_hand": {
+            "file": "center_chiristmas_hand.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -7.3,
+                "y": -50.8
+            },
+            "anchor": {
+                "x": 0.9,
+                "y": 0.19999999999999996
+            },
+            "type": "sprite"
+        },
+        "christmas_santa/christmas_gift1": {
+            "file": "center_chiristmas_gift2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -39,
+                "y": -67.5
+            },
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "christmas_santa/christmas_gift2": {
+            "file": "center_chiristmas_gift3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -28.7,
+                "y": -60.7
+            },
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "christmas_santa/christmas_gift3": {
+            "file": "center_chiristmas_gift4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -17.1,
+                "y": -66.2
+            },
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "christmas_santa/christmas_gift4": {
+            "file": "center_chiristmas_gift1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -28.9,
+                "y": -75.7
+            },
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "christmas_santa/christmas_santa_base": {
+            "file": "center_christmas_santa.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 5.6,
+                "y": -29.5
+            },
+            "type": "sprite"
+        }
+    }
+}

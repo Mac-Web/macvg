@@ -1,0 +1,32 @@
+{
+    "name": "arrow_stand",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "button": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "frame": 148,
+                    "value": [
+                        7,
+                        0
+                    ]
+                },
+                {
+                    "frame": 370,
+                    "value": [
+                        0,
+                        0
+                    ]
+                }
+            ]
+        }
+    }
+}

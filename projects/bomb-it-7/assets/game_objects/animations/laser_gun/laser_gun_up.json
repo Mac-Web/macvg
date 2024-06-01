@@ -1,0 +1,110 @@
+{
+    "name": "laser_gun_up",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "laser_light": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -16.7,
+                        -37.9
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "laser_gun_ligh_back10.png"
+                },
+                {
+                    "frame": 50,
+                    "value": "laser_gun_ligh_back2.png"
+                },
+                {
+                    "frame": 100,
+                    "value": "laser_gun_ligh_back3.png"
+                },
+                {
+                    "frame": 133,
+                    "value": "laser_gun_ligh_back4.png"
+                },
+                {
+                    "frame": 167,
+                    "value": "laser_gun_ligh_back5.png"
+                },
+                {
+                    "frame": 200,
+                    "value": "laser_gun_ligh_back6.png"
+                },
+                {
+                    "frame": 233,
+                    "value": "laser_gun_ligh_back7.png"
+                },
+                {
+                    "frame": 267,
+                    "value": "laser_gun_ligh_back8.png"
+                },
+                {
+                    "frame": 300,
+                    "value": "laser_gun_ligh_back9.png"
+                },
+                {
+                    "frame": 333,
+                    "value": "laser_gun_ligh_back10.png"
+                },
+                {
+                    "frame": 367,
+                    "value": "laser_gun_ligh_back11.png"
+                },
+                {
+                    "frame": 400,
+                    "value": "laser_gun_ligh_back12.png"
+                },
+                {
+                    "frame": 433,
+                    "value": "laser_gun_ligh_back13.png"
+                },
+                {
+                    "frame": 467,
+                    "value": "laser_gun_ligh_back14.png"
+                }
+            ]
+        },
+        "laser_fx": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -15.8,
+                        -36.3
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "laser_gun_fx11.png"
+                }
+            ]
+        },
+        "laser_gun_base": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -16.8,
+                        -38.5
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "laser_gun_back_base.png"
+                }
+            ]
+        }
+    }
+}

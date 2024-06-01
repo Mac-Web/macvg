@@ -1,0 +1,73 @@
+{
+    "hierarchy": {
+        "name": "monster",
+        "children": [
+            {
+                "name": "monster_normal"
+            },
+            {
+                "name": "monster_frozen"
+            },
+            {
+                "name": "monster_ice"
+            }
+        ],
+        "animations": [
+            "monster_front_stand",
+            "monster_front_frozen",
+            "monster_front_unfrozen",
+            "monster_back_frozen",
+            "monster_back_stand",
+            "monster_back_unfrozen",
+            "monster_side_frozen",
+            "monster_side_stand",
+            "monster_side_unfrozen"
+        ]
+    },
+    "properties": {
+        "monster_normal": {
+            "file": "monster_front.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 1.8,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "monster_frozen": {
+            "file": "monster_front_frozen.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 1.8,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "monster_ice": {
+            "file": "monster_ice.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 1.8,
+                "y": 0
+            },
+            "scale": {
+                "x": 1.4,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.9
+            },
+            "type": "sprite"
+        }
+    }
+}

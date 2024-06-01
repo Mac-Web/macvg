@@ -1,0 +1,107 @@
+{
+    "name": "character1_stand",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "base/eye": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "face_eye.png"
+                },
+                {
+                    "frame": 100,
+                    "value": "face_eye.png"
+                },
+                {
+                    "frame": 120,
+                    "value": "face1_eye1.png"
+                },
+                {
+                    "frame": 140,
+                    "value": "face1_eye2.png"
+                },
+                {
+                    "frame": 160,
+                    "value": "face1_eye3.png"
+                },
+                {
+                    "frame": 180,
+                    "value": "face1_eye4.png"
+                },
+                {
+                    "frame": 200,
+                    "value": "face1_eye5.png"
+                },
+                {
+                    "frame": 260,
+                    "value": "face1_eye5.png"
+                },
+                {
+                    "frame": 280,
+                    "value": "face1_eye4.png"
+                },
+                {
+                    "frame": 300,
+                    "value": "face1_eye3.png"
+                },
+                {
+                    "frame": 320,
+                    "value": "face1_eye2.png"
+                },
+                {
+                    "frame": 340,
+                    "value": "face1_eye1.png"
+                },
+                {
+                    "frame": 360,
+                    "value": "face_eye.png"
+                },
+                {
+                    "frame": 600,
+                    "value": "face1_eye1.png"
+                },
+                {
+                    "frame": 620,
+                    "value": "face1_eye2.png"
+                },
+                {
+                    "frame": 640,
+                    "value": "face1_eye3.png"
+                },
+                {
+                    "frame": 660,
+                    "value": "face1_eye4.png"
+                },
+                {
+                    "frame": 680,
+                    "value": "face1_eye5.png"
+                },
+                {
+                    "frame": 740,
+                    "value": "face1_eye4.png"
+                },
+                {
+                    "frame": 760,
+                    "value": "face1_eye3.png"
+                },
+                {
+                    "frame": 780,
+                    "value": "face1_eye2.png"
+                },
+                {
+                    "frame": 800,
+                    "value": "face1_eye1.png"
+                },
+                {
+                    "frame": 820,
+                    "value": "face_eye.png"
+                },
+                {
+                    "frame": 1700,
+                    "value": "face_eye.png"
+                }
+            ]
+        }
+    }
+}

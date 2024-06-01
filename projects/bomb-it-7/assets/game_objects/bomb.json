@@ -1,0 +1,50 @@
+{
+    "hierarchy": {
+        "name": "bomb",
+        "children": [
+            {
+                "name": "bomb_shadow"
+            },
+            {
+                "name": "bomb_base",
+                "children": [
+                    {
+                        "name": "bomb_fire"
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "bomb_anim"
+        ]
+    },
+    "properties": {
+        "bomb_shadow": {
+            "file": "bomb_shadow.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "bomb_base": {
+            "file": "bomb_base.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -30.9
+            },
+            "type": "sprite"
+        },
+        "bomb_base/bomb_fire": {
+            "file": "bomb_fire_anim1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 15.2,
+                "y": -24.4
+            },
+            "type": "sprite"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "face1_pause",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "dizzy_r": {
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ]
+        },
+        "dizzy_l": {
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ]
+        }
+    }
+}

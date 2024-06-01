@@ -1,0 +1,49 @@
+{
+    "hierarchy": {
+        "name": "hammock",
+        "children": [
+            {
+                "name": "tree1"
+            },
+            {
+                "name": "hammock_base"
+            },
+            {
+                "name": "tree2"
+            }
+        ],
+        "animations": [
+            "hammock_horizontal",
+            "hammock_vertical"
+        ]
+    },
+    "properties": {
+        "tree1": {
+            "file": "hammock_tree.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -3.2,
+                "y": -69
+            },
+            "type": "sprite"
+        },
+        "hammock_base": {
+            "file": "hammock_front1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 1.6,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "tree2": {
+            "file": "hammock_tree.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -3.8,
+                "y": 37.9
+            },
+            "type": "sprite"
+        }
+    }
+}

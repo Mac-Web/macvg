@@ -1,0 +1,53 @@
+{
+    "name": "icon_anim",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "icon_shadow": {
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 667,
+                    "value": 0.9
+                },
+                {
+                    "frame": 1333,
+                    "value": 1
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 667,
+                    "value": 0.46
+                },
+                {
+                    "frame": 1333,
+                    "value": 1
+                }
+            ]
+        },
+        "icon_base": {
+            "y": [
+                {
+                    "frame": 0,
+                    "value": -39.3
+                },
+                {
+                    "frame": 667,
+                    "value": -50.7
+                },
+                {
+                    "frame": 1333,
+                    "value": -39.3
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,3066 @@
+{
+    "name": "doll_bomb_up",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "doll_center_small": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        0,
+                        -99.2
+                    ]
+                },
+                {
+                    "frame": 462,
+                    "value": [
+                        0,
+                        -99.2
+                    ]
+                },
+                {
+                    "frame": 885,
+                    "value": [
+                        -1.3,
+                        -328.6
+                    ]
+                },
+                {
+                    "frame": 1154,
+                    "value": [
+                        -1.4,
+                        -219.7
+                    ]
+                },
+                {
+                    "frame": 3654,
+                    "value": [
+                        -0.4,
+                        -67.4
+                    ]
+                },
+                {
+                    "frame": 3846,
+                    "value": [
+                        -0.4,
+                        -38.5
+                    ]
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 462,
+                    "value": 1
+                },
+                {
+                    "frame": 885,
+                    "value": 2
+                },
+                {
+                    "frame": 3654,
+                    "value": 1.4
+                },
+                {
+                    "frame": 3846,
+                    "value": 1.3
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 462,
+                    "value": 1
+                },
+                {
+                    "frame": 885,
+                    "value": 2
+                },
+                {
+                    "frame": 3654,
+                    "value": 1.4
+                },
+                {
+                    "frame": 3846,
+                    "value": 1.3
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 846,
+                    "value": 1
+                },
+                {
+                    "frame": 885,
+                    "value": 0
+                },
+                {
+                    "frame": 3654,
+                    "value": 0
+                },
+                {
+                    "frame": 3692,
+                    "value": 1
+                },
+                {
+                    "frame": 3846,
+                    "value": 0
+                }
+            ]
+        },
+        "doll_center_big": {
+            "scaleX": [
+                {
+                    "frame": 885,
+                    "value": 1
+                },
+                {
+                    "frame": 1154,
+                    "value": 1.2
+                },
+                {
+                    "frame": 1462,
+                    "value": 1.3
+                },
+                {
+                    "frame": 1615,
+                    "value": 1.1
+                },
+                {
+                    "frame": 1808,
+                    "value": 0.9
+                },
+                {
+                    "frame": 2115,
+                    "value": 1.2
+                },
+                {
+                    "frame": 2462,
+                    "value": 0.9
+                },
+                {
+                    "frame": 2769,
+                    "value": 1.2
+                },
+                {
+                    "frame": 3115,
+                    "value": 1
+                },
+                {
+                    "frame": 3385,
+                    "value": 1
+                },
+                {
+                    "frame": 3538,
+                    "value": 0.8
+                },
+                {
+                    "frame": 3654,
+                    "value": 0.65
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 885,
+                    "value": 1.1
+                },
+                {
+                    "frame": 1154,
+                    "value": 1.2
+                },
+                {
+                    "frame": 1462,
+                    "value": 1.3
+                },
+                {
+                    "frame": 1615,
+                    "value": 1.1
+                },
+                {
+                    "frame": 1808,
+                    "value": 0.9
+                },
+                {
+                    "frame": 2115,
+                    "value": 1.2
+                },
+                {
+                    "frame": 2462,
+                    "value": 0.9
+                },
+                {
+                    "frame": 2769,
+                    "value": 1.2
+                },
+                {
+                    "frame": 3115,
+                    "value": 1
+                },
+                {
+                    "frame": 3385,
+                    "value": 1
+                },
+                {
+                    "frame": 3538,
+                    "value": 0.9
+                },
+                {
+                    "frame": 3654,
+                    "value": 0.65
+                }
+            ],
+            "position": [
+                {
+                    "frame": 885,
+                    "value": [
+                        -1.4,
+                        -331.3
+                    ]
+                },
+                {
+                    "frame": 3538,
+                    "value": [
+                        -1.4,
+                        -331.3
+                    ]
+                },
+                {
+                    "frame": 3654,
+                    "value": [
+                        -1.4,
+                        -76.4
+                    ]
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 846,
+                    "value": 0
+                },
+                {
+                    "frame": 885,
+                    "value": 1
+                },
+                {
+                    "frame": 3654,
+                    "value": 1
+                },
+                {
+                    "frame": 3692,
+                    "value": 0
+                }
+            ]
+        },
+        "doll_shine": {
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": -125
+                },
+                {
+                    "frame": 154,
+                    "value": -49
+                },
+                {
+                    "frame": 269,
+                    "value": -12
+                },
+                {
+                    "frame": 385,
+                    "value": 31
+                },
+                {
+                    "frame": 500,
+                    "value": 125
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 0.4
+                },
+                {
+                    "frame": 154,
+                    "value": 0.4
+                },
+                {
+                    "frame": 269,
+                    "value": 0.5
+                },
+                {
+                    "frame": 385,
+                    "value": 0.6
+                },
+                {
+                    "frame": 500,
+                    "value": 0.5
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 0.4
+                },
+                {
+                    "frame": 154,
+                    "value": 0.4
+                },
+                {
+                    "frame": 269,
+                    "value": 0.5
+                },
+                {
+                    "frame": 385,
+                    "value": 0.6
+                },
+                {
+                    "frame": 500,
+                    "value": 0.5
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 154,
+                    "value": 1
+                },
+                {
+                    "frame": 385,
+                    "value": 1
+                },
+                {
+                    "frame": 500,
+                    "value": 0
+                }
+            ]
+        },
+        "base/doll_fx": {
+            "frameName": [
+                {
+                    "frame": 885,
+                    "value": "fx_yellow15.png"
+                },
+                {
+                    "frame": 923,
+                    "value": "fx_yellow1.png"
+                },
+                {
+                    "frame": 962,
+                    "value": "fx_yellow2.png"
+                },
+                {
+                    "frame": 1000,
+                    "value": "fx_yellow3.png"
+                },
+                {
+                    "frame": 1038,
+                    "value": "fx_yellow4.png"
+                },
+                {
+                    "frame": 1077,
+                    "value": "fx_yellow5.png"
+                },
+                {
+                    "frame": 1115,
+                    "value": "fx_yellow6.png"
+                },
+                {
+                    "frame": 1154,
+                    "value": "fx_yellow7.png"
+                },
+                {
+                    "frame": 1192,
+                    "value": "fx_yellow8.png"
+                },
+                {
+                    "frame": 1231,
+                    "value": "fx_yellow9.png"
+                },
+                {
+                    "frame": 1269,
+                    "value": "fx_yellow10.png"
+                },
+                {
+                    "frame": 1308,
+                    "value": "fx_yellow11.png"
+                },
+                {
+                    "frame": 1346,
+                    "value": "fx_yellow12.png"
+                },
+                {
+                    "frame": 1385,
+                    "value": "fx_yellow13.png"
+                },
+                {
+                    "frame": 1423,
+                    "value": "fx_yellow14.png"
+                },
+                {
+                    "frame": 1462,
+                    "value": "fx_yellow15.png"
+                }
+            ]
+        },
+        "base/doll_house_lava9": {
+            "alpha": [
+                {
+                    "frame": 1692,
+                    "value": 0
+                },
+                {
+                    "frame": 1846,
+                    "value": 1
+                },
+                {
+                    "frame": 2308,
+                    "value": 0
+                },
+                {
+                    "frame": 2769,
+                    "value": 1
+                },
+                {
+                    "frame": 3231,
+                    "value": 0
+                },
+                {
+                    "frame": 3692,
+                    "value": 1
+                },
+                {
+                    "frame": 3846,
+                    "value": 0
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 1654,
+                    "value": "tile_doll.png"
+                },
+                {
+                    "frame": 1692,
+                    "value": "tile_doll1.png"
+                },
+                {
+                    "frame": 1731,
+                    "value": "tile_doll2.png"
+                },
+                {
+                    "frame": 1769,
+                    "value": "tile_doll3.png"
+                },
+                {
+                    "frame": 1808,
+                    "value": "tile_doll4.png"
+                },
+                {
+                    "frame": 1846,
+                    "value": "tile_doll5.png"
+                },
+                {
+                    "frame": 1885,
+                    "value": "tile_doll6.png"
+                },
+                {
+                    "frame": 1923,
+                    "value": "tile_doll7.png"
+                },
+                {
+                    "frame": 1962,
+                    "value": "tile_doll8.png"
+                },
+                {
+                    "frame": 2000,
+                    "value": "tile_doll9.png"
+                },
+                {
+                    "frame": 2038,
+                    "value": "tile_doll10.png"
+                },
+                {
+                    "frame": 2077,
+                    "value": "tile_doll11.png"
+                },
+                {
+                    "frame": 2115,
+                    "value": "tile_doll12.png"
+                },
+                {
+                    "frame": 2154,
+                    "value": "tile_doll13.png"
+                },
+                {
+                    "frame": 2192,
+                    "value": "tile_doll14.png"
+                },
+                {
+                    "frame": 2231,
+                    "value": "tile_doll15.png"
+                },
+                {
+                    "frame": 2269,
+                    "value": "tile_doll16.png"
+                },
+                {
+                    "frame": 2308,
+                    "value": "tile_doll17.png"
+                },
+                {
+                    "frame": 2346,
+                    "value": "tile_doll18.png"
+                },
+                {
+                    "frame": 2385,
+                    "value": "tile_doll19.png"
+                },
+                {
+                    "frame": 2423,
+                    "value": "tile_doll20.png"
+                },
+                {
+                    "frame": 2462,
+                    "value": "tile_doll21.png"
+                },
+                {
+                    "frame": 2500,
+                    "value": "tile_doll22.png"
+                },
+                {
+                    "frame": 2538,
+                    "value": "tile_doll23.png"
+                },
+                {
+                    "frame": 2577,
+                    "value": "tile_doll24.png"
+                },
+                {
+                    "frame": 2615,
+                    "value": "tile_doll25.png"
+                },
+                {
+                    "frame": 2654,
+                    "value": "tile_doll26.png"
+                },
+                {
+                    "frame": 2692,
+                    "value": "tile_doll27.png"
+                },
+                {
+                    "frame": 2731,
+                    "value": "tile_doll28.png"
+                },
+                {
+                    "frame": 2769,
+                    "value": "tile_doll29.png"
+                },
+                {
+                    "frame": 2808,
+                    "value": "tile_doll30.png"
+                },
+                {
+                    "frame": 2846,
+                    "value": "tile_doll31.png"
+                },
+                {
+                    "frame": 2885,
+                    "value": "tile_doll32.png"
+                },
+                {
+                    "frame": 2923,
+                    "value": "tile_doll33.png"
+                },
+                {
+                    "frame": 2962,
+                    "value": "tile_doll34.png"
+                },
+                {
+                    "frame": 3000,
+                    "value": "tile_doll35.png"
+                },
+                {
+                    "frame": 3038,
+                    "value": "tile_doll36.png"
+                },
+                {
+                    "frame": 3077,
+                    "value": "tile_doll37.png"
+                },
+                {
+                    "frame": 3115,
+                    "value": "tile_doll38.png"
+                },
+                {
+                    "frame": 3154,
+                    "value": "tile_doll39.png"
+                },
+                {
+                    "frame": 3192,
+                    "value": "tile_doll40.png"
+                },
+                {
+                    "frame": 3269,
+                    "value": "tile_doll41.png"
+                },
+                {
+                    "frame": 3308,
+                    "value": "tile_doll42.png"
+                },
+                {
+                    "frame": 3346,
+                    "value": "tile_doll43.png"
+                },
+                {
+                    "frame": 3385,
+                    "value": "tile_doll44.png"
+                }
+            ]
+        },
+        "base/doll_house_lava8": {
+            "alpha": [
+                {
+                    "frame": 1692,
+                    "value": 0
+                },
+                {
+                    "frame": 1846,
+                    "value": 1
+                },
+                {
+                    "frame": 2308,
+                    "value": 0
+                },
+                {
+                    "frame": 2769,
+                    "value": 1
+                },
+                {
+                    "frame": 3231,
+                    "value": 0
+                },
+                {
+                    "frame": 3692,
+                    "value": 1
+                },
+                {
+                    "frame": 3846,
+                    "value": 0
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 1654,
+                    "value": "tile_doll.png"
+                },
+                {
+                    "frame": 1692,
+                    "value": "tile_doll1.png"
+                },
+                {
+                    "frame": 1731,
+                    "value": "tile_doll2.png"
+                },
+                {
+                    "frame": 1769,
+                    "value": "tile_doll3.png"
+                },
+                {
+                    "frame": 1808,
+                    "value": "tile_doll4.png"
+                },
+                {
+                    "frame": 1846,
+                    "value": "tile_doll5.png"
+                },
+                {
+                    "frame": 1885,
+                    "value": "tile_doll6.png"
+                },
+                {
+                    "frame": 1923,
+                    "value": "tile_doll7.png"
+                },
+                {
+                    "frame": 1962,
+                    "value": "tile_doll8.png"
+                },
+                {
+                    "frame": 2000,
+                    "value": "tile_doll9.png"
+                },
+                {
+                    "frame": 2038,
+                    "value": "tile_doll10.png"
+                },
+                {
+                    "frame": 2077,
+                    "value": "tile_doll11.png"
+                },
+                {
+                    "frame": 2115,
+                    "value": "tile_doll12.png"
+                },
+                {
+                    "frame": 2154,
+                    "value": "tile_doll13.png"
+                },
+                {
+                    "frame": 2192,
+                    "value": "tile_doll14.png"
+                },
+                {
+                    "frame": 2231,
+                    "value": "tile_doll15.png"
+                },
+                {
+                    "frame": 2269,
+                    "value": "tile_doll16.png"
+                },
+                {
+                    "frame": 2308,
+                    "value": "tile_doll17.png"
+                },
+                {
+                    "frame": 2346,
+                    "value": "tile_doll18.png"
+                },
+                {
+                    "frame": 2385,
+                    "value": "tile_doll19.png"
+                },
+                {
+                    "frame": 2423,
+                    "value": "tile_doll20.png"
+                },
+                {
+                    "frame": 2462,
+                    "value": "tile_doll21.png"
+                },
+                {
+                    "frame": 2500,
+                    "value": "tile_doll22.png"
+                },
+                {
+                    "frame": 2538,
+                    "value": "tile_doll23.png"
+                },
+                {
+                    "frame": 2577,
+                    "value": "tile_doll24.png"
+                },
+                {
+                    "frame": 2615,
+                    "value": "tile_doll25.png"
+                },
+                {
+                    "frame": 2654,
+                    "value": "tile_doll26.png"
+                },
+                {
+                    "frame": 2692,
+                    "value": "tile_doll27.png"
+                },
+                {
+                    "frame": 2731,
+                    "value": "tile_doll28.png"
+                },
+                {
+                    "frame": 2769,
+                    "value": "tile_doll29.png"
+                },
+                {
+                    "frame": 2808,
+                    "value": "tile_doll30.png"
+                },
+                {
+                    "frame": 2846,
+                    "value": "tile_doll31.png"
+                },
+                {
+                    "frame": 2885,
+                    "value": "tile_doll32.png"
+                },
+                {
+                    "frame": 2923,
+                    "value": "tile_doll33.png"
+                },
+                {
+                    "frame": 2962,
+                    "value": "tile_doll34.png"
+                },
+                {
+                    "frame": 3000,
+                    "value": "tile_doll35.png"
+                },
+                {
+                    "frame": 3038,
+                    "value": "tile_doll36.png"
+                },
+                {
+                    "frame": 3077,
+                    "value": "tile_doll37.png"
+                },
+                {
+                    "frame": 3115,
+                    "value": "tile_doll38.png"
+                },
+                {
+                    "frame": 3154,
+                    "value": "tile_doll39.png"
+                },
+                {
+                    "frame": 3192,
+                    "value": "tile_doll40.png"
+                },
+                {
+                    "frame": 3269,
+                    "value": "tile_doll41.png"
+                },
+                {
+                    "frame": 3308,
+                    "value": "tile_doll42.png"
+                },
+                {
+                    "frame": 3346,
+                    "value": "tile_doll43.png"
+                },
+                {
+                    "frame": 3385,
+                    "value": "tile_doll44.png"
+                }
+            ]
+        },
+        "base/doll_house_lava7": {
+            "alpha": [
+                {
+                    "frame": 1692,
+                    "value": 0
+                },
+                {
+                    "frame": 1846,
+                    "value": 1
+                },
+                {
+                    "frame": 2308,
+                    "value": 0
+                },
+                {
+                    "frame": 2769,
+                    "value": 1
+                },
+                {
+                    "frame": 3231,
+                    "value": 0
+                },
+                {
+                    "frame": 3692,
+                    "value": 1
+                },
+                {
+                    "frame": 3846,
+                    "value": 0
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 1654,
+                    "value": "tile_doll.png"
+                },
+                {
+                    "frame": 1692,
+                    "value": "tile_doll1.png"
+                },
+                {
+                    "frame": 1731,
+                    "value": "tile_doll2.png"
+                },
+                {
+                    "frame": 1769,
+                    "value": "tile_doll3.png"
+                },
+                {
+                    "frame": 1808,
+                    "value": "tile_doll4.png"
+                },
+                {
+                    "frame": 1846,
+                    "value": "tile_doll5.png"
+                },
+                {
+                    "frame": 1885,
+                    "value": "tile_doll6.png"
+                },
+                {
+                    "frame": 1923,
+                    "value": "tile_doll7.png"
+                },
+                {
+                    "frame": 1962,
+                    "value": "tile_doll8.png"
+                },
+                {
+                    "frame": 2000,
+                    "value": "tile_doll9.png"
+                },
+                {
+                    "frame": 2038,
+                    "value": "tile_doll10.png"
+                },
+                {
+                    "frame": 2077,
+                    "value": "tile_doll11.png"
+                },
+                {
+                    "frame": 2115,
+                    "value": "tile_doll12.png"
+                },
+                {
+                    "frame": 2154,
+                    "value": "tile_doll13.png"
+                },
+                {
+                    "frame": 2192,
+                    "value": "tile_doll14.png"
+                },
+                {
+                    "frame": 2231,
+                    "value": "tile_doll15.png"
+                },
+                {
+                    "frame": 2269,
+                    "value": "tile_doll16.png"
+                },
+                {
+                    "frame": 2308,
+                    "value": "tile_doll17.png"
+                },
+                {
+                    "frame": 2346,
+                    "value": "tile_doll18.png"
+                },
+                {
+                    "frame": 2385,
+                    "value": "tile_doll19.png"
+                },
+                {
+                    "frame": 2423,
+                    "value": "tile_doll20.png"
+                },
+                {
+                    "frame": 2462,
+                    "value": "tile_doll21.png"
+                },
+                {
+                    "frame": 2500,
+                    "value": "tile_doll22.png"
+                },
+                {
+                    "frame": 2538,
+                    "value": "tile_doll23.png"
+                },
+                {
+                    "frame": 2577,
+                    "value": "tile_doll24.png"
+                },
+                {
+                    "frame": 2615,
+                    "value": "tile_doll25.png"
+                },
+                {
+                    "frame": 2654,
+                    "value": "tile_doll26.png"
+                },
+                {
+                    "frame": 2692,
+                    "value": "tile_doll27.png"
+                },
+                {
+                    "frame": 2731,
+                    "value": "tile_doll28.png"
+                },
+                {
+                    "frame": 2769,
+                    "value": "tile_doll29.png"
+                },
+                {
+                    "frame": 2808,
+                    "value": "tile_doll30.png"
+                },
+                {
+                    "frame": 2846,
+                    "value": "tile_doll31.png"
+                },
+                {
+                    "frame": 2885,
+                    "value": "tile_doll32.png"
+                },
+                {
+                    "frame": 2923,
+                    "value": "tile_doll33.png"
+                },
+                {
+                    "frame": 2962,
+                    "value": "tile_doll34.png"
+                },
+                {
+                    "frame": 3000,
+                    "value": "tile_doll35.png"
+                },
+                {
+                    "frame": 3038,
+                    "value": "tile_doll36.png"
+                },
+                {
+                    "frame": 3077,
+                    "value": "tile_doll37.png"
+                },
+                {
+                    "frame": 3115,
+                    "value": "tile_doll38.png"
+                },
+                {
+                    "frame": 3154,
+                    "value": "tile_doll39.png"
+                },
+                {
+                    "frame": 3192,
+                    "value": "tile_doll40.png"
+                },
+                {
+                    "frame": 3269,
+                    "value": "tile_doll41.png"
+                },
+                {
+                    "frame": 3308,
+                    "value": "tile_doll42.png"
+                },
+                {
+                    "frame": 3346,
+                    "value": "tile_doll43.png"
+                },
+                {
+                    "frame": 3385,
+                    "value": "tile_doll44.png"
+                }
+            ]
+        },
+        "base/doll_house_lava6": {
+            "alpha": [
+                {
+                    "frame": 1692,
+                    "value": 0
+                },
+                {
+                    "frame": 1846,
+                    "value": 1
+                },
+                {
+                    "frame": 2308,
+                    "value": 0
+                },
+                {
+                    "frame": 2769,
+                    "value": 1
+                },
+                {
+                    "frame": 3231,
+                    "value": 0
+                },
+                {
+                    "frame": 3692,
+                    "value": 1
+                },
+                {
+                    "frame": 3846,
+                    "value": 0
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 1654,
+                    "value": "tile_doll.png"
+                },
+                {
+                    "frame": 1692,
+                    "value": "tile_doll1.png"
+                },
+                {
+                    "frame": 1731,
+                    "value": "tile_doll2.png"
+                },
+                {
+                    "frame": 1769,
+                    "value": "tile_doll3.png"
+                },
+                {
+                    "frame": 1808,
+                    "value": "tile_doll4.png"
+                },
+                {
+                    "frame": 1846,
+                    "value": "tile_doll5.png"
+                },
+                {
+                    "frame": 1885,
+                    "value": "tile_doll6.png"
+                },
+                {
+                    "frame": 1923,
+                    "value": "tile_doll7.png"
+                },
+                {
+                    "frame": 1962,
+                    "value": "tile_doll8.png"
+                },
+                {
+                    "frame": 2000,
+                    "value": "tile_doll9.png"
+                },
+                {
+                    "frame": 2038,
+                    "value": "tile_doll10.png"
+                },
+                {
+                    "frame": 2077,
+                    "value": "tile_doll11.png"
+                },
+                {
+                    "frame": 2115,
+                    "value": "tile_doll12.png"
+                },
+                {
+                    "frame": 2154,
+                    "value": "tile_doll13.png"
+                },
+                {
+                    "frame": 2192,
+                    "value": "tile_doll14.png"
+                },
+                {
+                    "frame": 2231,
+                    "value": "tile_doll15.png"
+                },
+                {
+                    "frame": 2269,
+                    "value": "tile_doll16.png"
+                },
+                {
+                    "frame": 2308,
+                    "value": "tile_doll17.png"
+                },
+                {
+                    "frame": 2346,
+                    "value": "tile_doll18.png"
+                },
+                {
+                    "frame": 2385,
+                    "value": "tile_doll19.png"
+                },
+                {
+                    "frame": 2423,
+                    "value": "tile_doll20.png"
+                },
+                {
+                    "frame": 2462,
+                    "value": "tile_doll21.png"
+                },
+                {
+                    "frame": 2500,
+                    "value": "tile_doll22.png"
+                },
+                {
+                    "frame": 2538,
+                    "value": "tile_doll23.png"
+                },
+                {
+                    "frame": 2577,
+                    "value": "tile_doll24.png"
+                },
+                {
+                    "frame": 2615,
+                    "value": "tile_doll25.png"
+                },
+                {
+                    "frame": 2654,
+                    "value": "tile_doll26.png"
+                },
+                {
+                    "frame": 2692,
+                    "value": "tile_doll27.png"
+                },
+                {
+                    "frame": 2731,
+                    "value": "tile_doll28.png"
+                },
+                {
+                    "frame": 2769,
+                    "value": "tile_doll29.png"
+                },
+                {
+                    "frame": 2808,
+                    "value": "tile_doll30.png"
+                },
+                {
+                    "frame": 2846,
+                    "value": "tile_doll31.png"
+                },
+                {
+                    "frame": 2885,
+                    "value": "tile_doll32.png"
+                },
+                {
+                    "frame": 2923,
+                    "value": "tile_doll33.png"
+                },
+                {
+                    "frame": 2962,
+                    "value": "tile_doll34.png"
+                },
+                {
+                    "frame": 3000,
+                    "value": "tile_doll35.png"
+                },
+                {
+                    "frame": 3038,
+                    "value": "tile_doll36.png"
+                },
+                {
+                    "frame": 3077,
+                    "value": "tile_doll37.png"
+                },
+                {
+                    "frame": 3115,
+                    "value": "tile_doll38.png"
+                },
+                {
+                    "frame": 3154,
+                    "value": "tile_doll39.png"
+                },
+                {
+                    "frame": 3192,
+                    "value": "tile_doll40.png"
+                },
+                {
+                    "frame": 3269,
+                    "value": "tile_doll41.png"
+                },
+                {
+                    "frame": 3308,
+                    "value": "tile_doll42.png"
+                },
+                {
+                    "frame": 3346,
+                    "value": "tile_doll43.png"
+                },
+                {
+                    "frame": 3385,
+                    "value": "tile_doll44.png"
+                }
+            ]
+        },
+        "base/doll_house_lava5": {
+            "alpha": [
+                {
+                    "frame": 1692,
+                    "value": 0
+                },
+                {
+                    "frame": 1846,
+                    "value": 1
+                },
+                {
+                    "frame": 2308,
+                    "value": 0
+                },
+                {
+                    "frame": 2769,
+                    "value": 1
+                },
+                {
+                    "frame": 3231,
+                    "value": 0
+                },
+                {
+                    "frame": 3692,
+                    "value": 1
+                },
+                {
+                    "frame": 3846,
+                    "value": 0
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 1654,
+                    "value": "tile_doll.png"
+                },
+                {
+                    "frame": 1692,
+                    "value": "tile_doll1.png"
+                },
+                {
+                    "frame": 1731,
+                    "value": "tile_doll2.png"
+                },
+                {
+                    "frame": 1769,
+                    "value": "tile_doll3.png"
+                },
+                {
+                    "frame": 1808,
+                    "value": "tile_doll4.png"
+                },
+                {
+                    "frame": 1846,
+                    "value": "tile_doll5.png"
+                },
+                {
+                    "frame": 1885,
+                    "value": "tile_doll6.png"
+                },
+                {
+                    "frame": 1923,
+                    "value": "tile_doll7.png"
+                },
+                {
+                    "frame": 1962,
+                    "value": "tile_doll8.png"
+                },
+                {
+                    "frame": 2000,
+                    "value": "tile_doll9.png"
+                },
+                {
+                    "frame": 2038,
+                    "value": "tile_doll10.png"
+                },
+                {
+                    "frame": 2077,
+                    "value": "tile_doll11.png"
+                },
+                {
+                    "frame": 2115,
+                    "value": "tile_doll12.png"
+                },
+                {
+                    "frame": 2154,
+                    "value": "tile_doll13.png"
+                },
+                {
+                    "frame": 2192,
+                    "value": "tile_doll14.png"
+                },
+                {
+                    "frame": 2231,
+                    "value": "tile_doll15.png"
+                },
+                {
+                    "frame": 2269,
+                    "value": "tile_doll16.png"
+                },
+                {
+                    "frame": 2308,
+                    "value": "tile_doll17.png"
+                },
+                {
+                    "frame": 2346,
+                    "value": "tile_doll18.png"
+                },
+                {
+                    "frame": 2385,
+                    "value": "tile_doll19.png"
+                },
+                {
+                    "frame": 2423,
+                    "value": "tile_doll20.png"
+                },
+                {
+                    "frame": 2462,
+                    "value": "tile_doll21.png"
+                },
+                {
+                    "frame": 2500,
+                    "value": "tile_doll22.png"
+                },
+                {
+                    "frame": 2538,
+                    "value": "tile_doll23.png"
+                },
+                {
+                    "frame": 2577,
+                    "value": "tile_doll24.png"
+                },
+                {
+                    "frame": 2615,
+                    "value": "tile_doll25.png"
+                },
+                {
+                    "frame": 2654,
+                    "value": "tile_doll26.png"
+                },
+                {
+                    "frame": 2692,
+                    "value": "tile_doll27.png"
+                },
+                {
+                    "frame": 2731,
+                    "value": "tile_doll28.png"
+                },
+                {
+                    "frame": 2769,
+                    "value": "tile_doll29.png"
+                },
+                {
+                    "frame": 2808,
+                    "value": "tile_doll30.png"
+                },
+                {
+                    "frame": 2846,
+                    "value": "tile_doll31.png"
+                },
+                {
+                    "frame": 2885,
+                    "value": "tile_doll32.png"
+                },
+                {
+                    "frame": 2923,
+                    "value": "tile_doll33.png"
+                },
+                {
+                    "frame": 2962,
+                    "value": "tile_doll34.png"
+                },
+                {
+                    "frame": 3000,
+                    "value": "tile_doll35.png"
+                },
+                {
+                    "frame": 3038,
+                    "value": "tile_doll36.png"
+                },
+                {
+                    "frame": 3077,
+                    "value": "tile_doll37.png"
+                },
+                {
+                    "frame": 3115,
+                    "value": "tile_doll38.png"
+                },
+                {
+                    "frame": 3154,
+                    "value": "tile_doll39.png"
+                },
+                {
+                    "frame": 3192,
+                    "value": "tile_doll40.png"
+                },
+                {
+                    "frame": 3269,
+                    "value": "tile_doll41.png"
+                },
+                {
+                    "frame": 3308,
+                    "value": "tile_doll42.png"
+                },
+                {
+                    "frame": 3346,
+                    "value": "tile_doll43.png"
+                },
+                {
+                    "frame": 3385,
+                    "value": "tile_doll44.png"
+                }
+            ]
+        },
+        "base/doll_house_lava4": {
+            "alpha": [
+                {
+                    "frame": 1692,
+                    "value": 0
+                },
+                {
+                    "frame": 1846,
+                    "value": 1
+                },
+                {
+                    "frame": 2308,
+                    "value": 0
+                },
+                {
+                    "frame": 2769,
+                    "value": 1
+                },
+                {
+                    "frame": 3231,
+                    "value": 0
+                },
+                {
+                    "frame": 3692,
+                    "value": 1
+                },
+                {
+                    "frame": 3846,
+                    "value": 0
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 1654,
+                    "value": "tile_doll.png"
+                },
+                {
+                    "frame": 1692,
+                    "value": "tile_doll1.png"
+                },
+                {
+                    "frame": 1731,
+                    "value": "tile_doll2.png"
+                },
+                {
+                    "frame": 1769,
+                    "value": "tile_doll3.png"
+                },
+                {
+                    "frame": 1808,
+                    "value": "tile_doll4.png"
+                },
+                {
+                    "frame": 1846,
+                    "value": "tile_doll5.png"
+                },
+                {
+                    "frame": 1885,
+                    "value": "tile_doll6.png"
+                },
+                {
+                    "frame": 1923,
+                    "value": "tile_doll7.png"
+                },
+                {
+                    "frame": 1962,
+                    "value": "tile_doll8.png"
+                },
+                {
+                    "frame": 2000,
+                    "value": "tile_doll9.png"
+                },
+                {
+                    "frame": 2038,
+                    "value": "tile_doll10.png"
+                },
+                {
+                    "frame": 2077,
+                    "value": "tile_doll11.png"
+                },
+                {
+                    "frame": 2115,
+                    "value": "tile_doll12.png"
+                },
+                {
+                    "frame": 2154,
+                    "value": "tile_doll13.png"
+                },
+                {
+                    "frame": 2192,
+                    "value": "tile_doll14.png"
+                },
+                {
+                    "frame": 2231,
+                    "value": "tile_doll15.png"
+                },
+                {
+                    "frame": 2269,
+                    "value": "tile_doll16.png"
+                },
+                {
+                    "frame": 2308,
+                    "value": "tile_doll17.png"
+                },
+                {
+                    "frame": 2346,
+                    "value": "tile_doll18.png"
+                },
+                {
+                    "frame": 2385,
+                    "value": "tile_doll19.png"
+                },
+                {
+                    "frame": 2423,
+                    "value": "tile_doll20.png"
+                },
+                {
+                    "frame": 2462,
+                    "value": "tile_doll21.png"
+                },
+                {
+                    "frame": 2500,
+                    "value": "tile_doll22.png"
+                },
+                {
+                    "frame": 2538,
+                    "value": "tile_doll23.png"
+                },
+                {
+                    "frame": 2577,
+                    "value": "tile_doll24.png"
+                },
+                {
+                    "frame": 2615,
+                    "value": "tile_doll25.png"
+                },
+                {
+                    "frame": 2654,
+                    "value": "tile_doll26.png"
+                },
+                {
+                    "frame": 2692,
+                    "value": "tile_doll27.png"
+                },
+                {
+                    "frame": 2731,
+                    "value": "tile_doll28.png"
+                },
+                {
+                    "frame": 2769,
+                    "value": "tile_doll29.png"
+                },
+                {
+                    "frame": 2808,
+                    "value": "tile_doll30.png"
+                },
+                {
+                    "frame": 2846,
+                    "value": "tile_doll31.png"
+                },
+                {
+                    "frame": 2885,
+                    "value": "tile_doll32.png"
+                },
+                {
+                    "frame": 2923,
+                    "value": "tile_doll33.png"
+                },
+                {
+                    "frame": 2962,
+                    "value": "tile_doll34.png"
+                },
+                {
+                    "frame": 3000,
+                    "value": "tile_doll35.png"
+                },
+                {
+                    "frame": 3038,
+                    "value": "tile_doll36.png"
+                },
+                {
+                    "frame": 3077,
+                    "value": "tile_doll37.png"
+                },
+                {
+                    "frame": 3115,
+                    "value": "tile_doll38.png"
+                },
+                {
+                    "frame": 3154,
+                    "value": "tile_doll39.png"
+                },
+                {
+                    "frame": 3192,
+                    "value": "tile_doll40.png"
+                },
+                {
+                    "frame": 3269,
+                    "value": "tile_doll41.png"
+                },
+                {
+                    "frame": 3308,
+                    "value": "tile_doll42.png"
+                },
+                {
+                    "frame": 3346,
+                    "value": "tile_doll43.png"
+                },
+                {
+                    "frame": 3385,
+                    "value": "tile_doll44.png"
+                }
+            ]
+        },
+        "base/doll_house_lava3": {
+            "alpha": [
+                {
+                    "frame": 1692,
+                    "value": 0
+                },
+                {
+                    "frame": 1846,
+                    "value": 1
+                },
+                {
+                    "frame": 2308,
+                    "value": 0
+                },
+                {
+                    "frame": 2769,
+                    "value": 1
+                },
+                {
+                    "frame": 3231,
+                    "value": 0
+                },
+                {
+                    "frame": 3692,
+                    "value": 1
+                },
+                {
+                    "frame": 3846,
+                    "value": 0
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 1654,
+                    "value": "tile_doll.png"
+                },
+                {
+                    "frame": 1692,
+                    "value": "tile_doll1.png"
+                },
+                {
+                    "frame": 1731,
+                    "value": "tile_doll2.png"
+                },
+                {
+                    "frame": 1769,
+                    "value": "tile_doll3.png"
+                },
+                {
+                    "frame": 1808,
+                    "value": "tile_doll4.png"
+                },
+                {
+                    "frame": 1846,
+                    "value": "tile_doll5.png"
+                },
+                {
+                    "frame": 1885,
+                    "value": "tile_doll6.png"
+                },
+                {
+                    "frame": 1923,
+                    "value": "tile_doll7.png"
+                },
+                {
+                    "frame": 1962,
+                    "value": "tile_doll8.png"
+                },
+                {
+                    "frame": 2000,
+                    "value": "tile_doll9.png"
+                },
+                {
+                    "frame": 2038,
+                    "value": "tile_doll10.png"
+                },
+                {
+                    "frame": 2077,
+                    "value": "tile_doll11.png"
+                },
+                {
+                    "frame": 2115,
+                    "value": "tile_doll12.png"
+                },
+                {
+                    "frame": 2154,
+                    "value": "tile_doll13.png"
+                },
+                {
+                    "frame": 2192,
+                    "value": "tile_doll14.png"
+                },
+                {
+                    "frame": 2231,
+                    "value": "tile_doll15.png"
+                },
+                {
+                    "frame": 2269,
+                    "value": "tile_doll16.png"
+                },
+                {
+                    "frame": 2308,
+                    "value": "tile_doll17.png"
+                },
+                {
+                    "frame": 2346,
+                    "value": "tile_doll18.png"
+                },
+                {
+                    "frame": 2385,
+                    "value": "tile_doll19.png"
+                },
+                {
+                    "frame": 2423,
+                    "value": "tile_doll20.png"
+                },
+                {
+                    "frame": 2462,
+                    "value": "tile_doll21.png"
+                },
+                {
+                    "frame": 2500,
+                    "value": "tile_doll22.png"
+                },
+                {
+                    "frame": 2538,
+                    "value": "tile_doll23.png"
+                },
+                {
+                    "frame": 2577,
+                    "value": "tile_doll24.png"
+                },
+                {
+                    "frame": 2615,
+                    "value": "tile_doll25.png"
+                },
+                {
+                    "frame": 2654,
+                    "value": "tile_doll26.png"
+                },
+                {
+                    "frame": 2692,
+                    "value": "tile_doll27.png"
+                },
+                {
+                    "frame": 2731,
+                    "value": "tile_doll28.png"
+                },
+                {
+                    "frame": 2769,
+                    "value": "tile_doll29.png"
+                },
+                {
+                    "frame": 2808,
+                    "value": "tile_doll30.png"
+                },
+                {
+                    "frame": 2846,
+                    "value": "tile_doll31.png"
+                },
+                {
+                    "frame": 2885,
+                    "value": "tile_doll32.png"
+                },
+                {
+                    "frame": 2923,
+                    "value": "tile_doll33.png"
+                },
+                {
+                    "frame": 2962,
+                    "value": "tile_doll34.png"
+                },
+                {
+                    "frame": 3000,
+                    "value": "tile_doll35.png"
+                },
+                {
+                    "frame": 3038,
+                    "value": "tile_doll36.png"
+                },
+                {
+                    "frame": 3077,
+                    "value": "tile_doll37.png"
+                },
+                {
+                    "frame": 3115,
+                    "value": "tile_doll38.png"
+                },
+                {
+                    "frame": 3154,
+                    "value": "tile_doll39.png"
+                },
+                {
+                    "frame": 3192,
+                    "value": "tile_doll40.png"
+                },
+                {
+                    "frame": 3269,
+                    "value": "tile_doll41.png"
+                },
+                {
+                    "frame": 3308,
+                    "value": "tile_doll42.png"
+                },
+                {
+                    "frame": 3346,
+                    "value": "tile_doll43.png"
+                },
+                {
+                    "frame": 3385,
+                    "value": "tile_doll44.png"
+                }
+            ]
+        },
+        "base/doll_house_lava2": {
+            "alpha": [
+                {
+                    "frame": 1692,
+                    "value": 0
+                },
+                {
+                    "frame": 1846,
+                    "value": 1
+                },
+                {
+                    "frame": 2308,
+                    "value": 0
+                },
+                {
+                    "frame": 2769,
+                    "value": 1
+                },
+                {
+                    "frame": 3231,
+                    "value": 0
+                },
+                {
+                    "frame": 3692,
+                    "value": 1
+                },
+                {
+                    "frame": 3846,
+                    "value": 0
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 1654,
+                    "value": "tile_doll.png"
+                },
+                {
+                    "frame": 1692,
+                    "value": "tile_doll1.png"
+                },
+                {
+                    "frame": 1731,
+                    "value": "tile_doll2.png"
+                },
+                {
+                    "frame": 1769,
+                    "value": "tile_doll3.png"
+                },
+                {
+                    "frame": 1808,
+                    "value": "tile_doll4.png"
+                },
+                {
+                    "frame": 1846,
+                    "value": "tile_doll5.png"
+                },
+                {
+                    "frame": 1885,
+                    "value": "tile_doll6.png"
+                },
+                {
+                    "frame": 1923,
+                    "value": "tile_doll7.png"
+                },
+                {
+                    "frame": 1962,
+                    "value": "tile_doll8.png"
+                },
+                {
+                    "frame": 2000,
+                    "value": "tile_doll9.png"
+                },
+                {
+                    "frame": 2038,
+                    "value": "tile_doll10.png"
+                },
+                {
+                    "frame": 2077,
+                    "value": "tile_doll11.png"
+                },
+                {
+                    "frame": 2115,
+                    "value": "tile_doll12.png"
+                },
+                {
+                    "frame": 2154,
+                    "value": "tile_doll13.png"
+                },
+                {
+                    "frame": 2192,
+                    "value": "tile_doll14.png"
+                },
+                {
+                    "frame": 2231,
+                    "value": "tile_doll15.png"
+                },
+                {
+                    "frame": 2269,
+                    "value": "tile_doll16.png"
+                },
+                {
+                    "frame": 2308,
+                    "value": "tile_doll17.png"
+                },
+                {
+                    "frame": 2346,
+                    "value": "tile_doll18.png"
+                },
+                {
+                    "frame": 2385,
+                    "value": "tile_doll19.png"
+                },
+                {
+                    "frame": 2423,
+                    "value": "tile_doll20.png"
+                },
+                {
+                    "frame": 2462,
+                    "value": "tile_doll21.png"
+                },
+                {
+                    "frame": 2500,
+                    "value": "tile_doll22.png"
+                },
+                {
+                    "frame": 2538,
+                    "value": "tile_doll23.png"
+                },
+                {
+                    "frame": 2577,
+                    "value": "tile_doll24.png"
+                },
+                {
+                    "frame": 2615,
+                    "value": "tile_doll25.png"
+                },
+                {
+                    "frame": 2654,
+                    "value": "tile_doll26.png"
+                },
+                {
+                    "frame": 2692,
+                    "value": "tile_doll27.png"
+                },
+                {
+                    "frame": 2731,
+                    "value": "tile_doll28.png"
+                },
+                {
+                    "frame": 2769,
+                    "value": "tile_doll29.png"
+                },
+                {
+                    "frame": 2808,
+                    "value": "tile_doll30.png"
+                },
+                {
+                    "frame": 2846,
+                    "value": "tile_doll31.png"
+                },
+                {
+                    "frame": 2885,
+                    "value": "tile_doll32.png"
+                },
+                {
+                    "frame": 2923,
+                    "value": "tile_doll33.png"
+                },
+                {
+                    "frame": 2962,
+                    "value": "tile_doll34.png"
+                },
+                {
+                    "frame": 3000,
+                    "value": "tile_doll35.png"
+                },
+                {
+                    "frame": 3038,
+                    "value": "tile_doll36.png"
+                },
+                {
+                    "frame": 3077,
+                    "value": "tile_doll37.png"
+                },
+                {
+                    "frame": 3115,
+                    "value": "tile_doll38.png"
+                },
+                {
+                    "frame": 3154,
+                    "value": "tile_doll39.png"
+                },
+                {
+                    "frame": 3192,
+                    "value": "tile_doll40.png"
+                },
+                {
+                    "frame": 3269,
+                    "value": "tile_doll41.png"
+                },
+                {
+                    "frame": 3308,
+                    "value": "tile_doll42.png"
+                },
+                {
+                    "frame": 3346,
+                    "value": "tile_doll43.png"
+                },
+                {
+                    "frame": 3385,
+                    "value": "tile_doll44.png"
+                }
+            ]
+        },
+        "base/doll_house_lava1": {
+            "alpha": [
+                {
+                    "frame": 1692,
+                    "value": 0
+                },
+                {
+                    "frame": 1846,
+                    "value": 1
+                },
+                {
+                    "frame": 2308,
+                    "value": 0
+                },
+                {
+                    "frame": 2769,
+                    "value": 1
+                },
+                {
+                    "frame": 3231,
+                    "value": 0
+                },
+                {
+                    "frame": 3692,
+                    "value": 1
+                },
+                {
+                    "frame": 3846,
+                    "value": 0
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 1654,
+                    "value": "tile_doll.png"
+                },
+                {
+                    "frame": 1692,
+                    "value": "tile_doll1.png"
+                },
+                {
+                    "frame": 1731,
+                    "value": "tile_doll2.png"
+                },
+                {
+                    "frame": 1769,
+                    "value": "tile_doll3.png"
+                },
+                {
+                    "frame": 1808,
+                    "value": "tile_doll4.png"
+                },
+                {
+                    "frame": 1846,
+                    "value": "tile_doll5.png"
+                },
+                {
+                    "frame": 1885,
+                    "value": "tile_doll6.png"
+                },
+                {
+                    "frame": 1923,
+                    "value": "tile_doll7.png"
+                },
+                {
+                    "frame": 1962,
+                    "value": "tile_doll8.png"
+                },
+                {
+                    "frame": 2000,
+                    "value": "tile_doll9.png"
+                },
+                {
+                    "frame": 2038,
+                    "value": "tile_doll10.png"
+                },
+                {
+                    "frame": 2077,
+                    "value": "tile_doll11.png"
+                },
+                {
+                    "frame": 2115,
+                    "value": "tile_doll12.png"
+                },
+                {
+                    "frame": 2154,
+                    "value": "tile_doll13.png"
+                },
+                {
+                    "frame": 2192,
+                    "value": "tile_doll14.png"
+                },
+                {
+                    "frame": 2231,
+                    "value": "tile_doll15.png"
+                },
+                {
+                    "frame": 2269,
+                    "value": "tile_doll16.png"
+                },
+                {
+                    "frame": 2308,
+                    "value": "tile_doll17.png"
+                },
+                {
+                    "frame": 2346,
+                    "value": "tile_doll18.png"
+                },
+                {
+                    "frame": 2385,
+                    "value": "tile_doll19.png"
+                },
+                {
+                    "frame": 2423,
+                    "value": "tile_doll20.png"
+                },
+                {
+                    "frame": 2462,
+                    "value": "tile_doll21.png"
+                },
+                {
+                    "frame": 2500,
+                    "value": "tile_doll22.png"
+                },
+                {
+                    "frame": 2538,
+                    "value": "tile_doll23.png"
+                },
+                {
+                    "frame": 2577,
+                    "value": "tile_doll24.png"
+                },
+                {
+                    "frame": 2615,
+                    "value": "tile_doll25.png"
+                },
+                {
+                    "frame": 2654,
+                    "value": "tile_doll26.png"
+                },
+                {
+                    "frame": 2692,
+                    "value": "tile_doll27.png"
+                },
+                {
+                    "frame": 2731,
+                    "value": "tile_doll28.png"
+                },
+                {
+                    "frame": 2769,
+                    "value": "tile_doll29.png"
+                },
+                {
+                    "frame": 2808,
+                    "value": "tile_doll30.png"
+                },
+                {
+                    "frame": 2846,
+                    "value": "tile_doll31.png"
+                },
+                {
+                    "frame": 2885,
+                    "value": "tile_doll32.png"
+                },
+                {
+                    "frame": 2923,
+                    "value": "tile_doll33.png"
+                },
+                {
+                    "frame": 2962,
+                    "value": "tile_doll34.png"
+                },
+                {
+                    "frame": 3000,
+                    "value": "tile_doll35.png"
+                },
+                {
+                    "frame": 3038,
+                    "value": "tile_doll36.png"
+                },
+                {
+                    "frame": 3077,
+                    "value": "tile_doll37.png"
+                },
+                {
+                    "frame": 3115,
+                    "value": "tile_doll38.png"
+                },
+                {
+                    "frame": 3154,
+                    "value": "tile_doll39.png"
+                },
+                {
+                    "frame": 3192,
+                    "value": "tile_doll40.png"
+                },
+                {
+                    "frame": 3269,
+                    "value": "tile_doll41.png"
+                },
+                {
+                    "frame": 3308,
+                    "value": "tile_doll42.png"
+                },
+                {
+                    "frame": 3346,
+                    "value": "tile_doll43.png"
+                },
+                {
+                    "frame": 3385,
+                    "value": "tile_doll44.png"
+                }
+            ]
+        },
+        "base/doll6": {
+            "alpha": [
+                {
+                    "frame": 1423,
+                    "value": 0
+                },
+                {
+                    "frame": 1462,
+                    "value": 0.78
+                },
+                {
+                    "frame": 1538,
+                    "value": 0.78
+                },
+                {
+                    "frame": 3385,
+                    "value": 0.78
+                },
+                {
+                    "frame": 3423,
+                    "value": 0
+                }
+            ],
+            "position": [
+                {
+                    "frame": 1462,
+                    "value": [
+                        0,
+                        -123.5
+                    ]
+                },
+                {
+                    "frame": 1538,
+                    "value": [
+                        -1.5,
+                        -231.4
+                    ]
+                },
+                {
+                    "frame": 2269,
+                    "value": [
+                        -1.5,
+                        -231.4
+                    ]
+                },
+                {
+                    "frame": 2346,
+                    "value": [
+                        -1.5,
+                        -66.9
+                    ]
+                },
+                {
+                    "frame": 2423,
+                    "value": [
+                        -1.5,
+                        -231.4
+                    ]
+                },
+                {
+                    "frame": 2577,
+                    "value": [
+                        -1.5,
+                        -231.4
+                    ]
+                },
+                {
+                    "frame": 2654,
+                    "value": [
+                        -1.5,
+                        -68.9
+                    ]
+                },
+                {
+                    "frame": 2731,
+                    "value": [
+                        -1.5,
+                        -231.4
+                    ]
+                },
+                {
+                    "frame": 2923,
+                    "value": [
+                        -1.5,
+                        -231.4
+                    ]
+                },
+                {
+                    "frame": 3000,
+                    "value": [
+                        -1.5,
+                        -66.8
+                    ]
+                },
+                {
+                    "frame": 3077,
+                    "value": [
+                        -1.5,
+                        -231.4
+                    ]
+                },
+                {
+                    "frame": 3192,
+                    "value": [
+                        -1.5,
+                        -231.4
+                    ]
+                },
+                {
+                    "frame": 3385,
+                    "value": [
+                        0,
+                        -123.5
+                    ]
+                }
+            ]
+        },
+        "base/doll5": {
+            "alpha": [
+                {
+                    "frame": 1346,
+                    "value": 0
+                },
+                {
+                    "frame": 1385,
+                    "value": 0.78
+                },
+                {
+                    "frame": 1462,
+                    "value": 0.78
+                },
+                {
+                    "frame": 3385,
+                    "value": 0.78
+                },
+                {
+                    "frame": 3423,
+                    "value": 0
+                }
+            ],
+            "position": [
+                {
+                    "frame": 1385,
+                    "value": [
+                        0,
+                        -123.5
+                    ]
+                },
+                {
+                    "frame": 1462,
+                    "value": [
+                        -87.5,
+                        -179.3
+                    ]
+                },
+                {
+                    "frame": 2154,
+                    "value": [
+                        -87.5,
+                        -179.3
+                    ]
+                },
+                {
+                    "frame": 2231,
+                    "value": [
+                        54.7,
+                        -24.4
+                    ]
+                },
+                {
+                    "frame": 2308,
+                    "value": [
+                        -87.5,
+                        -179.3
+                    ]
+                },
+                {
+                    "frame": 2462,
+                    "value": [
+                        -87.5,
+                        -179.3
+                    ]
+                },
+                {
+                    "frame": 2538,
+                    "value": [
+                        46.3,
+                        -78.9
+                    ]
+                },
+                {
+                    "frame": 2615,
+                    "value": [
+                        -87.5,
+                        -179.3
+                    ]
+                },
+                {
+                    "frame": 2808,
+                    "value": [
+                        -87.5,
+                        -179.3
+                    ]
+                },
+                {
+                    "frame": 2885,
+                    "value": [
+                        47,
+                        -25.7
+                    ]
+                },
+                {
+                    "frame": 2962,
+                    "value": [
+                        -87.5,
+                        -179.3
+                    ]
+                },
+                {
+                    "frame": 3192,
+                    "value": [
+                        -87.5,
+                        -179.3
+                    ]
+                },
+                {
+                    "frame": 3385,
+                    "value": [
+                        0,
+                        -123.5
+                    ]
+                }
+            ]
+        },
+        "base/doll4": {
+            "position": [
+                {
+                    "frame": 1308,
+                    "value": [
+                        0,
+                        -123.5
+                    ]
+                },
+                {
+                    "frame": 1385,
+                    "value": [
+                        84.6,
+                        -179.3
+                    ]
+                },
+                {
+                    "frame": 2038,
+                    "value": [
+                        84.6,
+                        -179.3
+                    ]
+                },
+                {
+                    "frame": 2115,
+                    "value": [
+                        -57,
+                        -23.8
+                    ]
+                },
+                {
+                    "frame": 2192,
+                    "value": [
+                        84.6,
+                        -179.3
+                    ]
+                },
+                {
+                    "frame": 2346,
+                    "value": [
+                        84.6,
+                        -179.3
+                    ]
+                },
+                {
+                    "frame": 2423,
+                    "value": [
+                        -49.9,
+                        -70.1
+                    ]
+                },
+                {
+                    "frame": 2500,
+                    "value": [
+                        84.6,
+                        -179.3
+                    ]
+                },
+                {
+                    "frame": 2692,
+                    "value": [
+                        84.6,
+                        -179.3
+                    ]
+                },
+                {
+                    "frame": 2769,
+                    "value": [
+                        -48.5,
+                        -28.4
+                    ]
+                },
+                {
+                    "frame": 2846,
+                    "value": [
+                        84.6,
+                        -179.3
+                    ]
+                },
+                {
+                    "frame": 3192,
+                    "value": [
+                        84.6,
+                        -179.3
+                    ]
+                },
+                {
+                    "frame": 3385,
+                    "value": [
+                        0,
+                        -123.5
+                    ]
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 1269,
+                    "value": 0
+                },
+                {
+                    "frame": 1308,
+                    "value": 0.78
+                },
+                {
+                    "frame": 1385,
+                    "value": 0.78
+                },
+                {
+                    "frame": 3385,
+                    "value": 0.78
+                },
+                {
+                    "frame": 3423,
+                    "value": 0
+                }
+            ]
+        },
+        "base/doll2": {
+            "alpha": [
+                {
+                    "frame": 1500,
+                    "value": 0
+                },
+                {
+                    "frame": 1538,
+                    "value": 0.78
+                },
+                {
+                    "frame": 1615,
+                    "value": 0.78
+                },
+                {
+                    "frame": 3385,
+                    "value": 0.78
+                },
+                {
+                    "frame": 3423,
+                    "value": 0
+                }
+            ],
+            "position": [
+                {
+                    "frame": 1538,
+                    "value": [
+                        0,
+                        -123.5
+                    ]
+                },
+                {
+                    "frame": 1615,
+                    "value": [
+                        0,
+                        -36.2
+                    ]
+                },
+                {
+                    "frame": 2385,
+                    "value": [
+                        0,
+                        -36.2
+                    ]
+                },
+                {
+                    "frame": 2462,
+                    "value": [
+                        0,
+                        26.2
+                    ]
+                },
+                {
+                    "frame": 2538,
+                    "value": [
+                        0,
+                        -36.2
+                    ]
+                },
+                {
+                    "frame": 2692,
+                    "value": [
+                        0,
+                        -36.2
+                    ]
+                },
+                {
+                    "frame": 2769,
+                    "value": [
+                        0,
+                        26.8
+                    ]
+                },
+                {
+                    "frame": 2846,
+                    "value": [
+                        0,
+                        -36.2
+                    ]
+                },
+                {
+                    "frame": 3038,
+                    "value": [
+                        0,
+                        -36.2
+                    ]
+                },
+                {
+                    "frame": 3115,
+                    "value": [
+                        0,
+                        27.4
+                    ]
+                },
+                {
+                    "frame": 3192,
+                    "value": [
+                        0,
+                        -36.2
+                    ]
+                },
+                {
+                    "frame": 3385,
+                    "value": [
+                        0,
+                        -123.5
+                    ]
+                }
+            ]
+        },
+        "base/doll1": {
+            "position": [
+                {
+                    "frame": 1231,
+                    "value": [
+                        0,
+                        -123.5
+                    ]
+                },
+                {
+                    "frame": 1308,
+                    "value": [
+                        -99.5,
+                        -85.3
+                    ]
+                },
+                {
+                    "frame": 1923,
+                    "value": [
+                        -99.5,
+                        -85.3
+                    ]
+                },
+                {
+                    "frame": 2000,
+                    "value": [
+                        46.8,
+                        25.7
+                    ]
+                },
+                {
+                    "frame": 2077,
+                    "value": [
+                        -99.5,
+                        -85.3
+                    ]
+                },
+                {
+                    "frame": 2231,
+                    "value": [
+                        -99.5,
+                        -85.3
+                    ]
+                },
+                {
+                    "frame": 2308,
+                    "value": [
+                        47.9,
+                        -54.7
+                    ]
+                },
+                {
+                    "frame": 2385,
+                    "value": [
+                        -99.5,
+                        -85.3
+                    ]
+                },
+                {
+                    "frame": 2577,
+                    "value": [
+                        -99.5,
+                        -85.3
+                    ]
+                },
+                {
+                    "frame": 2654,
+                    "value": [
+                        47.9,
+                        26.3
+                    ]
+                },
+                {
+                    "frame": 2731,
+                    "value": [
+                        -99.5,
+                        -85.3
+                    ]
+                },
+                {
+                    "frame": 3192,
+                    "value": [
+                        -99.5,
+                        -85.3
+                    ]
+                },
+                {
+                    "frame": 3385,
+                    "value": [
+                        0,
+                        -123.5
+                    ]
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 1192,
+                    "value": 0
+                },
+                {
+                    "frame": 1231,
+                    "value": 0.78
+                },
+                {
+                    "frame": 1308,
+                    "value": 0.78
+                },
+                {
+                    "frame": 3385,
+                    "value": 0.78
+                },
+                {
+                    "frame": 3423,
+                    "value": 0
+                }
+            ]
+        },
+        "base/doll3": {
+            "position": [
+                {
+                    "frame": 1154,
+                    "value": [
+                        0,
+                        -123.5
+                    ]
+                },
+                {
+                    "frame": 1231,
+                    "value": [
+                        93.7,
+                        -85.3
+                    ]
+                },
+                {
+                    "frame": 1769,
+                    "value": [
+                        93.7,
+                        -85.3
+                    ]
+                },
+                {
+                    "frame": 1885,
+                    "value": [
+                        -53.9,
+                        26.7
+                    ]
+                },
+                {
+                    "frame": 1962,
+                    "value": [
+                        93.7,
+                        -85.3
+                    ]
+                },
+                {
+                    "frame": 2077,
+                    "value": [
+                        93.7,
+                        -85.3
+                    ]
+                },
+                {
+                    "frame": 2192,
+                    "value": [
+                        -57.8,
+                        -48.9
+                    ]
+                },
+                {
+                    "frame": 2269,
+                    "value": [
+                        93.7,
+                        -85.3
+                    ]
+                },
+                {
+                    "frame": 2423,
+                    "value": [
+                        93.7,
+                        -85.3
+                    ]
+                },
+                {
+                    "frame": 2538,
+                    "value": [
+                        -47.9,
+                        27.4
+                    ]
+                },
+                {
+                    "frame": 2615,
+                    "value": [
+                        93.7,
+                        -85.3
+                    ]
+                },
+                {
+                    "frame": 3192,
+                    "value": [
+                        93.7,
+                        -85.3
+                    ]
+                },
+                {
+                    "frame": 3385,
+                    "value": [
+                        0,
+                        -123.5
+                    ]
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 1115,
+                    "value": 0
+                },
+                {
+                    "frame": 1154,
+                    "value": 0.78
+                },
+                {
+                    "frame": 1231,
+                    "value": 0.78
+                },
+                {
+                    "frame": 1769,
+                    "value": 0.78
+                },
+                {
+                    "frame": 3385,
+                    "value": 0.78
+                },
+                {
+                    "frame": 3423,
+                    "value": 0
+                }
+            ]
+        },
+        "base": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        0,
+                        -197.7
+                    ]
+                }
+            ]
+        }
+    },
+    "events": [
+        {
+            "frame": 1885,
+            "name": ""
+        }
+    ]
+}

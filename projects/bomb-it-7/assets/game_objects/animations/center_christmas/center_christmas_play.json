@@ -1,0 +1,311 @@
+{
+    "name": "center_christmas_play",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "christmas_santa/christmas_hand": {
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 185,
+                    "value": 94
+                },
+                {
+                    "frame": 741,
+                    "value": 94
+                },
+                {
+                    "frame": 889,
+                    "value": 0
+                },
+                {
+                    "frame": 3370,
+                    "value": 0
+                }
+            ]
+        },
+        "christmas_santa/christmas_gift1": {
+            "scaleX": [
+                {
+                    "frame": 148,
+                    "value": 0.7
+                },
+                {
+                    "frame": 407,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 148,
+                    "value": 0.7
+                },
+                {
+                    "frame": 407,
+                    "value": 1
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 148,
+                    "value": 0
+                },
+                {
+                    "frame": 407,
+                    "value": 1
+                },
+                {
+                    "frame": 593,
+                    "value": 1
+                },
+                {
+                    "frame": 815,
+                    "value": 0
+                }
+            ],
+            "position": [
+                {
+                    "frame": 148,
+                    "value": [
+                        -39,
+                        -67.5
+                    ]
+                },
+                {
+                    "frame": 407,
+                    "value": [
+                        -65.8,
+                        -132.5
+                    ]
+                },
+                {
+                    "frame": 593,
+                    "value": [
+                        -76.5,
+                        -105.6
+                    ]
+                },
+                {
+                    "frame": 815,
+                    "value": [
+                        -82,
+                        -49
+                    ]
+                }
+            ]
+        },
+        "christmas_santa/christmas_gift2": {
+            "position": [
+                {
+                    "frame": 148,
+                    "value": [
+                        -28.7,
+                        -60.7
+                    ]
+                },
+                {
+                    "frame": 407,
+                    "value": [
+                        -27.4,
+                        -112.2
+                    ]
+                },
+                {
+                    "frame": 593,
+                    "value": [
+                        -31.5,
+                        -83
+                    ]
+                },
+                {
+                    "frame": 815,
+                    "value": [
+                        -33.4,
+                        -36.1
+                    ]
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 148,
+                    "value": 0.7
+                },
+                {
+                    "frame": 407,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 148,
+                    "value": 0.7
+                },
+                {
+                    "frame": 407,
+                    "value": 1
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 148,
+                    "value": 0
+                },
+                {
+                    "frame": 407,
+                    "value": 1
+                },
+                {
+                    "frame": 593,
+                    "value": 1
+                },
+                {
+                    "frame": 815,
+                    "value": 0
+                }
+            ]
+        },
+        "christmas_santa/christmas_gift3": {
+            "position": [
+                {
+                    "frame": 148,
+                    "value": [
+                        -17.1,
+                        -66.2
+                    ]
+                },
+                {
+                    "frame": 407,
+                    "value": [
+                        11.3,
+                        -128.8
+                    ]
+                },
+                {
+                    "frame": 593,
+                    "value": [
+                        22.7,
+                        -97.4
+                    ]
+                },
+                {
+                    "frame": 815,
+                    "value": [
+                        30.8,
+                        -58.3
+                    ]
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 148,
+                    "value": 0.7
+                },
+                {
+                    "frame": 407,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 148,
+                    "value": 0.7
+                },
+                {
+                    "frame": 407,
+                    "value": 1
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 148,
+                    "value": 0
+                },
+                {
+                    "frame": 407,
+                    "value": 1
+                },
+                {
+                    "frame": 593,
+                    "value": 1
+                },
+                {
+                    "frame": 815,
+                    "value": 0
+                }
+            ]
+        },
+        "christmas_santa/christmas_gift4": {
+            "scaleX": [
+                {
+                    "frame": 148,
+                    "value": 0.7
+                },
+                {
+                    "frame": 407,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 148,
+                    "value": 0.7
+                },
+                {
+                    "frame": 407,
+                    "value": 1
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 148,
+                    "value": 0
+                },
+                {
+                    "frame": 407,
+                    "value": 1
+                },
+                {
+                    "frame": 593,
+                    "value": 1
+                },
+                {
+                    "frame": 815,
+                    "value": 0
+                }
+            ],
+            "position": [
+                {
+                    "frame": 148,
+                    "value": [
+                        -28.9,
+                        -75.7
+                    ]
+                },
+                {
+                    "frame": 407,
+                    "value": [
+                        -26.1,
+                        -160.9
+                    ]
+                },
+                {
+                    "frame": 593,
+                    "value": [
+                        -31.3,
+                        -140.3
+                    ]
+                },
+                {
+                    "frame": 815,
+                    "value": [
+                        -36.8,
+                        -96
+                    ]
+                }
+            ]
+        }
+    }
+}

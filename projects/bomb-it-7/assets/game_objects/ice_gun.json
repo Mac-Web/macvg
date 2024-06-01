@@ -1,0 +1,39 @@
+{
+    "hierarchy": {
+        "name": "ice_gun",
+        "children": [
+            {
+                "name": "ice_gun_base"
+            },
+            {
+                "name": "ice_gun_fx"
+            }
+        ],
+        "animations": [
+            "ice_gun_side",
+            "ice_gun_down",
+            "ice_gun_up"
+        ]
+    },
+    "properties": {
+        "ice_gun_base": {
+            "file": "frozen_side.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -8,
+                "y": -24.4
+            },
+            "type": "sprite"
+        },
+        "ice_gun_fx": {
+            "file": "anim_snow5.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -27.3,
+                "y": -26.9
+            },
+            "angle": -90,
+            "type": "sprite"
+        }
+    }
+}

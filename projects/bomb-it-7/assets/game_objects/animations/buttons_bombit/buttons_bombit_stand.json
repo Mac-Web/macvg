@@ -1,0 +1,515 @@
+{
+    "name": "buttons_bombit_stand",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "bombit4": {
+            "y": [
+                {
+                    "frame": 0,
+                    "value": -4
+                },
+                {
+                    "frame": 3478,
+                    "value": -4
+                },
+                {
+                    "frame": 3870,
+                    "value": -4
+                },
+                {
+                    "frame": 4739,
+                    "value": -25
+                },
+                {
+                    "frame": 5609,
+                    "value": -4
+                },
+                {
+                    "frame": 6478,
+                    "value": -25
+                },
+                {
+                    "frame": 6957,
+                    "value": -4
+                },
+                {
+                    "frame": 7826,
+                    "value": -25
+                },
+                {
+                    "frame": 8696,
+                    "value": -4
+                },
+                {
+                    "frame": 9565,
+                    "value": -25
+                },
+                {
+                    "frame": 10087,
+                    "value": -4
+                },
+                {
+                    "frame": 10304,
+                    "value": -60
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 3478,
+                    "value": 0
+                },
+                {
+                    "frame": 3870,
+                    "value": 1
+                },
+                {
+                    "frame": 10087,
+                    "value": 1
+                },
+                {
+                    "frame": 10304,
+                    "value": 0
+                }
+            ],
+            "x": [
+                {
+                    "frame": 0,
+                    "value": 239.8
+                },
+                {
+                    "frame": 3478,
+                    "value": 239.8
+                },
+                {
+                    "frame": 3870,
+                    "value": 83.8
+                },
+                {
+                    "frame": 6478,
+                    "value": 83.8
+                },
+                {
+                    "frame": 6957,
+                    "value": -67.3
+                }
+            ]
+        },
+        "bombit5": {
+            "y": [
+                {
+                    "frame": 0,
+                    "value": -4
+                },
+                {
+                    "frame": 6478,
+                    "value": -4
+                },
+                {
+                    "frame": 6957,
+                    "value": -4
+                },
+                {
+                    "frame": 7826,
+                    "value": -25
+                },
+                {
+                    "frame": 8739,
+                    "value": -4
+                },
+                {
+                    "frame": 9565,
+                    "value": -25
+                },
+                {
+                    "frame": 10087,
+                    "value": -4
+                },
+                {
+                    "frame": 10957,
+                    "value": -25
+                },
+                {
+                    "frame": 11870,
+                    "value": -4
+                },
+                {
+                    "frame": 12696,
+                    "value": -25
+                },
+                {
+                    "frame": 13130,
+                    "value": -4
+                },
+                {
+                    "frame": 13348,
+                    "value": -60
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 6478,
+                    "value": 0
+                },
+                {
+                    "frame": 6957,
+                    "value": 1
+                },
+                {
+                    "frame": 13130,
+                    "value": 1
+                },
+                {
+                    "frame": 13348,
+                    "value": 0
+                }
+            ],
+            "x": [
+                {
+                    "frame": 0,
+                    "value": 239.8
+                },
+                {
+                    "frame": 6478,
+                    "value": 239.8
+                },
+                {
+                    "frame": 6957,
+                    "value": 83.8
+                },
+                {
+                    "frame": 9565,
+                    "value": 83.8
+                },
+                {
+                    "frame": 10087,
+                    "value": -65.9
+                }
+            ]
+        },
+        "bombit6": {
+            "y": [
+                {
+                    "frame": 0,
+                    "value": -4
+                },
+                {
+                    "frame": 9565,
+                    "value": -4
+                },
+                {
+                    "frame": 10087,
+                    "value": -4
+                },
+                {
+                    "frame": 10957,
+                    "value": -25
+                },
+                {
+                    "frame": 11870,
+                    "value": -4
+                },
+                {
+                    "frame": 12696,
+                    "value": -25
+                },
+                {
+                    "frame": 13130,
+                    "value": -4
+                },
+                {
+                    "frame": 14087,
+                    "value": -25
+                },
+                {
+                    "frame": 15217,
+                    "value": -4
+                },
+                {
+                    "frame": 16087,
+                    "value": -25
+                },
+                {
+                    "frame": 16522,
+                    "value": -4
+                },
+                {
+                    "frame": 16739,
+                    "value": -60
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 9565,
+                    "value": 0
+                },
+                {
+                    "frame": 10087,
+                    "value": 1
+                },
+                {
+                    "frame": 16522,
+                    "value": 1
+                },
+                {
+                    "frame": 16739,
+                    "value": 0
+                }
+            ],
+            "x": [
+                {
+                    "frame": 0,
+                    "value": 239.8
+                },
+                {
+                    "frame": 9565,
+                    "value": 239.8
+                },
+                {
+                    "frame": 10087,
+                    "value": 83.8
+                },
+                {
+                    "frame": 12696,
+                    "value": 83.8
+                },
+                {
+                    "frame": 13130,
+                    "value": -65.9
+                }
+            ]
+        },
+        "bombit3": {
+            "y": [
+                {
+                    "frame": 0,
+                    "value": -25
+                },
+                {
+                    "frame": 870,
+                    "value": -4
+                },
+                {
+                    "frame": 1739,
+                    "value": -25
+                },
+                {
+                    "frame": 2609,
+                    "value": -4
+                },
+                {
+                    "frame": 3478,
+                    "value": -25
+                },
+                {
+                    "frame": 3870,
+                    "value": -4
+                },
+                {
+                    "frame": 4739,
+                    "value": -25
+                },
+                {
+                    "frame": 5609,
+                    "value": -4
+                },
+                {
+                    "frame": 6478,
+                    "value": -25
+                },
+                {
+                    "frame": 6957,
+                    "value": -4
+                },
+                {
+                    "frame": 7174,
+                    "value": -60
+                },
+                {
+                    "frame": 8304,
+                    "value": -56.63
+                },
+                {
+                    "frame": 16087,
+                    "value": -4
+                },
+                {
+                    "frame": 16522,
+                    "value": -4
+                },
+                {
+                    "frame": 17391,
+                    "value": -24.97
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 6957,
+                    "value": 1
+                },
+                {
+                    "frame": 7174,
+                    "value": 0
+                },
+                {
+                    "frame": 16087,
+                    "value": 0
+                },
+                {
+                    "frame": 16522,
+                    "value": 1
+                }
+            ],
+            "x": [
+                {
+                    "frame": 0,
+                    "value": 83.8
+                },
+                {
+                    "frame": 3478,
+                    "value": 83.8
+                },
+                {
+                    "frame": 3870,
+                    "value": -67.3
+                },
+                {
+                    "frame": 8304,
+                    "value": -67.3
+                },
+                {
+                    "frame": 16087,
+                    "value": 238.24
+                },
+                {
+                    "frame": 16522,
+                    "value": 83.8
+                }
+            ]
+        },
+        "bombit2": {
+            "y": [
+                {
+                    "frame": 0,
+                    "value": -25
+                },
+                {
+                    "frame": 870,
+                    "value": -4
+                },
+                {
+                    "frame": 1739,
+                    "value": -25
+                },
+                {
+                    "frame": 2609,
+                    "value": -4
+                },
+                {
+                    "frame": 3478,
+                    "value": -25
+                },
+                {
+                    "frame": 3870,
+                    "value": -4
+                },
+                {
+                    "frame": 4130,
+                    "value": -60
+                },
+                {
+                    "frame": 12652,
+                    "value": -25
+                },
+                {
+                    "frame": 13130,
+                    "value": -4
+                },
+                {
+                    "frame": 14043,
+                    "value": -25
+                },
+                {
+                    "frame": 15217,
+                    "value": -4
+                },
+                {
+                    "frame": 16087,
+                    "value": -25
+                },
+                {
+                    "frame": 16522,
+                    "value": -4
+                },
+                {
+                    "frame": 17391,
+                    "value": -25
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 3870,
+                    "value": 1
+                },
+                {
+                    "frame": 4130,
+                    "value": 0
+                },
+                {
+                    "frame": 12652,
+                    "value": 0
+                },
+                {
+                    "frame": 13130,
+                    "value": 1
+                }
+            ],
+            "x": [
+                {
+                    "frame": 0,
+                    "value": -67.3
+                },
+                {
+                    "frame": 4739,
+                    "value": -67.3
+                },
+                {
+                    "frame": 12652,
+                    "value": 239.8
+                },
+                {
+                    "frame": 13130,
+                    "value": 83.8
+                },
+                {
+                    "frame": 16087,
+                    "value": 83.8
+                },
+                {
+                    "frame": 16522,
+                    "value": -67.3
+                }
+            ]
+        }
+    }
+}

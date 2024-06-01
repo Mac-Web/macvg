@@ -1,0 +1,77 @@
+{
+    "name": "monster_front_frozen",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "monster_ice": {
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1.4
+                },
+                {
+                    "frame": 333,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 333,
+                    "value": 1
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 333,
+                    "value": 1
+                }
+            ]
+        },
+        "monster_frozen": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 333,
+                    "value": 1
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "monster_front_frozen.png"
+                }
+            ]
+        },
+        "monster_normal": {
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ],
+            "y": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "monster_front.png"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,743 @@
+{
+    "hierarchy": {
+        "name": "intro",
+        "children": [
+            {
+                "name": "page1",
+                "children": [
+                    {
+                        "name": "image1",
+                        "children": [
+                            {
+                                "name": "part1"
+                            },
+                            {
+                                "name": "part2"
+                            },
+                            {
+                                "name": "part3"
+                            },
+                            {
+                                "name": "part4"
+                            },
+                            {
+                                "name": "part5"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "image2",
+                        "children": [
+                            {
+                                "name": "part1"
+                            },
+                            {
+                                "name": "part2"
+                            },
+                            {
+                                "name": "part3"
+                            },
+                            {
+                                "name": "part4"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "image3",
+                        "children": [
+                            {
+                                "name": "part1"
+                            },
+                            {
+                                "name": "part2"
+                            },
+                            {
+                                "name": "part3"
+                            },
+                            {
+                                "name": "part4"
+                            },
+                            {
+                                "name": "part5"
+                            },
+                            {
+                                "name": "part6"
+                            },
+                            {
+                                "name": "part7"
+                            },
+                            {
+                                "name": "part8"
+                            },
+                            {
+                                "name": "part9"
+                            },
+                            {
+                                "name": "part10"
+                            },
+                            {
+                                "name": "part11"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "page2",
+                "children": [
+                    {
+                        "name": "image1",
+                        "children": [
+                            {
+                                "name": "part1"
+                            },
+                            {
+                                "name": "part2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "image2",
+                        "children": [
+                            {
+                                "name": "part1"
+                            },
+                            {
+                                "name": "part2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "image3",
+                        "children": [
+                            {
+                                "name": "part1"
+                            },
+                            {
+                                "name": "part2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "image4",
+                        "children": [
+                            {
+                                "name": "part1"
+                            },
+                            {
+                                "name": "part2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "image5",
+                        "children": [
+                            {
+                                "name": "part1"
+                            },
+                            {
+                                "name": "part2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "image6",
+                        "children": [
+                            {
+                                "name": "part1"
+                            },
+                            {
+                                "name": "part2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "image7",
+                        "children": [
+                            {
+                                "name": "part1"
+                            },
+                            {
+                                "name": "part2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "image8",
+                        "children": [
+                            {
+                                "name": "part1"
+                            },
+                            {
+                                "name": "par2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "image9",
+                        "children": [
+                            {
+                                "name": "part1"
+                            },
+                            {
+                                "name": "part2"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "animations": [
+            "intro_play"
+        ]
+    },
+    "properties": {
+        "page1": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "page1/image1": {
+            "position": {
+                "x": -281,
+                "y": -29
+            },
+            "alpha": 0,
+            "type": "container"
+        },
+        "page1/image1/part1": {
+            "file": "pg1_1_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 16,
+                "y": 242
+            },
+            "type": "sprite"
+        },
+        "page1/image1/part2": {
+            "file": "pg1_1_3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -102,
+                "y": -440
+            },
+            "angle": 40,
+            "anchor": {
+                "x": 0.6,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "page1/image1/part3": {
+            "file": "pg1_1_4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -93,
+                "y": -422
+            },
+            "angle": 44,
+            "anchor": {
+                "x": 0.5,
+                "y": 0.6
+            },
+            "type": "sprite"
+        },
+        "page1/image1/part4": {
+            "file": "pg1_1_5.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 97,
+                "y": -376
+            },
+            "angle": 2,
+            "anchor": {
+                "x": 0.5,
+                "y": 0.6
+            },
+            "type": "sprite"
+        },
+        "page1/image1/part5": {
+            "file": "pg1_1_6.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -6,
+                "y": -497
+            },
+            "angle": -5,
+            "anchor": {
+                "x": 0.5,
+                "y": 0.6
+            },
+            "type": "sprite"
+        },
+        "page1/image2": {
+            "position": {
+                "x": 130,
+                "y": -149
+            },
+            "alpha": 0,
+            "type": "container"
+        },
+        "page1/image2/part1": {
+            "file": "pg1_2_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -18.1,
+                "y": 5.7
+            },
+            "type": "sprite"
+        },
+        "page1/image2/part2": {
+            "file": "pg1_2_6.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -133,
+                "y": -193
+            },
+            "scale": {
+                "x": 0.93,
+                "y": 0.93
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.1
+            },
+            "type": "sprite"
+        },
+        "page1/image2/part3": {
+            "file": "pg1_2_5.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 109.7,
+                "y": 8
+            },
+            "scale": {
+                "x": 0.93,
+                "y": 0.93
+            },
+            "type": "sprite"
+        },
+        "page1/image2/part4": {
+            "file": "pg1_2_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -84.6,
+                "y": -15
+            },
+            "scale": {
+                "x": 0.93,
+                "y": 0.93
+            },
+            "type": "sprite"
+        },
+        "page1/image3": {
+            "position": {
+                "x": 126,
+                "y": 140
+            },
+            "alpha": 0,
+            "type": "container"
+        },
+        "page1/image3/part1": {
+            "file": "pg1_3_5.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -19.8,
+                "y": 56
+            },
+            "scale": {
+                "x": 1.27,
+                "y": 1.27
+            },
+            "type": "sprite"
+        },
+        "page1/image3/part2": {
+            "file": "pg1_3_6.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -6,
+                "y": 10
+            },
+            "type": "sprite"
+        },
+        "page1/image3/part3": {
+            "file": "pg1_3_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -209,
+                "y": -214
+            },
+            "angle": -24,
+            "anchor": {
+                "x": 0.6,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "page1/image3/part4": {
+            "file": "pg1_3_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -95,
+                "y": -256
+            },
+            "angle": -14,
+            "type": "sprite"
+        },
+        "page1/image3/part5": {
+            "file": "pg1_3_3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -176,
+                "y": -271
+            },
+            "angle": -8,
+            "anchor": {
+                "x": 0.4,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "page1/image3/part6": {
+            "file": "pg1_3_4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 110,
+                "y": -246
+            },
+            "angle": -10,
+            "anchor": {
+                "x": 0.5,
+                "y": 0.6
+            },
+            "type": "sprite"
+        },
+        "page1/image3/part7": {
+            "file": "pg1_3_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 175,
+                "y": -283
+            },
+            "angle": -14,
+            "anchor": {
+                "x": 0.6,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "page1/image3/part8": {
+            "file": "pg1_3_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 176,
+                "y": -296
+            },
+            "angle": 36,
+            "type": "sprite"
+        },
+        "page1/image3/part9": {
+            "file": "pg1_3_7.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -162.8,
+                "y": -121.6
+            },
+            "angle": -44,
+            "scale": {
+                "x": 1.1,
+                "y": 1.1
+            },
+            "type": "sprite"
+        },
+        "page1/image3/part10": {
+            "file": "pg1_3_7.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -149.2,
+                "y": 116.7
+            },
+            "angle": -30,
+            "scale": {
+                "x": 1.1,
+                "y": 1.1
+            },
+            "type": "sprite"
+        },
+        "page1/image3/part11": {
+            "file": "pg1_3_7.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 168.7,
+                "y": 117
+            },
+            "angle": -33,
+            "scale": {
+                "x": 1.1,
+                "y": 1.1
+            },
+            "type": "sprite"
+        },
+        "page2": {
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "container"
+        },
+        "page2/image1": {
+            "position": {
+                "x": -111,
+                "y": -140
+            },
+            "alpha": 0,
+            "type": "container"
+        },
+        "page2/image1/part1": {
+            "file": "pg2_1_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 2,
+                "y": 28
+            },
+            "type": "sprite"
+        },
+        "page2/image1/part2": {
+            "file": "pg2_1_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -113.9,
+                "y": 43.8
+            },
+            "type": "sprite"
+        },
+        "page2/image2": {
+            "position": {
+                "x": -331,
+                "y": 163
+            },
+            "alpha": 0,
+            "type": "container"
+        },
+        "page2/image2/part1": {
+            "file": "pg2_3.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 32,
+                "y": -0.7
+            },
+            "type": "sprite"
+        },
+        "page2/image2/part2": {
+            "file": "pg2_3_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -20.6,
+                "y": -11.6
+            },
+            "type": "sprite"
+        },
+        "page2/image3": {
+            "position": {
+                "x": -177,
+                "y": 180
+            },
+            "alpha": 0,
+            "type": "container"
+        },
+        "page2/image3/part1": {
+            "file": "pg2_4.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -15,
+                "y": -34.2
+            },
+            "type": "sprite"
+        },
+        "page2/image3/part2": {
+            "file": "pg2_4_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -18,
+                "y": -11.1
+            },
+            "type": "sprite"
+        },
+        "page2/image4": {
+            "position": {
+                "x": -30,
+                "y": 177
+            },
+            "alpha": 0,
+            "type": "container"
+        },
+        "page2/image4/part1": {
+            "file": "pg2_5.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -20.2,
+                "y": -42.8
+            },
+            "type": "sprite"
+        },
+        "page2/image4/part2": {
+            "file": "pg2_5_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 6.8,
+                "y": 2.8
+            },
+            "angle": -10,
+            "type": "sprite"
+        },
+        "page2/image5": {
+            "position": {
+                "x": 102,
+                "y": 169
+            },
+            "alpha": 0,
+            "type": "container"
+        },
+        "page2/image5/part1": {
+            "file": "pg2_6.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 19,
+                "y": -44
+            },
+            "type": "sprite"
+        },
+        "page2/image5/part2": {
+            "file": "pg2_6_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -2.8,
+                "y": -22.1
+            },
+            "angle": -10,
+            "type": "sprite"
+        },
+        "page2/image6": {
+            "position": {
+                "x": 251,
+                "y": 133
+            },
+            "alpha": 0,
+            "type": "container"
+        },
+        "page2/image6/part1": {
+            "file": "pg2_7.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 23.4,
+                "y": -17.6
+            },
+            "type": "sprite"
+        },
+        "page2/image6/part2": {
+            "file": "pg2_7_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -1.2,
+                "y": -25.8
+            },
+            "type": "sprite"
+        },
+        "page2/image7": {
+            "position": {
+                "x": 346,
+                "y": -2
+            },
+            "alpha": 0,
+            "type": "container"
+        },
+        "page2/image7/part1": {
+            "file": "pg2_8.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -46,
+                "y": 34
+            },
+            "type": "sprite"
+        },
+        "page2/image7/part2": {
+            "file": "pg2_8_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -24.5,
+                "y": -35.2
+            },
+            "scale": {
+                "x": 0,
+                "y": 0
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "page2/image8": {
+            "position": {
+                "x": 282,
+                "y": -186
+            },
+            "alpha": 0,
+            "type": "container"
+        },
+        "page2/image8/part1": {
+            "file": "pg2_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -7,
+                "y": 1
+            },
+            "type": "sprite"
+        },
+        "page2/image8/par2": {
+            "file": "pg2_2_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 5.8,
+                "y": -10.8
+            },
+            "angle": -10,
+            "type": "sprite"
+        },
+        "page2/image9": {
+            "position": {
+                "x": 56,
+                "y": -98
+            },
+            "type": "container"
+        },
+        "page2/image9/part1": {
+            "file": "pg2_trophy.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -15,
+                "y": 21
+            },
+            "scale": {
+                "x": 2,
+                "y": 2
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "page2/image9/part2": {
+            "file": "pg3_shiny.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -77,
+                "y": 103
+            },
+            "angle": 300,
+            "scale": {
+                "x": 3,
+                "y": 3
+            },
+            "alpha": 0,
+            "type": "sprite"
+        }
+    }
+}

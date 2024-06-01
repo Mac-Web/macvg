@@ -1,0 +1,650 @@
+{
+    "name": "horse_run_side",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "head": {
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 11
+                },
+                {
+                    "frame": 150,
+                    "value": -1
+                },
+                {
+                    "frame": 275,
+                    "value": 11
+                },
+                {
+                    "frame": 400,
+                    "value": -1
+                },
+                {
+                    "frame": 525,
+                    "value": 11
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -12,
+                        -43.3
+                    ]
+                },
+                {
+                    "frame": 150,
+                    "value": [
+                        -8.5,
+                        -46.8
+                    ]
+                },
+                {
+                    "frame": 275,
+                    "value": [
+                        -12,
+                        -43.3
+                    ]
+                },
+                {
+                    "frame": 400,
+                    "value": [
+                        -9.5,
+                        -44.9
+                    ]
+                },
+                {
+                    "frame": 525,
+                    "value": [
+                        -12,
+                        -43.3
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "horse_head_side.png"
+                }
+            ]
+        },
+        "leg_r2": {
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": -19
+                },
+                {
+                    "frame": 150,
+                    "value": 23
+                },
+                {
+                    "frame": 275,
+                    "value": 20
+                },
+                {
+                    "frame": 400,
+                    "value": 0.5
+                },
+                {
+                    "frame": 525,
+                    "value": -19
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        17,
+                        -31.6
+                    ]
+                },
+                {
+                    "frame": 150,
+                    "value": [
+                        16.6,
+                        -34.1
+                    ]
+                },
+                {
+                    "frame": 275,
+                    "value": [
+                        16.4,
+                        -32
+                    ]
+                },
+                {
+                    "frame": 400,
+                    "value": [
+                        16.6,
+                        -31.6
+                    ]
+                },
+                {
+                    "frame": 525,
+                    "value": [
+                        17,
+                        -31.6
+                    ]
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "horse_leg4.png"
+                }
+            ]
+        },
+        "leg_l2": {
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 26
+                },
+                {
+                    "frame": 150,
+                    "value": 2
+                },
+                {
+                    "frame": 275,
+                    "value": -16
+                },
+                {
+                    "frame": 400,
+                    "value": 26
+                },
+                {
+                    "frame": 525,
+                    "value": 26
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -8.4,
+                        -26.8
+                    ]
+                },
+                {
+                    "frame": 150,
+                    "value": [
+                        -8.4,
+                        -27
+                    ]
+                },
+                {
+                    "frame": 275,
+                    "value": [
+                        -8.6,
+                        -25.9
+                    ]
+                },
+                {
+                    "frame": 400,
+                    "value": [
+                        -8.2,
+                        -29.3
+                    ]
+                },
+                {
+                    "frame": 525,
+                    "value": [
+                        -8.4,
+                        -26.8
+                    ]
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "horse_leg5.png"
+                }
+            ]
+        },
+        "dust_top": {
+            "position": [
+                {
+                    "frame": 25,
+                    "value": [
+                        -13.4,
+                        -8.6
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "horse_dust1.png"
+                },
+                {
+                    "frame": 50,
+                    "value": "horse_dust2.png"
+                },
+                {
+                    "frame": 100,
+                    "value": "horse_dust3.png"
+                },
+                {
+                    "frame": 150,
+                    "value": "horse_dust4.png"
+                },
+                {
+                    "frame": 200,
+                    "value": "horse_dust5.png"
+                },
+                {
+                    "frame": 250,
+                    "value": "horse_dust6.png"
+                },
+                {
+                    "frame": 300,
+                    "value": "horse_dust7.png"
+                },
+                {
+                    "frame": 350,
+                    "value": "horse_dust8.png"
+                },
+                {
+                    "frame": 400,
+                    "value": "horse_dust9.png"
+                },
+                {
+                    "frame": 450,
+                    "value": "horse_dust10.png"
+                }
+            ]
+        },
+        "tail": {
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 150,
+                    "value": 12
+                },
+                {
+                    "frame": 275,
+                    "value": 0
+                },
+                {
+                    "frame": 400,
+                    "value": 12
+                },
+                {
+                    "frame": 525,
+                    "value": 0
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        21.5,
+                        -40.9
+                    ]
+                },
+                {
+                    "frame": 150,
+                    "value": [
+                        21.2,
+                        -44.7
+                    ]
+                },
+                {
+                    "frame": 275,
+                    "value": [
+                        21.5,
+                        -40.9
+                    ]
+                },
+                {
+                    "frame": 400,
+                    "value": [
+                        21.5,
+                        -44.7
+                    ]
+                },
+                {
+                    "frame": 525,
+                    "value": [
+                        21.5,
+                        -40.9
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "horse_tail_side.png"
+                }
+            ]
+        },
+        "horse_body": {
+            "y": [
+                {
+                    "frame": 0,
+                    "value": -30.1
+                },
+                {
+                    "frame": 150,
+                    "value": -32.3
+                },
+                {
+                    "frame": 275,
+                    "value": -30.1
+                },
+                {
+                    "frame": 400,
+                    "value": -32.3
+                },
+                {
+                    "frame": 525,
+                    "value": -30.1
+                }
+            ],
+            "x": [
+                {
+                    "frame": 0,
+                    "value": 7.4
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "horse_body2_side.png"
+                }
+            ]
+        },
+        "horse_neck": {
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 150,
+                    "value": 17
+                },
+                {
+                    "frame": 275,
+                    "value": 0
+                },
+                {
+                    "frame": 400,
+                    "value": 17
+                },
+                {
+                    "frame": 525,
+                    "value": 0
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -7.8,
+                        -34.4
+                    ]
+                },
+                {
+                    "frame": 150,
+                    "value": [
+                        -10.9,
+                        -38.2
+                    ]
+                },
+                {
+                    "frame": 275,
+                    "value": [
+                        -7.8,
+                        -34.4
+                    ]
+                },
+                {
+                    "frame": 400,
+                    "value": [
+                        -10.9,
+                        -38.2
+                    ]
+                },
+                {
+                    "frame": 525,
+                    "value": [
+                        -7.8,
+                        -34.4
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "horse_body_side.png"
+                }
+            ]
+        },
+        "leg_r1": {
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 21
+                },
+                {
+                    "frame": 150,
+                    "value": -6
+                },
+                {
+                    "frame": 275,
+                    "value": -17
+                },
+                {
+                    "frame": 400,
+                    "value": 15
+                },
+                {
+                    "frame": 525,
+                    "value": 21
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        13.8,
+                        -31.6
+                    ]
+                },
+                {
+                    "frame": 150,
+                    "value": [
+                        13.8,
+                        -31.4
+                    ]
+                },
+                {
+                    "frame": 275,
+                    "value": [
+                        13.6,
+                        -31.2
+                    ]
+                },
+                {
+                    "frame": 400,
+                    "value": [
+                        14.2,
+                        -34.8
+                    ]
+                },
+                {
+                    "frame": 525,
+                    "value": [
+                        13.8,
+                        -31.6
+                    ]
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "horse_leg4.png"
+                }
+            ]
+        },
+        "leg_l1": {
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": -18
+                },
+                {
+                    "frame": 150,
+                    "value": 19
+                },
+                {
+                    "frame": 275,
+                    "value": 23
+                },
+                {
+                    "frame": 400,
+                    "value": 2
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -11.6,
+                        -26.8
+                    ]
+                },
+                {
+                    "frame": 150,
+                    "value": [
+                        -12.2,
+                        -31.2
+                    ]
+                },
+                {
+                    "frame": 275,
+                    "value": [
+                        -9.3,
+                        -25.7
+                    ]
+                },
+                {
+                    "frame": 400,
+                    "value": [
+                        -9.1,
+                        -26.5
+                    ]
+                },
+                {
+                    "frame": 525,
+                    "value": [
+                        -11.6,
+                        -26.8
+                    ]
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "horse_leg5.png"
+                }
+            ]
+        },
+        "dust_botttom": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        12.1,
+                        -8
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "horse_dust10.png"
+                },
+                {
+                    "frame": 125,
+                    "value": "horse_dust1.png"
+                },
+                {
+                    "frame": 175,
+                    "value": "horse_dust2.png"
+                },
+                {
+                    "frame": 225,
+                    "value": "horse_dust3.png"
+                },
+                {
+                    "frame": 275,
+                    "value": "horse_dust4.png"
+                },
+                {
+                    "frame": 325,
+                    "value": "horse_dust5.png"
+                },
+                {
+                    "frame": 375,
+                    "value": "horse_dust6.png"
+                },
+                {
+                    "frame": 425,
+                    "value": "horse_dust7.png"
+                },
+                {
+                    "frame": 475,
+                    "value": "horse_dust8.png"
+                },
+                {
+                    "frame": 525,
+                    "value": "horse_dust9.png"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "name": "mission_completed_in",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "base": {
+            "y": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 1000,
+                    "value": -104
+                },
+                {
+                    "frame": 4017,
+                    "value": -104
+                },
+                {
+                    "frame": 5033,
+                    "value": 0
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 1000,
+                    "value": 1
+                },
+                {
+                    "frame": 4000,
+                    "value": 1
+                },
+                {
+                    "frame": 5033,
+                    "value": 0
+                }
+            ]
+        }
+    }
+}

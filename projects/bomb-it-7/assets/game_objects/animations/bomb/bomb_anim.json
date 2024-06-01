@@ -1,0 +1,159 @@
+{
+    "name": "bomb_anim",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "bomb_shadow": {
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 133,
+                    "value": 1.1
+                },
+                {
+                    "frame": 400,
+                    "value": 0.9
+                },
+                {
+                    "frame": 517,
+                    "value": 1
+                }
+            ]
+        },
+        "bomb_base": {
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 133,
+                    "value": 0.95
+                },
+                {
+                    "frame": 400,
+                    "value": 1.05
+                },
+                {
+                    "frame": 517,
+                    "value": 1
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        0,
+                        -30.8
+                    ]
+                },
+                {
+                    "frame": 133,
+                    "value": [
+                        0,
+                        -29.2
+                    ]
+                },
+                {
+                    "frame": 400,
+                    "value": [
+                        0,
+                        -32.3
+                    ]
+                },
+                {
+                    "frame": 517,
+                    "value": [
+                        0,
+                        -30.8
+                    ]
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 133,
+                    "value": 1.05
+                },
+                {
+                    "frame": 400,
+                    "value": 0.95
+                },
+                {
+                    "frame": 517,
+                    "value": 1
+                }
+            ]
+        },
+        "bomb_base/bomb_fire": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "bomb_fire_anim1.png"
+                },
+                {
+                    "frame": 33,
+                    "value": "bomb_fire_anim2.png"
+                },
+                {
+                    "frame": 67,
+                    "value": "bomb_fire_anim3.png"
+                },
+                {
+                    "frame": 100,
+                    "value": "bomb_fire_anim4.png"
+                },
+                {
+                    "frame": 133,
+                    "value": "bomb_fire_anim5.png"
+                },
+                {
+                    "frame": 167,
+                    "value": "bomb_fire_anim6.png"
+                },
+                {
+                    "frame": 200,
+                    "value": "bomb_fire_anim7.png"
+                },
+                {
+                    "frame": 233,
+                    "value": "bomb_fire_anim8.png"
+                },
+                {
+                    "frame": 267,
+                    "value": "bomb_fire_anim9.png"
+                },
+                {
+                    "frame": 300,
+                    "value": "bomb_fire_anim10.png"
+                },
+                {
+                    "frame": 333,
+                    "value": "bomb_fire_anim11.png"
+                },
+                {
+                    "frame": 383,
+                    "value": "bomb_fire_anim12.png"
+                },
+                {
+                    "frame": 433,
+                    "value": "bomb_fire_anim13.png"
+                },
+                {
+                    "frame": 483,
+                    "value": "bomb_fire_anim14.png"
+                },
+                {
+                    "frame": 517,
+                    "value": "bomb_fire_anim1.png"
+                }
+            ]
+        }
+    }
+}

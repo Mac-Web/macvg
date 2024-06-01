@@ -1,0 +1,475 @@
+{
+    "name": "center_forest_anim",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "eye1": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "eyes3.png"
+                },
+                {
+                    "frame": 125,
+                    "value": "eyes.png"
+                },
+                {
+                    "frame": 188,
+                    "value": "eyes2.png"
+                },
+                {
+                    "frame": 1250,
+                    "value": "eyes.png"
+                },
+                {
+                    "frame": 1313,
+                    "value": "eyes3.png"
+                },
+                {
+                    "frame": 1375,
+                    "value": "eyes.png"
+                },
+                {
+                    "frame": 1438,
+                    "value": "eyes2.png"
+                },
+                {
+                    "frame": 2500,
+                    "value": "eyes.png"
+                },
+                {
+                    "frame": 2563,
+                    "value": "eyes3.png"
+                }
+            ]
+        },
+        "eye2": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "eyes3.png"
+                },
+                {
+                    "frame": 250,
+                    "value": "eyes.png"
+                },
+                {
+                    "frame": 313,
+                    "value": "eyes2.png"
+                },
+                {
+                    "frame": 1375,
+                    "value": "eyes.png"
+                },
+                {
+                    "frame": 1438,
+                    "value": "eyes3.png"
+                },
+                {
+                    "frame": 1500,
+                    "value": "eyes.png"
+                },
+                {
+                    "frame": 1563,
+                    "value": "eyes2.png"
+                },
+                {
+                    "frame": 2625,
+                    "value": "eyes.png"
+                },
+                {
+                    "frame": 2688,
+                    "value": "eyes3.png"
+                }
+            ]
+        },
+        "eye4": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "eyes3.png"
+                },
+                {
+                    "frame": 500,
+                    "value": "eyes.png"
+                },
+                {
+                    "frame": 563,
+                    "value": "eyes2.png"
+                },
+                {
+                    "frame": 1625,
+                    "value": "eyes.png"
+                },
+                {
+                    "frame": 1688,
+                    "value": "eyes3.png"
+                },
+                {
+                    "frame": 1750,
+                    "value": "eyes.png"
+                },
+                {
+                    "frame": 1813,
+                    "value": "eyes2.png"
+                },
+                {
+                    "frame": 2875,
+                    "value": "eyes.png"
+                },
+                {
+                    "frame": 2938,
+                    "value": "eyes3.png"
+                }
+            ]
+        },
+        "eye3": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "eyes3.png"
+                },
+                {
+                    "frame": 1000,
+                    "value": "eyes.png"
+                },
+                {
+                    "frame": 1063,
+                    "value": "eyes2.png"
+                },
+                {
+                    "frame": 2125,
+                    "value": "eyes.png"
+                },
+                {
+                    "frame": 2188,
+                    "value": "eyes3.png"
+                },
+                {
+                    "frame": 2250,
+                    "value": "eyes.png"
+                },
+                {
+                    "frame": 2313,
+                    "value": "eyes2.png"
+                },
+                {
+                    "frame": 3000,
+                    "value": "eyes.png"
+                },
+                {
+                    "frame": 3063,
+                    "value": "eyes3.png"
+                }
+            ]
+        },
+        "leaf3": {
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 3938,
+                    "value": 0
+                },
+                {
+                    "frame": 4000,
+                    "value": -15
+                },
+                {
+                    "frame": 4125,
+                    "value": 14
+                },
+                {
+                    "frame": 4250,
+                    "value": -12
+                },
+                {
+                    "frame": 4375,
+                    "value": 0
+                }
+            ]
+        },
+        "leaf5": {
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 3063,
+                    "value": 0
+                }
+            ]
+        },
+        "leaf4": {
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 2750,
+                    "value": 0
+                },
+                {
+                    "frame": 2875,
+                    "value": 11
+                },
+                {
+                    "frame": 3000,
+                    "value": -10
+                },
+                {
+                    "frame": 3125,
+                    "value": 0
+                }
+            ]
+        },
+        "leaf1": {
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 3500,
+                    "value": 0
+                },
+                {
+                    "frame": 3563,
+                    "value": -12
+                },
+                {
+                    "frame": 3688,
+                    "value": 8
+                },
+                {
+                    "frame": 3813,
+                    "value": -11
+                },
+                {
+                    "frame": 3938,
+                    "value": 0
+                }
+            ]
+        },
+        "leaf2": {
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 3063,
+                    "value": 0
+                },
+                {
+                    "frame": 3125,
+                    "value": 8
+                },
+                {
+                    "frame": 3250,
+                    "value": 0
+                },
+                {
+                    "frame": 3375,
+                    "value": 29
+                },
+                {
+                    "frame": 3500,
+                    "value": 0
+                }
+            ]
+        },
+        "animal1": {
+            "position": [
+                {
+                    "frame": 3125,
+                    "value": [
+                        -19.4,
+                        9.3
+                    ]
+                },
+                {
+                    "frame": 3625,
+                    "value": [
+                        -79,
+                        -6.5
+                    ]
+                },
+                {
+                    "frame": 5438,
+                    "value": [
+                        -79,
+                        -6.5
+                    ]
+                },
+                {
+                    "frame": 5625,
+                    "value": [
+                        -19.4,
+                        9.3
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 3063,
+                    "value": "animal_0.png"
+                },
+                {
+                    "frame": 3125,
+                    "value": "animal.png"
+                },
+                {
+                    "frame": 5625,
+                    "value": "animal_0.png"
+                }
+            ]
+        },
+        "animal4": {
+            "position": [
+                {
+                    "frame": 3625,
+                    "value": [
+                        21.2,
+                        3.3
+                    ]
+                },
+                {
+                    "frame": 3938,
+                    "value": [
+                        79.6,
+                        -5.2
+                    ]
+                },
+                {
+                    "frame": 5438,
+                    "value": [
+                        79.6,
+                        -5.2
+                    ]
+                },
+                {
+                    "frame": 5625,
+                    "value": [
+                        21.2,
+                        3.3
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 3563,
+                    "value": "animal_0.png"
+                },
+                {
+                    "frame": 3625,
+                    "value": "animal.png"
+                },
+                {
+                    "frame": 5625,
+                    "value": "animal_0.png"
+                }
+            ]
+        },
+        "animal3": {
+            "position": [
+                {
+                    "frame": 3938,
+                    "value": [
+                        18.3,
+                        -32.3
+                    ]
+                },
+                {
+                    "frame": 4438,
+                    "value": [
+                        57.2,
+                        -101.6
+                    ]
+                },
+                {
+                    "frame": 5438,
+                    "value": [
+                        57.2,
+                        -101.6
+                    ]
+                },
+                {
+                    "frame": 5625,
+                    "value": [
+                        18.3,
+                        -32.3
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 3875,
+                    "value": "animal_0.png"
+                },
+                {
+                    "frame": 3938,
+                    "value": "animal.png"
+                },
+                {
+                    "frame": 5563,
+                    "value": "animal.png"
+                },
+                {
+                    "frame": 5625,
+                    "value": "animal_0.png"
+                }
+            ]
+        },
+        "animal2": {
+            "position": [
+                {
+                    "frame": 4375,
+                    "value": [
+                        -20.8,
+                        -32.4
+                    ]
+                },
+                {
+                    "frame": 4875,
+                    "value": [
+                        -67.6,
+                        -81.1
+                    ]
+                },
+                {
+                    "frame": 5438,
+                    "value": [
+                        -67.6,
+                        -81.1
+                    ]
+                },
+                {
+                    "frame": 5625,
+                    "value": [
+                        -20.8,
+                        -32.4
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 4313,
+                    "value": "animal_0.png"
+                },
+                {
+                    "frame": 4375,
+                    "value": "animal.png"
+                },
+                {
+                    "frame": 5625,
+                    "value": "animal_0.png"
+                }
+            ]
+        }
+    }
+}

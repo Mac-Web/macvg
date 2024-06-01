@@ -1,0 +1,36 @@
+{
+    "hierarchy": {
+        "name": "icon_life",
+        "children": [
+            {
+                "name": "icon_shadow"
+            },
+            {
+                "name": "icon_base"
+            }
+        ],
+        "animations": [
+            "icon_anim"
+        ]
+    },
+    "properties": {
+        "icon_shadow": {
+            "file": "bomb_shadow.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "icon_base": {
+            "file": "icon_life.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -41.8
+            },
+            "type": "sprite"
+        }
+    }
+}

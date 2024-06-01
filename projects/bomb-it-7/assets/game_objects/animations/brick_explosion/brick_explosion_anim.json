@@ -1,0 +1,39 @@
+{
+    "name": "brick_explosion_anim",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "brick_exp_base": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "brick_exp6.png"
+                },
+                {
+                    "frame": 17,
+                    "value": "brick_exp1.png"
+                },
+                {
+                    "frame": 50,
+                    "value": "brick_exp2.png"
+                },
+                {
+                    "frame": 83,
+                    "value": "brick_exp3.png"
+                },
+                {
+                    "frame": 133,
+                    "value": "brick_exp4.png"
+                },
+                {
+                    "frame": 183,
+                    "value": "brick_exp5.png"
+                },
+                {
+                    "frame": 233,
+                    "value": "brick_exp6.png"
+                }
+            ]
+        }
+    }
+}

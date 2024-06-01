@@ -1,0 +1,8 @@
+{
+  "difficultySettings": [
+    { "start": 0, "min": 1, "max": 1 }, 
+    { "start": 50, "min": 1, "max": 2 }, 
+    { "start": 100, "min": 2, "max": 2 }, 
+    { "start": 150, "min": 2, "max": 1000 }
+  ]
+}

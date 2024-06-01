@@ -176,7 +176,7 @@ document.addEventListener("DOMContentLoaded", function load() {
   const close = document.getElementById("closea");
   close.addEventListener("click", function () {
     close.parentElement.parentElement.style.display = "none";
-    localStorage.setItem("macvgcloseeeee", "closed");
+    localStorage.setItem("macvgcloseeeeee", "closed");
   });
   let thing23 = document.getElementById("current");
   let panicKeys = localStorage.getItem("panic");

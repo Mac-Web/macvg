@@ -1,0 +1,35 @@
+{
+    "name": "face2_pause",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "heart_r": {
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ]
+        },
+        "heart_l": {
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ]
+        }
+    }
+}

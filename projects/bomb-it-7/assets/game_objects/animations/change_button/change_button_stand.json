@@ -1,0 +1,23 @@
+{
+    "name": "change_button_stand",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "base": {
+            "y": [
+                {
+                    "frame": 0,
+                    "value": -23
+                },
+                {
+                    "frame": 212,
+                    "value": -35.9
+                },
+                {
+                    "frame": 303,
+                    "value": -23
+                }
+            ]
+        }
+    }
+}

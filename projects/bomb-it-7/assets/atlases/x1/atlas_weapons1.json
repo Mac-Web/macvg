@@ -1,0 +1,1636 @@
+{"frames": [
+
+{
+	"filename": "anim_super_hammer2_fx1.png",
+	"frame": {"x":962,"y":1851,"w":49,"h":50},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":49,"h":50},
+	"sourceSize": {"w":49,"h":50}
+},
+{
+	"filename": "anim_super_hammer2_fx2.png",
+	"frame": {"x":1738,"y":1440,"w":89,"h":83},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":89,"h":83},
+	"sourceSize": {"w":89,"h":83}
+},
+{
+	"filename": "anim_super_hammer2_fx3.png",
+	"frame": {"x":1853,"y":1170,"w":91,"h":104},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":91,"h":104},
+	"sourceSize": {"w":91,"h":104}
+},
+{
+	"filename": "anim_super_hammer2_fx4.png",
+	"frame": {"x":832,"y":530,"w":1,"h":1},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":1,"h":1},
+	"sourceSize": {"w":91,"h":104}
+},
+{
+	"filename": "anim_super_hammer3_fx1.png",
+	"frame": {"x":628,"y":708,"w":202,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":0,"w":202,"h":103},
+	"sourceSize": {"w":251,"h":115}
+},
+{
+	"filename": "anim_super_hammer3_fx2.png",
+	"frame": {"x":846,"y":1105,"w":248,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":248,"h":113},
+	"sourceSize": {"w":251,"h":115}
+},
+{
+	"filename": "anim_super_hammer3_fx3.png",
+	"frame": {"x":1240,"y":162,"w":247,"h":114},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":1,"w":247,"h":114},
+	"sourceSize": {"w":251,"h":115}
+},
+{
+	"filename": "anim_super_hammer3_fx4.png",
+	"frame": {"x":832,"y":530,"w":1,"h":1},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":1,"h":1},
+	"sourceSize": {"w":251,"h":115}
+},
+{
+	"filename": "hammer_back1.png",
+	"frame": {"x":628,"y":813,"w":23,"h":24},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":49,"y":73,"w":23,"h":24},
+	"sourceSize": {"w":113,"h":144}
+},
+{
+	"filename": "hammer_back10.png",
+	"frame": {"x":1598,"y":1786,"w":48,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":67,"w":48,"h":77},
+	"sourceSize": {"w":113,"h":144}
+},
+{
+	"filename": "hammer_back11.png",
+	"frame": {"x":962,"y":1773,"w":49,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":59,"w":49,"h":76},
+	"sourceSize": {"w":113,"h":144}
+},
+{
+	"filename": "hammer_back12.png",
+	"frame": {"x":1823,"y":1638,"w":52,"h":96},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":13,"w":52,"h":96},
+	"sourceSize": {"w":113,"h":144}
+},
+{
+	"filename": "hammer_back13.png",
+	"frame": {"x":1993,"y":701,"w":47,"h":95},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":4,"w":47,"h":95},
+	"sourceSize": {"w":113,"h":144}
+},
+{
+	"filename": "hammer_back14.png",
+	"frame": {"x":1919,"y":1432,"w":39,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":36,"y":0,"w":39,"h":78},
+	"sourceSize": {"w":113,"h":144}
+},
+{
+	"filename": "hammer_back16.png",
+	"frame": {"x":799,"y":1803,"w":42,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":12,"w":42,"h":78},
+	"sourceSize": {"w":113,"h":144}
+},
+{
+	"filename": "hammer_back18.png",
+	"frame": {"x":1995,"y":1768,"w":36,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":33,"w":36,"h":66},
+	"sourceSize": {"w":113,"h":144}
+},
+{
+	"filename": "hammer_back19.png",
+	"frame": {"x":1013,"y":1761,"w":63,"h":68},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":56,"w":63,"h":68},
+	"sourceSize": {"w":113,"h":144}
+},
+{
+	"filename": "hammer_back21.png",
+	"frame": {"x":1816,"y":1349,"w":91,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":48,"w":91,"h":81},
+	"sourceSize": {"w":113,"h":144}
+},
+{
+	"filename": "hammer_back23.png",
+	"frame": {"x":1733,"y":1265,"w":113,"h":68},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":56,"w":113,"h":68},
+	"sourceSize": {"w":113,"h":144}
+},
+{
+	"filename": "hammer_back25.png",
+	"frame": {"x":1909,"y":1349,"w":43,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":48,"w":43,"h":81},
+	"sourceSize": {"w":113,"h":144}
+},
+{
+	"filename": "hammer_back27.png",
+	"frame": {"x":1863,"y":1768,"w":36,"h":68},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":56,"w":36,"h":68},
+	"sourceSize": {"w":113,"h":144}
+},
+{
+	"filename": "hammer_back4.png",
+	"frame": {"x":2020,"y":1140,"w":16,"h":28},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":73,"w":16,"h":28},
+	"sourceSize": {"w":113,"h":144}
+},
+{
+	"filename": "hammer_back6.png",
+	"frame": {"x":1072,"y":1831,"w":31,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":40,"y":45,"w":31,"h":62},
+	"sourceSize": {"w":113,"h":144}
+},
+{
+	"filename": "hammer_back7.png",
+	"frame": {"x":2005,"y":573,"w":35,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":47,"w":35,"h":66},
+	"sourceSize": {"w":113,"h":144}
+},
+{
+	"filename": "hammer_back8.png",
+	"frame": {"x":1954,"y":1836,"w":39,"h":61},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":36,"y":58,"w":39,"h":61},
+	"sourceSize": {"w":113,"h":144}
+},
+{
+	"filename": "hammer_back9.png",
+	"frame": {"x":1901,"y":1729,"w":42,"h":65},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":64,"w":42,"h":65},
+	"sourceSize": {"w":113,"h":144}
+},
+{
+	"filename": "hammer_front1.png",
+	"frame": {"x":1993,"y":850,"w":17,"h":24},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":45,"y":79,"w":17,"h":24},
+	"sourceSize": {"w":113,"h":131}
+},
+{
+	"filename": "hammer_front10.png",
+	"frame": {"x":2014,"y":938,"w":26,"h":40},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":40,"y":58,"w":26,"h":40},
+	"sourceSize": {"w":113,"h":131}
+},
+{
+	"filename": "hammer_front11.png",
+	"frame": {"x":635,"y":495,"w":21,"h":31},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":43,"y":78,"w":21,"h":31},
+	"sourceSize": {"w":113,"h":131}
+},
+{
+	"filename": "hammer_front12.png",
+	"frame": {"x":2013,"y":895,"w":27,"h":41},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":66,"w":27,"h":41},
+	"sourceSize": {"w":113,"h":131}
+},
+{
+	"filename": "hammer_front13.png",
+	"frame": {"x":1424,"y":1239,"w":27,"h":40},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":40,"y":58,"w":27,"h":40},
+	"sourceSize": {"w":113,"h":131}
+},
+{
+	"filename": "hammer_front14.png",
+	"frame": {"x":1821,"y":1760,"w":40,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":28,"w":40,"h":75},
+	"sourceSize": {"w":113,"h":131}
+},
+{
+	"filename": "hammer_front15.png",
+	"frame": {"x":1881,"y":1541,"w":49,"h":97},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":1,"w":49,"h":97},
+	"sourceSize": {"w":113,"h":131}
+},
+{
+	"filename": "hammer_front16.png",
+	"frame": {"x":1967,"y":876,"w":44,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":0,"w":44,"h":79},
+	"sourceSize": {"w":113,"h":131}
+},
+{
+	"filename": "hammer_front17.png",
+	"frame": {"x":1954,"y":1768,"w":39,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":14,"w":39,"h":66},
+	"sourceSize": {"w":113,"h":131}
+},
+{
+	"filename": "hammer_front18.png",
+	"frame": {"x":1539,"y":1294,"w":41,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":54,"w":41,"h":75},
+	"sourceSize": {"w":113,"h":131}
+},
+{
+	"filename": "hammer_front19.png",
+	"frame": {"x":1962,"y":1640,"w":63,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":54,"w":63,"h":75},
+	"sourceSize": {"w":113,"h":131}
+},
+{
+	"filename": "hammer_front2.png",
+	"frame": {"x":1465,"y":606,"w":15,"h":25},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":46,"y":78,"w":15,"h":25},
+	"sourceSize": {"w":113,"h":131}
+},
+{
+	"filename": "hammer_front22.png",
+	"frame": {"x":1932,"y":1559,"w":91,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":52,"w":91,"h":79},
+	"sourceSize": {"w":113,"h":131}
+},
+{
+	"filename": "hammer_front23.png",
+	"frame": {"x":1424,"y":1294,"w":113,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":54,"w":113,"h":75},
+	"sourceSize": {"w":113,"h":131}
+},
+{
+	"filename": "hammer_front25.png",
+	"frame": {"x":1967,"y":957,"w":45,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":52,"w":45,"h":79},
+	"sourceSize": {"w":113,"h":131}
+},
+{
+	"filename": "hammer_front27.png",
+	"frame": {"x":1539,"y":1294,"w":41,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":54,"w":41,"h":75},
+	"sourceSize": {"w":113,"h":131}
+},
+{
+	"filename": "hammer_front3.png",
+	"frame": {"x":1806,"y":824,"w":24,"h":37},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":42,"y":55,"w":24,"h":37},
+	"sourceSize": {"w":113,"h":131}
+},
+{
+	"filename": "hammer_front4.png",
+	"frame": {"x":2013,"y":850,"w":27,"h":43},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":41,"y":39,"w":27,"h":43},
+	"sourceSize": {"w":113,"h":131}
+},
+{
+	"filename": "hammer_front5.png",
+	"frame": {"x":1995,"y":1836,"w":37,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":7,"w":37,"h":66},
+	"sourceSize": {"w":113,"h":131}
+},
+{
+	"filename": "hammer_front6.png",
+	"frame": {"x":1821,"y":1837,"w":35,"h":65},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":36,"y":5,"w":35,"h":65},
+	"sourceSize": {"w":113,"h":131}
+},
+{
+	"filename": "hammer_front7.png",
+	"frame": {"x":2005,"y":503,"w":35,"h":68},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":8,"w":35,"h":68},
+	"sourceSize": {"w":113,"h":131}
+},
+{
+	"filename": "hammer_front8.png",
+	"frame": {"x":1746,"y":1840,"w":31,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":28,"w":31,"h":62},
+	"sourceSize": {"w":113,"h":131}
+},
+{
+	"filename": "hammer_front9.png",
+	"frame": {"x":2005,"y":641,"w":28,"h":49},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":39,"w":28,"h":49},
+	"sourceSize": {"w":113,"h":131}
+},
+{
+	"filename": "hammer_side1.png",
+	"frame": {"x":269,"y":1171,"w":25,"h":22},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":120,"y":45,"w":25,"h":22},
+	"sourceSize": {"w":218,"h":98}
+},
+{
+	"filename": "hammer_side10.png",
+	"frame": {"x":2,"y":1844,"w":67,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":138,"y":10,"w":67,"h":58},
+	"sourceSize": {"w":218,"h":98}
+},
+{
+	"filename": "hammer_side11.png",
+	"frame": {"x":270,"y":1840,"w":74,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":138,"y":13,"w":74,"h":62},
+	"sourceSize": {"w":218,"h":98}
+},
+{
+	"filename": "hammer_side12.png",
+	"frame": {"x":1962,"y":1402,"w":78,"h":67},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":138,"y":18,"w":78,"h":67},
+	"sourceSize": {"w":218,"h":98}
+},
+{
+	"filename": "hammer_side13.png",
+	"frame": {"x":1961,"y":1247,"w":79,"h":71},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":138,"y":26,"w":79,"h":71},
+	"sourceSize": {"w":218,"h":98}
+},
+{
+	"filename": "hammer_side14.png",
+	"frame": {"x":71,"y":1844,"w":65,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":137,"y":8,"w":65,"h":58},
+	"sourceSize": {"w":218,"h":98}
+},
+{
+	"filename": "hammer_side15.png",
+	"frame": {"x":522,"y":1856,"w":45,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":125,"y":15,"w":45,"h":47},
+	"sourceSize": {"w":218,"h":98}
+},
+{
+	"filename": "hammer_side16.png",
+	"frame": {"x":1013,"y":1831,"w":57,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":88,"y":0,"w":57,"h":66},
+	"sourceSize": {"w":218,"h":98}
+},
+{
+	"filename": "hammer_side17.png",
+	"frame": {"x":1848,"y":1276,"w":111,"h":71},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":21,"w":111,"h":71},
+	"sourceSize": {"w":218,"h":98}
+},
+{
+	"filename": "hammer_side18.png",
+	"frame": {"x":1602,"y":1442,"w":134,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":16,"w":134,"h":78},
+	"sourceSize": {"w":218,"h":98}
+},
+{
+	"filename": "hammer_side19.png",
+	"frame": {"x":654,"y":1803,"w":143,"h":72},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":20,"w":143,"h":72},
+	"sourceSize": {"w":218,"h":98}
+},
+{
+	"filename": "hammer_side2.png",
+	"frame": {"x":1991,"y":1140,"w":27,"h":28},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":118,"y":39,"w":27,"h":28},
+	"sourceSize": {"w":218,"h":98}
+},
+{
+	"filename": "hammer_side20.png",
+	"frame": {"x":1736,"y":1760,"w":83,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":61,"y":16,"w":83,"h":78},
+	"sourceSize": {"w":218,"h":98}
+},
+{
+	"filename": "hammer_side3.png",
+	"frame": {"x":1424,"y":1203,"w":29,"h":34},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":117,"y":33,"w":29,"h":34},
+	"sourceSize": {"w":218,"h":98}
+},
+{
+	"filename": "hammer_side4.png",
+	"frame": {"x":1710,"y":1853,"w":34,"h":40},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":117,"y":27,"w":34,"h":40},
+	"sourceSize": {"w":218,"h":98}
+},
+{
+	"filename": "hammer_side5.png",
+	"frame": {"x":569,"y":1856,"w":38,"h":44},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":120,"y":23,"w":38,"h":44},
+	"sourceSize": {"w":218,"h":98}
+},
+{
+	"filename": "hammer_side6.png",
+	"frame": {"x":1099,"y":891,"w":43,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":123,"y":21,"w":43,"h":46},
+	"sourceSize": {"w":218,"h":98}
+},
+{
+	"filename": "hammer_side7.png",
+	"frame": {"x":1993,"y":798,"w":47,"h":50},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":128,"y":17,"w":47,"h":50},
+	"sourceSize": {"w":218,"h":98}
+},
+{
+	"filename": "hammer_side8.png",
+	"frame": {"x":1901,"y":1796,"w":51,"h":55},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":135,"y":13,"w":51,"h":55},
+	"sourceSize": {"w":218,"h":98}
+},
+{
+	"filename": "hammer_side9.png",
+	"frame": {"x":210,"y":1844,"w":58,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":138,"y":10,"w":58,"h":58},
+	"sourceSize": {"w":218,"h":98}
+},
+{
+	"filename": "super_hammer.png",
+	"frame": {"x":1733,"y":1169,"w":118,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":118,"h":94},
+	"sourceSize": {"w":118,"h":95}
+},
+{
+	"filename": "super_hammer_anim1.png",
+	"frame": {"x":1239,"y":278,"w":30,"h":37},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":130,"y":210,"w":30,"h":37},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim10.png",
+	"frame": {"x":269,"y":1421,"w":205,"h":211},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":64,"y":125,"w":205,"h":211},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim11.png",
+	"frame": {"x":666,"y":334,"w":167,"h":194},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":83,"y":123,"w":167,"h":194},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim12.png",
+	"frame": {"x":1875,"y":507,"w":128,"h":192},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":103,"y":106,"w":128,"h":192},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim13.png",
+	"frame": {"x":609,"y":1856,"w":38,"h":37},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":121,"y":89,"w":38,"h":37},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim14.png",
+	"frame": {"x":1144,"y":891,"w":50,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":118,"y":85,"w":50,"h":45},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim15.png",
+	"frame": {"x":1962,"y":1717,"w":62,"h":49},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":113,"y":83,"w":62,"h":49},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim16.png",
+	"frame": {"x":138,"y":1844,"w":70,"h":51},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":110,"y":83,"w":70,"h":51},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim17.png",
+	"frame": {"x":1236,"y":1725,"w":78,"h":59},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":107,"y":78,"w":78,"h":59},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim18.png",
+	"frame": {"x":1946,"y":1170,"w":94,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":101,"y":65,"w":94,"h":75},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim19.png",
+	"frame": {"x":1345,"y":1104,"w":108,"h":97},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":95,"y":51,"w":108,"h":97},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim2.png",
+	"frame": {"x":1210,"y":987,"w":122,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":105,"y":172,"w":122,"h":115},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim20.png",
+	"frame": {"x":1235,"y":1786,"w":119,"h":118},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":91,"y":37,"w":119,"h":118},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim21.png",
+	"frame": {"x":1602,"y":1306,"w":124,"h":134},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":89,"y":25,"w":124,"h":134},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim22.png",
+	"frame": {"x":1373,"y":1372,"w":121,"h":145},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":92,"y":15,"w":121,"h":145},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim23.png",
+	"frame": {"x":1126,"y":174,"w":111,"h":152},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":99,"y":5,"w":111,"h":152},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim27.png",
+	"frame": {"x":1309,"y":1220,"w":113,"h":150},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":97,"y":0,"w":113,"h":150},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim28.png",
+	"frame": {"x":1925,"y":332,"w":108,"h":169},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":102,"y":27,"w":108,"h":169},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim29.png",
+	"frame": {"x":1856,"y":1051,"w":90,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":109,"y":33,"w":90,"h":117},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim2_1.png",
+	"frame": {"x":1316,"y":1725,"w":46,"h":41},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":357,"y":205,"w":46,"h":41},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_10.png",
+	"frame": {"x":269,"y":1195,"w":205,"h":224},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":289,"y":117,"w":205,"h":224},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_11.png",
+	"frame": {"x":476,"y":1420,"w":166,"h":216},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":308,"y":106,"w":166,"h":216},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_12.png",
+	"frame": {"x":944,"y":1381,"w":129,"h":194},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":327,"y":109,"w":129,"h":194},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_13.png",
+	"frame": {"x":474,"y":1856,"w":46,"h":40},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":362,"y":89,"w":46,"h":40},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_14.png",
+	"frame": {"x":415,"y":1840,"w":57,"h":54},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":356,"y":81,"w":57,"h":54},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_15.png",
+	"frame": {"x":1648,"y":1782,"w":66,"h":69},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":350,"y":73,"w":66,"h":69},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_16.png",
+	"frame": {"x":1960,"y":1471,"w":77,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":347,"y":64,"w":77,"h":86},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_17.png",
+	"frame": {"x":1829,"y":1432,"w":88,"h":107},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":347,"y":51,"w":88,"h":107},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_18.png",
+	"frame": {"x":1942,"y":173,"w":96,"h":128},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":352,"y":38,"w":96,"h":128},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_19.png",
+	"frame": {"x":1496,"y":1371,"w":104,"h":145},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":359,"y":27,"w":104,"h":145},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_2.png",
+	"frame": {"x":1096,"y":1104,"w":123,"h":114},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":329,"y":178,"w":123,"h":114},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_20.png",
+	"frame": {"x":1190,"y":1220,"w":117,"h":158},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":365,"y":20,"w":117,"h":158},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_21.png",
+	"frame": {"x":1105,"y":1738,"w":128,"h":166},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":373,"y":16,"w":128,"h":166},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_22.png",
+	"frame": {"x":1235,"y":1380,"w":136,"h":172},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":385,"y":12,"w":136,"h":172},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_23.png",
+	"frame": {"x":1075,"y":1381,"w":158,"h":177},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":381,"y":7,"w":158,"h":177},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_24.png",
+	"frame": {"x":1685,"y":507,"w":188,"h":177},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":375,"y":6,"w":188,"h":177},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_25.png",
+	"frame": {"x":635,"y":530,"w":195,"h":176},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":377,"y":15,"w":195,"h":176},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_26.png",
+	"frame": {"x":1482,"y":489,"w":201,"h":175},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":380,"y":26,"w":201,"h":175},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_27.png",
+	"frame": {"x":1712,"y":332,"w":211,"h":173},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":382,"y":37,"w":211,"h":173},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_28.png",
+	"frame": {"x":1821,"y":2,"w":217,"h":169},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":386,"y":50,"w":217,"h":169},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_29.png",
+	"frame": {"x":846,"y":939,"w":223,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":389,"y":64,"w":223,"h":164},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_3.png",
+	"frame": {"x":1478,"y":1786,"w":118,"h":116},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":331,"y":179,"w":118,"h":116},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_30.png",
+	"frame": {"x":1716,"y":173,"w":224,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":394,"y":80,"w":224,"h":157},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_31.png",
+	"frame": {"x":825,"y":1220,"w":224,"h":159},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":400,"y":88,"w":224,"h":159},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_32.png",
+	"frame": {"x":1489,"y":326,"w":221,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":406,"y":98,"w":221,"h":161},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_33.png",
+	"frame": {"x":1271,"y":278,"w":216,"h":162},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":412,"y":109,"w":216,"h":162},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_34.png",
+	"frame": {"x":1271,"y":442,"w":209,"h":162},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":419,"y":120,"w":209,"h":162},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_35.png",
+	"frame": {"x":476,"y":1195,"w":158,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":314,"y":0,"w":158,"h":223},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_36.png",
+	"frame": {"x":601,"y":839,"w":229,"h":158},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":232,"y":117,"w":229,"h":158},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_37.png",
+	"frame": {"x":334,"y":667,"w":292,"h":170},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":174,"y":112,"w":292,"h":170},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_38.png",
+	"frame": {"x":334,"y":495,"w":299,"h":170},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":167,"y":112,"w":299,"h":170},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_39.png",
+	"frame": {"x":1240,"y":2,"w":312,"h":158},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":149,"y":117,"w":312,"h":158},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_4.png",
+	"frame": {"x":1373,"y":1519,"w":121,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":331,"y":177,"w":121,"h":123},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_40.png",
+	"frame": {"x":440,"y":174,"w":352,"h":158},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":109,"y":117,"w":352,"h":158},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_41.png",
+	"frame": {"x":470,"y":2,"w":383,"h":170},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":83,"y":112,"w":383,"h":170},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_42.png",
+	"frame": {"x":855,"y":2,"w":383,"h":170},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":83,"y":112,"w":383,"h":170},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_43.png",
+	"frame": {"x":2,"y":174,"w":436,"h":158},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":117,"w":436,"h":158},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_44.png",
+	"frame": {"x":2,"y":2,"w":466,"h":170},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":112,"w":466,"h":170},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_45.png",
+	"frame": {"x":601,"y":999,"w":243,"h":170},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":223,"y":112,"w":243,"h":170},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_46.png",
+	"frame": {"x":1489,"y":166,"w":225,"h":158},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":236,"y":117,"w":225,"h":158},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_47.png",
+	"frame": {"x":601,"y":999,"w":243,"h":170},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":223,"y":112,"w":243,"h":170},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_48.png",
+	"frame": {"x":1489,"y":166,"w":225,"h":158},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":236,"y":117,"w":225,"h":158},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_49.png",
+	"frame": {"x":1316,"y":1725,"w":46,"h":41},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":357,"y":205,"w":46,"h":41},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_5.png",
+	"frame": {"x":1597,"y":1003,"w":137,"h":150},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":322,"y":162,"w":137,"h":150},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_6.png",
+	"frame": {"x":1102,"y":523,"w":160,"h":172},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":311,"y":150,"w":160,"h":172},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_7.png",
+	"frame": {"x":476,"y":1638,"w":176,"h":216},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":304,"y":114,"w":176,"h":216},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_8.png",
+	"frame": {"x":644,"y":1389,"w":169,"h":214},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":307,"y":111,"w":169,"h":214},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim2_9.png",
+	"frame": {"x":636,"y":1171,"w":187,"h":216},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":298,"y":117,"w":187,"h":216},
+	"sourceSize": {"w":628,"h":341}
+},
+{
+	"filename": "super_hammer_anim3.png",
+	"frame": {"x":1334,"y":987,"w":119,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":106,"y":174,"w":119,"h":115},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim30.png",
+	"frame": {"x":1948,"y":1051,"w":92,"h":87},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":109,"y":58,"w":92,"h":87},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim31.png",
+	"frame": {"x":1496,"y":1518,"w":87,"h":128},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":111,"y":47,"w":87,"h":128},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim32.png",
+	"frame": {"x":1925,"y":332,"w":108,"h":169},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":102,"y":27,"w":108,"h":169},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim33.png",
+	"frame": {"x":1465,"y":666,"w":182,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":74,"y":189,"w":182,"h":139},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim35.png",
+	"frame": {"x":1554,"y":2,"w":265,"h":162},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":173,"w":265,"h":162},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim36.png",
+	"frame": {"x":2,"y":1644,"w":265,"h":198},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":173,"w":265,"h":198},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim37.png",
+	"frame": {"x":2,"y":987,"w":330,"h":182},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":189,"w":330,"h":182},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim38.png",
+	"frame": {"x":334,"y":839,"w":265,"h":190},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":189,"w":265,"h":190},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim39.png",
+	"frame": {"x":2,"y":1419,"w":265,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":189,"w":265,"h":223},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim3_1.png",
+	"frame": {"x":1779,"y":1840,"w":34,"h":40},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":167,"y":214,"w":34,"h":40},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_10.png",
+	"frame": {"x":269,"y":1634,"w":205,"h":204},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":63,"y":138,"w":205,"h":204},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_11.png",
+	"frame": {"x":1102,"y":328,"w":167,"h":193},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":82,"y":130,"w":167,"h":193},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_12.png",
+	"frame": {"x":1105,"y":1560,"w":129,"h":176},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":101,"y":128,"w":129,"h":176},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_13.png",
+	"frame": {"x":1948,"y":1140,"w":41,"h":28},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":142,"y":128,"w":41,"h":28},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_14.png",
+	"frame": {"x":1598,"y":1865,"w":48,"h":32},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":137,"y":124,"w":48,"h":32},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_15.png",
+	"frame": {"x":1736,"y":1003,"w":55,"h":42},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":132,"y":117,"w":55,"h":42},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_16.png",
+	"frame": {"x":1648,"y":1853,"w":60,"h":51},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":128,"y":111,"w":60,"h":51},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_17.png",
+	"frame": {"x":346,"y":1840,"w":67,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":125,"y":103,"w":67,"h":62},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_18.png",
+	"frame": {"x":1210,"y":891,"w":72,"h":70},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":97,"w":72,"h":70},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_19.png",
+	"frame": {"x":1962,"y":1320,"w":78,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":122,"y":88,"w":78,"h":80},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_2.png",
+	"frame": {"x":1221,"y":1104,"w":122,"h":114},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":104,"y":179,"w":122,"h":114},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_20.png",
+	"frame": {"x":1877,"y":1640,"w":83,"h":87},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":121,"y":81,"w":83,"h":87},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_21.png",
+	"frame": {"x":1794,"y":1541,"w":85,"h":95},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":121,"y":73,"w":85,"h":95},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_22.png",
+	"frame": {"x":1728,"y":1335,"w":86,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":122,"y":67,"w":86,"h":103},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_23.png",
+	"frame": {"x":1736,"y":1646,"w":85,"h":112},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":124,"y":61,"w":85,"h":112},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_24.png",
+	"frame": {"x":1708,"y":1525,"w":84,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":127,"y":56,"w":84,"h":119},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_25.png",
+	"frame": {"x":815,"y":1389,"w":127,"h":198},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":97,"y":19,"w":127,"h":198},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_26.png",
+	"frame": {"x":843,"y":1589,"w":129,"h":182},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":88,"y":48,"w":129,"h":182},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_27.png",
+	"frame": {"x":1236,"y":1554,"w":133,"h":169},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":85,"y":97,"w":133,"h":169},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_28.png",
+	"frame": {"x":843,"y":1773,"w":117,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":98,"y":150,"w":117,"h":131},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_29.png",
+	"frame": {"x":1071,"y":939,"w":137,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":97,"y":166,"w":137,"h":163},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_3.png",
+	"frame": {"x":1736,"y":1051,"w":118,"h":116},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":105,"y":180,"w":118,"h":116},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_30.png",
+	"frame": {"x":974,"y":1577,"w":129,"h":182},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":88,"y":24,"w":129,"h":182},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_31.png",
+	"frame": {"x":1649,"y":686,"w":181,"h":136},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":77,"y":63,"w":181,"h":136},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_32.png",
+	"frame": {"x":334,"y":1031,"w":265,"h":162},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":38,"w":265,"h":162},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_33.png",
+	"frame": {"x":835,"y":312,"w":265,"h":162},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":38,"w":265,"h":162},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_34.png",
+	"frame": {"x":794,"y":174,"w":330,"h":136},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":63,"w":330,"h":136},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_35.png",
+	"frame": {"x":835,"y":476,"w":265,"h":136},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":63,"w":265,"h":136},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_36.png",
+	"frame": {"x":832,"y":614,"w":265,"h":159},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":38,"w":265,"h":159},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_37.png",
+	"frame": {"x":334,"y":334,"w":330,"h":159},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":38,"w":330,"h":159},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_38.png",
+	"frame": {"x":832,"y":775,"w":265,"h":162},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":37,"w":265,"h":162},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_39.png",
+	"frame": {"x":2,"y":788,"w":330,"h":197},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":330,"h":197},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_4.png",
+	"frame": {"x":1371,"y":1644,"w":120,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":106,"y":178,"w":120,"h":123},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_40.png",
+	"frame": {"x":1051,"y":1220,"w":137,"h":159},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":98,"y":38,"w":137,"h":159},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_41.png",
+	"frame": {"x":1493,"y":1648,"w":119,"h":136},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":107,"y":63,"w":119,"h":136},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_42.png",
+	"frame": {"x":1051,"y":1220,"w":137,"h":159},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":98,"y":38,"w":137,"h":159},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_43.png",
+	"frame": {"x":1493,"y":1648,"w":119,"h":136},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":107,"y":63,"w":119,"h":136},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_5.png",
+	"frame": {"x":1455,"y":1143,"w":137,"h":149},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":97,"y":163,"w":137,"h":149},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_6.png",
+	"frame": {"x":1832,"y":701,"w":159,"h":173},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":86,"y":150,"w":159,"h":173},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_7.png",
+	"frame": {"x":1288,"y":797,"w":175,"h":188},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":79,"y":142,"w":175,"h":188},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_8.png",
+	"frame": {"x":1465,"y":807,"w":168,"h":178},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":82,"y":148,"w":168,"h":178},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim3_9.png",
+	"frame": {"x":1099,"y":697,"w":187,"h":192},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":72,"y":142,"w":187,"h":192},
+	"sourceSize": {"w":332,"h":342}
+},
+{
+	"filename": "super_hammer_anim4.png",
+	"frame": {"x":1585,"y":1522,"w":121,"h":123},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":106,"y":171,"w":121,"h":123},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim40.png",
+	"frame": {"x":2,"y":563,"w":330,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":189,"w":330,"h":223},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim42.png",
+	"frame": {"x":2,"y":1171,"w":265,"h":246},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":173,"w":265,"h":246},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim43.png",
+	"frame": {"x":2,"y":334,"w":330,"h":227},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":189,"w":330,"h":227},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim44.png",
+	"frame": {"x":1614,"y":1647,"w":120,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":106,"y":189,"w":120,"h":133},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim45.png",
+	"frame": {"x":1455,"y":987,"w":140,"h":154},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":97,"y":173,"w":140,"h":154},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim46.png",
+	"frame": {"x":1356,"y":1769,"w":120,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":106,"y":189,"w":120,"h":133},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim5.png",
+	"frame": {"x":1594,"y":1155,"w":137,"h":149},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":98,"y":156,"w":137,"h":149},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim6.png",
+	"frame": {"x":1806,"y":876,"w":159,"h":173},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":87,"y":144,"w":159,"h":173},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim7.png",
+	"frame": {"x":1288,"y":606,"w":175,"h":189},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":80,"y":135,"w":175,"h":189},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim8.png",
+	"frame": {"x":1635,"y":824,"w":169,"h":177},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":82,"y":142,"w":169,"h":177},
+	"sourceSize": {"w":332,"h":419}
+},
+{
+	"filename": "super_hammer_anim9.png",
+	"frame": {"x":654,"y":1605,"w":187,"h":196},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":73,"y":132,"w":187,"h":196},
+	"sourceSize": {"w":332,"h":419}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "atlas_weapons1.png",
+	"format": "RGBA8888",
+	"size": {"w":2042,"h":1906},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a283f0b1b463fd6988b102f8ba788f3e:fe8102078bcecaa81377bbe61bbe173b:b00cce23e931514c86277e300625d9e3$"
+}
+}

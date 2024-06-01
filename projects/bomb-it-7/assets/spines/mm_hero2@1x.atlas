@@ -1,0 +1,132 @@
+
+mm_hero2.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frente/eyes_0
+  rotate: false
+  xy: 2, 44
+  size: 152, 58
+  orig: 152, 58
+  offset: 0, 0
+  index: -1
+frente/eyes_1
+  rotate: false
+  xy: 1433, 450
+  size: 152, 58
+  orig: 152, 58
+  offset: 0, 0
+  index: -1
+frente/eyes_2
+  rotate: false
+  xy: 494, 160
+  size: 152, 58
+  orig: 152, 58
+  offset: 0, 0
+  index: -1
+frente/robot_body_front1
+  rotate: false
+  xy: 161, 112
+  size: 109, 106
+  orig: 109, 106
+  offset: 0, 0
+  index: -1
+frente/robot_body_front2
+  rotate: false
+  xy: 1318, 295
+  size: 109, 106
+  orig: 109, 106
+  offset: 0, 0
+  index: -1
+frente/robot_body_front3
+  rotate: false
+  xy: 272, 112
+  size: 109, 106
+  orig: 109, 106
+  offset: 0, 0
+  index: -1
+frente/robot_body_front4
+  rotate: false
+  xy: 383, 112
+  size: 109, 106
+  orig: 109, 106
+  offset: 0, 0
+  index: -1
+frente/robot_face_front1
+  rotate: false
+  xy: 2, 104
+  size: 157, 114
+  orig: 157, 114
+  offset: 0, 0
+  index: -1
+frente/robot_head_front1
+  rotate: false
+  xy: 2, 220
+  size: 327, 288
+  orig: 327, 288
+  offset: 0, 0
+  index: -1
+frente/robot_head_front2
+  rotate: false
+  xy: 331, 220
+  size: 327, 288
+  orig: 327, 288
+  offset: 0, 0
+  index: -1
+frente/robot_head_front3
+  rotate: false
+  xy: 660, 220
+  size: 327, 288
+  orig: 327, 288
+  offset: 0, 0
+  index: -1
+frente/robot_head_front4
+  rotate: false
+  xy: 989, 220
+  size: 327, 288
+  orig: 327, 288
+  offset: 0, 0
+  index: -1
+frente/robot_leg_front1
+  rotate: true
+  xy: 2, 2
+  size: 40, 63
+  orig: 40, 63
+  offset: 0, 0
+  index: -1
+frente/robot_leg_front2
+  rotate: true
+  xy: 1433, 408
+  size: 40, 63
+  orig: 40, 63
+  offset: 0, 0
+  index: -1
+ponpon
+  rotate: false
+  xy: 1318, 403
+  size: 113, 105
+  orig: 113, 105
+  offset: 0, 0
+  index: -1
+robot2_arm
+  rotate: false
+  xy: 494, 136
+  size: 45, 22
+  orig: 45, 22
+  offset: 0, 0
+  index: -1
+robot2_arm2
+  rotate: false
+  xy: 1587, 465
+  size: 51, 43
+  orig: 51, 43
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 1318, 257
+  size: 90, 36
+  orig: 90, 36
+  offset: 0, 0
+  index: -1

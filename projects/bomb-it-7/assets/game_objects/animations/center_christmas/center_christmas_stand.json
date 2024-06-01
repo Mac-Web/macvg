@@ -1,0 +1,53 @@
+{
+    "name": "center_christmas_stand",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "christmas_santa": {
+            "y": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 563,
+                    "value": -10.8
+                },
+                {
+                    "frame": 1125,
+                    "value": 0
+                }
+            ]
+        },
+        "christmas_shadow": {
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 563,
+                    "value": 0.8
+                },
+                {
+                    "frame": 1125,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 563,
+                    "value": 0.9
+                },
+                {
+                    "frame": 1125,
+                    "value": 1
+                }
+            ]
+        }
+    }
+}

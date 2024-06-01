@@ -1,0 +1,104 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "logo"
+            },
+            {
+                "name": "bar_container",
+                "children": [
+                    {
+                        "name": "loading_text"
+                    },
+                    {
+                        "name": "bar_base",
+                        "children": [
+                            {
+                                "name": "bar"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "bomb"
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 1280,
+                "height": 720
+            },
+            "type": "canvas"
+        },
+        "logo": {
+            "file": "logo.png",
+            "image": "SIMPLE",
+            "type": "sprite",
+            "alignment": {
+                "type": "CENTER",
+                "offset": {
+                    "x": 1.9,
+                    "y": -237.6
+                }
+            }
+        },
+        "bar_container": {
+            "type": "container",
+            "alignment": {
+                "type": "CENTER",
+                "offset": {
+                    "x": 9,
+                    "y": 204
+                }
+            }
+        },
+        "bar_container/loading_text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 30
+            },
+            "text": "LOADING...",
+            "align": "center",
+            "position": {
+                "x": -9,
+                "y": 45.9
+            },
+            "type": "text"
+        },
+        "bar_container/bar_base": {
+            "file": "loading_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -9,
+                "y": 1.8
+            },
+            "type": "sprite"
+        },
+        "bar_container/bar_base/bar": {
+            "file": "loading_bar.png",
+            "image": "TILED",
+            "size": {
+                "width": 572,
+                "height": 43
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "bar_container/bomb": {
+            "file": "loading_bomb.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 234,
+                "y": -6
+            },
+            "type": "sprite"
+        }
+    }
+}

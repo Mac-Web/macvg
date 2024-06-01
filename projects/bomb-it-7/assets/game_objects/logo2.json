@@ -1,0 +1,26 @@
+{
+    "hierarchy": {
+        "name": "logo2",
+        "children": [
+            {
+                "name": "shine"
+            }
+        ],
+        "animations": [
+            "logo2_stand"
+        ]
+    },
+    "properties": {
+        "shine": {
+            "position": {
+                "x": 68,
+                "y": -93
+            },
+            "scale": {
+                "x": 1.15,
+                "y": 1.15
+            },
+            "type": "sprite"
+        }
+    }
+}

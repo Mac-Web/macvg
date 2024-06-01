@@ -1,0 +1,67 @@
+{
+    "hierarchy": {
+        "name": "arrows",
+        "children": [
+            {
+                "name": "arrow_right",
+                "children": [
+                    {
+                        "name": "button"
+                    }
+                ],
+                "animations": [
+                    "arrow_stand"
+                ]
+            },
+            {
+                "name": "arrow_left",
+                "children": [
+                    {
+                        "name": "button"
+                    }
+                ],
+                "animations": [
+                    "arrow_stand"
+                ]
+            }
+        ]
+    },
+    "properties": {
+        "arrow_right": {
+            "position": {
+                "x": 312,
+                "y": -16
+            },
+            "type": "container"
+        },
+        "arrow_right/button": {
+            "file": "sm_arrow_right.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        },
+        "arrow_left": {
+            "position": {
+                "x": -310,
+                "y": -16
+            },
+            "scale": {
+                "x": -1,
+                "y": 1
+            },
+            "type": "container"
+        },
+        "arrow_left/button": {
+            "file": "sm_arrow_right.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "type": "sprite"
+        }
+    }
+}

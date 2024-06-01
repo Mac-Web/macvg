@@ -20,6 +20,7 @@
     <meta name="viewport" content="width=device-width" />
     <link class="favicon" rel="icon" type="image/x-icon" href="/logo.png" />
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="games.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -123,7 +124,7 @@
       <hr />
       <section>
         <h2 style="display: flex; align-items: center; justify-content: center">
-          About:blank Embedder <span class="new">NEW</span>
+          About:blank Embedder
         </h2>
         <p
           class="sub"
@@ -136,6 +137,27 @@
         >
           Open a website in an about:blank page so it doesn't show up in
           history!
+          <a href="" id="macvgabout" style="color: var(--link)"
+            >Open MacVG in about:blank</a
+          >
+          <script>
+            document
+              .getElementById("macvgabout")
+              .addEventListener("click", () => {
+                const win = window.open();
+                win.document.body.style.margin = "0";
+                win.document.body.style.height = "100vh";
+                const iframe = win.document.createElement("iframe");
+                iframe.style.border = "none";
+                iframe.style.width = "100%";
+                iframe.style.height = "100%";
+                iframe.style.margin = "0";
+                iframe.referrerpolicy = "no-referrer";
+                iframe.allow = "fullscreen";
+                iframe.src = window.location.href;
+                win.document.body.appendChild(iframe);
+              });
+          </script>
         </p>
         <form id="cloaker">
           <input
@@ -184,11 +206,11 @@
           </button>
           <div id="custom">
             <div class="containercustom">
-              <input type="color" name="color1" id="color1" value="#636363" />
+              <input type="color" name="color1" id="color1" value="#142011" />
               <label for="color1">Main Color</label>
             </div>
             <div class="containercustom">
-              <input type="color" name="color2" id="color2" value="#262626" />
+              <input type="color" name="color2" id="color2" value="#0c411f" />
               <label for="color2">Accent Color</label>
             </div>
           </div>

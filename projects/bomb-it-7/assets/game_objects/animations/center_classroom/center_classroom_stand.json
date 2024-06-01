@@ -1,0 +1,483 @@
+{
+    "name": "center_classroom_stand",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "classroom_teacher": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        0,
+                        7
+                    ]
+                }
+            ]
+        },
+        "classroom_teacher/teacher_head": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -2.1,
+                        -14.7
+                    ]
+                },
+                {
+                    "frame": 652,
+                    "value": [
+                        -2.1,
+                        -14.7
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 435,
+                    "value": 15
+                },
+                {
+                    "frame": 652,
+                    "value": 0
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "head5.png"
+                }
+            ]
+        },
+        "classroom_teacher/teacher_body": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -2.5,
+                        -1.6
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "body1.png"
+                }
+            ]
+        },
+        "classroom_teacher/teacher_leg_r": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        5.9,
+                        3.8
+                    ]
+                },
+                {
+                    "frame": 348,
+                    "value": [
+                        5.9,
+                        6.6
+                    ]
+                },
+                {
+                    "frame": 652,
+                    "value": [
+                        5.9,
+                        3.8
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "leg_l.png"
+                }
+            ]
+        },
+        "classroom_teacher/teacher_leg_l": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -3.8,
+                        8.4
+                    ]
+                },
+                {
+                    "frame": 348,
+                    "value": [
+                        -3.2,
+                        4.4
+                    ]
+                },
+                {
+                    "frame": 652,
+                    "value": [
+                        -3.8,
+                        8.4
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 652,
+                    "value": 0
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "leg_l.png"
+                }
+            ]
+        },
+        "classroom_teacher/teacher_arm2_r": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        12.9,
+                        -8.6
+                    ]
+                },
+                {
+                    "frame": 652,
+                    "value": [
+                        12.9,
+                        -8.6
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 52
+                },
+                {
+                    "frame": 435,
+                    "value": 73
+                },
+                {
+                    "frame": 652,
+                    "value": 52
+                }
+            ]
+        },
+        "classroom_teacher/teacher_arm_stick": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        23.1,
+                        -19.3
+                    ]
+                },
+                {
+                    "frame": 435,
+                    "value": [
+                        24.3,
+                        -14.6
+                    ]
+                },
+                {
+                    "frame": 652,
+                    "value": [
+                        23.1,
+                        -19.3
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 435,
+                    "value": 31
+                },
+                {
+                    "frame": 652,
+                    "value": 0
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "arm_r.png"
+                }
+            ]
+        },
+        "classroom_desk_top": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ]
+        },
+        "classroom_teacher/teacher_leg2_r": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        0.3,
+                        0.6
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ]
+        },
+        "classroom_teacher/teacher_arm1_r": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        4.2,
+                        -10
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": -88
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "arm_l.png"
+                }
+            ]
+        },
+        "classroom_teacher/teacher_arm1_l": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -6.7,
+                        -8.1
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 70
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "arm_r2.png"
+                }
+            ]
+        },
+        "classroom_board": {
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -2.6,
+                        -43.4
+                    ]
+                }
+            ]
+        },
+        "classroom_desk_bottom": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        0,
+                        29.7
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ]
+        },
+        "classroom_teacher/teacher_head/head_sign1": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -18.3,
+                        -36.1
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "sign3.png"
+                }
+            ]
+        },
+        "classroom_teacher/teacher_head/head_sign2": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        15.2,
+                        -29.1
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "sign3.png"
+                }
+            ]
+        },
+        "classroom_teacher/teacher_head/head_sign3": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        6.7,
+                        -7.4
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "sign3.png"
+                }
+            ]
+        },
+        "classroom_teacher/teacher_board_fx": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        0.6,
+                        -44.4
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "board_fx1.png"
+                }
+            ]
+        },
+        "classroom_teacher/teacher_head/teacher_glasses": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                }
+            ]
+        },
+        "classroom_teacher/teacher_head/teacher_lips": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                }
+            ]
+        }
+    }
+}

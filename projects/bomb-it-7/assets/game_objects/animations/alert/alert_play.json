@@ -1,0 +1,291 @@
+{
+    "name": "alert_play",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "alert_base": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "door_alert1.png"
+                },
+                {
+                    "frame": 67,
+                    "value": "door_alert2.png"
+                },
+                {
+                    "frame": 89,
+                    "value": "door_alert3.png"
+                },
+                {
+                    "frame": 111,
+                    "value": "door_alert4.png"
+                },
+                {
+                    "frame": 133,
+                    "value": "door_alert5.png"
+                },
+                {
+                    "frame": 622,
+                    "value": "door_alert4.png"
+                },
+                {
+                    "frame": 644,
+                    "value": "door_alert3.png"
+                },
+                {
+                    "frame": 667,
+                    "value": "door_alert2.png"
+                },
+                {
+                    "frame": 689,
+                    "value": "door_alert1.png"
+                },
+                {
+                    "frame": 711,
+                    "value": "door_alert1.png"
+                }
+            ]
+        },
+        "alert_hand_l": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 111,
+                    "value": 0
+                },
+                {
+                    "frame": 133,
+                    "value": 1
+                },
+                {
+                    "frame": 600,
+                    "value": 1
+                },
+                {
+                    "frame": 622,
+                    "value": 0
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 133,
+                    "value": -17
+                },
+                {
+                    "frame": 244,
+                    "value": -17
+                },
+                {
+                    "frame": 311,
+                    "value": -33
+                },
+                {
+                    "frame": 378,
+                    "value": 4
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 0.3
+                },
+                {
+                    "frame": 133,
+                    "value": 0.3
+                },
+                {
+                    "frame": 244,
+                    "value": 1
+                },
+                {
+                    "frame": 489,
+                    "value": 1
+                },
+                {
+                    "frame": 600,
+                    "value": 0.3
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 0.3
+                },
+                {
+                    "frame": 133,
+                    "value": 0.3
+                },
+                {
+                    "frame": 244,
+                    "value": 1
+                },
+                {
+                    "frame": 489,
+                    "value": 1
+                },
+                {
+                    "frame": 600,
+                    "value": 0.3
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "hands_l3.png"
+                },
+                {
+                    "frame": 156,
+                    "value": "hands_l2.png"
+                },
+                {
+                    "frame": 200,
+                    "value": "hands_l1.png"
+                },
+                {
+                    "frame": 244,
+                    "value": "hands_l3.png"
+                },
+                {
+                    "frame": 333,
+                    "value": "hands_l2.png"
+                },
+                {
+                    "frame": 356,
+                    "value": "hands_l1.png"
+                },
+                {
+                    "frame": 378,
+                    "value": "hands_l3.png"
+                }
+            ]
+        },
+        "alert_hand_r": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 111,
+                    "value": 0
+                },
+                {
+                    "frame": 133,
+                    "value": 1
+                },
+                {
+                    "frame": 600,
+                    "value": 1
+                },
+                {
+                    "frame": 622,
+                    "value": 0
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 133,
+                    "value": 14
+                },
+                {
+                    "frame": 244,
+                    "value": 14
+                },
+                {
+                    "frame": 311,
+                    "value": 35
+                },
+                {
+                    "frame": 378,
+                    "value": -1
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 0.3
+                },
+                {
+                    "frame": 133,
+                    "value": 0.3
+                },
+                {
+                    "frame": 244,
+                    "value": 1
+                },
+                {
+                    "frame": 489,
+                    "value": 1
+                },
+                {
+                    "frame": 600,
+                    "value": 0.3
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 0.3
+                },
+                {
+                    "frame": 133,
+                    "value": 0.3
+                },
+                {
+                    "frame": 244,
+                    "value": 1
+                },
+                {
+                    "frame": 489,
+                    "value": 1
+                },
+                {
+                    "frame": 600,
+                    "value": 0.3
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "hands_r3.png"
+                },
+                {
+                    "frame": 156,
+                    "value": "hands_r2.png"
+                },
+                {
+                    "frame": 200,
+                    "value": "hands_r1.png"
+                },
+                {
+                    "frame": 244,
+                    "value": "hands_r3.png"
+                },
+                {
+                    "frame": 333,
+                    "value": "hands_r2.png"
+                },
+                {
+                    "frame": 356,
+                    "value": "hands_r1.png"
+                },
+                {
+                    "frame": 378,
+                    "value": "hands_r3.png"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "name": "bomb_decor",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "fire": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -63.4,
+                        -9.4
+                    ]
+                },
+                {
+                    "frame": 60,
+                    "value": [
+                        -66.3,
+                        -9.6
+                    ]
+                },
+                {
+                    "frame": 160,
+                    "value": [
+                        -61,
+                        -8.3
+                    ]
+                },
+                {
+                    "frame": 260,
+                    "value": [
+                        -65.5,
+                        -10.8
+                    ]
+                },
+                {
+                    "frame": 340,
+                    "value": [
+                        -63.1,
+                        -7.4
+                    ]
+                },
+                {
+                    "frame": 400,
+                    "value": [
+                        -63.4,
+                        -9.4
+                    ]
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 60,
+                    "value": 0.95
+                },
+                {
+                    "frame": 120,
+                    "value": 1
+                },
+                {
+                    "frame": 200,
+                    "value": 0.93
+                },
+                {
+                    "frame": 260,
+                    "value": 1
+                },
+                {
+                    "frame": 340,
+                    "value": 0.96
+                },
+                {
+                    "frame": 400,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 60,
+                    "value": 0.95
+                },
+                {
+                    "frame": 120,
+                    "value": 1
+                },
+                {
+                    "frame": 200,
+                    "value": 0.93
+                },
+                {
+                    "frame": 260,
+                    "value": 1
+                },
+                {
+                    "frame": 340,
+                    "value": 0.96
+                },
+                {
+                    "frame": 400,
+                    "value": 1
+                }
+            ]
+        }
+    }
+}

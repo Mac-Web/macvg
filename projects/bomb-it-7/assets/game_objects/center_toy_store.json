@@ -1,0 +1,116 @@
+{
+    "hierarchy": {
+        "name": "center_toy_store",
+        "children": [
+            {
+                "name": "toy_store_base"
+            },
+            {
+                "name": "toy_store_edge_bottom"
+            },
+            {
+                "name": "toy_store_light"
+            },
+            {
+                "name": "toy_store_fire_r"
+            },
+            {
+                "name": "toy_store_fire_l"
+            },
+            {
+                "name": "toy_store_rocket"
+            },
+            {
+                "name": "toy_store_exp"
+            },
+            {
+                "name": "toy_store_edge"
+            }
+        ],
+        "animations": [
+            "center_toy_store_play",
+            "center_toy_store_stand"
+        ]
+    },
+    "properties": {
+        "toy_store_base": {
+            "file": "center_toy_store_base.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -1.3,
+                "y": 0.6
+            },
+            "type": "sprite"
+        },
+        "toy_store_edge_bottom": {
+            "file": "center_toy_store_edge_bottom.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -1.2,
+                "y": -70.3
+            },
+            "type": "sprite"
+        },
+        "toy_store_light": {
+            "file": "center_toy_store_fx.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0.2,
+                "y": 8.3
+            },
+            "type": "sprite"
+        },
+        "toy_store_fire_r": {
+            "file": "center_toy_store_rocket_fire1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 26.5,
+                "y": 51.5
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "toy_store_fire_l": {
+            "file": "center_toy_store_rocket_fire1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -23,
+                "y": 51.5
+            },
+            "scale": {
+                "x": -1,
+                "y": 1
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "toy_store_rocket": {
+            "file": "center_toy_store_rocket.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -54.5
+            },
+            "type": "sprite"
+        },
+        "toy_store_exp": {
+            "file": "center_toy_store_rocket_exp1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -230.1
+            },
+            "alpha": 0,
+            "type": "sprite"
+        },
+        "toy_store_edge": {
+            "file": "center_toy_store_edge.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -14.4
+            },
+            "type": "sprite"
+        }
+    }
+}

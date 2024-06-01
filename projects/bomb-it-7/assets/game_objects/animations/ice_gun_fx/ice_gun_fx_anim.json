@@ -1,0 +1,31 @@
+{
+    "name": "ice_gun_fx_anim",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "ice_gun_fx_base": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "ice_anim1.png"
+                },
+                {
+                    "frame": 57,
+                    "value": "ice_anim2.png"
+                },
+                {
+                    "frame": 114,
+                    "value": "ice_anim3.png"
+                },
+                {
+                    "frame": 171,
+                    "value": "ice_anim4.png"
+                },
+                {
+                    "frame": 229,
+                    "value": "ice_anim1.png"
+                }
+            ]
+        }
+    }
+}

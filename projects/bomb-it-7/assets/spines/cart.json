@@ -1,0 +1,697 @@
+{
+"skeleton": { "hash": "grv1k3+8fe1XuqXLUH2JunR3ijI", "spine": "2.1.27", "width": 55, "height": 65.17, "images": "" },
+"bones": [
+	{ "name": "root", "color": "9c9c9c3c" },
+	{ "name": "bone", "parent": "root", "x": 0.21, "y": 18.46, "color": "9c9c9c3c" },
+	{ "name": "player_bone", "parent": "root", "x": 0.23, "y": 8.13, "color": "9c9c9c3c" },
+	{ "name": "bone2", "parent": "bone", "length": 32.84, "x": 0.27, "y": 7.17, "rotation": 90, "color": "9c9c9c3c" },
+	{ "name": "bone3", "parent": "bone", "length": 34.5, "x": 0.48, "y": -8.59, "rotation": 90.45, "color": "9c9c9c3c" },
+	{ "name": "wheel1", "parent": "bone", "x": -12.83, "y": -18.42, "color": "9c9c9c3c" },
+	{ "name": "wheel2", "parent": "bone", "x": 12.83, "y": -18.42, "color": "9c9c9c3c" }
+],
+"slots": [
+	{ "name": "edge2", "bone": "bone2", "attachment": "edge2" },
+	{ "name": "bottom", "bone": "bone", "attachment": "bottom" },
+	{ "name": "edge1", "bone": "bone3", "attachment": "edge1" },
+	{ "name": "wheel2_1", "bone": "wheel1", "attachment": "wheel2_1" },
+	{ "name": "wheel2_2", "bone": "wheel2", "attachment": "wheel2_1" },
+	{ "name": "1x1", "bone": "player_bone", "attachment": "1x1" }
+],
+"skins": {
+	"default": {
+		"1x1": {
+			"1x1": { "width": 1, "height": 1 }
+		},
+		"bottom": {
+			"bottom": { "y": -0.62, "width": 43, "height": 23 },
+			"edge4": { "y": -0.62, "width": 55, "height": 47 },
+			"edge6": { "x": 4.66, "y": 7.93, "width": 61, "height": 43 }
+		},
+		"edge1": {
+			"edge1": { "x": 4.55, "y": -0.03, "rotation": -90.45, "width": 52, "height": 26 },
+			"edge3": { "x": 4.55, "y": -0.03, "rotation": -90.45, "width": 52, "height": 34 }
+		},
+		"edge2": {
+			"edge2": { "x": 8.07, "rotation": -90, "width": 55, "height": 52 },
+			"edge5": { "x": 8.07, "rotation": -90, "width": 54, "height": 29 }
+		},
+		"wheel2_1": {
+			"wheel1": { "width": 11, "height": 11 },
+			"wheel2_1": { "width": 5, "height": 11 },
+			"wheel2_2": { "width": 5, "height": 11 },
+			"wheel2_3": { "width": 5, "height": 11 },
+			"wheel2_4": { "width": 5, "height": 11 }
+		},
+		"wheel2_2": {
+			"wheel1": { "width": 11, "height": 11 },
+			"wheel2_1": { "width": 5, "height": 11 },
+			"wheel2_2": { "width": 5, "height": 11 },
+			"wheel2_3": { "width": 5, "height": 11 },
+			"wheel2_4": { "width": 5, "height": 11 }
+		}
+	}
+},
+"animations": {
+	"stand_back": {
+		"slots": {
+			"bottom": {
+				"attachment": [
+					{ "time": 0, "name": "bottom" }
+				]
+			},
+			"edge1": {
+				"attachment": [
+					{ "time": 0, "name": "edge3" }
+				]
+			},
+			"edge2": {
+				"attachment": [
+					{ "time": 0, "name": "edge5" }
+				]
+			},
+			"wheel2_1": {
+				"attachment": [
+					{ "time": 0, "name": "wheel2_1" }
+				]
+			},
+			"wheel2_2": {
+				"attachment": [
+					{ "time": 0, "name": "wheel2_1" }
+				]
+			}
+		},
+		"bones": {
+			"wheel1": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"wheel2": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"bone3": {
+				"translate": [
+					{ "time": 0, "x": -0.03, "y": 4.43 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"bone2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 1.94 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"player_bone": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 2.04 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "1x1", "offset": -4 }
+				]
+			}
+		]
+	},
+	"stand_front": {
+		"slots": {
+			"wheel2_1": {
+				"attachment": [
+					{ "time": 0, "name": "wheel2_1" }
+				]
+			},
+			"wheel2_2": {
+				"attachment": [
+					{ "time": 0, "name": "wheel2_1" }
+				]
+			}
+		},
+		"bones": {
+			"wheel1": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"wheel2": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"bone3": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"bone2": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"player_bone": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -2.72 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "1x1", "offset": -3 }
+				]
+			}
+		]
+	},
+	"stand_side": {
+		"slots": {
+			"bottom": {
+				"attachment": [
+					{ "time": 0, "name": "edge6" }
+				]
+			},
+			"edge2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"wheel2_1": {
+				"attachment": [
+					{ "time": 0, "name": "wheel1" }
+				]
+			},
+			"wheel2_2": {
+				"attachment": [
+					{ "time": 0, "name": "wheel1" }
+				]
+			}
+		},
+		"bones": {
+			"wheel1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"wheel2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"bone3": {
+				"translate": [
+					{ "time": 0, "x": -1.14, "y": -0.79 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"bone2": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"player_bone": {
+				"translate": [
+					{ "time": 0, "x": 1.79, "y": 2.04 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "1x1", "offset": -3 }
+				]
+			}
+		]
+	},
+	"walk_back": {
+		"slots": {
+			"bottom": {
+				"attachment": [
+					{ "time": 0, "name": "bottom" }
+				]
+			},
+			"edge1": {
+				"attachment": [
+					{ "time": 0, "name": "edge3" }
+				]
+			},
+			"edge2": {
+				"attachment": [
+					{ "time": 0, "name": "edge5" }
+				]
+			},
+			"wheel2_1": {
+				"attachment": [
+					{ "time": 0, "name": "wheel2_1" },
+					{ "time": 0.0666, "name": "wheel2_2" },
+					{ "time": 0.1333, "name": "wheel2_3" },
+					{ "time": 0.2333, "name": "wheel2_4" },
+					{ "time": 0.3333, "name": "wheel2_1" },
+					{ "time": 0.3666, "name": "wheel2_2" },
+					{ "time": 0.4666, "name": "wheel2_3" },
+					{ "time": 0.5333, "name": "wheel2_4" },
+					{ "time": 0.6, "name": "wheel2_1" }
+				]
+			},
+			"wheel2_2": {
+				"attachment": [
+					{ "time": 0, "name": "wheel2_1" },
+					{ "time": 0.0666, "name": "wheel2_2" },
+					{ "time": 0.1333, "name": "wheel2_3" },
+					{ "time": 0.2333, "name": "wheel2_4" },
+					{ "time": 0.3333, "name": "wheel2_1" },
+					{ "time": 0.3666, "name": "wheel2_2" },
+					{ "time": 0.4666, "name": "wheel2_3" },
+					{ "time": 0.5333, "name": "wheel2_4" },
+					{ "time": 0.6, "name": "wheel2_1" }
+				]
+			}
+		},
+		"bones": {
+			"wheel1": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{
+						"time": 0.4,
+						"x": 1,
+						"y": 0.88,
+						"curve": [ 0.463, 0.15, 0.973, 0.65 ]
+					},
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"wheel2": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{
+						"time": 0.4,
+						"x": 1,
+						"y": 0.881,
+						"curve": [ 0.463, 0.15, 0.973, 0.65 ]
+					},
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"bone3": {
+				"translate": [
+					{ "time": 0, "x": -0.03, "y": 4.43 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2, "x": 1.026, "y": 0.952 },
+					{
+						"time": 0.4,
+						"x": 0.763,
+						"y": 1,
+						"curve": [ 0.463, 0.15, 0.973, 0.65 ]
+					},
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"bone2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 1.94 },
+					{ "time": 0.4, "x": 0, "y": 0.42 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2, "x": 1.022, "y": 0.97 },
+					{
+						"time": 0.4,
+						"x": 0.774,
+						"y": 1,
+						"curve": [ 0.463, 0.15, 0.973, 0.65 ]
+					},
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{
+						"time": 0.4,
+						"x": 0,
+						"y": -2.14,
+						"curve": [ 0.463, 0.15, 0.973, 0.65 ]
+					},
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{
+						"time": 0.4,
+						"x": 1,
+						"y": 0.9,
+						"curve": [ 0.463, 0.15, 0.973, 0.65 ]
+					},
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"player_bone": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 2.04 },
+					{ "time": 0.2, "x": 0, "y": 5.28 },
+					{ "time": 0.4, "x": 0, "y": -0.79 },
+					{ "time": 0.6, "x": 0, "y": 2.04 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "1x1", "offset": -4 }
+				]
+			}
+		]
+	},
+	"walk_front": {
+		"slots": {
+			"wheel2_1": {
+				"attachment": [
+					{ "time": 0, "name": "wheel2_1" },
+					{ "time": 0.0666, "name": "wheel2_2" },
+					{ "time": 0.1333, "name": "wheel2_3" },
+					{ "time": 0.2333, "name": "wheel2_4" },
+					{ "time": 0.3, "name": "wheel2_1" },
+					{ "time": 0.3666, "name": "wheel2_2" },
+					{ "time": 0.4333, "name": "wheel2_3" },
+					{ "time": 0.5333, "name": "wheel2_4" },
+					{ "time": 0.6, "name": "wheel2_1" }
+				]
+			},
+			"wheel2_2": {
+				"attachment": [
+					{ "time": 0, "name": "wheel2_1" },
+					{ "time": 0.0666, "name": "wheel2_2" },
+					{ "time": 0.1333, "name": "wheel2_3" },
+					{ "time": 0.2333, "name": "wheel2_4" },
+					{ "time": 0.3, "name": "wheel2_1" },
+					{ "time": 0.3666, "name": "wheel2_2" },
+					{ "time": 0.4333, "name": "wheel2_3" },
+					{ "time": 0.5333, "name": "wheel2_4" },
+					{ "time": 0.6, "name": "wheel2_1" }
+				]
+			}
+		},
+		"bones": {
+			"wheel1": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{
+						"time": 0.4,
+						"x": 1,
+						"y": 0.88,
+						"curve": [ 0.463, 0.15, 0.973, 0.65 ]
+					},
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"wheel2": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{
+						"time": 0.4,
+						"x": 1,
+						"y": 0.881,
+						"curve": [ 0.463, 0.15, 0.973, 0.65 ]
+					},
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"bone3": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{
+						"time": 0.4,
+						"x": 0.763,
+						"y": 1,
+						"curve": [ 0.463, 0.15, 0.973, 0.65 ]
+					},
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"bone2": {
+				"translate": [
+					{ "time": 0.4, "x": 0, "y": 0.42 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{
+						"time": 0.4,
+						"x": 0.774,
+						"y": 1,
+						"curve": [ 0.463, 0.15, 0.973, 0.65 ]
+					},
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{
+						"time": 0.4,
+						"x": 0,
+						"y": -2.14,
+						"curve": [ 0.463, 0.15, 0.973, 0.65 ]
+					},
+					{ "time": 0.6, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{
+						"time": 0.4,
+						"x": 1,
+						"y": 0.9,
+						"curve": [ 0.463, 0.15, 0.973, 0.65 ]
+					},
+					{ "time": 0.6, "x": 1, "y": 1 }
+				]
+			},
+			"player_bone": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -2.72 },
+					{ "time": 0.2, "x": 0, "y": 0.77 },
+					{ "time": 0.4, "x": 0, "y": -5 },
+					{ "time": 0.6, "x": 0, "y": -2.72 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "1x1", "offset": -3 }
+				]
+			}
+		]
+	},
+	"walk_side": {
+		"slots": {
+			"bottom": {
+				"attachment": [
+					{ "time": 0, "name": "edge6" }
+				]
+			},
+			"edge2": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"wheel2_1": {
+				"attachment": [
+					{ "time": 0, "name": "wheel1" }
+				]
+			},
+			"wheel2_2": {
+				"attachment": [
+					{ "time": 0, "name": "wheel1" }
+				]
+			}
+		},
+		"bones": {
+			"wheel1": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1666, "angle": 91.17 },
+					{ "time": 0.3333, "angle": -173.1 },
+					{ "time": 0.5, "angle": 360 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{
+						"time": 0.3333,
+						"x": 1,
+						"y": 0.88,
+						"curve": [ 0.463, 0.15, 0.973, 0.65 ]
+					},
+					{ "time": 0.5, "x": 1, "y": 1 }
+				]
+			},
+			"wheel2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1666, "angle": 91.17 },
+					{ "time": 0.3333, "angle": -173.1 },
+					{ "time": 0.5, "angle": 360 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{
+						"time": 0.3333,
+						"x": 1,
+						"y": 0.881,
+						"curve": [ 0.463, 0.15, 0.973, 0.65 ]
+					},
+					{ "time": 0.5, "x": 1, "y": 1 }
+				]
+			},
+			"bone3": {
+				"translate": [
+					{ "time": 0, "x": -1.14, "y": -0.79, "curve": "stepped" },
+					{ "time": 0.3333, "x": -1.14, "y": -0.79, "curve": "stepped" },
+					{ "time": 0.5, "x": -1.14, "y": -0.79 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1666, "x": 1.11, "y": 0.945 },
+					{
+						"time": 0.3333,
+						"x": 0.9,
+						"y": 1.14,
+						"curve": [ 0.463, 0.15, 0.973, 0.65 ]
+					},
+					{ "time": 0.5, "x": 1, "y": 1 }
+				]
+			},
+			"bone2": {
+				"translate": [
+					{ "time": 0.3333, "x": 0, "y": 0.42 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{
+						"time": 0.3333,
+						"x": 0.774,
+						"y": 1,
+						"curve": [ 0.463, 0.15, 0.973, 0.65 ]
+					},
+					{ "time": 0.5, "x": 1, "y": 1 }
+				]
+			},
+			"bone": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{
+						"time": 0.3333,
+						"x": 0,
+						"y": -2.14,
+						"curve": [ 0.463, 0.15, 0.973, 0.65 ]
+					},
+					{ "time": 0.5, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.1666, "x": 1, "y": 1.098 },
+					{ "time": 0.5, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{
+						"time": 0.3333,
+						"x": 1,
+						"y": 0.9,
+						"curve": [ 0.463, 0.15, 0.973, 0.65 ]
+					},
+					{ "time": 0.5, "x": 1, "y": 1 }
+				]
+			},
+			"player_bone": {
+				"translate": [
+					{ "time": 0, "x": 1.79, "y": 2.04 },
+					{ "time": 0.1666, "x": 1.79, "y": 5.55 },
+					{ "time": 0.3333, "x": 1.79, "y": 0.05 },
+					{ "time": 0.5, "x": 1.79, "y": 2.04 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "1x1", "offset": -3 }
+				]
+			}
+		]
+	}
+}
+}

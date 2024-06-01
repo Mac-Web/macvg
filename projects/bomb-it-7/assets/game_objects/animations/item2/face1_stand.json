@@ -1,0 +1,31 @@
+{
+    "name": "face1_stand",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "dizzy_r": {
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 1000,
+                    "value": 360
+                }
+            ]
+        },
+        "dizzy_l": {
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 1000,
+                    "value": 360
+                }
+            ]
+        }
+    }
+}

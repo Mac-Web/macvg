@@ -1,0 +1,33 @@
+{
+    "hierarchy": {
+        "name": "powerup_number",
+        "children": [
+            {
+                "name": "hero_number"
+            },
+            {
+                "name": "hero_powerup"
+            }
+        ]
+    },
+    "properties": {
+        "hero_number": {
+            "file": "x1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 10.3,
+                "y": -89.9
+            },
+            "type": "sprite"
+        },
+        "hero_powerup": {
+            "file": "head_icon_mighty_hammer.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -15.7,
+                "y": -89
+            },
+            "type": "sprite"
+        }
+    }
+}

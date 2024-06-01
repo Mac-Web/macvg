@@ -1,0 +1,28 @@
+{
+    "hierarchy": {
+        "name": "bomb_explosion_edge",
+        "children": [
+            {
+                "name": "bomb_exp_edge_base"
+            }
+        ],
+        "animations": [
+            "anim_explosion_edge"
+        ]
+    },
+    "properties": {
+        "bomb_exp_edge_base": {
+            "file": "exp1_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 24.3
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 1
+            },
+            "type": "sprite"
+        }
+    }
+}

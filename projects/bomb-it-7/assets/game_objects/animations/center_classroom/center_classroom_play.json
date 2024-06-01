@@ -1,0 +1,2407 @@
+{
+    "name": "center_classroom_play",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "classroom_teacher": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        0,
+                        7
+                    ]
+                },
+                {
+                    "frame": 1000,
+                    "value": [
+                        -51.4,
+                        -25.2
+                    ]
+                },
+                {
+                    "frame": 1217,
+                    "value": [
+                        -47,
+                        -30
+                    ]
+                },
+                {
+                    "frame": 2304,
+                    "value": [
+                        40.5,
+                        -30
+                    ]
+                },
+                {
+                    "frame": 4304,
+                    "value": [
+                        40.5,
+                        -30
+                    ]
+                },
+                {
+                    "frame": 4565,
+                    "value": [
+                        2.1,
+                        12.7
+                    ]
+                },
+                {
+                    "frame": 7739,
+                    "value": [
+                        2.1,
+                        12.7
+                    ]
+                },
+                {
+                    "frame": 7826,
+                    "value": [
+                        2.1,
+                        -17.8
+                    ]
+                },
+                {
+                    "frame": 7957,
+                    "value": [
+                        0,
+                        -17.8
+                    ]
+                },
+                {
+                    "frame": 7957,
+                    "value": [
+                        0,
+                        7
+                    ]
+                },
+                {
+                    "frame": 8783,
+                    "value": [
+                        0,
+                        7
+                    ]
+                }
+            ]
+        },
+        "classroom_teacher/teacher_head": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -2.1,
+                        -14.7
+                    ]
+                },
+                {
+                    "frame": 652,
+                    "value": [
+                        -2.1,
+                        -14.7
+                    ]
+                },
+                {
+                    "frame": 1174,
+                    "value": [
+                        -2.1,
+                        -14.7
+                    ]
+                },
+                {
+                    "frame": 1217,
+                    "value": [
+                        -1.5,
+                        -10.7
+                    ]
+                },
+                {
+                    "frame": 1391,
+                    "value": [
+                        -1.5,
+                        -13.1
+                    ]
+                },
+                {
+                    "frame": 1609,
+                    "value": [
+                        -1.5,
+                        -10.7
+                    ]
+                },
+                {
+                    "frame": 1783,
+                    "value": [
+                        -1.5,
+                        -13.1
+                    ]
+                },
+                {
+                    "frame": 2000,
+                    "value": [
+                        -1.5,
+                        -10.7
+                    ]
+                },
+                {
+                    "frame": 2174,
+                    "value": [
+                        -1.5,
+                        -13.1
+                    ]
+                },
+                {
+                    "frame": 2391,
+                    "value": [
+                        -1.5,
+                        -10.7
+                    ]
+                },
+                {
+                    "frame": 3174,
+                    "value": [
+                        -1.5,
+                        -10.7
+                    ]
+                },
+                {
+                    "frame": 3217,
+                    "value": [
+                        3.3,
+                        -10.2
+                    ]
+                },
+                {
+                    "frame": 4522,
+                    "value": [
+                        3.3,
+                        -10.2
+                    ]
+                },
+                {
+                    "frame": 4565,
+                    "value": [
+                        10.3,
+                        -21.1
+                    ]
+                },
+                {
+                    "frame": 5783,
+                    "value": [
+                        13.5,
+                        -22.3
+                    ]
+                },
+                {
+                    "frame": 5826,
+                    "value": [
+                        0,
+                        -17.7
+                    ]
+                },
+                {
+                    "frame": 6870,
+                    "value": [
+                        -0.1,
+                        -11.1
+                    ]
+                },
+                {
+                    "frame": 6913,
+                    "value": [
+                        -2.1,
+                        -14.7
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 435,
+                    "value": 15
+                },
+                {
+                    "frame": 652,
+                    "value": 0
+                },
+                {
+                    "frame": 1043,
+                    "value": 15
+                },
+                {
+                    "frame": 1174,
+                    "value": 0
+                },
+                {
+                    "frame": 3174,
+                    "value": 0
+                },
+                {
+                    "frame": 3217,
+                    "value": 15
+                },
+                {
+                    "frame": 4522,
+                    "value": 20
+                },
+                {
+                    "frame": 4565,
+                    "value": 0
+                },
+                {
+                    "frame": 5783,
+                    "value": 12
+                },
+                {
+                    "frame": 5826,
+                    "value": -1
+                },
+                {
+                    "frame": 6870,
+                    "value": -1
+                },
+                {
+                    "frame": 6913,
+                    "value": 0
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 3174,
+                    "value": 1
+                },
+                {
+                    "frame": 3217,
+                    "value": 1
+                },
+                {
+                    "frame": 4348,
+                    "value": 1.1
+                },
+                {
+                    "frame": 4522,
+                    "value": 1.1
+                },
+                {
+                    "frame": 4565,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 3174,
+                    "value": 1
+                },
+                {
+                    "frame": 3217,
+                    "value": 1
+                },
+                {
+                    "frame": 4348,
+                    "value": 1.1
+                },
+                {
+                    "frame": 4522,
+                    "value": 1.1
+                },
+                {
+                    "frame": 4565,
+                    "value": 1
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "head5.png"
+                },
+                {
+                    "frame": 1217,
+                    "value": "body2.png"
+                },
+                {
+                    "frame": 3217,
+                    "value": "head3.png"
+                },
+                {
+                    "frame": 4565,
+                    "value": "head6.png"
+                },
+                {
+                    "frame": 5826,
+                    "value": "head4.png"
+                },
+                {
+                    "frame": 6913,
+                    "value": "head5.png"
+                }
+            ]
+        },
+        "classroom_teacher/teacher_body": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -2.5,
+                        -1.6
+                    ]
+                },
+                {
+                    "frame": 1174,
+                    "value": [
+                        -2.5,
+                        -1.6
+                    ]
+                },
+                {
+                    "frame": 1217,
+                    "value": [
+                        -2.5,
+                        -1.6
+                    ]
+                },
+                {
+                    "frame": 1391,
+                    "value": [
+                        -2.5,
+                        -3.3
+                    ]
+                },
+                {
+                    "frame": 1609,
+                    "value": [
+                        -2.5,
+                        -1.6
+                    ]
+                },
+                {
+                    "frame": 1783,
+                    "value": [
+                        -2.5,
+                        -3.3
+                    ]
+                },
+                {
+                    "frame": 2000,
+                    "value": [
+                        -2.5,
+                        -1.6
+                    ]
+                },
+                {
+                    "frame": 2174,
+                    "value": [
+                        -2.5,
+                        -3.3
+                    ]
+                },
+                {
+                    "frame": 2391,
+                    "value": [
+                        -2.5,
+                        -1.6
+                    ]
+                },
+                {
+                    "frame": 4522,
+                    "value": [
+                        -2.5,
+                        -1.6
+                    ]
+                },
+                {
+                    "frame": 6913,
+                    "value": [
+                        -2.5,
+                        -1.6
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "body1.png"
+                },
+                {
+                    "frame": 1217,
+                    "value": "body3.png"
+                },
+                {
+                    "frame": 4565,
+                    "value": "body4.png"
+                },
+                {
+                    "frame": 5826,
+                    "value": "body5.png"
+                },
+                {
+                    "frame": 6913,
+                    "value": "body1.png"
+                }
+            ]
+        },
+        "classroom_teacher/teacher_leg_r": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 4522,
+                    "value": 1
+                },
+                {
+                    "frame": 4565,
+                    "value": 0
+                },
+                {
+                    "frame": 6870,
+                    "value": 0
+                },
+                {
+                    "frame": 6913,
+                    "value": 1
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        5.9,
+                        3.8
+                    ]
+                },
+                {
+                    "frame": 348,
+                    "value": [
+                        5.9,
+                        6.6
+                    ]
+                },
+                {
+                    "frame": 652,
+                    "value": [
+                        5.9,
+                        3.8
+                    ]
+                },
+                {
+                    "frame": 913,
+                    "value": [
+                        5.9,
+                        6.3
+                    ]
+                },
+                {
+                    "frame": 1174,
+                    "value": [
+                        5.9,
+                        3.8
+                    ]
+                },
+                {
+                    "frame": 1217,
+                    "value": [
+                        8.4,
+                        3.1
+                    ]
+                },
+                {
+                    "frame": 1435,
+                    "value": [
+                        8.5,
+                        3.9
+                    ]
+                },
+                {
+                    "frame": 1522,
+                    "value": [
+                        8.6,
+                        0
+                    ]
+                },
+                {
+                    "frame": 1609,
+                    "value": [
+                        8.4,
+                        3.1
+                    ]
+                },
+                {
+                    "frame": 1826,
+                    "value": [
+                        8.5,
+                        3.9
+                    ]
+                },
+                {
+                    "frame": 1913,
+                    "value": [
+                        8.6,
+                        0
+                    ]
+                },
+                {
+                    "frame": 2000,
+                    "value": [
+                        8.4,
+                        3.1
+                    ]
+                },
+                {
+                    "frame": 2217,
+                    "value": [
+                        8.5,
+                        3.9
+                    ]
+                },
+                {
+                    "frame": 2304,
+                    "value": [
+                        8.6,
+                        0
+                    ]
+                },
+                {
+                    "frame": 2391,
+                    "value": [
+                        8.4,
+                        3.1
+                    ]
+                },
+                {
+                    "frame": 4348,
+                    "value": [
+                        8.4,
+                        3.1
+                    ]
+                },
+                {
+                    "frame": 4522,
+                    "value": [
+                        6.95,
+                        5.65
+                    ]
+                },
+                {
+                    "frame": 6913,
+                    "value": [
+                        5.9,
+                        7.5
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 1217,
+                    "value": 0
+                },
+                {
+                    "frame": 1435,
+                    "value": 16
+                },
+                {
+                    "frame": 1609,
+                    "value": 0
+                },
+                {
+                    "frame": 1826,
+                    "value": 16
+                },
+                {
+                    "frame": 2000,
+                    "value": 0
+                },
+                {
+                    "frame": 2217,
+                    "value": 16
+                },
+                {
+                    "frame": 2391,
+                    "value": 0
+                },
+                {
+                    "frame": 4348,
+                    "value": 0
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "leg_l.png"
+                },
+                {
+                    "frame": 1217,
+                    "value": "leg_l2.png"
+                },
+                {
+                    "frame": 6913,
+                    "value": "leg_l.png"
+                }
+            ]
+        },
+        "classroom_teacher/teacher_leg_l": {
+            "alpha": [
+                {
+                    "frame": 4522,
+                    "value": 1
+                },
+                {
+                    "frame": 4565,
+                    "value": 0
+                },
+                {
+                    "frame": 6870,
+                    "value": 0
+                },
+                {
+                    "frame": 6913,
+                    "value": 1
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -3.8,
+                        8.4
+                    ]
+                },
+                {
+                    "frame": 348,
+                    "value": [
+                        -3.2,
+                        4.4
+                    ]
+                },
+                {
+                    "frame": 652,
+                    "value": [
+                        -3.8,
+                        8.4
+                    ]
+                },
+                {
+                    "frame": 913,
+                    "value": [
+                        -3.8,
+                        4.4
+                    ]
+                },
+                {
+                    "frame": 1174,
+                    "value": [
+                        -3.8,
+                        8.4
+                    ]
+                },
+                {
+                    "frame": 1217,
+                    "value": [
+                        -7.2,
+                        2.8
+                    ]
+                },
+                {
+                    "frame": 1348,
+                    "value": [
+                        -5,
+                        -0.1
+                    ]
+                },
+                {
+                    "frame": 1435,
+                    "value": [
+                        -5.7,
+                        2.8
+                    ]
+                },
+                {
+                    "frame": 1609,
+                    "value": [
+                        -7.2,
+                        2.8
+                    ]
+                },
+                {
+                    "frame": 1739,
+                    "value": [
+                        -5,
+                        -0.1
+                    ]
+                },
+                {
+                    "frame": 1826,
+                    "value": [
+                        -5.7,
+                        2.8
+                    ]
+                },
+                {
+                    "frame": 2000,
+                    "value": [
+                        -7.2,
+                        2.8
+                    ]
+                },
+                {
+                    "frame": 2130,
+                    "value": [
+                        -5,
+                        -0.1
+                    ]
+                },
+                {
+                    "frame": 2217,
+                    "value": [
+                        -5.7,
+                        2.8
+                    ]
+                },
+                {
+                    "frame": 2391,
+                    "value": [
+                        -7.2,
+                        2.8
+                    ]
+                },
+                {
+                    "frame": 4348,
+                    "value": [
+                        -7.2,
+                        2.8
+                    ]
+                },
+                {
+                    "frame": 4522,
+                    "value": [
+                        -5.23,
+                        6.05
+                    ]
+                },
+                {
+                    "frame": 6913,
+                    "value": [
+                        -3.8,
+                        8.4
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 652,
+                    "value": 0
+                },
+                {
+                    "frame": 1217,
+                    "value": 0
+                },
+                {
+                    "frame": 1609,
+                    "value": 0
+                },
+                {
+                    "frame": 2000,
+                    "value": 0
+                },
+                {
+                    "frame": 2391,
+                    "value": 0
+                },
+                {
+                    "frame": 4348,
+                    "value": 0
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "leg_l.png"
+                },
+                {
+                    "frame": 1217,
+                    "value": "leg_l2.png"
+                },
+                {
+                    "frame": 6913,
+                    "value": "leg_l.png"
+                }
+            ]
+        },
+        "classroom_teacher/teacher_arm2_r": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 1174,
+                    "value": 1
+                },
+                {
+                    "frame": 1217,
+                    "value": 0
+                },
+                {
+                    "frame": 6870,
+                    "value": 0
+                },
+                {
+                    "frame": 6913,
+                    "value": 1
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        12.9,
+                        -8.6
+                    ]
+                },
+                {
+                    "frame": 652,
+                    "value": [
+                        12.9,
+                        -8.6
+                    ]
+                },
+                {
+                    "frame": 1174,
+                    "value": [
+                        12.9,
+                        -8.6
+                    ]
+                },
+                {
+                    "frame": 6913,
+                    "value": [
+                        12.9,
+                        -8.6
+                    ]
+                },
+                {
+                    "frame": 7217,
+                    "value": [
+                        12.9,
+                        -8.6
+                    ]
+                },
+                {
+                    "frame": 7261,
+                    "value": [
+                        13,
+                        -10.3
+                    ]
+                },
+                {
+                    "frame": 7348,
+                    "value": [
+                        12.9,
+                        -8.6
+                    ]
+                },
+                {
+                    "frame": 7435,
+                    "value": [
+                        13,
+                        -10.3
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 52
+                },
+                {
+                    "frame": 435,
+                    "value": 73
+                },
+                {
+                    "frame": 652,
+                    "value": 52
+                },
+                {
+                    "frame": 1043,
+                    "value": 73
+                },
+                {
+                    "frame": 6870,
+                    "value": 52
+                },
+                {
+                    "frame": 6913,
+                    "value": 3
+                },
+                {
+                    "frame": 7435,
+                    "value": 3
+                },
+                {
+                    "frame": 7478,
+                    "value": -110
+                },
+                {
+                    "frame": 7739,
+                    "value": 3
+                },
+                {
+                    "frame": 7783,
+                    "value": 52
+                }
+            ]
+        },
+        "classroom_teacher/teacher_arm_stick": {
+            "alpha": [
+                {
+                    "frame": 1174,
+                    "value": 1
+                },
+                {
+                    "frame": 1217,
+                    "value": 0
+                },
+                {
+                    "frame": 4522,
+                    "value": 0
+                },
+                {
+                    "frame": 4565,
+                    "value": 1
+                },
+                {
+                    "frame": 5783,
+                    "value": 1
+                },
+                {
+                    "frame": 5826,
+                    "value": 0
+                },
+                {
+                    "frame": 7435,
+                    "value": 0
+                },
+                {
+                    "frame": 7478,
+                    "value": 1
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        23.1,
+                        -19.3
+                    ]
+                },
+                {
+                    "frame": 435,
+                    "value": [
+                        24.3,
+                        -14.6
+                    ]
+                },
+                {
+                    "frame": 652,
+                    "value": [
+                        23.1,
+                        -19.3
+                    ]
+                },
+                {
+                    "frame": 1043,
+                    "value": [
+                        24.3,
+                        -14.6
+                    ]
+                },
+                {
+                    "frame": 1174,
+                    "value": [
+                        23.1,
+                        -19.3
+                    ]
+                },
+                {
+                    "frame": 4522,
+                    "value": [
+                        23.1,
+                        -19.3
+                    ]
+                },
+                {
+                    "frame": 4565,
+                    "value": [
+                        5.5,
+                        -5.3
+                    ]
+                },
+                {
+                    "frame": 5783,
+                    "value": [
+                        11,
+                        -13.3
+                    ]
+                },
+                {
+                    "frame": 6913,
+                    "value": [
+                        23.1,
+                        -19.3
+                    ]
+                },
+                {
+                    "frame": 7478,
+                    "value": [
+                        2,
+                        -4.8
+                    ]
+                },
+                {
+                    "frame": 7783,
+                    "value": [
+                        23.1,
+                        -19.3
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 435,
+                    "value": 31
+                },
+                {
+                    "frame": 652,
+                    "value": 0
+                },
+                {
+                    "frame": 1043,
+                    "value": 31
+                },
+                {
+                    "frame": 1174,
+                    "value": 0
+                },
+                {
+                    "frame": 4565,
+                    "value": -2
+                },
+                {
+                    "frame": 5783,
+                    "value": -2
+                },
+                {
+                    "frame": 7478,
+                    "value": -131
+                },
+                {
+                    "frame": 7783,
+                    "value": 0
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 87,
+                    "value": "arm_r.png"
+                },
+                {
+                    "frame": 4522,
+                    "value": "hand.png"
+                },
+                {
+                    "frame": 7478,
+                    "value": "arm_r.png"
+                }
+            ]
+        },
+        "classroom_desk_top": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 4522,
+                    "value": 1
+                },
+                {
+                    "frame": 4565,
+                    "value": 0
+                },
+                {
+                    "frame": 7826,
+                    "value": 0
+                },
+                {
+                    "frame": 7870,
+                    "value": 1
+                }
+            ]
+        },
+        "classroom_teacher/teacher_leg2_r": {
+            "position": [
+                {
+                    "frame": 4522,
+                    "value": [
+                        0.3,
+                        0.6
+                    ]
+                },
+                {
+                    "frame": 4565,
+                    "value": [
+                        0.3,
+                        0.6
+                    ]
+                },
+                {
+                    "frame": 5783,
+                    "value": [
+                        0.3,
+                        -1.6
+                    ]
+                },
+                {
+                    "frame": 5826,
+                    "value": [
+                        0.3,
+                        0.6
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 4522,
+                    "value": 0
+                },
+                {
+                    "frame": 4565,
+                    "value": 0
+                },
+                {
+                    "frame": 5783,
+                    "value": 21
+                },
+                {
+                    "frame": 5826,
+                    "value": 0
+                }
+            ],
+            "alpha": [
+                {
+                    "frame": 4522,
+                    "value": 0
+                },
+                {
+                    "frame": 4565,
+                    "value": 1
+                },
+                {
+                    "frame": 5783,
+                    "value": 1
+                },
+                {
+                    "frame": 5826,
+                    "value": 0
+                }
+            ]
+        },
+        "classroom_teacher/teacher_arm1_r": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 5783,
+                    "value": 0
+                },
+                {
+                    "frame": 5826,
+                    "value": 1
+                },
+                {
+                    "frame": 6870,
+                    "value": 1
+                },
+                {
+                    "frame": 6913,
+                    "value": 0
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        4.2,
+                        -10
+                    ]
+                },
+                {
+                    "frame": 1174,
+                    "value": [
+                        4.2,
+                        -10
+                    ]
+                },
+                {
+                    "frame": 4565,
+                    "value": [
+                        4.2,
+                        -17.6
+                    ]
+                },
+                {
+                    "frame": 5783,
+                    "value": [
+                        4.2,
+                        -13.66
+                    ]
+                },
+                {
+                    "frame": 5826,
+                    "value": [
+                        3.8,
+                        -25.3
+                    ]
+                },
+                {
+                    "frame": 6870,
+                    "value": [
+                        9.2,
+                        -17.1
+                    ]
+                },
+                {
+                    "frame": 6913,
+                    "value": [
+                        4.2,
+                        -10
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": -88
+                },
+                {
+                    "frame": 5783,
+                    "value": -88
+                },
+                {
+                    "frame": 5826,
+                    "value": -4
+                },
+                {
+                    "frame": 6870,
+                    "value": 1
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 5826,
+                    "value": "arm_l.png"
+                }
+            ]
+        },
+        "classroom_teacher/teacher_arm1_l": {
+            "alpha": [
+                {
+                    "frame": 0,
+                    "value": 0
+                },
+                {
+                    "frame": 5783,
+                    "value": 0
+                },
+                {
+                    "frame": 5826,
+                    "value": 1
+                },
+                {
+                    "frame": 6870,
+                    "value": 1
+                },
+                {
+                    "frame": 6913,
+                    "value": 0
+                }
+            ],
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -6.7,
+                        -8.1
+                    ]
+                },
+                {
+                    "frame": 1174,
+                    "value": [
+                        -6.7,
+                        -8.1
+                    ]
+                },
+                {
+                    "frame": 5826,
+                    "value": [
+                        4,
+                        -72.8
+                    ]
+                },
+                {
+                    "frame": 6870,
+                    "value": [
+                        -1.8,
+                        -64.3
+                    ]
+                },
+                {
+                    "frame": 6913,
+                    "value": [
+                        -6.7,
+                        -8.1
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 0,
+                    "value": 70
+                },
+                {
+                    "frame": 5783,
+                    "value": 70
+                },
+                {
+                    "frame": 5826,
+                    "value": -175
+                },
+                {
+                    "frame": 6870,
+                    "value": -190
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 5826,
+                    "value": "arm_r2.png"
+                },
+                {
+                    "frame": 6913,
+                    "value": "arm_r2.png"
+                }
+            ]
+        },
+        "classroom_board": {
+            "position": [
+                {
+                    "frame": 5739,
+                    "value": [
+                        -2.6,
+                        -43.4
+                    ]
+                },
+                {
+                    "frame": 6174,
+                    "value": [
+                        -2.6,
+                        -59.8
+                    ]
+                },
+                {
+                    "frame": 6261,
+                    "value": [
+                        -5.6,
+                        -50
+                    ]
+                },
+                {
+                    "frame": 6478,
+                    "value": [
+                        -2.6,
+                        -43.4
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 5696,
+                    "value": 0
+                },
+                {
+                    "frame": 5826,
+                    "value": -13
+                },
+                {
+                    "frame": 6261,
+                    "value": 9
+                },
+                {
+                    "frame": 6478,
+                    "value": 0
+                }
+            ]
+        },
+        "classroom_desk_bottom": {
+            "position": [
+                {
+                    "frame": 5739,
+                    "value": [
+                        0,
+                        29.7
+                    ]
+                },
+                {
+                    "frame": 6174,
+                    "value": [
+                        3.3,
+                        23.4
+                    ]
+                },
+                {
+                    "frame": 6261,
+                    "value": [
+                        0,
+                        29.7
+                    ]
+                },
+                {
+                    "frame": 6391,
+                    "value": [
+                        -1.5,
+                        25.7
+                    ]
+                },
+                {
+                    "frame": 6478,
+                    "value": [
+                        0,
+                        29.7
+                    ]
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 5739,
+                    "value": 0
+                },
+                {
+                    "frame": 5826,
+                    "value": 10
+                },
+                {
+                    "frame": 6174,
+                    "value": 20
+                },
+                {
+                    "frame": 6261,
+                    "value": 0
+                },
+                {
+                    "frame": 6391,
+                    "value": -11
+                },
+                {
+                    "frame": 6478,
+                    "value": 0
+                }
+            ]
+        },
+        "classroom_teacher/teacher_head/head_sign1": {
+            "position": [
+                {
+                    "frame": 2304,
+                    "value": [
+                        -18.3,
+                        -36.1
+                    ]
+                },
+                {
+                    "frame": 2391,
+                    "value": [
+                        -17.3,
+                        -34
+                    ]
+                },
+                {
+                    "frame": 3174,
+                    "value": [
+                        -17.3,
+                        -34
+                    ]
+                },
+                {
+                    "frame": 3217,
+                    "value": [
+                        -13.6,
+                        -36.8
+                    ]
+                },
+                {
+                    "frame": 3304,
+                    "value": [
+                        -13.6,
+                        -36.8
+                    ]
+                },
+                {
+                    "frame": 4522,
+                    "value": [
+                        -13.6,
+                        -36.8
+                    ]
+                },
+                {
+                    "frame": 4565,
+                    "value": [
+                        -19.2,
+                        -49.4
+                    ]
+                },
+                {
+                    "frame": 5783,
+                    "value": [
+                        -19.2,
+                        -49.4
+                    ]
+                },
+                {
+                    "frame": 5826,
+                    "value": [
+                        -17.9,
+                        -17.8
+                    ]
+                },
+                {
+                    "frame": 6696,
+                    "value": [
+                        -17.9,
+                        -17.8
+                    ]
+                },
+                {
+                    "frame": 6870,
+                    "value": [
+                        -17.9,
+                        -17.8
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 2304,
+                    "value": "sign3.png"
+                },
+                {
+                    "frame": 2391,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 2478,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 2565,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 2652,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 2739,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 2826,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 2913,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 3000,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 3087,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 3174,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 3174,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 3304,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 3391,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 3478,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 3565,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 3652,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 3739,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 3826,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 3913,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 4000,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 4087,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 4174,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 4261,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 4348,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 4435,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 4522,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 4652,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 4739,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 4826,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 4913,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 5000,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 5087,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 5174,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 5261,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 5348,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 5435,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 5522,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 5609,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 5696,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 5783,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 5826,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 5913,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 6000,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 6087,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 6174,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 6261,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 6348,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 6435,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 6522,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 6609,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 6696,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 6783,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 6870,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 6913,
+                    "value": "sign3.png"
+                }
+            ]
+        },
+        "classroom_teacher/teacher_head/head_sign2": {
+            "position": [
+                {
+                    "frame": 2304,
+                    "value": [
+                        15.2,
+                        -29.1
+                    ]
+                },
+                {
+                    "frame": 2348,
+                    "value": [
+                        10.1,
+                        -15.8
+                    ]
+                },
+                {
+                    "frame": 3174,
+                    "value": [
+                        10.1,
+                        -15.8
+                    ]
+                },
+                {
+                    "frame": 3217,
+                    "value": [
+                        1.4,
+                        -14.8
+                    ]
+                },
+                {
+                    "frame": 4522,
+                    "value": [
+                        1.4,
+                        -14.8
+                    ]
+                },
+                {
+                    "frame": 5783,
+                    "value": [
+                        1.4,
+                        -14.8
+                    ]
+                },
+                {
+                    "frame": 5826,
+                    "value": [
+                        21,
+                        -18.5
+                    ]
+                },
+                {
+                    "frame": 6870,
+                    "value": [
+                        21,
+                        -18.5
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 2348,
+                    "value": "sign3.png"
+                },
+                {
+                    "frame": 2391,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 2478,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 2565,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 2652,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 2739,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 2826,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 2913,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 3000,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 3087,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 3174,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 3304,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 3391,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 3478,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 3565,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 3652,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 3739,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 3826,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 3913,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 4000,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 4087,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 4174,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 4261,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 4348,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 4435,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 4522,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 4565,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 4652,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 4739,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 4826,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 4913,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 5000,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 5087,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 5174,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 5261,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 5348,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 5435,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 5522,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 5609,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 5696,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 5783,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 5913,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 6000,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 6087,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 6174,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 6261,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 6348,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 6435,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 6522,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 6609,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 6696,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 6783,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 6870,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 6913,
+                    "value": "sign3.png"
+                }
+            ]
+        },
+        "classroom_teacher/teacher_head/head_sign3": {
+            "position": [
+                {
+                    "frame": 4522,
+                    "value": [
+                        6.7,
+                        -7.4
+                    ]
+                },
+                {
+                    "frame": 4565,
+                    "value": [
+                        13.2,
+                        -50.4
+                    ]
+                },
+                {
+                    "frame": 5435,
+                    "value": [
+                        13.2,
+                        -50.4
+                    ]
+                },
+                {
+                    "frame": 5783,
+                    "value": [
+                        13.2,
+                        -50.4
+                    ]
+                },
+                {
+                    "frame": 6870,
+                    "value": [
+                        13.2,
+                        -50.4
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 4522,
+                    "value": "sign3.png"
+                },
+                {
+                    "frame": 4565,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 4652,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 4739,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 4826,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 4913,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 5000,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 5087,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 5174,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 5261,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 5348,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 5435,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 5522,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 5609,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 5696,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 5783,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 5826,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 5913,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 6000,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 6087,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 6174,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 6261,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 6348,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 6435,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 6522,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 6609,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 6696,
+                    "value": "sign2.png"
+                },
+                {
+                    "frame": 6783,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 6870,
+                    "value": "sign1.png"
+                },
+                {
+                    "frame": 6913,
+                    "value": "sign3.png"
+                }
+            ]
+        },
+        "classroom_teacher/teacher_board_fx": {
+            "alpha": [
+                {
+                    "frame": 1174,
+                    "value": 0
+                },
+                {
+                    "frame": 1217,
+                    "value": 1
+                },
+                {
+                    "frame": 2348,
+                    "value": 1
+                },
+                {
+                    "frame": 2391,
+                    "value": 0
+                }
+            ],
+            "position": [
+                {
+                    "frame": 1174,
+                    "value": [
+                        0.6,
+                        -44.4
+                    ]
+                },
+                {
+                    "frame": 1217,
+                    "value": [
+                        4.6,
+                        -63.5
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 1217,
+                    "value": "board_fx1.png"
+                },
+                {
+                    "frame": 1391,
+                    "value": "board_fx2.png"
+                },
+                {
+                    "frame": 1565,
+                    "value": "board_fx1.png"
+                },
+                {
+                    "frame": 1739,
+                    "value": "board_fx2.png"
+                },
+                {
+                    "frame": 1913,
+                    "value": "board_fx1.png"
+                },
+                {
+                    "frame": 2087,
+                    "value": "board_fx2.png"
+                },
+                {
+                    "frame": 2261,
+                    "value": "board_fx1.png"
+                },
+                {
+                    "frame": 2348,
+                    "value": "board_fx2.png"
+                }
+            ]
+        },
+        "classroom_teacher/teacher_head/teacher_glasses": {
+            "alpha": [
+                {
+                    "frame": 1174,
+                    "value": 1
+                },
+                {
+                    "frame": 1217,
+                    "value": 0
+                },
+                {
+                    "frame": 6870,
+                    "value": 0
+                },
+                {
+                    "frame": 6913,
+                    "value": 1
+                }
+            ],
+            "angle": [
+                {
+                    "frame": 7217,
+                    "value": 0
+                },
+                {
+                    "frame": 7261,
+                    "value": -7
+                },
+                {
+                    "frame": 7348,
+                    "value": 0
+                },
+                {
+                    "frame": 7435,
+                    "value": -7
+                },
+                {
+                    "frame": 7478,
+                    "value": 0
+                }
+            ]
+        },
+        "classroom_teacher/teacher_head/teacher_lips": {
+            "alpha": [
+                {
+                    "frame": 1174,
+                    "value": 1
+                },
+                {
+                    "frame": 1217,
+                    "value": 0
+                },
+                {
+                    "frame": 6870,
+                    "value": 0
+                },
+                {
+                    "frame": 6913,
+                    "value": 1
+                }
+            ]
+        }
+    },
+    "events": [
+        {
+            "frame": 5870,
+            "name": ""
+        }
+    ]
+}

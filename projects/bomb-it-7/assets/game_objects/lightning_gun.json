@@ -1,0 +1,42 @@
+{
+    "hierarchy": {
+        "name": "lightning_gun",
+        "children": [
+            {
+                "name": "lightning_gun_base"
+            },
+            {
+                "name": "lightning_gun_fx"
+            }
+        ],
+        "animations": [
+            "lightning_side",
+            "lightning_up",
+            "lightning_down"
+        ]
+    },
+    "properties": {
+        "lightning_gun_base": {
+            "file": "lightning_left.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -10.6,
+                "y": -23.9
+            },
+            "type": "sprite"
+        },
+        "lightning_gun_fx": {
+            "file": "lightning_play12.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -32.5,
+                "y": -29.1
+            },
+            "scale": {
+                "x": -1,
+                "y": 1
+            },
+            "type": "sprite"
+        }
+    }
+}

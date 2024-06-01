@@ -1,0 +1,226 @@
+{
+    "name": "mighty_hammer_side",
+    "speed": 1,
+    "mode": "normal",
+    "data": {
+        "mighty_hammer_base": {
+            "position": [
+                {
+                    "frame": 0,
+                    "value": [
+                        -139.7,
+                        -48.7
+                    ]
+                }
+            ],
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "super_hammer_anim2_1.png"
+                },
+                {
+                    "frame": 33,
+                    "value": "super_hammer_anim2_2.png"
+                },
+                {
+                    "frame": 67,
+                    "value": "super_hammer_anim2_3.png"
+                },
+                {
+                    "frame": 100,
+                    "value": "super_hammer_anim2_4.png"
+                },
+                {
+                    "frame": 133,
+                    "value": "super_hammer_anim2_5.png"
+                },
+                {
+                    "frame": 167,
+                    "value": "super_hammer_anim2_6.png"
+                },
+                {
+                    "frame": 200,
+                    "value": "super_hammer_anim2_7.png"
+                },
+                {
+                    "frame": 233,
+                    "value": "super_hammer_anim2_8.png"
+                },
+                {
+                    "frame": 267,
+                    "value": "super_hammer_anim2_9.png"
+                },
+                {
+                    "frame": 300,
+                    "value": "super_hammer_anim2_10.png"
+                },
+                {
+                    "frame": 333,
+                    "value": "super_hammer_anim2_11.png"
+                },
+                {
+                    "frame": 367,
+                    "value": "super_hammer_anim2_12.png"
+                },
+                {
+                    "frame": 400,
+                    "value": "super_hammer_anim2_13.png"
+                },
+                {
+                    "frame": 433,
+                    "value": "super_hammer_anim2_14.png"
+                },
+                {
+                    "frame": 467,
+                    "value": "super_hammer_anim2_15.png"
+                },
+                {
+                    "frame": 500,
+                    "value": "super_hammer_anim2_16.png"
+                },
+                {
+                    "frame": 533,
+                    "value": "super_hammer_anim2_17.png"
+                },
+                {
+                    "frame": 567,
+                    "value": "super_hammer_anim2_18.png"
+                },
+                {
+                    "frame": 600,
+                    "value": "super_hammer_anim2_19.png"
+                },
+                {
+                    "frame": 633,
+                    "value": "super_hammer_anim2_20.png"
+                },
+                {
+                    "frame": 667,
+                    "value": "super_hammer_anim2_21.png"
+                },
+                {
+                    "frame": 700,
+                    "value": "super_hammer_anim2_22.png"
+                },
+                {
+                    "frame": 733,
+                    "value": "super_hammer_anim2_23.png"
+                },
+                {
+                    "frame": 767,
+                    "value": "super_hammer_anim2_24.png"
+                },
+                {
+                    "frame": 800,
+                    "value": "super_hammer_anim2_25.png"
+                },
+                {
+                    "frame": 833,
+                    "value": "super_hammer_anim2_26.png"
+                },
+                {
+                    "frame": 867,
+                    "value": "super_hammer_anim2_27.png"
+                },
+                {
+                    "frame": 900,
+                    "value": "super_hammer_anim2_28.png"
+                },
+                {
+                    "frame": 933,
+                    "value": "super_hammer_anim2_29.png"
+                },
+                {
+                    "frame": 967,
+                    "value": "super_hammer_anim2_30.png"
+                },
+                {
+                    "frame": 1000,
+                    "value": "super_hammer_anim2_31.png"
+                },
+                {
+                    "frame": 1033,
+                    "value": "super_hammer_anim2_32.png"
+                },
+                {
+                    "frame": 1067,
+                    "value": "super_hammer_anim2_33.png"
+                },
+                {
+                    "frame": 1100,
+                    "value": "super_hammer_anim2_34.png"
+                },
+                {
+                    "frame": 1133,
+                    "value": "super_hammer_anim2_35.png"
+                },
+                {
+                    "frame": 1167,
+                    "value": "super_hammer_anim2_36.png"
+                },
+                {
+                    "frame": 1200,
+                    "value": "super_hammer_anim2_37.png"
+                },
+                {
+                    "frame": 1233,
+                    "value": "super_hammer_anim2_38.png"
+                },
+                {
+                    "frame": 1267,
+                    "value": "super_hammer_anim2_39.png"
+                },
+                {
+                    "frame": 1300,
+                    "value": "super_hammer_anim2_40.png"
+                },
+                {
+                    "frame": 1333,
+                    "value": "super_hammer_anim2_41.png"
+                },
+                {
+                    "frame": 1367,
+                    "value": "super_hammer_anim2_42.png"
+                },
+                {
+                    "frame": 1400,
+                    "value": "super_hammer_anim2_43.png"
+                },
+                {
+                    "frame": 1433,
+                    "value": "super_hammer_anim2_44.png"
+                },
+                {
+                    "frame": 1467,
+                    "value": "super_hammer_anim2_45.png"
+                },
+                {
+                    "frame": 1500,
+                    "value": "super_hammer_anim2_46.png"
+                },
+                {
+                    "frame": 1533,
+                    "value": "super_hammer_anim2_47.png"
+                },
+                {
+                    "frame": 1567,
+                    "value": "super_hammer_anim2_48.png"
+                },
+                {
+                    "frame": 1600,
+                    "value": "super_hammer_anim2_49.png"
+                },
+                {
+                    "frame": 1633,
+                    "value": "anim_super_hammer2_fx4.png"
+                }
+            ]
+        }
+    },
+    "events": [
+        {
+            "frame": 1167,
+            "name": ""
+        }
+    ]
+}

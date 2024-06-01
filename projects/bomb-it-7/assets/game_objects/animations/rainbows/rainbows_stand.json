@@ -1,0 +1,123 @@
+{
+    "name": "rainbows_stand",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "rainbows_bottom": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "rainbow_fx2_1.png"
+                },
+                {
+                    "frame": 117,
+                    "value": "rainbow_fx2_2.png"
+                },
+                {
+                    "frame": 200,
+                    "value": "rainbow_fx2_3.png"
+                },
+                {
+                    "frame": 383,
+                    "value": "rainbow_fx2_5.png"
+                },
+                {
+                    "frame": 467,
+                    "value": "rainbow_fx2_6.png"
+                },
+                {
+                    "frame": 550,
+                    "value": "rainbow_fx2_7.png"
+                },
+                {
+                    "frame": 633,
+                    "value": "rainbow_fx2_8.png"
+                },
+                {
+                    "frame": 733,
+                    "value": "rainbow_fx2_9.png"
+                },
+                {
+                    "frame": 817,
+                    "value": "rainbow_fx2_10.png"
+                },
+                {
+                    "frame": 900,
+                    "value": "rainbow_fx2_11.png"
+                }
+            ]
+        },
+        "rainbows_top": {
+            "frameName": [
+                {
+                    "frame": 0,
+                    "value": "rainbow_fx1.png"
+                },
+                {
+                    "frame": 67,
+                    "value": "rainbow_fx2.png"
+                },
+                {
+                    "frame": 133,
+                    "value": "rainbow_fx3.png"
+                },
+                {
+                    "frame": 200,
+                    "value": "rainbow_fx4.png"
+                },
+                {
+                    "frame": 267,
+                    "value": "rainbow_fx5.png"
+                },
+                {
+                    "frame": 333,
+                    "value": "rainbow_fx6.png"
+                },
+                {
+                    "frame": 400,
+                    "value": "rainbow_fx7.png"
+                },
+                {
+                    "frame": 467,
+                    "value": "rainbow_fx8.png"
+                },
+                {
+                    "frame": 533,
+                    "value": "rainbow_fx1.png"
+                },
+                {
+                    "frame": 600,
+                    "value": "rainbow_fx2.png"
+                },
+                {
+                    "frame": 667,
+                    "value": "rainbow_fx3.png"
+                },
+                {
+                    "frame": 733,
+                    "value": "rainbow_fx4.png"
+                },
+                {
+                    "frame": 800,
+                    "value": "rainbow_fx5.png"
+                },
+                {
+                    "frame": 867,
+                    "value": "rainbow_fx6.png"
+                },
+                {
+                    "frame": 933,
+                    "value": "rainbow_fx7.png"
+                },
+                {
+                    "frame": 1000,
+                    "value": "rainbow_fx8.png"
+                },
+                {
+                    "frame": 1067,
+                    "value": "rainbow_fx1.png"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta
+      id="viewport"
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui, shrink-to-fit=no"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Bomb It 7 | MacVG</title>
+    <link rel="stylesheet" href="assets/css/app.css" type="text/css" />
+    <script src="game-libs.min.js" defer onload="loadGame()"></script>
+    <script src="patch/js/azerion-libs-m.js" defer></script>
+  </head>
+  <body style="overflow: hidden">
+    <div id="content"></div>
+    <div id="orientation"></div>
+    <div id="loader">Loading..</div>
+    <div id="dummy" style="position: fixed; right: 0; bottom: 0"></div>
+    <script type="text/javascript">
+      var gameName = "bombit-7.min.js";
+      function addScript(src, buster, callback) {
+        var s = document.createElement("script");
+        s.setAttribute("src", src + "?v=" + buster);
+        if (typeof callback === "function") {
+          s.onload = callback;
+        }
+        document.body.appendChild(s);
+      }
+      function loadGame() {
+        addScript("version.js", Date.now(), function () {
+          addScript(gameName, version, function () {
+            var g = Game.App.getInstance();
+          });
+        });
+      }
+    </script>
+  </body>
+</html>

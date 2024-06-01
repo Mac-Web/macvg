@@ -1,0 +1,110 @@
+{
+
+  "SETTINGS": {
+
+    "CELL_WIDTH": 49,
+    "CELL_HEIGHT": 49,
+    "GRID_WIDTH": 15,
+    "GRID_HEIGHT": 13,
+
+    "LOADING_SCREEN": 2250,
+    "MATCH_TIME": 180000,
+    "INITIAL_BLINKING_TIME": 2000,
+    "INITIAL_SPEED": 0.2,
+    "SPEED_INCREASE": 0.06,
+    "INITIAL_LIVES": 3,
+    "BOMB_TIMER": 2500,
+    "BOMB_SPEED_KICKED": 0.5,
+    "MAX_BOMB_POWER": 5,
+    "MAX_SPEED": 9,
+    "MAX_BOMBS": 9,
+    "TIME_STUNNED": 3000,
+
+    "CHANCE_POWER_UP": 40,
+    "CHANCE_POWER_UP_BEING_WEAPON": 30,
+
+    "ON_BLOCK_DESTROY": [
+      {"name": "power_up", "chance": 50},
+      {"name": "weapon", "chance": 20},
+      {"name": "mount", "chance": 5},
+      {"name": "nothing", "chance": 25}
+    ],
+
+    "POWER_UP_CHANCES": [
+      {"name": "bomb", "chance": 20},
+      {"name": "power", "chance": 20},
+      {"name": "speed", "chance": 20},
+      {"name": "push", "chance": 20},
+      {"name": "shield", "chance": 10},
+      {"name": "invincibility", "chance": 8},
+      {"name": "heart", "chance": 2}
+    ],
+
+    "WEAPON_CHANCES": [
+      {"name": "hammer", "chance": 15},
+      {"name": "laser_gun", "chance": 15},
+      {"name": "ice_gun", "chance": 15},
+      {"name": "doll_bomb", "chance": 15},
+      {"name": "flamethrower", "chance": 15},
+      {"name": "lightning_gun", "chance": 15},
+      {"name": "mighty_hammer", "chance": 10}
+    ],
+
+    "MOUNT_CHANCES": [
+      {"name": "horse", "chance": 25},
+      {"name": "skate", "chance": 25},
+      {"name": "stag", "chance": 25},
+      {"name": "cart", "chance": 25}
+    ],
+
+    "TREASURE_BOXES": [
+      {"name": "power_up", "chance": 15},
+      {"name": "bomb", "chance": 15},
+      {"name": "super_bomb", "chance": 15},
+      {"name": "coin", "chance": 50},
+      {"name": "nothing", "chance": 5}
+    ],
+
+    "PACMAN_POWER_UPS": [
+      {"name": "invincibility", "chance": 35},
+      {"name": "speed", "chance": 30},
+      {"name": "shield", "chance": 30},
+      {"name": "heart", "chance": 5}
+    ],
+
+    "POINTS_EASY": 1000,
+    "POINTS_NORMAL": 2000,
+    "POINTS_HARD": 3000,
+    "POINTS_PER_SECOND": 10,
+    "POINTS_ARCADE_1_KILL": 600,
+    "POINTS_ARCADE_2_KILL": 900,
+    "POINTS_ARCADE_3_KILL": 1200,
+
+    "POINTS_PER_KILL": 100,
+    "POINTS_PER_LIVE": 100,
+    "POINTS_PER_COIN": 10,
+    "POINTS_PER_STAR": 200,
+
+    "TIMES_TO_SEARCH_PLAYER_EASY": 20,
+    "TIMES_TO_SEARCH_PLAYER_NORMAL": 20,
+    "TIMES_TO_SEARCH_PLAYER_HARD": 20,
+
+    "CHANCE_TO_SEARCH_PLAYER_EASY": 5,
+    "CHANCE_TO_SEARCH_PLAYER_NORMAL": 10,
+    "CHANCE_TO_SEARCH_PLAYER_HARD": 15,
+
+    "CHANCE_TO_ATTACK_EASY": 30,
+    "CHANCE_TO_ATTACK_NORMAL": 50,
+    "CHANCE_TO_ATTACK_HARD": 75,
+
+    "CAMERA_SHAKE": 0.01,
+    "CAMERA_SHAKE_DURATION": 250,
+    "ITEM_COSTS": [
+      3500, 3500, 3500,
+      5500, 5500, 5500,
+      4200, 4200, 4200
+    ]
+
+  }
+
+}

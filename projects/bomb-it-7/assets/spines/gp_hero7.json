@@ -1,0 +1,5785 @@
+{
+"skeleton": { "hash": "Wvk0T7FdwLUpqyx91nPD0bEw7W4", "spine": "2.1.27", "width": 80.79, "height": 84.31, "images": "" },
+"bones": [
+	{ "name": "root", "x": -0.34, "y": -0.34, "color": "9b9b9b5f" },
+	{ "name": "base", "parent": "root", "x": -0.54, "y": 0.05, "scaleX": 0.56, "scaleY": 0.56, "color": "9b9b9b5f" },
+	{ "name": "body", "parent": "base", "length": 23.92, "x": 0.06, "y": 18.46, "rotation": 90.45, "color": "9b9b9b5f" },
+	{ "name": "death", "parent": "base", "x": 3.11, "y": 10.69, "color": "9b9b9b5f" },
+	{ "name": "eye_l", "parent": "base", "x": -26.11, "y": 79.22, "color": "9b9b9b5f" },
+	{ "name": "eye_r", "parent": "base", "x": 19.49, "y": 79.19, "color": "9b9b9b5f" },
+	{ "name": "shadow", "parent": "base", "x": 0.03, "y": -0.12, "color": "9b9b9b5f" },
+	{ "name": "arm_left", "parent": "body", "length": 24.98, "x": 29.32, "y": 16.35, "rotation": 145.89, "color": "9b9b9b5f" },
+	{ "name": "arm_right", "parent": "body", "length": 27.45, "x": 29.76, "y": -13.54, "rotation": -148.11, "color": "9b07005f" },
+	{ "name": "flamethrower", "parent": "body", "x": 16.31, "y": -4.96, "color": "9b9b9b5f" },
+	{ "name": "head", "parent": "body", "length": 65.88, "x": 24.01, "y": 0.42, "rotation": 1.35, "color": "9b9b9b5f" },
+	{ "name": "leg_left", "parent": "body", "length": 22.08, "x": 5.71, "y": 9.5, "rotation": 175.94, "color": "9b9b9b5f" },
+	{ "name": "leg_right", "parent": "body", "length": 21.74, "x": 6.51, "y": -6.24, "rotation": -177.55, "color": "9b00085f" },
+	{ "name": "dizzy", "parent": "head", "x": 106.52, "y": -4.05, "scaleX": 1.82, "scaleY": 1.82, "color": "9b9b9b5f" },
+	{ "name": "glass_left", "parent": "head", "x": 33.31, "y": 15.45, "scaleX": 0.893, "scaleY": 0.893, "color": "9b9b9b5f" },
+	{
+		"name": "glass_right",
+		"parent": "head",
+		"x": 32.67,
+		"y": -17.79,
+		"scaleX": 0.89,
+		"scaleY": 0.89,
+		"rotation": -91.8,
+		"color": "9b9b9b5f"
+	},
+	{ "name": "heart_left", "parent": "head", "x": 36.4, "y": 15.31, "color": "9b9b9b5f" },
+	{ "name": "heart_right", "parent": "head", "x": 35.38, "y": -20.14, "rotation": -91.8, "color": "9b9b9b5f" },
+	{ "name": "shield_back", "parent": "arm_right", "x": 28.1, "y": 2.04, "color": "9b9b9b5f" },
+	{ "name": "shield_front", "parent": "arm_left", "x": 27.52, "y": -1.83, "color": "9b9b9b5f" },
+	{ "name": "weapon", "parent": "arm_left", "x": 27.52, "y": -1.83, "color": "9b9b9b5f" },
+	{ "name": "weapon_right", "parent": "arm_right", "x": 28.1, "y": 2.04, "color": "9b9b9b5f" }
+],
+"slots": [
+	{ "name": "shadow", "bone": "shadow", "attachment": "shadow" },
+	{ "name": "thrower_back", "bone": "flamethrower" },
+	{ "name": "arm_left", "bone": "arm_left", "attachment": "arm_right1" },
+	{ "name": "leg_right", "bone": "leg_right", "attachment": "leg_front" },
+	{ "name": "leg_left", "bone": "leg_left", "attachment": "leg_front" },
+	{ "name": "weapon_right", "bone": "weapon_right", "attachment": "weapon_r_back" },
+	{ "name": "shield_back", "bone": "shield_back" },
+	{ "name": "arm_right", "bone": "arm_right", "attachment": "arm_right" },
+	{ "name": "body", "bone": "body", "attachment": "body_front" },
+	{ "name": "head", "bone": "head", "attachment": "head_front" },
+	{ "name": "face", "bone": "head", "attachment": "face_front" },
+	{ "name": "weapon", "bone": "weapon" },
+	{ "name": "shield_front", "bone": "shield_front" },
+	{ "name": "muerte/hero1_dead0001", "bone": "death" },
+	{ "name": "corazon", "bone": "heart_right" },
+	{ "name": "glass2", "bone": "glass_right" },
+	{ "name": "corazon-1", "bone": "heart_left" },
+	{ "name": "glass1", "bone": "glass_left" },
+	{ "name": "frente/eyes_1", "bone": "head" },
+	{ "name": "frente/eyes_2", "bone": "head" },
+	{ "name": "muerte/hero_eye", "bone": "eye_l" },
+	{ "name": "muerte/hero_eye2", "bone": "eye_r" },
+	{ "name": "stun_anim1", "bone": "dizzy" }
+],
+"skins": {
+	"default": {
+		"corazon": {
+			"corazon": { "x": -1.13, "y": -2.43, "scaleX": 1.67, "scaleY": 1.67, "width": 16, "height": 14 }
+		},
+		"corazon-1": {
+			"corazon-1": { "x": -2.24, "y": 0.51, "scaleX": 1.67, "scaleY": 1.67, "rotation": -91.8, "width": 16, "height": 14 }
+		},
+		"frente/eyes_1": {
+			"frente/eyes_1": { "x": 32.61, "y": -1.11, "scaleX": 1.665, "scaleY": 1.665, "rotation": -91.8, "width": 33, "height": 12 },
+			"frente/eyes_2": { "x": 32.61, "y": -1.12, "scaleX": 1.67, "scaleY": 1.67, "rotation": -91.8, "width": 33, "height": 12 }
+		},
+		"frente/eyes_2": {
+			"frente/eye_3": { "x": 41.23, "y": 25.78, "scaleX": 1.41, "scaleY": 1.61, "rotation": -91.8, "width": 13, "height": 12 },
+			"frente/eyes_4": { "x": 41.23, "y": 25.78, "scaleX": 1.409, "scaleY": 1.613, "rotation": -91.8, "width": 13, "height": 12 }
+		},
+		"glass1": {
+			"eye_dizzy": { "scaleX": 1.67, "scaleY": 1.67, "rotation": -91.8, "width": 18, "height": 17 }
+		},
+		"glass2": {
+			"eye_dizzy": { "scaleX": 1.67, "scaleY": 1.67, "width": 18, "height": 17 }
+		},
+		"muerte/hero1_dead0001": {
+			"muerte/hero_death1": { "x": 10.39, "y": 57, "scaleX": 2, "scaleY": 1.996, "width": 77, "height": 84 },
+			"muerte/hero_death2": { "x": 10.39, "y": 57, "scaleX": 2, "scaleY": 2, "width": 77, "height": 84 },
+			"muerte/hero_death3": { "x": 10.39, "y": 57, "scaleX": 2, "scaleY": 2, "width": 77, "height": 84 },
+			"muerte/hero_death4": { "x": 10.39, "y": 57, "scaleX": 2, "scaleY": 2, "width": 77, "height": 84 },
+			"muerte/hero_death5": { "x": 10.39, "y": 57, "scaleX": 2, "scaleY": 2, "width": 77, "height": 84 },
+			"muerte/hero_death6": { "x": 10.39, "y": 57, "scaleX": 2, "scaleY": 2, "width": 77, "height": 84 },
+			"muerte/hero_death7": { "x": 10.39, "y": 57, "scaleX": 2, "scaleY": 2, "width": 77, "height": 84 },
+			"muerte/hero_death8": { "x": 10.39, "y": 57, "scaleX": 2, "scaleY": 2, "width": 77, "height": 84 },
+			"muerte/hero_death9": { "x": 10.39, "y": 57, "scaleX": 2, "scaleY": 2, "width": 77, "height": 84 },
+			"muerte/hero_death10": { "x": 10.39, "y": 57, "scaleX": 2, "scaleY": 2, "width": 77, "height": 84 },
+			"muerte/hero_death11": { "x": 10.39, "y": 57, "scaleX": 2, "scaleY": 2, "width": 77, "height": 84 },
+			"muerte/hero_death12": { "x": 10.39, "y": 57, "scaleX": 2, "scaleY": 2, "width": 77, "height": 84 },
+			"muerte/hero_death13": { "x": 10.39, "y": 57, "scaleX": 2, "scaleY": 2, "width": 77, "height": 84 },
+			"muerte/hero_death14": { "x": 10.39, "y": 57, "scaleX": 2, "scaleY": 2, "width": 77, "height": 84 },
+			"muerte/hero_death15": { "x": 10.39, "y": 57, "scaleX": 2, "scaleY": 2, "width": 77, "height": 84 },
+			"muerte/hero_death16": { "x": 10.39, "y": 57, "scaleX": 2, "scaleY": 2, "width": 77, "height": 84 },
+			"muerte/hero_death17": { "x": 10.39, "y": 57, "scaleX": 2, "scaleY": 2, "width": 77, "height": 84 },
+			"muerte/hero_death18": { "x": 10.39, "y": 57, "scaleX": 2, "scaleY": 2, "width": 77, "height": 84 },
+			"muerte/hero_death19": { "x": 10.39, "y": 57, "scaleX": 2, "scaleY": 2, "width": 77, "height": 84 }
+		},
+		"muerte/hero_eye": {
+			"muerte/hero_eye": { "x": -4.41, "y": -5.79, "scaleX": 2, "scaleY": 2, "width": 18, "height": 19 }
+		},
+		"muerte/hero_eye2": {
+			"muerte/hero_eye": { "x": 3.31, "y": -4.13, "scaleX": -2, "scaleY": 2, "width": 18, "height": 19 }
+		},
+		"shadow": {
+			"shadow": { "x": -0.34, "y": -0.34, "scaleX": 1.398, "scaleY": 1.398, "width": 42, "height": 12 }
+		},
+		"stun_anim1": {
+			"stun_anim1": { "rotation": -91.8, "width": 62, "height": 41 },
+			"stun_anim2": { "rotation": -91.8, "width": 62, "height": 41 },
+			"stun_anim3": { "rotation": -91.8, "width": 62, "height": 41 },
+			"stun_anim4": { "rotation": -91.8, "width": 62, "height": 41 },
+			"stun_anim5": { "rotation": -91.8, "width": 62, "height": 41 },
+			"stun_anim6": { "rotation": -91.8, "width": 62, "height": 41 },
+			"stun_anim7": { "rotation": -91.8, "width": 62, "height": 41 },
+			"stun_anim8": { "rotation": -91.8, "width": 62, "height": 41 },
+			"stun_anim9": { "rotation": -91.8, "width": 62, "height": 41 },
+			"stun_anim10": { "rotation": -91.8, "width": 62, "height": 41 },
+			"stun_anim11": { "rotation": -91.8, "width": 62, "height": 41 },
+			"stun_anim12": { "rotation": -91.8, "width": 62, "height": 41 },
+			"stun_anim13": { "rotation": -91.8, "width": 62, "height": 41 },
+			"stun_anim14": { "rotation": -91.8, "width": 62, "height": 41 },
+			"stun_anim15": { "rotation": -91.8, "width": 62, "height": 41 },
+			"stun_anim16": { "rotation": -91.8, "width": 62, "height": 41 },
+			"stun_anim17": { "rotation": -91.8, "width": 62, "height": 41 },
+			"stun_anim18": { "rotation": -91.8, "width": 62, "height": 41 },
+			"stun_anim19": { "rotation": -91.8, "width": 62, "height": 41 },
+			"stun_anim20": { "rotation": -91.8, "width": 62, "height": 41 },
+			"stun_anim21": { "rotation": -91.8, "width": 62, "height": 41 }
+		}
+	},
+	"body1": {
+		"body": {
+			"body_back": {
+				"name": "atras/robot_body_back1",
+				"x": 11.42,
+				"y": -1.18,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": -90.45,
+				"width": 34,
+				"height": 32
+			},
+			"body_front": {
+				"name": "frente/robot_body_front1",
+				"x": 15.66,
+				"y": 0.06,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": -90.45,
+				"width": 34,
+				"height": 29
+			},
+			"body_side": {
+				"name": "lado/robot_body_side1",
+				"x": 19.45,
+				"y": 0.53,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": -90.45,
+				"width": 31,
+				"height": 29
+			}
+		}
+	},
+	"body2": {
+		"body": {
+			"body_back": {
+				"name": "atras/robot_body_back2",
+				"x": 16.07,
+				"y": 0.33,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": -90.45,
+				"width": 33,
+				"height": 28
+			},
+			"body_front": {
+				"name": "frente/robot_body_front2",
+				"x": 17.35,
+				"y": 0.23,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": -90.45,
+				"width": 33,
+				"height": 28
+			},
+			"body_side": {
+				"name": "lado/robot_body_side2",
+				"x": 19.86,
+				"y": 2.41,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": -90.45,
+				"width": 24,
+				"height": 28
+			}
+		}
+	},
+	"body3": {
+		"body": {
+			"body_back": {
+				"name": "atras/robot_body_back3",
+				"x": 17.82,
+				"y": 1.61,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": -90.45,
+				"width": 31,
+				"height": 29
+			},
+			"body_front": {
+				"name": "frente/robot_body_front3",
+				"x": 17.44,
+				"y": -0.69,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": -90.45,
+				"width": 31,
+				"height": 29
+			},
+			"body_side": {
+				"name": "lado/robot_body_side3",
+				"x": 16.86,
+				"y": 1.26,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": -90.45,
+				"width": 26,
+				"height": 31
+			}
+		}
+	},
+	"body4": {
+		"body": {
+			"body_back": {
+				"name": "atras/robot_body_back4",
+				"x": 15.57,
+				"y": 1.15,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": -90.45,
+				"width": 25,
+				"height": 27
+			},
+			"body_front": {
+				"name": "frente/robot_body_front4",
+				"x": 16.7,
+				"y": 0.9,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": -90.45,
+				"width": 25,
+				"height": 27
+			},
+			"body_side": {
+				"name": "lado/robot_body_side4",
+				"x": 17.89,
+				"y": 1.8,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": -90.45,
+				"width": 25,
+				"height": 31
+			}
+		}
+	},
+	"doll_bomb": {
+		"weapon": {
+			"weapon_l_front": { "name": "doll_bomb_front", "x": 12.62, "y": -1.62, "scaleX": 1.8, "scaleY": 1.8, "rotation": 123.65, "width": 34, "height": 36 },
+			"weapon_l_side": { "name": "doll_bomb_side", "x": 13.69, "y": -4.41, "scaleX": 1.8, "scaleY": 1.8, "rotation": 123.65, "width": 34, "height": 36 }
+		},
+		"weapon_right": {
+			"weapon_r_back": { "name": "doll_bomb_back", "x": 14.06, "y": 6.06, "scaleX": 1.8, "scaleY": 1.8, "rotation": 57.66, "width": 34, "height": 36 }
+		}
+	},
+	"face1": {
+		"face": {
+			"face_front": {
+				"name": "frente/robot_face_front1",
+				"x": 33.64,
+				"y": -1.55,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": -91.8,
+				"width": 41,
+				"height": 30
+			},
+			"face_side": {
+				"name": "lado/robot_face_side1",
+				"x": 36.98,
+				"y": 23.13,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": -91.8,
+				"width": 25,
+				"height": 33
+			}
+		}
+	},
+	"face2": {
+		"face": {
+			"face_front": {
+				"name": "frente/robot_face_front2",
+				"x": 34.3,
+				"y": -1.24,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": -91.8,
+				"width": 41,
+				"height": 30
+			},
+			"face_side": {
+				"name": "lado/robot_face_side2",
+				"x": 37,
+				"y": 23.49,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": -91.8,
+				"width": 25,
+				"height": 33
+			}
+		}
+	},
+	"face3": {
+		"face": {
+			"face_front": {
+				"name": "frente/robot_face_front3",
+				"x": 34.36,
+				"y": -1.82,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": -91.8,
+				"width": 41,
+				"height": 30
+			},
+			"face_side": {
+				"name": "lado/robot_face_side3",
+				"x": 36.4,
+				"y": 24.61,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": -91.8,
+				"width": 25,
+				"height": 33
+			}
+		}
+	},
+	"face4": {
+		"face": {
+			"face_front": {
+				"name": "frente/robot_face_front4",
+				"x": 34.35,
+				"y": -2.06,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": -91.8,
+				"width": 41,
+				"height": 30
+			},
+			"face_side": {
+				"name": "lado/robot_face_side4",
+				"x": 37.01,
+				"y": 23.9,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": -91.8,
+				"width": 25,
+				"height": 33
+			}
+		}
+	},
+	"flamethrower": {
+		"thrower_back": {
+			"flame_front": { "name": "thrower_down0001", "x": 24.67, "y": 34.38, "scaleX": 1.8, "scaleY": 1.8, "rotation": -90.45, "width": 13, "height": 13 },
+			"flame_side": { "name": "thrower_left0001", "x": 7.78, "y": -2.09, "scaleX": 1.8, "scaleY": 1.8, "rotation": -90.45, "width": 35, "height": 31 },
+			"flame_back": { "name": "thrower_up0001", "x": 14.5, "y": 5.66, "scaleX": 1.8, "scaleY": 1.8, "rotation": -90.45, "width": 28, "height": 30 }
+		}
+	},
+	"hammer": {
+		"weapon": {
+			"weapon_l_front": { "name": "hammer_front", "x": 9.59, "y": 12.49, "scaleX": 1.8, "scaleY": 1.8, "rotation": 123.65, "width": 16, "height": 22 },
+			"weapon_l_side": { "name": "hammer_side", "x": -3.77, "y": -13.91, "scaleX": 1.8, "scaleY": 1.8, "rotation": 123.65, "width": 23, "height": 20 }
+		},
+		"weapon_right": {
+			"weapon_r_back": { "name": "hammer_back", "x": -4.58, "y": 14.94, "scaleX": 1.8, "scaleY": 1.8, "rotation": 57.66, "width": 21, "height": 22 }
+		}
+	},
+	"head1": {
+		"head": {
+			"head_back": {
+				"name": "atras/robot_head_back1",
+				"x": 48.31,
+				"y": -0.18,
+				"scaleX": 1.74,
+				"scaleY": 1.74,
+				"rotation": -91.8,
+				"width": 83,
+				"height": 83
+			},
+			"head_front": {
+				"name": "frente/robot_head_front1",
+				"x": 37.85,
+				"y": -2.9,
+				"scaleX": 1.74,
+				"scaleY": 1.74,
+				"rotation": -91.8,
+				"width": 83,
+				"height": 70
+			},
+			"head_side": {
+				"name": "lado/robot_head_side1",
+				"x": 36.17,
+				"y": -10.35,
+				"scaleX": 1.74,
+				"scaleY": 1.74,
+				"rotation": -91.8,
+				"width": 65,
+				"height": 71
+			}
+		}
+	},
+	"head2": {
+		"head": {
+			"head_back": {
+				"name": "atras/robot_head_back2",
+				"x": 57.77,
+				"y": -1.66,
+				"scaleX": 1.74,
+				"scaleY": 1.74,
+				"rotation": -91.8,
+				"width": 71,
+				"height": 75
+			},
+			"head_front": {
+				"name": "frente/robot_head_front2",
+				"x": 58.24,
+				"y": 0.1,
+				"scaleX": 1.74,
+				"scaleY": 1.74,
+				"rotation": -91.8,
+				"width": 72,
+				"height": 75
+			},
+			"head_side": {
+				"name": "lado/robot_head_side2",
+				"x": 56.19,
+				"y": -2.21,
+				"scaleX": 1.74,
+				"scaleY": 1.74,
+				"rotation": -91.8,
+				"width": 64,
+				"height": 74
+			}
+		}
+	},
+	"head3": {
+		"head": {
+			"head_back": {
+				"name": "atras/robot_head_back3",
+				"x": 57.63,
+				"y": -6.67,
+				"scaleX": 1.74,
+				"scaleY": 1.74,
+				"rotation": -91.8,
+				"width": 86,
+				"height": 82
+			},
+			"head_front": {
+				"name": "frente/robot_head_front3",
+				"x": 61.76,
+				"y": -3.87,
+				"scaleX": 1.74,
+				"scaleY": 1.74,
+				"rotation": -91.8,
+				"width": 88,
+				"height": 76
+			},
+			"head_side": {
+				"name": "lado/robot_head_side3",
+				"x": 49.32,
+				"y": -7.16,
+				"scaleX": 1.74,
+				"scaleY": 1.74,
+				"rotation": -91.8,
+				"width": 76,
+				"height": 74
+			}
+		}
+	},
+	"head4": {
+		"head": {
+			"head_back": {
+				"name": "atras/robot_head_back4",
+				"x": 51.59,
+				"y": -2.88,
+				"scaleX": 1.74,
+				"scaleY": 1.74,
+				"rotation": -91.8,
+				"width": 83,
+				"height": 75
+			},
+			"head_front": {
+				"name": "frente/robot_head_front4",
+				"x": 51.32,
+				"y": -0.64,
+				"scaleX": 1.74,
+				"scaleY": 1.74,
+				"rotation": -91.8,
+				"width": 70,
+				"height": 67
+			},
+			"head_side": {
+				"name": "lado/robot_head_side4",
+				"x": 39.86,
+				"y": -9.26,
+				"scaleX": 1.74,
+				"scaleY": 1.74,
+				"rotation": -91.8,
+				"width": 69,
+				"height": 77
+			}
+		}
+	},
+	"ice_gun": {
+		"weapon": {
+			"weapon_l_front": { "name": "ice_gun_front", "x": -9.53, "y": -9.16, "scaleX": 1.8, "scaleY": 1.8, "rotation": 123.65, "width": 37, "height": 33 },
+			"weapon_l_side": { "name": "ice_gun_side", "x": 1.12, "y": -23.82, "scaleX": 1.8, "scaleY": 1.8, "rotation": 123.65, "width": 37, "height": 33 }
+		},
+		"weapon_right": {
+			"weapon_r_back": { "name": "ice_gun_back", "x": -9.02, "y": 11.89, "scaleX": 1.8, "scaleY": 1.8, "rotation": 57.66, "width": 37, "height": 33 }
+		}
+	},
+	"laser_gun": {
+		"weapon": {
+			"weapon_l_side": { "name": "laser_gun_base", "x": -11.75, "y": -3.75, "rotation": 123.65, "width": 92, "height": 48 },
+			"weapon_l_front": { "name": "laser_gun_front_base", "x": -9.87, "y": -5.35, "rotation": 123.65, "width": 30, "height": 40 }
+		},
+		"weapon_right": {
+			"weapon_r_back": { "name": "laser_gun_back_base", "x": -22.02, "y": 0.7, "rotation": 57.66, "width": 47, "height": 51 }
+		}
+	},
+	"lightning_gun": {
+		"weapon": {
+			"weapon_l_front": { "name": "lightning_front", "x": -5.34, "y": -3.71, "rotation": 123.65, "width": 16, "height": 28 },
+			"weapon_l_side": { "name": "lightning_left", "x": -0.8, "y": -9.94, "rotation": 123.65, "width": 33, "height": 22 }
+		},
+		"weapon_right": {
+			"weapon_r_back": { "name": "lightning_back", "x": -7.64, "y": 2.93, "rotation": 57.66, "width": 15, "height": 26 }
+		}
+	},
+	"mighty_hammer": {
+		"weapon": {
+			"weapon_l_front": { "name": "super_hammer_anim0001", "x": -2.8, "y": -0.08, "rotation": 123.65, "width": 32, "height": 38 },
+			"weapon_l_side": { "name": "super_hammer_anim20001", "x": -0.45, "y": -17.27, "rotation": 123.65, "width": 46, "height": 38 }
+		},
+		"weapon_right": {
+			"weapon_r_back": { "name": "super_hammer_anim30001", "x": -5.11, "y": 9.32, "rotation": 57.66, "width": 35, "height": 40 }
+		}
+	},
+	"normal0": {
+		"arm_left": {
+			"arm_right1": {
+				"name": "frente/robot_arm_front2",
+				"x": 12.61,
+				"y": -4.79,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": 123.65,
+				"width": 21,
+				"height": 27
+			},
+			"arm_side1": {
+				"name": "lado/robot_arm_side",
+				"x": 13.08,
+				"y": -0.12,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": 91.16,
+				"width": 12,
+				"height": 27
+			}
+		},
+		"arm_right": {
+			"arm_right": {
+				"name": "frente/robot_arm_front1",
+				"x": 13.99,
+				"y": 3.93,
+				"scaleX": 1.64,
+				"scaleY": 1.65,
+				"rotation": 57.66,
+				"width": 21,
+				"height": 27
+			},
+			"arm_side": {
+				"name": "lado/robot_arm_side",
+				"x": 14.53,
+				"y": -0.86,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": 89.72,
+				"width": 12,
+				"height": 27
+			}
+		},
+		"leg_left": {
+			"leg_back": {
+				"name": "atras/robot_leg_back1",
+				"x": 11.37,
+				"y": 1.33,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": 93.6,
+				"width": 10,
+				"height": 17
+			},
+			"leg_front": {
+				"name": "frente/robot_leg_front2",
+				"x": 11.37,
+				"y": 1.33,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": 93.6,
+				"width": 12,
+				"height": 19
+			},
+			"leg_side": {
+				"name": "lado/robot_leg_side",
+				"x": 11.37,
+				"y": 1.33,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": 93.6,
+				"width": 12,
+				"height": 20
+			}
+		},
+		"leg_right": {
+			"leg_back": {
+				"name": "atras/robot_leg_back2",
+				"x": 11.94,
+				"y": 1.52,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": 86.84,
+				"width": 10,
+				"height": 17
+			},
+			"leg_front": {
+				"name": "frente/robot_leg_front1",
+				"x": 11.94,
+				"y": 1.52,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": 86.84,
+				"width": 12,
+				"height": 19
+			},
+			"leg_side": {
+				"name": "lado/robot_leg_side",
+				"x": 11.94,
+				"y": 1.52,
+				"scaleX": 1.65,
+				"scaleY": 1.65,
+				"rotation": 86.84,
+				"width": 12,
+				"height": 20
+			}
+		}
+	},
+	"normal_mockup": {
+		"arm_left": {
+			"arm_right1": {
+				"name": "frente/robot_arm_front2",
+				"x": 12.61,
+				"y": -4.79,
+				"scaleX": 1.67,
+				"scaleY": 1.67,
+				"rotation": 123.65,
+				"width": 21,
+				"height": 27
+			},
+			"arm_side1": {
+				"name": "lado/robot_arm_side",
+				"x": 15.01,
+				"y": -0.9,
+				"scaleX": 1.67,
+				"scaleY": 1.67,
+				"rotation": 92.62,
+				"width": 12,
+				"height": 27
+			}
+		},
+		"arm_right": {
+			"arm_right": {
+				"name": "frente/robot_arm_front1",
+				"x": 13.99,
+				"y": 3.93,
+				"scaleX": 1.67,
+				"scaleY": 1.67,
+				"rotation": 57.66,
+				"width": 21,
+				"height": 27
+			},
+			"arm_side": {
+				"name": "lado/robot_arm_side",
+				"x": 13.88,
+				"y": 0.27,
+				"scaleX": 1.67,
+				"scaleY": 1.67,
+				"rotation": 96.01,
+				"width": 12,
+				"height": 27
+			}
+		},
+		"body": {
+			"body_back": {
+				"name": "atras/robot_body_back1",
+				"x": 11.78,
+				"y": -1.13,
+				"scaleX": 1.67,
+				"scaleY": 1.67,
+				"rotation": -90.45,
+				"width": 34,
+				"height": 32
+			},
+			"body_front": {
+				"name": "frente/robot_body_front1",
+				"x": 14.92,
+				"y": -0.11,
+				"scaleX": 1.67,
+				"scaleY": 1.67,
+				"rotation": -90.45,
+				"width": 34,
+				"height": 29
+			},
+			"body_side": {
+				"name": "lado/robot_body_side1",
+				"x": 18.9,
+				"y": -0.44,
+				"scaleX": 1.67,
+				"scaleY": 1.67,
+				"rotation": -90.45,
+				"width": 31,
+				"height": 29
+			}
+		},
+		"face": {
+			"face_front": {
+				"name": "frente/robot_face_front1",
+				"x": 34.04,
+				"y": -1.07,
+				"scaleX": 1.67,
+				"scaleY": 1.67,
+				"rotation": -91.8,
+				"width": 41,
+				"height": 30
+			},
+			"face_side": {
+				"name": "lado/robot_face_side1",
+				"x": 41.12,
+				"y": 23.35,
+				"scaleX": 1.67,
+				"scaleY": 1.67,
+				"rotation": -91.8,
+				"width": 25,
+				"height": 33
+			}
+		},
+		"head": {
+			"head_back": {
+				"name": "atras/robot_head_back1",
+				"x": 49.79,
+				"y": -0.99,
+				"scaleX": 1.74,
+				"scaleY": 1.74,
+				"rotation": -91.8,
+				"width": 83,
+				"height": 83
+			},
+			"head_front": {
+				"name": "frente/robot_head_front1",
+				"x": 38.3,
+				"y": -2.78,
+				"scaleX": 1.737,
+				"scaleY": 1.737,
+				"rotation": -91.8,
+				"width": 83,
+				"height": 70
+			},
+			"head_side": {
+				"name": "lado/robot_head_side1",
+				"x": 40.93,
+				"y": -12.41,
+				"scaleX": 1.74,
+				"scaleY": 1.74,
+				"rotation": -91.8,
+				"width": 65,
+				"height": 71
+			}
+		},
+		"leg_left": {
+			"leg_back": {
+				"name": "atras/robot_leg_back1",
+				"x": 11.37,
+				"y": 1.33,
+				"scaleX": 1.67,
+				"scaleY": 1.67,
+				"rotation": 93.6,
+				"width": 10,
+				"height": 17
+			},
+			"leg_front": {
+				"name": "frente/robot_leg_front2",
+				"x": 11.37,
+				"y": 1.33,
+				"scaleX": 1.67,
+				"scaleY": 1.67,
+				"rotation": 93.6,
+				"width": 12,
+				"height": 19
+			},
+			"leg_side": {
+				"name": "lado/robot_leg_side",
+				"x": 11.37,
+				"y": 1.33,
+				"scaleX": 1.67,
+				"scaleY": 1.67,
+				"rotation": 93.6,
+				"width": 12,
+				"height": 20
+			}
+		},
+		"leg_right": {
+			"leg_back": {
+				"name": "atras/robot_leg_back2",
+				"x": 11.94,
+				"y": 1.52,
+				"scaleX": 1.67,
+				"scaleY": 1.67,
+				"rotation": 86.84,
+				"width": 10,
+				"height": 17
+			},
+			"leg_front": {
+				"name": "frente/robot_leg_front1",
+				"x": 11.94,
+				"y": 1.52,
+				"scaleX": 1.67,
+				"scaleY": 1.67,
+				"rotation": 86.84,
+				"width": 12,
+				"height": 19
+			},
+			"leg_side": {
+				"name": "lado/robot_leg_side",
+				"x": 11.94,
+				"y": 1.52,
+				"scaleX": 1.67,
+				"scaleY": 1.67,
+				"rotation": 86.84,
+				"width": 12,
+				"height": 20
+			}
+		}
+	},
+	"shield": {
+		"shield_back": {
+			"shield_back": { "name": "shield_up0001", "x": -0.34, "y": 0.56, "rotation": 57.66, "width": 28, "height": 53 }
+		},
+		"shield_front": {
+			"shield_front": { "name": "shield_down0001", "rotation": 123.65, "width": 28, "height": 53 },
+			"shield_side": { "name": "shield_right", "x": -6.09, "y": -0.49, "rotation": 92.18, "width": 38, "height": 50 }
+		}
+	}
+},
+"animations": {
+	"cart_back": {
+		"slots": {
+			"arm_left": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right1" }
+				]
+			},
+			"arm_right": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right" }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": "body_back" }
+				]
+			},
+			"face": {
+				"attachment": [
+					{ "time": 0, "name": "face_back" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head_back" }
+				]
+			},
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": "shield_front" }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_back" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": -0.02 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": -9.01 }
+				],
+				"translate": [
+					{ "time": 0, "x": -0.11, "y": -1.66 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": 8.25 }
+				],
+				"translate": [
+					{ "time": 0, "x": -1.39, "y": 2 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_right": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "thrower_back", "offset": 20 },
+					{ "slot": "arm_left", "offset": 3 }
+				]
+			}
+		]
+	},
+	"cart_back_stand": {
+		"slots": {
+			"arm_left": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right1" }
+				]
+			},
+			"arm_right": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right" }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": "body_back" }
+				]
+			},
+			"face": {
+				"attachment": [
+					{ "time": 0, "name": "face_back" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head_back" }
+				]
+			},
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": "shield_front" }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_back" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": -0.02 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": -9.01 }
+				],
+				"translate": [
+					{ "time": 0, "x": -0.11, "y": -1.66 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": 8.25 }
+				],
+				"translate": [
+					{ "time": 0, "x": -1.39, "y": 2 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_right": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "thrower_back", "offset": 20 },
+					{ "slot": "arm_left", "offset": 3 }
+				]
+			}
+		]
+	},
+	"cart_front": {
+		"slots": {
+			"arm_left": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right1" }
+				]
+			},
+			"arm_right": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right" }
+				]
+			},
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": "shield_back" }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_front" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_front" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": -0.02 },
+					{ "time": 0.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": 30.53 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": -25.59 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_right": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "arm_left", "offset": 5 },
+					{ "slot": "arm_right", "offset": 1 }
+				]
+			}
+		]
+	},
+	"cart_front_stand": {
+		"slots": {
+			"arm_left": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right1" }
+				]
+			},
+			"arm_right": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right" }
+				]
+			},
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": "shield_back" }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_front" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_front" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": -0.02 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": 30.53 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": -25.59 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_right": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "arm_left", "offset": 5 },
+					{ "slot": "arm_right", "offset": 1 }
+				]
+			}
+		]
+	},
+	"cart_side": {
+		"slots": {
+			"arm_left": {
+				"attachment": [
+					{ "time": 0, "name": "arm_side1" }
+				]
+			},
+			"arm_right": {
+				"attachment": [
+					{ "time": 0, "name": "arm_side" }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": "body_side" }
+				]
+			},
+			"face": {
+				"attachment": [
+					{ "time": 0, "name": "face_side" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head_side" }
+				]
+			},
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": "shield_side" }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_side" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_side" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"leg_right": {
+				"rotate": [
+					{ "time": 0, "angle": 262.55 },
+					{ "time": 0.2, "angle": 262.86 },
+					{ "time": 0.4, "angle": 262.55 }
+				],
+				"translate": [
+					{ "time": 0, "x": -1.13, "y": 6.54 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_left": {
+				"rotate": [
+					{ "time": 0, "angle": -89.11 },
+					{ "time": 0.2, "angle": -93.14 },
+					{ "time": 0.4, "angle": -89.11 }
+				],
+				"translate": [
+					{ "time": 0, "x": -0.63, "y": -7.04 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": -21.28 }
+				],
+				"translate": [
+					{ "time": 0, "x": -0.61, "y": 10.77 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": 7.01 }
+				],
+				"translate": [
+					{ "time": 0, "x": 4.37, "y": -14.14 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "arm_right", "offset": 1 },
+					{ "slot": "head", "offset": 1 }
+				]
+			}
+		]
+	},
+	"cart_side_stand": {
+		"slots": {
+			"arm_left": {
+				"attachment": [
+					{ "time": 0, "name": "arm_side1" }
+				]
+			},
+			"arm_right": {
+				"attachment": [
+					{ "time": 0, "name": "arm_side" }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": "body_side" }
+				]
+			},
+			"face": {
+				"attachment": [
+					{ "time": 0, "name": "face_side" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head_side" }
+				]
+			},
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": "shield_side" }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_side" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_side" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"leg_right": {
+				"rotate": [
+					{ "time": 0, "angle": 262.55 }
+				],
+				"translate": [
+					{ "time": 0, "x": -1.13, "y": 6.54 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_left": {
+				"rotate": [
+					{ "time": 0, "angle": -89.11 }
+				],
+				"translate": [
+					{ "time": 0, "x": -0.63, "y": -7.04 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": -21.28 }
+				],
+				"translate": [
+					{ "time": 0, "x": -0.61, "y": 10.77 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": 7.01 }
+				],
+				"translate": [
+					{ "time": 0, "x": 4.37, "y": -14.14 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "arm_right", "offset": 1 },
+					{ "slot": "head", "offset": 1 }
+				]
+			}
+		]
+	},
+	"death": {
+		"slots": {
+			"arm_left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"face": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"muerte/hero1_dead0001": {
+				"attachment": [
+					{ "time": 0, "name": "muerte/hero_death1" },
+					{ "time": 0.6333, "name": "muerte/hero_death2" },
+					{ "time": 0.6666, "name": "muerte/hero_death3" },
+					{ "time": 0.7, "name": "muerte/hero_death4" },
+					{ "time": 0.7333, "name": "muerte/hero_death5" },
+					{ "time": 0.7666, "name": "muerte/hero_death6" },
+					{ "time": 0.8, "name": "muerte/hero_death7" },
+					{ "time": 0.8333, "name": "muerte/hero_death8" },
+					{ "time": 0.8666, "name": "muerte/hero_death9" },
+					{ "time": 0.9, "name": "muerte/hero_death10" },
+					{ "time": 0.9333, "name": "muerte/hero_death11" },
+					{ "time": 0.9666, "name": "muerte/hero_death12" },
+					{ "time": 1, "name": "muerte/hero_death13" },
+					{ "time": 1.0333, "name": "muerte/hero_death14" },
+					{ "time": 1.0666, "name": "muerte/hero_death15" },
+					{ "time": 1.1, "name": "muerte/hero_death16" },
+					{ "time": 1.1333, "name": "muerte/hero_death17" },
+					{ "time": 1.1666, "name": "muerte/hero_death18" },
+					{ "time": 1.2, "name": "muerte/hero_death19" },
+					{ "time": 1.2333, "name": null }
+				]
+			},
+			"muerte/hero_eye": {
+				"attachment": [
+					{ "time": 0, "name": "muerte/hero_eye" },
+					{ "time": 0.6333, "name": null }
+				]
+			},
+			"muerte/hero_eye2": {
+				"attachment": [
+					{ "time": 0, "name": "muerte/hero_eye" },
+					{ "time": 0.6333, "name": null }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"eye_l": {
+				"scale": [
+					{ "time": 0.1333, "x": 1, "y": 1 },
+					{ "time": 0.2333, "x": 1, "y": 0 },
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1 },
+					{ "time": 0.5666, "x": 1, "y": 0 },
+					{ "time": 0.6333, "x": 1, "y": 1 }
+				]
+			},
+			"eye_r": {
+				"scale": [
+					{ "time": 0.1333, "x": 1, "y": 1 },
+					{ "time": 0.2333, "x": 1, "y": 0 },
+					{ "time": 0.3, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.4666, "x": 1, "y": 1 },
+					{ "time": 0.5666, "x": 1, "y": 0 },
+					{ "time": 0.6333, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"dizzy_back": {
+		"slots": {
+			"arm_left": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right1" }
+				]
+			},
+			"arm_right": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right" }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": "body_back" }
+				]
+			},
+			"face": {
+				"attachment": [
+					{ "time": 0, "name": "face_back" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head_back" }
+				]
+			},
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": "leg_back" }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": "leg_back" }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": "shield_front" }
+				]
+			},
+			"stun_anim1": {
+				"attachment": [
+					{ "time": 0, "name": "stun_anim1" },
+					{ "time": 0.0333, "name": "stun_anim2" },
+					{ "time": 0.0666, "name": "stun_anim3" },
+					{ "time": 0.1, "name": "stun_anim4" },
+					{ "time": 0.1333, "name": "stun_anim5" },
+					{ "time": 0.1666, "name": "stun_anim6" },
+					{ "time": 0.2, "name": "stun_anim7" },
+					{ "time": 0.2333, "name": "stun_anim8" },
+					{ "time": 0.2666, "name": "stun_anim9" },
+					{ "time": 0.3, "name": "stun_anim10" },
+					{ "time": 0.3333, "name": "stun_anim11" },
+					{ "time": 0.3666, "name": "stun_anim12" },
+					{ "time": 0.4, "name": "stun_anim13" },
+					{ "time": 0.4333, "name": "stun_anim14" },
+					{ "time": 0.4666, "name": "stun_anim15" },
+					{ "time": 0.5, "name": "stun_anim16" },
+					{ "time": 0.5333, "name": "stun_anim17" },
+					{ "time": 0.5666, "name": "stun_anim18" },
+					{ "time": 0.6, "name": "stun_anim19" },
+					{ "time": 0.6333, "name": "stun_anim20" },
+					{ "time": 0.6666, "name": "stun_anim21" },
+					{ "time": 0.7, "name": "stun_anim1" }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_back" }
+				]
+			}
+		},
+		"bones": {
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				]
+			},
+			"leg_left": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_right": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "thrower_back", "offset": 20 }
+				]
+			}
+		]
+	},
+	"dizzy_front": {
+		"slots": {
+			"arm_left": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right1" }
+				]
+			},
+			"arm_right": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right" }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": "body_front" }
+				]
+			},
+			"face": {
+				"attachment": [
+					{ "time": 0, "name": "face_front" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head_front" }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": "shield_back" }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"stun_anim1": {
+				"attachment": [
+					{ "time": 0, "name": "stun_anim1" },
+					{ "time": 0.0333, "name": "stun_anim2" },
+					{ "time": 0.0666, "name": "stun_anim3" },
+					{ "time": 0.1, "name": "stun_anim4" },
+					{ "time": 0.1333, "name": "stun_anim5" },
+					{ "time": 0.1666, "name": "stun_anim6" },
+					{ "time": 0.2, "name": "stun_anim7" },
+					{ "time": 0.2333, "name": "stun_anim8" },
+					{ "time": 0.2666, "name": "stun_anim9" },
+					{ "time": 0.3, "name": "stun_anim10" },
+					{ "time": 0.3333, "name": "stun_anim11" },
+					{ "time": 0.3666, "name": "stun_anim12" },
+					{ "time": 0.4, "name": "stun_anim13" },
+					{ "time": 0.4333, "name": "stun_anim14" },
+					{ "time": 0.4666, "name": "stun_anim15" },
+					{ "time": 0.5, "name": "stun_anim16" },
+					{ "time": 0.5333, "name": "stun_anim17" },
+					{ "time": 0.5666, "name": "stun_anim18" },
+					{ "time": 0.6, "name": "stun_anim19" },
+					{ "time": 0.6333, "name": "stun_anim20" },
+					{ "time": 0.6666, "name": "stun_anim21" },
+					{ "time": 0.7, "name": "stun_anim1" }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_front" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_front" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				]
+			},
+			"leg_left": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_right": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"dizzy_side": {
+		"slots": {
+			"arm_left": {
+				"attachment": [
+					{ "time": 0, "name": "arm_side1" }
+				]
+			},
+			"arm_right": {
+				"attachment": [
+					{ "time": 0, "name": "arm_side" }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": "body_side" }
+				]
+			},
+			"face": {
+				"attachment": [
+					{ "time": 0, "name": "face_side" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head_side" }
+				]
+			},
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": "leg_side" }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": "leg_side" }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": "shield_side" }
+				]
+			},
+			"stun_anim1": {
+				"attachment": [
+					{ "time": 0, "name": "stun_anim1" },
+					{ "time": 0.0333, "name": "stun_anim2" },
+					{ "time": 0.0666, "name": "stun_anim3" },
+					{ "time": 0.1, "name": "stun_anim4" },
+					{ "time": 0.1333, "name": "stun_anim5" },
+					{ "time": 0.1666, "name": "stun_anim6" },
+					{ "time": 0.2, "name": "stun_anim7" },
+					{ "time": 0.2333, "name": "stun_anim8" },
+					{ "time": 0.2666, "name": "stun_anim9" },
+					{ "time": 0.3, "name": "stun_anim10" },
+					{ "time": 0.3333, "name": "stun_anim11" },
+					{ "time": 0.3666, "name": "stun_anim12" },
+					{ "time": 0.4, "name": "stun_anim13" },
+					{ "time": 0.4333, "name": "stun_anim14" },
+					{ "time": 0.4666, "name": "stun_anim15" },
+					{ "time": 0.5, "name": "stun_anim16" },
+					{ "time": 0.5333, "name": "stun_anim17" },
+					{ "time": 0.5666, "name": "stun_anim18" },
+					{ "time": 0.6, "name": "stun_anim19" },
+					{ "time": 0.6333, "name": "stun_anim20" },
+					{ "time": 0.6666, "name": "stun_anim21" },
+					{ "time": 0.7, "name": "stun_anim1" }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_side" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_side" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": -322.98 }
+				],
+				"translate": [
+					{ "time": 0, "x": 10.19, "y": -11.9 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": 325.43 }
+				],
+				"translate": [
+					{ "time": 0, "x": 6.1, "y": 13.75 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -3.26, "y": -0.07 }
+				]
+			},
+			"leg_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0.04 }
+				],
+				"translate": [
+					{ "time": 0, "x": -0.03, "y": -4.55 }
+				]
+			},
+			"leg_right": {
+				"rotate": [
+					{ "time": 0, "angle": 1.16 }
+				],
+				"translate": [
+					{ "time": 0, "x": -0.76, "y": 12.65 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "arm_right", "offset": 1 },
+					{ "slot": "head", "offset": 1 }
+				]
+			}
+		]
+	},
+	"face1_front": {
+		"slots": {
+			"frente/eyes_1": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2666, "name": "frente/eyes_1" },
+					{ "time": 0.3, "name": "frente/eyes_2" },
+					{ "time": 0.4, "name": "frente/eyes_1" },
+					{ "time": 0.4333, "name": null },
+					{ "time": 1.2666, "name": null }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": "shield_back" }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_front" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_front" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"face1_side": {
+		"slots": {
+			"frente/eyes_2": {
+				"attachment": [
+					{ "time": 0, "name": null },
+					{ "time": 0.2666, "name": "frente/eye_3" },
+					{ "time": 0.3, "name": "frente/eyes_4" },
+					{ "time": 0.4, "name": "frente/eye_3" },
+					{ "time": 0.4333, "name": null },
+					{ "time": 1, "name": null }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": "shield_side" }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_side" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_side" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		}
+	},
+	"face2_front": {
+		"slots": {
+			"corazon": {
+				"attachment": [
+					{ "time": 0, "name": "corazon" }
+				]
+			},
+			"corazon-1": {
+				"attachment": [
+					{ "time": 0, "name": "corazon-1" }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": "shield_back" }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_front" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_front" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"heart_left": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2, "x": 1.3, "y": 1.3 },
+					{ "time": 0.3666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.1, "x": 1, "y": 1 },
+					{ "time": 1.3333, "x": 1.3, "y": 1.3 },
+					{ "time": 1.5, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.6, "x": 1, "y": 1 }
+				]
+			},
+			"heart_right": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{
+						"time": 0.2,
+						"x": 1.298,
+						"y": 1.298,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 0.3666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.1, "x": 1, "y": 1 },
+					{
+						"time": 1.3333,
+						"x": 1.298,
+						"y": 1.298,
+						"curve": [ 0.25, 0, 0.75, 1 ]
+					},
+					{ "time": 1.5, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.6, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"face2_side": {
+		"slots": {
+			"corazon": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"corazon-1": {
+				"attachment": [
+					{ "time": 0, "name": "corazon-1" }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": "shield_side" }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_side" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_side" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"heart_left": {
+				"rotate": [
+					{ "time": 0, "angle": -3.56 }
+				],
+				"translate": [
+					{ "time": 0, "x": 7.81, "y": 8.56 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2, "x": 1.3, "y": 1.3 },
+					{ "time": 0.3666, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.1, "x": 1, "y": 1 },
+					{ "time": 1.3333, "x": 1.3, "y": 1.3 },
+					{ "time": 1.5, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1.6, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"face4_front": {
+		"slots": {
+			"glass1": {
+				"attachment": [
+					{ "time": 0, "name": "eye_dizzy" }
+				]
+			},
+			"glass2": {
+				"attachment": [
+					{ "time": 0, "name": "eye_dizzy" }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": "shield_back" }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_front" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_front" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"glass_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1666, "angle": 270.9 },
+					{ "time": 0.3666, "angle": 180.23 },
+					{ "time": 0.5333, "angle": 91.17 },
+					{ "time": 0.7, "angle": 0 }
+				]
+			},
+			"glass_right": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1666, "angle": 270.9 },
+					{ "time": 0.3666, "angle": 180.23 },
+					{ "time": 0.5333, "angle": 91.17 },
+					{ "time": 0.7, "angle": 0 }
+				]
+			}
+		}
+	},
+	"face4_side": {
+		"slots": {
+			"glass1": {
+				"attachment": [
+					{ "time": 0, "name": "eye_dizzy" }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": "shield_side" }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_side" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_side" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"glass_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1666, "angle": 270.9 },
+					{ "time": 0.3666, "angle": 180.23 },
+					{ "time": 0.5333, "angle": 91.17 },
+					{ "time": 0.7, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 8.08, "y": 8.92 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1.003, "curve": "stepped" },
+					{ "time": 0.7, "x": 1, "y": 1.003 }
+				]
+			}
+		}
+	},
+	"horse_back": {
+		"slots": {
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": "body_back" }
+				]
+			},
+			"face": {
+				"attachment": [
+					{ "time": 0, "name": "face_back" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head_back" }
+				]
+			},
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": "shield_front" }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_back" }
+				]
+			}
+		},
+		"bones": {
+			"body": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 0.01, "y": -2.47 },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": -18.47 },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.126, "y": 1.126 },
+					{ "time": 0.3333, "x": 1, "y": 1 },
+					{ "time": 0.6666, "x": 1.126, "y": 1.126 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": 43.3 },
+					{ "time": 0.3333, "angle": 53.43 },
+					{ "time": 0.6666, "angle": 43.3 }
+				]
+			},
+			"head": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.3333, "x": 0.932, "y": 0.932 },
+					{ "time": 0.6666, "x": 1, "y": 1 }
+				]
+			},
+			"leg_left": {
+				"translate": [
+					{ "time": 0, "x": -3.91, "y": 1.33 },
+					{ "time": 0.3333, "x": -2.27, "y": 1.65 },
+					{ "time": 0.6666, "x": -3.91, "y": 1.33 }
+				]
+			},
+			"leg_right": {
+				"translate": [
+					{ "time": 0, "x": 3.39, "y": 1.28 },
+					{ "time": 0.3333, "x": 5.68, "y": 1.26 },
+					{ "time": 0.6666, "x": 3.39, "y": 1.28 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "thrower_back", "offset": 20 }
+				]
+			}
+		]
+	},
+	"horse_back_stand": {
+		"slots": {
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": "body_back" }
+				]
+			},
+			"face": {
+				"attachment": [
+					{ "time": 0, "name": "face_back" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head_back" }
+				]
+			},
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": "shield_front" }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_back" }
+				]
+			}
+		},
+		"bones": {
+			"body": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.126, "y": 1.126 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": 43.3 }
+				]
+			},
+			"head": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_left": {
+				"translate": [
+					{ "time": 0, "x": -3.91, "y": 1.33 }
+				]
+			},
+			"leg_right": {
+				"translate": [
+					{ "time": 0, "x": 3.39, "y": 1.28 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "thrower_back", "offset": 20 }
+				]
+			}
+		]
+	},
+	"horse_front": {
+		"slots": {
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": "shield_back" }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_front" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_front" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				]
+			},
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": -13.91 }
+				],
+				"translate": [
+					{ "time": 0, "x": 1.61, "y": -2.95 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": 18.1 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0.67, "y": 2.93 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -4.24, "y": 0.68 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.911, "y": 0.911 }
+				]
+			},
+			"leg_right": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 4.7, "y": 1.27 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.904, "y": 0.904 }
+				]
+			}
+		}
+	},
+	"horse_front_stand": {
+		"slots": {
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": "shield_back" }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_front" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_front" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": -13.91 }
+				],
+				"translate": [
+					{ "time": 0, "x": 1.61, "y": -2.95 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": 18.1 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0.67, "y": 2.93 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -4.24, "y": 0.68 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.911, "y": 0.911 }
+				]
+			},
+			"leg_right": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 4.7, "y": 1.27 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.904, "y": 0.904 }
+				]
+			}
+		}
+	},
+	"horse_side": {
+		"slots": {
+			"arm_left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_right": {
+				"attachment": [
+					{ "time": 0, "name": "arm_side" }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": "body_side" }
+				]
+			},
+			"face": {
+				"attachment": [
+					{ "time": 0, "name": "face_side" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head_side" }
+				]
+			},
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": "leg_side" }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": "shield_side" }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_side" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_side" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"body": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -3.36 },
+					{ "time": 0.3333, "x": 0.73, "y": -7.39 },
+					{ "time": 0.6666, "x": 0, "y": -3.36 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": -23.18 },
+					{ "time": 0.3333, "angle": -30.3 },
+					{ "time": 0.6666, "angle": -23.18 }
+				],
+				"translate": [
+					{ "time": 0, "x": 3.54, "y": -11.58, "curve": "stepped" },
+					{ "time": 0.6666, "x": 3.54, "y": -11.58 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": 264.97 },
+					{ "time": 0.3333, "angle": 269.57 },
+					{ "time": 0.6666, "angle": 264.97 }
+				],
+				"translate": [
+					{ "time": 0, "x": -0.7, "y": 14.27 },
+					{ "time": 0.3333, "x": 0.99, "y": 16.82 },
+					{ "time": 0.6666, "x": -0.7, "y": 14.27 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": -6.04 },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -3.44, "y": -0.44 },
+					{ "time": 0.3333, "x": -3.11, "y": -0.1 },
+					{ "time": 0.6666, "x": -3.44, "y": -0.44 }
+				]
+			},
+			"leg_left": {
+				"rotate": [
+					{ "time": 0, "angle": -7.05 },
+					{ "time": 0.3333, "angle": -4.33 },
+					{ "time": 0.6666, "angle": -7.05 }
+				],
+				"translate": [
+					{ "time": 0, "x": 2.33, "y": 1.84 },
+					{ "time": 0.3333, "x": 5.64, "y": 1.83 },
+					{ "time": 0.6666, "x": 2.33, "y": 1.84 }
+				]
+			},
+			"leg_right": {
+				"rotate": [
+					{ "time": 0, "angle": 305.64 },
+					{ "time": 0.3333, "angle": 300.71 },
+					{ "time": 0.6666, "angle": 305.64 }
+				],
+				"translate": [
+					{ "time": 0, "x": 2.18, "y": 12.1 },
+					{ "time": 0.3333, "x": 2.01, "y": 9.43 },
+					{ "time": 0.6666, "x": 2.18, "y": 12.1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "arm_right", "offset": 1 },
+					{ "slot": "head", "offset": 1 }
+				]
+			}
+		]
+	},
+	"horse_side_stand": {
+		"slots": {
+			"arm_left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"arm_right": {
+				"attachment": [
+					{ "time": 0, "name": "arm_side" }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": "body_side" }
+				]
+			},
+			"face": {
+				"attachment": [
+					{ "time": 0, "name": "face_side" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head_side" }
+				]
+			},
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": "leg_side" }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": "shield_side" }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_side" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_side" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"body": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -3.36 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": -23.18 }
+				],
+				"translate": [
+					{ "time": 0, "x": 3.54, "y": -11.58 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": 264.97 }
+				],
+				"translate": [
+					{ "time": 0, "x": -0.7, "y": 14.27 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -3.44, "y": -0.44 }
+				]
+			},
+			"leg_left": {
+				"rotate": [
+					{ "time": 0, "angle": -7.05 }
+				],
+				"translate": [
+					{ "time": 0, "x": 2.33, "y": 1.84 }
+				]
+			},
+			"leg_right": {
+				"rotate": [
+					{ "time": 0, "angle": 305.64 }
+				],
+				"translate": [
+					{ "time": 0, "x": 2.18, "y": 12.1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "arm_right", "offset": 1 },
+					{ "slot": "head", "offset": 1 }
+				]
+			}
+		]
+	},
+	"skate_back": {
+		"slots": {
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": "body_back" }
+				]
+			},
+			"face": {
+				"attachment": [
+					{ "time": 0, "name": "face_back" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head_back" }
+				]
+			},
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": "leg_back" }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": "leg_back" }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": "shield_front" }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_back" }
+				]
+			}
+		},
+		"bones": {
+			"body": {
+				"rotate": [
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 0.01, "y": -2.47 },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": -18.47 },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 2.43, "y": -4.2 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.126, "y": 1.126 },
+					{ "time": 0.3333, "x": 1, "y": 1 },
+					{ "time": 0.6666, "x": 1.126, "y": 1.126 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": 43.3 },
+					{ "time": 0.3333, "angle": 53.43 },
+					{ "time": 0.6666, "angle": 43.3 }
+				],
+				"translate": [
+					{ "time": 0, "x": -2.16, "y": 6.26 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.852, "y": 0.852 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 3.92, "y": 0.29 },
+					{ "time": 0.3333, "x": 6.36, "y": 0.12 },
+					{ "time": 0.6666, "x": 3.92, "y": 0.29 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.911, "y": 0.911 }
+				]
+			},
+			"leg_right": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -0.86, "y": -0.32 },
+					{ "time": 0.3333, "x": 0.98, "y": -0.24 },
+					{ "time": 0.6666, "x": -0.86, "y": -0.32 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "thrower_back", "offset": 20 }
+				]
+			}
+		]
+	},
+	"skate_back_stand": {
+		"slots": {
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": "body_back" }
+				]
+			},
+			"face": {
+				"attachment": [
+					{ "time": 0, "name": "face_back" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head_back" }
+				]
+			},
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": "leg_back" }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": "leg_back" }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": "shield_front" }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_back" }
+				]
+			}
+		},
+		"bones": {
+			"body": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 2.43, "y": -4.2 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1.126, "y": 1.126 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": 43.3 }
+				],
+				"translate": [
+					{ "time": 0, "x": -2.16, "y": 6.26 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.852, "y": 0.852 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 3.92, "y": 0.29 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.911, "y": 0.911 }
+				]
+			},
+			"leg_right": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -0.86, "y": -0.32 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "thrower_back", "offset": 20 }
+				]
+			}
+		]
+	},
+	"skate_front": {
+		"slots": {
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": "shield_back" }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_front" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_front" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": -3.7 },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1666, "angle": -11.49 },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 1.61, "y": -2.95 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": 52.14 },
+					{ "time": 0.2, "angle": 62.49 },
+					{ "time": 0.6666, "angle": 52.14 }
+				],
+				"translate": [
+					{ "time": 0, "x": 3.58, "y": -1.66 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.4666, "angle": 3.47 },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": -3.7, "y": -0.2 },
+					{ "time": 0.6666, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": -355.77 },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 3.92, "y": 0.29 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.911, "y": 0.911 }
+				]
+			},
+			"leg_right": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": 4.09 },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -0.86, "y": -0.32 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"skate_front_stand": {
+		"slots": {
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": "shield_back" }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_front" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_front" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 1.61, "y": -2.95 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": 52.14 }
+				],
+				"translate": [
+					{ "time": 0, "x": 3.58, "y": -1.66 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 3.92, "y": 0.29 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.911, "y": 0.911 }
+				]
+			},
+			"leg_right": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -0.86, "y": -0.32 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"skate_side": {
+		"slots": {
+			"arm_left": {
+				"attachment": [
+					{ "time": 0, "name": "arm_side1" }
+				]
+			},
+			"arm_right": {
+				"attachment": [
+					{ "time": 0, "name": "arm_side" }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": "body_side" }
+				]
+			},
+			"face": {
+				"attachment": [
+					{ "time": 0, "name": "face_side" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head_side" }
+				]
+			},
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": "leg_side" }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": "leg_side" }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": "shield_side" }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_side" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_side" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": 6.14 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -3.36 },
+					{ "time": 0.3333, "x": 0.73, "y": -7.39 },
+					{ "time": 0.6666, "x": 0, "y": -3.36 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": -23.18 },
+					{ "time": 0.3333, "angle": -30.3 },
+					{ "time": 0.6666, "angle": -23.18 }
+				],
+				"translate": [
+					{ "time": 0, "x": -1.35, "y": -11.58 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": 22.87 },
+					{ "time": 0.3333, "angle": 39.22 },
+					{ "time": 0.6666, "angle": 22.87 }
+				],
+				"translate": [
+					{ "time": 0, "x": -2.87, "y": 9.04 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": 5.62 },
+					{ "time": 0.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -3.44, "y": -0.44 },
+					{ "time": 0.3333, "x": -4.1, "y": -2.95 },
+					{ "time": 0.6666, "x": -3.44, "y": -0.44 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_left": {
+				"rotate": [
+					{ "time": 0, "angle": -7.05 },
+					{ "time": 0.3333, "angle": -4.33 },
+					{ "time": 0.6666, "angle": -7.05 }
+				],
+				"translate": [
+					{ "time": 0, "x": 2.33, "y": 1.84 },
+					{ "time": 0.3333, "x": 5.64, "y": 1.83 },
+					{ "time": 0.6666, "x": 2.33, "y": 1.84 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_right": {
+				"rotate": [
+					{ "time": 0, "angle": 12 },
+					{ "time": 0.3333, "angle": 18.53 },
+					{ "time": 0.6666, "angle": 12 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0.99, "y": 4.97 },
+					{ "time": 0.3333, "x": 2.57, "y": 5.89 },
+					{ "time": 0.6666, "x": 0.99, "y": 4.97 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "arm_right", "offset": 1 },
+					{ "slot": "head", "offset": 1 }
+				]
+			}
+		]
+	},
+	"skate_side_stand": {
+		"slots": {
+			"arm_left": {
+				"attachment": [
+					{ "time": 0, "name": "arm_side1" }
+				]
+			},
+			"arm_right": {
+				"attachment": [
+					{ "time": 0, "name": "arm_side" }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": "body_side" }
+				]
+			},
+			"face": {
+				"attachment": [
+					{ "time": 0, "name": "face_side" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head_side" }
+				]
+			},
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": "leg_side" }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": "leg_side" }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": "shield_side" }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_side" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_side" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": 6.14 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -3.36 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": -23.18 }
+				],
+				"translate": [
+					{ "time": 0, "x": -1.35, "y": -11.58 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": 22.87 }
+				],
+				"translate": [
+					{ "time": 0, "x": -2.87, "y": 9.04 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -3.44, "y": -0.44 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_left": {
+				"rotate": [
+					{ "time": 0, "angle": -7.05 }
+				],
+				"translate": [
+					{ "time": 0, "x": 2.33, "y": 1.84 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_right": {
+				"rotate": [
+					{ "time": 0, "angle": 12 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0.99, "y": 4.97 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "arm_right", "offset": 1 },
+					{ "slot": "head", "offset": 1 }
+				]
+			}
+		]
+	},
+	"stag_back": {
+		"slots": {
+			"arm_left": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right1" }
+				]
+			},
+			"arm_right": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right" }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": "body_back" }
+				]
+			},
+			"face": {
+				"attachment": [
+					{ "time": 0, "name": "face_back" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head_back" }
+				]
+			},
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": "shield_front" }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_back" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": -0.02 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": -81.17 },
+					{ "time": 0.2666, "angle": -71.45 },
+					{ "time": 0.5333, "angle": -81.17 }
+				],
+				"translate": [
+					{ "time": 0, "x": 4.28, "y": 1.28, "curve": "stepped" },
+					{ "time": 0.5333, "x": 4.28, "y": 1.28 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": 79.41 },
+					{ "time": 0.2666, "angle": 69.35 },
+					{ "time": 0.5333, "angle": 79.41 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0.65, "y": -3, "curve": "stepped" },
+					{ "time": 0.5333, "x": 0.65, "y": -3 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_right": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "thrower_back", "offset": 20 },
+					{ "slot": "arm_left", "offset": 4 },
+					{ "slot": "arm_right", "offset": 0 }
+				]
+			}
+		]
+	},
+	"stag_back_stand": {
+		"slots": {
+			"arm_left": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right1" }
+				]
+			},
+			"arm_right": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right" }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": "body_back" }
+				]
+			},
+			"face": {
+				"attachment": [
+					{ "time": 0, "name": "face_back" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head_back" }
+				]
+			},
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": "shield_front" }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_back" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": -0.02 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": -81.17 }
+				],
+				"translate": [
+					{ "time": 0, "x": 4.28, "y": 1.28 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": 79.41 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0.65, "y": -3 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_right": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "thrower_back", "offset": 20 },
+					{ "slot": "arm_left", "offset": 4 },
+					{ "slot": "arm_right", "offset": 0 }
+				]
+			}
+		]
+	},
+	"stag_front": {
+		"slots": {
+			"arm_left": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right1" }
+				]
+			},
+			"arm_right": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right" }
+				]
+			},
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": "shield_back" }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_front" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_front" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": -0.02 },
+					{ "time": 0.5, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": 30.53 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": -25.59 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_right": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "arm_left", "offset": 5 },
+					{ "slot": "arm_right", "offset": 1 }
+				]
+			}
+		]
+	},
+	"stag_front_stand": {
+		"slots": {
+			"arm_left": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right1" }
+				]
+			},
+			"arm_right": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right" }
+				]
+			},
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": "shield_back" }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_front" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_front" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": -0.02 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": 30.53 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": -25.59 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_right": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "arm_left", "offset": 5 },
+					{ "slot": "arm_right", "offset": 1 }
+				]
+			}
+		]
+	},
+	"stag_side": {
+		"slots": {
+			"arm_left": {
+				"attachment": [
+					{ "time": 0, "name": "arm_side1" }
+				]
+			},
+			"arm_right": {
+				"attachment": [
+					{ "time": 0, "name": "arm_side" }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": "body_side" }
+				]
+			},
+			"face": {
+				"attachment": [
+					{ "time": 0, "name": "face_side" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head_side" }
+				]
+			},
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": "shield_side" }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_side" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_side" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"leg_right": {
+				"rotate": [
+					{ "time": 0, "angle": 262.55 },
+					{ "time": 0.2, "angle": 262.86 },
+					{ "time": 0.4, "angle": 262.55 }
+				],
+				"translate": [
+					{ "time": 0, "x": -1.13, "y": 6.54 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_left": {
+				"rotate": [
+					{ "time": 0, "angle": -89.11 },
+					{ "time": 0.2, "angle": -93.14 },
+					{ "time": 0.4, "angle": -89.11 }
+				],
+				"translate": [
+					{ "time": 0, "x": -0.63, "y": -7.04 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": 248.92 },
+					{ "time": 0.2, "angle": 252.56 },
+					{ "time": 0.4, "angle": 248.92 }
+				],
+				"translate": [
+					{ "time": 0, "x": -0.47, "y": 13.22 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": -45.07 },
+					{ "time": 0.2, "angle": -41.37 },
+					{ "time": 0.4, "angle": -45.07 }
+				],
+				"translate": [
+					{ "time": 0, "x": 3.38, "y": -16.33 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": 12.25 },
+					{ "time": 0.4, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -3.4, "y": -1.66 },
+					{ "time": 0.2, "x": -2.76, "y": -5.27 },
+					{ "time": 0.4, "x": -3.4, "y": -1.66 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "arm_right", "offset": 1 },
+					{ "slot": "head", "offset": 1 }
+				]
+			}
+		]
+	},
+	"stag_side_stand": {
+		"slots": {
+			"arm_left": {
+				"attachment": [
+					{ "time": 0, "name": "arm_side1" }
+				]
+			},
+			"arm_right": {
+				"attachment": [
+					{ "time": 0, "name": "arm_side" }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": "body_side" }
+				]
+			},
+			"face": {
+				"attachment": [
+					{ "time": 0, "name": "face_side" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head_side" }
+				]
+			},
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shadow": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": "shield_side" }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_side" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_side" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"leg_right": {
+				"rotate": [
+					{ "time": 0, "angle": 262.55 }
+				],
+				"translate": [
+					{ "time": 0, "x": -1.13, "y": 6.54 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_left": {
+				"rotate": [
+					{ "time": 0, "angle": -89.11 }
+				],
+				"translate": [
+					{ "time": 0, "x": -0.63, "y": -7.04 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": 248.92 }
+				],
+				"translate": [
+					{ "time": 0, "x": -0.47, "y": 13.22 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": -45.07 }
+				],
+				"translate": [
+					{ "time": 0, "x": 3.38, "y": -16.33 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -3.4, "y": -1.66 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "arm_right", "offset": 1 },
+					{ "slot": "head", "offset": 1 }
+				]
+			}
+		]
+	},
+	"stand_back": {
+		"slots": {
+			"arm_left": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right1" }
+				]
+			},
+			"arm_right": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right" }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": "body_back" }
+				]
+			},
+			"face": {
+				"attachment": [
+					{ "time": 0, "name": "face_back" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head_back" }
+				]
+			},
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": "leg_back" }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": "leg_back" }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": "shield_front" }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_back" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_r_back" }
+				]
+			}
+		},
+		"bones": {
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				]
+			},
+			"leg_left": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_right": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "thrower_back", "offset": 20 }
+				]
+			}
+		]
+	},
+	"stand_front": {
+		"slots": {
+			"arm_left": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right1" }
+				]
+			},
+			"arm_right": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right" }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": "body_front" }
+				]
+			},
+			"face": {
+				"attachment": [
+					{ "time": 0, "name": "face_front" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head_front" }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": "shield_back" }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_front" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_front" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				]
+			},
+			"leg_left": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"leg_right": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 }
+		]
+	},
+	"stand_side": {
+		"slots": {
+			"arm_left": {
+				"attachment": [
+					{ "time": 0, "name": "arm_side1" }
+				]
+			},
+			"arm_right": {
+				"attachment": [
+					{ "time": 0, "name": "arm_side" }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": "body_side" }
+				]
+			},
+			"face": {
+				"attachment": [
+					{ "time": 0, "name": "face_side" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head_side" }
+				]
+			},
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": "leg_side" }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": "leg_side" }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": "shield_side" }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_side" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_side" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": 1.27 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -4.3 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": 23.5 }
+				],
+				"translate": [
+					{ "time": 0, "x": 6.35, "y": -11.65 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": 327.73 }
+				],
+				"translate": [
+					{ "time": 0, "x": -0.42, "y": 13.96 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				]
+			},
+			"leg_left": {
+				"rotate": [
+					{ "time": 0, "angle": -1.44 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0.41, "y": -7.05 }
+				]
+			},
+			"leg_right": {
+				"rotate": [
+					{ "time": 0, "angle": -2.52 }
+				],
+				"translate": [
+					{ "time": 0, "x": 2.2, "y": 10.04 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "arm_right", "offset": 1 },
+					{ "slot": "head", "offset": 1 }
+				]
+			}
+		]
+	},
+	"walk_back": {
+		"slots": {
+			"arm_left": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right1" }
+				]
+			},
+			"arm_right": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right" }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": "body_back" }
+				]
+			},
+			"face": {
+				"attachment": [
+					{ "time": 0, "name": "face_back" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head_back" }
+				]
+			},
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": "leg_back" }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": "leg_back" }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": "shield_front" }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_back" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_r_back" }
+				]
+			}
+		},
+		"bones": {
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2666, "angle": 0.95 },
+					{ "time": 0.6, "angle": -0.82 },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": 0, "y": -3.38 },
+					{ "time": 0.4333, "x": 0, "y": 0 },
+					{ "time": 0.6333, "x": 0, "y": -3.38 },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": -9.17 },
+					{ "time": 0.4333, "angle": 0 },
+					{ "time": 0.6333, "angle": 18.83 },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2, "x": 0.759, "y": 0.851 },
+					{ "time": 0.4333, "x": 1, "y": 1 },
+					{ "time": 0.6333, "x": 1.073, "y": 1.206 },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": -20.24 },
+					{ "time": 0.4333, "angle": 0 },
+					{ "time": 0.6333, "angle": 12.67 },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2, "x": 1.073, "y": 1.206 },
+					{ "time": 0.4333, "x": 1, "y": 1 },
+					{ "time": 0.6333, "x": 0.759, "y": 0.851 },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2333, "angle": 2.08 },
+					{ "time": 0.6, "angle": -2.02 },
+					{ "time": 0.8333, "angle": 0 }
+				]
+			},
+			"leg_left": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": -2.95, "y": 0.04 },
+					{ "time": 0.6333, "x": 2.29, "y": 0 },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2, "x": 1.056, "y": 1.123 },
+					{ "time": 0.4333, "x": 1, "y": 1 },
+					{ "time": 0.6333, "x": 0.876, "y": 0.87 },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"leg_right": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": 1.97, "y": -0.02 },
+					{ "time": 0.6333, "x": -4.27, "y": 0.01 },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2, "x": 0.876, "y": 0.87 },
+					{ "time": 0.4333, "x": 1, "y": 1 },
+					{ "time": 0.6333, "x": 1.056, "y": 1.123 },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "thrower_back", "offset": 20 }
+				]
+			},
+			{
+				"time": 0.1,
+				"offsets": [
+					{ "slot": "arm_right", "offset": 1 }
+				]
+			},
+			{ "time": 0.4333 },
+			{
+				"time": 0.5333,
+				"offsets": [
+					{ "slot": "arm_left", "offset": 6 }
+				]
+			},
+			{
+				"time": 0.8333,
+				"offsets": [
+					{ "slot": "arm_left", "offset": 5 }
+				]
+			}
+		]
+	},
+	"walk_front": {
+		"slots": {
+			"arm_left": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right1" }
+				]
+			},
+			"arm_right": {
+				"attachment": [
+					{ "time": 0, "name": "arm_right" }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": "body_front" }
+				]
+			},
+			"face": {
+				"attachment": [
+					{ "time": 0, "name": "face_front" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head_front" }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": "shield_back" }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_front" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_front" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2666, "angle": 0.95 },
+					{ "time": 0.6, "angle": -0.82 },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": 0, "y": -3.38 },
+					{ "time": 0.4333, "x": 0, "y": 0 },
+					{ "time": 0.6333, "x": 0, "y": -3.38 },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": -9.17 },
+					{ "time": 0.4333, "angle": 0 },
+					{ "time": 0.6333, "angle": 18.83 },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2, "x": 0.759, "y": 0.851 },
+					{ "time": 0.4333, "x": 1, "y": 1 },
+					{ "time": 0.6333, "x": 1.073, "y": 1.206 },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": -20.24 },
+					{ "time": 0.4333, "angle": 0 },
+					{ "time": 0.6333, "angle": 12.67 },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2, "x": 1.073, "y": 1.206 },
+					{ "time": 0.4333, "x": 1, "y": 1 },
+					{ "time": 0.6333, "x": 0.759, "y": 0.851 },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2333, "angle": 2.08 },
+					{ "time": 0.6, "angle": -2.02 },
+					{ "time": 0.8333, "angle": 0 }
+				]
+			},
+			"leg_left": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": -2.95, "y": 0.04 },
+					{ "time": 0.6333, "x": 2.29, "y": 0 },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2, "x": 1.056, "y": 1.123 },
+					{ "time": 0.4333, "x": 1, "y": 1 },
+					{ "time": 0.6333, "x": 0.876, "y": 0.87 },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"leg_right": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": 1.97, "y": -0.02 },
+					{ "time": 0.6333, "x": -4.27, "y": 0.01 },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.2, "x": 0.876, "y": 0.87 },
+					{ "time": 0.4333, "x": 1, "y": 1 },
+					{ "time": 0.6333, "x": 1.056, "y": 1.123 },
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"drawOrder": [
+			{ "time": 0 },
+			{
+				"time": 0.1,
+				"offsets": [
+					{ "slot": "arm_right", "offset": 1 }
+				]
+			},
+			{ "time": 0.4333 },
+			{
+				"time": 0.5333,
+				"offsets": [
+					{ "slot": "arm_left", "offset": 6 }
+				]
+			},
+			{
+				"time": 0.8333,
+				"offsets": [
+					{ "slot": "arm_left", "offset": 5 }
+				]
+			}
+		]
+	},
+	"walk_side": {
+		"slots": {
+			"arm_left": {
+				"attachment": [
+					{ "time": 0, "name": "arm_side1" }
+				]
+			},
+			"arm_right": {
+				"attachment": [
+					{ "time": 0, "name": "arm_side" }
+				]
+			},
+			"body": {
+				"attachment": [
+					{ "time": 0, "name": "body_side" }
+				]
+			},
+			"face": {
+				"attachment": [
+					{ "time": 0, "name": "face_side" }
+				]
+			},
+			"head": {
+				"attachment": [
+					{ "time": 0, "name": "head_side" }
+				]
+			},
+			"leg_left": {
+				"attachment": [
+					{ "time": 0, "name": "leg_side" }
+				]
+			},
+			"leg_right": {
+				"attachment": [
+					{ "time": 0, "name": "leg_side" }
+				]
+			},
+			"shield_back": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"shield_front": {
+				"attachment": [
+					{ "time": 0, "name": "shield_side" }
+				]
+			},
+			"thrower_back": {
+				"attachment": [
+					{ "time": 0, "name": "flame_side" }
+				]
+			},
+			"weapon": {
+				"attachment": [
+					{ "time": 0, "name": "weapon_l_side" }
+				]
+			},
+			"weapon_right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"body": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": 2.01 },
+					{ "time": 0.4, "angle": 0.12 },
+					{ "time": 0.6333, "angle": 1.27 },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": 0, "y": -4.3 },
+					{ "time": 0.4, "x": 0, "y": 0 },
+					{ "time": 0.6333, "x": 0, "y": -4.3 },
+					{ "time": 0.8333, "x": 0, "y": 0 }
+				]
+			},
+			"arm_left": {
+				"rotate": [
+					{ "time": 0, "angle": -23.33 },
+					{ "time": 0.2, "angle": 23.5 },
+					{ "time": 0.4, "angle": -276.97 },
+					{ "time": 0.6333, "angle": 23.5 },
+					{ "time": 0.8333, "angle": -23.33 }
+				],
+				"translate": [
+					{ "time": 0, "x": 2.02, "y": -14.41 },
+					{ "time": 0.2, "x": 6.35, "y": -11.65 },
+					{ "time": 0.4, "x": 3.09, "y": -17.29 },
+					{ "time": 0.6333, "x": 6.35, "y": -11.65 },
+					{ "time": 0.8333, "x": 2.02, "y": -14.41 }
+				]
+			},
+			"arm_right": {
+				"rotate": [
+					{ "time": 0, "angle": -2.8 },
+					{ "time": 0.2, "angle": 327.73 },
+					{ "time": 0.4, "angle": 274.8 },
+					{ "time": 0.6333, "angle": 327.73 },
+					{ "time": 0.8333, "angle": -2.8 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0.42, "y": 11.31 },
+					{ "time": 0.2, "x": -0.42, "y": 13.96 },
+					{ "time": 0.4, "x": 1.34, "y": 16.79 },
+					{ "time": 0.6333, "x": -0.42, "y": 13.96 },
+					{ "time": 0.8333, "x": 0.42, "y": 11.31 }
+				]
+			},
+			"head": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2333, "angle": 5.75 },
+					{ "time": 0.4, "angle": -0.83 },
+					{ "time": 0.6666, "angle": 5.75 },
+					{ "time": 0.8333, "angle": 0 }
+				],
+				"scale": [
+					{ "time": 0.8333, "x": 1, "y": 1 }
+				]
+			},
+			"leg_left": {
+				"rotate": [
+					{ "time": 0, "angle": -29.97 },
+					{ "time": 0.2, "angle": -1.44 },
+					{ "time": 0.4, "angle": -325.83 },
+					{ "time": 0.6333, "angle": -1.44 },
+					{ "time": 0.8333, "angle": -29.97 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -0.34 },
+					{ "time": 0.2, "x": 0.41, "y": -7.05 },
+					{ "time": 0.4, "x": -0.85, "y": -11.04 },
+					{ "time": 0.6333, "x": 0.41, "y": -7.05 },
+					{ "time": 0.8333, "x": 0, "y": -0.34 }
+				]
+			},
+			"leg_right": {
+				"rotate": [
+					{ "time": 0, "angle": 25.78 },
+					{ "time": 0.4, "angle": 326 },
+					{ "time": 0.6333, "angle": -2.52 },
+					{ "time": 0.8333, "angle": 25.78 }
+				],
+				"translate": [
+					{ "time": 0, "x": -1.65, "y": 5.15 },
+					{ "time": 0.2, "x": 2.2, "y": 10.04 },
+					{ "time": 0.4, "x": 2.03, "y": 12.96 },
+					{ "time": 0.6333, "x": 2.2, "y": 10.04 },
+					{ "time": 0.8333, "x": -1.65, "y": 5.15 }
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"time": 0,
+				"offsets": [
+					{ "slot": "arm_right", "offset": 1 },
+					{ "slot": "head", "offset": 1 }
+				]
+			}
+		]
+	}
+}
+}

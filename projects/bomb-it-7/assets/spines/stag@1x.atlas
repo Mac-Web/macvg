@@ -1,0 +1,90 @@
+
+stag.png
+size: 512,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1x1
+  rotate: false
+  xy: 256, 29
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+body_back
+  rotate: true
+  xy: 161, 21
+  size: 41, 47
+  orig: 41, 47
+  offset: 0, 0
+  index: -1
+body_front
+  rotate: false
+  xy: 210, 28
+  size: 44, 34
+  orig: 44, 34
+  offset: 0, 0
+  index: -1
+body_side
+  rotate: false
+  xy: 256, 32
+  size: 45, 30
+  orig: 45, 30
+  offset: 0, 0
+  index: -1
+head_back
+  rotate: false
+  xy: 110, 20
+  size: 49, 42
+  orig: 49, 42
+  offset: 0, 0
+  index: -1
+head_front
+  rotate: false
+  xy: 2, 16
+  size: 53, 46
+  orig: 53, 46
+  offset: 0, 0
+  index: -1
+head_side
+  rotate: true
+  xy: 57, 20
+  size: 42, 51
+  orig: 42, 51
+  offset: 0, 0
+  index: -1
+leg1
+  rotate: true
+  xy: 303, 41
+  size: 21, 37
+  orig: 21, 37
+  offset: 0, 0
+  index: -1
+leg2
+  rotate: true
+  xy: 342, 42
+  size: 20, 35
+  orig: 20, 35
+  offset: 0, 0
+  index: -1
+leg3
+  rotate: true
+  xy: 161, 2
+  size: 17, 37
+  orig: 17, 37
+  offset: 0, 0
+  index: -1
+tail_front
+  rotate: false
+  xy: 200, 2
+  size: 16, 17
+  orig: 16, 17
+  offset: 0, 0
+  index: -1
+tail_side
+  rotate: true
+  xy: 57, 2
+  size: 16, 17
+  orig: 16, 17
+  offset: 0, 0
+  index: -1

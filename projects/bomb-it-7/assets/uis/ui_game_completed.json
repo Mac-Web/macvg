@@ -1,0 +1,1438 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "container",
+                "children": [
+                    {
+                        "name": "container_win_hero1",
+                        "children": [
+                            {
+                                "name": "base"
+                            },
+                            {
+                                "name": "hero2"
+                            },
+                            {
+                                "name": "hero3"
+                            },
+                            {
+                                "name": "hero6"
+                            },
+                            {
+                                "name": "hero7"
+                            },
+                            {
+                                "name": "hero8"
+                            },
+                            {
+                                "name": "hero5"
+                            },
+                            {
+                                "name": "hero4"
+                            },
+                            {
+                                "name": "hero1"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "container_win_hero2",
+                        "children": [
+                            {
+                                "name": "base"
+                            },
+                            {
+                                "name": "hero1"
+                            },
+                            {
+                                "name": "hero5"
+                            },
+                            {
+                                "name": "hero7"
+                            },
+                            {
+                                "name": "hero8"
+                            },
+                            {
+                                "name": "hero6"
+                            },
+                            {
+                                "name": "hero4"
+                            },
+                            {
+                                "name": "hero3"
+                            },
+                            {
+                                "name": "hero2"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "container_win_hero3",
+                        "children": [
+                            {
+                                "name": "base"
+                            },
+                            {
+                                "name": "hero2"
+                            },
+                            {
+                                "name": "hero7"
+                            },
+                            {
+                                "name": "hero8"
+                            },
+                            {
+                                "name": "hero6"
+                            },
+                            {
+                                "name": "hero5"
+                            },
+                            {
+                                "name": "hero4"
+                            },
+                            {
+                                "name": "hero1"
+                            },
+                            {
+                                "name": "hero3"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "container_win_hero4",
+                        "children": [
+                            {
+                                "name": "base"
+                            },
+                            {
+                                "name": "hero1"
+                            },
+                            {
+                                "name": "hero2"
+                            },
+                            {
+                                "name": "hero5"
+                            },
+                            {
+                                "name": "hero7"
+                            },
+                            {
+                                "name": "hero8"
+                            },
+                            {
+                                "name": "hero6"
+                            },
+                            {
+                                "name": "hero3"
+                            },
+                            {
+                                "name": "hero4"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "container_win_hero5",
+                        "children": [
+                            {
+                                "name": "base"
+                            },
+                            {
+                                "name": "hero2"
+                            },
+                            {
+                                "name": "hero7"
+                            },
+                            {
+                                "name": "hero8"
+                            },
+                            {
+                                "name": "hero6"
+                            },
+                            {
+                                "name": "hero4"
+                            },
+                            {
+                                "name": "hero1"
+                            },
+                            {
+                                "name": "hero3"
+                            },
+                            {
+                                "name": "hero5"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "container_win_hero6",
+                        "children": [
+                            {
+                                "name": "base"
+                            },
+                            {
+                                "name": "hero2"
+                            },
+                            {
+                                "name": "hero3"
+                            },
+                            {
+                                "name": "hero7"
+                            },
+                            {
+                                "name": "hero8"
+                            },
+                            {
+                                "name": "hero5"
+                            },
+                            {
+                                "name": "hero4"
+                            },
+                            {
+                                "name": "hero1"
+                            },
+                            {
+                                "name": "hero6"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "container_win_hero7",
+                        "children": [
+                            {
+                                "name": "base"
+                            },
+                            {
+                                "name": "hero2"
+                            },
+                            {
+                                "name": "hero6"
+                            },
+                            {
+                                "name": "hero5"
+                            },
+                            {
+                                "name": "hero1"
+                            },
+                            {
+                                "name": "hero3"
+                            },
+                            {
+                                "name": "hero8"
+                            },
+                            {
+                                "name": "hero7"
+                            },
+                            {
+                                "name": "hero4"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "container_win_hero8",
+                        "children": [
+                            {
+                                "name": "base"
+                            },
+                            {
+                                "name": "hero2"
+                            },
+                            {
+                                "name": "hero5"
+                            },
+                            {
+                                "name": "hero7"
+                            },
+                            {
+                                "name": "hero6"
+                            },
+                            {
+                                "name": "hero1"
+                            },
+                            {
+                                "name": "hero4"
+                            },
+                            {
+                                "name": "hero3"
+                            },
+                            {
+                                "name": "hero8"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "title"
+                    },
+                    {
+                        "name": "more_games_button",
+                        "children": [
+                            {
+                                "name": "more_games_text"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "back_button",
+                        "children": [
+                            {
+                                "name": "back_text"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "container_score",
+                        "children": [
+                            {
+                                "name": "p1_image"
+                            },
+                            {
+                                "name": "total_score_text"
+                            },
+                            {
+                                "name": "total_score_p1"
+                            },
+                            {
+                                "name": "p2_image"
+                            },
+                            {
+                                "name": "total_score_p2"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 1280,
+                "height": 720
+            },
+            "type": "canvas"
+        },
+        "container": {
+            "type": "container",
+            "alignment": {
+                "type": "CENTER"
+            }
+        },
+        "container/container_win_hero1": {
+            "position": {
+                "x": 23,
+                "y": 147
+            },
+            "type": "container"
+        },
+        "container/container_win_hero1/base": {
+            "file": "base.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 1.4,
+                "y": -13.7
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero1/hero2": {
+            "file": "hero2_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -171.9,
+                "y": -269.4
+            },
+            "angle": -35,
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero1/hero3": {
+            "file": "hero3_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -308.3,
+                "y": -219.4
+            },
+            "angle": -2,
+            "scale": {
+                "x": -0.75,
+                "y": 0.75
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero1/hero6": {
+            "file": "hero6_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -147.4,
+                "y": -114.2
+            },
+            "scale": {
+                "x": 0.84,
+                "y": 0.84
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero1/hero7": {
+            "file": "hero7_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 172,
+                "y": -263.2
+            },
+            "angle": -5,
+            "scale": {
+                "x": 0.75,
+                "y": 0.75
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero1/hero8": {
+            "file": "hero8_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -294.4,
+                "y": -57.7
+            },
+            "scale": {
+                "x": 0.9,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero1/hero5": {
+            "file": "hero5_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 131.9,
+                "y": -106.3
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero1/hero4": {
+            "file": "hero4_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 273.5,
+                "y": -69.1
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero1/hero1": {
+            "file": "hero1_trophy.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -22,
+                "y": -164.9
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero2": {
+            "position": {
+                "x": 23,
+                "y": 147
+            },
+            "type": "container"
+        },
+        "container/container_win_hero2/base": {
+            "file": "base.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 1.4,
+                "y": -13.7
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero2/hero1": {
+            "file": "hero1_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -161.5,
+                "y": -226.9
+            },
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero2/hero5": {
+            "file": "hero5_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 184.9,
+                "y": -235
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero2/hero7": {
+            "file": "hero7_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -333.4,
+                "y": -212.2
+            },
+            "angle": 8,
+            "scale": {
+                "x": -0.75,
+                "y": 0.75
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero2/hero8": {
+            "file": "hero8_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -294.4,
+                "y": -57.7
+            },
+            "scale": {
+                "x": 0.9,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero2/hero6": {
+            "file": "hero6_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -128.1,
+                "y": -105.9
+            },
+            "scale": {
+                "x": -0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero2/hero4": {
+            "file": "hero4_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 273.5,
+                "y": -69.1
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero2/hero3": {
+            "file": "hero3_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 106.5,
+                "y": -109.9
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero2/hero2": {
+            "file": "hero2_trophy.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 2.9,
+                "y": -174.1
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero3": {
+            "position": {
+                "x": 23,
+                "y": 147
+            },
+            "type": "container"
+        },
+        "container/container_win_hero3/base": {
+            "file": "base.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 1.4,
+                "y": -13.7
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero3/hero2": {
+            "file": "hero2_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 193.5,
+                "y": -234.4
+            },
+            "angle": 8,
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero3/hero7": {
+            "file": "hero7_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -333.4,
+                "y": -212.2
+            },
+            "angle": 8,
+            "scale": {
+                "x": -0.75,
+                "y": 0.75
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero3/hero8": {
+            "file": "hero8_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -294.4,
+                "y": -57.7
+            },
+            "scale": {
+                "x": 0.9,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero3/hero6": {
+            "file": "hero6_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -125.6,
+                "y": -264
+            },
+            "angle": -10,
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero3/hero5": {
+            "file": "hero5_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 141.6,
+                "y": -101.4
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero3/hero4": {
+            "file": "hero4_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 273.5,
+                "y": -69.1
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero3/hero1": {
+            "file": "hero1_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -143,
+                "y": -115.6
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero3/hero3": {
+            "file": "hero3_trophy.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -11.1,
+                "y": -179.9
+            },
+            "angle": -2,
+            "type": "sprite"
+        },
+        "container/container_win_hero4": {
+            "position": {
+                "x": 23,
+                "y": 147
+            },
+            "type": "container"
+        },
+        "container/container_win_hero4/base": {
+            "file": "base.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 1.4,
+                "y": -13.7
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero4/hero1": {
+            "file": "hero1_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -161.5,
+                "y": -226.9
+            },
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero4/hero2": {
+            "file": "hero2_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 157.9,
+                "y": -242.2
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero4/hero5": {
+            "file": "hero5_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 273.4,
+                "y": -112.5
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero4/hero7": {
+            "file": "hero7_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -333.4,
+                "y": -212.2
+            },
+            "angle": 8,
+            "scale": {
+                "x": -0.75,
+                "y": 0.75
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero4/hero8": {
+            "file": "hero8_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -294.4,
+                "y": -57.7
+            },
+            "scale": {
+                "x": 0.9,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero4/hero6": {
+            "file": "hero6_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -128.1,
+                "y": -105.9
+            },
+            "scale": {
+                "x": -0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero4/hero3": {
+            "file": "hero3_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 115.6,
+                "y": -109.9
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero4/hero4": {
+            "file": "hero4_trophy.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -3.2,
+                "y": -164
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero5": {
+            "position": {
+                "x": 23,
+                "y": 147
+            },
+            "type": "container"
+        },
+        "container/container_win_hero5/base": {
+            "file": "base.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 1.4,
+                "y": -13.7
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero5/hero2": {
+            "file": "hero2_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 193.5,
+                "y": -234.4
+            },
+            "angle": 8,
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero5/hero7": {
+            "file": "hero7_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -333.4,
+                "y": -212.2
+            },
+            "angle": 8,
+            "scale": {
+                "x": -0.75,
+                "y": 0.75
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero5/hero8": {
+            "file": "hero8_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -294.4,
+                "y": -57.7
+            },
+            "scale": {
+                "x": 0.9,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero5/hero6": {
+            "file": "hero6_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -125.6,
+                "y": -264
+            },
+            "angle": -10,
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero5/hero4": {
+            "file": "hero4_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 273.5,
+                "y": -69.1
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero5/hero1": {
+            "file": "hero1_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -145.9,
+                "y": -105.9
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero5/hero3": {
+            "file": "hero3_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 106.5,
+                "y": -109.9
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero5/hero5": {
+            "file": "hero5_trophy.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -4.2,
+                "y": -164.6
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero6": {
+            "position": {
+                "x": 23,
+                "y": 147
+            },
+            "type": "container"
+        },
+        "container/container_win_hero6/base": {
+            "file": "base.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 1.4,
+                "y": -13.7
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero6/hero2": {
+            "file": "hero2_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -128.3,
+                "y": -248
+            },
+            "angle": -35,
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero6/hero3": {
+            "file": "hero3_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 222.7,
+                "y": -220.3
+            },
+            "angle": -2,
+            "scale": {
+                "x": 0.75,
+                "y": 0.75
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero6/hero7": {
+            "file": "hero7_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -333.4,
+                "y": -212.2
+            },
+            "angle": 8,
+            "scale": {
+                "x": -0.75,
+                "y": 0.75
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero6/hero8": {
+            "file": "hero8_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -294.4,
+                "y": -57.7
+            },
+            "scale": {
+                "x": 0.9,
+                "y": 0.9
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero6/hero5": {
+            "file": "hero5_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 131.9,
+                "y": -106.3
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero6/hero4": {
+            "file": "hero4_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 273.5,
+                "y": -69.1
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero6/hero1": {
+            "file": "hero1_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -143,
+                "y": -115.6
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero6/hero6": {
+            "file": "hero6_trophy.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 6.5,
+                "y": -161.9
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero7": {
+            "position": {
+                "x": 23,
+                "y": 147
+            },
+            "type": "container"
+        },
+        "container/container_win_hero7/base": {
+            "file": "base.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 1.4,
+                "y": -13.7
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero7/hero2": {
+            "file": "hero2_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -153,
+                "y": -228.3
+            },
+            "angle": 28,
+            "scale": {
+                "x": -0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero7/hero6": {
+            "file": "hero6_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -297.2,
+                "y": -243.9
+            },
+            "angle": -12,
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero7/hero5": {
+            "file": "hero5_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -271.9,
+                "y": -94
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero7/hero1": {
+            "file": "hero1_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -145.9,
+                "y": -98.6
+            },
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero7/hero3": {
+            "file": "hero3_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 219.6,
+                "y": -271.3
+            },
+            "angle": -7,
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero7/hero8": {
+            "file": "hero8_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 135.9,
+                "y": -74.6
+            },
+            "angle": 3,
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero7/hero7": {
+            "file": "hero7_trophy.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 63.2,
+                "y": -167.9
+            },
+            "angle": -4,
+            "type": "sprite"
+        },
+        "container/container_win_hero7/hero4": {
+            "file": "hero4_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 253.5,
+                "y": -96
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero8": {
+            "position": {
+                "x": 23,
+                "y": 147
+            },
+            "type": "container"
+        },
+        "container/container_win_hero8/base": {
+            "file": "base.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 1.4,
+                "y": -13.7
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero8/hero2": {
+            "file": "hero2_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -292.2,
+                "y": -249
+            },
+            "angle": -32,
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero8/hero5": {
+            "file": "hero5_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 187.9,
+                "y": -249.6
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero8/hero7": {
+            "file": "hero7_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -291.6,
+                "y": -89.7
+            },
+            "scale": {
+                "x": -0.75,
+                "y": 0.75
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero8/hero6": {
+            "file": "hero6_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -157.2,
+                "y": -247.8
+            },
+            "scale": {
+                "x": -0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero8/hero1": {
+            "file": "hero1_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -145.9,
+                "y": -98.6
+            },
+            "scale": {
+                "x": 0.7,
+                "y": 0.7
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero8/hero4": {
+            "file": "hero4_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 270,
+                "y": -118.3
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero8/hero3": {
+            "file": "hero3_normal.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 115.6,
+                "y": -109.9
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "type": "sprite"
+        },
+        "container/container_win_hero8/hero8": {
+            "file": "hero8_trophy.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -3.2,
+                "y": -140.7
+            },
+            "type": "sprite"
+        },
+        "container/title": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 50
+            },
+            "text": "GAME COMPLETED!",
+            "align": "center",
+            "stroke": "#660000",
+            "strokeThickness": 5,
+            "position": {
+                "x": 0,
+                "y": -218.5
+            },
+            "color": "#fece0d",
+            "type": "text"
+        },
+        "container/more_games_button": {
+            "file": "button.png",
+            "image": "SLICED",
+            "slice": {
+                "top": 0,
+                "bottom": 0,
+                "left": 19,
+                "right": 19
+            },
+            "size": {
+                "width": 199,
+                "height": 48
+            },
+            "position": {
+                "x": 255.8,
+                "y": 246.1
+            },
+            "type": "button"
+        },
+        "container/more_games_button/more_games_text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 21
+            },
+            "text": "MORE GAMES",
+            "align": "center",
+            "stroke": "#c55d18",
+            "strokeThickness": 3,
+            "position": {
+                "x": 1.1,
+                "y": 0.1
+            },
+            "type": "text"
+        },
+        "container/back_button": {
+            "file": "button.png",
+            "image": "SLICED",
+            "slice": {
+                "top": 0,
+                "bottom": 0,
+                "left": 19,
+                "right": 19
+            },
+            "size": {
+                "width": 199,
+                "height": 48
+            },
+            "position": {
+                "x": -251.4,
+                "y": 246.1
+            },
+            "type": "button"
+        },
+        "container/back_button/back_text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 21
+            },
+            "text": "BACK",
+            "align": "center",
+            "stroke": "#c55d18",
+            "strokeThickness": 3,
+            "position": {
+                "x": 1.1,
+                "y": 0.1
+            },
+            "type": "text"
+        },
+        "container/container_score": {
+            "file": "dress_up_go_container2.png",
+            "image": "SLICED",
+            "slice": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+            },
+            "size": {
+                "width": 570.2,
+                "height": 50.5
+            },
+            "position": {
+                "x": 1.8,
+                "y": 179
+            },
+            "type": "sprite"
+        },
+        "container/container_score/p1_image": {
+            "file": "p1_2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -77.5,
+                "y": -3
+            },
+            "type": "sprite"
+        },
+        "container/container_score/total_score_text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 23
+            },
+            "text": "TOTAL SCORE",
+            "align": "center",
+            "position": {
+                "x": -187.8,
+                "y": -0.5
+            },
+            "color": "#003055",
+            "type": "text"
+        },
+        "container/container_score/total_score_p1": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 23
+            },
+            "text": "14350",
+            "align": "center",
+            "stroke": "#670900",
+            "strokeThickness": 5.2,
+            "position": {
+                "x": 23.5,
+                "y": -2
+            },
+            "color": "#fff713",
+            "type": "text"
+        },
+        "container/container_score/p2_image": {
+            "file": "lvlc_p2.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 121.9,
+                "y": -3
+            },
+            "type": "sprite"
+        },
+        "container/container_score/total_score_p2": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 23
+            },
+            "text": "-1",
+            "align": "center",
+            "stroke": "#670900",
+            "strokeThickness": 5.2,
+            "position": {
+                "x": 238.2,
+                "y": -2
+            },
+            "color": "#ff6954",
+            "type": "text"
+        }
+    }
+}

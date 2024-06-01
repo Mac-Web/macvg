@@ -1,0 +1,131 @@
+{
+    "name": "face2_stand",
+    "speed": 1,
+    "mode": "loop",
+    "data": {
+        "heart_r": {
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 217,
+                    "value": 1.2
+                },
+                {
+                    "frame": 333,
+                    "value": 1
+                },
+                {
+                    "frame": 500,
+                    "value": 1
+                },
+                {
+                    "frame": 700,
+                    "value": 1.2
+                },
+                {
+                    "frame": 833,
+                    "value": 1
+                },
+                {
+                    "frame": 1667,
+                    "value": 1
+                }
+            ],
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 217,
+                    "value": 1.2
+                },
+                {
+                    "frame": 333,
+                    "value": 1
+                },
+                {
+                    "frame": 500,
+                    "value": 1
+                },
+                {
+                    "frame": 700,
+                    "value": 1.2
+                },
+                {
+                    "frame": 833,
+                    "value": 1
+                },
+                {
+                    "frame": 1667,
+                    "value": 1
+                }
+            ]
+        },
+        "heart_l": {
+            "scaleX": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 217,
+                    "value": 1.2
+                },
+                {
+                    "frame": 333,
+                    "value": 1
+                },
+                {
+                    "frame": 500,
+                    "value": 1
+                },
+                {
+                    "frame": 700,
+                    "value": 1.2
+                },
+                {
+                    "frame": 833,
+                    "value": 1
+                },
+                {
+                    "frame": 1667,
+                    "value": 1
+                }
+            ],
+            "scaleY": [
+                {
+                    "frame": 0,
+                    "value": 1
+                },
+                {
+                    "frame": 217,
+                    "value": 1.2
+                },
+                {
+                    "frame": 333,
+                    "value": 1
+                },
+                {
+                    "frame": 500,
+                    "value": 1
+                },
+                {
+                    "frame": 700,
+                    "value": 1.2
+                },
+                {
+                    "frame": 833,
+                    "value": 1
+                },
+                {
+                    "frame": 1667,
+                    "value": 1
+                }
+            ]
+        }
+    }
+}

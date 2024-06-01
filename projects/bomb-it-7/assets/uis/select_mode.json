@@ -1,0 +1,299 @@
+{
+    "hierarchy": {
+        "name": "Canvas",
+        "children": [
+            {
+                "name": "bomb"
+            },
+            {
+                "name": "container",
+                "children": [
+                    {
+                        "name": "mode_image"
+                    },
+                    {
+                        "name": "black_container"
+                    },
+                    {
+                        "name": "description"
+                    },
+                    {
+                        "name": "edge"
+                    },
+                    {
+                        "name": "medall"
+                    },
+                    {
+                        "name": "container_title",
+                        "children": [
+                            {
+                                "name": "title"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "trophy"
+                    },
+                    {
+                        "name": "back_button",
+                        "children": [
+                            {
+                                "name": "back_text"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "next_button",
+                        "children": [
+                            {
+                                "name": "next_text"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "properties": {
+        "Canvas": {
+            "design": {
+                "width": 1280,
+                "height": 720
+            },
+            "type": "canvas"
+        },
+        "bomb": {
+            "file": "bg_black13.png",
+            "image": "SIMPLE",
+            "type": "sprite",
+            "alignment": {
+                "type": "CENTER",
+                "offset": {
+                    "x": 0,
+                    "y": -252.5
+                }
+            }
+        },
+        "container": {
+            "type": "container",
+            "alignment": {
+                "type": "CENTER"
+            }
+        },
+        "container/mode_image": {
+            "file": "sm_image_1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 4
+            },
+            "scale": {
+                "x": 1.06,
+                "y": 1.06
+            },
+            "type": "sprite",
+            "orientation": {
+                "landscape": {
+                    "properties": {}
+                },
+                "portrait": {
+                    "properties": {}
+                }
+            }
+        },
+        "container/black_container": {
+            "file": "sm_bar.png",
+            "image": "SLICED",
+            "slice": {
+                "top": 0,
+                "bottom": 0,
+                "left": 24,
+                "right": 24
+            },
+            "size": {
+                "width": 578.1,
+                "height": 44
+            },
+            "position": {
+                "x": 2.2,
+                "y": 161.5
+            },
+            "type": "sprite"
+        },
+        "container/description": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 26
+            },
+            "text": "ARCADE        KILL ALL ENEMIES",
+            "align": "center",
+            "position": {
+                "x": -0.9,
+                "y": 160.7
+            },
+            "type": "text"
+        },
+        "container/edge": {
+            "file": "container4.png",
+            "image": "SLICED",
+            "slice": {
+                "top": 36,
+                "bottom": 104,
+                "left": 70,
+                "right": 64
+            },
+            "size": {
+                "width": 776,
+                "height": 540
+            },
+            "position": {
+                "x": 2,
+                "y": 19
+            },
+            "type": "sprite",
+            "orientation": {
+                "landscape": {
+                    "properties": {}
+                },
+                "portrait": {
+                    "properties": {
+                        "position": {
+                            "x": 2.1,
+                            "y": 18.8
+                        }
+                    }
+                }
+            }
+        },
+        "container/medall": {
+            "file": "decor_medall.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 350.9,
+                "y": 214.4
+            },
+            "type": "sprite"
+        },
+        "container/container_title": {
+            "file": "title_decor.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 11,
+                "y": -234
+            },
+            "scale": {
+                "x": 1.1,
+                "y": 1.1
+            },
+            "type": "sprite"
+        },
+        "container/container_title/title": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 50
+            },
+            "text": "SELECT MODE:",
+            "align": "center",
+            "stroke": "#660000",
+            "strokeThickness": 5,
+            "position": {
+                "x": 0,
+                "y": 15.1
+            },
+            "scale": {
+                "x": 0.9,
+                "y": 0.9
+            },
+            "color": "#fece0d",
+            "type": "text"
+        },
+        "container/trophy": {
+            "position": {
+                "x": -350,
+                "y": -194.5
+            },
+            "type": "container",
+            "orientation": {
+                "landscape": {
+                    "properties": {}
+                },
+                "portrait": {
+                    "properties": {
+                        "position": {
+                            "x": -304.9,
+                            "y": -194.5
+                        }
+                    }
+                }
+            }
+        },
+        "container/back_button": {
+            "file": "button.png",
+            "image": "SLICED",
+            "slice": {
+                "top": 0,
+                "bottom": 0,
+                "left": 19,
+                "right": 19
+            },
+            "size": {
+                "width": 199,
+                "height": 48
+            },
+            "position": {
+                "x": -238.4,
+                "y": 249.1
+            },
+            "type": "button"
+        },
+        "container/back_button/back_text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 21
+            },
+            "text": "BACK",
+            "align": "center",
+            "stroke": "#c55d18",
+            "strokeThickness": 3,
+            "position": {
+                "x": 1.1,
+                "y": 0.1
+            },
+            "type": "text"
+        },
+        "container/next_button": {
+            "file": "button.png",
+            "image": "SLICED",
+            "slice": {
+                "top": 0,
+                "bottom": 0,
+                "left": 19,
+                "right": 19
+            },
+            "size": {
+                "width": 199,
+                "height": 48
+            },
+            "position": {
+                "x": 242.1,
+                "y": 248.8
+            },
+            "type": "button"
+        },
+        "container/next_button/next_text": {
+            "font": {
+                "name": "roboto_condensedbold",
+                "fontSize": 21
+            },
+            "text": "NEXT",
+            "align": "center",
+            "stroke": "#c55d18",
+            "strokeThickness": 3,
+            "position": {
+                "x": 1.1,
+                "y": 0.1
+            },
+            "type": "text"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "hierarchy": {
+        "name": "center_ranch",
+        "children": [
+            {
+                "name": "ranch_base"
+            }
+        ]
+    },
+    "properties": {
+        "ranch_base": {
+            "file": "center_ranch.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -18.2
+            },
+            "type": "sprite"
+        }
+    }
+}

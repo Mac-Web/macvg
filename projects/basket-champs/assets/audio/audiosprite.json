@@ -1,0 +1,142 @@
+{
+  "resources": [
+    "\\assets\\audio\\audiosprite.mp3"
+  ],
+  "spritemap": {
+    "ball_appears": {
+      "start": 0,
+      "end": 2.52718820861678,
+      "loop": false
+    },
+    "basket_2": {
+      "start": 4,
+      "end": 5.017641723356009,
+      "loop": false
+    },
+    "basket": {
+      "start": 7,
+      "end": 8.017641723356009,
+      "loop": false
+    },
+    "celebration_2": {
+      "start": 10,
+      "end": 13.15219954648526,
+      "loop": false
+    },
+    "celebration_3": {
+      "start": 15,
+      "end": 17.160068027210883,
+      "loop": false
+    },
+    "click": {
+      "start": 19,
+      "end": 19.133038548752836,
+      "loop": false
+    },
+    "doge_2": {
+      "start": 21,
+      "end": 23.722244897959182,
+      "loop": false
+    },
+    "doge": {
+      "start": 25,
+      "end": 27.517256235827663,
+      "loop": false
+    },
+    "end_match": {
+      "start": 29,
+      "end": 39.25607709750567,
+      "loop": false
+    },
+    "fx_gameover": {
+      "start": 41,
+      "end": 53.5859410430839,
+      "loop": false
+    },
+    "impacto_1": {
+      "start": 55,
+      "end": 55.07943310657596,
+      "loop": false
+    },
+    "impacto_2": {
+      "start": 57,
+      "end": 57.07943310657596,
+      "loop": false
+    },
+    "impacto_3": {
+      "start": 59,
+      "end": 59.07943310657596,
+      "loop": false
+    },
+    "impacto_4": {
+      "start": 61,
+      "end": 61.07943310657596,
+      "loop": false
+    },
+    "impacto_aro": {
+      "start": 63,
+      "end": 63.223832199546486,
+      "loop": false
+    },
+    "impacto_tablero": {
+      "start": 65,
+      "end": 65.2880045351474,
+      "loop": false
+    },
+    "loop_fase_grupos": {
+      "start": 67,
+      "end": 82,
+      "loop": true
+    },
+    "loop_menus": {
+      "start": 83,
+      "end": 98,
+      "loop": true
+    },
+    "loop_sudden_death": {
+      "start": 99,
+      "end": 114,
+      "loop": true
+    },
+    "loop_torneo": {
+      "start": 115,
+      "end": 130,
+      "loop": true
+    },
+    "point_1": {
+      "start": 131,
+      "end": 131.359410430839,
+      "loop": false
+    },
+    "point_2": {
+      "start": 133,
+      "end": 133.35943310657598,
+      "loop": false
+    },
+    "shot_01": {
+      "start": 135,
+      "end": 135.15920634920636,
+      "loop": false
+    },
+    "shot_02": {
+      "start": 137,
+      "end": 137.12324263038548,
+      "loop": false
+    },
+    "smoke": {
+      "start": 139,
+      "end": 140.56,
+      "loop": false
+    },
+    "snoop": {
+      "start": 142,
+      "end": 153.00278911564627,
+      "loop": false
+    },
+    "splash": {
+      "start": 155,
+      "end": 170,
+      "loop": true
+    }
+  }
+}

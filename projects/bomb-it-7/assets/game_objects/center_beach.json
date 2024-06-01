@@ -1,0 +1,104 @@
+{
+    "hierarchy": {
+        "name": "center_beach",
+        "children": [
+            {
+                "name": "beach_base"
+            },
+            {
+                "name": "flag_blue"
+            },
+            {
+                "name": "flag_pink"
+            },
+            {
+                "name": "flag_red"
+            },
+            {
+                "name": "flag_green"
+            },
+            {
+                "name": "flag_orange"
+            }
+        ],
+        "animations": [
+            "center_beach_stand"
+        ]
+    },
+    "properties": {
+        "beach_base": {
+            "file": "center_beach.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -16
+            },
+            "type": "sprite"
+        },
+        "flag_blue": {
+            "file": "center_beach_flag_blue.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -42.4,
+                "y": -75.41
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "flag_pink": {
+            "file": "center_beach_flag_pink.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": -44,
+                "y": -25.6
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "flag_red": {
+            "file": "center_beach_flag_red.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0.5,
+                "y": -101
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "flag_green": {
+            "file": "center_beach_flag_green.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 42.61,
+                "y": -75.29
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "sprite"
+        },
+        "flag_orange": {
+            "file": "center_beach_flag_orange.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 44.2,
+                "y": -25.8
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            },
+            "type": "sprite"
+        }
+    }
+}

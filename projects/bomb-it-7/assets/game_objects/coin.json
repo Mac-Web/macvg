@@ -1,0 +1,41 @@
+{
+    "hierarchy": {
+        "name": "coin",
+        "children": [
+            {
+                "name": "shadow_coin"
+            },
+            {
+                "name": "coin_base"
+            }
+        ],
+        "animations": [
+            "coin_stand"
+        ]
+    },
+    "properties": {
+        "shadow_coin": {
+            "file": "shadow_penguin.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "scale": {
+                "x": 0.8,
+                "y": 0.8
+            },
+            "alpha": 0.78,
+            "type": "sprite"
+        },
+        "coin_base": {
+            "file": "coin_anim1.png",
+            "image": "SIMPLE",
+            "position": {
+                "x": 0,
+                "y": -24.7
+            },
+            "type": "sprite"
+        }
+    }
+}

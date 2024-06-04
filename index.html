@@ -36,7 +36,7 @@
     />
     <script src="/macvg/app.js"></script>
     <script src="/macvg/modes.js"></script>
-    <link rel="stylesheet" href="games.css">
+    <link rel="stylesheet" href="games.css" />
   </head>
   <body>
     <div class="overflow-menu shoot" id="overflow-menu">
@@ -49,14 +49,14 @@
     </div>
     <nav class="nav" id="nav">
       <div class="overflowm shoot" id="overflowm">
-        <img src="bars-solid.svg" alt="Menu" class="shoot" />
+        <img src="media/bars-solid.svg" alt="Menu" class="shoot" />
       </div>
       <a
         href="/macvg/"
         class="logo2"
         style="background-color: var(--black-color)"
       >
-        <img src="/macvg/macvg-logo.png" alt="MacVG Logo" />
+        <img src="/macvg/media/macvg-logo.png" alt="MacVG Logo" />
         <a href="new.html" class="nav-link">New</a></a
       ><a href="trending.html" class="nav-link">Trending</a
       ><a href="groups.html" class="nav-link">Groups</a
@@ -120,11 +120,51 @@
       <a href="/macvg/"><img src="/MacVG Logo.png" alt="" /></a>
       <a href="/macblog/"><img src="/MacBlog Logo.png" alt="" /></a>
     </div>
+    <div class="modal-background" id="modal">
+      <div class="modal">
+        <h2 class="modal-title">MacVG User Survey</h2>
+        <p class="modal-des">
+          Here's a survey for MacVG's one year anniversary 🎂. With 6 simple
+          questions, this helps us improve your experience and the quality of
+          the site. Thanks. (optional)
+          <a
+            href="https://forms.gle/ytPiCFb862rPQwtx9"
+            target="_blank"
+            class="modal-link"
+            >Survey</a
+          >
+        </p>
+        <button class="modal-close" id="modal-close">
+          <img src="/maclearn/xmark-solid.svg" alt="X" />
+        </button>
+      </div>
+    </div>
+    <script>
+      const mainModal = document.getElementById("modal");
+      const closeModal = document.getElementById("modal-close");
+      if (localStorage.getItem("macvgModal")) {
+        mainModal.style.display = "none";
+      } else {
+        closeModal.addEventListener("click", () => {
+          mainModal.style.display = "none";
+          localStorage.setItem("macvgModal", "closed");
+        });
+      }
+    </script>
     <div class="wrap" id="wrap">
       <header class="homeheader">
         <div class="title" name="Welcome to MacVG!">Welcome to MacVG!</div>
         <div class="sub">
-          <b style="font-size: 23px; margin-bottom: 15px; display: block; font-style: italic;">Fun, redefined:</b> Hundreds of games, countless features, endless play!
+          <b
+            style="
+              font-size: 23px;
+              margin-bottom: 15px;
+              display: block;
+              font-style: italic;
+            "
+            >Fun, redefined:</b
+          >
+          Hundreds of games, countless features, endless play!
         </div>
       </header>
       <div class="functions" id="functions">
@@ -144,7 +184,7 @@
           style="position: absolute; top: 0; right: 0"
           title="Clear Favorites"
         >
-          <img src="trash-solid.svg" />
+          <img src="media/trash-solid.svg" />
         </button>
       </div>
       <div class="games-container" id="randomList"></div>
@@ -745,7 +785,11 @@
         <a href="/macvg/projects/infinite-soccer/" class="game" id="game336">
           Infinite Soccer
         </a>
-        <a href="/macvg/projects/infiltrating-airship/" class="game" id="game364">
+        <a
+          href="/macvg/projects/infiltrating-airship/"
+          class="game"
+          id="game364"
+        >
           Infiltrating the Airship
         </a>
         <a href="/macvg/projects/iron-snout/" class="game" id="game304">

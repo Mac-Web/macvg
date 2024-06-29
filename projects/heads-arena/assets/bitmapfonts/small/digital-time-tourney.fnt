@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+   <font>
+       <info aa='1' size="36" smooth='1' stretchH='100' bold='0' padding='0,0,0,0' spacing='0,0' charset='' italic='0' unicode='0' face='LCD'/>
+       <common scaleW="96" packed='0' pages='1' lineHeight="37.8" scaleH="96" base="30.9"/>
+       <pages>
+            <page id='0' file='digital-time.png'/>
+       </pages>
+        <chars count='11'>
+            <char xadvance="10.799999999999999" x="0.6" chnl='0' yoffset="30.9" y="90.6" xoffset="0" id='32' page='0' height="0" width="0"/>
+            <char xadvance="18.9" x="22.2" chnl='0' yoffset="2.1" y="0.6" xoffset="0" id='48' page='0' height="29.4" width="20.4"/>
+            <char xadvance="18.9" x="83.39999999999999" chnl='0' yoffset="2.1" y="0.6" xoffset="6.8999999999999995" id='49' page='0' height="29.4" width="9"/>
+            <char xadvance="18.9" x="0.6" chnl='0' yoffset="2.1" y="30.599999999999998" xoffset="-0.6" id='50' page='0' height="29.4" width="21"/>
+            <char xadvance="18.9" x="43.199999999999996" chnl='0' yoffset="2.1" y="0.6" xoffset="0" id='51' page='0' height="29.4" width="19.8"/>
+            <char xadvance="18.9" x="63.599999999999994" chnl='0' yoffset="2.1" y="0.6" xoffset="1.5" id='52' page='0' height="29.4" width="19.2"/>
+            <char xadvance="18.9" x="0.6" chnl='0' yoffset="2.1" y="0.6" xoffset="-0.3" id='53' page='0' height="29.4" width="21"/>
+            <char xadvance="18.9" x="41.4" chnl='0' yoffset="2.1" y="30.599999999999998" xoffset="0" id='54' page='0' height="29.4" width="18.599999999999998"/>
+            <char xadvance="18.9" x="22.2" chnl='0' yoffset="2.1" y="60.599999999999994" xoffset="1.5" id='55' page='0' height="29.4" width="18.599999999999998"/>
+            <char xadvance="18.9" x="0.6" chnl='0' yoffset="2.1" y="60.599999999999994" xoffset="0" id='56' page='0' height="29.4" width="20.4"/>
+            <char xadvance="18.9" x="22.2" chnl='0' yoffset="2.1" y="30.599999999999998" xoffset="1.5" id='57' page='0' height="29.4" width="18.599999999999998"/>
+       </chars>
+   </font>

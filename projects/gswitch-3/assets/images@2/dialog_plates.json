@@ -1,0 +1,28 @@
+{"frames": [
+
+{
+	"filename": "dialog_plate_left.png",
+	"frame": {"x":3,"y":179,"w":1014,"h":172},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1014,"h":172},
+	"sourceSize": {"w":1014,"h":172}
+},
+{
+	"filename": "dialog_plate_right.png",
+	"frame": {"x":3,"y":3,"w":1014,"h":172},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1014,"h":172},
+	"sourceSize": {"w":1014,"h":172}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "dialog_plates.png",
+	"format": "RGBA8888",
+	"size": {"w":1020,"h":354},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:4086c144d78ac11f762ce2f56f88d6fa:af85600433511df566699271c691f81d:0ce5db700e5cb2cf82005f7480e57c46$"
+}
+}

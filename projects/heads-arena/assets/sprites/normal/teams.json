@@ -1,0 +1,124 @@
+{"frames": {
+
+"teamlogo-arsenal":
+{
+	"frame": {"x":188,"y":6,"w":55,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":62},
+	"sourceSize": {"w":55,"h":62}
+},
+"teamlogo-atleticomadrid":
+{
+	"frame": {"x":197,"y":145,"w":49,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":49,"h":62},
+	"sourceSize": {"w":49,"h":62}
+},
+"teamlogo-barcelona":
+{
+	"frame": {"x":74,"y":6,"w":54,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":57},
+	"sourceSize": {"w":54,"h":57}
+},
+"teamlogo-bayernmunchen":
+{
+	"frame": {"x":6,"y":74,"w":60,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":60},
+	"sourceSize": {"w":60,"h":60}
+},
+"teamlogo-chelsea":
+{
+	"frame": {"x":6,"y":141,"w":60,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":60},
+	"sourceSize": {"w":60,"h":60}
+},
+"teamlogo-galaxy":
+{
+	"frame": {"x":140,"y":145,"w":50,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":63},
+	"sourceSize": {"w":50,"h":63}
+},
+"teamlogo-juventus":
+{
+	"frame": {"x":140,"y":73,"w":37,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":37,"h":61},
+	"sourceSize": {"w":37,"h":61}
+},
+"teamlogo-leicestercity":
+{
+	"frame": {"x":6,"y":6,"w":61,"h":61},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":61},
+	"sourceSize": {"w":61,"h":61}
+},
+"teamlogo-manchestercity":
+{
+	"frame": {"x":73,"y":74,"w":60,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":60},
+	"sourceSize": {"w":60,"h":60}
+},
+"teamlogo-manchesterunited":
+{
+	"frame": {"x":6,"y":208,"w":52,"h":50},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":50},
+	"sourceSize": {"w":52,"h":50}
+},
+"teamlogo-parissaintgermain":
+{
+	"frame": {"x":73,"y":141,"w":60,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":60},
+	"sourceSize": {"w":60,"h":60}
+},
+"teamlogo-realmadrid":
+{
+	"frame": {"x":135,"y":6,"w":46,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":46,"h":60},
+	"sourceSize": {"w":46,"h":60}
+},
+"teamlogo-roma":
+{
+	"frame": {"x":184,"y":75,"w":53,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":63},
+	"sourceSize": {"w":53,"h":63}
+},
+"teamlogo-unknown":
+{
+	"frame": {"x":65,"y":208,"w":48,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":47},
+	"sourceSize": {"w":48,"h":47}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "teams.png",
+	"format": "RGBA8888",
+	"size": {"w":264,"h":264},
+	"scale": "0.35",
+	"smartupdate": "$TexturePacker:SmartUpdate:b9943c7ac72475d20222fef6f2f1b2f6:3d100ee59d857121125498d8905896b9:17666e20214cf817f9172a675dbf07ff$"
+}
+}

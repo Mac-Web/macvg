@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+   <font>
+       <info aa='1' size="48" smooth='1' stretchH='100' bold='0' padding='0,0,0,0' spacing='0,0' charset='' italic='0' unicode='0' face='LCD'/>
+       <common scaleW="128" packed='0' pages='1' lineHeight="50.400000000000006" scaleH="128" base="41.2"/>
+       <pages>
+            <page id='0' file='digital-time.png'/>
+       </pages>
+        <chars count='11'>
+            <char xadvance="14.4" x="0.8" chnl='0' yoffset="41.2" y="120.80000000000001" xoffset="0" id='32' page='0' height="0" width="0"/>
+            <char xadvance="25.200000000000003" x="29.6" chnl='0' yoffset="2.8000000000000003" y="0.8" xoffset="0" id='48' page='0' height="39.2" width="27.200000000000003"/>
+            <char xadvance="25.200000000000003" x="111.2" chnl='0' yoffset="2.8000000000000003" y="0.8" xoffset="9.200000000000001" id='49' page='0' height="39.2" width="12"/>
+            <char xadvance="25.200000000000003" x="0.8" chnl='0' yoffset="2.8000000000000003" y="40.800000000000004" xoffset="-0.8" id='50' page='0' height="39.2" width="28"/>
+            <char xadvance="25.200000000000003" x="57.6" chnl='0' yoffset="2.8000000000000003" y="0.8" xoffset="0" id='51' page='0' height="39.2" width="26.400000000000002"/>
+            <char xadvance="25.200000000000003" x="84.80000000000001" chnl='0' yoffset="2.8000000000000003" y="0.8" xoffset="2" id='52' page='0' height="39.2" width="25.6"/>
+            <char xadvance="25.200000000000003" x="0.8" chnl='0' yoffset="2.8000000000000003" y="0.8" xoffset="-0.4" id='53' page='0' height="39.2" width="28"/>
+            <char xadvance="25.200000000000003" x="55.2" chnl='0' yoffset="2.8000000000000003" y="40.800000000000004" xoffset="0" id='54' page='0' height="39.2" width="24.8"/>
+            <char xadvance="25.200000000000003" x="29.6" chnl='0' yoffset="2.8000000000000003" y="80.80000000000001" xoffset="2" id='55' page='0' height="39.2" width="24.8"/>
+            <char xadvance="25.200000000000003" x="0.8" chnl='0' yoffset="2.8000000000000003" y="80.80000000000001" xoffset="0" id='56' page='0' height="39.2" width="27.200000000000003"/>
+            <char xadvance="25.200000000000003" x="29.6" chnl='0' yoffset="2.8000000000000003" y="40.800000000000004" xoffset="2" id='57' page='0' height="39.2" width="24.8"/>
+       </chars>
+   </font>

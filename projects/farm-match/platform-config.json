@@ -1,0 +1,18 @@
+{
+  "platform": "azerion",
+  "gameSlug": "farm-match-seasons",
+  "gameBuild": "1.3.7",
+  "gameID": "bcfc4f9d05ea41589db1b7f1352141da",
+  "gameTitle": "Farm Match Seasons",
+  "interface": "FBInstant",
+  "leaderboardSupport": false,
+  "inAppPurchase": false,
+  "adsConfig": {
+    "rewarded": true,
+    "adFreeInitialLevels": 0,
+    "interstitialCooldownLevel": 0,
+    "longGameplayCooldownMS": 150000,
+    "enableLongGameplayAds": true,
+    "supportsAdPlayButton": false
+  }
+}

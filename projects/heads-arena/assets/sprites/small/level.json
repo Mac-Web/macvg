@@ -1,0 +1,92 @@
+{"frames": {
+
+"ball-back":
+{
+	"frame": {"x":1753,"y":73,"w":57,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":57,"h":57},
+	"sourceSize": {"w":57,"h":57}
+},
+"ball-front":
+{
+	"frame": {"x":1753,"y":6,"w":61,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":60},
+	"sourceSize": {"w":61,"h":60}
+},
+"ball-gold-back":
+{
+	"frame": {"x":1817,"y":73,"w":57,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":57,"h":57},
+	"sourceSize": {"w":57,"h":57}
+},
+"ball-gold-front":
+{
+	"frame": {"x":1821,"y":6,"w":61,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":60},
+	"sourceSize": {"w":61,"h":60}
+},
+"bg-back":
+{
+	"frame": {"x":6,"y":6,"w":1317,"h":576},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1317,"h":576},
+	"sourceSize": {"w":1317,"h":576}
+},
+"bg-front":
+{
+	"frame": {"x":6,"y":1153,"w":1316,"h":523},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1316,"h":523},
+	"sourceSize": {"w":1316,"h":523}
+},
+"field":
+{
+	"frame": {"x":6,"y":1683,"w":1317,"h":251},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1317,"h":251},
+	"sourceSize": {"w":1317,"h":251}
+},
+"goal-back":
+{
+	"frame": {"x":1558,"y":6,"w":188,"h":370},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":370},
+	"sourceSize": {"w":188,"h":370}
+},
+"goal-front":
+{
+	"frame": {"x":1330,"y":6,"w":221,"h":195},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":221,"h":195},
+	"sourceSize": {"w":221,"h":195}
+},
+"tribune":
+{
+	"frame": {"x":6,"y":589,"w":1317,"h":557},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1317,"h":557},
+	"sourceSize": {"w":1317,"h":557}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "level.png",
+	"format": "RGBA8888",
+	"size": {"w":1940,"h":1940},
+	"scale": "0.3",
+	"smartupdate": "$TexturePacker:SmartUpdate:dd31a78602608fec4d06f57dc5b48448:16eaa546fa79829b068de1ce3463be73:131701cb6c4e8d84a5be75f0cc65185d$"
+}
+}

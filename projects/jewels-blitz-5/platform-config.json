@@ -1,0 +1,18 @@
+{
+  "platform": "azerion",
+  "gameSlug": "jewels-blitz-5",
+  "gameBuild": "1.5.9",
+  "gameID": "0dd92ae2a7214f289608049167f2ebd4",
+  "gameTitle": "Jewels Blitz 5",
+  "interface": "FBInstant",
+  "leaderboardSupport": false,
+  "inAppPurchase": false,
+  "adsConfig": {
+    "rewarded": true,
+    "adFreeInitialLevels": 0,
+    "interstitialCooldownLevel": 0,
+    "longGameplayCooldownMS": 150000,
+    "enableLongGameplayAds": true,
+    "supportsAdPlayButton": false
+  }
+}

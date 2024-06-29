@@ -1,0 +1,174 @@
+
+tutorial.png
+size: 512, 512
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+agro
+  rotate: false
+  xy: 301, 458
+  size: 179, 51
+  orig: 183, 55
+  offset: 2, 2
+  index: -1
+endless
+  rotate: false
+  xy: 2, 386
+  size: 297, 123
+  orig: 301, 127
+  offset: 2, 2
+  index: -1
+hand
+  rotate: false
+  xy: 444, 349
+  size: 65, 75
+  orig: 69, 79
+  offset: 2, 2
+  index: -1
+info_!
+  rotate: true
+  xy: 437, 330
+  size: 17, 69
+  orig: 21, 73
+  offset: 2, 2
+  index: -1
+info_question
+  rotate: false
+  xy: 390, 280
+  size: 45, 69
+  orig: 62, 73
+  offset: 10, 2
+  index: -1
+key
+  rotate: false
+  xy: 292, 294
+  size: 96, 55
+  orig: 100, 59
+  offset: 2, 2
+  index: -1
+pot
+  rotate: false
+  xy: 2, 295
+  size: 130, 89
+  orig: 134, 93
+  offset: 2, 2
+  index: -1
+pot_ass
+  rotate: false
+  xy: 437, 268
+  size: 60, 60
+  orig: 64, 64
+  offset: 2, 2
+  index: -1
+pot_leaf_l
+  rotate: true
+  xy: 344, 233
+  size: 59, 44
+  orig: 63, 48
+  offset: 2, 2
+  index: -1
+pot_leaf_r
+  rotate: false
+  xy: 390, 225
+  size: 42, 53
+  orig: 46, 57
+  offset: 2, 2
+  index: -1
+pot_leg_d
+  rotate: true
+  xy: 482, 426
+  size: 50, 26
+  orig: 54, 30
+  offset: 2, 2
+  index: -1
+smash_leg_d
+  rotate: true
+  xy: 482, 426
+  size: 50, 26
+  orig: 54, 30
+  offset: 2, 2
+  index: -1
+pot_leg_f
+  rotate: true
+  xy: 444, 433
+  size: 23, 36
+  orig: 27, 40
+  offset: 2, 2
+  index: -1
+smash_leg_foot
+  rotate: true
+  xy: 444, 433
+  size: 23, 36
+  orig: 27, 40
+  offset: 2, 2
+  index: -1
+pot_leg_u
+  rotate: true
+  xy: 264, 335
+  size: 49, 26
+  orig: 53, 30
+  offset: 2, 2
+  index: -1
+smash_leg_u
+  rotate: true
+  xy: 264, 335
+  size: 49, 26
+  orig: 53, 30
+  offset: 2, 2
+  index: -1
+smash_arm_R_d
+  rotate: true
+  xy: 105, 249
+  size: 44, 23
+  orig: 48, 27
+  offset: 2, 2
+  index: -1
+smash_arm_R_u
+  rotate: true
+  xy: 105, 249
+  size: 44, 23
+  orig: 48, 27
+  offset: 2, 2
+  index: -1
+smash_arm_R_hand
+  rotate: false
+  xy: 482, 478
+  size: 27, 31
+  orig: 31, 35
+  offset: 2, 2
+  index: -1
+smash_head
+  rotate: false
+  xy: 264, 214
+  size: 78, 78
+  orig: 82, 82
+  offset: 2, 2
+  index: -1
+smash_l
+  rotate: false
+  xy: 134, 293
+  size: 128, 91
+  orig: 132, 95
+  offset: 2, 2
+  index: -1
+smash_leg_hammer
+  rotate: true
+  xy: 301, 351
+  size: 105, 141
+  orig: 109, 145
+  offset: 2, 2
+  index: -1
+smash_r
+  rotate: true
+  xy: 2, 203
+  size: 90, 101
+  orig: 94, 105
+  offset: 2, 2
+  index: -1
+smash_torso
+  rotate: false
+  xy: 434, 188
+  size: 59, 78
+  orig: 63, 82
+  offset: 2, 2
+  index: -1

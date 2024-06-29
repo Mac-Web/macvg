@@ -1,0 +1,230 @@
+flag	content
+	
+$LOADING	A carregar
+$PERIOD_PUNCTUATION	.
+$COLON_PUNCTUATION	:
+$DECIMAL_POINT	,
+$THOUSANDS_SEPARATOR	,
+	
+$PLAY	Jogar
+$ENDLESS	Interminável
+$MULTIPLAYER	Multijogador
+$CREDITS	Créditos
+$BACK	Atrás
+$SELECT_PLAYERS	Escolher Jogadores
+$NUMBER_OF_PLAYERS	Número de jogadores
+$STAGES	Níveis
+$G-SWITCH_3	G-Switch 3
+$G-SWITCH_3_PLUS_LONG	G-Switch 3 Mais
+$G-SWITCH_3_PLUS_SHORT	G-Switch 3+
+$G-SWITCH_2	G-Switch 2
+$G-SWITCH_1	G-Switch 1
+$CUSTOM_1	Personalizado 1
+$CUSTOM_2	Personalizado 2
+$CUSTOM_3	Personalizado 3
+$SET	Definir
+$NEVER-ENDING	Sem fim
+$NO_POWERUPS	Sem powerups
+$CLICK	Clique
+$MORE_OPTIONS	Mais Opções
+$STAGE_OPTIONS	Opções de Nível
+$PLAY_AGAINST_COMPUTER	Jogar contra computador
+$SELECT_LEVEL	Escolher Nível
+$STAGE_SELECTION	Escolher Níveis
+$CONTINUE	Continuar
+$MAIN_MENU	Menu Inicial
+$GAME_PAUSED	Jogo Parado
+$SECRET_ORB_FOUND	Esfera Secreta Encontrada
+$CHARACTER_UNLOCKED	Novo personagem desbloqueado!
+$LAST_CHARACTER_UNLOCKED	Último personagem desbloqueado! Todas as esferas foram encontradas!
+$BEST_TIME	Melhor<N>tempo
+$NONE_CAPS	NENHUM
+$START_OVER	Recomeçar
+$YES	Sim
+$NO	Não
+$CANCEL	Cancelar
+$CONTINUE_QUESTION	Continuar?
+$CONTINUE_PREVIOUS_GAME_QUESTION	Continuar jogo anterior?
+$CHOOSE_NEW_KEY	Escolher Nova Tecla
+$PRESS_NEW_KEY	Pressione a tecla nova...
+$KEY_ALREADY_IN_USE	“<X>” já está a ser utilizado.<N>Escolha outra tecla.
+	
+$WINNER	Vencedor
+$TIE_EXCLAMATION	Empate!
+$HAS_WON_THE_TOURNAMENT	venceu o torneio!
+$TWO_PLAYER_TIE	Dois jogadores estão empatados<N>para primeiro lugar!
+$THREE_PLAYER_TIE	Três jogadores estão empatados<N>para primeiro lugar!
+$FOUR_PLAYER_TIE	Quatro jogadores estão empatados<N>para primeiro lugar!
+$FIVE_PLAYER_TIE	Cinco jogadores estão empatados<N>para primeiro lugar!
+$SIX_PLAYER_TIE	Seis jogadores estão empatados<N>para primeiro lugar!
+$SEVEN_PLAYER_TIE	Sete jogadores estão empatados<N>para primeiro lugar!
+$EIGHT_PLAYER_TIE	Oito jogadores estão empatados<N>para primeiro lugar!
+	
+$TAP_ICONS_TO_ADD	Toque nos ícones de nível para adicionar à lista
+$CLICK_ICONS_TO_ADD	Clique nos ícones de nível para adicionar à lista
+	
+$GS1_STAGE	GS1 Nível <X>
+$GS2_STAGE	GS2 Nível <X>
+$GS3_STAGE	GS3 Nível <X>
+$GS1_STAGE_SHORT	GS1-<X>
+$GS2_STAGE_SHORT	GS2-<X>
+$GS3_STAGE_SHORT	GS3-<X>
+	
+$CLICK_OR_PRESS_KEY_TO_FLIP	Clique ou pressione qualquer tecla para inverter gravidade
+$TAP_TO_FLIP	Toque no ecrã para inverter gravidade
+$TAP_TO_START	Toque no ecrã para começar
+$TAP_TO_CONTINUE	Toque no ecrã para continuar
+$TAP_TO_START_NEW_TOURNAMENT	Toque no ecrã para iniciar novo torneio
+$RANKINGS	Classificações
+$FINAL_ROUND	Ronda Final
+$FINAL_ROUND_CAPS	RONDA FINAL
+$ROUND_X_OF_Y	Ronda <X> de <Y>
+$ROUND_X	Ronda <X>
+$FIRST_SUPERSCRIPT	º
+$SECOND_SUPERSCRIPT	º
+$THIRD_SUPERSCRIPT	º
+$FOURTH_SUPERSCRIPT	º
+$FIFTH_SUPERSCRIPT	º
+$SIXTH_SUPERSCRIPT	º
+$SEVENTH_SUPERSCRIPT	º
+$EIGHTH_SUPERSCRIPT	º
+$FIRST_BASELINE	1
+$SECOND_BASELINE	2
+$THIRD_BASELINE	3
+$FOURTH_BASELINE	4
+$FIFTH_BASELINE	5
+$SIXTH_BASELINE	6
+$SEVENTH_BASELINE	7
+$EIGHTH_BASELINE	8
+	
+$PLAYER_1	Jogador 1
+$PLAYER_2	Jogador 2
+$PLAYER_3	Jogador 3
+$PLAYER_4	Jogador 4
+$TAP_HERE_CAPS	TOQUE AQUI
+	
+$PRESS_ENTER_TO_START	Pressione ENTER para começar
+$PRESS_ENTER_TO_CONTINUE	Pressione ENTER para continuar
+$PRESS_ENTER_TO_START_OR_ESC	Pressione ENTER para iniciar novo torneio, ou ESC para voltar
+	
+$PRESS_SPACE_TO_START	Pressione ESPAÇO para começar
+$PRESS_SPACE_TO_CONTINUE	Pressione ESPAÇO para continuar
+$PRESS_SPACE_TO_START_OR_ESC	Pressione ESPAÇO para iniciar novo torneio, ou ESC para voltar
+	
+$LEVEL_X	Nível <X>
+$LEVEL_1_DESCRIPTION	Paisagem Urbana
+$LEVEL_2_DESCRIPTION	Gigante Vermelha
+$LEVEL_3_DESCRIPTION	Sonhos Lilás
+	
+$SCORE	Pontuação
+$BEST_SCORE	Melhor
+$X_POINTS	<X> pontos
+	
+$END_DIALOG_1_1_LINE_1	Prazer encontrar-te de novo.
+$END_DIALOG_1_1_LINE_2	 
+$END_DIALOG_1_1_LINE_3	Vejo que continuas
+$END_DIALOG_1_1_LINE_4	em boa forma.
+	
+$END_DIALOG_1_2_LINE_1	Isto foi fácil!
+$END_DIALOG_1_2_LINE_2	 
+$END_DIALOG_1_2_LINE_3	Destruirei qualquer desafio
+$END_DIALOG_1_2_LINE_4	que me ponhas à frente.
+	
+$END_DIALOG_1_3_LINE_1	Ahah! Não estaria tão
+$END_DIALOG_1_3_LINE_2	certo se fosse a ti.
+$END_DIALOG_1_3_LINE_3	Vamos ver como te portas
+$END_DIALOG_1_3_LINE_4	na próxima série de desafios.
+	
+$END_DIALOG_2_1_LINE_1	 
+$END_DIALOG_2_1_LINE_2	Vês? Nada mais fácil.
+$END_DIALOG_2_1_LINE_3	 
+$END_DIALOG_2_1_LINE_4	 
+	
+$END_DIALOG_2_2_LINE_1	Sinto que estás a ficar um 
+$END_DIALOG_2_2_LINE_2	pouco arrogante, meu amigo.
+$END_DIALOG_2_2_LINE_3	Os próximos desafios
+$END_DIALOG_2_2_LINE_4	deverão tratar disso.
+	
+$END_DIALOG_2_3_LINE_1	Tanta fala, tão pouca ação.
+$END_DIALOG_2_3_LINE_2	 
+$END_DIALOG_2_3_LINE_3	Vamos lá, estou pronto!
+$END_DIALOG_2_3_LINE_4	 
+	
+$END_DIALOG_2_4_LINE_1	É bom que estejas.
+$END_DIALOG_2_4_LINE_2	 
+$END_DIALOG_2_4_LINE_3	O próximo nível não é
+$END_DIALOG_2_4_LINE_4	para fracos.
+	
+$END_DIALOG_3_1_LINE_1	SIM!!!!!!
+$END_DIALOG_3_1_LINE_2	 
+$END_DIALOG_3_1_LINE_3	Consegui!!!
+$END_DIALOG_3_1_LINE_4	 
+	
+$END_DIALOG_3_2_LINE_1	Bravo! Tenho de admitir que
+$END_DIALOG_3_2_LINE_2	não esperava ver-te chegar
+$END_DIALOG_3_2_LINE_3	tão longe. O teu desempenho
+$END_DIALOG_3_2_LINE_4	foi excelente.
+	
+$END_DIALOG_3_3_LINE_1	Foste capaz de combinar reflexos
+$END_DIALOG_3_3_LINE_2	ultra-rápidos com alta precisão em
+$END_DIALOG_3_3_LINE_3	condições de corpo duplo.
+$END_DIALOG_3_3_LINE_4	Um feito verdadeiramente notável.
+	
+$END_DIALOG_3_4_LINE_1	Se ainda não o fizeste, podes
+$END_DIALOG_3_4_LINE_2	continuar a desafiar-te nos modos
+$END_DIALOG_3_4_LINE_3	Interminável ou multijogador local
+$END_DIALOG_3_4_LINE_4	com amigos.
+	
+$END_DIALOG_3_5_LINE_1	A experiência vai continuar
+$END_DIALOG_3_5_LINE_2	quando for a altura certa.
+$END_DIALOG_3_5_LINE_3	 
+$END_DIALOG_3_5_LINE_4	Até lá...
+	
+$END_DIALOG_3_6_LINE_1	 
+$END_DIALOG_3_6_LINE_2	. . . . . .
+$END_DIALOG_3_6_LINE_3	 
+$END_DIALOG_3_6_LINE_4	 
+	
+$CREDITS_LINE_1	Design de Jogo e Programação
+$CREDITS_LINE_2	Vasco Freitas
+$CREDITS_LINE_3	Illustrações
+$CREDITS_LINE_4	Frederico Martins
+$CREDITS_LINE_5	Rute Soares
+$CREDITS_LINE_6	Música e Efeitos Sonoros
+$CREDITS_LINE_7	Francisco Furtado
+	
+$SETTINGS	Definições
+$LANGUAGE	Idioma
+$COMING_SOON	Brevemente
+$RESTORE_PURCHASES	 Restaurar<N>compras
+$MUSIC	Música
+$SOUND	Som
+$COMPUTER_CONTROLLED_ABBREVIATION	CPU
+$SCREENSHOT_TEXT_1	Multijogador local
+$SCREENSHOT_TEXT_2	Até 4 jogadores
+$REMOVE_ADS	Remover anúncios
+$GET_G-SWITCH_3_PLUS	Obter G-Switch 3 Mais
+$G-SWITCH_3_PLUS_LINE_1	Com G-Switch 3+ vai desbloquear:
+$G-SWITCH_3_PLUS_LINE_2	 - 6 novos níveis multijogador
+$G-SWITCH_3_PLUS_LINE_3	 - Todos os níveis multijogador de G-Switch 2 e G-Switch 1
+$G-SWITCH_3_PLUS_LINE_4	 - Jogue os níveis multijogador pela ordem que definir
+$G-SWITCH_3_PLUS_LINE_5	 - Opções de torneio “Sem fim” e “Sem powerups”
+$G-SWITCH_3_PLUS_LINE_6	 - Sem publicidade
+$G-SWITCH_3_PLUS_LINE_7	 - Acesso a futuras atualizações de níveis novos para sempre
+$G-SWITCH_3_PLUS_LINE_8_PRICE_X	Apenas <X>
+$GET_IT_BUTTON	Obter!
+$UNABLE_TO_CONNECT_GOOGLE_PLAY	Não foi possível conectar ao Google Play.
+$CHECK_CONNECTION	Por favor verifique sua ligação à internet.
+$CONNECTING	A conectar...
+$REWARDED_AD_TITLE	Ativar Câmara Lenta
+$REWARDED_AD_DESCRIPTION	Ver um vídeo e ativar câmara lenta na próxima tentativa?
+$LIVES	Vidas
+$REWARDED_AD_2_TITLE	Obter Vida Extra
+$REWARDED_AD_2_DESCRIPTION	Ver um video e obter uma vida extra?
+$REWARDED_AD_3_TITLE	Ativar Câmera Lenta
+$REWARDED_AD_3_DESCRIPTION	Ativar câmera lenta na próxima tentativa?
+$PRESS_ANY_KEY_TO_CONTINUE	Pressione qualquer tecla para continuar
+$ADS_OPT_IN_TITLE	GOSTARIA DE MELHORAR A SUA EXPERIÊNCIA?
+$ADS_OPT_IN_DESCRIPTION	Para oferecer anúncios personalizados, ou seja, anúncios relevantes para si, precisamos de recolher dados e partilhá-los com os nossos parceiros, que podem usar diferentes tecnologias.
+$ADS_OPT_IN_MORE	Saiba mais na nossa 
+$PRIVACY_POLICY	política de privacidade

@@ -1,0 +1,351 @@
+{
+  "frames": {
+    "wall_curtains.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 652,
+        "h": 254
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 15,
+        "y": 8,
+        "w": 652,
+        "h": 254
+      },
+      "sourceSize": {
+        "w": 679,
+        "h": 282
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "rope_02.png": {
+      "frame": {
+        "x": 652,
+        "y": 0,
+        "w": 440,
+        "h": 119
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 9,
+        "y": 16,
+        "w": 440,
+        "h": 119
+      },
+      "sourceSize": {
+        "w": 464,
+        "h": 152
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "rope_01.png": {
+      "frame": {
+        "x": 1092,
+        "y": 0,
+        "w": 440,
+        "h": 118
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 27,
+        "y": 24,
+        "w": 440,
+        "h": 118
+      },
+      "sourceSize": {
+        "w": 490,
+        "h": 172
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "flower_01.png": {
+      "frame": {
+        "x": 1532,
+        "y": 0,
+        "w": 88,
+        "h": 436
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 88,
+        "h": 436
+      },
+      "sourceSize": {
+        "w": 88,
+        "h": 436
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "lamp_wall.png": {
+      "frame": {
+        "x": 1968,
+        "y": 0,
+        "w": 45,
+        "h": 74
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 6,
+        "y": 9,
+        "w": 45,
+        "h": 74
+      },
+      "sourceSize": {
+        "w": 56,
+        "h": 98
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "seat.png": {
+      "frame": {
+        "x": 1968,
+        "y": 45,
+        "w": 70,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 8,
+        "y": 11,
+        "w": 70,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 75
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "lamp.png": {
+      "frame": {
+        "x": 1532,
+        "y": 88,
+        "w": 84,
+        "h": 387
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 13,
+        "y": 20,
+        "w": 84,
+        "h": 387
+      },
+      "sourceSize": {
+        "w": 106,
+        "h": 417
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "Flower05_shadow.png": {
+      "frame": {
+        "x": 1919,
+        "y": 88,
+        "w": 69,
+        "h": 44
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 69,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 69,
+        "h": 44
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "flower_02.png": {
+      "frame": {
+        "x": 1919,
+        "y": 157,
+        "w": 104,
+        "h": 187
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 7,
+        "y": 10,
+        "w": 104,
+        "h": 187
+      },
+      "sourceSize": {
+        "w": 121,
+        "h": 205
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "pole_03.png": {
+      "frame": {
+        "x": 1092,
+        "y": 118,
+        "w": 217,
+        "h": 374
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 13,
+        "w": 217,
+        "h": 374
+      },
+      "sourceSize": {
+        "w": 217,
+        "h": 387
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "pole_02.png": {
+      "frame": {
+        "x": 652,
+        "y": 172,
+        "w": 184,
+        "h": 333
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 18,
+        "w": 184,
+        "h": 333
+      },
+      "sourceSize": {
+        "w": 197,
+        "h": 351
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "pole_01.png": {
+      "frame": {
+        "x": 1466,
+        "y": 172,
+        "w": 188,
+        "h": 332
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 10,
+        "w": 188,
+        "h": 332
+      },
+      "sourceSize": {
+        "w": 203,
+        "h": 342
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "table_02.png": {
+      "frame": {
+        "x": 1798,
+        "y": 344,
+        "w": 155,
+        "h": 148
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 9,
+        "w": 155,
+        "h": 148
+      },
+      "sourceSize": {
+        "w": 161,
+        "h": 157
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "table_01.png": {
+      "frame": {
+        "x": 1466,
+        "y": 492,
+        "w": 153,
+        "h": 152
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 10,
+        "w": 153,
+        "h": 152
+      },
+      "sourceSize": {
+        "w": 154,
+        "h": 162
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.6",
+    "image": "deco.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2042,
+      "h": 644
+    },
+    "scale": 1
+  }
+}

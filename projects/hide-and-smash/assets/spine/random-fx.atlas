@@ -1,0 +1,55 @@
+
+random-fx.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+images/fx_random_f1
+  rotate: false
+  xy: 26, 7
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+images/fx_random_f2
+  rotate: false
+  xy: 2, 26
+  size: 57, 57
+  orig: 73, 73
+  offset: 8, 8
+  index: -1
+images/fx_random_f3
+  rotate: false
+  xy: 26, 12
+  size: 12, 12
+  orig: 14, 14
+  offset: 1, 1
+  index: -1
+images/fx_random_f4
+  rotate: false
+  xy: 2, 2
+  size: 22, 22
+  orig: 28, 28
+  offset: 3, 3
+  index: -1
+images/fx_random_g1
+  rotate: false
+  xy: 2, 85
+  size: 475, 473
+  orig: 558, 562
+  offset: 40, 46
+  index: -1
+images/fx_random_r1
+  rotate: false
+  xy: 479, 285
+  size: 77, 273
+  orig: 98, 362
+  offset: 11, 7
+  index: -1
+images/fx_random_r2
+  rotate: false
+  xy: 479, 10
+  size: 77, 273
+  orig: 98, 362
+  offset: 11, 7
+  index: -1

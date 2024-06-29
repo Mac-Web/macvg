@@ -1,0 +1,60 @@
+{"frames": {
+
+"goal":
+{
+	"frame": {"x":6,"y":129,"w":746,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":746,"h":233},
+	"sourceSize": {"w":746,"h":233}
+},
+"golden-goal":
+{
+	"frame": {"x":6,"y":6,"w":768,"h":116},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":768,"h":116},
+	"sourceSize": {"w":768,"h":116}
+},
+"particle-ball":
+{
+	"frame": {"x":6,"y":369,"w":29,"h":38},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":1,"w":29,"h":38},
+	"sourceSize": {"w":38,"h":39}
+},
+"particle-grass":
+{
+	"frame": {"x":6,"y":414,"w":32,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":35},
+	"sourceSize": {"w":32,"h":35}
+},
+"particle-wood":
+{
+	"frame": {"x":42,"y":369,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32}
+},
+"player-shadow":
+{
+	"frame": {"x":6,"y":456,"w":99,"h":18},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":99,"h":18},
+	"sourceSize": {"w":99,"h":18}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "effects.png",
+	"format": "RGBA8888",
+	"size": {"w":780,"h":780},
+	"scale": "0.3",
+	"smartupdate": "$TexturePacker:SmartUpdate:be8bb64aecad94b6441fe5f8cc5cf3d9:902683164441b7bd12a1f4cfd7f1e2be:05d3c1256da5d10ff4f36ef2966c3322$"
+}
+}

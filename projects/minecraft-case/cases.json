@@ -1,0 +1,1217 @@
+[
+  {
+    "name": "resources-case",
+    "price": 12,
+    "animationFrame": 0,
+    "items": [
+      {
+        "name": "coil",
+        "imageAnimation": "Resources",
+        "imageFrame": 0,
+        "weight": 980,
+        "type": 0,
+        "minMaxPrice": [
+          2,
+          6
+        ]
+      },
+      {
+        "name": "flint",
+        "imageAnimation": "Resources",
+        "imageFrame": 1,
+        "weight": 800,
+        "type": 0,
+        "minMaxPrice": [
+          3,
+          8
+        ]
+      },
+      {
+        "name": "iron",
+        "imageAnimation": "Resources",
+        "imageFrame": 2,
+        "weight": 500,
+        "type": 1,
+        "minMaxPrice": [
+          7,
+          13
+        ]
+      },
+      {
+        "name": "slime",
+        "imageAnimation": "Resources",
+        "imageFrame": 3,
+        "weight": 400,
+        "type": 1,
+        "minMaxPrice": [
+          10,
+          16
+        ]
+      },
+      {
+        "name": "redstone",
+        "imageAnimation": "Resources",
+        "imageFrame": 4,
+        "weight": 220,
+        "type": 1,
+        "minMaxPrice": [
+          12,
+          22
+        ]
+      },
+      {
+        "name": "lapis",
+        "imageAnimation": "Resources",
+        "imageFrame": 5,
+        "weight": 135,
+        "type": 2,
+        "minMaxPrice": [
+          20,
+          28
+        ]
+      },
+      {
+        "name": "glowstone",
+        "imageAnimation": "Resources",
+        "imageFrame": 6,
+        "weight": 83,
+        "type": 2,
+        "minMaxPrice": [
+          30,
+          43
+        ]
+      },
+      {
+        "name": "gold",
+        "imageAnimation": "Resources",
+        "imageFrame": 7,
+        "weight": 55,
+        "type": 2,
+        "minMaxPrice": [
+          70,
+          110
+        ]
+      },
+      {
+        "name": "diamond",
+        "imageAnimation": "Resources",
+        "imageFrame": 8,
+        "weight": 34,
+        "type": 3,
+        "minMaxPrice": [
+          280,
+          450
+        ]
+      },
+      {
+        "name": "emerald",
+        "imageAnimation": "Resources",
+        "imageFrame": 9,
+        "weight": 22,
+        "type": 3,
+        "minMaxPrice": [
+          380,
+          600
+        ]
+      },
+      {
+        "name": "nether-star",
+        "imageAnimation": "Resources",
+        "imageFrame": 10,
+        "weight": 11,
+        "type": 4,
+        "minMaxPrice": [
+          800,
+          1000
+        ]
+      }
+    ]
+  },
+  {
+    "name": "food-case",
+    "price": 30,
+    "animationFrame": 1,
+    "items": [
+      {
+        "name": "rotten-flesh",
+        "imageAnimation": "Food",
+        "imageFrame": 0,
+        "weight": 960,
+        "type": 0,
+        "minMaxPrice": [
+          2,
+          5
+        ]
+      },
+      {
+        "name": "bread",
+        "imageAnimation": "Food",
+        "imageFrame": 1,
+        "weight": 900,
+        "type": 0,
+        "minMaxPrice": [
+          5,
+          10
+        ]
+      },
+      {
+        "name": "watermelon",
+        "imageAnimation": "Food",
+        "imageFrame": 2,
+        "weight": 880,
+        "type": 0,
+        "minMaxPrice": [
+          6,
+          10
+        ]
+      },
+      {
+        "name": "carrot",
+        "imageAnimation": "Food",
+        "imageFrame": 3,
+        "weight": 880,
+        "type": 0,
+        "minMaxPrice": [
+          6,
+          10
+        ]
+      },
+      {
+        "name": "apple",
+        "imageAnimation": "Food",
+        "imageFrame": 4,
+        "weight": 875,
+        "type": 1,
+        "minMaxPrice": [
+          6,
+          11
+        ]
+      },
+      {
+        "name": "potato",
+        "imageAnimation": "Food",
+        "imageFrame": 5,
+        "weight": 870,
+        "type": 0,
+        "minMaxPrice": [
+          7,
+          12
+        ]
+      },
+      {
+        "name": "chicken",
+        "imageAnimation": "Food",
+        "imageFrame": 6,
+        "weight": 630,
+        "type": 1,
+        "minMaxPrice": [
+          20,
+          34
+        ]
+      },
+      {
+        "name": "beef",
+        "imageAnimation": "Food",
+        "imageFrame": 7,
+        "weight": 630,
+        "type": 1,
+        "minMaxPrice": [
+          20,
+          34
+        ]
+      },
+      {
+        "name": "porkchop",
+        "imageAnimation": "Food",
+        "imageFrame": 8,
+        "weight": 630,
+        "type": 1,
+        "minMaxPrice": [
+          20,
+          35
+        ]
+      },
+      {
+        "name": "mutton",
+        "imageAnimation": "Food",
+        "imageFrame": 9,
+        "weight": 630,
+        "type": 1,
+        "minMaxPrice": [
+          22,
+          36
+        ]
+      },
+      {
+        "name": "mushrooms",
+        "imageAnimation": "Food",
+        "imageFrame": 10,
+        "weight": 215,
+        "type": 2,
+        "minMaxPrice": [
+          120,
+          280
+        ]
+      },
+      {
+        "name": "pumpkin-pie",
+        "imageAnimation": "Food",
+        "imageFrame": 11,
+        "weight": 210,
+        "type": 2,
+        "minMaxPrice": [
+          140,
+          300
+        ]
+      },
+      {
+        "name": "cookie",
+        "imageAnimation": "Food",
+        "imageFrame": 12,
+        "weight": 110,
+        "type": 3,
+        "minMaxPrice": [
+          330,
+          530
+        ]
+      },
+      {
+        "name": "cake",
+        "imageAnimation": "Food",
+        "imageFrame": 13,
+        "weight": 105,
+        "type": 3,
+        "minMaxPrice": [
+          350,
+          540
+        ]
+      },
+      {
+        "name": "poisonous-potato",
+        "imageAnimation": "Food",
+        "imageFrame": 14,
+        "weight": 100,
+        "type": 3,
+        "minMaxPrice": [
+          370,
+          560
+        ]
+      },
+      {
+        "name": "golden-carrot",
+        "imageAnimation": "Food",
+        "imageFrame": 15,
+        "weight": 50,
+        "type": 4,
+        "minMaxPrice": [
+          640,
+          765
+        ]
+      },
+      {
+        "name": "glistering-watermelon",
+        "imageAnimation": "Food",
+        "imageFrame": 16,
+        "weight": 50,
+        "type": 4,
+        "minMaxPrice": [
+          640,
+          780
+        ]
+      },
+      {
+        "name": "golden-apple",
+        "imageAnimation": "Food",
+        "imageFrame": 17,
+        "weight": 48,
+        "type": 4,
+        "minMaxPrice": [
+          640,
+          800
+        ]
+      }
+    ]
+  },
+  {
+    "name": "swords-case",
+    "price": 35,
+    "animationFrame": 2,
+    "items": [
+      {
+        "name": "wood-sword",
+        "imageAnimation": "Swords",
+        "imageFrame": 0,
+        "weight": 980,
+        "type": 0,
+        "minMaxPrice": [
+          3,
+          5
+        ]
+      },
+      {
+        "name": "stone-sword",
+        "imageAnimation": "Swords",
+        "imageFrame": 1,
+        "weight": 700,
+        "type": 0,
+        "minMaxPrice": [
+          4,
+          7
+        ]
+      },
+      {
+        "name": "iron-sword",
+        "imageAnimation": "Swords",
+        "imageFrame": 2,
+        "weight": 500,
+        "type": 1,
+        "minMaxPrice": [
+          12,
+          20
+        ]
+      },
+      {
+        "name": "redstone-sword",
+        "imageAnimation": "Swords",
+        "imageFrame": 3,
+        "weight": 300,
+        "type": 1,
+        "minMaxPrice": [
+          30,
+          40
+        ]
+      },
+      {
+        "name": "lapis-sword",
+        "imageAnimation": "Swords",
+        "imageFrame": 4,
+        "weight": 200,
+        "type": 2,
+        "minMaxPrice": [
+          50,
+          60
+        ]
+      },
+      {
+        "name": "golden-mini-sword",
+        "imageAnimation": "Swords",
+        "imageFrame": 5,
+        "weight": 120,
+        "type": 2,
+        "minMaxPrice": [
+          90,
+          165
+        ]
+      },
+      {
+        "name": "golden-sword",
+        "imageAnimation": "Swords",
+        "imageFrame": 6,
+        "weight": 94,
+        "type": 2,
+        "minMaxPrice": [
+          100,
+          175
+        ]
+      },
+      {
+        "name": "ender-sword",
+        "imageAnimation": "Swords",
+        "imageFrame": 7,
+        "weight": 60,
+        "type": 3,
+        "minMaxPrice": [
+          200,
+          250
+        ]
+      },
+      {
+        "name": "diamond-mini-sword",
+        "imageAnimation": "Swords",
+        "imageFrame": 8,
+        "weight": 29,
+        "type": 3,
+        "minMaxPrice": [
+          480,
+          880
+        ]
+      },
+      {
+        "name": "diamond-sword",
+        "imageAnimation": "Swords",
+        "imageFrame": 9,
+        "weight": 26,
+        "type": 3,
+        "minMaxPrice": [
+          560,
+          940
+        ]
+      },
+      {
+        "name": "emerald-mini-sword",
+        "imageAnimation": "Swords",
+        "imageFrame": 10,
+        "weight": 15,
+        "type": 4,
+        "minMaxPrice": [
+          1400,
+          2900
+        ]
+      },
+      {
+        "name": "emerald-sword",
+        "imageAnimation": "Swords",
+        "imageFrame": 11,
+        "weight": 13,
+        "type": 4,
+        "minMaxPrice": [
+          1500,
+          3000
+        ]
+      }
+    ]
+  },
+  {
+    "name": "shooting-case",
+    "price": 40,
+    "animationFrame": 3,
+    "items": [
+      {
+        "name": "arrow",
+        "imageAnimation": "Shooting",
+        "imageFrame": 0,
+        "weight": 800,
+        "type": 0,
+        "minMaxPrice": [
+          3,
+          8
+        ]
+      },
+      {
+        "name": "wood-bow",
+        "imageAnimation": "Shooting",
+        "imageFrame": 1,
+        "weight": 600,
+        "type": 0,
+        "minMaxPrice": [
+          4,
+          12
+        ]
+      },
+      {
+        "name": "wood-crossbow",
+        "imageAnimation": "Shooting",
+        "imageFrame": 2,
+        "weight": 550,
+        "type": 0,
+        "minMaxPrice": [
+          7,
+          16
+        ]
+      },
+      {
+        "name": "trident",
+        "imageAnimation": "Shooting",
+        "imageFrame": 3,
+        "weight": 300,
+        "type": 1,
+        "minMaxPrice": [
+          13,
+          22
+        ]
+      },
+      {
+        "name": "golden-arrow",
+        "imageAnimation": "Shooting",
+        "imageFrame": 4,
+        "weight": 180,
+        "type": 2,
+        "minMaxPrice": [
+          25,
+          40
+        ]
+      },
+      {
+        "name": "diamond-arrow",
+        "imageAnimation": "Shooting",
+        "imageFrame": 5,
+        "weight": 80,
+        "type": 3,
+        "minMaxPrice": [
+          50,
+          150
+        ]
+      },
+      {
+        "name": "golden-trident",
+        "imageAnimation": "Shooting",
+        "imageFrame": 6,
+        "weight": 60,
+        "type": 3,
+        "minMaxPrice": [
+          450,
+          650
+        ]
+      },
+      {
+        "name": "emerald-bow",
+        "imageAnimation": "Shooting",
+        "imageFrame": 7,
+        "weight": 36,
+        "type": 4,
+        "minMaxPrice": [
+          950,
+          1500
+        ]
+      },
+      {
+        "name": "emerald-crossbow",
+        "imageAnimation": "Shooting",
+        "imageFrame": 8,
+        "weight": 25,
+        "type": 4,
+        "minMaxPrice": [
+          1250,
+          1750
+        ]
+      },
+      {
+        "name": "emerald-trident",
+        "imageAnimation": "Shooting",
+        "imageFrame": 9,
+        "weight": 14,
+        "type": 4,
+        "minMaxPrice": [
+          1500,
+          2300
+        ]
+      }
+    ]
+  },
+  {
+    "name": "music-discs-case",
+    "price": 60,
+    "animationFrame": 4,
+    "items": [
+      {
+        "name": "disc-1",
+        "imageAnimation": "MusicDiscs",
+        "imageFrame": 0,
+        "weight": 900,
+        "type": 0,
+        "minMaxPrice": [
+          8,
+          20
+        ]
+      },
+      {
+        "name": "disc-2",
+        "imageAnimation": "MusicDiscs",
+        "imageFrame": 1,
+        "weight": 350,
+        "type": 1,
+        "minMaxPrice": [
+          25,
+          50
+        ]
+      },
+      {
+        "name": "disc-3",
+        "imageAnimation": "MusicDiscs",
+        "imageFrame": 2,
+        "weight": 350,
+        "type": 1,
+        "minMaxPrice": [
+          25,
+          51
+        ]
+      },
+      {
+        "name": "disc-4",
+        "imageAnimation": "MusicDiscs",
+        "imageFrame": 3,
+        "weight": 350,
+        "type": 1,
+        "minMaxPrice": [
+          25,
+          52
+        ]
+      },
+      {
+        "name": "disc-5",
+        "imageAnimation": "MusicDiscs",
+        "imageFrame": 4,
+        "weight": 350,
+        "type": 1,
+        "minMaxPrice": [
+          25,
+          53
+        ]
+      },
+      {
+        "name": "disc-6",
+        "imageAnimation": "MusicDiscs",
+        "imageFrame": 5,
+        "weight": 350,
+        "type": 1,
+        "minMaxPrice": [
+          25,
+          54
+        ]
+      },
+      {
+        "name": "disc-7",
+        "imageAnimation": "MusicDiscs",
+        "imageFrame": 6,
+        "weight": 340,
+        "type": 1,
+        "minMaxPrice": [
+          25,
+          55
+        ]
+      },
+      {
+        "name": "disc-8",
+        "imageAnimation": "MusicDiscs",
+        "imageFrame": 7,
+        "weight": 330,
+        "type": 1,
+        "minMaxPrice": [
+          25,
+          56
+        ]
+      },
+      {
+        "name": "disc-9",
+        "imageAnimation": "MusicDiscs",
+        "imageFrame": 8,
+        "weight": 100,
+        "type": 2,
+        "minMaxPrice": [
+          200,
+          330
+        ]
+      },
+      {
+        "name": "disc-10",
+        "imageAnimation": "MusicDiscs",
+        "imageFrame": 9,
+        "weight": 80,
+        "type": 2,
+        "minMaxPrice": [
+          300,
+          550
+        ]
+      },
+      {
+        "name": "disc-11",
+        "imageAnimation": "MusicDiscs",
+        "imageFrame": 10,
+        "weight": 70,
+        "type": 3,
+        "minMaxPrice": [
+          550,
+          740
+        ]
+      },
+      {
+        "name": "disc-12",
+        "imageAnimation": "MusicDiscs",
+        "imageFrame": 11,
+        "weight": 50,
+        "type": 4,
+        "minMaxPrice": [
+          800,
+          1000
+        ]
+      },
+      {
+        "name": "disc-13",
+        "imageAnimation": "MusicDiscs",
+        "imageFrame": 12,
+        "weight": 40,
+        "type": 4,
+        "minMaxPrice": [
+          950,
+          1100
+        ]
+      }
+    ]
+  },
+  {
+    "name": "armor-case",
+    "price": 110,
+    "animationFrame": 5,
+    "items": [
+      {
+        "name": "leather-boots",
+        "imageAnimation": "Armor",
+        "imageFrame": 0,
+        "weight": 960,
+        "type": 0,
+        "minMaxPrice": [
+          10,
+          22
+        ]
+      },
+      {
+        "name": "leather-helmet",
+        "imageAnimation": "Armor",
+        "imageFrame": 1,
+        "weight": 940,
+        "type": 0,
+        "minMaxPrice": [
+          11,
+          23
+        ]
+      },
+      {
+        "name": "leather-leggins",
+        "imageAnimation": "Armor",
+        "imageFrame": 2,
+        "weight": 920,
+        "type": 0,
+        "minMaxPrice": [
+          13,
+          25
+        ]
+      },
+      {
+        "name": "leather-chestplate",
+        "imageAnimation": "Armor",
+        "imageFrame": 3,
+        "weight": 900,
+        "type": 0,
+        "minMaxPrice": [
+          15,
+          25
+        ]
+      },
+      {
+        "name": "iron-boots",
+        "imageAnimation": "Armor",
+        "imageFrame": 4,
+        "weight": 750,
+        "type": 1,
+        "minMaxPrice": [
+          35,
+          65
+        ]
+      },
+      {
+        "name": "iron-helmet",
+        "imageAnimation": "Armor",
+        "imageFrame": 5,
+        "weight": 870,
+        "type": 1,
+        "minMaxPrice": [
+          35,
+          65
+        ]
+      },
+      {
+        "name": "iron-leggins",
+        "imageAnimation": "Armor",
+        "imageFrame": 6,
+        "weight": 850,
+        "type": 1,
+        "minMaxPrice": [
+          35,
+          70
+        ]
+      },
+      {
+        "name": "iron-chestplate",
+        "imageAnimation": "Armor",
+        "imageFrame": 7,
+        "weight": 830,
+        "type": 1,
+        "minMaxPrice": [
+          35,
+          70
+        ]
+      },
+      {
+        "name": "golden-boots",
+        "imageAnimation": "Armor",
+        "imageFrame": 8,
+        "weight": 650,
+        "type": 1,
+        "minMaxPrice": [
+          50,
+          80
+        ]
+      },
+      {
+        "name": "golden-helmet",
+        "imageAnimation": "Armor",
+        "imageFrame": 9,
+        "weight": 630,
+        "type": 1,
+        "minMaxPrice": [
+          50,
+          80
+        ]
+      },
+      {
+        "name": "golden-leggins",
+        "imageAnimation": "Armor",
+        "imageFrame": 10,
+        "weight": 610,
+        "type": 1,
+        "minMaxPrice": [
+          50,
+          85
+        ]
+      },
+      {
+        "name": "golden-chestplate",
+        "imageAnimation": "Armor",
+        "imageFrame": 11,
+        "weight": 590,
+        "type": 1,
+        "minMaxPrice": [
+          50,
+          90
+        ]
+      },
+      {
+        "name": "chainmail-boots",
+        "imageAnimation": "Armor",
+        "imageFrame": 12,
+        "weight": 280,
+        "type": 2,
+        "minMaxPrice": [
+          280,
+          480
+        ]
+      },
+      {
+        "name": "chainmail-helmet",
+        "imageAnimation": "Armor",
+        "imageFrame": 13,
+        "weight": 270,
+        "type": 2,
+        "minMaxPrice": [
+          290,
+          480
+        ]
+      },
+      {
+        "name": "chainmail-leggins",
+        "imageAnimation": "Armor",
+        "imageFrame": 14,
+        "weight": 260,
+        "type": 2,
+        "minMaxPrice": [
+          300,
+          490
+        ]
+      },
+      {
+        "name": "chainmail-chestplate",
+        "imageAnimation": "Armor",
+        "imageFrame": 15,
+        "weight": 240,
+        "type": 2,
+        "minMaxPrice": [
+          320,
+          500
+        ]
+      },
+      {
+        "name": "diamond-boots",
+        "imageAnimation": "Armor",
+        "imageFrame": 16,
+        "weight": 160,
+        "type": 3,
+        "minMaxPrice": [
+          730,
+          850
+        ]
+      },
+      {
+        "name": "diamond-helmet",
+        "imageAnimation": "Armor",
+        "imageFrame": 17,
+        "weight": 154,
+        "type": 3,
+        "minMaxPrice": [
+          750,
+          860
+        ]
+      },
+      {
+        "name": "diamond-leggins",
+        "imageAnimation": "Armor",
+        "imageFrame": 18,
+        "weight": 152,
+        "type": 3,
+        "minMaxPrice": [
+          770,
+          870
+        ]
+      },
+      {
+        "name": "diamond-chestplate",
+        "imageAnimation": "Armor",
+        "imageFrame": 19,
+        "weight": 150,
+        "type": 3,
+        "minMaxPrice": [
+          800,
+          900
+        ]
+      },
+      {
+        "name": "turtle-shell",
+        "imageAnimation": "Armor",
+        "imageFrame": 20,
+        "weight": 120,
+        "type": 3,
+        "minMaxPrice": [
+          1000,
+          1100
+        ]
+      },
+      {
+        "name": "emerald-boots",
+        "imageAnimation": "Armor",
+        "imageFrame": 21,
+        "weight": 66,
+        "type": 4,
+        "minMaxPrice": [
+          1800,
+          2000
+        ]
+      },
+      {
+        "name": "emerald-helmet",
+        "imageAnimation": "Armor",
+        "imageFrame": 22,
+        "weight": 66,
+        "type": 4,
+        "minMaxPrice": [
+          1900,
+          2100
+        ]
+      },
+      {
+        "name": "emerald-leggins",
+        "imageAnimation": "Armor",
+        "imageFrame": 23,
+        "weight": 63,
+        "type": 4,
+        "minMaxPrice": [
+          2000,
+          2200
+        ]
+      },
+      {
+        "name": "emerald-chestplate",
+        "imageAnimation": "Armor",
+        "imageFrame": 24,
+        "weight": 60,
+        "type": 4,
+        "minMaxPrice": [
+          2100,
+          2400
+        ]
+      },
+      {
+        "name": "elytra",
+        "imageAnimation": "Armor",
+        "imageFrame": 25,
+        "weight": 40,
+        "type": 4,
+        "minMaxPrice": [
+          2650,
+          3000
+        ]
+      }
+    ]
+  },
+  {
+    "name": "blocks-case",
+    "price": 150,
+    "animationFrame": 6,
+    "items": [
+      {
+        "name": "workbench",
+        "imageAnimation": "Blocks",
+        "imageFrame": 0,
+        "weight": 1300,
+        "type": 0,
+        "minMaxPrice": [
+          40,
+          55
+        ]
+      },
+      {
+        "name": "chest",
+        "imageAnimation": "Blocks",
+        "imageFrame": 1,
+        "weight": 1190,
+        "type": 0,
+        "minMaxPrice": [
+          55,
+          60
+        ]
+      },
+      {
+        "name": "furnace",
+        "imageAnimation": "Blocks",
+        "imageFrame": 2,
+        "weight": 1140,
+        "type": 0,
+        "minMaxPrice": [
+          55,
+          65
+        ]
+      },
+      {
+        "name": "iron-block",
+        "imageAnimation": "Blocks",
+        "imageFrame": 3,
+        "weight": 860,
+        "type": 1,
+        "minMaxPrice": [
+          70,
+          95
+        ]
+      },
+      {
+        "name": "bookshelf",
+        "imageAnimation": "Blocks",
+        "imageFrame": 4,
+        "weight": 830,
+        "type": 1,
+        "minMaxPrice": [
+          80,
+          100
+        ]
+      },
+      {
+        "name": "pumpkin",
+        "imageAnimation": "Blocks",
+        "imageFrame": 5,
+        "weight": 750,
+        "type": 1,
+        "minMaxPrice": [
+          90,
+          110
+        ]
+      },
+      {
+        "name": "redstone-block",
+        "imageAnimation": "Blocks",
+        "imageFrame": 6,
+        "weight": 740,
+        "type": 1,
+        "minMaxPrice": [
+          100,
+          120
+        ]
+      },
+      {
+        "name": "golden-block",
+        "imageAnimation": "Blocks",
+        "imageFrame": 7,
+        "weight": 260,
+        "type": 2,
+        "minMaxPrice": [
+          300,
+          550
+        ]
+      },
+      {
+        "name": "obsidian-block",
+        "imageAnimation": "Blocks",
+        "imageFrame": 8,
+        "weight": 185,
+        "type": 2,
+        "minMaxPrice": [
+          700,
+          800
+        ]
+      },
+      {
+        "name": "tnt",
+        "imageAnimation": "Blocks",
+        "imageFrame": 9,
+        "weight": 180,
+        "type": 2,
+        "minMaxPrice": [
+          820,
+          900
+        ]
+      },
+      {
+        "name": "sponge",
+        "imageAnimation": "Blocks",
+        "imageFrame": 10,
+        "weight": 170,
+        "type": 2,
+        "minMaxPrice": [
+          800,
+          950
+        ]
+      },
+      {
+        "name": "diamond-block",
+        "imageAnimation": "Blocks",
+        "imageFrame": 11,
+        "weight": 60,
+        "type": 3,
+        "minMaxPrice": [
+          2000,
+          2300
+        ]
+      },
+      {
+        "name": "slime-block",
+        "imageAnimation": "Blocks",
+        "imageFrame": 12,
+        "weight": 54,
+        "type": 3,
+        "minMaxPrice": [
+          2300,
+          2800
+        ]
+      },
+      {
+        "name": "ender-chest",
+        "imageAnimation": "Blocks",
+        "imageFrame": 13,
+        "weight": 50,
+        "type": 3,
+        "minMaxPrice": [
+          2600,
+          3200
+        ]
+      },
+      {
+        "name": "emerald-block",
+        "imageAnimation": "Blocks",
+        "imageFrame": 14,
+        "weight": 17,
+        "type": 4,
+        "minMaxPrice": [
+          8200,
+          8800
+        ]
+      },
+      {
+        "name": "beacon",
+        "imageAnimation": "Blocks",
+        "imageFrame": 15,
+        "weight": 16,
+        "type": 4,
+        "minMaxPrice": [
+          8500,
+          9300
+        ]
+      }
+    ]
+  }
+]

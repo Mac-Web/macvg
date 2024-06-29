@@ -1,0 +1,204 @@
+content	flags
+$LOADING	Загрузка
+$PERIOD_PUNCTUATION	.
+$COLON_PUNCTUATION	:
+$DECIMAL_POINT	,
+$THOUSANDS_SEPARATOR	,
+$PLAY	Играть
+$ENDLESS	Бесконечный
+$MULTIPLAYER	Мультиплеер
+$CREDITS	Титры
+$BACK	Назад
+$SELECT_PLAYERS	Выбор игроков
+$NUMBER_OF_PLAYERS	Количество игроков
+$STAGES	Карты
+$G-SWITCH_3	G-Switch 3
+$G-SWITCH_3_PLUS_LONG	G-Switch 3 Plus
+$G-SWITCH_3_PLUS_SHORT	G-Switch 3+
+$G-SWITCH_2	G-Switch 2
+$G-SWITCH_1	G-Switch 1
+$CUSTOM_1	Пользовательский 1
+$CUSTOM_2	Пользовательский 2
+$CUSTOM_3	Пользовательский 3
+$SET	Выбрать...
+$NEVER-ENDING	Без конца
+$NO_POWERUPS	Без бонусов
+$CLICK	Нажми
+$MORE_OPTIONS	Другие опции
+$STAGE_OPTIONS	Опции карты
+$PLAY_AGAINST_COMPUTER	Играть против компьютера
+$SELECT_LEVEL	Выбрать уровень
+$STAGE_SELECTION	Выбор карты
+$CONTINUE	Продолжить
+$MAIN_MENU	Главное меню
+$GAME_PAUSED	Игра
+$SECRET_ORB_FOUND	Найден скрытый шар
+$CHARACTER_UNLOCKED	Новый персонаж разблокирован!
+$LAST_CHARACTER_UNLOCKED	Последний персонаж разблокирован! Все шары найдены!
+$BEST_TIME	Лучшее<N>время
+$NONE_CAPS	НЕТ
+$START_OVER	НАЧАТЬ СНОВА
+$YES	Да
+$NO	Нет
+$CANCEL	Отмена
+$CONTINUE_QUESTION	Продолжить?
+$CONTINUE_PREVIOUS_GAME_QUESTION	Продолжить предыдущую игру?
+$CHOOSE_NEW_KEY	Выберите новый ключ
+$PRESS_NEW_KEY	Нажмите новый ключ...
+$KEY_ALREADY_IN_USE	“<X>” уже используется.<N>Пожалуйста, выберите другой ключ.
+$WINNER	Победитель
+$TIE_EXCLAMATION	Ничья!
+$HAS_WON_THE_TOURNAMENT	выиграл(а) турнир!
+$TWO_PLAYER_TIE	Два игрока борются<N>за первое место!
+$THREE_PLAYER_TIE	Три игрока борются<N>за первое место!
+$FOUR_PLAYER_TIE	Четыре игрока борются<N>за первое место!
+$FIVE_PLAYER_TIE	Пять игроков борются<N>за первое место!
+$SIX_PLAYER_TIE	Шесть игроков борются<N>за первое место!
+$SEVEN_PLAYER_TIE	Семь игроков борются<N>за первое место!
+$EIGHT_PLAYER_TIE	Восемь игроков борются<N>за первое место!
+$TAP_ICONS_TO_ADD	Нажмите на значки карт, чтобы добавить их в список
+$CLICK_ICONS_TO_ADD	Нажмите на значки карт, чтобы добавить их в список
+$GS1_STAGE	GS1 Карта <X>
+$GS2_STAGE	GS2 Карта <X>
+$GS3_STAGE	GS3 Карта <X>
+$GS1_STAGE_SHORT	GS1-<X>
+$GS2_STAGE_SHORT	GS2-<X>
+$GS3_STAGE_SHORT	GS3-<X>
+$CLICK_OR_PRESS_KEY_TO_FLIP	Нажмите любую клавишу для переворота
+$TAP_TO_FLIP	Нажмите в любом месте, чтобы повернуть гравитацию
+$TAP_TO_START	Нажмите в любом месте, чтобы начать
+$TAP_TO_CONTINUE	Нажмите в любом месте, чтобы продолжить
+$TAP_TO_START_NEW_TOURNAMENT	Нажмите в любом месте, чтобы начать новый турнир
+$RANKINGS	Рейтинги
+$FINAL_ROUND	Финальный раунд
+$FINAL_ROUND_CAPS	ФИНАЛЬНЫЙ РАУНД
+$ROUND_X_OF_Y	Раунд <X> из <Y>
+$ROUND_X	Раунд <X>
+$FIRST_SUPERSCRIPT	 
+$SECOND_SUPERSCRIPT	 
+$THIRD_SUPERSCRIPT	 
+$FOURTH_SUPERSCRIPT	 
+$FIFTH_SUPERSCRIPT	 
+$SIXTH_SUPERSCRIPT	 
+$SEVENTH_SUPERSCRIPT	 
+$EIGHTH_SUPERSCRIPT	 
+$FIRST_BASELINE	1-й
+$SECOND_BASELINE	2-й
+$THIRD_BASELINE	3-й
+$FOURTH_BASELINE	4-й
+$FIFTH_BASELINE	5-й
+$SIXTH_BASELINE	6-й
+$SEVENTH_BASELINE	7-й
+$EIGHTH_BASELINE	8-й
+$PLAYER_1	Игрок 1
+$PLAYER_2	Игрок 2
+$PLAYER_3	Игрок 3
+$PLAYER_4	Игрок 4
+$TAP_HERE_CAPS	НАЖМИТЕ ЗДЕСЬ
+$PRESS_ENTER_TO_START	Нажмите ENTER, чтобы начать
+$PRESS_ENTER_TO_CONTINUE	Нажмите ENTER для продолжения
+$PRESS_ENTER_TO_START_OR_ESC	Нажмите ENTER, чтобы начать новый турнир или ESC для выхода
+$PRESS_SPACE_TO_START	Нажмите пробел, чтобы начать
+$PRESS_SPACE_TO_CONTINUE	Нажмите пробел для продолжения
+$PRESS_SPACE_TO_START_OR_ESC	Нажмите пробел, чтобы начать новый турнир или ESC для выхода
+$LEVEL_X	Уровень <X>
+$LEVEL_1_DESCRIPTION	Городской пейзаж
+$LEVEL_2_DESCRIPTION	Красный гигант
+$LEVEL_3_DESCRIPTION	Фиолетовые сны
+$SCORE	Счет
+$BEST_SCORE	Лучший
+$X_POINTS	<X> баллов
+$END_DIALOG_1_1_LINE_1	Итак, мы встретились снова.
+$END_DIALOG_1_1_LINE_2	 
+$END_DIALOG_1_1_LINE_3	Вижу, что твое мастерство
+$END_DIALOG_1_1_LINE_4	нисколько не ослабло.
+$END_DIALOG_1_2_LINE_1	Все получилось легко!
+$END_DIALOG_1_2_LINE_2	 
+$END_DIALOG_1_2_LINE_3	Ты не сможешь меня
+$END_DIALOG_1_2_LINE_4	ничем удивить.
+$END_DIALOG_1_3_LINE_1	Ха-ха! Я бы не был так
+$END_DIALOG_1_3_LINE_2	самонадеян на твоем месте.
+$END_DIALOG_1_3_LINE_3	Давай посмотрим, как у тебя получится
+$END_DIALOG_1_3_LINE_4	в следующей серии.
+$END_DIALOG_2_1_LINE_1	 
+$END_DIALOG_2_1_LINE_2	Видишь? Элементарно!
+$END_DIALOG_2_1_LINE_3	 
+$END_DIALOG_2_1_LINE_4	 
+$END_DIALOG_2_2_LINE_1	Я чувствую, что ты немного
+$END_DIALOG_2_2_LINE_2	зазнался, друг мой. Уверен,
+$END_DIALOG_2_2_LINE_3	что финальная серия задач
+$END_DIALOG_2_2_LINE_4	собьет с тебя спесь.
+$END_DIALOG_2_3_LINE_1	Так много разговоров, так мало
+$END_DIALOG_2_3_LINE_2	действий.
+$END_DIALOG_2_3_LINE_3	 
+$END_DIALOG_2_3_LINE_4	Я готов! 
+$END_DIALOG_2_4_LINE_1	Да-да, приготовься.
+$END_DIALOG_2_4_LINE_2	 
+$END_DIALOG_2_4_LINE_3	Следующий уровень - не для
+$END_DIALOG_2_4_LINE_4	слабонервных.
+$END_DIALOG_3_1_LINE_1	ДА!!!!!!
+$END_DIALOG_3_1_LINE_2	 
+$END_DIALOG_3_1_LINE_3	Я сделал это!!!
+$END_DIALOG_3_1_LINE_4	 
+$END_DIALOG_3_2_LINE_1	Браво! Должен признать, что
+$END_DIALOG_3_2_LINE_2	не ожидал от тебя
+$END_DIALOG_3_2_LINE_3	такой прыти. Твои
+$END_DIALOG_3_2_LINE_4	результаты впечатляют.
+$END_DIALOG_3_3_LINE_1	Тебе удалось соединить
+$END_DIALOG_3_3_LINE_2	молниеносные рефлексы с
+$END_DIALOG_3_3_LINE_3	ювелирной точностью.
+$END_DIALOG_3_3_LINE_4	Действительно впечатляет.
+$END_DIALOG_3_4_LINE_1	Если ты еще этого не сделал,
+$END_DIALOG_3_4_LINE_2	можешь попробовать также
+$END_DIALOG_3_4_LINE_3	Бесконечный режим или локальный
+$END_DIALOG_3_4_LINE_4	Мультиплеер с друзьями.
+$END_DIALOG_3_5_LINE_1	Эксперимент продолжится
+$END_DIALOG_3_5_LINE_2	пока не придет время.
+$END_DIALOG_3_5_LINE_3	 
+$END_DIALOG_3_5_LINE_4	Пока...
+$END_DIALOG_3_6_LINE_1	 
+$END_DIALOG_3_6_LINE_2	. . . . . .
+$END_DIALOG_3_6_LINE_3	 
+$END_DIALOG_3_6_LINE_4	 
+$CREDITS_LINE_1	Дизайн и программирование
+$CREDITS_LINE_2	Vasco Freitas
+$CREDITS_LINE_3	Графика
+$CREDITS_LINE_4	Frederico Martins
+$CREDITS_LINE_5	Rute Soares
+$CREDITS_LINE_6	Музыка и звуковые эффекты
+$CREDITS_LINE_7	Francisco Furtado
+$SETTINGS	Настройки
+$LANGUAGE	Язык
+$COMING_SOON	Скоро
+$RESTORE_PURCHASES	 Восстановить<N>покупки
+$MUSIC	Музыка
+$SOUND	Звук
+$COMPUTER_CONTROLLED_ABBREVIATION	Компьютер
+$SCREENSHOT_TEXT_1	Локальный мультиплеер
+$SCREENSHOT_TEXT_2	До 4-х игроков
+$REMOVE_ADS	Убрать рекламу
+$GET_G-SWITCH_3_PLUS	Получить G-Switch 3 Plus
+$G-SWITCH_3_PLUS_LINE_1	С G-Switch 3+ вы разблокируете:
+$G-SWITCH_3_PLUS_LINE_2	 - 6 новых многопользовательских карт
+$G-SWITCH_3_PLUS_LINE_3	 - Все многопользовательские карты из G-Switch 2 и G-Switch 1
+$G-SWITCH_3_PLUS_LINE_4	 - Используйте карты, которые хотите, в произвольном порядке
+$G-SWITCH_3_PLUS_LINE_5	 - Опции "турнир без конца" и "без бонусов"
+$G-SWITCH_3_PLUS_LINE_6	 - Больше никакой рекламы
+$G-SWITCH_3_PLUS_LINE_7	 - Доступ ко всем будущим новым картам/уровням
+$G-SWITCH_3_PLUS_LINE_8_PRICE_X	Всего <X>
+$GET_IT_BUTTON	Получить!
+$UNABLE_TO_CONNECT_GOOGLE_PLAY	Не удалось подключиться к Google Play.
+$CHECK_CONNECTION	Пожалуйста, проверьте подключение к интернету.
+$CONNECTING	Подключение...
+$REWARDED_AD_TITLE	Смотреть видео
+$REWARDED_AD_DESCRIPTION	Посмотрите видео и получите замедленное воспроизведение при следующей попытке?
+$LIVES	Жизни
+$REWARDED_AD_2_TITLE	Получить жизнь
+$REWARDED_AD_2_DESCRIPTION	Смотреть видео и получить дополнительную жизнь?
+$REWARDED_AD_3_TITLE	Замедленное движение
+$REWARDED_AD_3_DESCRIPTION	Включить замедление при следующей попытке?
+$PRESS_ANY_KEY_TO_CONTINUE	нажмите любую клавишу для продолжения
+$ADS_OPT_IN_TITLE	DO YOU WANT TO IMPROVE YOUR EXPERIENCE?
+$ADS_OPT_IN_DESCRIPTION	To offer interest-based ads, meaning ads relevant to you, we need to collect data and share it with our partners, who may use different technologies.
+$ADS_OPT_IN_MORE	Learn more in our 
+$PRIVACY_POLICY	privacy policy

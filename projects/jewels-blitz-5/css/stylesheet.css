@@ -1,0 +1,69 @@
+body {
+    margin: 0px 0px 1px 0px; /* the extra 1px allows the iOS inner/outer check to work */
+    background-color: #020100;
+    overflow: hidden;
+    touch-action: none;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+
+
+@font-face {
+    font-family: 'Lobster';
+    src: url('../fonts/Lobster.woff2') format('woff2'),
+    url('../fonts/Lobster.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RubikBold';
+    src: url('../fonts/Rubik-Bold.woff2') format('woff2'),
+    url('../fonts/Rubik-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#gameFontPreload{
+    position: absolute;
+    left:-1000px;
+    top: -1000px;
+}
+
+#gbMsg {
+  position: absolute;
+  text-shadow: 0px 1px 5px #000000;
+  width: 100%;
+  height: 3%;
+  top: 97%;
+  padding-top: 0.5%;
+  color: white;
+  font-family: Verdana;
+  font-size: 1.5vh;
+  text-align: center;
+  background: linear-gradient(rgba(0,84,166,0), rgba(0,84,166,0.5));
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                              supported by Chrome and Opera */
+}
+
+#gbMsgLabel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.gbMsgHidden {
+  opacity: 0;
+}

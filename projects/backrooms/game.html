@@ -11,32 +11,14 @@
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebGL.json", { onProgress: UnityProgress });
+      var gameInstance = UnityLoader.instantiate(
+        "gameContainer",
+        "Build/WebGL.json",
+        { onProgress: UnityProgress }
+      );
     </script>
   </head>
   <body>
-    <div class="macvg-wrap macvg-close" id="macvg-pop">
-      <div class="macvg-message">
-        <h1>
-          <button class="macvg-btn" style="left: 25px" title="Bug Report" onclick="feedback()">
-            <img src="/macvg/flag.svg" alt="Close" width="20px" /></button
-          >The Backrooms<button class="macvg-btn" id="macvg-off" title="Close">
-            <img src="/macvg/xmark-solid.svg" alt="Close" width="20px" />
-          </button>
-        </h1>
-        <h2>How to Play</h2>
-        <p>
-         The Backrooms is a horror game.
-      </p>
-        <h2>Game Information</h2>
-        <ul>
-          <li>Release Date: January 7, 2022</li>
-          <li>Developer: Fancy</li>
-          <li>Players: 20M+</li>
-        </ul>
-      </div>
-    </div>
-    <link rel="stylesheet" href="/macvg/info.css" />
     <style>
       * {
         margin: 0;
@@ -44,5 +26,7 @@
       }
     </style>
     <div class="webgl-content">
-      <div id="gameContainer" style="width: 100vw; height:100vh;"></div></div></body>
+      <div id="gameContainer" style="width: 100vw; height: 100vh"></div>
+    </div>
+  </body>
 </html>

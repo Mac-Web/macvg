@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<font value="assets/data/verdana.ttf" replace="assets/data/MeiryoUI.ttf">
+	    <!--<size value="12" replace="14"/>
+	    <size value="21" replace="55"/>-->
+	</font>
+	
+	<font value="assets/data/verdanab.ttf" replace="assets/data/MeiryoUIBold.ttf">
+	    <!--<size value="12" replace="14"/>
+	    <size value="21" replace="55"/>-->
+	</font>
+	
+	<font value="assets/data/verdanai.ttf" replace="assets/data/MeiryoUI.ttf">
+	    <!--<size value="12" replace="14"/>
+	    <size value="21" replace="55"/>-->
+	</font>
+	
+	<font value="assets/data/verdanaz.ttf" replace="assets/data/MeiryoUIBold.ttf">
+	    <!--<size value="12" replace="14"/>
+	    <size value="21" replace="55"/>-->
+	</font>
+	
+	<!--no font replacement rules for English-->
+	
+	<!--
+	<font value="assets/data/verdanaz.ttf" replace="assets/data/verdana.ttf">
+	    <size value="12" replace="14"/>
+	    <size value="21" replace="55"/>
+	</font>
+	-->
+</data>

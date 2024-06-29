@@ -1,0 +1,2 @@
+version="2";
+libs=["patch/cdn/phaser/phaser-ads.min.js","patch/cdn/phaser/phaser-cachebuster.min.js","https://cdn.jsdelivr.net/npm/@orange-games/phaser-nineslice@2.0/build/phaser-nineslice.min.js","patch/cdn/phaser/phaser-spine.min.js","patch/cdn/phaser/phaser-super-storage.min.js","patch/cdn/kizi/splash.js"];

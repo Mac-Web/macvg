@@ -1,18 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script>
-      if (localStorage.getItem("favorites") === null) {
-        localStorage.setItem("favorites", "bruh");
-      }
-    </script>
-    <title class="cloak">Originals | MacVG</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
+    <title class="cloak">Originals | MacVG</title>
     <link class="favicon" rel="icon" type="image/x-icon" href="/logo.png" />
     <link href="/macvg/style.css" rel="stylesheet" type="text/css" />
-    <script src="/macvg/cloak.js"></script>
-    <script src="/macvg/app.js"></script>
   </head>
   <body>
     <div class="overflow-menu shoot" id="overflow-menu">
@@ -25,14 +18,14 @@
     </div>
     <nav class="nav" id="nav">
       <div class="overflowm shoot" id="overflowm">
-        <img src="/macvg/bars-solid.svg" alt="Menu" class="shoot" />
+        <img src="/macvg/media/bars-solid.svg" alt="Menu" class="shoot" />
       </div>
       <a
         href="/macvg/"
         class="logo2"
         style="background-color: var(--black-color)"
       >
-        <img src="/macvg/macvg-logo.png" alt="MacVG Logo" />
+        <img src="/macvg/media/macvg-logo.png" alt="MacVG Logo" />
         <a href="/macvg/new.html" class="nav-link">New</a></a
       ><a href="/macvg/trending.html" class="nav-link">Trending</a
       ><a href="/macvg/groups.html" class="nav-link">Groups</a
@@ -72,21 +65,6 @@
         </ul>
       </div>
     </nav>
-    <div class="announce">
-      <h2>
-        Check out the
-        <a href="/macblog/updates/macvg/2024/march.html" target="_blank"
-          >MacVG March Update</a
-        >: New features, new looks, and more!
-        <img src="/maclearn/xmark-solid.svg" alt="X" id="closea" />
-      </h2>
-    </div>
-    <script>
-      let clos = document.getElementById("closea");
-      if (localStorage.getItem("macvgclosee")) {
-        clos.parentElement.parentElement.style.display = "none";
-      }
-    </script>
     <div class="macsidebar" id="sidebar">
       <a href="/"><img src="/logo.png" alt="" /></a>
       <a href="/macideas/"><img src="/MacIdeas Logo.png" alt="" /></a>
@@ -97,9 +75,7 @@
     </div>
     <div class="wrap" style="padding-bottom: 40px">
       <header class="homeheader">
-        <div class="title" name="MacVG Originals">
-          MacVG Originals
-        </div>
+        <div class="title" name="MacVG Originals">MacVG Originals</div>
         <div
           class="sub"
           style="
@@ -127,7 +103,9 @@
         <div class="og">
           <img src="clicker/logo.png" alt="Cosmic Clicker Logo" />
           <h2 class="ogtitle">Cosmic Clicker</h2>
-          <p class="ogdes">Cosmic Clicker coming in MacVG August Update! (delayed)</p>
+          <p class="ogdes">
+            Cosmic Clicker coming in MacVG August Update! (delayed)
+          </p>
         </div>
         <!--
         <div class="og">
@@ -167,5 +145,6 @@
         >More games!</a
       >
     </footer>
+    <script src="../app.js"></script>
   </body>
 </html>

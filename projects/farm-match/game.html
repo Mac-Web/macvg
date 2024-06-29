@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      window._game_loading_timer = Date.now();
+    </script>
+    <title>Farm Match Seasons | MacVG</title>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Phaser App" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.01"
+    />
+    <link
+      rel="stylesheet"
+      href="css/stylesheet.css"
+      type="text/css"
+      charset="utf-8"
+    />
+    <script type="text/javascript">
+      window.sgPlatform = "fbinstant";
+    </script>
+    <script>
+      window.jsInitTime = Date.now(); // set earliest javascript execution time
+    </script>
+    <script src="js/raven.min.js"></script>
+
+    <!-- production -->
+    <script src="js/custom-phaser.min.js"></script>
+    <script src="js/phaser-nineslice-softgames.js"></script>
+    <script src="js/DDNAHandler_0.10.0.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      window.onWrapperReady = () => {
+        initGame();
+      };
+    </script>
+  </head>
+  <body style="overflow: hidden">
+    <div id="gameFontPreload">
+      <div style="font-family: Baloo-Regular" class="fontPreload">.</div>
+      <!-- <div style="font-family: RubikBold" class="fontPreload">.</div> -->
+    </div>
+    <script src="patch/js/AzerionWrapper.js"></script>
+  </body>
+</html>

@@ -1,0 +1,204 @@
+content	flags
+$LOADING	読み込み中
+$PERIOD_PUNCTUATION	.
+$COLON_PUNCTUATION	：
+$DECIMAL_POINT	.
+$THOUSANDS_SEPARATOR	,
+$PLAY	プレイ
+$ENDLESS	エンドレス
+$MULTIPLAYER	対戦
+$CREDITS	クレジット
+$BACK	戻る
+$SELECT_PLAYERS	プレイヤーを選択
+$NUMBER_OF_PLAYERS	プレイヤー数
+$STAGES	ステージ
+$G-SWITCH_3	G-Switch 3
+$G-SWITCH_3_PLUS_LONG	G-Switch 3 Plus
+$G-SWITCH_3_PLUS_SHORT	G-Switch 3+
+$G-SWITCH_2	G-Switch 2
+$G-SWITCH_1	G-Switch 1
+$CUSTOM_1	カスタム1
+$CUSTOM_2	カスタム2
+$CUSTOM_3	カスタム3
+$SET	設定...
+$NEVER-ENDING	エンドレス
+$NO_POWERUPS	パワーアップなし
+$CLICK	クリック
+$MORE_OPTIONS	他のオプション
+$STAGE_OPTIONS	ステージオプション
+$PLAY_AGAINST_COMPUTER	コンピューターと対戦
+$SELECT_LEVEL	レベルを選択
+$STAGE_SELECTION	ステージ選択
+$CONTINUE	続ける
+$MAIN_MENU	メインメニュー
+$GAME_PAUSED	一時停止
+$SECRET_ORB_FOUND	秘密のオーブを発見しました
+$CHARACTER_UNLOCKED	新しいキャラをアンロックしました！
+$LAST_CHARACTER_UNLOCKED	最後のキャラをアンロック！すべてのオーブを発見しました！
+$BEST_TIME	<N>ベストタイム
+$NONE_CAPS	なし
+$START_OVER	やり直す
+$YES	はい
+$NO	いいえ
+$CANCEL	キャンセル
+$CONTINUE_QUESTION	続行しますか？
+$CONTINUE_PREVIOUS_GAME_QUESTION	以前のゲームを続行？
+$CHOOSE_NEW_KEY	新しいキーを選択
+$PRESS_NEW_KEY	新しいキーを押してください...
+$KEY_ALREADY_IN_USE	「<X>」はすでに使用されています。<N>別のキーを選択してください。
+$WINNER	勝ち
+$TIE_EXCLAMATION	引き分け！
+$HAS_WON_THE_TOURNAMENT	がトーナメントに勝利しました！
+$TWO_PLAYER_TIE	2人のプレイヤーが<N>同点優勝！
+$THREE_PLAYER_TIE	3人のプレイヤーが<N>同点優勝！
+$FOUR_PLAYER_TIE	4人のプレイヤーが<N>同点優勝！
+$FIVE_PLAYER_TIE	5人のプレイヤーが<N>同点優勝！
+$SIX_PLAYER_TIE	6人のプレイヤーが<N>同点優勝！
+$SEVEN_PLAYER_TIE	7人のプレイヤーが<N>同点優勝！
+$EIGHT_PLAYER_TIE	8人のプレイヤーが<N>同点優勝！
+$TAP_ICONS_TO_ADD	ステージアイコンをタップしてリストに追加
+$CLICK_ICONS_TO_ADD	ステージアイコンをクリックしてリストに追加
+$GS1_STAGE	GS1ステージ <X>
+$GS2_STAGE	GS2ステージ <X>
+$GS3_STAGE	GS3ステージ <X>
+$GS1_STAGE_SHORT	GS1-<X>
+$GS2_STAGE_SHORT	GS2-<X>
+$GS3_STAGE_SHORT	GS3-<X>
+$CLICK_OR_PRESS_KEY_TO_FLIP	クリックするかキーを押して反転
+$TAP_TO_FLIP	タップして重力を反転
+$TAP_TO_START	タップしてスタート
+$TAP_TO_CONTINUE	タップして続行
+$TAP_TO_START_NEW_TOURNAMENT	タップして新しいトーナメントを開始
+$RANKINGS	順位
+$FINAL_ROUND	最終ラウンド
+$FINAL_ROUND_CAPS	最終ラウンド
+$ROUND_X_OF_Y	ラウンド<X>/<Y>
+$ROUND_X	ラウンド<X>
+$FIRST_SUPERSCRIPT	 
+$SECOND_SUPERSCRIPT	 
+$THIRD_SUPERSCRIPT	 
+$FOURTH_SUPERSCRIPT	 
+$FIFTH_SUPERSCRIPT	 
+$SIXTH_SUPERSCRIPT	 
+$SEVENTH_SUPERSCRIPT	 
+$EIGHTH_SUPERSCRIPT	 
+$FIRST_BASELINE	1位
+$SECOND_BASELINE	2位
+$THIRD_BASELINE	3位
+$FOURTH_BASELINE	4位
+$FIFTH_BASELINE	5位
+$SIXTH_BASELINE	6位
+$SEVENTH_BASELINE	7位
+$EIGHTH_BASELINE	8位
+$PLAYER_1	プレイヤー1
+$PLAYER_2	プレイヤー2
+$PLAYER_3	プレイヤー3
+$PLAYER_4	プレイヤー4
+$TAP_HERE_CAPS	ここをタップ
+$PRESS_ENTER_TO_START	エンターを押してスタート
+$PRESS_ENTER_TO_CONTINUE	エンターを押して続行
+$PRESS_ENTER_TO_START_OR_ESC	エンターを押して新しいトーナメントを開始するか、ESCで設定を変更
+$PRESS_SPACE_TO_START	スペースを押してスタート
+$PRESS_SPACE_TO_CONTINUE	スペースを押して続行
+$PRESS_SPACE_TO_START_OR_ESC	スペースを押して新しいトーナメントを開始するか、ESCで設定を変更
+$LEVEL_X	レベル<X>
+$LEVEL_1_DESCRIPTION	ライムの街並み
+$LEVEL_2_DESCRIPTION	赤い巨人
+$LEVEL_3_DESCRIPTION	紫の夢
+$SCORE	スコア
+$BEST_SCORE	ベスト
+$X_POINTS	<X>ポイント
+$END_DIALOG_1_1_LINE_1	また会ったね。
+$END_DIALOG_1_1_LINE_2	 
+$END_DIALOG_1_1_LINE_3	君のスキルが
+$END_DIALOG_1_1_LINE_4	少しも衰えてないことは知ってるよ。
+$END_DIALOG_1_2_LINE_1	簡単だよ！
+$END_DIALOG_1_2_LINE_2	 
+$END_DIALOG_1_2_LINE_3	向かってくるものは
+$END_DIALOG_1_2_LINE_4	すべて打ち返してやる。
+$END_DIALOG_1_3_LINE_1	ハハハ！僕が君なら
+$END_DIALOG_1_3_LINE_2	そんなに確かじゃないだろう。
+$END_DIALOG_1_3_LINE_3	次のチャレンジが
+$END_DIALOG_1_3_LINE_4	見ものだよ。
+$END_DIALOG_2_1_LINE_1	 
+$END_DIALOG_2_1_LINE_2	ねっ、簡単でしょ！
+$END_DIALOG_2_1_LINE_3	 
+$END_DIALOG_2_1_LINE_4	 
+$END_DIALOG_2_2_LINE_1	ちょっと傲慢になってない？
+$END_DIALOG_2_2_LINE_2	最後のチャレンジが
+$END_DIALOG_2_2_LINE_3	それを解決
+$END_DIALOG_2_2_LINE_4	するだろう。
+$END_DIALOG_2_3_LINE_1	話してないで手を動かして。
+$END_DIALOG_2_3_LINE_2	 
+$END_DIALOG_2_3_LINE_3	準備完了、さあ行こう！
+$END_DIALOG_2_3_LINE_4	 
+$END_DIALOG_2_4_LINE_1	もっとすべきだ。
+$END_DIALOG_2_4_LINE_2	 
+$END_DIALOG_2_4_LINE_3	次のレベルは
+$END_DIALOG_2_4_LINE_4	気弱じゃダメだ。
+$END_DIALOG_3_1_LINE_1	もちろん！！
+$END_DIALOG_3_1_LINE_2	 
+$END_DIALOG_3_1_LINE_3	やった！！
+$END_DIALOG_3_1_LINE_4	 
+$END_DIALOG_3_2_LINE_1	すごい！君がそこまでとは
+$END_DIALOG_3_2_LINE_2	思ってなかったことを
+$END_DIALOG_3_2_LINE_3	素直に認めよう。
+$END_DIALOG_3_2_LINE_4	君のパフォーマンスはすごかった。
+$END_DIALOG_3_3_LINE_1	2人を操作して
+$END_DIALOG_3_3_LINE_2	電光石火の反射神経とピンポイントの正確性を
+$END_DIALOG_3_3_LINE_3	組み合わせることができた。
+$END_DIALOG_3_3_LINE_4	驚くべき偉業だ。
+$END_DIALOG_3_4_LINE_1	まだ試したことがないなら
+$END_DIALOG_3_4_LINE_2	エンドレスモードや
+$END_DIALOG_3_4_LINE_3	友達との対戦に
+$END_DIALOG_3_4_LINE_4	チャレンジしてみよう。
+$END_DIALOG_3_5_LINE_1	機が熟せば
+$END_DIALOG_3_5_LINE_2	続くだろう。
+$END_DIALOG_3_5_LINE_3	 
+$END_DIALOG_3_5_LINE_4	その時まで....
+$END_DIALOG_3_6_LINE_1	 
+$END_DIALOG_3_6_LINE_2	......
+$END_DIALOG_3_6_LINE_3	 
+$END_DIALOG_3_6_LINE_4	 
+$CREDITS_LINE_1	ゲーム デザイン&プログラミング
+$CREDITS_LINE_2	Vasco Freitas
+$CREDITS_LINE_3	アートワーク
+$CREDITS_LINE_4	Frederico Martins
+$CREDITS_LINE_5	Rute Soares
+$CREDITS_LINE_6	音楽&サウンド エフェクト
+$CREDITS_LINE_7	Francisco Furtado
+$SETTINGS	設定
+$LANGUAGE	言語
+$COMING_SOON	近日リリース
+$RESTORE_PURCHASES	購入を復元
+$MUSIC	音楽
+$SOUND	サウンド
+$COMPUTER_CONTROLLED_ABBREVIATION	CPU
+$SCREENSHOT_TEXT_1	ローカル対戦
+$SCREENSHOT_TEXT_2	最大4人のプレイヤー
+$REMOVE_ADS	広告なし
+$GET_G-SWITCH_3_PLUS	G-Switch 3 Plusをゲット
+$G-SWITCH_3_PLUS_LINE_1	G-Switch 3+で解除される機能:
+$G-SWITCH_3_PLUS_LINE_2	- 6つの新しい対戦ステージ
+$G-SWITCH_3_PLUS_LINE_3	- G-Switch 2 と G-Switch 1のすべての対戦ステージ
+$G-SWITCH_3_PLUS_LINE_4	- 好きな順序でステージをプレイ
+$G-SWITCH_3_PLUS_LINE_5	- 「エンドレス トーナメント」と「ノー パワーアップ」オプション
+$G-SWITCH_3_PLUS_LINE_6	- 広告なし
+$G-SWITCH_3_PLUS_LINE_7	- 新しいステージ/レベルに今後もアクセス
+$G-SWITCH_3_PLUS_LINE_8_PRICE_X	わずか<X>！
+$GET_IT_BUTTON	購入する！
+$UNABLE_TO_CONNECT_GOOGLE_PLAY	Google Playに接続できません。
+$CHECK_CONNECTION	インターネット接続を確認してください。
+$CONNECTING	接続中...
+$REWARDED_AD_TITLE	ビデオを見る
+$REWARDED_AD_DESCRIPTION	ビデオを見て、次の試行でスローモーションを得る？
+$LIVES	Lives
+$REWARDED_AD_2_TITLE	余分な生活を得る
+$REWARDED_AD_2_DESCRIPTION	ビデオを見て余分な生活を送る？
+$REWARDED_AD_3_TITLE	スローモーションを得しますか？
+$REWARDED_AD_3_DESCRIPTION	次の試行でスローモーションを得る？
+$PRESS_ANY_KEY_TO_CONTINUE	何かキーを押すと続行します
+$ADS_OPT_IN_TITLE	DO YOU WANT TO IMPROVE YOUR EXPERIENCE?
+$ADS_OPT_IN_DESCRIPTION	To offer interest-based ads, meaning ads relevant to you, we need to collect data and share it with our partners, who may use different technologies.
+$ADS_OPT_IN_MORE	Learn more in our 
+$PRIVACY_POLICY	privacy policy

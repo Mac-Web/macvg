@@ -1,0 +1,1863 @@
+{
+  "frames": {
+    "ui/shop_screen/icons_silhouette/weapon-candy-mint": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 251,
+        "h": 252
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 0,
+        "w": 251,
+        "h": 252
+      },
+      "sourceSize": {
+        "w": 260,
+        "h": 257
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_hidder/burger": {
+      "frame": {
+        "x": 2,
+        "y": 258,
+        "w": 250,
+        "h": 249
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 250,
+        "h": 249
+      },
+      "sourceSize": {
+        "w": 250,
+        "h": 249
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_hidder/tv": {
+      "frame": {
+        "x": 2,
+        "y": 511,
+        "w": 248,
+        "h": 248
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 248,
+        "h": 248
+      },
+      "sourceSize": {
+        "w": 248,
+        "h": 248
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/hat-wizzard": {
+      "frame": {
+        "x": 2,
+        "y": 763,
+        "w": 268,
+        "h": 229
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 0,
+        "w": 268,
+        "h": 229
+      },
+      "sourceSize": {
+        "w": 276,
+        "h": 234
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_smasher/tennis-rocket": {
+      "frame": {
+        "x": 254,
+        "y": 511,
+        "w": 248,
+        "h": 247
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 248,
+        "h": 247
+      },
+      "sourceSize": {
+        "w": 248,
+        "h": 247
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_hidder/fries": {
+      "frame": {
+        "x": 256,
+        "y": 258,
+        "w": 259,
+        "h": 236
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 259,
+        "h": 236
+      },
+      "sourceSize": {
+        "w": 259,
+        "h": 236
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/weapon-fish": {
+      "frame": {
+        "x": 257,
+        "y": 2,
+        "w": 259,
+        "h": 234
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 3,
+        "w": 259,
+        "h": 234
+      },
+      "sourceSize": {
+        "w": 270,
+        "h": 243
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_smasher/default": {
+      "frame": {
+        "x": 2,
+        "y": 996,
+        "w": 244,
+        "h": 247
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 244,
+        "h": 247
+      },
+      "sourceSize": {
+        "w": 244,
+        "h": 247
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/sombrero": {
+      "frame": {
+        "x": 2,
+        "y": 1247,
+        "w": 256,
+        "h": 235
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 0,
+        "w": 256,
+        "h": 235
+      },
+      "sourceSize": {
+        "w": 265,
+        "h": 239
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_smasher/fly-swatter": {
+      "frame": {
+        "x": 250,
+        "y": 996,
+        "w": 244,
+        "h": 243
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 244,
+        "h": 243
+      },
+      "sourceSize": {
+        "w": 244,
+        "h": 243
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/searching_screen/hider_back": {
+      "frame": {
+        "x": 2,
+        "y": 1486,
+        "w": 244,
+        "h": 242
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 244,
+        "h": 242
+      },
+      "sourceSize": {
+        "w": 244,
+        "h": 242
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_hidder/crown": {
+      "frame": {
+        "x": 2,
+        "y": 1732,
+        "w": 242,
+        "h": 244
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 242,
+        "h": 244
+      },
+      "sourceSize": {
+        "w": 242,
+        "h": 244
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/burger": {
+      "frame": {
+        "x": 248,
+        "y": 1732,
+        "w": 241,
+        "h": 244
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 0,
+        "w": 241,
+        "h": 244
+      },
+      "sourceSize": {
+        "w": 250,
+        "h": 249
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_smasher/wand": {
+      "frame": {
+        "x": 250,
+        "y": 1486,
+        "w": 244,
+        "h": 241
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 244,
+        "h": 241
+      },
+      "sourceSize": {
+        "w": 244,
+        "h": 241
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_smasher/brush": {
+      "frame": {
+        "x": 493,
+        "y": 1731,
+        "w": 244,
+        "h": 240
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 244,
+        "h": 240
+      },
+      "sourceSize": {
+        "w": 244,
+        "h": 240
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_hidder/money": {
+      "frame": {
+        "x": 262,
+        "y": 1243,
+        "w": 239,
+        "h": 244
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 239,
+        "h": 244
+      },
+      "sourceSize": {
+        "w": 239,
+        "h": 244
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_smasher/bone": {
+      "frame": {
+        "x": 498,
+        "y": 1486,
+        "w": 244,
+        "h": 239
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 244,
+        "h": 239
+      },
+      "sourceSize": {
+        "w": 244,
+        "h": 239
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/pineapple": {
+      "frame": {
+        "x": 741,
+        "y": 1729,
+        "w": 243,
+        "h": 239
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 6,
+        "y": 1,
+        "w": 243,
+        "h": 239
+      },
+      "sourceSize": {
+        "w": 254,
+        "h": 244
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_smasher/icecream": {
+      "frame": {
+        "x": 498,
+        "y": 762,
+        "w": 238,
+        "h": 244
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 238,
+        "h": 244
+      },
+      "sourceSize": {
+        "w": 238,
+        "h": 244
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_hidder/chest": {
+      "frame": {
+        "x": 506,
+        "y": 498,
+        "w": 240,
+        "h": 241
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 240,
+        "h": 241
+      },
+      "sourceSize": {
+        "w": 240,
+        "h": 241
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_smasher/plunger": {
+      "frame": {
+        "x": 519,
+        "y": 240,
+        "w": 240,
+        "h": 241
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 240,
+        "h": 241
+      },
+      "sourceSize": {
+        "w": 240,
+        "h": 241
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/fries": {
+      "frame": {
+        "x": 520,
+        "y": 2,
+        "w": 250,
+        "h": 231
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 0,
+        "w": 250,
+        "h": 231
+      },
+      "sourceSize": {
+        "w": 259,
+        "h": 236
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/tv": {
+      "frame": {
+        "x": 510,
+        "y": 1010,
+        "w": 239,
+        "h": 241
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 2,
+        "w": 239,
+        "h": 241
+      },
+      "sourceSize": {
+        "w": 248,
+        "h": 248
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_hidder/hydrant": {
+      "frame": {
+        "x": 740,
+        "y": 743,
+        "w": 238,
+        "h": 242
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 238,
+        "h": 242
+      },
+      "sourceSize": {
+        "w": 238,
+        "h": 242
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_smasher/firework": {
+      "frame": {
+        "x": 750,
+        "y": 485,
+        "w": 238,
+        "h": 242
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 238,
+        "h": 242
+      },
+      "sourceSize": {
+        "w": 238,
+        "h": 242
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/weapon-tennis-rocket": {
+      "frame": {
+        "x": 763,
+        "y": 237,
+        "w": 239,
+        "h": 239
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 3,
+        "w": 239,
+        "h": 239
+      },
+      "sourceSize": {
+        "w": 248,
+        "h": 247
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_smasher/marshmallow": {
+      "frame": {
+        "x": 746,
+        "y": 1255,
+        "w": 239,
+        "h": 239
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 239,
+        "h": 239
+      },
+      "sourceSize": {
+        "w": 239,
+        "h": 239
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_hidder/tombstone": {
+      "frame": {
+        "x": 753,
+        "y": 989,
+        "w": 238,
+        "h": 239
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 238,
+        "h": 239
+      },
+      "sourceSize": {
+        "w": 238,
+        "h": 239
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_smasher/carrot": {
+      "frame": {
+        "x": 982,
+        "y": 731,
+        "w": 239,
+        "h": 237
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 239,
+        "h": 237
+      },
+      "sourceSize": {
+        "w": 239,
+        "h": 237
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/crown": {
+      "frame": {
+        "x": 992,
+        "y": 480,
+        "w": 234,
+        "h": 239
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 0,
+        "w": 234,
+        "h": 239
+      },
+      "sourceSize": {
+        "w": 242,
+        "h": 244
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_smasher/lightsaber": {
+      "frame": {
+        "x": 1006,
+        "y": 2,
+        "w": 235,
+        "h": 237
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 235,
+        "h": 237
+      },
+      "sourceSize": {
+        "w": 235,
+        "h": 237
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/weapon-fly-swatter": {
+      "frame": {
+        "x": 988,
+        "y": 1498,
+        "w": 234,
+        "h": 238
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 0,
+        "w": 234,
+        "h": 238
+      },
+      "sourceSize": {
+        "w": 244,
+        "h": 243
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/weapon-wand": {
+      "frame": {
+        "x": 989,
+        "y": 1232,
+        "w": 235,
+        "h": 236
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 0,
+        "w": 235,
+        "h": 236
+      },
+      "sourceSize": {
+        "w": 244,
+        "h": 241
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_smasher/snake": {
+      "frame": {
+        "x": 995,
+        "y": 972,
+        "w": 237,
+        "h": 234
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 237,
+        "h": 234
+      },
+      "sourceSize": {
+        "w": 237,
+        "h": 234
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/weapon-brush": {
+      "frame": {
+        "x": 1225,
+        "y": 723,
+        "w": 234,
+        "h": 236
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 0,
+        "w": 234,
+        "h": 236
+      },
+      "sourceSize": {
+        "w": 244,
+        "h": 240
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_smasher/birdhouse": {
+      "frame": {
+        "x": 988,
+        "y": 1740,
+        "w": 236,
+        "h": 234
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 236,
+        "h": 234
+      },
+      "sourceSize": {
+        "w": 236,
+        "h": 234
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/money": {
+      "frame": {
+        "x": 1226,
+        "y": 1472,
+        "w": 230,
+        "h": 240
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 0,
+        "w": 230,
+        "h": 240
+      },
+      "sourceSize": {
+        "w": 239,
+        "h": 244
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_hidder/pizza": {
+      "frame": {
+        "x": 1228,
+        "y": 1210,
+        "w": 254,
+        "h": 217
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 254,
+        "h": 217
+      },
+      "sourceSize": {
+        "w": 254,
+        "h": 217
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/weapon-plunger": {
+      "frame": {
+        "x": 1236,
+        "y": 963,
+        "w": 231,
+        "h": 237
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 0,
+        "w": 231,
+        "h": 237
+      },
+      "sourceSize": {
+        "w": 240,
+        "h": 241
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/weapon-icecream": {
+      "frame": {
+        "x": 1006,
+        "y": 243,
+        "w": 228,
+        "h": 240
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 0,
+        "w": 228,
+        "h": 240
+      },
+      "sourceSize": {
+        "w": 238,
+        "h": 244
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/weapon-bone": {
+      "frame": {
+        "x": 1245,
+        "y": 2,
+        "w": 234,
+        "h": 233
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 0,
+        "w": 234,
+        "h": 233
+      },
+      "sourceSize": {
+        "w": 244,
+        "h": 239
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/chest": {
+      "frame": {
+        "x": 1230,
+        "y": 475,
+        "w": 231,
+        "h": 236
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 0,
+        "w": 231,
+        "h": 236
+      },
+      "sourceSize": {
+        "w": 240,
+        "h": 241
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/hydrant": {
+      "frame": {
+        "x": 1463,
+        "y": 715,
+        "w": 230,
+        "h": 237
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 0,
+        "w": 230,
+        "h": 237
+      },
+      "sourceSize": {
+        "w": 238,
+        "h": 242
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/weapon-firework": {
+      "frame": {
+        "x": 1471,
+        "y": 956,
+        "w": 229,
+        "h": 237
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 0,
+        "w": 229,
+        "h": 237
+      },
+      "sourceSize": {
+        "w": 238,
+        "h": 242
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/tombstone": {
+      "frame": {
+        "x": 1250,
+        "y": 239,
+        "w": 229,
+        "h": 235
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 0,
+        "w": 229,
+        "h": 235
+      },
+      "sourceSize": {
+        "w": 238,
+        "h": 239
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/weapon-marshmallow": {
+      "frame": {
+        "x": 1483,
+        "y": 2,
+        "w": 229,
+        "h": 235
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 0,
+        "w": 229,
+        "h": 235
+      },
+      "sourceSize": {
+        "w": 239,
+        "h": 239
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/weapon-hotdog": {
+      "frame": {
+        "x": 1465,
+        "y": 472,
+        "w": 243,
+        "h": 221
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 0,
+        "w": 243,
+        "h": 221
+      },
+      "sourceSize": {
+        "w": 252,
+        "h": 225
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/weapon-carrot": {
+      "frame": {
+        "x": 1697,
+        "y": 697,
+        "w": 230,
+        "h": 232
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 0,
+        "w": 230,
+        "h": 232
+      },
+      "sourceSize": {
+        "w": 239,
+        "h": 237
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_hidder/cactus": {
+      "frame": {
+        "x": 1489,
+        "y": 235,
+        "w": 216,
+        "h": 246
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 216,
+        "h": 246
+      },
+      "sourceSize": {
+        "w": 216,
+        "h": 246
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/weapon-lightsaber": {
+      "frame": {
+        "x": 510,
+        "y": 1255,
+        "w": 225,
+        "h": 232
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 0,
+        "w": 225,
+        "h": 232
+      },
+      "sourceSize": {
+        "w": 235,
+        "h": 237
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/pizza": {
+      "frame": {
+        "x": 1722,
+        "y": 2,
+        "w": 245,
+        "h": 213
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 0,
+        "w": 245,
+        "h": 213
+      },
+      "sourceSize": {
+        "w": 254,
+        "h": 217
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_hidder/toilet": {
+      "frame": {
+        "x": 1712,
+        "y": 455,
+        "w": 209,
+        "h": 249
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 209,
+        "h": 249
+      },
+      "sourceSize": {
+        "w": 209,
+        "h": 249
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_hidder/ball-rugby": {
+      "frame": {
+        "x": 746,
+        "y": 1498,
+        "w": 223,
+        "h": 233
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 223,
+        "h": 233
+      },
+      "sourceSize": {
+        "w": 223,
+        "h": 233
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/weapon-snake": {
+      "frame": {
+        "x": 774,
+        "y": 2,
+        "w": 228,
+        "h": 227
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 3,
+        "w": 228,
+        "h": 227
+      },
+      "sourceSize": {
+        "w": 237,
+        "h": 234
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/weapon-birdhouse": {
+      "frame": {
+        "x": 1739,
+        "y": 219,
+        "w": 226,
+        "h": 229
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 0,
+        "w": 226,
+        "h": 229
+      },
+      "sourceSize": {
+        "w": 236,
+        "h": 234
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_hidder/coke": {
+      "frame": {
+        "x": 1228,
+        "y": 1716,
+        "w": 225,
+        "h": 228
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 225,
+        "h": 228
+      },
+      "sourceSize": {
+        "w": 225,
+        "h": 228
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/weapon-sunflower": {
+      "frame": {
+        "x": 1457,
+        "y": 1716,
+        "w": 232,
+        "h": 218
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 2,
+        "w": 232,
+        "h": 218
+      },
+      "sourceSize": {
+        "w": 242,
+        "h": 225
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/cactus": {
+      "frame": {
+        "x": 1460,
+        "y": 1431,
+        "w": 206,
+        "h": 242
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 6,
+        "y": 0,
+        "w": 206,
+        "h": 242
+      },
+      "sourceSize": {
+        "w": 216,
+        "h": 246
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_hidder/cheese": {
+      "frame": {
+        "x": 274,
+        "y": 762,
+        "w": 220,
+        "h": 225
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 220,
+        "h": 225
+      },
+      "sourceSize": {
+        "w": 220,
+        "h": 225
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/toilet": {
+      "frame": {
+        "x": 1486,
+        "y": 1197,
+        "w": 200,
+        "h": 244
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 0,
+        "w": 200,
+        "h": 244
+      },
+      "sourceSize": {
+        "w": 209,
+        "h": 249
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/ball-rugby": {
+      "frame": {
+        "x": 1704,
+        "y": 933,
+        "w": 214,
+        "h": 228
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 0,
+        "w": 214,
+        "h": 228
+      },
+      "sourceSize": {
+        "w": 223,
+        "h": 233
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/coke": {
+      "frame": {
+        "x": 1670,
+        "y": 1401,
+        "w": 216,
+        "h": 223
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 0,
+        "w": 216,
+        "h": 223
+      },
+      "sourceSize": {
+        "w": 225,
+        "h": 228
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/cheese": {
+      "frame": {
+        "x": 1734,
+        "y": 1165,
+        "w": 211,
+        "h": 221
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 0,
+        "w": 211,
+        "h": 221
+      },
+      "sourceSize": {
+        "w": 220,
+        "h": 225
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/skin_icon_hidder/ball-soccer": {
+      "frame": {
+        "x": 1693,
+        "y": 1628,
+        "w": 211,
+        "h": 212
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 211,
+        "h": 212
+      },
+      "sourceSize": {
+        "w": 211,
+        "h": 212
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/icons_silhouette/mushroom": {
+      "frame": {
+        "x": 1693,
+        "y": 1844,
+        "w": 199,
+        "h": 204
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 0,
+        "w": 199,
+        "h": 204
+      },
+      "sourceSize": {
+        "w": 209,
+        "h": 209
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/leaderboard_screen/ico_time_2": {
+      "frame": {
+        "x": 1457,
+        "y": 1938,
+        "w": 102,
+        "h": 122
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 102,
+        "h": 122
+      },
+      "sourceSize": {
+        "w": 102,
+        "h": 122
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/leaderboard_screen/btn_view_top": {
+      "frame": {
+        "x": 741,
+        "y": 1972,
+        "w": 166,
+        "h": 72
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 166,
+        "h": 72
+      },
+      "sourceSize": {
+        "w": 166,
+        "h": 72
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/leaderboard_screen/ico_kills": {
+      "frame": {
+        "x": 1228,
+        "y": 1948,
+        "w": 90,
+        "h": 118
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 90,
+        "h": 118
+      },
+      "sourceSize": {
+        "w": 90,
+        "h": 118
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/progress_bar/hider_icos/ico_pot_black": {
+      "frame": {
+        "x": 1350,
+        "y": 1948,
+        "w": 60,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 60,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 60,
+        "h": 86
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/coins_screen/vector": {
+      "frame": {
+        "x": 911,
+        "y": 1972,
+        "w": 72,
+        "h": 70
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 70
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 70
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/home_screen/btn_shop/ico_lead": {
+      "frame": {
+        "x": 1583,
+        "y": 1938,
+        "w": 68,
+        "h": 74
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 68,
+        "h": 74
+      },
+      "sourceSize": {
+        "w": 68,
+        "h": 74
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/home_screen/btn_shop/tee_shirt": {
+      "frame": {
+        "x": 987,
+        "y": 1978,
+        "w": 77,
+        "h": 61
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 77,
+        "h": 61
+      },
+      "sourceSize": {
+        "w": 77,
+        "h": 61
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/tutorial_screen/btn_help": {
+      "frame": {
+        "x": 1068,
+        "y": 1978,
+        "w": 65,
+        "h": 65
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 65,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 65,
+        "h": 65
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/home_screen/coin_bar/btn_add_money": {
+      "frame": {
+        "x": 1137,
+        "y": 1978,
+        "w": 64,
+        "h": 64
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 64
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 64
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/final_screen/x2_button/vector": {
+      "frame": {
+        "x": 493,
+        "y": 1975,
+        "w": 64,
+        "h": 62
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 62
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 62
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/coin_back_green": {
+      "frame": {
+        "x": 561,
+        "y": 1975,
+        "w": 62,
+        "h": 62
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 62,
+        "h": 62
+      },
+      "sourceSize": {
+        "w": 62,
+        "h": 62
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/shop_screen/coin_back_grey": {
+      "frame": {
+        "x": 627,
+        "y": 1975,
+        "w": 62,
+        "h": 62
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 62,
+        "h": 62
+      },
+      "sourceSize": {
+        "w": 62,
+        "h": 62
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://github.com/odrick/free-tex-packer-core",
+    "version": "0.3.4",
+    "image": "atlas-2.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1969,
+      "h": 2046
+    },
+    "scale": 1
+  }
+}

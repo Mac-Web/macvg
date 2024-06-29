@@ -15,26 +15,12 @@
 
       gtag("config", "G-Y71QM9DR66");
     </script>
-    <title class="cloak">Settings | MacVG</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
+    <title class="cloak">Settings | MacVG</title>
     <link class="favicon" rel="icon" type="image/x-icon" href="/logo.png" />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="games.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <script src="cloak.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
-    />
-    <script src="app.js"></script>
-    <script src="modes.js"></script>
   </head>
   <body>
     <div class="overflow-menu shoot" id="overflow-menu">
@@ -47,14 +33,14 @@
     </div>
     <nav class="nav" id="nav">
       <div class="overflowm shoot" id="overflowm">
-        <img src="bars-solid.svg" alt="Menu" class="shoot" />
+        <img src="/macvg/media/bars-solid.svg" alt="Menu" class="shoot" />
       </div>
       <a
         href="/macvg/"
         class="logo2"
         style="background-color: var(--black-color)"
       >
-        <img src="/macvg/macvg-logo.png" alt="MacVG Logo" />
+        <img src="/macvg/media/macvg-logo.png" alt="MacVG Logo" />
         <a href="new.html" class="nav-link">New</a></a
       ><a href="trending.html" class="nav-link">Trending</a
       ><a href="groups.html" class="nav-link">Groups</a
@@ -94,7 +80,6 @@
         </ul>
       </div>
     </nav>
-
     <div class="macsidebar" id="sidebar">
       <a href="/"><img src="/logo.png" alt="" /></a>
       <a href="/macideas/"><img src="/MacIdeas Logo.png" alt="" /></a>
@@ -140,24 +125,6 @@
           <a href="" id="macvgabout" style="color: var(--link)"
             >Open MacVG in about:blank</a
           >
-          <script>
-            document
-              .getElementById("macvgabout")
-              .addEventListener("click", () => {
-                const win = window.open();
-                win.document.body.style.margin = "0";
-                win.document.body.style.height = "100vh";
-                const iframe = win.document.createElement("iframe");
-                iframe.style.border = "none";
-                iframe.style.width = "100%";
-                iframe.style.height = "100%";
-                iframe.style.margin = "0";
-                iframe.referrerpolicy = "no-referrer";
-                iframe.allow = "fullscreen";
-                iframe.src = window.location.href;
-                win.document.body.appendChild(iframe);
-              });
-          </script>
         </p>
         <form id="cloaker">
           <input
@@ -262,7 +229,59 @@
         >More games!</a
       >
     </footer>
+    <script src="app.js"></script>
     <script>
+      document.getElementById("macvgabout").addEventListener("click", () => {
+        const win = window.open();
+        win.document.body.style.margin = "0";
+        win.document.body.style.height = "100vh";
+        const iframe = win.document.createElement("iframe");
+        iframe.style.border = "none";
+        iframe.style.width = "100%";
+        iframe.style.height = "100%";
+        iframe.style.margin = "0";
+        iframe.referrerpolicy = "no-referrer";
+        iframe.allow = "fullscreen";
+        iframe.src = window.location.href;
+        win.document.body.appendChild(iframe);
+      });
+      let thing23 = document.getElementById("current");
+      let panicKeys = localStorage.getItem("panic");
+      let href = localStorage.getItem("href");
+      if (panicKeys && href) {
+        thing23.innerHTML =
+          `<div class="panickeys">` +
+          "<div>" +
+          "Current key: " +
+          panicKeys +
+          "</div>" +
+          "<div>" +
+          " Redirecting: " +
+          href +
+          "</div>" +
+          "</div>";
+      } else if (panicKeys) {
+        thing23.innerHTML =
+          `<div class="panickeys">` +
+          "<div>" +
+          "Current key: " +
+          panicKeys +
+          "</div>" +
+          "<div>" +
+          " Redirecting: https://google.com" +
+          "</div>" +
+          "</div>";
+      } else {
+        thing23.innerHTML =
+          `<div class="panickeys">` +
+          "<div>" +
+          "Current key: `" +
+          "</div>" +
+          "<div>" +
+          " Redirecting: https://google.com" +
+          "</div>" +
+          "</div>";
+      }
       const allForms = document.querySelectorAll("form");
       allForms.forEach((form) => {
         form.addEventListener("submit", (e) => {
@@ -309,7 +328,6 @@
         custom.style.visibility = "visible";
         custom.style.opacity = "1";
         document.addEventListener("click", (e) => {
-          console.log(e.target.getAttribute("id"));
           if (
             e.target.getAttribute("id") != "custombtn" &&
             e.target != custom &&
@@ -335,7 +353,21 @@
           }
         });
       }
-      // TODO: put this code releated in app.js in the projects folder*/
+      function dark() {
+        localStorage.setItem("theme", null);
+      }
+
+      function ddark() {
+        localStorage.setItem("theme", "deep");
+      }
+
+      function light() {
+        localStorage.setItem("theme", "light");
+      }
+
+      function cyber() {
+        localStorage.setItem("theme", "cyber");
+      }
     </script>
   </body>
 </html>

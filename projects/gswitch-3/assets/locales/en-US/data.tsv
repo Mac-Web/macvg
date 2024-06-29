@@ -1,0 +1,235 @@
+flag	content
+	
+$LOADING	Loading
+$PERIOD_PUNCTUATION	.
+$COLON_PUNCTUATION	:
+$DECIMAL_POINT	.
+$THOUSANDS_SEPARATOR	,
+	
+$PLAY	Play
+$ENDLESS	Endless
+$MULTIPLAYER	Multiplayer
+$CREDITS	Credits
+$BACK	Back
+$SELECT_PLAYERS	Select Players
+$NUMBER_OF_PLAYERS	Number of players
+$STAGES	Stages
+$G-SWITCH_3	G-Switch 3
+$G-SWITCH_3_PLUS_LONG	G-Switch 3 Plus
+$G-SWITCH_3_PLUS_SHORT	G-Switch 3+
+$G-SWITCH_2	G-Switch 2
+$G-SWITCH_1	G-Switch 1
+$CUSTOM_1	Custom 1
+$CUSTOM_2	Custom 2
+$CUSTOM_3	Custom 3
+$SET	Set...
+$NEVER-ENDING	Never-ending
+$NO_POWERUPS	No powerups
+$CLICK	Click
+$MORE_OPTIONS	More Options
+$STAGE_OPTIONS	Stage Options
+$PLAY_AGAINST_COMPUTER	Play against computer
+$SELECT_LEVEL	Select Level
+$STAGE_SELECTION	Stage Selection
+$CONTINUE	Continue
+$MAIN_MENU	Main Menu
+$GAME_PAUSED	Game Paused
+$SECRET_ORB_FOUND	Secret Orb Found
+$CHARACTER_UNLOCKED	New character unlocked!
+$LAST_CHARACTER_UNLOCKED	Last character unlocked! All orbs found!
+$BEST_TIME	Best<N>time
+$NONE_CAPS	NONE
+$START_OVER	Start Over
+$YES	Yes
+$NO	No
+$CANCEL	Cancel
+$CONTINUE_QUESTION	Continue?
+$CONTINUE_PREVIOUS_GAME_QUESTION	Continue Previous Game?
+$CHOOSE_NEW_KEY	Choose New Key
+$PRESS_NEW_KEY	Press new key...
+$KEY_ALREADY_IN_USE	“<X>” is already in use.<N>Please choose another key.
+	
+$WINNER	Winner
+$TIE_EXCLAMATION	Tie!
+$HAS_WON_THE_TOURNAMENT	has won the tournament!
+$TWO_PLAYER_TIE	Two players are tied<N>for first place!
+$THREE_PLAYER_TIE	Three players are tied<N>for first place!
+$FOUR_PLAYER_TIE	Four players are tied<N>for first place!
+$FIVE_PLAYER_TIE	Five players are tied<N>for first place!
+$SIX_PLAYER_TIE	Six players are tied<N>for first place!
+$SEVEN_PLAYER_TIE	Seven players are tied<N>for first place!
+$EIGHT_PLAYER_TIE	Eight players are tied<N>for first place!
+	
+$TAP_ICONS_TO_ADD	Tap on stage icons to add to list
+$CLICK_ICONS_TO_ADD	Click on stage icons to add to list.
+	
+$GS1_STAGE	GS1 Stage <X>
+$GS2_STAGE	GS2 Stage <X>
+$GS3_STAGE	GS3 Stage <X>
+$GS1_STAGE_SHORT	GS1-<X>
+$GS2_STAGE_SHORT	GS2-<X>
+$GS3_STAGE_SHORT	GS3-<X>
+	
+$CLICK_OR_PRESS_KEY_TO_FLIP	Click or press any key to flip
+$TAP_TO_FLIP	Tap anywhere to flip gravity
+$TAP_TO_START	Tap anywhere to start
+$TAP_TO_CONTINUE	Tap anywhere to continue
+$TAP_TO_START_NEW_TOURNAMENT	Tap anywhere to start a new tournament
+$RANKINGS	Rankings
+$FINAL_ROUND	Final Round
+$FINAL_ROUND_CAPS	FINAL ROUND
+$ROUND_X_OF_Y	Round <X> of <Y>
+$ROUND_X	Round <X>
+$FIRST_SUPERSCRIPT	st
+$SECOND_SUPERSCRIPT	nd
+$THIRD_SUPERSCRIPT	rd
+$FOURTH_SUPERSCRIPT	th
+$FIFTH_SUPERSCRIPT	th
+$SIXTH_SUPERSCRIPT	th
+$SEVENTH_SUPERSCRIPT	th
+$EIGHTH_SUPERSCRIPT	th
+$FIRST_BASELINE	1
+$SECOND_BASELINE	2
+$THIRD_BASELINE	3
+$FOURTH_BASELINE	4
+$FIFTH_BASELINE	5
+$SIXTH_BASELINE	6
+$SEVENTH_BASELINE	7
+$EIGHTH_BASELINE	8
+	
+$PLAYER_1	Player 1
+$PLAYER_2	Player 2
+$PLAYER_3	Player 3
+$PLAYER_4	Player 4
+$TAP_HERE_CAPS	TAP HERE
+	
+$PRESS_ENTER_TO_START	Press ENTER to start
+$PRESS_ENTER_TO_CONTINUE	Press ENTER to continue
+$PRESS_ENTER_TO_START_OR_ESC	Press ENTER to start new tounament, or ESC to change settings
+
+$PRESS_SPACE_TO_START	Press SPACE to start
+$PRESS_SPACE_TO_CONTINUE	Press SPACE to continue
+$PRESS_SPACE_TO_START_OR_ESC	Press SPACE to start new tounament, or ESC to change settings
+	
+$LEVEL_X	Level <X>
+$LEVEL_1_DESCRIPTION	Lime Cityscape
+$LEVEL_2_DESCRIPTION	Red Giant
+$LEVEL_3_DESCRIPTION	Purple Dreams
+	
+$SCORE	Score
+$BEST_SCORE	Best
+$X_POINTS	<X> points
+	
+$END_DIALOG_1_1_LINE_1	So we meet again.
+$END_DIALOG_1_1_LINE_2	 
+$END_DIALOG_1_1_LINE_3	I see that your skills have not
+$END_DIALOG_1_1_LINE_4	decreased in the slightest.
+	
+$END_DIALOG_1_2_LINE_1	That was easy!
+$END_DIALOG_1_2_LINE_2	 
+$END_DIALOG_1_2_LINE_3	I’ll beat whatever you throw
+$END_DIALOG_1_2_LINE_4	at me.
+	
+$END_DIALOG_1_3_LINE_1	Haha! I would not be
+$END_DIALOG_1_3_LINE_2	so sure if I were you.
+$END_DIALOG_1_3_LINE_3	Let’s see how you do in the
+$END_DIALOG_1_3_LINE_4	next set of challenges.
+	
+$END_DIALOG_2_1_LINE_1	 
+$END_DIALOG_2_1_LINE_2	See? Piece of cake!
+$END_DIALOG_2_1_LINE_3	 
+$END_DIALOG_2_1_LINE_4	 
+	
+$END_DIALOG_2_2_LINE_1	I feel you are getting a bit
+$END_DIALOG_2_2_LINE_2	arrogant, my friend. I’m sure
+$END_DIALOG_2_2_LINE_3	that the final set of challenges
+$END_DIALOG_2_2_LINE_4	will take care of that.
+	
+$END_DIALOG_2_3_LINE_1	So much talk, so little action.
+$END_DIALOG_2_3_LINE_2	 
+$END_DIALOG_2_3_LINE_3	Let’s go, I’m ready!
+$END_DIALOG_2_3_LINE_4	 
+	
+$END_DIALOG_2_4_LINE_1	You had better be.
+$END_DIALOG_2_4_LINE_2	 
+$END_DIALOG_2_4_LINE_3	The next level is not for the
+$END_DIALOG_2_4_LINE_4	faint of heart.
+	
+$END_DIALOG_3_1_LINE_1	YES!!!!!!
+$END_DIALOG_3_1_LINE_2	 
+$END_DIALOG_3_1_LINE_3	I did it!!!
+$END_DIALOG_3_1_LINE_4	 
+	
+$END_DIALOG_3_2_LINE_1	Bravo! I must admit that
+$END_DIALOG_3_2_LINE_2	I did not think you would
+$END_DIALOG_3_2_LINE_3	make it this far.  Your
+$END_DIALOG_3_2_LINE_4	performance was outstanding.
+	
+$END_DIALOG_3_3_LINE_1	You were able to combine
+$END_DIALOG_3_3_LINE_2	lightning-fast reflexes with pinpoint
+$END_DIALOG_3_3_LINE_3	accuracy in double-body conditions.
+$END_DIALOG_3_3_LINE_4	A truly remarkable feat.
+	
+$END_DIALOG_3_4_LINE_1	If you haven’t already, you
+$END_DIALOG_3_4_LINE_2	may further challenge yourself
+$END_DIALOG_3_4_LINE_3	in Endless mode or local
+$END_DIALOG_3_4_LINE_4	Multiplayer with friends.
+	
+$END_DIALOG_3_5_LINE_1	The experiment will continue
+$END_DIALOG_3_5_LINE_2	when the time is right.
+$END_DIALOG_3_5_LINE_3	 
+$END_DIALOG_3_5_LINE_4	Until then…
+	
+$END_DIALOG_3_6_LINE_1	 
+$END_DIALOG_3_6_LINE_2	. . . . . .
+$END_DIALOG_3_6_LINE_3	 
+$END_DIALOG_3_6_LINE_4	 
+	
+$CREDITS_LINE_1	Game Design and Programming
+$CREDITS_LINE_2	Vasco Freitas
+$CREDITS_LINE_3	Artwork
+$CREDITS_LINE_4	Frederico Martins
+$CREDITS_LINE_5	Rute Soares
+$CREDITS_LINE_6	Music and Sound Effects
+$CREDITS_LINE_7	Francisco Furtado
+	
+$SETTINGS	Settings
+$LANGUAGE	Language
+$COMING_SOON	Coming soon
+$RESTORE_PURCHASES	 Restore<N>Purchases
+$MUSIC	Music
+$SOUND	Sound
+$COMPUTER_CONTROLLED_ABBREVIATION	CPU
+$SCREENSHOT_TEXT_1	Local Multiplayer
+$SCREENSHOT_TEXT_2	Up to 4 players
+$REMOVE_ADS	Remove Ads
+	
+$GET_G-SWITCH_3_PLUS	Get G-Switch 3 Plus
+$G-SWITCH_3_PLUS_LINE_1	With G-Switch 3+ you will unlock:
+$G-SWITCH_3_PLUS_LINE_2	 - 6 brand new multiplayer stages
+$G-SWITCH_3_PLUS_LINE_3	 - All multiplayer stages from G-Switch 2 and G-Switch 1
+$G-SWITCH_3_PLUS_LINE_4	 - Play the stages you want in the order you like
+$G-SWITCH_3_PLUS_LINE_5	 - “Never-ending Tournament” and “No Powerups” options
+$G-SWITCH_3_PLUS_LINE_6	 - No more ads
+$G-SWITCH_3_PLUS_LINE_7	 - Access to all future new stages/levels forever
+$G-SWITCH_3_PLUS_LINE_8_PRICE_X	Only <X>
+$GET_IT_BUTTON	Get it!
+$UNABLE_TO_CONNECT_GOOGLE_PLAY	Unable to connect to Google Play.
+$CHECK_CONNECTION	Please check your Internet connection.
+$CONNECTING	Connecting...
+
+$REWARDED_AD_TITLE	Activate Slow Motion
+$REWARDED_AD_DESCRIPTION	Watch an ad to activate slow-motion on next try?
+
+$LIVES	Lives
+$REWARDED_AD_2_TITLE	Get Extra Life
+$REWARDED_AD_2_DESCRIPTION	Watch an ad and gain an extra life?
+$REWARDED_AD_3_TITLE	Activate Slow Motion
+$REWARDED_AD_3_DESCRIPTION	Activate slow-motion on next try?
+
+$PRESS_ANY_KEY_TO_CONTINUE	Press any key to continue
+
+$ADS_OPT_IN_TITLE	DO YOU WANT TO IMPROVE YOUR EXPERIENCE?
+$ADS_OPT_IN_DESCRIPTION	To offer interest-based ads, meaning ads relevant to you, we need to collect data and share it with our partners, who may use different technologies.
+$ADS_OPT_IN_MORE	Learn more in our 
+$PRIVACY_POLICY	privacy policy

@@ -1,0 +1,1368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<stringresources>
+    <strings>
+
+        <string id="PLAYER">
+            <en>PLAYER</en>
+            <es>JUGADOR</es>
+            <de>SPIELER</de>
+            <it>GIOCATORE</it>
+            <fr>JOUEUR</fr>
+            <ru>ИГРОК</ru>
+            <pt>JOGADOR</pt>
+            <nl></nl>
+            <no></no>
+        </string>
+
+    <!-- ...............  TEXTS ............... -->
+
+    <string id="Shirt_1">
+        <en>BASIC DRESS</en>
+        <es>VESTIDO BÁSICO</es>
+        <de>EINFACHES KLEID</de>
+        <it>ABITO BASIC</it>
+        <fr>ROBE BASIQUE</fr>
+        <ru>БАЗОВАЯ ЭКИПИРОВКА</ru>
+        <pt>VESTIMENTA BÁSICA</pt>
+</string>
+<string id="Shirt_2">
+        <en>SLICK SHIRT</en>
+        <es>CAMISA DE VESTIR</es>
+        <de>SCHICKES HEMD</de>
+        <it>CAMICIA ELEGANTE</it>
+        <fr>CHEMISE LISSE</fr>
+        <ru>ПРОСТАЯ РУБАШКА</ru>
+        <pt>CAMISA ESCORREGADIA</pt>
+</string>
+<string id="Shirt_3">
+        <en>WINTER COAT</en>
+        <es>ABRIGO DE INVIERNO</es>
+        <de>WINTERMANTEL</de>
+        <it>CAPPOTTO INVERNALE</it>
+        <fr>MANTEAU D'HIVER</fr>
+        <ru>ЗИМНЕЕ ПАЛЬТО</ru>
+        <pt>CASACO DE INVERNO</pt>
+</string>
+<string id="Shirt_4">
+        <en>INFLATABLE DUCK</en>
+        <es>PATO HINCHABLE</es>
+        <de>AUFBLASBARE ENTE</de>
+        <it>ANATRA GONFIABILE</it>
+        <fr>CANARD GONFLABLE</fr>
+        <ru>НАДУВНАЯ УТКА</ru>
+        <pt>PATO INSUFLÁVEL</pt>
+</string>
+<string id="Shirt_5">
+        <en>REFLECTIVE VEST</en>
+        <es>CHALECO REFLECTANTE</es>
+        <de>REFLEKTIERENDE WESTE</de>
+        <it>GILET RIFLETTENTE</it>
+        <fr>GILET RÉFLÉCHISSANT</fr>
+        <ru>СВЕТООТРАЖАЮЩИЙ ЖИЛЕТ</ru>
+        <pt>COLETE REFLETIVO</pt>
+</string>
+<string id="Shirt_6">
+        <en>POLICE UNIFORM</en>
+        <es>UNIFORME DE POLICÍA</es>
+        <de>POLIZEIUNIFORM</de>
+        <it>UNIFORME DELLA POLIZIA</it>
+        <fr>UNIFORME DE POLICE</fr>
+        <ru>ПОЛИЦЕЙСКАЯ ФОРМА</ru>
+        <pt>UNIFORME POLICIAL</pt>
+</string>
+<string id="Shirt_7">
+        <en>MILITARY SHIRT</en>
+        <es>CAMISA MILITAR</es>
+        <de>MILITÄRHEMD</de>
+        <it>CAMICIA MILITARE</it>
+        <fr>CHEMISE MILITAIRE</fr>
+        <ru>ВОЕННАЯ РУБАШКА</ru>
+        <pt>CAMISA MILITAR</pt>
+</string>
+<string id="Shirt_8">
+        <en>PIRATE SHIRT</en>
+        <es>CAMISA PIRATA</es>
+        <de>PIRATENHEMD</de>
+        <it>CAMICIA DA PIRATA</it>
+        <fr>CHEMISE DE PIRATE</fr>
+        <ru>ПИРАТСКАЯ РУБАШКА</ru>
+        <pt>CAMISA PIRATA</pt>
+</string>
+<string id="Shirt_9">
+        <en>WESTERN STYLE</en>
+        <es>ESTILO OCCIDENTAL</es>
+        <de>WESTERN-STIL</de>
+        <it>STILE WESTERN</it>
+        <fr>STYLE WESTERN</fr>
+        <ru>ЗАПАДНЫЙ СТИЛЬ</ru>
+        <pt>ESTILO OCIDENTAL</pt>
+</string>
+<string id="Shirt_10">
+        <en>TUXEDO</en>
+        <es>ESMOQUIN</es>
+        <de>SMOKING</de>
+        <it>SMOKING</it>
+        <fr>SMOKING</fr>
+        <ru>СМОКИНГ</ru>
+        <pt>TUXEDO</pt>
+</string>
+<string id="Shirt_11">
+        <en>SPECIAL SLEEVES</en>
+        <es>MANGAS ESPECIALES</es>
+        <de>BESONDERE ÄRMEL</de>
+        <it>MANICHE SPECIALI</it>
+        <fr>MANCHES SPÉCIALES</fr>
+        <ru>СПЕЦИАЛЬНЫЕ РУКАВА</ru>
+        <pt>MANGAS ESPECIAIS</pt>
+</string>
+<string id="Shirt_12">
+        <en>THUNDER STRIKE</en>
+        <es>GOLPE DE TRUENO</es>
+        <de>DONNERSCHLAG</de>
+        <it>COLPO DI TUONO</it>
+        <fr>COUP DE TONNERRE</fr>
+        <ru>УДАР ГРОМА</ru>
+        <pt>THUNDER STRIKE</pt>
+</string>
+<string id="Shirt_13">
+        <en>CRYSTAL SUIT</en>
+        <es>TRAJE DE CRISTAL</es>
+        <de>KRISTALL-ANZUG</de>
+        <it>ABITO DI CRISTALLO</it>
+        <fr>COSTUME DE CRISTAL</fr>
+        <ru>ХРУСТАЛЬНЫЙ КОСТЮМ</ru>
+        <pt>FATO DE CRISTAL</pt>
+</string>
+<string id="Shirt_14">
+        <en>ROYAL SUITE</en>
+        <es>SUITE REAL</es>
+        <de>KÖNIGLICHER ANZUG</de>
+        <it>SUITE REALE</it>
+        <fr>SUITE ROYALE</fr>
+        <ru>КОРОЛЕВСКИЙ КОСТЮМ</ru>
+        <pt>SUÍTE REAL</pt>
+</string>
+<string id="Head_1">
+        <en>SILENT HERO</en>
+        <es>HÉROE SILENCIOSO</es>
+        <de>STUMMER HELD</de>
+        <it>EROE SILENZIOSO</it>
+        <fr>HÉROS SILENCIEUX</fr>
+        <ru>МОЛЧАЛИВЫЙ ГЕРОЙ</ru>
+        <pt>HERÓI SILENCIOSO</pt>
+</string>
+<string id="Head_2">
+        <en>AQUAMAN</en>
+        <es>AQUAMAN</es>
+        <de>AQUAMAN</de>
+        <it>AQUAMAN</it>
+        <fr>AQUAMAN</fr>
+        <ru>АКВАМЕН</ru>
+        <pt>AQUAMAN</pt>
+</string>
+<string id="Head_3">
+        <en>STRIKING VIKING</en>
+        <es>VIKINGO EN HUELGA</es>
+        <de>STREIKENDE WIKINGER</de>
+        <it>VICHINGO CHE COLPISCE</it>
+        <fr>STRIKING VIKING</fr>
+        <ru>УДАРНЫЙ ВИКИНГ</ru>
+        <pt>VIKING IMPRESSIONANTE</pt>
+</string>
+<string id="Head_4">
+        <en>THE GINGER</en>
+        <es>EL JENGIBRE</es>
+        <de>DER INGWER</de>
+        <it>LO ZENZERO</it>
+        <fr>LE GINGEMBRE</fr>
+        <ru>ИМБИРЬ</ru>
+        <pt>O GENGIBRE</pt>
+</string>
+<string id="Head_5">
+        <en>L. GOALSKI</en>
+        <es>L. GOALSKI</es>
+        <de>L. GOALSKI</de>
+        <it>L. GOALSKI</it>
+        <fr>L. GOALSKI</fr>
+        <ru>Л. ГОАЛЬСКИ</ru>
+        <pt>L. GOALSKI</pt>
+</string>
+<string id="Head_6">
+        <en>THE JEWEL</en>
+        <es>LA JOYA</es>
+        <de>DAS JUWEL</de>
+        <it>IL GIOIELLO</it>
+        <fr>LE JOYAU</fr>
+        <ru>ДРАГОЦЕННОСТЬ</ru>
+        <pt>A JÓIA</pt>
+</string>
+<string id="Head_7">
+        <en>THE HEAD KING</en>
+        <es>EL REY DE LA CABEZA</es>
+        <de>DER KOPF-KÖNIG</de>
+        <it>IL RE DELLA TESTA</it>
+        <fr>LE ROI DE LA TÊTE</fr>
+        <ru>КОРОЛЬ ГОЛОВ</ru>
+        <pt>O REI CHEFE</pt>
+</string>
+<string id="Head_8">
+        <en>ZLATANERA</en>
+        <es>ZLATANERA</es>
+        <de>ZLATANERA</de>
+        <it>ZLATANERA</it>
+        <fr>ZLATANERA</fr>
+        <ru>ЗЛАТАНЕРА</ru>
+        <pt>ZLATANERA</pt>
+</string>
+<string id="Head_9">
+        <en>ATOMIC FLEA</en>
+        <es>PULGA ATÓMICA</es>
+        <de>ATOMIC FLEA</de>
+        <it>PULCE ATOMICA</it>
+        <fr>ATOMIC FLEA</fr>
+        <ru>АТОМНАЯ БЛОХА</ru>
+        <pt>PULGA ATÔMICA</pt>
+</string>
+<string id="Head_10">
+        <en>G.O.A.T</en>
+        <es>G.O.A.T</es>
+        <de>G.O.A.T.</de>
+        <it>G.O.A.T</it>
+        <fr>G.O.A.T</fr>
+        <ru>КОЗА</ru>
+        <pt>G.O.A.T</pt>
+</string>
+<string id="Mask_1">
+        <en>BLUE BANDANA</en>
+        <es>BANDANA AZUL</es>
+        <de>BLAUES HALSTUCH</de>
+        <it>BANDANA BLU</it>
+        <fr>BANDANA BLEU</fr>
+        <ru>СИНЯЯ БАНДАНА</ru>
+        <pt>LENÇO AZUL</pt>
+</string>
+<string id="Mask_2">
+        <en>SMART GLASSES</en>
+        <es>GAFAS INTELIGENTES</es>
+        <de>SCHICKE BRILLE</de>
+        <it>OCCHIALI INTELLIGENTI</it>
+        <fr>LUNETTES INTELLIGENTES</fr>
+        <ru>УМНЫЕ ОЧКИ</ru>
+        <pt>ÓCULOS INTELIGENTES</pt>
+</string>
+<string id="Mask_3">
+        <en>RED SCARF</en>
+        <es>PAÑUELO ROJO</es>
+        <de>ROTES HALSTUCH</de>
+        <it>SCIARPA ROSSA</it>
+        <fr>FOULARD ROUGE</fr>
+        <ru>КРАСНЫЙ ШАРФ</ru>
+        <pt>LENÇO VERMELHO</pt>
+</string>
+<string id="Mask_4">
+        <en>DIVING GOGGLES</en>
+        <es>GAFAS DE BUCEO</es>
+        <de>TAUCHERBRILLE</de>
+        <it>OCCHIALI DA SUB</it>
+        <fr>LUNETTES DE PLONGÉE</fr>
+        <ru>ОЧКИ ДЛЯ ДАЙВИНГА</ru>
+        <pt>ÓCULOS DE MERGULHO</pt>
+</string>
+<string id="Mask_5">
+        <en>DISCO STARS</en>
+        <es>ESTRELLAS DE DISCOTECA</es>
+        <de>DISCO-STERNE</de>
+        <it>STELLE DA DISCOTECA</it>
+        <fr>ÉTOILES DISCO</fr>
+        <ru>ДИСКОТЕЧНЫЕ ЗВЕЗДЫ</ru>
+        <pt>ESTRELAS DE DISCOTECA</pt>
+</string>
+<string id="Mask_6">
+        <en>SLICK SUNGLASSES</en>
+        <es>GAFAS DE SOL DE PASTA</es>
+        <de>GLATTE SONNENBRILLE</de>
+        <it>OCCHIALI DA SOLE A PUNTA</it>
+        <fr>LUNETTES DE SOLEIL SLICK</fr>
+        <ru>ХИТРЫЕ СОЛНЦЕЗАЩИТНЫЕ ОЧКИ</ru>
+        <pt>ÓCULOS ESCUROS DE SOL</pt>
+</string>
+<string id="Mask_7">
+        <en>SPECIAL OPERATION</en>
+        <es>OPERACIÓN ESPECIAL</es>
+        <de>BESONDERE OPERATION</de>
+        <it>OPERAZIONE SPECIALE</it>
+        <fr>OPÉRATION SPÉCIALE</fr>
+        <ru>СПЕЦИАЛЬНАЯ ОПЕРАЦИЯ</ru>
+        <pt>OPERAÇÃO ESPECIAL</pt>
+</string>
+<string id="Mask_8">
+        <en>PIRATE EYEPATCH</en>
+        <es>PARCHE PIRATA</es>
+        <de>PIRATEN-AUGENKLAPPE</de>
+        <it>OCCHIALE DA PIRATA</it>
+        <fr>OEILLETON DE PIRATE</fr>
+        <ru>ПИРАТСКАЯ ПОВЯЗКА</ru>
+        <pt>OLHO DE PIRATA</pt>
+</string>
+<string id="Mask_9">
+        <en>BANDADA RED</en>
+        <es>BANDADA ROJA</es>
+        <de>BANDADA ROT</de>
+        <it>BANDADA ROSSO</it>
+        <fr>BANDADA ROUGE</fr>
+        <ru>БАНДАДА КРАСНАЯ</ru>
+        <pt>BANDADA VERMELHA</pt>
+</string>
+<string id="Mask_10">
+        <en>MONOCLE</en>
+        <es>MONÓCULO</es>
+        <de>MONOKEL</de>
+        <it>MONOCOLO</it>
+        <fr>MONOCLE</fr>
+        <ru>МОНОКЛЬ</ru>
+        <pt>MONOCLE</pt>
+</string>
+<string id="Mask_11">
+        <en>FUNKY GLASSES</en>
+        <es>GAFAS FUNKY</es>
+        <de>FUNKY BRILLE</de>
+        <it>OCCHIALI DA VISTA DIVERTENTI</it>
+        <fr>LUNETTES FUNKY</fr>
+        <ru>ПРИЧУДЛИВЫЕ ОЧКИ</ru>
+        <pt>ÓCULOS ENGRAÇADOS</pt>
+</string>
+<string id="Mask_12">
+        <en>THUNDER MASK</en>
+        <es>MÁSCARA DE TRUENO</es>
+        <de>DONNER-MASKE</de>
+        <it>MASCHERA DEL TUONO</it>
+        <fr>MASQUE DE TONNERRE</fr>
+        <ru>МАСКА ГРОМА</ru>
+        <pt>MÁSCARA DE TROVÃO</pt>
+</string>
+<string id="Mask_13">
+        <en>TRUE REALITY</en>
+        <es>VERDADERA REALIDAD</es>
+        <de>WAHRE REALITÄT</de>
+        <it>LA VERA REALTÀ</it>
+        <fr>VÉRITABLE RÉALITÉ</fr>
+        <ru>НАСТОЯЩАЯ РЕАЛЬНОСТЬ</ru>
+        <pt>VERDADEIRA REALIDADE</pt>
+</string>
+<string id="Mask_14">
+        <en>ROYAL SIGHT</en>
+        <es>VISTA REAL</es>
+        <de>KÖNIGLICHER ANBLICK</de>
+        <it>VISTA REALE</it>
+        <fr>VUE ROYALE</fr>
+        <ru>КОРОЛЕВСКИЙ ВИД</ru>
+        <pt>VISÃO REAL</pt>
+</string>
+<string id="Hats_1">
+        <en>RED HAT</en>
+        <es>SOMBRERO ROJO</es>
+        <de>ROTER HUT</de>
+        <it>CAPPELLO ROSSO</it>
+        <fr>BONNET ROUGE</fr>
+        <ru>КРАСНАЯ ШАПОЧКА</ru>
+        <pt>CHAPÉU VERMELHO</pt>
+</string>
+<string id="Hats_2">
+        <en>WISE CAP</en>
+        <es>GORRA DE SABIO</es>
+        <de>KLUGE MÜTZE</de>
+        <it>CAPPELLO SAGGIO</it>
+        <fr>BONNET SAGE</fr>
+        <ru>МУДРАЯ ШАПКА</ru>
+        <pt>SÁBIA TAMPA</pt>
+</string>
+<string id="Hats_3">
+        <en>USHANKA</en>
+        <es>USHANKA</es>
+        <de>USHANKA</de>
+        <it>USHANKA</it>
+        <fr>USHANKA</fr>
+        <ru>УШАНКА</ru>
+        <pt>USHANKA</pt>
+</string>
+<string id="Hats_4">
+        <en>DUCK CAP</en>
+        <es>GORRA DE PATO</es>
+        <de>ENTENMÜTZE</de>
+        <it>CAPPELLO D'ANATRA</it>
+        <fr>BONNET DE CANARD</fr>
+        <ru>УТИНАЯ ШАПОЧКА</ru>
+        <pt>TAMPA DE PATO</pt>
+</string>
+<string id="Hats_5">
+        <en>CONE HAT</en>
+        <es>GORRO DE CONO</es>
+        <de>KEGELMÜTZE</de>
+        <it>CAPPELLO A CONO</it>
+        <fr>CHAPEAU CONIQUE</fr>
+        <ru>ШАПКА-КОНУС</ru>
+        <pt>CHAPÉU DE CONE</pt>
+</string>
+<string id="Hats_6">
+        <en>POLICE CAP</en>
+        <es>GORRA DE POLICÍA</es>
+        <de>POLIZEIMÜTZE</de>
+        <it>CAPPELLO DELLA POLIZIA</it>
+        <fr>CASQUETTE DE POLICE</fr>
+        <ru>ПОЛИЦЕЙСКАЯ ФУРАЖКА</ru>
+        <pt>BONÉ DE POLÍCIA</pt>
+</string>
+<string id="Hats_7">
+        <en>ARMY CAP</en>
+        <es>GORRA DEL EJÉRCITO</es>
+        <de>ARMEE-MÜTZE</de>
+        <it>CAPPELLO DELL'ESERCITO</it>
+        <fr>CASQUETTE ARMÉE</fr>
+        <ru>АРМЕЙСКАЯ КЕПКА</ru>
+        <pt>TAMPA DO EXÉRCITO</pt>
+</string>
+<string id="Hats_8">
+        <en>PIRATE HAT</en>
+        <es>GORRA DE PIRATA</es>
+        <de>PIRATENMÜTZE</de>
+        <it>CAPPELLO DA PIRATA</it>
+        <fr>CHAPEAU DE PIRATE</fr>
+        <ru>ПИРАТСКАЯ ШАПКА</ru>
+        <pt>CHAPÉU DE PIRATA</pt>
+</string>
+<string id="Hats_9">
+        <en>COWBOY HAT</en>
+        <es>GORRO DE VAQUERO</es>
+        <de>COWBOYHUT</de>
+        <it>CAPPELLO DA COWBOY</it>
+        <fr>CHAPEAU DE COW-BOY</fr>
+        <ru>КОВБОЙСКАЯ ШЛЯПА</ru>
+        <pt>CHAPÉU DE COWBOY</pt>
+</string>
+<string id="Hats_10">
+        <en>HIGH HAT</en>
+        <es>SOMBRERO ALTO</es>
+        <de>HOHER HUT</de>
+        <it>CAPPELLO ALTO</it>
+        <fr>CHAPEAU HAUT-DE-FORME</fr>
+        <ru>ВЫСОКАЯ ШЛЯПА</ru>
+        <pt>CHAPÉU ALTO</pt>
+</string>
+<string id="Hats_11">
+        <en>FAKE KING</en>
+        <es>REY FALSO</es>
+        <de>FALSCHER KÖNIG</de>
+        <it>RE FINTO</it>
+        <fr>FAUX ROI</fr>
+        <ru>ФАЛЬШИВЫЙ КОРОЛЬ</ru>
+        <pt>REI FALSO</pt>
+</string>
+<string id="Hats_12">
+        <en>THE STORM</en>
+        <es>LA TORMENTA</es>
+        <de>DER STURM</de>
+        <it>LA TEMPESTA</it>
+        <fr>LA TEMPÊTE</fr>
+        <ru>ШТОРМОВКА</ru>
+        <pt>A TEMPESTADE</pt>
+</string>
+<string id="Hats_13">
+        <en>CRYSTAL HAT</en>
+        <es>SOMBRERO DE CRISTAL</es>
+        <de>KRISTALL-HUT</de>
+        <it>CAPPELLO DI CRISTALLO</it>
+        <fr>CHAPEAU DE CRISTAL</fr>
+        <ru>ХРУСТАЛЬНАЯ ШЛЯПА</ru>
+        <pt>CHAPÉU DE CRISTAL</pt>
+</string>
+<string id="Hats_14">
+        <en>THE CROWN</en>
+        <es>LA CORONA</es>
+        <de>DIE KRONE</de>
+        <it>LA CORONA</it>
+        <fr>LA COURONNE</fr>
+        <ru>КОРОНА</ru>
+        <pt>A COROA</pt>
+</string>
+<string id="Shoes_1">
+        <en>CROCS</en>
+        <es>CROCS</es>
+        <de>CROCS</de>
+        <it>CROCS</it>
+        <fr>CROCS</fr>
+        <ru>КРОКСЫ</ru>
+        <pt>CROCS</pt>
+</string>
+<string id="Shoes_2">
+        <en>SPORT BOOTS</en>
+        <es>BOTAS DE DEPORTE</es>
+        <de>SPORTLICHE STIEFEL</de>
+        <it>STIVALI SPORTIVI</it>
+        <fr>BOTTES DE SPORT</fr>
+        <ru>СПОРТИВНЫЕ БУТСЫ</ru>
+        <pt>BOTAS ESPORTIVAS</pt>
+</string>
+<string id="Shoes_3">
+        <en>GREEN FOOTBALL BOOTS</en>
+        <es>BOTAS DE FÚTBOL VERDES</es>
+        <de>GRÜNE FUßBALLSCHUHE</de>
+        <it>SCARPE DA CALCIO VERDI</it>
+        <fr>BOTTES DE FOOTBALL VERTES</fr>
+        <ru>ЗЕЛЕНЫЕ ФУТБОЛЬНЫЕ БУТСЫ</ru>
+        <pt>BOTAS DE FUTEBOL VERDES</pt>
+</string>
+<string id="Shoes_4">
+        <en>SLIPPERS</en>
+        <es>ZAPATILLAS</es>
+        <de>HAUSSCHUHE</de>
+        <it>PANTOFOLE</it>
+        <fr>CHAUSSONS</fr>
+        <ru>ТАПОЧКИ</ru>
+        <pt>PANTUFAS</pt>
+</string>
+<string id="Shoes_5">
+        <en>GRADIENT FOOTBALL BOOTS</en>
+        <es>BOTAS DE FÚTBOL DEGRADADAS</es>
+        <de>FUßBALLSCHUHE MIT FARBVERLAUF</de>
+        <it>SCARPE DA CALCIO COLORATE</it>
+        <fr>CHAUSSURES DE FOOTBALL DÉGRADÉES</fr>
+        <ru>ФУТБОЛЬНЫЕ БУТСЫ С ГРАДИЕНТОМ</ru>
+        <pt>BOTAS DE FUTEBOL GRADIENTES</pt>
+</string>
+<string id="Shoes_6">
+        <en>BLUE FOOTBALL BOOTS</en>
+        <es>BOTAS DE FÚTBOL AZULES</es>
+        <de>BLAUE FUßBALLSCHUHE</de>
+        <it>SCARPE DA CALCIO BLU</it>
+        <fr>BOTTES DE FOOTBALL BLEUES</fr>
+        <ru>СИНИЕ ФУТБОЛЬНЫЕ БУТСЫ</ru>
+        <pt>BOTAS DE FUTEBOL AZUIS</pt>
+</string>
+<string id="Shoes_7">
+        <en>COMBAT BOOTS</en>
+        <es>BOTAS DE COMBATE</es>
+        <de>KAMPFSTIEFEL</de>
+        <it>SCARPE DA COMBATTIMENTO</it>
+        <fr>BOTTES DE COMBAT</fr>
+        <ru>БОЕВЫЕ БУТСЫ</ru>
+        <pt>BOTAS DE COMBATE</pt>
+</string>
+<string id="Shoes_8">
+        <en>BUCCANEER BOOTS</en>
+        <es>BOTAS DE BUCANERO</es>
+        <de>SEERÄUBER-STIEFEL</de>
+        <it>STIVALI DA BUCANIERE</it>
+        <fr>BOTTES DE BOUCANIER</fr>
+        <ru>БУТСЫ БУКАНЬЕРА</ru>
+        <pt>BOTAS BUCCANEER</pt>
+</string>
+<string id="Shoes_9">
+        <en>COWBOY BOOTS</en>
+        <es>BOTAS DE VAQUERO</es>
+        <de>COWBOY-STIEFEL</de>
+        <it>STIVALI DA COWBOY</it>
+        <fr>BOTTES DE COW-BOY</fr>
+        <ru>КОВБОЙСКИЕ САПОГИ</ru>
+        <pt>BOTAS DE COWBOY</pt>
+</string>
+<string id="Shoes_10">
+        <en>DRESS SHOES</en>
+        <es>ZAPATOS DE VESTIR</es>
+        <de>KLEIDER-SCHUHE</de>
+        <it>SCARPE ELEGANTI</it>
+        <fr>CHAUSSURES DE VILLE</fr>
+        <ru>ПАРАДНАЯ ОБУВЬ</ru>
+        <pt>VESTIR SAPATOS</pt>
+</string>
+<string id="Shoes_11">
+        <en>CLOWN SHOES</en>
+        <es>ZAPATOS DE PAYASO</es>
+        <de>CLOWN-SCHUHE</de>
+        <it>SCARPE DA CLOWN</it>
+        <fr>CHAUSSURES DE CLOWN</fr>
+        <ru>БОТИНКИ КЛОУНА</ru>
+        <pt>SAPATOS DE PALHAÇO</pt>
+</string>
+<string id="Shoes_12">
+        <en>THUNDER BOOTS</en>
+        <es>BOTAS DE TRUENO</es>
+        <de>DONNER-STIEFEL</de>
+        <it>STIVALI DA TUONO</it>
+        <fr>BOTTES DE TONNERRE</fr>
+        <ru>ГРОМОВЫЕ САПОГИ</ru>
+        <pt>BOTAS DE TROVÃO</pt>
+</string>
+<string id="Shoes_13">
+        <en>CRYSTAL BOOTS</en>
+        <es>BOTAS DE CRISTAL</es>
+        <de>KRISTALL-STIEFEL</de>
+        <it>STIVALI DI CRISTALLO</it>
+        <fr>BOTTES EN CRISTAL</fr>
+        <ru>ХРУСТАЛЬНЫЕ БОТИНКИ</ru>
+        <pt>BOTAS DE CRISTAL</pt>
+</string>
+<string id="Shoes_14">
+        <en>THE CHOSEN SHOES</en>
+        <es>LOS ZAPATOS ELEGIDOS</es>
+        <de>DIE AUSGEWÄHLTEN SCHUHE</de>
+        <it>LE SCARPE SCELTE</it>
+        <fr>LES CHAUSSURES CHOISIES</fr>
+        <ru>ИЗБРАННАЯ ОБУВЬ</ru>
+        <pt>OS SAPATOS ESCOLHIDOS</pt>
+</string>
+<string id="Pack_1">
+        <en>GEAR PACK</en>
+        <es>PAQUETE DE EQUIPO</es>
+        <de>AUSRÜSTUNG PACKEN</de>
+        <it>PACCHETTO ATTREZZI</it>
+        <fr>PACK D'ÉQUIPEMENT</fr>
+        <ru>НАБОР ИНСТРУМЕНТОВ</ru>
+        <pt>PACOTE DE ENGRENAGENS</pt>
+</string>
+<string id="Pack_2">
+        <en>HEADS PACK</en>
+        <es>PAQUETE DE CABEZAS</es>
+        <de>KOPF-PAKET</de>
+        <it>PACCHETTO TESTE</it>
+        <fr>PACK TÊTES</fr>
+        <ru>НАБОР ГОЛОВ</ru>
+        <pt>PACOTE DE CABEÇAS</pt>
+</string>
+<string id="Pack_3">
+        <en>BOOTS PACK</en>
+        <es>PACK DE BOTAS</es>
+        <de>STIEFEL-PAKET</de>
+        <it>PACCHETTO STIVALI</it>
+        <fr>PACK BOTTES</fr>
+        <ru>НАБОР ОБУВИ</ru>
+        <pt>PACOTE DE BOTAS</pt>
+</string>
+<string id="Pack_4">
+        <en>SHIRTS PACK</en>
+        <es>PACK DE CAMISAS</es>
+        <de>HEMDEN-PACK</de>
+        <it>PACCHETTO CAMICIE</it>
+        <fr>PACK CHEMISES</fr>
+        <ru>РУБАШКИ</ru>
+        <pt>PACOTE DE CAMISAS</pt>
+</string>
+<string id="Pack_5">
+        <en>MASKS PACK</en>
+        <es>PACK DE MÁSCARAS</es>
+        <de>MASKEN-PACK</de>
+        <it>PACCHETTO MASCHERE</it>
+        <fr>PACK MASQUES</fr>
+        <ru>МАСКИ</ru>
+        <pt>PACOTE DE MÁSCARAS</pt>
+</string>
+<string id="Pack_6">
+        <en>SKILLS PACK</en>
+        <es>PAQUETE DE HABILIDADES</es>
+        <de>SKILLS-PACK</de>
+        <it>PACCHETTO ABILITÀ</it>
+        <fr>PACK HABILETÉS</fr>
+        <ru>ПАКЕТ НАВЫКОВ</ru>
+        <pt>PACOTE DE HABILIDADES</pt>
+</string>
+<string id="Pack_7">
+        <en>HATS PACK</en>
+        <es>PAQUETE DE SOMBREROS</es>
+        <de>HÜTE PACKEN</de>
+        <it>PACCHETTO CAPPELLI</it>
+        <fr>PACK CHAPEAUX</fr>
+        <ru>ШЛЯПЫ</ru>
+        <pt>PACOTE DE CHAPÉUS</pt>
+</string>
+<string id="Mission_1">
+        <en>DAILY LOGIN</en>
+        <es>INICIO DE SESIÓN DIARIO</es>
+        <de>TÄGLICHE ANMELDUNG</de>
+        <it>ACCESSO GIORNALIERO</it>
+        <fr>CONNEXION QUOTIDIENNE</fr>
+        <ru>ЕЖЕДНЕВНЫЙ ВХОД</ru>
+        <pt>LOGIN DIÁRIO</pt>
+</string>
+<string id="Mission_2">
+        <en>USE [X] SKILLS</en>
+        <es>USA [X] HABILIDADES</es>
+        <de>BENUTZE [X] FERTIGKEITEN</de>
+        <it>USA [X] ABILITÀ</it>
+        <fr>UTILISER [X] COMPÉTENCES</fr>
+        <ru>ИСПОЛЬЗУЙТЕ [X] НАВЫКОВ</ru>
+        <pt>USAR [X] HABILIDADES</pt>
+</string>
+<string id="Mission_3">
+        <en>SCORE [X] GOALS</en>
+        <es>MARCA [X] GOLES</es>
+        <de>ERZIELE [X] TORE</de>
+        <it>SEGNA [X] GOL</it>
+        <fr>MARQUER [X] BUTS</fr>
+        <ru>ЗАБИТЬ [X] ГОЛОВ</ru>
+        <pt>PONTUAÇÃO [X] OBJETIVOS</pt>
+</string>
+<string id="Mission_4">
+        <en>WIN [X] GAMES</en>
+        <es>GANA [X] PARTIDOS</es>
+        <de>GEWINNE [X] SPIELE</de>
+        <it>VINCI [X] PARTITE</it>
+        <fr>GAGNER [X] PARTIES</fr>
+        <ru>ВЫИГРАТЬ [X] ИГР</ru>
+        <pt>GANHAR [X] JOGOS</pt>
+</string>
+<string id="Mission_5">
+        <en>PLAY [X] GAMES</en>
+        <es>JUGAR [X] PARTIDAS</es>
+        <de>SPIELE [X] SPIELE</de>
+        <it>GIOCA [X] PARTITE</it>
+        <fr>JOUER À [X] JEUX</fr>
+        <ru>ИГРАТЬ В [X] ИГРЫ</ru>
+        <pt>JOGUE [X] JOGOS</pt>
+</string>
+<string id="Mission_6">
+        <en>BUY [X] GEAR PACKS</en>
+        <es>COMPRAR [X] PAQUETES DE EQUIPO</es>
+        <de>KAUFE [X] AUSRÜSTUNGSPAKETE</de>
+        <it>ACQUISTA [X] PACCHETTI DI EQUIPAGGIAMENTO</it>
+        <fr>ACHETER [X] PACKS D'ÉQUIPEMENT</fr>
+        <ru>КУПИТЬ [X] ПАКЕТА СНАРЯЖЕНИЯ</ru>
+        <pt>COMPRAR [X] PACOTES DE ENGRENAGENS</pt>
+</string>
+<string id="Mission_7">
+        <en>BUY [X] SKILL PACKS</en>
+        <es>COMPRAR [X] PAQUETES DE HABILIDADES</es>
+        <de>KAUFE [X] FERTIGKEITSPAKETE</de>
+        <it>ACQUISTARE [X] PACCHETTI DI ABILITÀ</it>
+        <fr>ACHETER [X] PACKS DE COMPÉTENCES</fr>
+        <ru>КУПИТЬ [X] ПАКЕТА НАВЫКОВ</ru>
+        <pt>COMPRAR [X] PACOTES DE HABILIDADES</pt>
+</string>
+<string id="ESkill_1">
+        <en>FREEZE CHARACTER</en>
+        <es>CONGELAR PERSONAJE</es>
+        <de>CHARAKTER EINFRIEREN</de>
+        <it>CONGELARE IL PERSONAGGIO</it>
+        <fr>GELER UN PERSONNAGE</fr>
+        <ru>ЗАМОРОЗИТЬ ПЕРСОНАЖА</ru>
+        <pt>CONGELAR O CARÁTER</pt>
+</string>
+<string id="ESkill_2">
+        <en>BIG GOAL</en>
+        <es>GRAN GOL</es>
+        <de>GROßES TOR</de>
+        <it>GRANDE OBIETTIVO</it>
+        <fr>GRAND OBJECTIF</fr>
+        <ru>БОЛЬШОЙ ГОЛ</ru>
+        <pt>GRANDE OBJETIVO</pt>
+</string>
+<string id="PSkill_1">
+        <en>FREEZE BALL</en>
+        <es>CONGELAR EL BALÓN</es>
+        <de>BALL EINFRIEREN</de>
+        <it>PALLA GHIACCIATA</it>
+        <fr>BALLE GELÉE</fr>
+        <ru>ЗАМОРОЗИТЬ МЯЧ</ru>
+        <pt>BOLA CONGELADA</pt>
+</string>
+<string id="PSkill_2">
+        <en>GIANT PLAYER</en>
+        <es>JUGADOR GIGANTE</es>
+        <de>RIESIGER SPIELER</de>
+        <it>GIOCATORE GIGANTE</it>
+        <fr>JOUEUR GÉANT</fr>
+        <ru>ГИГАНТСКИЙ ИГРОК</ru>
+        <pt>JOGADOR GIGANTE</pt>
+</string>
+<string id="PSkill_3">
+        <en>SMALL GOAL</en>
+        <es>GOL PEQUEÑO</es>
+        <de>KLEINES TOR</de>
+        <it>OBIETTIVO PICCOLO</it>
+        <fr>PETIT BUT</fr>
+        <ru>МАЛЕНЬКИЕ ВОРОТА</ru>
+        <pt>PEQUENO OBJETIVO</pt>
+</string>
+<string id="Skill_1">
+        <en>FIREBALL</en>
+        <es>BOLA DE FUEGO</es>
+        <de>FEUERBALL</de>
+        <it>PALLA DI FUOCO</it>
+        <fr>BOULE DE FEU</fr>
+        <ru>ОГНЕННЫЙ ШАР</ru>
+        <pt>BOLA DE FOGO</pt>
+</string>
+<string id="Skill_2">
+        <en>BONUS TIME</en>
+        <es>TIEMPO EXTRA</es>
+        <de>BONUSZEIT</de>
+        <it>TEMPO BONUS</it>
+        <fr>TEMPS DE BONUS</fr>
+        <ru>БОНУСНОЕ ВРЕМЯ</ru>
+        <pt>TEMPO DE BONIFICAÇÃO</pt>
+</string>
+<string id="Skill_3">
+        <en>DOUBLE SHOT</en>
+        <es>DOBLE DISPARO</es>
+        <de>DOPPELTER SCHUSS</de>
+        <it>DOPPIO COLPO</it>
+        <fr>DOUBLE TIR</fr>
+        <ru>ДВОЙНОЙ УДАР</ru>
+        <pt>TIRO DUPLO</pt>
+</string>
+<string id="Achievement_1">
+        <en>WIN MATCHES</en>
+        <es>GANAR PARTIDOS</es>
+        <de>SPIELE GEWINNEN</de>
+        <it>VINCERE PARTITE</it>
+        <fr>GAGNER DES MATCHS</fr>
+        <ru>ВЫИГРЫВАЙТЕ МАТЧИ</ru>
+        <pt>GANHAR PARTIDAS</pt>
+</string>
+<string id="Achievement_2">
+        <en>SCORE GOALS</en>
+        <es>MARCAR GOLES</es>
+        <de>TORE SCHIEßEN</de>
+        <it>SEGNARE GOL</it>
+        <fr>BUTS MARQUÉS</fr>
+        <ru>ЗАБИВАЙТЕ ГОЛЫ</ru>
+        <pt>OBJETIVOS DE PONTUAÇÃO</pt>
+</string>
+<string id="Achievement_3">
+        <en>BUY GEAR PACKS</en>
+        <es>COMPRAR PAQUETE DE EQUIPO</es>
+        <de>AUSRÜSTUNGSPAKET KAUFEN</de>
+        <it>ACQUISTA IL PACCHETTO INGRANAGGI</it>
+        <fr>ACHETER UN PACK D'ÉQUIPEMENT</fr>
+        <ru>КУПИТЬ СНАРЯЖЕНИЕ</ru>
+        <pt>COMPRAR O PACOTE DE EQUIPAMENTOS</pt>
+</string>
+<string id="Achievement_4">
+        <en>BUY SKILL PACKS</en>
+        <es>COMPRAR PAQUETES DE HABILIDADES</es>
+        <de>SKILL PACKS KAUFEN</de>
+        <it>ACQUISTA PACCHETTI DI ABILITÀ</it>
+        <fr>ACHETER DES PACKS DE COMPÉTENCES</fr>
+        <ru>КУПИТЬ ПАКЕТЫ НАВЫКОВ</ru>
+        <pt>COMPRAR PACOTES DE HABILIDADES</pt>
+</string>
+<string id="Achievement_5">
+        <en>GAIN EXPERIENCE</en>
+        <es>GANAR EXPERIENCIA</es>
+        <de>SAMMLE ERFAHRUNG</de>
+        <it>ACQUISIRE ESPERIENZA</it>
+        <fr>GAGNER DE L'EXPÉRIENCE</fr>
+        <ru>НАБИРАЙТЕ ОПЫТ</ru>
+        <pt>GANHE EXPERIÊNCIA</pt>
+</string>
+<string id="Achievement_6">
+        <en>COMPLETE MISSIONS</en>
+        <es>COMPLETAR MISIONES</es>
+        <de>MISSIONEN ABSCHLIEßEN</de>
+        <it>COMPLETA LE MISSIONI</it>
+        <fr>TERMINER DES MISSIONS</fr>
+        <ru>ВЫПОЛНЯЙТЕ МИССИИ</ru>
+        <pt>MISSÕES COMPLETAS</pt>
+</string>
+<string id="Bronze 4 - 1">
+        <en>AMATEUR LEAGUE [X]</en>
+        <es>LIGA DE AFICIONADOS [X]</es>
+        <de>AMATEURLIGA [X]</de>
+        <it>LEGA AMATORIALE [X]</it>
+        <fr>LIGUE AMATEUR [X]</fr>
+        <ru>ЛЮБИТЕЛЬСКАЯ ЛИГА [X]</ru>
+        <pt>LIGA DE AMADORES [X]</pt>
+</string>
+<string id="Silver 4 - 1">
+        <en>STAR LEAGUE [X]</en>
+        <es>LIGA DE ESTRELLAS [X]</es>
+        <de>STAR-LIGA [X]</de>
+        <it>LEGA DELLE STELLE [X]</it>
+        <fr>STARLIGUE [X]</fr>
+        <ru>ЗВЕЗДНАЯ ЛИГА [X]</ru>
+        <pt>LIGA DAS ESTRELAS [X]</pt>
+</string>
+<string id="Gold 4 - 1">
+        <en>PROFESSIONAL LEAGUE [X]</en>
+        <es>LIGA PROFESIONAL [X]</es>
+        <de>PROFI-LIGA [X]</de>
+        <it>LEGA PROFESSIONISTI [X]</it>
+        <fr>LIGUE PROFESSIONNELLE [X]</fr>
+        <ru>ПРОФЕССИОНАЛЬНАЯ ЛИГА [X]</ru>
+        <pt>LIGA PROFISSIONAL [X]</pt>
+</string>
+<string id="Platinum 4 - 1">
+        <en>SUPER LEAGUE [X]</en>
+        <es>SUPERLIGA [X]</es>
+        <de>SUPERLIGA [X]</de>
+        <it>SUPER LEAGUE [X]</it>
+        <fr>SUPER LIGUE [X]</fr>
+        <ru>СУПЕРЛИГА [X]</ru>
+        <pt>SUPER LIGA [X]</pt>
+</string>
+<string id="Master">
+        <en>CHAMPIONS LEAGUE</en>
+        <es>LIGA DE CAMPEONES</es>
+        <de>CHAMPIONS LEAGUE</de>
+        <it>CHAMPIONS LEAGUE</it>
+        <fr>LIGUE DES CHAMPIONS</fr>
+        <ru>ЛИГА ЧЕМПИОНОВ</ru>
+        <pt>LIGA DOS CAMPEÕES</pt>
+</string>
+<string id="Missions">
+        <en>MISSIONS</en>
+        <es>MISIONES</es>
+        <de>AUFGABEN</de>
+        <it>MISSIONI</it>
+        <fr>MISSIONS</fr>
+        <ru>МИССИИ</ru>
+        <pt>MISSÕES</pt>
+</string>
+<string id="Targets">
+        <en>TARGETS</en>
+        <es>OBJETIVOS</es>
+        <de>ZIELE</de>
+        <it>OBIETTIVI</it>
+        <fr>CIBLES</fr>
+        <ru>ЦЕЛИ</ru>
+        <pt>METAS</pt>
+</string>
+<string id="Goals">
+        <en>GOALS</en>
+        <es>GOLES</es>
+        <de>TORE</de>
+        <it>OBIETTIVI</it>
+        <fr>BUTS</fr>
+        <ru>НАГРАДЫ</ru>
+        <pt>OBJETIVOS</pt>
+</string>
+<string id="Gear">
+        <en>GEAR</en>
+        <es>EQUIPO</es>
+        <de>AUSRÜSTUNG</de>
+        <it>INGRANAGGIO</it>
+        <fr>MATÉRIEL</fr>
+        <ru>ЭКИПИРОВКА</ru>
+        <pt>EQUIPAMENTO</pt>
+</string>
+<string id="Mission">
+        <en>MISSION</en>
+        <es>MISIÓN</es>
+        <de>AUFTRAG</de>
+        <it>MISSIONE</it>
+        <fr>MISSION</fr>
+        <ru>МИССИЯ</ru>
+        <pt>MISSÃO</pt>
+</string>
+<string id="Big Reward">
+        <en>BIG REWARD</en>
+        <es>GRAN RECOMPENSA</es>
+        <de>GROßE BELOHNUNG</de>
+        <it>GRANDE RICOMPENSA</it>
+        <fr>GRANDE RÉCOMPENSE</fr>
+        <ru>БОЛЬШАЯ НАГРАДА</ru>
+        <pt>GRANDE RECOMPENSA</pt>
+</string>
+<string id="Complete Missions">
+        <en>COMPLETE MISSIONS [X]</en>
+        <es>COMPLETA LAS MISIONES [X]</es>
+        <de>MISSIONEN ABSCHLIEßEN [X]</de>
+        <it>COMPLETA LE MISSIONI [X]</it>
+        <fr>TERMINER LES MISSIONS [X]</fr>
+        <ru>ЗАВЕРШИТЬ МИССИЙ [X]</ru>
+        <pt>MISSÕES COMPLETAS [X]</pt>
+</string>
+<string id="Skills">
+        <en>SKILLS</en>
+        <es>HABILIDADES</es>
+        <de>FERTIGKEITEN</de>
+        <it>ABILITÀ</it>
+        <fr>COMPÉTENCES</fr>
+        <ru>НАВЫКИ</ru>
+        <pt>HABILIDADES</pt>
+</string>
+<string id="Leagues">
+        <en>LEAGUES</en>
+        <es>LIGAS</es>
+        <de>LIGEN</de>
+        <it>LEGHE</it>
+        <fr>LIGUES</fr>
+        <ru>ЛИГИ</ru>
+        <pt>LIGAS</pt>
+</string>
+<string id="Draw">
+        <en>DRAW</en>
+        <es>DIBUJAR</es>
+        <de>ZIEHEN</de>
+        <it>DISEGNARE</it>
+        <fr>DESSINER</fr>
+        <ru>РИСОВАТЬ</ru>
+        <pt>SORTEIO</pt>
+</string>
+<string id="Shop">
+        <en>SHOP</en>
+        <es>COMPRAR</es>
+        <de>SHOP</de>
+        <it>NEGOZIO</it>
+        <fr>BOUTIQUE</fr>
+        <ru>МАГАЗИН</ru>
+        <pt>LOJA</pt>
+</string>
+<string id="Play">
+        <en>PLAY</en>
+        <es>JUGAR</es>
+        <de>SPIELEN</de>
+        <it>GIOCA</it>
+        <fr>JOUER</fr>
+        <ru>ИГРАТЬ</ru>
+        <pt>REPRODUZIR</pt>
+</string>
+<string id="Instructions">
+        <en>INSTRUCTIONS</en>
+        <es>INSTRUCCIONES</es>
+        <de>ANLEITUNG</de>
+        <it>ISTRUZIONI</it>
+        <fr>INSTRUCTIONS</fr>
+        <ru>ИНСТРУКЦИЯ</ru>
+        <pt>INSTRUÇÕES</pt>
+</string>
+<string id="Reward">
+        <en>REWARD</en>
+        <es>RECOMPENSA</es>
+        <de>BELOHNUNG</de>
+        <it>RICOMPENSA</it>
+        <fr>RÉCOMPENSE</fr>
+        <ru>НАГРАДА</ru>
+        <pt>RECOMPENSA</pt>
+</string>
+<string id="You win">
+        <en>YOU WIN</en>
+        <es>GANAS</es>
+        <de>GEWONNEN</de>
+        <it>HAI VINTO</it>
+        <fr>VOUS AVEZ GAGNÉ</fr>
+        <ru>ВЫ ПОБЕДИЛИ!</ru>
+        <pt>VOCÊ VENCE</pt>
+</string>
+<string id="You lose">
+        <en>YOU LOSE</en>
+        <es>PIERDES</es>
+        <de>VERLOREN</de>
+        <it>HAI PERSO</it>
+        <fr>VOUS AVEZ PERDU</fr>
+        <ru>ВЫ ПРОИГРАЛИ!</ru>
+        <pt>VOCÊ PERDE</pt>
+</string>
+<string id="Tap to open">
+        <en>TAP TO OPEN!</en>
+        <es>¡TOQUE PARA ABRIR!</es>
+        <de>ZUM ÖFFNEN ANTIPPEN!</de>
+        <it>TOCCARE PER APRIRE!</it>
+        <fr>TAPEZ POUR OUVRIR !</fr>
+        <ru>НАЖМИТЕ, ЧТОБЫ ОТКРЫТЬ!</ru>
+        <pt>TOQUE PARA ABRIR!</pt>
+</string>
+<string id="UNEQUIP">
+        <en>UNEQUIP</en>
+        <es>DESEQUIPAR</es>
+        <de>AUSRÜSTEN</de>
+        <it>DISIMPARARE</it>
+        <fr>DÉSÉQUIPER</fr>
+        <ru>РАЗБЛОКИРОВАТЬ</ru>
+        <pt>UNEQUIP</pt>
+</string>
+<string id="EQUIP">
+        <en>EQUIP</en>
+        <es>EQUIPAR</es>
+        <de>AUSRÜSTEN</de>
+        <it>EQUIPAGGIARE</it>
+        <fr>ÉQUIPER</fr>
+        <ru>ЭКИПИРОВАТЬ</ru>
+        <pt>EQUIPAR</pt>
+</string>
+<string id="PACKS">
+        <en>PACKS</en>
+        <es>PACKS</es>
+        <de>PACKUNGEN</de>
+        <it>PACCHETTI</it>
+        <fr>PACKS</fr>
+        <ru>НАБОРЫ</ru>
+        <pt>EMBALAGENS</pt>
+</string>
+<string id="SINGLES">
+        <en>SINGLES</en>
+        <es>SOLTEROS</es>
+        <de>EINZELNE</de>
+        <it>SINGOLI</it>
+        <fr>SINGLES</fr>
+        <ru>ОДИНОЧНЫЕ</ru>
+        <pt>SOLTEIROS</pt>
+</string>
+<string id="SKILLS">
+        <en>SKILLS</en>
+        <es>HABILIDADES</es>
+        <de>FERTIGKEITEN</de>
+        <it>ABILITÀ</it>
+        <fr>COMPÉTENCES</fr>
+        <ru>НАВЫКИ</ru>
+        <pt>HABILIDADES</pt>
+</string>
+<string id="SPECIALS">
+        <en>SPECIALS</en>
+        <es>ESPECIALES</es>
+        <de>BESONDERHEITEN</de>
+        <it>SPECIALI</it>
+        <fr>SPÉCIAUX</fr>
+        <ru>СПЕЦИАЛЬНЫЕ НАВЫКИ</ru>
+        <pt>ESPECIAIS</pt>
+</string>
+<string id="enter name">
+        <en>Enter your name!</en>
+        <es>Geben Sie Ihren Namen ein!</es>
+        <de>Introduzca su nombre.</de>
+        <it>Entrez votre nom !</it>
+        <fr>Inserisci il tuo nome!</fr>
+        <ru>Digite seu nome!</ru>
+        <pt>Введите свое имя!</pt>
+</string>
+<string id="TUT_0">
+        <en>WELCOME TO FOOTBALL BRAWL!</en>
+        <es>WILLKOMMEN BEI FOOTBALL BRAWL!</es>
+        <de>¡BIENVENIDO A FOOTBALL BRAWL!</de>
+        <it>BIENVENUE À FOOTBALL BRAWL!</it>
+        <fr>BENVENUTI A FOOTBALL BRAWL!</fr>
+        <ru>BEM-VINDO AO FOOTBALL BRAWL!</ru>
+        <pt>ДОБРО ПОЖАЛОВАТЬ НА FOOTBALL BRAWL!</pt>
+</string>
+<string id="TUT_1_KEY">
+        <en>USE [W A S D] KEYS TO MOVE!</en>
+        <es>¡USA LAS TECLAS [W A S D] PARA MOVERTE!</es>
+        <de>BENUTZE DIE [W A S D]-TASTEN ZUM BEWEGEN!</de>
+        <it>USA I TASTI [W A S D] PER MUOVERTI!</it>
+        <fr>UTILISEZ LES TOUCHES [W A S D] POUR VOUS DÉPLACER !</fr>
+        <ru>ИСПОЛЬЗУЙТЕ КЛАВИШИ [W A S D] ДЛЯ ПЕРЕМЕЩЕНИЯ!</ru>
+        <pt>USE AS TECLAS [W A S D] PARA SE MOVER!</pt>
+</string>
+<string id="TUT_1_TOUCH">
+        <en>USE JOYSTICK TO MOVE!</en>
+        <es>¡USA EL JOYSTICK PARA MOVERTE!</es>
+        <de>BENUTZE DEN JOYSTICK ZUM BEWEGEN!</de>
+        <it>USA IL JOYSTICK PER MUOVERTI!</it>
+        <fr>UTILISE LE JOYSTICK POUR TE DÉPLACER !</fr>
+        <ru>ИСПОЛЬЗУЙТЕ ДЖОЙСТИК ДЛЯ ПЕРЕМЕЩЕНИЯ!</ru>
+        <pt>USE AS TECLAS [W A S D] PARA MOVER-SE!</pt>
+</string>
+<string id="TUT_3_KEY">
+        <en>KICK THE BALL BY USING [X] OR [Y] KEY!</en>
+        <es>PATEA EL BALÓN CON LAS TECLAS [X] O [Y].</es>
+        <de>KICKE DEN BALL MIT DER [X]- ODER [Y]-TASTE!</de>
+        <it>CALCIA LA PALLA USANDO I TASTI [X] O [Y]!</it>
+        <fr>FRAPPE LE BALLON EN UTILISANT LES TOUCHES [X] OU [Y] !</fr>
+        <ru>ОТБИВАЙТЕ МЯЧ, ИСПОЛЬЗУЯ КЛАВИШУ [X] ИЛИ [Y]!</ru>
+        <pt>CHUTE A BOLA USANDO AS TECLAS [X] OU [Y]!</pt>
+</string>
+<string id="TUT_3_TOUCH">
+        <en>KICK THE BALL BY TOUCHING THE KICK BUTTONS!</en>
+        <es>¡PATEA LA PELOTA TOCANDO LOS BOTONES DE PATADA!</es>
+        <de>KICKE DEN BALL, INDEM DU DIE KICK-TASTEN BERÜHRST!</de>
+        <it>CALCIA LA PALLA TOCCANDO I TASTI DI CALCIO!</it>
+        <fr>FRAPPE LE BALLON EN TOUCHANT LES BOUTONS DE FRAPPE !</fr>
+        <ru>ОТБИВАЙТЕ МЯЧ, КАСАЯСЬ КНОПОК УДАРА!</ru>
+        <pt>CHUTE A BOLA TOCANDO AS TECLAS DE CHUTE!</pt>
+</string>
+<string id="TUT_2_KEY">
+        <en>TRY TO JUMP BY USING [X] KEY!</en>
+        <es>INTENTA SALTAR CON LA TECLA [X].</es>
+        <de>VERSUCHE ZU SPRINGEN, INDEM DU DIE TASTE [X] DRÜCKST!</de>
+        <it>CERCARE DI SALTARE USANDO IL TASTO [X]!</it>
+        <fr>ESSAIE DE SAUTER EN UTILISANT LA TOUCHE [X] !</fr>
+        <ru>ПОПРОБУЙТЕ ПРЫГНУТЬ, ИСПОЛЬЗУЯ КЛАВИШУ [X]!</ru>
+        <pt>TENTE PULAR USANDO A TECLA [X]!</pt>
+</string>
+<string id="TUT_2_TOUCH">
+        <en>TRY TO JUMP BY TOUCHING THE JUMP BUTTON!</en>
+        <es>INTENTA SALTAR TOCANDO EL BOTÓN DE SALTO.</es>
+        <de>VERSUCHE ZU SPRINGEN, INDEM DU DIE SPRUNGTASTE BERÜHRST!</de>
+        <it>CERCATE DI SALTARE TOCCANDO IL TASTO DI SALTO!</it>
+        <fr>ESSAIE DE SAUTER EN TOUCHANT LE BOUTON DE SAUT !</fr>
+        <ru>ПОПРОБУЙТЕ ПРЫГНУТЬ, КОСНУВШИСЬ КНОПКИ ПРЫЖКА!</ru>
+        <pt>TENTE PULAR TOCANDO A TECLA DE SALTO!</pt>
+</string>
+<string id="TUT_4_KEY">
+        <en>USE [X] KEY TO ACTIVATE SPECIAL SKILL!</en>
+        <es>USA LA TECLA [X] PARA ACTIVAR LA HABILIDAD ESPECIAL.</es>
+        <de>BENUTZE DIE [X]-TASTE, UM EINE SPEZIALFÄHIGKEIT ZU AKTIVIEREN!</de>
+        <it>UTILIZZARE IL TASTO [X] PER ATTIVARE L'ABILITÀ SPECIALE!</it>
+        <fr>UTILISE LA TOUCHE [X] POUR ACTIVER UNE COMPÉTENCE SPÉCIALE !</fr>
+        <ru>ИСПОЛЬЗУЙТЕ КЛАВИШУ [X], ЧТОБЫ АКТИВИРОВАТЬ СПЕЦИАЛЬНОЕ УМЕНИЕ!</ru>
+        <pt>USE A TECLA [X] PARA ATIVAR A HABILIDADE ESPECIAL!</pt>
+</string>
+<string id="TUT_4_TOUCH">
+        <en>TOUCH THE SKILL BUTTON TO ACTIVATE SPECIAL SKILL!</en>
+        <es>TOCA EL BOTÓN DE HABILIDAD PARA ACTIVAR LA HABILIDAD ESPECIAL.</es>
+        <de>BERÜHRE DIE GESCHICKLICHKEITSTASTE, UM DIE SPEZIALFÄHIGKEIT ZU AKTIVIEREN!</de>
+        <it>TOCCARE IL TASTO ABILITÀ PER ATTIVARE L'ABILITÀ SPECIALE!</it>
+        <fr>TOUCHE LE BOUTON DE COMPÉTENCE POUR ACTIVER LA COMPÉTENCE SPÉCIALE !</fr>
+        <ru>КОСНИТЕСЬ КНОПКИ УМЕНИЯ, ЧТОБЫ АКТИВИРОВАТЬ СПЕЦИАЛЬНОЕ УМЕНИЕ!</ru>
+        <pt>TOQUE NO BOTÃO DE HABILIDADE PARA ATIVAR A HABILIDADE ESPECIAL!</pt>
+</string>
+<string id="TUT_5">
+        <en>NOW TRY TO SCORE A GOAL!</en>
+        <es>¡AHORA INTENTA MARCAR UN GOL!</es>
+        <de>VERSUCHE NUN, EIN TOR ZU SCHIEßEN!</de>
+        <it>ORA CERCA DI SEGNARE UN GOL!</it>
+        <fr>ESSAIE MAINTENANT DE MARQUER UN BUT !</fr>
+        <ru>ТЕПЕРЬ ПОПРОБУЙТЕ ЗАБИТЬ ГОЛ!</ru>
+        <pt>AGORA TENTE MARCAR UM GOL!</pt>
+</string>
+<string id="FREE">
+        <en>FREE</en>
+        <es>GRATIS</es>
+        <de>KOSTENLOS</de>
+        <it>GRATIS</it>
+        <fr>GRATUIT</fr>
+        <ru>БЕСПЛАТНО</ru>
+        <pt>GRÁTIS</pt>
+</string>
+<string id="GET PRIZES">
+        <en>GET PRIZES!</en>
+        <es>¡OBTENGA PREMIOS!</es>
+        <de>HOLEN SIE SICH PREISE!</de>
+        <it>OTTENETE I PREMI!</it>
+        <fr>RECEVEZ DES PRIX !</fr>
+        <ru>ПОЛУЧИТЕ ПРИЗЫ!</ru>
+        <pt>RECEBA PRÊMIOS!</pt>
+</string>
+<string id="SPEED">
+        <en>SPEED</en>
+        <es>VELOCIDAD</es>
+        <de>SCHNELLIGKEIT</de>
+        <it>VELOCITÀ</it>
+        <fr>VITESSE</fr>
+        <ru>СКОРОСТЬ</ru>
+        <pt>VELOCIDADE</pt>
+</string>
+<string id="POWER">
+        <en>POWER</en>
+        <es>POTENCIA</es>
+        <de>LEISTUNG</de>
+        <it>POTENZA</it>
+        <fr>PUISSANCE</fr>
+        <ru>МОЩНОСТЬ</ru>
+        <pt>POTÊNCIA</pt>
+</string>
+<string id="SIZE">
+        <en>SIZE</en>
+        <es>TAMAÑO</es>
+        <de>GRÖßE</de>
+        <it>DIMENSIONI</it>
+        <fr>TAILLE</fr>
+        <ru>РАЗМЕР</ru>
+        <pt>TAMANHO</pt>
+</string>
+<string id="JUMP">
+        <en>JUMP</en>
+        <es>SALTAR</es>
+        <de>SPRINGEN</de>
+        <it>SALTO</it>
+        <fr>SAUTER</fr>
+        <ru>ПРЫЖОК</ru>
+        <pt>PULAR</pt>
+</string>
+<string id="CLAIM">
+        <en>CLAIM</en>
+        <es>CANJEAR</es>
+        <de>ABHOLEN</de>
+        <it>RISCUOTI</it>
+        <fr>RÉCLAMER</fr>
+        <ru>ПРЕТЕНДОВАТЬ</ru>
+        <pt>REIVINDICAR</pt>
+</string>
+<string id="Tap to continue">
+        <en>TAP TO CONTINUE!</en>
+        <es>PULSE PARA CONTINUAR! </es>
+        <de>TIPPEN SIE AUF , UM FORTZUFAHREN!</de>
+        <it>TOCCARE PER CONTINUARE!</it>
+        <fr>TAPEZ POUR CONTINUER !</fr>
+        <ru>НАЖМИТЕ, ЧТОБЫ ПРОДОЛЖИТЬ!</ru>
+        <pt>TOQUE PARA CONTINUAR!</pt>
+</string>
+<string id="New reward">
+        <en>NEW REWARD IN :</en>
+        <es>NUEVA RECOMPENSA EN :</es>
+        <de>NEUE BELOHNUNG IN:</de>
+        <it>NUOVA RICOMPENSA IN :</it>
+        <fr>NOUVELLE RÉCOMPENSE EN :</fr>
+        <ru>НОВОЕ ВОЗНАГРАЖДЕНИЕ ЗА:</ru>
+        <pt>NOVA RECOMPENSA EM :</pt>
+</string>
+
+<string id="watch_ad">
+        <en>WATCH AD</en>
+        <es>VER ANUNCIO</es>
+        <de>ANZEIGE ANSEHEN</de>
+        <fr>REGARDER LA PUBLICITÉ</fr>
+        <it>GUARDA L'ANNUNCIO</it>
+        <ru>СМОТРЕТЬ РЕКЛАМУ</ru>
+        <pt>ASSISTA AO ANÚNCIO</pt>
+</string>    
+<string id="ad_reward">
+        <en>REWARD</en>
+        <es>RECOMPENSA</es>
+        <de>BELOHNUNG</de>
+        <fr>RÉCOMPENSE</fr>
+        <it>RICOMPENSA</it>
+        <ru>ВОЗНАГРАЖДЕНИЕ</ru>
+        <pt>RECOMPENSA</pt>
+</string>
+<string id="3x_reward">
+        <en>3X REWARD</en>
+        <es>RECOMPENSA 3X</es>
+        <de>3X BELOHNUNG</de>
+        <fr>RÉCOMPENSE 3X</fr>
+        <it>RICOMPENSA 3X</it>
+        <ru>3-КРАТНОЕ ВОЗНАГРАЖДЕНИЕ</ru>
+        <pt>3X RECOMPENSA</pt>
+</string>
+<string id="special_offer">
+        <en>SPECIAL OFFER!</en>
+        <es>OFERTA ESPECIAL</es>
+        <de>SONDERANGEBOT!</de>
+        <fr>OFitE SPÉCIALE !</fr>
+        <it>OFFERTA SPECIALE!</it>
+        <ru>СПЕЦИАЛЬНОЕ ПРЕДЛОЖЕНИЕ!</ru>
+        <pt>OFERTA ESPECIAL!</pt>
+</string>
+<string id="no_thanks">
+        <en>NO THANKS!</en>
+        <es>¡NO GRACIAS!</es>
+        <de>NEIN DANKE!</de>
+        <fr>NON MERCI !</fr>
+        <it>NO GRAZIE!</it>
+        <ru>НЕТ, СПАСИБО!</ru>
+        <pt>NÃO, OBRIGADO!</pt>
+</string>
+<string id="claim">
+        <en>CLAIM</en>
+        <es>RECLAMAR</es>
+        <de>FORDERN SIE</de>
+        <fr>RÉCLAMER</fr>
+        <it>RICHIESTA</it>
+        <ru>ЗАЯВКА</ru>
+        <pt>REIVINDICAÇÃO</pt>
+</string>
+
+
+
+    <!-- ...............  EMPTY ............... -->
+
+    <string id="">
+            <en></en>
+            <es></es>
+            <de></de>
+            <fr></fr>
+            <it></it>
+            <ru></ru>
+            <pt></pt>
+    </string>
+        
+    </strings>
+</stringresources>

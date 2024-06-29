@@ -1,0 +1,68 @@
+{"frames": [
+
+{
+	"filename": "daddy.png",
+	"frame": {"x":1,"y":273,"w":220,"h":251},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":220,"h":251},
+	"sourceSize": {"w":220,"h":251}
+},
+{
+	"filename": "largebutton.png",
+	"frame": {"x":1,"y":1,"w":178,"h":54},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":178,"h":54},
+	"sourceSize": {"w":178,"h":54}
+},
+{
+	"filename": "pause.png",
+	"frame": {"x":223,"y":273,"w":235,"h":371},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":235,"h":371},
+	"sourceSize": {"w":235,"h":371}
+},
+{
+	"filename": "play.png",
+	"frame": {"x":1,"y":61,"w":150,"h":66},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":150,"h":66},
+	"sourceSize": {"w":150,"h":66}
+},
+{
+	"filename": "smallbutton.png",
+	"frame": {"x":181,"y":1,"w":122,"h":54},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":54},
+	"sourceSize": {"w":122,"h":54}
+},
+{
+	"filename": "title.png",
+	"frame": {"x":1,"y":129,"w":484,"h":142},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":484,"h":142},
+	"sourceSize": {"w":484,"h":142}
+},
+{
+	"filename": "youneedmoney.png",
+	"frame": {"x":305,"y":1,"w":136,"h":58},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":136,"h":58},
+	"sourceSize": {"w":136,"h":58}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "objects.png",
+	"format": "RGBA8888",
+	"size": {"w":486,"h":645},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:ee6b4c40e1eaf2e461cfc6f48d53aa58:4a38a69ed48e902ec2159eb1e2f18e6e:8d6d12ff4d5234f2a4b19e0a906dbf52$"
+}
+}

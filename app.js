@@ -1,94 +1,244 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const bar = document.getElementById("sidebar");
-  const overflowMenu = document.getElementById("overflow-menu");
-  document.addEventListener("click", function () {
-    bar.classList.remove("movingbar");
-  });
-  document.addEventListener("click", (e) => {
-    if (e.target.classList.contains("shoot")) {
-      overflowMenu.classList.add("menu-slide");
-    } else {
-      overflowMenu.classList.remove("menu-slide");
-    }
-  });
-  document.addEventListener("mousemove", function (event) {
-    if (event.clientX <= 5 && bar.classList.contains("movingbar") !== true) {
-      bar.classList.add("movingbar");
-    }
-  });
+const bar = document.getElementById("sidebar");
+const overflowMenu = document.getElementById("overflow-menu");
+document.addEventListener("click", function () {
+  bar.classList.remove("movingbar");
+});
+document.addEventListener("click", (e) => {
+  if (e.target.classList.contains("shoot")) {
+    overflowMenu.classList.add("menu-slide");
+  } else {
+    overflowMenu.classList.remove("menu-slide");
+  }
+});
+document.addEventListener("mousemove", function (event) {
+  if (event.clientX <= 5 && bar.classList.contains("movingbar") !== true) {
+    bar.classList.add("movingbar");
+  }
 });
 
-document.addEventListener("DOMContentLoaded", function () {
-  let thing87638 = setInterval(() => {
-    let theme = localStorage.getItem("theme");
-    console.log(theme);
-    if (theme === "light") {
-      const root = document.documentElement;
-      root.style.setProperty("--link", "rgb(225, 139, 9)");
-      root.style.setProperty("--text-color", "black");
-      root.style.setProperty("--shadow-color", "0px 0px 5px rgb(84, 84, 84)");
-      root.style.setProperty("--black-color", "rgb(235, 235, 235)");
-      root.style.setProperty("--bg-color", "rgb(235, 235, 235)");
-      root.style.setProperty("--bg-color-2", "rgb(30, 30, 30)");
-      root.style.setProperty("--group-bg-color", "rgb(140, 140, 140, 0.7)");
-      root.style.setProperty("--bar-color", "rgb(200, 200, 200)");
-    } else if (theme === "deep") {
-      const root = document.documentElement;
-      root.style.setProperty("--text-color", "white");
-      root.style.setProperty("--link", "rgb(225, 139, 9)");
-      root.style.setProperty("--shadow-color", "0px 5px 5px rgb(25,25,25)");
-      root.style.setProperty("--black-color", "black");
-      root.style.setProperty("--bg-color", "black");
-      root.style.setProperty("--bg-color-2", "black");
-      root.style.setProperty("--group-bg-color", "black");
-      root.style.setProperty("--bar-color", "black");
-      root.style.setProperty("--border", "rgb(50,50,50)");
-    } else if (theme === "cyber") {
-      const root = document.documentElement;
-      root.style.setProperty("--link", "rgb(225, 139, 9)");
-      root.style.setProperty("--text-color", "white");
-      root.style.setProperty("--shadow-color", "0px 5px 5px #42053f");
-      root.style.setProperty("--black-color", "black");
-      root.style.setProperty("--bg-color", "#0b023a");
-      root.style.setProperty("--bg-color-2", "#ff00a0");
-      root.style.setProperty("--group-bg-color", "rgba(48, 4, 98, 0.7)");
-      root.style.setProperty("--bar-color", "#12827e");
-      root.style.setProperty("--border", "rgb(50,50,50)");
-    } else if (theme === "custom") {
-      const root = document.documentElement;
-      let first = localStorage.getItem("first");
-      let second = localStorage.getItem("second");
-      console.log(second);
-      document.documentElement.style.setProperty("--bg-color", first);
-      document.documentElement.style.setProperty("--bar-color", second);
-      document.documentElement.style.setProperty("--link", second);
-      document.documentElement.style.setProperty("--text-color", "white");
-      document.documentElement.style.setProperty("--black-color", "black");
-      root.style.setProperty("--shadow-color", "transparent");
-      root.style.setProperty("--bg-color-2", "white");
-      root.style.setProperty("--group-bg-color", second);
-    } else {
-      const root = document.documentElement;
-      root.style.setProperty("--text-color", "white");
-      root.style.setProperty("--link", "rgb(225, 139, 9)");
-      root.style.setProperty("--shadow-color", "transparent");
-      root.style.setProperty("--black-color", "black");
-      root.style.setProperty("--bg-color", "rgb(50, 50, 50)");
-      root.style.setProperty("--bg-color-2", "white");
-      root.style.setProperty("--group-bg-color", "rgba(40, 40, 40, 0.7)");
-      root.style.setProperty("--bar-color", "rgb(70, 70, 70)");
+//**Above is the universal code for every MacWeb JavaScript file**//
+
+const google = ["Google", "/macvg/media/google.png"];
+const canva = ["Home - Canva", "/macvg/media/canva.png"];
+const clever = ["Clever | Portal", "/macvg/media/clever.png"];
+const schoology = ["Home | Schoology", "/macvg/media/schoology.png"];
+const newTab = ["New Tab", "/macvg/media/new-tab.png"];
+
+function google1() {
+  localStorage.setItem("title", google);
+}
+
+function canva1() {
+  localStorage.setItem("title", canva);
+}
+
+function clever1() {
+  localStorage.setItem("title", clever);
+}
+
+function schoology1() {
+  localStorage.setItem("title", schoology);
+}
+
+function newTab1() {
+  localStorage.setItem("title", newTab);
+}
+
+function unCloak() {
+  const pageTon = document.querySelector(".cloak");
+  const favicon = document.querySelector(".favicon");
+  favicon.outerHTML = `<link class="favicon" rel="icon" type="image/x-icon" href="/macvg/media/logo.png" />`;
+  pageTon.innerHTML = "Settings | MacVG";
+  localStorage.setItem("title", "");
+}
+
+function panic() {
+  const button = document.getElementById("name2").value;
+  localStorage.setItem("panic", button);
+  let thing23 = document.getElementById("current");
+  let panicKeys = localStorage.getItem("panic");
+  let href = localStorage.getItem("href");
+  if (panicKeys && href) {
+    thing23.innerHTML =
+      `<div class="panickeys">` +
+      "<div>" +
+      "Current key: " +
+      panicKeys +
+      "</div>" +
+      "<div>" +
+      " Redirecting: " +
+      href +
+      "</div>" +
+      "</div>";
+  } else if (panicKeys) {
+    thing23.innerHTML =
+      `<div class="panickeys">` +
+      "<div>" +
+      "Current key: " +
+      panicKeys +
+      "</div>" +
+      "<div>" +
+      " Redirecting: https://google.com" +
+      "</div>" +
+      "</div>";
+  } else {
+    thing23.innerHTML =
+      `<div class="panickeys">` +
+      "<div>" +
+      "Current key: `" +
+      "</div>" +
+      "<div>" +
+      " Redirecting: https://google.com" +
+      "</div>" +
+      "</div>";
+  }
+}
+
+function url() {
+  const inputurl = document.getElementById("name3").value;
+  localStorage.setItem("href", "https://" + inputurl);
+  let thing23 = document.getElementById("current");
+  let panicKeys = localStorage.getItem("panic");
+  let href = localStorage.getItem("href");
+  if (panicKeys && href) {
+    thing23.innerHTML =
+      `<div class="panickeys">` +
+      "<div>" +
+      "Current key: " +
+      panicKeys +
+      "</div>" +
+      "<div>" +
+      " Redirecting: " +
+      href +
+      "</div>" +
+      "</div>";
+  } else if (panicKeys) {
+    thing23.innerHTML =
+      `<div class="panickeys">` +
+      "<div>" +
+      "Current key: " +
+      panicKeys +
+      "</div>" +
+      "<div>" +
+      " Redirecting: https://google.com" +
+      "</div>" +
+      "</div>";
+  } else {
+    thing23.innerHTML =
+      `<div class="panickeys">` +
+      "<div>" +
+      "Current key: `" +
+      "</div>" +
+      "<div>" +
+      " Redirecting: https://google.com" +
+      "</div>" +
+      "</div>";
+  }
+}
+
+function cloaking() {
+  const name = document.getElementById("name").value;
+  const favicon = document.querySelector(".favicon");
+  localStorage.title = name + "," + favicon.href;
+}
+
+function faviconing() {
+  const pageTon = document.querySelector(".cloak");
+  const favicon = document.querySelector(".favicon");
+  const faviSRC = document.getElementById("name4").value;
+  let thingy = [pageTon.innerHTML, faviSRC];
+  favicon.outerHTML = `<link class="favicon" rel="icon" type="image/x-icon" href="${faviSRC}" />`;
+  localStorage.setItem("title", thingy);
+}
+
+function changeName() {
+  if (localStorage.title !== "") {
+    const pageTon = document.querySelector(".cloak");
+    const favicon = document.querySelector(".favicon");
+    if (localStorage.title != null) {
+      let all = localStorage.getItem("title");
+      let alln = all.split(",");
+      let title = alln[0];
+      let image = alln[1];
+      pageTon.innerHTML = title;
+      favicon.outerHTML = `<link class="favicon" rel="icon" type="image/x-icon" href="${image}" />`;
     }
-  }, 100);
+  }
+}
+
+//Above are the codes for tab cloaker and panic key
+
+function updateTheme() {
+  let theme = localStorage.getItem("theme");
+  if (theme === "light") {
+    const root = document.documentElement;
+    root.style.setProperty("--link", "rgb(225, 139, 9)");
+    root.style.setProperty("--text-color", "black");
+    root.style.setProperty("--shadow-color", "0px 0px 5px rgb(84, 84, 84)");
+    root.style.setProperty("--black-color", "rgb(235, 235, 235)");
+    root.style.setProperty("--bg-color", "rgb(235, 235, 235)");
+    root.style.setProperty("--bg-color-2", "rgb(30, 30, 30)");
+    root.style.setProperty("--group-bg-color", "rgb(140, 140, 140, 0.7)");
+    root.style.setProperty("--bar-color", "rgb(200, 200, 200)");
+  } else if (theme === "deep") {
+    const root = document.documentElement;
+    root.style.setProperty("--text-color", "white");
+    root.style.setProperty("--link", "rgb(225, 139, 9)");
+    root.style.setProperty("--shadow-color", "0px 5px 5px rgb(25,25,25)");
+    root.style.setProperty("--black-color", "black");
+    root.style.setProperty("--bg-color", "black");
+    root.style.setProperty("--bg-color-2", "black");
+    root.style.setProperty("--group-bg-color", "black");
+    root.style.setProperty("--bar-color", "black");
+    root.style.setProperty("--border", "rgb(50,50,50)");
+  } else if (theme === "cyber") {
+    const root = document.documentElement;
+    root.style.setProperty("--link", "rgb(225, 139, 9)");
+    root.style.setProperty("--text-color", "white");
+    root.style.setProperty("--shadow-color", "0px 5px 5px #42053f");
+    root.style.setProperty("--black-color", "black");
+    root.style.setProperty("--bg-color", "#0b023a");
+    root.style.setProperty("--bg-color-2", "#ff00a0");
+    root.style.setProperty("--group-bg-color", "rgba(48, 4, 98, 0.7)");
+    root.style.setProperty("--bar-color", "#12827e");
+    root.style.setProperty("--border", "rgb(50,50,50)");
+  } else if (theme === "custom") {
+    const root = document.documentElement;
+    let first = localStorage.getItem("first");
+    let second = localStorage.getItem("second");
+    document.documentElement.style.setProperty("--bg-color", first);
+    document.documentElement.style.setProperty("--bar-color", second);
+    document.documentElement.style.setProperty("--link", second);
+    document.documentElement.style.setProperty("--text-color", "white");
+    document.documentElement.style.setProperty("--black-color", "black");
+    root.style.setProperty("--shadow-color", "transparent");
+    root.style.setProperty("--bg-color-2", "white");
+    root.style.setProperty("--group-bg-color", second);
+  } else {
+    const root = document.documentElement;
+    root.style.setProperty("--text-color", "white");
+    root.style.setProperty("--link", "rgb(225, 139, 9)");
+    root.style.setProperty("--shadow-color", "transparent");
+    root.style.setProperty("--black-color", "black");
+    root.style.setProperty("--bg-color", "rgb(50, 50, 50)");
+    root.style.setProperty("--bg-color-2", "white");
+    root.style.setProperty("--group-bg-color", "rgba(40, 40, 40, 0.7)");
+    root.style.setProperty("--bar-color", "rgb(70, 70, 70)");
+  }
+}
+
+function glowingTitle() {
   let hue = 0;
   const root = document.documentElement;
   setInterval(() => {
     hue = (hue + 3) % 360;
-    console.log(hue);
     root.style.setProperty("--f-t-color", `hsl(${hue}, 100%, 70%)`);
     root.style.setProperty("--s-t-color", `hsl(${hue + 60}, 100%, 70%)`);
     root.style.setProperty("--t-t-color", `hsl(${hue + 130}, 100%, 70%)`);
   }, 300);
+}
 
+function setGameNames() {
   const games = document.querySelectorAll(".game");
   games.forEach(function (game) {
     game.addEventListener("mouseover", function () {
@@ -96,38 +246,25 @@ document.addEventListener("DOMContentLoaded", function () {
       game.setAttribute("name", innerThing);
     });
   });
-  const random = document.getElementById("random");
+}
 
-  random.addEventListener("click", select);
-  const removeFavorites = document.getElementById("fvrbtn");
-  const list = document.getElementById("favoriteList");
-  removeFavorites.addEventListener("click", () => {
-    if (confirm("Are you sure you want to remove all your favorite games on MacVG?")){
-      list.style.display = "none";
-      localStorage.removeItem("favorites");
+function select() {
+  let list = document.getElementById("list");
+  let items = list.getElementsByTagName("a");
+  let itemsL = Array.from(items);
+  let r = Math.random();
+  let rw = Math.floor(r * 275);
+  let selected = items[rw];
+  itemsL.forEach(function (item) {
+    if (item.contains(selected)) {
+      let list = document.getElementById("randomList");
+      item.setAttribute("name", item.innerHTML);
+      item.style.paddingBlock = "10px";
+      list.innerHTML = item.outerHTML;
+    } else {
     }
-  })
-  function select() {
-    let list = document.getElementById("list");
-    let items = list.getElementsByTagName("a");
-    let itemsL = Array.from(items);
-    let r = Math.random();
-    let rw = Math.floor(r * 275);
-    let selected = items[rw];
-    itemsL.forEach(function (item) {
-      if (item.contains(selected)) {
-        let list = document.getElementById("randomList");
-        item.setAttribute("name", item.innerHTML);
-        item.style.paddingBlock = "10px";
-        list.innerHTML = item.outerHTML;
-
-        console.log(item);
-      } else {
-      }
-    });
-  }
-});
-
+  });
+}
 function gotIt() {
   const tip = document.querySelector(".tip");
   tip.style.display = "none";
@@ -159,3 +296,33 @@ function search() {
     }
   }
 }
+
+document.addEventListener("keydown", (event) => {
+  let panicKeys = localStorage.getItem("panic");
+  let href = localStorage.getItem("href");
+  if (panicKeys) {
+    if (href) {
+      let keys = panicKeys.split(",");
+      if (keys.length === 1 && event.key === keys[0]) {
+        window.location.href = href;
+      }
+    } else {
+      let href = "https://www.google.com";
+      let keys = panicKeys.split(",");
+      if (keys.length === 1 && event.key === keys[0]) {
+        window.location.href = href;
+      }
+    }
+  } else {
+    localStorage.setItem("panic", "`");
+    let keys = panicKeys.split(",");
+    if (keys.length === 1 && event.key === keys[0]) {
+      window.location.href = href;
+    }
+  }
+});
+
+setGameNames();
+changeName();
+updateTheme();
+glowingTitle();

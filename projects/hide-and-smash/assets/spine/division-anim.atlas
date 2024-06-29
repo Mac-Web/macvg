@@ -1,0 +1,153 @@
+
+division-anim.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+a1
+  rotate: false
+  xy: 485, 741
+  size: 212, 281
+  orig: 220, 289
+  offset: 4, 4
+  index: -1
+a2
+  rotate: true
+  xy: 485, 558
+  size: 181, 233
+  orig: 189, 241
+  offset: 4, 4
+  index: -1
+a3
+  rotate: false
+  xy: 2, 131
+  size: 422, 417
+  orig: 431, 425
+  offset: 5, 4
+  index: -1
+a4
+  rotate: false
+  xy: 2, 550
+  size: 481, 472
+  orig: 489, 480
+  offset: 4, 4
+  index: -1
+border_hider_1
+  rotate: false
+  xy: 426, 117
+  size: 163, 163
+  orig: 163, 163
+  offset: 0, 0
+  index: -1
+border_hider_1_key_L
+  rotate: true
+  xy: 699, 769
+  size: 87, 159
+  orig: 87, 159
+  offset: 0, 0
+  index: -1
+border_hider_1_key_R
+  rotate: true
+  xy: 2, 43
+  size: 86, 159
+  orig: 86, 159
+  offset: 0, 0
+  index: -1
+border_hider_2
+  rotate: true
+  xy: 426, 282
+  size: 266, 163
+  orig: 266, 163
+  offset: 0, 0
+  index: -1
+border_smash_1
+  rotate: false
+  xy: 860, 693
+  size: 162, 163
+  orig: 170, 171
+  offset: 4, 4
+  index: -1
+border_smash_1_hammer_L
+  rotate: true
+  xy: 163, 38
+  size: 91, 133
+  orig: 91, 133
+  offset: 0, 0
+  index: -1
+border_smash_1_hammer_R
+  rotate: false
+  xy: 720, 635
+  size: 91, 132
+  orig: 91, 132
+  offset: 0, 0
+  index: -1
+border_smash_2
+  rotate: false
+  xy: 699, 858
+  size: 273, 164
+  orig: 281, 172
+  offset: 4, 4
+  index: -1
+lingthning_1
+  rotate: true
+  xy: 591, 375
+  size: 181, 178
+  orig: 189, 186
+  offset: 4, 4
+  index: -1
+lingthning_2
+  rotate: false
+  xy: 591, 28
+  size: 180, 165
+  orig: 188, 173
+  offset: 4, 4
+  index: -1
+lingthning_3
+  rotate: false
+  xy: 813, 520
+  size: 176, 171
+  orig: 184, 179
+  offset: 4, 4
+  index: -1
+lingthning_4
+  rotate: false
+  xy: 771, 350
+  size: 176, 168
+  orig: 184, 176
+  offset: 4, 4
+  index: -1
+lingthning_border
+  rotate: false
+  xy: 773, 184
+  size: 164, 164
+  orig: 172, 172
+  offset: 4, 4
+  index: -1
+lingthning_glow
+  rotate: false
+  xy: 591, 195
+  size: 178, 178
+  orig: 186, 186
+  offset: 4, 4
+  index: -1
+star_b
+  rotate: true
+  xy: 2, 2
+  size: 39, 37
+  orig: 47, 45
+  offset: 4, 4
+  index: -1
+star_p
+  rotate: true
+  xy: 41, 2
+  size: 39, 37
+  orig: 47, 45
+  offset: 4, 4
+  index: -1
+star_w
+  rotate: true
+  xy: 80, 2
+  size: 39, 37
+  orig: 47, 45
+  offset: 4, 4
+  index: -1

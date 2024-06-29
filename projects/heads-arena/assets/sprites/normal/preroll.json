@@ -1,0 +1,100 @@
+{"frames": {
+
+"load-bar-bg":
+{
+	"frame": {"x":6,"y":6,"w":865,"h":84},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":865,"h":84},
+	"sourceSize": {"w":865,"h":84}
+},
+"load-bar":
+{
+	"frame": {"x":785,"y":97,"w":76,"h":84},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":84},
+	"sourceSize": {"w":76,"h":84}
+},
+"load-frame-left":
+{
+	"frame": {"x":785,"y":188,"w":53,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":97},
+	"sourceSize": {"w":53,"h":97}
+},
+"load-frame-middle":
+{
+	"frame": {"x":845,"y":188,"w":15,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":15,"h":97},
+	"sourceSize": {"w":15,"h":97}
+},
+"load-frame-right":
+{
+	"frame": {"x":556,"y":316,"w":53,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":53,"h":97},
+	"sourceSize": {"w":53,"h":97}
+},
+"logo":
+{
+	"frame": {"x":6,"y":420,"w":350,"h":330},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":350,"h":330},
+	"sourceSize": {"w":350,"h":330}
+},
+"play-more-balloon":
+{
+	"frame": {"x":6,"y":361,"w":343,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":343,"h":32},
+	"sourceSize": {"w":343,"h":32}
+},
+"poki-logo-main":
+{
+	"frame": {"x":556,"y":209,"w":206,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":51,"y":52,"w":206,"h":100},
+	"sourceSize": {"w":308,"h":204}
+},
+"poki-logo-mono":
+{
+	"frame": {"x":556,"y":97,"w":222,"h":105},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":222,"h":105},
+	"sourceSize": {"w":222,"h":105}
+},
+"poki-logo-small":
+{
+	"frame": {"x":769,"y":292,"w":87,"h":42},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":87,"h":42},
+	"sourceSize": {"w":88,"h":43}
+},
+"poki-logo":
+{
+	"frame": {"x":6,"y":97,"w":543,"h":257},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":543,"h":257},
+	"sourceSize": {"w":543,"h":257}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "preroll.png",
+	"format": "RGBA8888",
+	"size": {"w":877,"h":877},
+	"scale": "0.35",
+	"smartupdate": "$TexturePacker:SmartUpdate:e16885aef7adfcab6a882bbe58f5f5f8:f6aeffdd4e77bf43b960b5a54dde2c55:2847c32e49e7a0dcc74527bfc4556e0a$"
+}
+}

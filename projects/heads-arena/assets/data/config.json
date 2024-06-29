@@ -1,0 +1,59 @@
+{
+	"gameId"            : "slimesoccer",
+	"googleAnalyticsKey": "UA-69832175-7",
+	"flurryKey"         : null,
+	"renderer"          : "canvas",
+	"assetFolder"       : "assets",
+	"simpleCompile"     : true,
+
+	"forcedAssetType": null,
+	"assetTypes": {
+		"hd": {
+			"scale":  0.4,
+			"minRes": 1280
+		},
+		"normal": {
+			"scale": 0.35,
+			"minRes": 800,
+			"maxRes": 1280,
+			"desktop": false
+		},
+		"small": {
+			"scale": 0.3,
+			"maxRes": 800,
+			"desktop": false
+		}				
+	},
+
+	"forcedOrientation": "landscape",
+	"orientationSettings": {
+		"landscape": {
+			"workingHeight": 1920,
+			"minResolution": {
+				"width": 320,
+				"height": 240
+			},
+			"minRatio": 0.4375,
+			"maxRatio": 0.75
+		}
+	},
+
+	"pokiSDKVersions": {
+		"ads"      : "1.1.1",
+		"gameScore": "1.0.15"
+	},
+
+	"spriteSheets": [
+		"preroll",
+		"character",
+		"level",
+		"ui",
+		"teams",
+		"effects",
+		"icons"
+	],
+
+	"libraries": [],
+
+	"fonts": {}
+}

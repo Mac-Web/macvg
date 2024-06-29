@@ -1,0 +1,55 @@
+
+branka2.png
+size: 663,627
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back_web
+  rotate: false
+  xy: 209, 22
+  size: 207, 336
+  orig: 207, 336
+  offset: 0, 0
+  index: -1
+front_web
+  rotate: false
+  xy: 0, 0
+  size: 207, 358
+  orig: 207, 358
+  offset: 0, 0
+  index: -1
+gate_back
+  rotate: true
+  xy: 0, 360
+  size: 267, 451
+  orig: 267, 451
+  offset: 0, 0
+  index: -1
+gate_down_panel
+  rotate: true
+  xy: 418, 81
+  size: 79, 125
+  orig: 79, 125
+  offset: 0, 0
+  index: -1
+gate_front
+  rotate: false
+  xy: 453, 293
+  size: 210, 334
+  orig: 210, 334
+  offset: 0, 0
+  index: -1
+grass
+  rotate: false
+  xy: 512, 245
+  size: 71, 46
+  orig: 71, 46
+  offset: 0, 0
+  index: -1
+top_web
+  rotate: true
+  xy: 418, 162
+  size: 129, 92
+  orig: 129, 92
+  offset: 0, 0
+  index: -1

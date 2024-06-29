@@ -135,14 +135,14 @@ document.addEventListener("DOMContentLoaded", function () {
     let downloads = document.createElement("a");
     let favoritesound = document.createElement("button");
     favoritesound.innerHTML =
-      '<img src="/macvg/star-regular.svg" id="favoritesound" title="Favorite Sound">';
+      '<img src="/macvg/media/star-regular.svg" id="favoritesound" title="Favorite Sound">';
     favoritesound.classList.add("repeatbtn");
     favoritesound.style.marginRight = "51px";
     favoritesound.style.borderRadius = "5px 0px 0px 5px";
     let soundName = selement
       .getElementsByTagName("audio")[0]
       .getAttribute("src");
-    downloads.innerHTML = `<img src="/macvg/download.svg" title="Download Sound">`;
+    downloads.innerHTML = `<img src="/macvg/media/download.svg" title="Download Sound">`;
     downloads.setAttribute("href", soundName);
     downloads.setAttribute("target", "_blank");
     downloads.setAttribute("download", "");
@@ -221,7 +221,7 @@ function favorite() {
         game.style.display = "flex";
         game
           .querySelector("#favoritesound")
-          .setAttribute("src", "/macvg/star-solid.svg");
+          .setAttribute("src", "/macvg/media/star-solid.svg");
       }
     });
   });

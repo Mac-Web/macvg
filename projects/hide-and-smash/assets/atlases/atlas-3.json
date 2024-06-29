@@ -1,0 +1,63 @@
+{
+  "frames": {
+    "ui/shop_screen/skin_icon_hidder/mushroom": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 209,
+        "h": 209
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 209,
+        "h": 209
+      },
+      "sourceSize": {
+        "w": 209,
+        "h": 209
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "ui/searching_screen/border_smash_hammer_right": {
+      "frame": {
+        "x": 2,
+        "y": 215,
+        "w": 162,
+        "h": 234
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 162,
+        "h": 234
+      },
+      "sourceSize": {
+        "w": 162,
+        "h": 234
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://github.com/odrick/free-tex-packer-core",
+    "version": "0.3.4",
+    "image": "atlas-3.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 213,
+      "h": 451
+    },
+    "scale": 1
+  }
+}

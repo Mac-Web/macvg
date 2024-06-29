@@ -1,0 +1,54 @@
+{
+  "name": "Little Alchemy 2",
+  "short_name": "Alchemy 2",
+  "description": "Combine items and create the world from scratch! Fun as always, more exciting than ever! Little Alchemy returns in style!",
+  "lang": "en-US",
+  "icons": [
+    {
+        "src": "/public/icons/icon-48x48.png",
+        "sizes": "48x48"
+    },
+    {
+        "src": "/public/icons/icon-72x72.png",
+        "sizes": "72x72"
+    },
+    {
+        "src": "/public/icons/icon-128x128.png",
+        "sizes": "128x128"
+    },
+    {
+        "src": "/public/icons/icon-144x144.png",
+        "sizes": "144x144"
+    },
+    {
+        "src": "/public/icons/icon-192x192.png",
+        "sizes": "192x192"
+    },
+    {
+        "src": "/public/icons/icon-256x256.png",
+        "sizes": "256x256"
+    },
+    {
+        "src": "/public/icons/icon-512x512.png",
+        "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#380028",
+  "theme_color": "#faa620",
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.recloak.littlealchemy2",
+      "id": "com.recloak.littlealchemy2"
+    },
+    {
+      "platform": "itunes",
+      "url": "https://itunes.apple.com/app/little-alchemy/id1214190989"
+    }
+  ],
+  "display": "fullscreen",
+  "orientation": "any",
+  "gcm_sender_id": "103953800507"
+}

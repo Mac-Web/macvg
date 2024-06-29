@@ -1,0 +1,1008 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html id="alldahtml" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <audio id="channel1" volume="0.1" autoplay></audio>
+    <audio id="channel2" volume="0.1" autoplay></audio>
+    <audio id="channel3" volume="0.1" autoplay></audio>
+    <audio id="channel4" volume="0.1" autoplay></audio>
+    <audio id="channelambient" volume="0.1" loop autoplay></audio>
+    <audio id="channelambient2" volume="0.1" loop autoplay></audio>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="title">Five Nights at Freddy's | MacVG</title>
+    <script>
+      // select the target node
+      var target = document.querySelector("title");
+
+      // create an observer instance
+      var observer = new MutationObserver(function (mutations) {
+        // We need only first event and only new value of the title
+        console.trace(mutations[0].target.nodeValue);
+      });
+
+      // configuration of the observer:
+      var config = { subtree: true, characterData: true, childList: true };
+
+      // pass in the target node, as well as the observer options
+      observer.observe(target, config);
+    </script>
+    <script src="jquery.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="feed.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen and (max-device-width: 1920px)"
+      href="1080.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen and (max-device-width: 640px)"
+      href="640.css"
+    />
+    <script src="v3-api.js"></script>
+  </head>
+  <body id="mainbody">
+    <video
+      id="gameoverstaticimg"
+      style="
+        position: absolute;
+        opacity: 2;
+        zoom: 2;
+        display: none;
+        z-index: 999;
+      "
+      src="graphics/camera/static_test5.webm"
+      loop
+      hidecontrols
+      preload
+    ></video>
+    <div
+      id="amduatlogo"
+      style="
+        position: absolute;
+        opacity: 0;
+        width: 34.94%;
+        height: 42.22%;
+        background-image: url('graphics/logo.png');
+        background-size: 100% 100%;
+        left: 31.5%;
+        top: 32%;
+      "
+    ></div>
+    <img
+      id="transistionanimation"
+      style="
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 300;
+        display: none;
+      "
+      src="graphics/transition/0.webp"
+    />
+    <div
+      id="nightover"
+      style="
+        position: absolute;
+        display: none;
+        top: 36.94%;
+        left: 44.92%;
+        z-index: 211;
+        width: 125px;
+        height: 145px;
+      "
+    >
+      <img
+        id="nightoverbg"
+        src="graphics/nightover.png"
+        style="position: absolute; z-index: 5"
+      />
+      <img
+        id="nightover5"
+        src="graphics/camera/ui/time5.png"
+        style="position: absolute; z-index: -5; left: 5%; top: 60px"
+      />
+      <img
+        id="nightover6"
+        src="graphics/camera/ui/time6.png"
+        style="position: absolute; z-index: -5; left: 5%; top: 108px"
+      />
+      <img
+        id="nightoveram"
+        src="graphics/camera/ui/timeAM.png"
+        style="position: absolute; right: 5%; top: 60px"
+      />
+    </div>
+    <div
+      id="gameover"
+      style="position: absolute; width: 100%; height: 100%; display: none"
+    >
+      <img
+        src="graphics/gameover/gameoverimg.webp"
+        style="position: absolute; width: 100%; height: 100%"
+      />
+      <img
+        src="graphics/gameover/gameover.png"
+        style="position: absolute; z-index: 210; right: 1%; bottom: 1%"
+      />
+    </div>
+    <div
+      id="newgamebg"
+      style="
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 99999;
+        display: none;
+      "
+    >
+      <img
+        src="graphics/newgame.webp"
+        style="position: absolute; width: 100%; height: 100%"
+      />
+    </div>
+    <div
+      id="mainmenu"
+      style="position: absolute; width: 100%; height: 100%; display: none"
+    >
+      <img id="achievement1" style="left: 10%" />
+      <img id="achievement2" style="left: 14%" />
+      <img id="achievement3" style="left: 18%" />
+      <img
+        src="graphics/fnaflogo.png"
+        style="
+          position: absolute;
+          left: 10%;
+          top: 10%;
+          width: 19.5%;
+          height: 31%;
+          image-rendering: pixelated;
+        "
+      />
+      <img
+        src="graphics/copyright.png"
+        style="position: absolute; right: 40px; bottom: 10px"
+      />
+
+      <img
+        id="newbutton"
+        src="graphics/mainmenu/newgame.png"
+        onclick="newgame()"
+        onmouseover="updateselectedmenuitem(this)"
+        style="
+          position: absolute;
+          left: 10%;
+          top: 57%;
+          width: 12.572916%;
+          height: 4.5%;
+          image-rendering: pixelated;
+        "
+      />
+      <img
+        id="continuebutton"
+        src="graphics/mainmenu/continue.png"
+        onmouseover="updateselectedmenuitem(this)"
+        onclick="loadgame2()"
+        style="
+          position: absolute;
+          left: 10%;
+          top: 65%;
+          width: 12.572916%;
+          height: 4.5%;
+          display: none;
+          image-rendering: pixelated;
+        "
+      />
+      <img
+        id="continuebuttonnight"
+        src="graphics/mainmenu/littletext/night.png"
+        onmouseover=""
+        onclick=""
+        style="
+          position: absolute;
+          left: 10%;
+          top: 71%;
+          width: 4%;
+          height: 2%;
+          display: none;
+          image-rendering: pixelated;
+        "
+      />
+      <img
+        id="6thnight"
+        src="graphics/mainmenu/6thnight.png"
+        onmouseover="updateselectedmenuitem(this)"
+        onclick="loadgame(true)"
+        style="
+          position: absolute;
+          left: 10%;
+          top: 75%;
+          width: 12.572916%;
+          height: 5.5%;
+          display: none;
+          image-rendering: pixelated;
+        "
+      />
+      <img
+        id="customnight"
+        src="graphics/mainmenu/customnight.png"
+        onmouseover="updateselectedmenuitem(this)"
+        onclick="customizenight()"
+        style="
+          position: absolute;
+          left: 10%;
+          top: 83%;
+          width: 13.572916%;
+          height: 5.5%;
+          display: none;
+          image-rendering: pixelated;
+        "
+      />
+      <img
+        id="continuebuttonnightnumber"
+        src="graphics/mainmenu/littletext/2.png"
+        onmouseover=""
+        onclick=""
+        style="
+          position: absolute;
+          left: 14.5%;
+          top: 70.5%;
+          width: 1%;
+          height: 2.9%;
+          display: none;
+          image-rendering: pixelated;
+        "
+      />
+      <img
+        id="selectedarrows"
+        src="graphics/mainmenu/selected.png"
+        style="
+          position: absolute;
+          left: 6%;
+          top: 57.5%;
+          width: 3.24%;
+          height: 3.407%;
+          image-rendering: pixelated;
+        "
+      />
+      <img
+        id="mainmenufazbearanim"
+        src="graphics/mainmenu/0.webp"
+        style="
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          width: 100%;
+          height: 100%;
+          z-index: -5;
+        "
+      />
+      <video
+        id="mainmenustaticimg"
+        style="
+          position: absolute;
+          opacity: 0.3;
+          z-index: -5;
+          zoom: 2;
+          image-rendering: pixelated;
+        "
+        src="graphics/camera/static_test5.webm"
+        autoplay
+        loop
+        hidecontrols
+        preload
+      ></video>
+    </div>
+    <div
+      id="night7interface"
+      style="position: absolute; width: 100%; height: 100%; display: none"
+    >
+      <img
+        id="title"
+        src="graphics/mainmenu/customnight/text/title.png"
+        style="
+          position: absolute;
+          left: 40%;
+          top: 4%;
+          width: 20%;
+          height: 4.07%;
+        "
+      />
+      <img
+        id="arrowleft"
+        onclick="updatedifficulty('freddy',false)"
+        style="position: absolute; left: 10%; top: 57%"
+      />
+      <img
+        id="freddyname"
+        src="graphics/mainmenu/customnight/text/freddy.png"
+        style="
+          position: absolute;
+          left: 11.2%;
+          top: 25%;
+          width: 7.76%;
+          height: 4.07%;
+        "
+      />
+      <img
+        id="freddynight7"
+        src="graphics/mainmenu/customnight/freddy.png"
+        style="
+          position: absolute;
+          left: 10%;
+          top: 30%;
+          width: 10.42%;
+          height: 18.52%;
+        "
+      />
+      <img
+        id="arrowright"
+        onclick="updatedifficulty('freddy',true)"
+        style="position: absolute; left: 18.5%; top: 57%"
+      />
+      <img
+        id="freddydifficulty0"
+        src="graphics/mainmenu/customnight/text/2.png"
+        style="
+          position: absolute;
+          left: 13%;
+          top: 56%;
+          width: 1.82%;
+          height: 6.94%;
+        "
+      />
+      <img
+        id="freddydifficulty1"
+        src="graphics/mainmenu/customnight/text/0.png"
+        style="
+          position: absolute;
+          left: 15%;
+          top: 56%;
+          width: 1.82%;
+          height: 6.94%;
+        "
+      />
+      <img
+        id="ailevel"
+        src="graphics/mainmenu/customnight/ailevel.png"
+        style="
+          position: absolute;
+          left: 10.2%;
+          top: 50.5%;
+          width: 9.76%;
+          height: 4.5%;
+        "
+      />
+      <img
+        id="arrowleft"
+        onclick="updatedifficulty('bunny',false)"
+        style="position: absolute; left: 32.5%; top: 57%"
+      />
+      <img
+        id="bunnyname"
+        src="graphics/mainmenu/customnight/text/bonnie.png"
+        style="
+          position: absolute;
+          left: 33.9%;
+          top: 25%;
+          width: 7.76%;
+          height: 4.07%;
+        "
+      />
+      <img
+        id="bunnynight7"
+        src="graphics/mainmenu/customnight/bunny.png"
+        style="
+          position: absolute;
+          left: 32.5%;
+          top: 30%;
+          width: 10.42%;
+          height: 18.52%;
+        "
+      />
+      <img
+        id="arrowright"
+        onclick="updatedifficulty('bunny',true)"
+        style="position: absolute; left: 41.5%; top: 57%"
+      />
+      <img
+        id="bunnydifficulty0"
+        src="graphics/mainmenu/customnight/text/2.png"
+        style="
+          position: absolute;
+          left: 36%;
+          top: 56%;
+          width: 1.82%;
+          height: 6.94%;
+        "
+      />
+      <img
+        id="bunnydifficulty1"
+        src="graphics/mainmenu/customnight/text/0.png"
+        style="
+          position: absolute;
+          left: 38%;
+          top: 56%;
+          width: 1.82%;
+          height: 6.94%;
+        "
+      />
+      <img
+        id="ailevel"
+        src="graphics/mainmenu/customnight/ailevel.png"
+        style="
+          position: absolute;
+          left: 33%;
+          top: 50.5%;
+          width: 9.76%;
+          height: 4.5%;
+        "
+      />
+      <img
+        id="arrowleft"
+        src="graphics/mainmenu/customnight/arrowleft.png"
+        onclick="updatedifficulty('chica',false)"
+        style="position: absolute; left: 55%; top: 57%"
+      />
+      <img
+        id="chicaname"
+        src="graphics/mainmenu/customnight/text/chica.png"
+        style="
+          position: absolute;
+          left: 56.3%;
+          top: 25%;
+          width: 7.76%;
+          height: 4.07%;
+        "
+      />
+      <img
+        id="chicanight7"
+        src="graphics/mainmenu/customnight/chica.png"
+        style="
+          position: absolute;
+          left: 55%;
+          top: 30%;
+          width: 10.42%;
+          height: 18.52%;
+        "
+      />
+      <img
+        id="arrowright"
+        src="graphics/mainmenu/customnight/arrowright.png"
+        onclick="updatedifficulty('chica',true)"
+        style="position: absolute; left: 63.5%; top: 57%"
+      />
+      <img
+        id="chicadifficulty0"
+        src="graphics/mainmenu/customnight/text/2.png"
+        style="
+          position: absolute;
+          left: 58.3%;
+          top: 56%;
+          width: 1.82%;
+          height: 6.94%;
+        "
+      />
+      <img
+        id="chicadifficulty1"
+        src="graphics/mainmenu/customnight/text/0.png"
+        style="
+          position: absolute;
+          left: 60.3%;
+          top: 56%;
+          width: 1.82%;
+          height: 6.94%;
+        "
+      />
+      <img
+        id="ailevel"
+        src="graphics/mainmenu/customnight/ailevel.png"
+        style="
+          position: absolute;
+          left: 55.35%;
+          top: 50.5%;
+          width: 9.76%;
+          height: 4.5%;
+        "
+      />
+      <img
+        id="arrowleft"
+        onclick="updatedifficulty('foxxy',false)"
+        style="position: absolute; left: 77.5%; top: 57%"
+      />
+      <img
+        id="foxxyname"
+        src="graphics/mainmenu/customnight/text/foxy.png"
+        style="
+          position: absolute;
+          left: 78.7%;
+          top: 25%;
+          width: 7.76%;
+          height: 4.07%;
+        "
+      />
+      <img
+        id="foxxynight7"
+        src="graphics/mainmenu/customnight/foxxy.png"
+        style="
+          position: absolute;
+          left: 77.5%;
+          top: 30%;
+          width: 10.42%;
+          height: 18.52%;
+        "
+      />
+      <img
+        id="arrowright"
+        onclick="updatedifficulty('foxxy',true)"
+        style="position: absolute; left: 86.2%; top: 57%"
+      />
+      <img
+        id="foxxydifficulty0"
+        src="graphics/mainmenu/customnight/text/2.png"
+        style="
+          position: absolute;
+          left: 81%;
+          top: 56%;
+          width: 1.82%;
+          height: 6.94%;
+        "
+      />
+      <img
+        id="foxxydifficulty1"
+        src="graphics/mainmenu/customnight/text/0.png"
+        style="
+          position: absolute;
+          left: 83%;
+          top: 56%;
+          width: 1.82%;
+          height: 6.94%;
+        "
+      />
+      <img
+        id="ailevel"
+        src="graphics/mainmenu/customnight/ailevel.png"
+        style="
+          position: absolute;
+          left: 77.8%;
+          top: 50.5%;
+          width: 9.76%;
+          height: 4.5%;
+        "
+      />
+      <img
+        id="ready"
+        src="graphics/mainmenu/customnight/text/ready.png"
+        onclick="loadroomImages();loadEverythingElse();"
+        style="position: absolute; right: 15%; bottom: 5%"
+      />
+      <img
+        id="difficultyhelp"
+        src="graphics/mainmenu/customnight/text/difficulty.png"
+        style="
+          position: absolute;
+          left: 7.2%;
+          bottom: 5%;
+          width: 47.81%;
+          height: 4.69%;
+        "
+      />
+    </div>
+    <div id="body" style="display: none">
+      <img
+        id="camerafeedanimation"
+        style="
+          width: 100%;
+          height: 100%;
+          position: fixed;
+          z-index: 200;
+          display: none;
+        "
+        src="graphics/camera/camerafeedanimation/0.webp"
+      />
+      <div id="camerafeed" class="main" style="display: none">
+        <img
+          id="room"
+          style="width: 129%; height: 129%; position: fixed; top: -16%"
+          class="roomtest"
+          src="graphics/rooms/1a/0.webp"
+        />
+        <img
+          id="record"
+          src="graphics/camera/record.png"
+          style="position: absolute; left: 70px; top: 45px; z-index: 210"
+        />
+        <div id="static" class="static">
+          <video
+            id="staticimg"
+            src="graphics/camera/static_test5.webm"
+            autoplay
+            loop
+            hidecontrols
+            preload
+          ></video>
+        </div>
+        <div id="camera" class="camera"></div>
+
+        <img
+          id="cameradisabled"
+          src="graphics/camera/ui/cameradisabled.png"
+          style="
+            position: absolute;
+            left: 40.6%;
+            top: 10%;
+            display: none;
+            width: 19.32%;
+            height: 5%;
+            z-index: 210;
+          "
+        />
+        <img
+          id="outline"
+          src="graphics/camera/outline.png"
+          style="position: absolute; width: 99.5%; height: 99.5%; z-index: 101"
+        />
+        <div id="map" class="map">
+          <img id="mapimg" src="graphics/camera/map.png" />
+          <img
+            id="roomname"
+            style="position: absolute; top: -10%; left: 17%; z-index: 210"
+            src="graphics/camera/roomnames/1a.webp"
+          />
+          <a name="button-1a" id="button-1a"
+            ><img
+              name="button-1a"
+              id="1a"
+              src="graphics/camera/mapbuttons/1a.png"
+          /></a>
+          <a name="button-1b" id="button-1b"
+            ><img
+              name="button-1b"
+              id="1b"
+              src="graphics/camera/mapbuttons/1b.png"
+          /></a>
+          <a name="button-1b" id="button-1c"
+            ><img
+              name="button-1c"
+              id="1c"
+              src="graphics/camera/mapbuttons/1c.png"
+          /></a>
+          <a name="button-2a" id="button-2a"
+            ><img
+              name="button-2a"
+              id="2a"
+              src="graphics/camera/mapbuttons/2a.png"
+          /></a>
+          <a name="button-2b" id="button-2b"
+            ><img
+              name="button-2b"
+              id="2b"
+              src="graphics/camera/mapbuttons/2b.png"
+          /></a>
+          <a name="button-5" id="button-5"
+            ><img name="button-5" id="5" src="graphics/camera/mapbuttons/5.png"
+          /></a>
+          <a name="button-7" id="button-7"
+            ><img name="button-7" id="7" src="graphics/camera/mapbuttons/7.png"
+          /></a>
+          <a name="button-3" id="button-3"
+            ><img name="button-3" id="3" src="graphics/camera/mapbuttons/3.png"
+          /></a>
+          <a name="button-4a" id="button-4a"
+            ><img
+              name="button-4a"
+              id="4a"
+              src="graphics/camera/mapbuttons/4a.png"
+          /></a>
+          <a name="button-4b" id="button-4b"
+            ><img
+              name="button-4b"
+              id="4b"
+              src="graphics/camera/mapbuttons/4b.png"
+          /></a>
+          <a name="button-6" id="button-6"
+            ><img name="button-6" id="6" src="graphics/camera/mapbuttons/6.png"
+          /></a>
+        </div>
+      </div>
+      <div id="office" style="position: fixed; width: 122%; height: 100%">
+        <div
+          id="officemain"
+          src=""
+          style="
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-image: url('graphics/rooms/office/0.webp');
+            background-size: 100% 100%;
+          "
+        >
+          <div
+            id="doorbuttonsleft"
+            style="
+              position: absolute;
+              left: 0%;
+              top: 40%;
+              background-image: url('graphics/rooms/office/buttons/buttonleft_1.webp');
+              background-size: 100% 100%;
+              z-index: 200;
+              width: 5%;
+              height: 30%;
+            "
+          >
+            <img
+              id="doorbuttonsleft_door"
+              src="graphics/rooms/office/cameraposition.webp"
+              style="
+                position: absolute;
+                left: 30%;
+                top: 21%;
+                width: 47%;
+                height: 58px;
+                z-index: 201;
+              "
+            />
+            <img
+              id="doorbuttonsleft_light"
+              src="graphics/rooms/office/cameraposition.webp"
+              style="
+                position: absolute;
+                left: 30%;
+                top: 53%;
+                width: 47%;
+                height: 58px;
+                z-index: 201;
+              "
+            />
+          </div>
+          <div
+            id="doorbuttonsright"
+            style="
+              position: absolute;
+              right: 1.1%;
+              top: 40%;
+              background-image: url('graphics/rooms/office/buttons/buttonright_1.webp');
+              background-size: 100% 100%;
+              z-index: 200;
+              width: 5%;
+              height: 30%;
+            "
+          >
+            <img
+              id="doorbuttonsright_door"
+              src="graphics/rooms/office/cameraposition.webp"
+              style="
+                position: absolute;
+                right: 30%;
+                top: 21%;
+                width: 47%;
+                height: 58px;
+                z-index: 201;
+              "
+            />
+            <img
+              id="doorbuttonsright_light"
+              src="graphics/rooms/office/cameraposition.webp"
+              style="
+                position: absolute;
+                right: 30%;
+                top: 53%;
+                width: 47%;
+                height: 58px;
+                z-index: 201;
+              "
+            />
+          </div>
+        </div>
+        <img
+          id="fan"
+          src="graphics/rooms/office/fan_1.webp"
+          style="
+            position: absolute;
+            width: 8.7%;
+            height: 27%;
+            left: 48.7%;
+            top: 42.35%;
+          "
+        />
+        <img
+          id="doorleft"
+          src="graphics/rooms/office/doors/left/0.webp"
+          style="
+            position: absolute;
+            left: 4.5%;
+            top: 0%;
+            z-index: 100;
+            width: 15%;
+            height: 100%;
+          "
+        />
+        <img
+          id="doorright"
+          src="graphics/rooms/office/doors/right/0.webp"
+          style="
+            position: absolute;
+            right: 4.5%;
+            top: 0%;
+            z-index: 180;
+            width: 15%;
+            height: 100%;
+          "
+        />
+      </div>
+    </div>
+    <img
+      id="officecameraright"
+      src="graphics/rooms/office/cameraposition.webp"
+      style="position: absolute; width: 10%; height: 100%; right: 0px"
+    />
+    <img
+      id="officecameraleft"
+      src="graphics/rooms/office/cameraposition.webp"
+      style="position: absolute; width: 10%; height: 100%; left: 0px"
+    />
+    <img
+      id="openclosecamera"
+      src="graphics/camera/openclosecamera.png"
+      style="
+        position: absolute;
+        bottom: 35px;
+        right: 10%;
+        z-index: 106;
+        display: none;
+        width: 31.25%;
+        height: 6.55%;
+      "
+    />
+    <div
+      id="timekeeper"
+      style="position: absolute; right: 70px; top: 45px; display: none"
+    >
+      <img
+        id="timehour"
+        src="graphics/camera/ui/time1.png"
+        style="position: absolute; top: 1px; right: 100px"
+      />
+      <img
+        id="timehourextra"
+        src="graphics/camera/ui/time2.png"
+        style="position: absolute; right: 70px"
+      />
+      <img id="timeAM" src="graphics/camera/ui/timeAM.png" style="" />
+      <img
+        id="timenight"
+        src="graphics/camera/ui/night.png"
+        style="position: absolute; right: 50px; top: 54px"
+      />
+      <img
+        id="timenightnumber"
+        src="graphics/camera/ui/1.png"
+        style="position: absolute; left: 20px; top: 44px"
+      />
+    </div>
+    <div
+      id="power"
+      style="
+        position: absolute;
+        left: 9%;
+        top: 77%;
+        display: none;
+        width: 45%;
+        height: 25%;
+      "
+    >
+      <img
+        id="powerleft"
+        src="graphics/camera/powerleft.png"
+        style="vertical-align: middle"
+      />
+      <img
+        id="numberone"
+        src="graphics/camera/ui/powernumbers/1.png"
+        style="vertical-align: middle; zoom: 0.7"
+      /><img
+        id="numbertwo"
+        src="graphics/camera/ui/powernumbers/0.png"
+        style="vertical-align: middle; zoom: 0.7"
+      /><img
+        id="numberthree"
+        src="graphics/camera/ui/powernumbers/0.png"
+        style="vertical-align: middle; zoom: 0.7"
+      />
+      <img
+        id="numberpercent"
+        src="graphics/camera/ui/powernumbers/percent.png"
+        style="vertical-align: text-bottom; zoom: 0.7"
+      /><br /><br />
+      <img
+        id="powerword"
+        src="graphics/camera/powerusage.png"
+        style="vertical-align: middle"
+      />
+      <img
+        id="powerusage"
+        src="graphics/camera/power1.png"
+        style="vertical-align: middle"
+      />
+    </div>
+    <img
+      id="loadingicon"
+      src="graphics/loadingicon.png"
+      style="
+        position: absolute;
+        z-index: 210;
+        left: 44.08%;
+        bottom: 50%;
+        display: none;
+        height: 8.98%;
+        width: 11.82%;
+      "
+    />
+    <div
+      id="debuginfo"
+      style="
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        display: block;
+        z-index: 6000;
+        color: #ffffff;
+      "
+    ></div>
+    <div
+      id="debugmode"
+      style="
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        display: block;
+        z-index: 6000;
+        color: #ffffff;
+        font-family: 'Courier New', Courier, monospace;
+      "
+    ></div>
+    <script src="script/debug.js" type="text/javascript"></script>
+    <script src="script/SeamlessLoop.js" type="text/javascript"></script>
+    <script src="script/ScriptLoader.js" type="text/javascript"></script>
+    <script>
+      if (BUILD_TARGET == "NW.JS") {
+        require("nw.gui")
+          .Window.get()
+          .evalNWBin(null, "script/SeamlessLoop.js.bin");
+        require("nw.gui")
+          .Window.get()
+          .evalNWBin(null, "script/variables.js.bin");
+        require("nw.gui").Window.get().evalNWBin(null, "script/loading.js.bin");
+        require("nw.gui")
+          .Window.get()
+          .evalNWBin(null, "script/jquery.timer.js.js.bin");
+        require("nw.gui").Window.get().evalNWBin(null, "script/ui.js.bin");
+        require("nw.gui").Window.get().evalNWBin(null, "script/sound.js.bin");
+        require("nw.gui").Window.get().evalNWBin(null, "script/ai.js.bin");
+        require("nw.gui").Window.get().evalNWBin(null, "script/save.js.bin");
+        require("nw.gui")
+          .Window.get()
+          .evalNWBin(null, "script/animation.js.bin");
+        require("nw.gui").Window.get().evalNWBin(null, "script/main.js.bin");
+      } else if (BUILD_TARGET == "HTML") {
+        Loader.load("script/variables.js", function () {
+          Loader.load("script/loading.js", function () {
+            Loader.load("script/jquery.timer.js", function () {
+              Loader.load("script/ui.js", function () {
+                Loader.load("script/sound.js", function () {
+                  Loader.load("script/ai.js", function () {
+                    Loader.load("script/save.js", function () {
+                      Loader.load("script/animation.js", function () {
+                        Loader.load("script/main.js");
+                      });
+                    });
+                  });
+                });
+              });
+            });
+          });
+        });
+      }
+    </script>
+  </body>
+</html>

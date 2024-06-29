@@ -15,28 +15,12 @@
 
       gtag("config", "G-Y71QM9DR66");
     </script>
-    <title class="cloak">Home | MacVG</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <script src="search.js"></script>
-
+    <title class="cloak">Home | MacVG</title>
     <link class="favicon" rel="icon" type="image/x-icon" href="/logo.png" />
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <script src="cloak.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
-    />
-    <script src="/macvg/app.js"></script>
-    <script src="/macvg/modes.js"></script>
-    <link rel="stylesheet" href="games.css">
+    <link rel="stylesheet" href="games.css" />
   </head>
   <body>
     <div class="overflow-menu shoot" id="overflow-menu">
@@ -49,14 +33,14 @@
     </div>
     <nav class="nav" id="nav">
       <div class="overflowm shoot" id="overflowm">
-        <img src="bars-solid.svg" alt="Menu" class="shoot" />
+        <img src="media/bars-solid.svg" alt="Menu" class="shoot" />
       </div>
       <a
         href="/macvg/"
         class="logo2"
         style="background-color: var(--black-color)"
       >
-        <img src="/macvg/macvg-logo.png" alt="MacVG Logo" />
+        <img src="/macvg/media/macvg-logo.png" alt="MacVG Logo" />
         <a href="new.html" class="nav-link">New</a></a
       ><a href="trending.html" class="nav-link">Trending</a
       ><a href="groups.html" class="nav-link">Groups</a
@@ -98,20 +82,14 @@
     </nav>
     <div class="announce">
       <h2>
-        The
-        <a href="/macblog/updates/macvg/2024/june.html" target="_blank"
-          >MacVG June Update</a
+        New games, new features, and more! Check out the
+        <a href="/macblog/updates/macvg/2024/july.html" target="_blank"
+          >MacVG July Update</a
         >
-        is here! New games, Side Search, and more 🔎!
+        🔥!
         <img src="/maclearn/xmark-solid.svg" alt="X" id="closea" />
       </h2>
     </div>
-    <script>
-      let clos = document.getElementById("closea");
-      if (localStorage.getItem("macvgcloseeeeee")) {
-        clos.parentElement.parentElement.style.display = "none";
-      }
-    </script>
     <div class="macsidebar" id="sidebar">
       <a href="/"><img src="/logo.png" alt="" /></a>
       <a href="/macideas/"><img src="/MacIdeas Logo.png" alt="" /></a>
@@ -124,7 +102,16 @@
       <header class="homeheader">
         <div class="title" name="Welcome to MacVG!">Welcome to MacVG!</div>
         <div class="sub">
-          <b style="font-size: 23px; margin-bottom: 15px; display: block; font-style: italic;">Fun, redefined:</b> Hundreds of games, countless features, endless play!
+          <b
+            style="
+              font-size: 23px;
+              margin-bottom: 15px;
+              display: block;
+              font-style: italic;
+            "
+            >Fun, redefined:</b
+          >
+          Hundreds of games, countless features, endless play!
         </div>
       </header>
       <div class="functions" id="functions">
@@ -133,7 +120,7 @@
           id="searchInput"
           oninput="search()"
           autocomplete="off"
-          placeholder="Search 320+ Games"
+          placeholder="Search 350+ Games"
         /><button class="random" id="random" title="Random Game Selector">
           🎲
         </button>
@@ -144,21 +131,10 @@
           style="position: absolute; top: 0; right: 0"
           title="Clear Favorites"
         >
-          <img src="trash-solid.svg" />
+          <img src="media/trash-solid.svg" />
         </button>
       </div>
       <div class="games-container" id="randomList"></div>
-      <script>
-        if (
-          localStorage.getItem("favorites") === "bruh" ||
-          localStorage.getItem("favorites") === null
-        ) {
-          const favoriteList = document.getElementById("favoriteList");
-          favoriteList.style.display = "none";
-          localStorage.setItem("favorites", "bruh");
-        }
-      </script>
-      <script src="/macvg/random.js"></script>
       <div class="games-container" id="list">
         <a href="/macvg/projects/1/" class="game" id="game1"> 1 </a>
         <a href="/macvg/projects/1v1-soccer/" class="game" id="game339">
@@ -610,7 +586,9 @@
         <a href="/macvg/projects/fake-virus/" class="game" id="game91">
           Fake Virus
         </a>
-
+        <a href="/macvg/projects/farm-match/" class="game" id="game372">
+          Farm Match Seasons
+        </a>
         <a
           href="/macvg/projects/fireboywatergirlforesttemple/"
           class="game"
@@ -629,14 +607,28 @@
         <a href="/macvg/projects/fleeing-complex/" class="game" id="game363">
           Fleeing the Complex
         </a>
+        <a href="/macvg/projects/fnaf/" class="game" id="game373">
+          Five Nights at Freddy's
+        </a>
 
         <a href="/macvg/projects/fnaw/" class="game" id="game97">
           Five Nights at Winston's
         </a>
+        <a href="/macvg/projects/football-brawl/" class="game" id="game374">
+          Football Brawl
+        </a>
+        <a href="/macvg/projects/football-legends/" class="game" id="game375">
+          Football Legends
+        </a>
+        <a href="/macvg/projects/football-strike/" class="game" id="game376">
+          Football Strike
+        </a>
         <a href="/macvg/projects/froggys-battle/" class="game" id="game99">
           Froggy's Battle
         </a>
-
+        <a href="/macvg/projects/fruit-ninja/" class="game" id="game380">
+          Fruit Ninja
+        </a>
         <a href="/macvg/projects/frying-nemo/" class="game" id="game101">
           Frying Nemo
         </a>
@@ -655,6 +647,9 @@
         >
           Generic Fishing Game
         </a>
+        <a href="/macvg/projects/geometry-dash/" class="game" id="game377">
+          Geometry Dash Classic
+        </a>
 
         <a href="/macvg/projects/geodash/" class="game" id="game104">
           Geometry Dash Scratch
@@ -671,6 +666,9 @@
         <a href="/macvg/projects/getaway-shootout/" class="game" id="game106">
           Getaway Shootout
         </a>
+        <a href="/macvg/projects/get-on-top/" class="game" id="game378">
+          Get On Top
+        </a>
 
         <a href="/macvg/projects/getting-over-it/" class="game" id="game301">
           Getting Over It
@@ -684,6 +682,7 @@
           Go Ball
         </a>
 
+        <a href="/macvg/projects/gobdun/" class="game" id="game379"> Gobdun </a>
         <a href="/macvg/projects/goodnight/" class="game" id="game110">
           GOODNIGHT
         </a>
@@ -699,6 +698,21 @@
         <a href="/macvg/projects/greybox/" class="game" id="game114">
           Grey Box Testing
         </a>
+        <a href="/macvg/projects/groovy-ski/" class="game" id="game381">
+          Groovy Ski
+        </a>
+        <a href="/macvg/projects/gswitch/" class="game" id="game382">
+          G-Switch
+        </a>
+        <a href="/macvg/projects/gswitch-2/" class="game" id="game383">
+          G-Switch 2
+        </a>
+        <a href="/macvg/projects/gswitch-3/" class="game" id="game384">
+          G-Switch 3
+        </a>
+        <a href="/macvg/projects/guess-kitty/" class="game" id="game386">
+          Guess the Kitty
+        </a>
         <a href="/macvg/projects/gura-temberine/" class="game" id="game302">
           Gura Temberine
         </a>
@@ -709,11 +723,24 @@
         <a href="/macvg/projects/handshakes/" class="game" id="game117">
           Handshakes
         </a>
+        <a href="/macvg/projects/hanger/" class="game" id="game387"> Hanger </a>
 
         <a href="/macvg/projects/happy-hop/" class="game" id="game118">
           Happy Hop
         </a>
 
+        <a href="/macvg/projects/heads-arena/" class="game" id="game389">
+          Heads Arena
+        </a>
+        <a href="/macvg/projects/head-soccer/" class="game" id="game388">
+          Head Soccer 2023
+        </a>
+        <a href="/macvg/projects/hide-and-smash/" class="game" id="game390">
+          Hide and Smash
+        </a>
+        <a href="/macvg/projects/hop-pop-it/" class="game" id="game391">
+          Hop Pop It
+        </a>
         <a href="/macvg/projects/hba/" class="game" id="game119">
           Hover Bot Arena
         </a>
@@ -733,11 +760,20 @@
         <a href="/macvg/projects/hungry-lamu/" class="game" id="game124">
           Hungry Lamu
         </a>
+        <a href="/macvg/projects/icy-head-2/" class="game" id="game392">
+          Icy Purple Head 2
+        </a>
+        <a href="/macvg/projects/icy-head-3/" class="game" id="game393">
+          Icy Purple Head 3
+        </a>
         <a href="/macvg/projects/idle-breakout/" class="game" id="game125">
           Idle Breakout
         </a>
         <a href="/macvg/projects/idle-mining/" class="game" id="game335">
           Idle Mining Empire
+        </a>
+        <a href="/macvg/projects/idle-restaurants/" class="game" id="game394">
+          Idle Restaurants
         </a>
         <a href="/macvg/projects/impossiblequiz/" class="game" id="game127">
           Impossible Quiz
@@ -745,7 +781,11 @@
         <a href="/macvg/projects/infinite-soccer/" class="game" id="game336">
           Infinite Soccer
         </a>
-        <a href="/macvg/projects/infiltrating-airship/" class="game" id="game364">
+        <a
+          href="/macvg/projects/infiltrating-airship/"
+          class="game"
+          id="game364"
+        >
           Infiltrating the Airship
         </a>
         <a href="/macvg/projects/iron-snout/" class="game" id="game304">
@@ -754,6 +794,9 @@
 
         <a href="/macvg/projects/jetpack-joyride/" class="game" id="game129">
           Jetpack Joyride
+        </a>
+        <a href="/macvg/projects/jewels-blitz-5/" class="game" id="game395">
+          Jewels Blitz 5
         </a>
 
         <a href="/macvg/projects/just-fall/" class="game" id="game130">
@@ -783,6 +826,9 @@
         <a href="/macvg/projects/learntofly2/" class="game" id="game137">
           Learn To Fly 2
         </a>
+        <a href="/macvg/projects/little-alchemy-2/" class="game" id="game396">
+          Little Alchemy 2
+        </a>
 
         <a
           href="/macvg/projects/madalin-stunt-cars-2/"
@@ -790,6 +836,9 @@
           id="game138"
         >
           Madalin Stunt Cars 2
+        </a>
+        <a href="/macvg/projects/marbles-sorting/" class="game" id="game397">
+          Marbles Sorting
         </a>
 
         <a href="/macvg/projects/mario/" class="game" id="game140"> Mario </a>
@@ -819,11 +868,14 @@
         </a>
 
         <a href="/macvg/projects/minecraft-15/" class="game" id="game146">
-          Eaglecraft 1.5
+          Minecraft 1.5 (Eaglecraft)
         </a>
 
         <a href="/macvg/projects/minecraft-18/" class="game" id="game147">
-          Eaglecraft 1.8
+          Minecraft 1.8 (Eaglecraft)
+        </a>
+        <a href="/macvg/projects/minecraft-case/" class="game" id="game398">
+          Minecraft Case Simulator
         </a>
 
         <a href="/macvg/projects/minecraft-classic/" class="game" id="game148">
@@ -844,6 +896,18 @@
 
         <a href="/macvg/projects/missiles/" class="game" id="game152">
           Missiles
+        </a>
+        <a href="/macvg/projects/money-movers/" class="game" id="game399">
+          Money Movers
+        </a>
+        <a href="/macvg/projects/money-movers-2/" class="game" id="game400">
+          Money Movers 2
+        </a>
+        <a href="/macvg/projects/money-movers-3/" class="game" id="game401">
+          Money Movers 3
+        </a>
+        <a href="/macvg/projects/monkey-mart/" class="game" id="game385">
+          Monkey Mart
         </a>
         <a href="/macvg/projects/motox3m/" class="game" id="game153">
           Moto X3M
@@ -1369,13 +1433,72 @@
         >More games!</a
       >
     </footer>
+    <script src="/macvg/app.js"></script>
     <script>
-      if (localStorage.cccse === "yes") {
-        console.log("yes");
-        const tip = document.querySelector(".tip");
-        tip.style.display = "none";
+      if (
+        localStorage.getItem("favorites") === "bruh" ||
+        localStorage.getItem("favorites") === null
+      ) {
+        const favoriteList = document.getElementById("favoriteList");
+        favoriteList.style.display = "none";
+        localStorage.setItem("favorites", "bruh");
       }
+      const close = document.getElementById("closea");
+      if (localStorage.getItem("macvgcloseeeeeee")) {
+        close.parentElement.parentElement.style.display = "none";
+      }
+      close.addEventListener("click", function () {
+        close.parentElement.parentElement.style.display = "none";
+        localStorage.setItem("macvgcloseeeeeee", "closed");
+      });
+      document.addEventListener("DOMContentLoaded", function () {
+        const random = document.getElementById("random");
+
+        random.addEventListener("click", select);
+        const removeFavorites = document.getElementById("fvrbtn");
+        const lists = document.getElementById("favoriteList");
+        removeFavorites.addEventListener("click", () => {
+          if (
+            confirm(
+              "Are you sure you want to remove all your favorite games on MacVG?"
+            )
+          ) {
+            lists.style.display = "none";
+            localStorage.removeItem("favorites");
+          }
+        });
+        const favoriteList = document.getElementById("favoriteList");
+        const games = document.getElementById("list");
+        let items = games.getElementsByTagName("a");
+        let thing = Array.from(items);
+        let favorites = localStorage.favorites;
+        let list = favorites.split(",");
+        let clonedElements = [];
+        const header = document.createElement("h1");
+        header.innerHTML = "Favorites";
+        header.classList.add("favorite-h");
+        favoriteList.appendChild(header);
+        list.forEach((one) => {
+          thing.forEach((game) => {
+            let item = game.getAttribute("id");
+            if (item === one) {
+              const clonedGame = game.cloneNode(true);
+              clonedElements.push(clonedGame);
+              game.style.display = "flex";
+            }
+          });
+        });
+        clonedElements.sort((a, b) => {
+          let idA = a.getAttribute("id");
+          let idB = b.getAttribute("id");
+          return idA.localeCompare(idB);
+        });
+        clonedElements.forEach((element) => {
+          element.setAttribute("name", element.innerHTML);
+          element.style.paddingBottom = "12px";
+          favoriteList.appendChild(element);
+        });
+      });
     </script>
-    <script src="favorites.js"></script>
   </body>
 </html>

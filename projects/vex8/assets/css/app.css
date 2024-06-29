@@ -1,20 +1,21 @@
 /*Stylesheet*/
-body,html{
-    padding:0;
-    margin:0;
-    background-color: #000000;
+body,
+html {
+  padding: 0;
+  margin: 0;
+  background-color: #000000;
 }
 #content {
-    width: 100%;
-    height: 40vw;
-    border-radius: 10px 10px 0px 0px;
-    margin: 0;
-    overflow: hidden;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 0px 0px;
+  margin: 0;
+  overflow: hidden;
 }
 
 canvas {
-    width: 100% !important;
-    height: 30vw !important;
-    border-radius: 10px 10px 0px 0px;
-    margin: 0 !important;
+  width: 100% !important;
+  height: 100%;
+  border-radius: 10px 10px 0px 0px;
+  margin: 0 !important;
 }

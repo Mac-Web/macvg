@@ -1,0 +1,56 @@
+{
+	"teams": {
+		"manchestercity": {
+			"sprite-key": "manchestercity",
+			"players": ["aguero", "sterling"]
+		},
+		"realmadrid": {
+			"sprite-key": "realmadrid",
+			"players": ["bale", "ronaldo"]
+		},
+		"juventus": {
+			"sprite-key": "juventus",
+			"players": ["buffon", "higuain"]
+		},
+		"parissaintgermain": {
+			"sprite-key": "parissaintgermain",
+			"players": ["cavani", "maria"]
+		},
+		"chelsea": {
+			"sprite-key": "chelsea",
+			"players": ["costa", "hazard"]
+		},
+		"leicestercity": {
+			"sprite-key": "leicestercity",
+			"players": ["fuchs", "vardy"]
+		},
+		"galaxy": {
+			"sprite-key": "galaxy",
+			"players": ["gerrard", "santos"]
+		},
+		"atleticomadrid": {
+			"sprite-key": "atleticomadrid",
+			"players": ["griezmann", "torres"]
+		},
+		"manchesterunited": {
+			"sprite-key": "manchesterunited",
+			"players": ["ibrahimovic", "pogba"]
+		},
+		"bayernmunchen": {
+			"sprite-key": "bayernmunchen",
+			"players": ["lewandowski", "robben"]
+		},
+		"barcelona": {
+			"sprite-key": "barcelona",
+			"players": ["messi", "neymar"]
+		},
+		"arsenal": {
+			"sprite-key": "arsenal",
+			"players": ["ozil", "sanchez"]
+		},
+		"roma": {
+			"sprite-key": "roma",
+			"players": ["sharaawy", "totti"]
+		}
+	}
+}

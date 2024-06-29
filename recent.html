@@ -15,27 +15,12 @@
 
       gtag("config", "G-Y71QM9DR66");
     </script>
-    <title class="cloak">Recent | MacVG</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
+    <title class="cloak">Recent | MacVG</title>
     <link class="favicon" rel="icon" type="image/x-icon" href="/logo.png" />
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="games.css">
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <script src="cloak.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
-    />
-    <script src="/macvg/app.js"></script>
-    <script src="recent.js"></script>
-    <script src="/macvg/modes.js"></script>
+    <link rel="stylesheet" href="games.css" />
   </head>
   <body>
     <div class="overflow-menu shoot" id="overflow-menu">
@@ -48,14 +33,14 @@
     </div>
     <nav class="nav" id="nav">
       <div class="overflowm shoot" id="overflowm">
-        <img src="bars-solid.svg" alt="Menu" class="shoot" />
+        <img src="/macvg/media/bars-solid.svg" alt="Menu" class="shoot" />
       </div>
       <a
         href="/macvg/"
         class="logo2"
         style="background-color: var(--black-color)"
       >
-        <img src="/macvg/macvg-logo.png" alt="MacVG Logo" />
+        <img src="/macvg/media/macvg-logo.png" alt="MacVG Logo" />
         <a href="new.html" class="nav-link">New</a></a
       ><a href="trending.html" class="nav-link">Trending</a
       ><a href="groups.html" class="nav-link">Groups</a
@@ -95,7 +80,6 @@
         </ul>
       </div>
     </nav>
-
     <div class="macsidebar" id="sidebar">
       <a href="/"><img src="/logo.png" alt="" /></a>
       <a href="/macideas/"><img src="/MacIdeas Logo.png" alt="" /></a>
@@ -106,16 +90,6 @@
     </div>
     <div class="wrap" id="wrap">
       <style>
-        #feedback {
-          color: white;
-          text-decoration: none;
-          position: absolute;
-          margin: none;
-          top: 4px;
-          right: 10px;
-          margin-inline: 10px;
-        }
-
         .game {
           display: none;
         }
@@ -1319,13 +1293,32 @@
         >More games!</a
       >
     </footer>
+    <script src="app.js"></script>
     <script>
-      if (localStorage.cccse === "yes") {
-        console.log("yes");
-        const tip = document.querySelector(".tip");
-        tip.style.display = "none";
-      }
+      const recentList = document.getElementById("recentList");
+      const gamess = document.getElementById("list");
+      let items = gamess.getElementsByTagName("a");
+      let thing = Array.from(items);
+      let recents = localStorage.macvgRecents;
+      let list = recents.split(",");
+      let selectedGames = [];
+
+      list.forEach((one) => {
+        thing.forEach((game) => {
+          let item = game.getAttribute("id");
+          if (item === one) {
+            const clonedGame = game.cloneNode(true);
+            selectedGames.push(clonedGame);
+            game.style.display = "flex";
+          }
+        });
+      });
+
+      selectedGames.forEach((element) => {
+        element.setAttribute("name", element.innerHTML);
+        element.style.paddingBottom = "12px";
+        recentList.appendChild(element);
+      });
     </script>
-    <script src="favorites.js"></script>
   </body>
 </html>

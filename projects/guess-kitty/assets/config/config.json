@@ -1,0 +1,244 @@
+{
+  "startTimer": 15,
+  "minTimer": 4,
+  "timerDelta": 0.5,
+  "fatalities": [
+    {
+      "id": "death_03",
+      "text": "Piano's hurt",
+      "snd": "death03 f",
+      "bloodDelay": 1200,
+      "unlockLevel": 1
+    },
+    {
+      "id": "death_02",
+      "text": "Slice him up",
+      "snd": "death02 f",
+      "bloodDelay": 300,
+      "unlockLevel": 3
+    },
+    {
+      "id": "death_01",
+      "text": "Chainsaw\nsays hello!",
+      "snd": "death01 f",
+      "bloodDelay": 200,
+      "unlockLevel": 6
+    },
+    {
+      "id": "death_04",
+      "text": "Watch out\nfor apples",
+      "snd": "death04 f",
+      "bloodDelay": 4800,
+      "unlockLevel": 10
+    },
+    {
+      "id": "death_05",
+      "text": "I'll take the\nnext one...",
+      "snd": "death05 f",
+      "bloodDelay": 2200,
+      "unlockLevel": 15
+    },
+    {
+      "id": "death_08",
+      "text": "Lucille is\nthirsty",
+      "snd": "death08 f",
+      "bloodDelay": 3600,
+      "unlockLevel": 25
+    },
+    {
+      "id": "death_09",
+      "text": "Jappy kah yee\nmotherfucker",
+      "snd": "death09 f",
+      "bloodDelay": 2750,
+      "unlockLevel": 35
+    },
+    {
+      "id": "death_06",
+      "text": "Can you\nhear me?",
+      "snd": "death06 f",
+      "bloodDelay": 8400,
+      "unlockLevel": 50
+    },
+    {
+      "id": "death_07",
+      "text": "O No's\nIts Bee's",
+      "snd": "death07 f",
+      "bloodDelay": 3700,
+      "unlockLevel": 75
+    },
+    {
+      "id": "death_10",
+      "text": "Dark Magic",
+      "snd": "death10 f",
+      "bloodDelay": 9100,
+      "unlockLevel": 100
+    }
+  ],
+  "kitties": [
+    {
+      "name": "Cowboy",
+      "id": "kitten_cowboy"
+    },
+    {
+      "name": "Firefighter",
+      "id": "kitten_firefighter"
+    },
+    {
+      "name": "Indian",
+      "id": "kitten_indian"
+    },
+    {
+      "name": "Ninja",
+      "id": "kitten_ninja"
+    },
+    {
+      "name": "Nurse",
+      "id": "kitten_nurse"
+    },
+    {
+      "name": "Police",
+      "id": "kitten_police"
+    },
+    {
+      "name": "Pirate Kitty",
+      "id": "kitten_pirate"
+    },
+    {
+      "name": "Gangster Kitty",
+      "id": "kitten_gangster"
+    },
+    {
+      "name": "Punk kitty",
+      "id": "kitten_punker"
+    },
+    {
+      "name": "Nerd Kitty",
+      "id": "kitten_nerd"
+    },
+    {
+      "name": "Clown Kitty",
+      "id": "kitten_clown"
+    },
+    {
+      "name": "Zorro Kitty",
+      "id": "kitten_zorro"
+    },
+    {
+      "name": "Burmilla",
+      "id": "kitten_burmilla"
+    },
+    {
+      "name": "Japanese Bobtail",
+      "id": "kitten_japanese_bobtail"
+    },
+    {
+      "name": "Abyssinian",
+      "id": "kitten_abyssinian"
+    },
+    {
+      "name": "Sphynx",
+      "id": "kitten_sphynx"
+    },
+    {
+      "name": "Cornish Rex",
+      "id": "kitten_cornish_rex"
+    },
+    {
+      "name": "Siamese",
+      "id": "kitten_siamese"
+    },
+    {
+      "name": "Bombay",
+      "id": "kitten_bombay"
+    },
+    {
+      "name": "Bengal",
+      "id": "kitten_bengal"
+    },
+    {
+      "name": "American Curl",
+      "id": "kitten_american_curl"
+    },
+    {
+      "name": "Persian",
+      "id": "kitten_persian"
+    },
+    {
+      "name": "Scottish Fold",
+      "id": "kitten_scottish_fold"
+    },
+    {
+      "name": "Siberian",
+      "id": "kitten_siberian"
+    },
+    {
+      "name": "Russian Blue",
+      "id": "kitten_russian_blue"
+    },
+    {
+      "name": "Norwegian Forest",
+      "id": "kitten_norwegian_forest"
+    },
+    {
+      "name": "Ragdoll",
+      "id": "kitten_ragdoll"
+    },
+    {
+      "name": "American Shorthair",
+      "id": "kitten_american_shorthair"
+    },
+    {
+      "name": "Turkish Van",
+      "id": "kitten_turkish_van"
+    },
+    {
+      "name": "British Shorthair",
+      "id": "kitten_british_shorthair"
+    },
+    {
+      "name": "Snowshoe",
+      "id": "kitten_snowshoe"
+    },
+    {
+      "name": "Singapura",
+      "id": "kitten_singapura"
+    },
+    {
+      "name": "Manx",
+      "id": "kitten_manx"
+    },
+    {
+      "name": "Somali",
+      "id": "kitten_somali"
+    },
+    {
+      "name": "Somali",
+      "id": "kitten_somali"
+    },
+    {
+      "name": "Savannah",
+      "id": "kitten_savannah"
+    },
+    {
+      "name": "Egyptian Mau",
+      "id": "kitten_egyptian_mau"
+    },
+    {
+      "name": "Maine Coon",
+      "id": "kitten_maine_coon"
+    },
+    {
+      "name": "Li Hua/Dragon Li",
+      "id": "kitten_li_hua"
+    },
+    {
+      "name": "Selkirk Rex",
+      "id": "kitten_selkirk_rex"
+    },
+    {
+      "name": "Birman",
+      "id": "kitten_birman"
+    }
+
+  ]
+}

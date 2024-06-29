@@ -1,0 +1,36 @@
+{"frames": [
+
+{
+	"filename": "russian_characters_title.png",
+	"frame": {"x":1,"y":262,"w":698,"h":462},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":698,"h":462},
+	"sourceSize": {"w":698,"h":462}
+},
+{
+	"filename": "russian_title.png",
+	"frame": {"x":1,"y":1,"w":308,"h":259},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":308,"h":259},
+	"sourceSize": {"w":308,"h":259}
+},
+{
+	"filename": "russian_truck.png",
+	"frame": {"x":311,"y":1,"w":338,"h":255},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":338,"h":255},
+	"sourceSize": {"w":338,"h":255}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "russian.png",
+	"format": "RGBA8888",
+	"size": {"w":700,"h":725},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:5eee1c30d88537d11c39c9b18da74fe6:90a93025896a9abcc702693c066b84bb:d503e1f236b175b2cda33c694dd7d95f$"
+}
+}

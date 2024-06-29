@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hanger | MacVG</title>
+    <script>
+      window["GD_OPTIONS"] = {
+        gameId: "c0c2bfd5f4664da8b5d6dd4b37e954c5",
+        onEvent: function (event) {
+          switch (event.name) {
+            case "SDK_GAME_START":
+              // advertisement done, resume game logic and unmute audio
+              if (GLOBAL_GAME) {
+                GLOBAL_GAME.paused = false;
+              }
+              break;
+            case "SDK_GAME_PAUSE":
+              if (GLOBAL_GAME) {
+                GLOBAL_GAME.paused = true;
+              }
+              // pause game logic / mute audio
+              break;
+            case "SDK_GDPR_TRACKING":
+              // this event is triggered when your user doesn't want to be tracked
+              break;
+            case "SDK_GDPR_TARGETING":
+              // this event is triggered when your user doesn't want personalised targeting of ads and such
+              break;
+          }
+        },
+      };
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src =
+          "patch/js/gd-sdk.js?html5.api.gamedistribution.com/main.min.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "gamedistribution-jssdk");
+    </script>
+    <style>
+      body {
+        background-color: black;
+        font-weight: normal !important;
+        text-shadow: 0 0 0 !important;
+        margin: 0px;
+        /*This removes the border around the canvas that Phaser adds, making the game actually take up all the available space*/
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        /*reset for mobile browsers */
+        font-weight: normal !important;
+        text-shadow: 0 0 0 !important;
+      }
+    </style>
+  </head>
+  <body style="overflow: hidden">
+    <script type="text/javascript" src="game.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'BurbankBigRegular-Bold';
+  src: url('../fonts/BurbankBigRegularBold/BurbankBigRegular-Bold.eot');
+  src: url('../fonts/BurbankBigRegularBold/BurbankBigRegular-Bold.woff2') format('woff2'),
+       url('../fonts/BurbankBigRegularBold/BurbankBigRegular-Bold.woff') format('woff'),
+       url('../fonts/BurbankBigRegularBold/BurbankBigRegular-Bold.ttf') format('truetype'),
+       url('../fonts/BurbankBigRegularBold/BurbankBigRegular-Bold.svg#BurbankBigRegular-Bold') format('svg'),
+       url('../fonts/BurbankBigRegularBold/BurbankBigRegular-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

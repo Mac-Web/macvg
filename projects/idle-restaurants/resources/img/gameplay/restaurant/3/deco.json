@@ -1,0 +1,495 @@
+{
+  "frames": {
+    "rope_01.png": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 441,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 9,
+        "w": 441,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 448,
+        "h": 144
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "rope_02.png": {
+      "frame": {
+        "x": 441,
+        "y": 0,
+        "w": 439,
+        "h": 131
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 19,
+        "y": 5,
+        "w": 439,
+        "h": 131
+      },
+      "sourceSize": {
+        "w": 461,
+        "h": 149
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "flower_03.png": {
+      "frame": {
+        "x": 0,
+        "y": 127,
+        "w": 82,
+        "h": 439
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 82,
+        "h": 439
+      },
+      "sourceSize": {
+        "w": 82,
+        "h": 439
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "lamp.png": {
+      "frame": {
+        "x": 880,
+        "y": 0,
+        "w": 72,
+        "h": 395
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 19,
+        "y": 12,
+        "w": 72,
+        "h": 395
+      },
+      "sourceSize": {
+        "w": 109,
+        "h": 433
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "pole_01.png": {
+      "frame": {
+        "x": 1275,
+        "y": 0,
+        "w": 139,
+        "h": 294
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 7,
+        "y": 7,
+        "w": 139,
+        "h": 294
+      },
+      "sourceSize": {
+        "w": 151,
+        "h": 302
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "pole_02.png": {
+      "frame": {
+        "x": 880,
+        "y": 72,
+        "w": 139,
+        "h": 294
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 11,
+        "y": 7,
+        "w": 139,
+        "h": 294
+      },
+      "sourceSize": {
+        "w": 151,
+        "h": 302
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "black_board_02.png": {
+      "frame": {
+        "x": 1174,
+        "y": 72,
+        "w": 98,
+        "h": 145
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 7,
+        "w": 98,
+        "h": 145
+      },
+      "sourceSize": {
+        "w": 98,
+        "h": 152
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "pole_03.png": {
+      "frame": {
+        "x": 439,
+        "y": 131,
+        "w": 139,
+        "h": 294
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 6,
+        "y": 7,
+        "w": 139,
+        "h": 294
+      },
+      "sourceSize": {
+        "w": 151,
+        "h": 302
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "pole_04.png": {
+      "frame": {
+        "x": 733,
+        "y": 131,
+        "w": 139,
+        "h": 293
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 7,
+        "w": 139,
+        "h": 293
+      },
+      "sourceSize": {
+        "w": 151,
+        "h": 302
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "drink_machine_02.png": {
+      "frame": {
+        "x": 439,
+        "y": 270,
+        "w": 95,
+        "h": 222
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 3,
+        "y": 8,
+        "w": 95,
+        "h": 222
+      },
+      "sourceSize": {
+        "w": 99,
+        "h": 230
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "flower_02.png": {
+      "frame": {
+        "x": 661,
+        "y": 270,
+        "w": 71,
+        "h": 118
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 6,
+        "y": 5,
+        "w": 71,
+        "h": 118
+      },
+      "sourceSize": {
+        "w": 84,
+        "h": 123
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "drink_machine_01.png": {
+      "frame": {
+        "x": 872,
+        "y": 211,
+        "w": 94,
+        "h": 222
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 8,
+        "w": 94,
+        "h": 222
+      },
+      "sourceSize": {
+        "w": 99,
+        "h": 230
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "seat.png": {
+      "frame": {
+        "x": 1094,
+        "y": 211,
+        "w": 76,
+        "h": 70
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 27,
+        "y": 20,
+        "w": 76,
+        "h": 70
+      },
+      "sourceSize": {
+        "w": 131,
+        "h": 117
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "table_extra.png": {
+      "frame": {
+        "x": 0,
+        "y": 209,
+        "w": 149,
+        "h": 191
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 10,
+        "w": 149,
+        "h": 191
+      },
+      "sourceSize": {
+        "w": 149,
+        "h": 201
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "wall_frames_01.png": {
+      "frame": {
+        "x": 191,
+        "y": 209,
+        "w": 187,
+        "h": 113
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 6,
+        "w": 187,
+        "h": 113
+      },
+      "sourceSize": {
+        "w": 197,
+        "h": 123
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "flower05_shadow.png": {
+      "frame": {
+        "x": 378,
+        "y": 209,
+        "w": 69,
+        "h": 44
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 69,
+        "h": 44
+      },
+      "sourceSize": {
+        "w": 69,
+        "h": 44
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "wall_lamp.png": {
+      "frame": {
+        "x": 378,
+        "y": 278,
+        "w": 44,
+        "h": 67
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 0,
+        "w": 44,
+        "h": 67
+      },
+      "sourceSize": {
+        "w": 48,
+        "h": 67
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "wall_frames_02.png": {
+      "frame": {
+        "x": 191,
+        "y": 322,
+        "w": 174,
+        "h": 105
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 9,
+        "y": 6,
+        "w": 174,
+        "h": 105
+      },
+      "sourceSize": {
+        "w": 189,
+        "h": 119
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "flower_01.png": {
+      "frame": {
+        "x": 365,
+        "y": 345,
+        "w": 70,
+        "h": 103
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 7,
+        "w": 70,
+        "h": 103
+      },
+      "sourceSize": {
+        "w": 79,
+        "h": 110
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "black_board_01.png": {
+      "frame": {
+        "x": 0,
+        "y": 358,
+        "w": 96,
+        "h": 130
+      },
+      "rotated": true,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 5,
+        "y": 7,
+        "w": 96,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 106,
+        "h": 137
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.6",
+    "image": "deco.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1569,
+      "h": 454
+    },
+    "scale": 1
+  }
+}

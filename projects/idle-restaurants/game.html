@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script nonce="STLxP7G5oLb-BJ4eohjVcQ">
+      (function () {
+        "use strict";
+        function p(a) {
+          var b = 0;
+          return function () {
+            return b < a.length ? { done: !1, value: a[b++] } : { done: !0 };
+          };
+        }
+        var r =
+          "function" == typeof Object.defineProperties
+            ? Object.defineProperty
+            : function (a, b, e) {
+                if (a == Array.prototype || a == Object.prototype) return a;
+                a[b] = e.value;
+                return a;
+              };
+        function t(a) {
+          a = [
+            "object" == typeof globalThis && globalThis,
+            a,
+            "object" == typeof window && window,
+            "object" == typeof self && self,
+            "object" == typeof global && global,
+          ];
+          for (var b = 0; b < a.length; ++b) {
+            var e = a[b];
+            if (e && e.Math == Math) return e;
+          }
+          throw Error("Cannot find global object");
+        }
+        var u = t(this);
+        function v(a, b) {
+          if (b)
+            a: {
+              var e = u;
+              a = a.split(".");
+              for (var g = 0; g < a.length - 1; g++) {
+                var k = a[g];
+                if (!(k in e)) break a;
+                e = e[k];
+              }
+              a = a[a.length - 1];
+              g = e[a];
+              b = b(g);
+              b != g &&
+                null != b &&
+                r(e, a, { configurable: !0, writable: !0, value: b });
+            }
+        }
+        v("Symbol", function (a) {
+          function b(l) {
+            if (this instanceof b)
+              throw new TypeError("Symbol is not a constructor");
+            return new e(g + (l || "") + "_" + k++, l);
+          }
+          function e(l, c) {
+            this.g = l;
+            r(this, "description", {
+              configurable: !0,
+              writable: !0,
+              value: c,
+            });
+          }
+          if (a) return a;
+          e.prototype.toString = function () {
+            return this.g;
+          };
+          var g = "jscomp_symbol_" + ((1e9 * Math.random()) >>> 0) + "_",
+            k = 0;
+          return b;
+        });
+        v("Symbol.iterator", function (a) {
+          if (a) return a;
+          a = Symbol("Symbol.iterator");
+          for (
+            var b =
+                "Array Int8Array Uint8Array Uint8ClampedArray Int16Array Uint16Array Int32Array Uint32Array Float32Array Float64Array".split(
+                  " "
+                ),
+              e = 0;
+            e < b.length;
+            e++
+          ) {
+            var g = u[b[e]];
+            "function" === typeof g &&
+              "function" != typeof g.prototype[a] &&
+              r(g.prototype, a, {
+                configurable: !0,
+                writable: !0,
+                value: function () {
+                  return w(p(this));
+                },
+              });
+          }
+          return a;
+        });
+        function w(a) {
+          a = { next: a };
+          a[Symbol.iterator] = function () {
+            return this;
+          };
+          return a;
+        }
+        function x(a) {
+          var b =
+            "undefined" != typeof Symbol &&
+            Symbol.iterator &&
+            a[Symbol.iterator];
+          if (b) return b.call(a);
+          if ("number" == typeof a.length) return { next: p(a) };
+          throw Error(String(a) + " is not an iterable or ArrayLike");
+        }
+        function y() {
+          this.j = !1;
+          this.g = null;
+          this.m = void 0;
+          this.h = 1;
+          this.o = 0;
+          this.i = null;
+        }
+        function C(a) {
+          if (a.j) throw new TypeError("Generator is already running");
+          a.j = !0;
+        }
+        y.prototype.l = function (a) {
+          this.m = a;
+        };
+        function D(a, b) {
+          a.i = { F: b, G: !0 };
+          a.h = a.o;
+        }
+        y.prototype.return = function (a) {
+          this.i = { return: a };
+          this.h = this.o;
+        };
+        function E(a) {
+          this.g = new y();
+          this.h = a;
+        }
+        function F(a, b) {
+          C(a.g);
+          var e = a.g.g;
+          if (e)
+            return G(
+              a,
+              "return" in e
+                ? e["return"]
+                : function (g) {
+                    return { value: g, done: !0 };
+                  },
+              b,
+              a.g.return
+            );
+          a.g.return(b);
+          return H(a);
+        }
+        function G(a, b, e, g) {
+          try {
+            var k = b.call(a.g.g, e);
+            if (!(k instanceof Object))
+              throw new TypeError("Iterator result " + k + " is not an object");
+            if (!k.done) return (a.g.j = !1), k;
+            var l = k.value;
+          } catch (c) {
+            return (a.g.g = null), D(a.g, c), H(a);
+          }
+          a.g.g = null;
+          g.call(a.g, l);
+          return H(a);
+        }
+        function H(a) {
+          for (; a.g.h; )
+            try {
+              var b = a.h(a.g);
+              if (b) return (a.g.j = !1), { value: b.value, done: !1 };
+            } catch (e) {
+              (a.g.m = void 0), D(a.g, e);
+            }
+          a.g.j = !1;
+          if (a.g.i) {
+            b = a.g.i;
+            a.g.i = null;
+            if (b.G) throw b.F;
+            return { value: b.return, done: !0 };
+          }
+          return { value: void 0, done: !0 };
+        }
+        function I(a) {
+          this.next = function (b) {
+            C(a.g);
+            a.g.g ? (b = G(a, a.g.g.next, b, a.g.l)) : (a.g.l(b), (b = H(a)));
+            return b;
+          };
+          this.throw = function (b) {
+            C(a.g);
+            a.g.g
+              ? (b = G(a, a.g.g["throw"], b, a.g.l))
+              : (D(a.g, b), (b = H(a)));
+            return b;
+          };
+          this.return = function (b) {
+            return F(a, b);
+          };
+          this[Symbol.iterator] = function () {
+            return this;
+          };
+        }
+        function J(a) {
+          function b(g) {
+            return a.next(g);
+          }
+          function e(g) {
+            return a.throw(g);
+          }
+          return new Promise(function (g, k) {
+            function l(c) {
+              c.done
+                ? g(c.value)
+                : Promise.resolve(c.value).then(b, e).then(l, k);
+            }
+            l(a.next());
+          });
+        }
+        v("Promise", function (a) {
+          function b(c) {
+            this.h = 0;
+            this.i = void 0;
+            this.g = [];
+            this.o = !1;
+            var d = this.j();
+            try {
+              c(d.resolve, d.reject);
+            } catch (f) {
+              d.reject(f);
+            }
+          }
+          function e() {
+            this.g = null;
+          }
+          function g(c) {
+            return c instanceof b
+              ? c
+              : new b(function (d) {
+                  d(c);
+                });
+          }
+          if (a) return a;
+          e.prototype.h = function (c) {
+            if (null == this.g) {
+              this.g = [];
+              var d = this;
+              this.i(function () {
+                d.l();
+              });
+            }
+            this.g.push(c);
+          };
+          var k = u.setTimeout;
+          e.prototype.i = function (c) {
+            k(c, 0);
+          };
+          e.prototype.l = function () {
+            for (; this.g && this.g.length; ) {
+              var c = this.g;
+              this.g = [];
+              for (var d = 0; d < c.length; ++d) {
+                var f = c[d];
+                c[d] = null;
+                try {
+                  f();
+                } catch (h) {
+                  this.j(h);
+                }
+              }
+            }
+            this.g = null;
+          };
+          e.prototype.j = function (c) {
+            this.i(function () {
+              throw c;
+            });
+          };
+          b.prototype.j = function () {
+            function c(h) {
+              return function (m) {
+                f || ((f = !0), h.call(d, m));
+              };
+            }
+            var d = this,
+              f = !1;
+            return { resolve: c(this.A), reject: c(this.l) };
+          };
+          b.prototype.A = function (c) {
+            if (c === this)
+              this.l(new TypeError("A Promise cannot resolve to itself"));
+            else if (c instanceof b) this.C(c);
+            else {
+              a: switch (typeof c) {
+                case "object":
+                  var d = null != c;
+                  break a;
+                case "function":
+                  d = !0;
+                  break a;
+                default:
+                  d = !1;
+              }
+              d ? this.v(c) : this.m(c);
+            }
+          };
+          b.prototype.v = function (c) {
+            var d = void 0;
+            try {
+              d = c.then;
+            } catch (f) {
+              this.l(f);
+              return;
+            }
+            "function" == typeof d ? this.D(d, c) : this.m(c);
+          };
+          b.prototype.l = function (c) {
+            this.u(2, c);
+          };
+          b.prototype.m = function (c) {
+            this.u(1, c);
+          };
+          b.prototype.u = function (c, d) {
+            if (0 != this.h)
+              throw Error(
+                "Cannot settle(" +
+                  c +
+                  ", " +
+                  d +
+                  "): Promise already settled in state" +
+                  this.h
+              );
+            this.h = c;
+            this.i = d;
+            2 === this.h && this.B();
+            this.H();
+          };
+          b.prototype.B = function () {
+            var c = this;
+            k(function () {
+              if (c.I()) {
+                var d = u.console;
+                "undefined" !== typeof d && d.error(c.i);
+              }
+            }, 1);
+          };
+          b.prototype.I = function () {
+            if (this.o) return !1;
+            var c = u.CustomEvent,
+              d = u.Event,
+              f = u.dispatchEvent;
+            if ("undefined" === typeof f) return !0;
+            "function" === typeof c
+              ? (c = new c("unhandledrejection", { cancelable: !0 }))
+              : "function" === typeof d
+              ? (c = new d("unhandledrejection", { cancelable: !0 }))
+              : ((c = u.document.createEvent("CustomEvent")),
+                c.initCustomEvent("unhandledrejection", !1, !0, c));
+            c.promise = this;
+            c.reason = this.i;
+            return f(c);
+          };
+          b.prototype.H = function () {
+            if (null != this.g) {
+              for (var c = 0; c < this.g.length; ++c) l.h(this.g[c]);
+              this.g = null;
+            }
+          };
+          var l = new e();
+          b.prototype.C = function (c) {
+            var d = this.j();
+            c.s(d.resolve, d.reject);
+          };
+          b.prototype.D = function (c, d) {
+            var f = this.j();
+            try {
+              c.call(d, f.resolve, f.reject);
+            } catch (h) {
+              f.reject(h);
+            }
+          };
+          b.prototype.then = function (c, d) {
+            function f(n, q) {
+              return "function" == typeof n
+                ? function (z) {
+                    try {
+                      h(n(z));
+                    } catch (A) {
+                      m(A);
+                    }
+                  }
+                : q;
+            }
+            var h,
+              m,
+              B = new b(function (n, q) {
+                h = n;
+                m = q;
+              });
+            this.s(f(c, h), f(d, m));
+            return B;
+          };
+          b.prototype.catch = function (c) {
+            return this.then(void 0, c);
+          };
+          b.prototype.s = function (c, d) {
+            function f() {
+              switch (h.h) {
+                case 1:
+                  c(h.i);
+                  break;
+                case 2:
+                  d(h.i);
+                  break;
+                default:
+                  throw Error("Unexpected state: " + h.h);
+              }
+            }
+            var h = this;
+            null == this.g ? l.h(f) : this.g.push(f);
+            this.o = !0;
+          };
+          b.resolve = g;
+          b.reject = function (c) {
+            return new b(function (d, f) {
+              f(c);
+            });
+          };
+          b.race = function (c) {
+            return new b(function (d, f) {
+              for (var h = x(c), m = h.next(); !m.done; m = h.next())
+                g(m.value).s(d, f);
+            });
+          };
+          b.all = function (c) {
+            var d = x(c),
+              f = d.next();
+            return f.done
+              ? g([])
+              : new b(function (h, m) {
+                  function B(z) {
+                    return function (A) {
+                      n[z] = A;
+                      q--;
+                      0 == q && h(n);
+                    };
+                  }
+                  var n = [],
+                    q = 0;
+                  do
+                    n.push(void 0),
+                      q++,
+                      g(f.value).s(B(n.length - 1), m),
+                      (f = d.next());
+                  while (!f.done);
+                });
+          };
+          return b;
+        });
+        (function () {
+          var a;
+          return J(
+            new I(
+              new E(function (b) {
+                if (1 == b.h) {
+                  if ("serviceWorker" in navigator) {
+                    var e = navigator.serviceWorker.getRegistration("../..");
+                    b.h = 3;
+                    b = { value: e };
+                  } else (b.h = 0), (b = void 0);
+                  return b;
+                }
+                (a = b.m)
+                  ? ((e = a.unregister()), (b.h = 0), (b = { value: e }))
+                  : (b = b.return());
+                return b;
+              })
+            )
+          );
+        })();
+      }).call(this);
+    </script>
+    <script
+      src="patch/js/null.js?https://www.gstatic.com/h5games_sdks/developer_v2.js"
+      nonce="STLxP7G5oLb-BJ4eohjVcQ"
+    ></script>
+    <meta charset="utf-8" />
+    <title>Idle Restaurants | MacVG</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <script defer="defer" src="bundle.js?dcbf8b543ec065bfe0f6"></script>
+  </head>
+  <body style="overflow: hidden"></body>
+</html>

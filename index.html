@@ -98,6 +98,37 @@
       <a href="/macvg/"><img src="/MacVG Logo.png" alt="" /></a>
       <a href="/macblog/"><img src="/MacBlog Logo.png" alt="" /></a>
     </div>
+    <div class="modal-background" id="modal">
+      <div class="modal">
+        <h2 class="modal-title">MacVG User Survey</h2>
+        <p class="modal-des">
+          Here's a survey for MacVG's one year anniversary 🎂. With 6 simple
+          questions, this helps us improve your experience and the quality of
+          the site. Thanks. (optional)
+          <a
+            href="https://forms.gle/ytPiCFb862rPQwtx9"
+            target="_blank"
+            class="modal-link"
+            >Survey</a
+          >
+        </p>
+        <button class="modal-close" id="modal-close">
+          <img src="/maclearn/xmark-solid.svg" alt="X" />
+        </button>
+      </div>
+    </div>
+    <script>
+      const mainModal = document.getElementById("modal");
+      const closeModal = document.getElementById("modal-close");
+      if (localStorage.getItem("macvgModal")) {
+        mainModal.style.display = "none";
+      } else {
+        closeModal.addEventListener("click", () => {
+          mainModal.style.display = "none";
+          localStorage.setItem("macvgModal", "closed");
+        });
+      }
+    </script>
     <div class="wrap" id="wrap">
       <header class="homeheader">
         <div class="title" name="Welcome to MacVG!">Welcome to MacVG!</div>

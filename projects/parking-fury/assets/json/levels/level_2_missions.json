@@ -1,0 +1,228 @@
+{
+	"frames": [
+		{
+			"objects":[
+				{
+					"name": "arrow_turn.png",
+					"x": 1944,
+					"y": 2428.2,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 89.9947509765625
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1066.5,
+					"y": 2374.65,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_fin.png",
+					"x": 1863.15,
+					"y": 1977.55,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1441.45,
+					"y": 2374.65,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				}
+			]
+		},
+		{
+			"objects":[
+				{
+					"name": "arrow_turn.png",
+					"x": 2091.55,
+					"y": 2349.75,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 180
+				},
+				{
+					"name": "arrow_fin.png",
+					"x": 587.75,
+					"y": 2514.65,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1814.4,
+					"y": 2350.7,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 180
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1518.4,
+					"y": 2350.7,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 180
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1224.45,
+					"y": 2348.7,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 180
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 611,
+					"y": 2305.05,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -89.9947509765625
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 939.45,
+					"y": 2348.7,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 180
+				}
+			]
+		},
+		{
+			"objects":[
+				{
+					"name": "arrow_fin.png",
+					"x": 1575.7,
+					"y": 2554.65,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 524.1,
+					"y": 2200.05,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 89.9947509765625
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 727.45,
+					"y": 2368.7,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 474.45,
+					"y": 2430.7,
+					"scaleX": -1,
+					"scaleY": 1,
+					"rotation": 180
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 973.45,
+					"y": 2368.7,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1238.4,
+					"y": 2368.7,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 1682.05,
+					"y": 2380.05,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 89.9947509765625
+				}
+			]
+		},
+		{
+			"objects":[
+				{
+					"name": "arrow_fin.png",
+					"x": 2719.15,
+					"y": 1120.3,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 89.9947509765625
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 2366,
+					"y": 1763.3,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 89.9947509765625
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1448.2,
+					"y": 2468.05,
+					"scaleX": 1.0000556724768541,
+					"scaleY": 1.0000556724768541,
+					"rotation": -76.25706481933594
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1944.3,
+					"y": 1728.8,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 1527.45,
+					"y": 1724.7,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1507.9,
+					"y": 2132.25,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -89.9947509765625
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 2334.4,
+					"y": 1149.75,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 2318.85,
+					"y": 1510.3,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -89.9947509765625
+				}
+			]
+		}
+	]
+}

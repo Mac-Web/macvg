@@ -1,0 +1,243 @@
+@keyframes zoom {
+  0% {
+    transform: scale(0.1);
+  }
+  60% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: none;
+  height: 100vh;
+  background-color: rgb(20, 20, 20);
+}
+
+#game-container {
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  animation: none;
+}
+
+img {
+  width: 35px;
+  animation: 0.5s ease-in-out 0s 1 zoom;
+  margin-right: 10px;
+}
+
+#clickButton {
+  padding-block: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  width: 230px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-block: 30px;
+  transition: box-shadow 0.1s ease, transform 0.1s ease,
+    background-color 0.3s ease;
+  animation: 0.5s ease-in-out 0s 1 zoom;
+  box-shadow: 3px 3px 5px green;
+  position: relative;
+}
+
+#clickButton:hover {
+  background-color: #45a049;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom {
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.bottom-btn {
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  height: 50px;
+  padding-inline: 20px;
+  background-color: rgb(40, 40, 40);
+  animation: 0.5s ease-in-out 0s 1 zoom;
+}
+
+.bottom-btn img {
+  width: 30px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  align-items: center;
+  flex-direction: column;
+  animation: 0.5s ease-in-out 0s 1 zoom;
+  gap: 10px;
+}
+
+.other-stats {
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+  animation: 0.5s ease-in-out 0s 1 zoom;
+}
+
+#energy {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 40px;
+  margin-block: 0px;
+  margin-bottom: 50px;
+  animation: 0.5s ease-in-out 0s 1 zoom;
+}
+
+.popup-drop {
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(5px);
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  visibility: hidden;
+  left: 0;
+  transition: opacity 0.3s ease;
+  z-index: 100;
+}
+
+.popup {
+  width: 350px;
+  height: 400px;
+  background-color: black;
+  border-radius: 20px;
+  border: 3px solid rgb(40, 40, 40);
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-inline: 30px;
+  position: relative;
+  overflow: auto;
+}
+
+.popup-title {
+  text-align: center;
+  padding-block: 30px;
+  font-size: 30px;
+}
+
+.popup-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 20px;
+  cursor: pointer;
+  padding: 0;
+  animation: none;
+  transition: transform 0.3s ease;
+}
+
+.popup-close:hover {
+  transform: scale(1.3);
+}
+
+.popup-close::before,
+.upgrade-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.upgrade-title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.upgrade-btn {
+  background-color: rgb(40, 40, 40);
+  border-radius: 5px;
+  padding-inline: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: bold;
+  height: 40px;
+}
+
+.version,
+#reset {
+  color: gray;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#reset {
+  left: 10px;
+  cursor: pointer;
+}
+
+#reset:hover {
+  text-decoration: underline;
+}
+
+#gold-atom {
+  width: 60px;
+  position: absolute;
+  cursor: pointer;
+  visibility: hidden;
+  width: 60px;
+  padding: 10px;
+  border-radius: 100px;
+  height: 60px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.gold-atom {
+  width: 100%;
+  height: 100%;
+}

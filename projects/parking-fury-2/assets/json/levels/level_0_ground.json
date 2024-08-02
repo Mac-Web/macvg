@@ -1,0 +1,593 @@
+{
+    "ground_objects": [
+        {
+            "type": "bitmap",
+            "name": "map_part_trava_3",
+            "x": 2369.75,
+            "y": 1865.95,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "shape",
+            "x": 747.7249999999999,
+            "y": 2513.075,
+            "w": 2267.15,
+            "h": 419.85,
+            "texture": "Trava.jpg",
+            "points": [
+                [ 747.75, 2513.1 ],
+                [ 747.75, 2932.95 ],
+                [ 3014.9, 2932.95 ],
+                [ 3014.9, 2513.1 ]
+            ]
+        },
+        {
+            "type": "shape",
+            "x": -22.024999999999977,
+            "y": 2513.1,
+            "w": 769.75,
+            "h": 453.8,
+            "texture": "Trava.jpg",
+            "points": [
+                [ -22, 2513.1 ],
+                [ -22, 2966.9 ],
+                [ 747.75, 2966.9 ],
+                [ 747.75, 2513.1 ]
+            ]
+        },
+        {
+            "type": "shape",
+            "x": 1787.1,
+            "y": 2122.05,
+            "w": 1301,
+            "h": 122.5,
+            "texture": "Trava.jpg",
+            "points": [
+                [ 3035.6, 2122.05 ],
+                [ 3035.6, 2133.25 ],
+                [ 2292, 2133.25 ],
+                [ 2292, 2122.05 ],
+                [ 1787.1, 2122.05 ],
+                [ 1787.1, 2244.55 ],
+                [ 3088.1, 2244.55 ],
+                [ 3088.1, 2122.05 ]
+            ]
+        },
+        {
+            "type": "shape",
+            "x": -141.375,
+            "y": -407.375,
+            "w": 3247.15,
+            "h": 2924.25,
+            "texture": "Trava.jpg",
+            "points": [
+                [ 1135.95, 1589.9 ],
+                [ 1113.95, 1615.9 ],
+                [ 1108.75, 1649.25 ],
+                [ 1108.75, 1759.25 ],
+                [ 1119.95, 1786.9 ],
+                [ 1139.95, 1804.9 ],
+                [ 1164.75, 1809.75 ],
+                [ 1283.75, 1809.25 ],
+                [ 1312.95, 1799.9 ],
+                [ 1328.95, 1776.9 ],
+                [ 1336.2, 1747.75 ],
+                [ 1336.2, 1637.25 ],
+                [ 1327.95, 1611.9 ],
+                [ 1306.95, 1590.9 ],
+                [ 1281.25, 1583.75 ],
+                [ 1168.25, 1583.25 ]
+            ]
+        },
+        {
+            "type": "bitmap",
+            "name": "map_part_plitka_3",
+            "x": 505.8,
+            "y": 231.85,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "map_part_plitka_3",
+            "x": 1523.75,
+            "y": 610.75,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 89.9947509765625
+        },
+        {
+            "type": "bitmap",
+            "name": "map_part_trava_2",
+            "x": 1503.2,
+            "y": 2183.55,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 89.9947509765625
+        },
+        {
+            "type": "bitmap",
+            "name": "map_part_trava_2",
+            "x": 945.4,
+            "y": 2183.55,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 89.9947509765625
+        },
+        {
+            "type": "bitmap",
+            "name": "map_part_plitka_1",
+            "x": 1209.65,
+            "y": 1151.55,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "map_part_trava_3",
+            "x": 1661.15,
+            "y": 1639.75,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "map_part_trava_2",
+            "x": 1735.1,
+            "y": 2183.55,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 89.9947509765625
+        },
+        {
+            "type": "bitmap",
+            "name": "map_part_trava_3",
+            "x": 541.55,
+            "y": 1919.65,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "map_part_trava_2",
+            "x": 725.5,
+            "y": 2183.55,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 89.9947509765625
+        },
+        {
+            "type": "bitmap",
+            "name": "map_part_trava_3",
+            "x": 541.55,
+            "y": 1375.85,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "Bordur_Long.jpg",
+            "x": 1677.4,
+            "y": 2513.4,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "Bordur_Long.jpg",
+            "x": 1994.4,
+            "y": 2513.4,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "Bordur_Long.jpg",
+            "x": 2311.9,
+            "y": 2513.4,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "Bordur_Long.jpg",
+            "x": 1360.45,
+            "y": 2513.4,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "Bordur_Long.jpg",
+            "x": 1043,
+            "y": 2513.4,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "Bordur_Long.jpg",
+            "x": 726.05,
+            "y": 2513.4,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "Bordur_Long.jpg",
+            "x": 408.6,
+            "y": 2513.4,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "Bordur_Long.jpg",
+            "x": 91.65,
+            "y": 2513.4,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "Bordur_Long.jpg",
+            "x": 2629.35,
+            "y": 2513.4,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "Bordur_Long.jpg",
+            "x": 2946.8,
+            "y": 2513.4,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "map_part_trava_3",
+            "x": 541.55,
+            "y": 834.05,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "map_part_trava_3",
+            "x": 541.55,
+            "y": 290.25,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "map_part_plitka_3",
+            "x": 1523.75,
+            "y": -23.15,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 89.9947509765625
+        },
+        {
+            "type": "bitmap",
+            "name": "map_part_plitka_3",
+            "x": 1127.75,
+            "y": 231.85,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "map_part_trava_3",
+            "x": 2021,
+            "y": 1243.9,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 89.9947509765625
+        },
+        {
+            "type": "bitmap",
+            "name": "map_part_trava_3",
+            "x": 2562,
+            "y": 1243.9,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 89.9947509765625
+        },
+        {
+            "type": "bitmap",
+            "name": "Bordur_Long.jpg",
+            "x": 330.65,
+            "y": 2244.45,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "Bordur_Long.jpg",
+            "x": 17.65,
+            "y": 2244.45,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "Bordur_Long.jpg",
+            "x": 2000.9,
+            "y": 2123.25,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "Bordur_Long.jpg",
+            "x": 2318.35,
+            "y": 2123.25,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "Bordur_Long.jpg",
+            "x": 2635.85,
+            "y": 2123.25,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "Bordur_Long.jpg",
+            "x": 1998.4,
+            "y": 2243.75,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "Bordur_Long.jpg",
+            "x": 2314.9,
+            "y": 2243.75,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "Bordur_Long.jpg",
+            "x": 2632.4,
+            "y": 2243.75,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "Bordur_Long.jpg",
+            "x": 2949.35,
+            "y": 2243.75,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "Bordur_Short.jpg",
+            "x": 1223.6,
+            "y": 1583.75,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "Bordur_rot.png",
+            "x": 1307.6,
+            "y": 1782.65,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "Bordur_Short.jpg",
+            "x": 1221.1,
+            "y": 1809.75,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "Bordur_rot.png",
+            "x": 1308.6,
+            "y": 1611.7,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": -89.9947509765625
+        },
+        {
+            "type": "bitmap",
+            "name": "Bordur_Short.jpg",
+            "x": 1336.1,
+            "y": 1698.25,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 89.9947509765625
+        },
+        {
+            "type": "bitmap",
+            "name": "Bordur_rot.png",
+            "x": 1135.6,
+            "y": 1781.65,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 89.9947509765625
+        },
+        {
+            "type": "bitmap",
+            "name": "Bordur_Short.jpg",
+            "x": 1109.15,
+            "y": 1695.75,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 89.9947509765625
+        },
+        {
+            "type": "bitmap",
+            "name": "Bordur_rot.png",
+            "x": 1137.1,
+            "y": 1610.65,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 180
+        },
+        {
+            "type": "bitmap",
+            "name": "decal_01.png",
+            "x": 882.05,
+            "y": 1262.95,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "decal_02.png",
+            "x": 958.75,
+            "y": 1003.8,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "shape",
+            "x": 483.77500000000003,
+            "y": -183.97500000000002,
+            "w": 1005.65,
+            "h": 411.85,
+            "texture": "Trava.jpg",
+            "points": [
+                [ 483.8, -183.95 ],
+                [ 483.8, 227.9 ],
+                [ 1489.45, 227.9 ],
+                [ 1489.45, -183.95 ]
+            ]
+        },
+        {
+            "type": "shape",
+            "x": -6,
+            "y": -22.024999999999977,
+            "w": 485.8,
+            "h": 1247.55,
+            "texture": "Trava.jpg",
+            "points": [
+                [ 479.8, 1225.55 ],
+                [ -6, 1225.55 ],
+                [ -6, -22 ],
+                [ 479.8, -22 ]
+            ]
+        },
+        {
+            "type": "shape",
+            "x": -20,
+            "y": 1199.6000000000001,
+            "w": 505.8,
+            "h": 1041.6,
+            "texture": "Trava.jpg",
+            "points": [
+                [ -6, 1226.45 ],
+                [ -6, 1199.6 ],
+                [ -20, 1199.6 ],
+                [ -20, 2241.2 ],
+                [ 485.8, 2241.2 ],
+                [ 485.8, 1199.6 ],
+                [ 479.8, 1199.6 ],
+                [ 479.8, 1226.45 ]
+            ]
+        },
+        {
+            "type": "shape",
+            "x": 2270.75,
+            "y": 1333.4499999999998,
+            "w": 743.6,
+            "h": 799.8,
+            "texture": "Trava.jpg",
+            "points": [
+                [ 2270.75, 1333.45 ],
+                [ 2270.75, 2133.25 ],
+                [ 3014.35, 2133.25 ],
+                [ 3014.35, 1333.45 ]
+            ]
+        },
+        {
+            "type": "shape",
+            "x": 1487.4250000000002,
+            "y": -20,
+            "w": 1533.45,
+            "h": 1335.5,
+            "texture": "Trava.jpg",
+            "points": [
+                [ 1489.45, -20 ],
+                [ 1489.45, 227.9 ],
+                [ 1487.45, 227.9 ],
+                [ 1487.45, 1315.5 ],
+                [ 3020.9, 1315.5 ],
+                [ 3020.9, -20 ]
+            ]
+        },
+        {
+            "type": "bitmap",
+            "name": "map_part_trava_1",
+            "x": 1214.55,
+            "y": 1153.95,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 0
+        },
+        {
+            "type": "bitmap",
+            "name": "map_part_trava_1",
+            "x": 1214.55,
+            "y": 1105.95,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 89.9947509765625
+        },
+        {
+            "type": "bitmap",
+            "name": "map_part_trava_1",
+            "x": 1214.55,
+            "y": 1294.9,
+            "scaleX": 1,
+            "scaleY": 1,
+            "rotation": 89.9947509765625
+        }
+    ]
+}

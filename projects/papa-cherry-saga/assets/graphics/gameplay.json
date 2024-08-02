@@ -1,0 +1,4645 @@
+{
+	"textures": [
+		{
+			"image": "gameplay.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1276,
+				"h": 1636
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "black_rect_big",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 750,
+						"h": 1000
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 750,
+						"h": 1000
+					},
+					"frame": {
+						"x": 3,
+						"y": 3,
+						"w": 750,
+						"h": 1000
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "stripes_fx",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 905
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 905
+					},
+					"frame": {
+						"x": 759,
+						"y": 3,
+						"w": 77,
+						"h": 905
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "gummies/gummy_horizontal_large",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 217,
+						"h": 140
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 217,
+						"h": 140
+					},
+					"frame": {
+						"x": 3,
+						"y": 1009,
+						"w": 217,
+						"h": 140
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "gummies/gummy_vertical_large",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 140,
+						"h": 217
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 140,
+						"h": 217
+					},
+					"frame": {
+						"x": 842,
+						"y": 3,
+						"w": 140,
+						"h": 217
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "circle_fx",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 166,
+						"h": 166
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 166,
+						"h": 166
+					},
+					"frame": {
+						"x": 3,
+						"y": 1155,
+						"w": 166,
+						"h": 166
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_00",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 159,
+						"h": 162
+					},
+					"frame": {
+						"x": 988,
+						"y": 3,
+						"w": 159,
+						"h": 162
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "bottle_circle_fx",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 145,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 6,
+						"w": 120,
+						"h": 105
+					},
+					"frame": {
+						"x": 1153,
+						"y": 3,
+						"w": 120,
+						"h": 105
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_01",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 159,
+						"h": 162
+					},
+					"frame": {
+						"x": 3,
+						"y": 1327,
+						"w": 159,
+						"h": 162
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "field_labels",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 62,
+						"h": 240
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 60,
+						"h": 238
+					},
+					"frame": {
+						"x": 842,
+						"y": 226,
+						"w": 60,
+						"h": 238
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "apples_platter/Tray_00",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 155
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 150,
+						"h": 155
+					},
+					"frame": {
+						"x": 226,
+						"y": 1009,
+						"w": 150,
+						"h": 155
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cookies/super_sphere_x2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 176,
+						"h": 176
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 18,
+						"w": 144,
+						"h": 144
+					},
+					"frame": {
+						"x": 382,
+						"y": 1009,
+						"w": 144,
+						"h": 144
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "bomb_explosion",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 141,
+						"h": 141
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 4,
+						"w": 127,
+						"h": 130
+					},
+					"frame": {
+						"x": 3,
+						"y": 1495,
+						"w": 127,
+						"h": 130
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "circle_fx_3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 151,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 127,
+						"h": 130
+					},
+					"frame": {
+						"x": 532,
+						"y": 1009,
+						"w": 127,
+						"h": 130
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "stripes_fx_circle",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 151,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 127,
+						"h": 130
+					},
+					"frame": {
+						"x": 665,
+						"y": 1009,
+						"w": 127,
+						"h": 130
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "black_rect",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 128,
+						"h": 128
+					},
+					"frame": {
+						"x": 175,
+						"y": 1170,
+						"w": 128,
+						"h": 128
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "chocolate/chocolate-blue",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 79,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 79,
+						"h": 89
+					},
+					"frame": {
+						"x": 759,
+						"y": 914,
+						"w": 79,
+						"h": 89
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "lollipop",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 115,
+						"h": 120
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 7,
+						"w": 92,
+						"h": 109
+					},
+					"frame": {
+						"x": 908,
+						"y": 226,
+						"w": 92,
+						"h": 109
+					},
+					"anchor": {
+						"x": 0.704348,
+						"y": 0.908333
+					}
+				},
+				{
+					"filename": "glove",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 115,
+						"h": 120
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 10,
+						"w": 104,
+						"h": 105
+					},
+					"frame": {
+						"x": 908,
+						"y": 341,
+						"w": 104,
+						"h": 105
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "apples_platter/Tray_01",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 147,
+						"h": 31
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 147,
+						"h": 31
+					},
+					"frame": {
+						"x": 988,
+						"y": 171,
+						"w": 147,
+						"h": 31
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rolling_pin",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 100,
+						"h": 100
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 3,
+						"w": 96,
+						"h": 97
+					},
+					"frame": {
+						"x": 1006,
+						"y": 208,
+						"w": 96,
+						"h": 97
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "gummies/gummy_vertical",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 105
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 105
+					},
+					"frame": {
+						"x": 309,
+						"y": 1170,
+						"w": 68,
+						"h": 105
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "border",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 92,
+						"h": 92
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 92,
+						"h": 92
+					},
+					"frame": {
+						"x": 383,
+						"y": 1159,
+						"w": 92,
+						"h": 92
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "candy_bottle/candy_bottle",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 84,
+						"h": 100
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 82,
+						"h": 98
+					},
+					"frame": {
+						"x": 842,
+						"y": 470,
+						"w": 82,
+						"h": 98
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.65
+					}
+				},
+				{
+					"filename": "donut_box/box_00",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 82,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 82,
+						"h": 90
+					},
+					"frame": {
+						"x": 842,
+						"y": 574,
+						"w": 82,
+						"h": 90
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.55
+					}
+				},
+				{
+					"filename": "chocolate/chocolate-orange",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 79,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 79,
+						"h": 89
+					},
+					"frame": {
+						"x": 842,
+						"y": 670,
+						"w": 79,
+						"h": 89
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "chocolate/chocolate-pink",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 79,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 79,
+						"h": 89
+					},
+					"frame": {
+						"x": 842,
+						"y": 765,
+						"w": 79,
+						"h": 89
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "gummies/gummy_horizontal",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 105,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 105,
+						"h": 68
+					},
+					"frame": {
+						"x": 1153,
+						"y": 114,
+						"w": 105,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "chocolate/chocolate-purple",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 79,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 79,
+						"h": 89
+					},
+					"frame": {
+						"x": 930,
+						"y": 452,
+						"w": 79,
+						"h": 89
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "chocolate/chocolate-red",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 79,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 79,
+						"h": 89
+					},
+					"frame": {
+						"x": 930,
+						"y": 547,
+						"w": 79,
+						"h": 89
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator_turns",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 122
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 30,
+						"h": 120
+					},
+					"frame": {
+						"x": 798,
+						"y": 1009,
+						"w": 30,
+						"h": 120
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "chocolate/chocolate-yellow",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 79,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 79,
+						"h": 89
+					},
+					"frame": {
+						"x": 1018,
+						"y": 311,
+						"w": 79,
+						"h": 89
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "chocolate/chocolate-double",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 78,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 89
+					},
+					"frame": {
+						"x": 481,
+						"y": 1159,
+						"w": 78,
+						"h": 89
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "chocolate/chocolate",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 79,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 79,
+						"h": 89
+					},
+					"frame": {
+						"x": 565,
+						"y": 1145,
+						"w": 79,
+						"h": 89
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "chocolate/chocolate-triple",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 78,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 89
+					},
+					"frame": {
+						"x": 650,
+						"y": 1145,
+						"w": 78,
+						"h": 89
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "drop_items/cookie_2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 78,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 88
+					},
+					"frame": {
+						"x": 734,
+						"y": 1145,
+						"w": 78,
+						"h": 88
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "biscuits/biscuit",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 79,
+						"h": 79
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 79,
+						"h": 79
+					},
+					"frame": {
+						"x": 1018,
+						"y": 406,
+						"w": 79,
+						"h": 79
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "marshmallows/marshmallow_double_2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 85
+					},
+					"frame": {
+						"x": 1015,
+						"y": 491,
+						"w": 80,
+						"h": 85
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 37,
+						"y": 42,
+						"w": 84,
+						"h": 61
+					},
+					"frame": {
+						"x": 1015,
+						"y": 582,
+						"w": 84,
+						"h": 61
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "candy_bottle/candy",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 87,
+						"h": 39
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 87,
+						"h": 38
+					},
+					"frame": {
+						"x": 842,
+						"y": 860,
+						"w": 87,
+						"h": 38
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "marshmallows/marshmallow_blue",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 79,
+						"h": 85
+					},
+					"frame": {
+						"x": 844,
+						"y": 904,
+						"w": 79,
+						"h": 85
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "mystery_box/mystery_box",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 78,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 86
+					},
+					"frame": {
+						"x": 1108,
+						"y": 208,
+						"w": 78,
+						"h": 86
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "mystery_box/mystery_box_2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 78,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 86
+					},
+					"frame": {
+						"x": 1192,
+						"y": 188,
+						"w": 78,
+						"h": 86
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.566667
+					}
+				},
+				{
+					"filename": "marshmallows/marshmallow_common",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 79,
+						"h": 85
+					},
+					"frame": {
+						"x": 136,
+						"y": 1495,
+						"w": 79,
+						"h": 85
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "donut_box/donut",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 56,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 56,
+						"h": 47
+					},
+					"frame": {
+						"x": 136,
+						"y": 1586,
+						"w": 56,
+						"h": 47
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/Circle-Cookie-Red-Stripes-Horizontal",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 47,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 47,
+						"h": 47
+					},
+					"frame": {
+						"x": 198,
+						"y": 1586,
+						"w": 47,
+						"h": 47
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_01_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 32,
+						"w": 79,
+						"h": 68
+					},
+					"frame": {
+						"x": 930,
+						"y": 642,
+						"w": 79,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "marshmallows/marshmallow_double",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 79,
+						"h": 85
+					},
+					"frame": {
+						"x": 927,
+						"y": 716,
+						"w": 79,
+						"h": 85
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_01_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 31,
+						"w": 80,
+						"h": 69
+					},
+					"frame": {
+						"x": 1015,
+						"y": 649,
+						"w": 80,
+						"h": 69
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "donut_box/box_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 80,
+						"h": 83
+					},
+					"frame": {
+						"x": 1012,
+						"y": 724,
+						"w": 80,
+						"h": 83
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/Cube-Cookie-Blue-Stripes-Horizontal",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 47,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 47,
+						"h": 47
+					},
+					"frame": {
+						"x": 927,
+						"y": 807,
+						"w": 47,
+						"h": 47
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_02_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 31,
+						"w": 80,
+						"h": 69
+					},
+					"frame": {
+						"x": 383,
+						"y": 1257,
+						"w": 80,
+						"h": 69
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_03_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 31,
+						"w": 80,
+						"h": 69
+					},
+					"frame": {
+						"x": 175,
+						"y": 1304,
+						"w": 80,
+						"h": 69
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "marshmallows/marshmallow_orange",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 79,
+						"h": 85
+					},
+					"frame": {
+						"x": 168,
+						"y": 1379,
+						"w": 79,
+						"h": 85
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "chick/Cupcake",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 75
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 65,
+						"h": 75
+					},
+					"frame": {
+						"x": 261,
+						"y": 1304,
+						"w": 65,
+						"h": 75
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/generator",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 3,
+						"w": 76,
+						"h": 79
+					},
+					"frame": {
+						"x": 253,
+						"y": 1385,
+						"w": 76,
+						"h": 79
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "marshmallows/marshmallow_pink",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 79,
+						"h": 85
+					},
+					"frame": {
+						"x": 221,
+						"y": 1470,
+						"w": 79,
+						"h": 85
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/Circle-Cookie-Red",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 47,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 45,
+						"h": 47
+					},
+					"frame": {
+						"x": 332,
+						"y": 1281,
+						"w": 45,
+						"h": 47
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "marshmallows/marshmallow_purple",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 79,
+						"h": 85
+					},
+					"frame": {
+						"x": 306,
+						"y": 1470,
+						"w": 79,
+						"h": 85
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_04_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 32,
+						"w": 80,
+						"h": 69
+					},
+					"frame": {
+						"x": 251,
+						"y": 1561,
+						"w": 80,
+						"h": 69
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_01_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 77,
+						"y": 0,
+						"w": 71,
+						"h": 69
+					},
+					"frame": {
+						"x": 337,
+						"y": 1561,
+						"w": 71,
+						"h": 69
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/Cube-Cookie-Blue",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 47,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 46,
+						"h": 45
+					},
+					"frame": {
+						"x": 332,
+						"y": 1334,
+						"w": 46,
+						"h": 45
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_02_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 32,
+						"w": 79,
+						"h": 68
+					},
+					"frame": {
+						"x": 384,
+						"y": 1332,
+						"w": 79,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cookies/Cube-Cookie-Blue",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 3,
+						"w": 60,
+						"h": 58
+					},
+					"frame": {
+						"x": 335,
+						"y": 1406,
+						"w": 60,
+						"h": 58
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "chick/chick",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 70,
+						"h": 78
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 70,
+						"h": 78
+					},
+					"frame": {
+						"x": 401,
+						"y": 1406,
+						"w": 70,
+						"h": 78
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cookies/Circle-Cookie-Red-Bomb",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 70,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 67,
+						"h": 65
+					},
+					"frame": {
+						"x": 391,
+						"y": 1490,
+						"w": 67,
+						"h": 65
+					},
+					"anchor": {
+						"x": 0.48,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_01_05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 77,
+						"y": 64,
+						"w": 69,
+						"h": 70
+					},
+					"frame": {
+						"x": 414,
+						"y": 1561,
+						"w": 69,
+						"h": 70
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cookies/Cube-Cookie-Blue-Bomb",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 70,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 67,
+						"h": 65
+					},
+					"frame": {
+						"x": 464,
+						"y": 1490,
+						"w": 67,
+						"h": 65
+					},
+					"anchor": {
+						"x": 0.48,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_02_05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 77,
+						"y": 64,
+						"w": 69,
+						"h": 70
+					},
+					"frame": {
+						"x": 489,
+						"y": 1561,
+						"w": 69,
+						"h": 70
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_03_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 32,
+						"w": 79,
+						"h": 68
+					},
+					"frame": {
+						"x": 1192,
+						"y": 280,
+						"w": 79,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "donut_box/box_03",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 78,
+						"h": 73
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 73
+					},
+					"frame": {
+						"x": 1108,
+						"y": 300,
+						"w": 78,
+						"h": 73
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "marshmallows/marshmallow_red",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 79,
+						"h": 85
+					},
+					"frame": {
+						"x": 1103,
+						"y": 379,
+						"w": 79,
+						"h": 85
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_04_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 31,
+						"w": 80,
+						"h": 69
+					},
+					"frame": {
+						"x": 1192,
+						"y": 354,
+						"w": 80,
+						"h": 69
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_05_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 31,
+						"w": 80,
+						"h": 69
+					},
+					"frame": {
+						"x": 1188,
+						"y": 429,
+						"w": 80,
+						"h": 69
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_05_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 32,
+						"w": 79,
+						"h": 68
+					},
+					"frame": {
+						"x": 1103,
+						"y": 470,
+						"w": 79,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "marshmallows/marshmallow_yellow",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 79,
+						"h": 85
+					},
+					"frame": {
+						"x": 1105,
+						"y": 544,
+						"w": 79,
+						"h": 85
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "field_cell_alone",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 78,
+						"h": 78
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 78
+					},
+					"frame": {
+						"x": 1190,
+						"y": 504,
+						"w": 78,
+						"h": 78
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_06_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 32,
+						"w": 79,
+						"h": 68
+					},
+					"frame": {
+						"x": 1190,
+						"y": 588,
+						"w": 79,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_06_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 31,
+						"w": 80,
+						"h": 69
+					},
+					"frame": {
+						"x": 980,
+						"y": 813,
+						"w": 80,
+						"h": 69
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_01_06",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 65,
+						"w": 69,
+						"h": 76
+					},
+					"frame": {
+						"x": 1066,
+						"y": 813,
+						"w": 69,
+						"h": 76
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "donut_box/box_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 52,
+						"w": 80,
+						"h": 36
+					},
+					"frame": {
+						"x": 565,
+						"y": 1240,
+						"w": 80,
+						"h": 36
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "field_cell_bottom",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 78,
+						"h": 78
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 78
+					},
+					"frame": {
+						"x": 651,
+						"y": 1240,
+						"w": 78,
+						"h": 78
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "field_cell_bottom_left",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 78,
+						"h": 78
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 78
+					},
+					"frame": {
+						"x": 735,
+						"y": 1239,
+						"w": 78,
+						"h": 78
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "field_cell_bottom_right",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 78,
+						"h": 78
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 78
+					},
+					"frame": {
+						"x": 481,
+						"y": 1254,
+						"w": 78,
+						"h": 78
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/base",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 77
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 80,
+						"h": 74
+					},
+					"frame": {
+						"x": 565,
+						"y": 1282,
+						"w": 80,
+						"h": 74
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cookies/Heart-Cookie-Yellow-Stripes-Horizontal",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 63,
+						"h": 62
+					},
+					"frame": {
+						"x": 469,
+						"y": 1338,
+						"w": 63,
+						"h": 62
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "field_cell_center",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 78,
+						"h": 78
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 78
+					},
+					"frame": {
+						"x": 477,
+						"y": 1406,
+						"w": 78,
+						"h": 78
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cookies/Donut-Cookie-Purple-Bomb",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 70,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 67,
+						"h": 65
+					},
+					"frame": {
+						"x": 537,
+						"y": 1490,
+						"w": 67,
+						"h": 65
+					},
+					"anchor": {
+						"x": 0.48,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_03_05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 77,
+						"y": 64,
+						"w": 70,
+						"h": 70
+					},
+					"frame": {
+						"x": 564,
+						"y": 1561,
+						"w": 70,
+						"h": 70
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "field_cell_left",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 78,
+						"h": 78
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 78
+					},
+					"frame": {
+						"x": 651,
+						"y": 1324,
+						"w": 78,
+						"h": 78
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "field_cell_right",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 78,
+						"h": 78
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 78
+					},
+					"frame": {
+						"x": 735,
+						"y": 1323,
+						"w": 78,
+						"h": 78
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_02_06",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 65,
+						"w": 69,
+						"h": 76
+					},
+					"frame": {
+						"x": 561,
+						"y": 1408,
+						"w": 69,
+						"h": 76
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "field_cell_top",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 78,
+						"h": 78
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 78
+					},
+					"frame": {
+						"x": 636,
+						"y": 1408,
+						"w": 78,
+						"h": 78
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 23,
+						"w": 64,
+						"h": 63
+					},
+					"frame": {
+						"x": 610,
+						"y": 1492,
+						"w": 64,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_04_05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 77,
+						"y": 64,
+						"w": 69,
+						"h": 70
+					},
+					"frame": {
+						"x": 640,
+						"y": 1561,
+						"w": 69,
+						"h": 70
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_03_white",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 23,
+						"w": 64,
+						"h": 63
+					},
+					"frame": {
+						"x": 680,
+						"y": 1492,
+						"w": 64,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "field_cell_top_left",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 78,
+						"h": 78
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 78
+					},
+					"frame": {
+						"x": 720,
+						"y": 1408,
+						"w": 78,
+						"h": 78
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "chick/nut",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 66,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 66,
+						"h": 68
+					},
+					"frame": {
+						"x": 750,
+						"y": 1492,
+						"w": 66,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.441558
+					}
+				},
+				{
+					"filename": "cookies/Heart-Cookie-Yellow-Bomb",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 70,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 67,
+						"h": 65
+					},
+					"frame": {
+						"x": 715,
+						"y": 1566,
+						"w": 67,
+						"h": 65
+					},
+					"anchor": {
+						"x": 0.48,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cookies/Moon-Cookie-Pink-Bomb",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 70,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 67,
+						"h": 65
+					},
+					"frame": {
+						"x": 788,
+						"y": 1566,
+						"w": 67,
+						"h": 65
+					},
+					"anchor": {
+						"x": 0.48,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "field_cell_top_right",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 78,
+						"h": 78
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 78
+					},
+					"frame": {
+						"x": 1105,
+						"y": 635,
+						"w": 78,
+						"h": 78
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "gummies/blocker",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 78,
+						"h": 78
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 78
+					},
+					"frame": {
+						"x": 1189,
+						"y": 662,
+						"w": 78,
+						"h": 78
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cookies/Circle-Cookie-Red",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 1,
+						"w": 57,
+						"h": 61
+					},
+					"frame": {
+						"x": 1098,
+						"y": 746,
+						"w": 57,
+						"h": 61
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "licorice/Cream-Choco",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 82,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 78,
+						"h": 78
+					},
+					"frame": {
+						"x": 1161,
+						"y": 746,
+						"w": 78,
+						"h": 78
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "field_cell_dark",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 74,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 74,
+						"h": 74
+					},
+					"frame": {
+						"x": 1141,
+						"y": 830,
+						"w": 74,
+						"h": 74
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "bottom_cell_pointer_2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 45,
+						"h": 21
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 45,
+						"h": 21
+					},
+					"frame": {
+						"x": 1101,
+						"y": 719,
+						"w": 45,
+						"h": 21
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.45
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_03_06",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 65,
+						"w": 69,
+						"h": 76
+					},
+					"frame": {
+						"x": 804,
+						"y": 1407,
+						"w": 69,
+						"h": 76
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_05_05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 77,
+						"y": 64,
+						"w": 70,
+						"h": 70
+					},
+					"frame": {
+						"x": 822,
+						"y": 1489,
+						"w": 70,
+						"h": 70
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_03_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 77,
+						"y": 0,
+						"w": 71,
+						"h": 68
+					},
+					"frame": {
+						"x": 861,
+						"y": 1565,
+						"w": 71,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "field_cell_dark_2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 74,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 74,
+						"h": 74
+					},
+					"frame": {
+						"x": 844,
+						"y": 995,
+						"w": 74,
+						"h": 74
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "field_cell_highlight",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 74,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 74,
+						"h": 74
+					},
+					"frame": {
+						"x": 834,
+						"y": 1075,
+						"w": 74,
+						"h": 74
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "licorice/Cream-Yellow",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 78
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 74,
+						"h": 74
+					},
+					"frame": {
+						"x": 818,
+						"y": 1155,
+						"w": 74,
+						"h": 74
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cookies/super_sphere",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 88,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 8,
+						"w": 73,
+						"h": 74
+					},
+					"frame": {
+						"x": 819,
+						"y": 1235,
+						"w": 73,
+						"h": 74
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cookies/super_sphere_x2_white",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 88,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 8,
+						"w": 73,
+						"h": 74
+					},
+					"frame": {
+						"x": 819,
+						"y": 1315,
+						"w": 73,
+						"h": 74
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_04_06",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 65,
+						"w": 69,
+						"h": 76
+					},
+					"frame": {
+						"x": 898,
+						"y": 1155,
+						"w": 69,
+						"h": 76
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_05_06",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 65,
+						"w": 69,
+						"h": 76
+					},
+					"frame": {
+						"x": 898,
+						"y": 1237,
+						"w": 69,
+						"h": 76
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_06_05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 77,
+						"y": 64,
+						"w": 70,
+						"h": 70
+					},
+					"frame": {
+						"x": 898,
+						"y": 1319,
+						"w": 70,
+						"h": 70
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_06_06",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 65,
+						"w": 69,
+						"h": 76
+					},
+					"frame": {
+						"x": 879,
+						"y": 1395,
+						"w": 69,
+						"h": 76
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_02_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 77,
+						"y": 0,
+						"w": 71,
+						"h": 69
+					},
+					"frame": {
+						"x": 898,
+						"y": 1477,
+						"w": 71,
+						"h": 69
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_04_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 0,
+						"w": 70,
+						"h": 69
+					},
+					"frame": {
+						"x": 938,
+						"y": 1552,
+						"w": 70,
+						"h": 69
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_04_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 77,
+						"y": 0,
+						"w": 71,
+						"h": 69
+					},
+					"frame": {
+						"x": 954,
+						"y": 1395,
+						"w": 71,
+						"h": 69
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_01_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 0,
+						"w": 70,
+						"h": 68
+					},
+					"frame": {
+						"x": 975,
+						"y": 1470,
+						"w": 70,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_02_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 0,
+						"w": 70,
+						"h": 68
+					},
+					"frame": {
+						"x": 1014,
+						"y": 1544,
+						"w": 70,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cookies/Moon-Cookie-Pink-Stripes-Horizontal",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 0,
+						"w": 48,
+						"h": 63
+					},
+					"frame": {
+						"x": 1221,
+						"y": 830,
+						"w": 48,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "corner_top_left",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 82,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 28,
+						"h": 25
+					},
+					"frame": {
+						"x": 1245,
+						"y": 746,
+						"w": 28,
+						"h": 25
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/Moon-Cookie-Pink-Stripes-Horizontal",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 47,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 38,
+						"h": 47
+					},
+					"frame": {
+						"x": 935,
+						"y": 860,
+						"w": 38,
+						"h": 47
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_03_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 0,
+						"w": 70,
+						"h": 68
+					},
+					"frame": {
+						"x": 929,
+						"y": 913,
+						"w": 70,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "apples_platter/apple",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 60
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 51,
+						"h": 60
+					},
+					"frame": {
+						"x": 1005,
+						"y": 888,
+						"w": 51,
+						"h": 60
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_05_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 77,
+						"y": 0,
+						"w": 71,
+						"h": 68
+					},
+					"frame": {
+						"x": 1062,
+						"y": 895,
+						"w": 71,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_06_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 77,
+						"y": 0,
+						"w": 71,
+						"h": 68
+					},
+					"frame": {
+						"x": 1139,
+						"y": 910,
+						"w": 71,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "bomb_particle_circle",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 71
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 4,
+						"w": 57,
+						"h": 60
+					},
+					"frame": {
+						"x": 1216,
+						"y": 910,
+						"w": 57,
+						"h": 60
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/bombs",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 68,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 57,
+						"h": 55
+					},
+					"frame": {
+						"x": 1216,
+						"y": 976,
+						"w": 57,
+						"h": 55
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/chick",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 57,
+						"h": 57
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 0,
+						"w": 51,
+						"h": 57
+					},
+					"frame": {
+						"x": 1005,
+						"y": 954,
+						"w": 51,
+						"h": 57
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_05_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 0,
+						"w": 70,
+						"h": 68
+					},
+					"frame": {
+						"x": 1062,
+						"y": 969,
+						"w": 70,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/propeller",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 72,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 72,
+						"h": 28
+					},
+					"frame": {
+						"x": 1138,
+						"y": 984,
+						"w": 72,
+						"h": 28
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "color_cake/Cake_color_06_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 162
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 0,
+						"w": 70,
+						"h": 68
+					},
+					"frame": {
+						"x": 929,
+						"y": 987,
+						"w": 70,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/cookie_2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 58
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 51,
+						"h": 58
+					},
+					"frame": {
+						"x": 1005,
+						"y": 1017,
+						"w": 51,
+						"h": 58
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cookies/Polygon-Cookie-Orange-Bomb",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 70,
+						"h": 65
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 67,
+						"h": 65
+					},
+					"frame": {
+						"x": 1062,
+						"y": 1043,
+						"w": 67,
+						"h": 65
+					},
+					"anchor": {
+						"x": 0.48,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/stripes",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 66,
+						"h": 59
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 64,
+						"h": 57
+					},
+					"frame": {
+						"x": 1138,
+						"y": 1018,
+						"w": 64,
+						"h": 57
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cookies/Circle-Cookie-Red-Stripes-Horizontal",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 63,
+						"h": 63
+					},
+					"frame": {
+						"x": 1208,
+						"y": 1037,
+						"w": 63,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cookies/Cube-Cookie-Blue-Stripes-Horizontal",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 63,
+						"h": 61
+					},
+					"frame": {
+						"x": 1135,
+						"y": 1081,
+						"w": 63,
+						"h": 61
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cookies/Cube-Cookie-Blue-Stripes-Vertical",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 63,
+						"h": 63
+					},
+					"frame": {
+						"x": 1204,
+						"y": 1106,
+						"w": 63,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cookies/Circle-Cookie-Red-Stripes-Vertical",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 60,
+						"h": 63
+					},
+					"frame": {
+						"x": 914,
+						"y": 1075,
+						"w": 60,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cookies/Donut-Cookie-Purple-Stripes-Horizontal",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 63,
+						"h": 63
+					},
+					"frame": {
+						"x": 980,
+						"y": 1081,
+						"w": 63,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cookies/Heart-Cookie-Yellow-Stripes-Vertical",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 63,
+						"h": 63
+					},
+					"frame": {
+						"x": 973,
+						"y": 1150,
+						"w": 63,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cookies/Polygon-Cookie-Orange-Stripes-Horizontal",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 63,
+						"h": 63
+					},
+					"frame": {
+						"x": 973,
+						"y": 1219,
+						"w": 63,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cookies/Donut-Cookie-Purple-Stripes-Vertical",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 62,
+						"h": 63
+					},
+					"frame": {
+						"x": 974,
+						"y": 1288,
+						"w": 62,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cell_label_back",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 61,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 61,
+						"h": 30
+					},
+					"frame": {
+						"x": 974,
+						"y": 1357,
+						"w": 61,
+						"h": 30
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cookies/Heart-Cookie-Yellow",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 63,
+						"h": 62
+					},
+					"frame": {
+						"x": 1049,
+						"y": 1114,
+						"w": 63,
+						"h": 62
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cookies/Polygon-Cookie-Orange-Stripes-Vertical",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 61,
+						"h": 63
+					},
+					"frame": {
+						"x": 1042,
+						"y": 1182,
+						"w": 61,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cookies/Polygon-Cookie-Orange",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 61,
+						"h": 63
+					},
+					"frame": {
+						"x": 1042,
+						"y": 1251,
+						"w": 61,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cookies/Donut-Cookie-Purple",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 1,
+						"w": 59,
+						"h": 61
+					},
+					"frame": {
+						"x": 1042,
+						"y": 1320,
+						"w": 59,
+						"h": 61
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/super_sphere",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 66,
+						"h": 66
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 5,
+						"w": 56,
+						"h": 57
+					},
+					"frame": {
+						"x": 1118,
+						"y": 1148,
+						"w": 56,
+						"h": 57
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cookies/Moon-Cookie-Pink-Stripes-Vertical",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 0,
+						"w": 47,
+						"h": 63
+					},
+					"frame": {
+						"x": 1109,
+						"y": 1211,
+						"w": 47,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cookies/Moon-Cookie-Pink",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 0,
+						"w": 47,
+						"h": 63
+					},
+					"frame": {
+						"x": 1109,
+						"y": 1280,
+						"w": 47,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/Circle-Cookie-Red-Bomb",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 51,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 49,
+						"h": 48
+					},
+					"frame": {
+						"x": 1107,
+						"y": 1349,
+						"w": 49,
+						"h": 48
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cracker_hit_particle",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 33,
+						"h": 60
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 33,
+						"h": 60
+					},
+					"frame": {
+						"x": 1162,
+						"y": 1211,
+						"w": 33,
+						"h": 60
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.266667
+					}
+				},
+				{
+					"filename": "generator/content/marshmallow_common",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 52
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 52
+					},
+					"frame": {
+						"x": 1162,
+						"y": 1277,
+						"w": 48,
+						"h": 52
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.465116
+					}
+				},
+				{
+					"filename": "generator/content/Cube-Cookie-Blue-Bomb",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 51,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 49,
+						"h": 48
+					},
+					"frame": {
+						"x": 1162,
+						"y": 1335,
+						"w": 49,
+						"h": 48
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "corner_top_right",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 78
+					},
+					"spriteSourceSize": {
+						"x": 58,
+						"y": 0,
+						"w": 20,
+						"h": 17
+					},
+					"frame": {
+						"x": 979,
+						"y": 888,
+						"w": 20,
+						"h": 17
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/Donut-Cookie-Purple-Bomb",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 51,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 49,
+						"h": 48
+					},
+					"frame": {
+						"x": 1201,
+						"y": 1175,
+						"w": 49,
+						"h": 48
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/label_back",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 38,
+						"h": 41
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 36,
+						"h": 39
+					},
+					"frame": {
+						"x": 1201,
+						"y": 1229,
+						"w": 36,
+						"h": 39
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/Heart-Cookie-Yellow-Bomb",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 51,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 49,
+						"h": 48
+					},
+					"frame": {
+						"x": 1216,
+						"y": 1274,
+						"w": 49,
+						"h": 48
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/Moon-Cookie-Pink-Bomb",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 51,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 49,
+						"h": 48
+					},
+					"frame": {
+						"x": 1217,
+						"y": 1328,
+						"w": 49,
+						"h": 48
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/Polygon-Cookie-Orange-Bomb",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 51,
+						"h": 48
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 49,
+						"h": 48
+					},
+					"frame": {
+						"x": 1162,
+						"y": 1389,
+						"w": 49,
+						"h": 48
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/Cube-Cookie-Blue-Stripes-Vertical",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 47,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 47,
+						"h": 47
+					},
+					"frame": {
+						"x": 1217,
+						"y": 1382,
+						"w": 47,
+						"h": 47
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/Circle-Cookie-Red-Stripes-Vertical",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 47,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 46,
+						"h": 47
+					},
+					"frame": {
+						"x": 1031,
+						"y": 1393,
+						"w": 46,
+						"h": 47
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/Donut-Cookie-Purple-Stripes-Horizontal",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 47,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 47,
+						"h": 47
+					},
+					"frame": {
+						"x": 1083,
+						"y": 1403,
+						"w": 47,
+						"h": 47
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "corner_bottom_left",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 78
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 60,
+						"w": 16,
+						"h": 18
+					},
+					"frame": {
+						"x": 1031,
+						"y": 1446,
+						"w": 16,
+						"h": 18
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/Donut-Cookie-Purple-Stripes-Vertical",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 47,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 47,
+						"h": 47
+					},
+					"frame": {
+						"x": 1217,
+						"y": 1435,
+						"w": 47,
+						"h": 47
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/Donut-Cookie-Purple",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 47,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 45,
+						"h": 47
+					},
+					"frame": {
+						"x": 1051,
+						"y": 1470,
+						"w": 45,
+						"h": 47
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/Heart-Cookie-Yellow-Stripes-Horizontal",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 47,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 47,
+						"h": 47
+					},
+					"frame": {
+						"x": 1102,
+						"y": 1456,
+						"w": 47,
+						"h": 47
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/Heart-Cookie-Yellow-Stripes-Vertical",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 47,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 47,
+						"h": 47
+					},
+					"frame": {
+						"x": 1155,
+						"y": 1443,
+						"w": 47,
+						"h": 47
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "corner_bottom_right",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 78
+					},
+					"spriteSourceSize": {
+						"x": 62,
+						"y": 60,
+						"w": 16,
+						"h": 18
+					},
+					"frame": {
+						"x": 1053,
+						"y": 1446,
+						"w": 16,
+						"h": 18
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/Heart-Cookie-Yellow",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 47,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 47,
+						"h": 47
+					},
+					"frame": {
+						"x": 1102,
+						"y": 1509,
+						"w": 47,
+						"h": 47
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/Polygon-Cookie-Orange-Stripes-Horizontal",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 47,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 47,
+						"h": 47
+					},
+					"frame": {
+						"x": 1155,
+						"y": 1496,
+						"w": 47,
+						"h": 47
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/Polygon-Cookie-Orange-Stripes-Vertical",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 47,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 47,
+						"h": 47
+					},
+					"frame": {
+						"x": 1208,
+						"y": 1488,
+						"w": 47,
+						"h": 47
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/Polygon-Cookie-Orange",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 47,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 47,
+						"h": 47
+					},
+					"frame": {
+						"x": 1090,
+						"y": 1562,
+						"w": 47,
+						"h": 47
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/Moon-Cookie-Pink-Stripes-Vertical",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 47,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 37,
+						"h": 47
+					},
+					"frame": {
+						"x": 1143,
+						"y": 1562,
+						"w": 37,
+						"h": 47
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "generator/content/Moon-Cookie-Pink",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 47,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 37,
+						"h": 47
+					},
+					"frame": {
+						"x": 1186,
+						"y": 1549,
+						"w": 37,
+						"h": 47
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "particle_star_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 70,
+						"h": 70
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 10,
+						"w": 42,
+						"h": 46
+					},
+					"frame": {
+						"x": 1229,
+						"y": 1541,
+						"w": 42,
+						"h": 46
+					},
+					"anchor": {
+						"x": 0.471429,
+						"y": 0.471429
+					}
+				},
+				{
+					"filename": "star_particle",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 5,
+						"w": 34,
+						"h": 36
+					},
+					"frame": {
+						"x": 538,
+						"y": 1362,
+						"w": 34,
+						"h": 36
+					},
+					"anchor": {
+						"x": 0.46,
+						"y": 0.46
+					}
+				},
+				{
+					"filename": "double_spheres_particle",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 34
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 34,
+						"h": 34
+					},
+					"frame": {
+						"x": 578,
+						"y": 1362,
+						"w": 34,
+						"h": 34
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "bomb_spark",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 14,
+						"h": 14
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 14
+					},
+					"frame": {
+						"x": 1141,
+						"y": 188,
+						"w": 14,
+						"h": 14
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "bomb_spark_2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 14,
+						"h": 14
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 14
+					},
+					"frame": {
+						"x": 1161,
+						"y": 188,
+						"w": 14,
+						"h": 14
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "cell_border_back",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 82,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 1109,
+						"y": 1182,
+						"w": 3,
+						"h": 3
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:3a1a4c32e68571bcf83fa606702ff649:98292ba1af324d29ab3f80ca18e76005:2f000f36c153dcd06e739670dfc91337$"
+	}
+}

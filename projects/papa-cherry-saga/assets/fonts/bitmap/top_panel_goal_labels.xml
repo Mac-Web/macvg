@@ -1,0 +1,39 @@
+<font>
+  <info face="top_panel_goal_labels" size="30" bold="0" italic="0" charset="" unicode="" stretchH="100" smooth="1" aa="1" padding="2,2,2,2" spacing="0,0" outline="0"/>
+  <common lineHeight="36" base="23" scaleW="52" scaleH="266" pages="1" packed="0"/>
+  <pages>
+    <page id="0" file="top_panel_goal_labels.png"/>
+  </pages>
+  <chars count="15">
+    <char id="48" x="2" y="2" width="24" height="28" xoffset="1" yoffset="1" xadvance="20" page="0" chnl="15"/>
+    <char id="57" x="2" y="32" width="22" height="28" xoffset="1" yoffset="1" xadvance="18" page="0" chnl="15"/>
+    <char id="56" x="2" y="62" width="22" height="28" xoffset="1" yoffset="1" xadvance="18" page="0" chnl="15"/>
+    <char id="55" x="2" y="92" width="20" height="28" xoffset="1" yoffset="1" xadvance="15" page="0" chnl="15"/>
+    <char id="54" x="2" y="122" width="22" height="28" xoffset="1" yoffset="1" xadvance="18" page="0" chnl="15"/>
+    <char id="53" x="24" y="92" width="21" height="28" xoffset="1" yoffset="1" xadvance="17" page="0" chnl="15"/>
+    <char id="52" x="26" y="32" width="22" height="28" xoffset="1" yoffset="1" xadvance="18" page="0" chnl="15"/>
+    <char id="51" x="28" y="2" width="22" height="28" xoffset="0" yoffset="1" xadvance="17" page="0" chnl="15"/>
+    <char id="50" x="26" y="62" width="22" height="28" xoffset="1" yoffset="1" xadvance="17" page="0" chnl="15"/>
+    <char id="49" x="2" y="152" width="17" height="28" xoffset="0" yoffset="1" xadvance="12" page="0" chnl="15"/>
+    <char id="43" x="2" y="182" width="20" height="20" xoffset="1" yoffset="5" xadvance="14" page="0" chnl="15"/>
+    <char id="45" x="21" y="152" width="17" height="11" xoffset="1" yoffset="12" xadvance="14" page="0" chnl="15"/>
+    <char id="47" x="26" y="122" width="15" height="28" xoffset="0" yoffset="1" xadvance="10" page="0" chnl="15"/>
+    <char id="33" x="2" y="204" width="14" height="29" xoffset="1" yoffset="0" xadvance="9" page="0" chnl="15"/>
+    <char id="63" x="2" y="235" width="21" height="29" xoffset="1" yoffset="0" xadvance="16" page="0" chnl="15"/>
+    <char id="32" x="0" y="0" width="0" height="0" xoffset="1" yoffset="0" xadvance="6" page="0" chnl="15"/>
+  </chars>
+  <kernings count="12">
+    <kerning first="55" second="49" amount="0"/>
+    <kerning first="55" second="45" amount="-1"/>
+    <kerning first="55" second="47" amount="-1"/>
+    <kerning first="55" second="43" amount="0"/>
+    <kerning first="50" second="45" amount="0"/>
+    <kerning first="45" second="49" amount="-1"/>
+    <kerning first="45" second="55" amount="-1"/>
+    <kerning first="45" second="57" amount="0"/>
+    <kerning first="45" second="51" amount="0"/>
+    <kerning first="45" second="50" amount="0"/>
+    <kerning first="43" second="49" amount="0"/>
+    <kerning first="43" second="55" amount="0"/>
+  </kernings>
+</font>

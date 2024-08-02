@@ -1,0 +1,94 @@
+{
+    "c2array": true,
+    "size": [
+        6,
+        4,
+        1
+    ],
+    "data": [
+        [
+            [
+                "Slippery Surface"
+            ],
+            [
+                "Opponent misses the whole ball."
+            ],
+            [
+                15
+            ],
+            [
+                1
+            ]
+        ],
+        [
+            [
+                "Sluggish Reaction"
+            ],
+            [
+                "Opponent goalie will be a bit slower"
+            ],
+            [
+                10
+            ],
+            [
+                1
+            ]
+        ],
+        [
+            [
+                "Mind Reader"
+            ],
+            [
+                "Your goalie will see the opponent's target earlier."
+            ],
+            [
+                7
+            ],
+            [
+                0
+            ]
+        ],
+        [
+            [
+                "Goalie Freeze"
+            ],
+            [
+                "Opponent goalie won't react at all."
+            ],
+            [
+                15
+            ],
+            [
+                1
+            ]
+        ],
+        [
+            [
+                "Phantom Wall"
+            ],
+            [
+                "Creates a wall to protect part of your goal"
+            ],
+            [
+                7
+            ],
+            [
+                1
+            ]
+        ],
+        [
+            [
+                "Precision Boost"
+            ],
+            [
+                "Improves your aiming. Doesn't affect shot strength."
+            ],
+            [
+                12
+            ],
+            [
+                1
+            ]
+        ]
+    ]
+}

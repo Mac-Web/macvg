@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <script src="patch/js/poki-sdk.js"></script>
+
+    <title>Mutazone | MacVG</title>
+    <link
+      rel="stylesheet"
+      href="assets/fonts/stylesheet.css"
+      type="text/css"
+      charset="utf-8"
+    />
+    <style>
+      html,
+      body {
+        /*font-family: "default";*/
+        height: 100%;
+        width: 100%;
+        margin: 0px 0 0 0;
+        padding: 0;
+        overflow: hidden;
+        text-align: center;
+        background-color: black;
+        /* background-image: url("tex.png"); */
+        background-repeat: repeat;
+      }
+
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 150px;
+        width: 50%;
+      }
+
+      p.font-default2 {
+        position: absolute;
+        font-family: "ourland";
+        visibility: hidden;
+      }
+
+      p.font-default3 {
+        position: absolute;
+        font-family: "poppinsbold";
+        visibility: hidden;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p class="font-default2">P</p>
+    <p class="font-default3">P</p>
+    <!-- <img src="logoTransparent.png" alt="logo" class="center"> -->
+    <div id="og-game-holder"></div>
+
+    <script src="assets/bundle.js" charset="utf-8"></script>
+  </body>
+</html>

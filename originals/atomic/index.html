@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atomic Survival</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div id="game-container">
+      <div class="top">
+        <h1>Atomic Survival</h1>
+        <div class="stats">
+          <div id="energy">Energy: 0</div>
+          <div class="other-stats">
+            <div id="atoms">Atoms: 0</div>
+            <div id="eps">Energy/sec: 0.0</div>
+            <div id="apc">Atoms/click: 1</div>
+            <div id="aps">Atoms/sec: 0</div>
+          </div>
+        </div>
+        <button id="clickButton"><img src="assets/atom.svg" />Get Atom</button>
+      </div>
+      <div class="bottom">
+        <div class="bottom-btn">Coming Soon</div>
+        <div class="bottom-btn" id="upgrades">
+          <img src="assets/upgrade.svg" />Upgrades
+        </div>
+        <div class="bottom-btn">Coming Soon</div>
+      </div>
+    </div>
+    <div class="popup-drop" id="popup">
+      <div class="popup">
+        <img src="assets/close.svg" class="popup-close" id="popup-close" />
+        <h2 class="popup-title">Upgrades</h2>
+        <div class="upgrade-item">
+          <div class="upgrade-info">
+            <div class="upgrade-title">Better Reactor</div>
+            <div class="upgrade-description">
+              Each atom gives 10% more energy/sec.
+            </div>
+          </div>
+          <div class="upgrade-btn" id="up1">200</div>
+        </div>
+        <div class="upgrade-item">
+          <div class="upgrade-info">
+            <div class="upgrade-title">Atomic Surge</div>
+            <div class="upgrade-description">Gain one more atom per click.</div>
+          </div>
+          <div class="upgrade-btn" id="up2">500</div>
+        </div>
+        <div class="upgrade-item">
+          <div class="upgrade-info">
+            <div class="upgrade-title">Generation Tech</div>
+            <div class="upgrade-description">
+              Gain one more atom per second.
+            </div>
+          </div>
+          <div class="upgrade-btn" id="up3">1000</div>
+        </div>
+        <h2 style="text-align: center; margin-block: 30px">
+          More coming soon!
+        </h2>
+      </div>
+    </div>
+    <div class="version">v.0.2.0 | 7/16/2024</div>
+    <div id="reset">Reset Progress</div>
+    <div id="gold-atom">
+      <img src="assets/golden-atom.png" class="gold-atom" />
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

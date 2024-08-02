@@ -1,0 +1,595 @@
+{
+	"textures": [
+		{
+			"image": "rewards.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1967,
+				"h": 492
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "rewards/reward_rays.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 412,
+						"h": 413
+					},
+					"spriteSourceSize": {
+						"x": 25,
+						"y": 24,
+						"w": 357,
+						"h": 360
+					},
+					"frame": {
+						"x": 2,
+						"y": 2,
+						"w": 357,
+						"h": 360
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rewards/button_double.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 300,
+						"h": 127
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 296,
+						"h": 123
+					},
+					"frame": {
+						"x": 2,
+						"y": 366,
+						"w": 296,
+						"h": 123
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rewards/watch ad.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 103,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 103,
+						"h": 114
+					},
+					"frame": {
+						"x": 302,
+						"y": 366,
+						"w": 103,
+						"h": 114
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rewards/gift_white.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 312
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 0,
+						"w": 288,
+						"h": 312
+					},
+					"frame": {
+						"x": 363,
+						"y": 2,
+						"w": 288,
+						"h": 312
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rewards/flags_left.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 338,
+						"h": 172
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 338,
+						"h": 172
+					},
+					"frame": {
+						"x": 409,
+						"y": 318,
+						"w": 338,
+						"h": 172
+					},
+					"anchor": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				{
+					"filename": "rewards/particles/wheel_reward_spark.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 34
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 34,
+						"h": 34
+					},
+					"frame": {
+						"x": 363,
+						"y": 318,
+						"w": 34,
+						"h": 34
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rewards/gift.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 312,
+						"h": 312
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 14,
+						"w": 255,
+						"h": 284
+					},
+					"frame": {
+						"x": 655,
+						"y": 2,
+						"w": 255,
+						"h": 284
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.79808
+					}
+				},
+				{
+					"filename": "rewards/flags_right.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 367,
+						"h": 188
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 367,
+						"h": 188
+					},
+					"frame": {
+						"x": 751,
+						"y": 290,
+						"w": 367,
+						"h": 188
+					},
+					"anchor": {
+						"x": 1,
+						"y": 0
+					}
+				},
+				{
+					"filename": "rewards/particles/wheel_reward_circle.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 215,
+						"h": 212
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 10,
+						"w": 185,
+						"h": 188
+					},
+					"frame": {
+						"x": 914,
+						"y": 2,
+						"w": 185,
+						"h": 188
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rewards/particles/particle_star_4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 1,
+						"w": 66,
+						"h": 76
+					},
+					"frame": {
+						"x": 914,
+						"y": 194,
+						"w": 66,
+						"h": 76
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rewards/particles/star_1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 70,
+						"h": 70
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 10,
+						"w": 42,
+						"h": 46
+					},
+					"frame": {
+						"x": 984,
+						"y": 194,
+						"w": 42,
+						"h": 46
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rewards/rewards/rolling_pin.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 193,
+						"h": 185
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 193,
+						"h": 185
+					},
+					"frame": {
+						"x": 1103,
+						"y": 2,
+						"w": 193,
+						"h": 185
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rewards/rewards/glove.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 193,
+						"h": 185
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 191,
+						"h": 185
+					},
+					"frame": {
+						"x": 1122,
+						"y": 191,
+						"w": 191,
+						"h": 185
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rewards/rewards/lollipop.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 193,
+						"h": 185
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 0,
+						"w": 173,
+						"h": 185
+					},
+					"frame": {
+						"x": 1300,
+						"y": 2,
+						"w": 173,
+						"h": 185
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rewards/button_no.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 106
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 1,
+						"w": 246,
+						"h": 104
+					},
+					"frame": {
+						"x": 1122,
+						"y": 380,
+						"w": 246,
+						"h": 104
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rewards/rewards/super_sphere.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 193,
+						"h": 185
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 0,
+						"w": 181,
+						"h": 184
+					},
+					"frame": {
+						"x": 1317,
+						"y": 191,
+						"w": 181,
+						"h": 184
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rewards/hand.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 131,
+						"h": 111
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 0,
+						"w": 118,
+						"h": 111
+					},
+					"frame": {
+						"x": 1372,
+						"y": 379,
+						"w": 118,
+						"h": 111
+					},
+					"anchor": {
+						"x": 0.72519,
+						"y": 0.79279
+					}
+				},
+				{
+					"filename": "rewards/rewards/stripes.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 193,
+						"h": 185
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 2,
+						"w": 178,
+						"h": 180
+					},
+					"frame": {
+						"x": 1477,
+						"y": 2,
+						"w": 178,
+						"h": 180
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rewards/rewards/coin.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 193,
+						"h": 185
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 3,
+						"w": 180,
+						"h": 179
+					},
+					"frame": {
+						"x": 1502,
+						"y": 186,
+						"w": 180,
+						"h": 179
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rewards/rewards/bomb.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 177,
+						"h": 169
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 174,
+						"h": 169
+					},
+					"frame": {
+						"x": 1659,
+						"y": 2,
+						"w": 174,
+						"h": 169
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rewards/black_rect.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 128,
+						"h": 128
+					},
+					"frame": {
+						"x": 1837,
+						"y": 2,
+						"w": 128,
+						"h": 128
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rewards/particles/gift_circle_fx.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 151,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 127,
+						"h": 130
+					},
+					"frame": {
+						"x": 1837,
+						"y": 134,
+						"w": 127,
+						"h": 130
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "rewards/rewards/undo.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 193,
+						"h": 185
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 15,
+						"w": 188,
+						"h": 155
+					},
+					"frame": {
+						"x": 1686,
+						"y": 268,
+						"w": 188,
+						"h": 155
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:1cfa59f6bc5f0261e62aa24b03aab838:2513bd0d3e9fd086a8082fd88cd01569:4e549fd5f25429ef5063a975f7080ca0$"
+	}
+}

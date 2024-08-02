@@ -790,14 +790,22 @@ document.addEventListener("DOMContentLoaded", function () {
         <a href="/macvg/projects/motox3m-winter/" class="game" id="game157">
           Moto X3M Winter
         </a>
-
+        <a href="/macvg/projects/moving-truck/" class="game" id="game402">
+          Moving Truck
+        </a>
+        <a href="/macvg/projects/mr-bullet/" class="game" id="game403">
+          Mr Bullet
+        </a>
+        <a href="/macvg/projects/mutazone/" class="game" id="game404">
+          Mutazone
+        </a>
         <a href="/macvg/projects/my-rusty-submarine/" class="game" id="game158">
           My Rusty Submarine
         </a>
-
         <a href="/macvg/projects/n-gon/" class="game" id="game159"> n-gon </a>
 
         <a href="/macvg/projects/ninja/" class="game" id="game160"> Ninja </a>
+        <a href="/macvg/projects/ninja-cat/" class="game" id="game405"> Ninja Cat </a>
 
         <a href="/macvg/projects/ninjavsevilcorp/" class="game" id="game161">
           Ninja vs Evil Corp
@@ -819,9 +827,15 @@ document.addEventListener("DOMContentLoaded", function () {
         </a>
 
         <a href="/macvg/projects/ovo/" class="game" id="game166"> OvO </a>
+        <a href="/macvg/projects/ovo-2/" class="game" id="game406"> OvO 2 </a>
+        <a href="/macvg/projects/ovo-dimensions/" class="game" id="game407"> OvO Dimensions </a>
+        <a href="/macvg/projects/pacman/" class="game" id="game408">Pacman</a>
 
         <a href="/macvg/projects/pandemic2/" class="game" id="game167">
           Pandemic 2
+        </a>
+        <a href="/macvg/projects/papa-cherry-saga/" class="game" id="game409">
+          Papa Cherry Saga
         </a>
 
         <a href="/macvg/projects/papasburgeria/" class="game" id="game168">
@@ -845,7 +859,12 @@ document.addEventListener("DOMContentLoaded", function () {
         <a href="/macvg/projects/papery-planes/" class="game" id="game171">
           Papery Planes
         </a>
-
+        <a href="/macvg/projects/parking-fury/" class="game" id="game410">
+          Parking Fury
+        </a>
+        <a href="/macvg/projects/parking-fury-2/" class="game" id="game411">
+          Parking Fury 2
+        </a>
         <a href="/macvg/projects/particle-clicker/" class="game" id="game172">
           Particle Clicker
         </a>
@@ -1271,7 +1290,7 @@ document.addEventListener("DOMContentLoaded", function () {
   searchInput.classList.add("side-search");
   searchInput.innerHTML = `
     <form class="side-search-input">
-      <input type="text" placeholder="Search 350+ Games" class="side-search-bar" id="sideSearch">
+      <input type="text" placeholder="Search 360+ Games" class="side-search-bar" id="sideSearch">
       <button class="side-search-btn" type="submit">Go</button>
     </form>
     <span id="nothing" style="padding-inline: 20px;">Womp womp, we don't have that game yet. Submit a request <a href="https://forms.gle/UpHgbAmLtUPCD5bs8" target="_blank" style="color: white;" id="nothing">here</a> or find another one!</span>

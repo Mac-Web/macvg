@@ -1,0 +1,312 @@
+{
+	"frames": [
+		{
+			"objects":[
+				{
+					"name": "arrow_fin.png",
+					"x": 830.4,
+					"y": 2437.1,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 2444.4,
+					"y": 2533.4,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 89.9947509765625
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 2075.1,
+					"y": 2268.8,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 180
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 2434.95,
+					"y": 2204.95,
+					"scaleX": -1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 866.9,
+					"y": 2224.35,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -89.9947509765625
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 2090.75,
+					"y": 2477.8,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1643.25,
+					"y": 2268.8,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 180
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1281.35,
+					"y": 2268.8,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 180
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 1810.05,
+					"y": 2474.85,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				}
+			]
+		},
+		{
+			"objects":[
+				{
+					"name": "arrow_fin.png",
+					"x": 1894.5,
+					"y": 2532.35,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 2424.05,
+					"y": 2573.35,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 180
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1380.9,
+					"y": 2211.3,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 2445.5,
+					"y": 2228.75,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 89.9947509765625
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 1724.8,
+					"y": 2211.3,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 2070.65,
+					"y": 2211.3,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				}
+			]
+		},
+		{
+			"objects":[
+				{
+					"name": "arrow_fin.png",
+					"x": 2467.7,
+					"y": 1441.45,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 89.9947509765625
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 2377.3,
+					"y": 2246,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -89.9947509765625
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 2436.95,
+					"y": 2550.35,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 89.9947509765625
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 2054.5,
+					"y": 2497.5,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 2100.55,
+					"y": 1459.85,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 2411.55,
+					"y": 1848.2,
+					"scaleX": -1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 2093.25,
+					"y": 1906.55,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -89.9947509765625
+				}
+			]
+		},
+		{
+			"objects":[
+				{
+					"name": "arrow_fin.png",
+					"x": 2706.75,
+					"y": 399,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 2065.65,
+					"y": 1651.45,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -89.9947509765625
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 2454.7,
+					"y": 656.3,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 2059.3,
+					"y": 1367.45,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -89.9947509765625
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 2059.3,
+					"y": 1023.55,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -89.9947509765625
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 2089.15,
+					"y": 661.3,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 0
+				}
+			]
+		},
+		{
+			"objects":[
+				{
+					"name": "arrow_fin.png",
+					"x": 2465.45,
+					"y": 1708.1,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 89.9947509765625
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 2647.95,
+					"y": 705.25,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 180
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 2134.35,
+					"y": 967.7,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 89.9947509765625
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 2134.35,
+					"y": 1233.6,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 89.9947509765625
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 2384.7,
+					"y": 703.25,
+					"scaleX": 1,
+					"scaleY": 1,
+					"rotation": 180
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 2069.6,
+					"y": 656.75,
+					"scaleX": -1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": -89.9947509765625
+				},
+				{
+					"name": "arrow_turn.png",
+					"x": 2087.15,
+					"y": 1794.9,
+					"scaleX": -1,
+					"scaleY": 1,
+					"rotation": 180
+				},
+				{
+					"name": "arrow_direct.png",
+					"x": 2134.35,
+					"y": 1479.5,
+					"scaleX": 1.0000000041964472,
+					"scaleY": 1.0000000041964472,
+					"rotation": 89.9947509765625
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,176 @@
+{"frames": {
+
+"arm.png":
+{
+	"frame": {"x":1499,"y":912,"w":18,"h":19},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":18,"h":19},
+	"sourceSize": {"w":18,"h":19}
+},
+"bloodp1.png":
+{
+	"frame": {"x":1438,"y":636,"w":76,"h":28},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":28},
+	"sourceSize": {"w":76,"h":28}
+},
+"bloodp2.png":
+{
+	"frame": {"x":1438,"y":751,"w":65,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":65,"h":21},
+	"sourceSize": {"w":65,"h":21}
+},
+"bloodp3.png":
+{
+	"frame": {"x":1499,"y":936,"w":60,"h":18},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":18},
+	"sourceSize": {"w":60,"h":18}
+},
+"bloodp4.png":
+{
+	"frame": {"x":1431,"y":912,"w":62,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":25},
+	"sourceSize": {"w":62,"h":25}
+},
+"leg.png":
+{
+	"frame": {"x":1503,"y":845,"w":15,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":15,"h":24},
+	"sourceSize": {"w":15,"h":24}
+},
+"lightning/base-gradient.png":
+{
+	"frame": {"x":1080,"y":5,"w":625,"h":439},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":625,"h":439},
+	"sourceSize": {"w":625,"h":440}
+},
+"lightning/bigblur.png":
+{
+	"frame": {"x":5,"y":5,"w":1069,"h":1779},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":21,"w":1069,"h":1779},
+	"sourceSize": {"w":1080,"h":1800}
+},
+"lightning/light-beam.png":
+{
+	"frame": {"x":1080,"y":636,"w":194,"h":352},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":13,"w":194,"h":352},
+	"sourceSize": {"w":204,"h":381}
+},
+"lightning/small-blur.png":
+{
+	"frame": {"x":1080,"y":836,"w":292,"h":305},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":31,"w":292,"h":305},
+	"sourceSize": {"w":369,"h":369}
+},
+"p1.png":
+{
+	"frame": {"x":1509,"y":751,"w":9,"h":9},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":9,"h":9},
+	"sourceSize": {"w":9,"h":9}
+},
+"shadow - Copy.png":
+{
+	"frame": {"x":1438,"y":778,"w":64,"h":61},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":64,"h":61},
+	"sourceSize": {"w":64,"h":64}
+},
+"shadow.png":
+{
+	"frame": {"x":1433,"y":845,"w":64,"h":61},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":64,"h":61},
+	"sourceSize": {"w":64,"h":64}
+},
+"shadow2.png":
+{
+	"frame": {"x":1438,"y":670,"w":75,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":75},
+	"sourceSize": {"w":75,"h":75}
+},
+"shoot.png":
+{
+	"frame": {"x":1508,"y":781,"w":7,"h":1},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":7,"h":1},
+	"sourceSize": {"w":7,"h":1}
+},
+"skull.png":
+{
+	"frame": {"x":1391,"y":836,"w":36,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":34},
+	"sourceSize": {"w":36,"h":34}
+},
+"skull2.png":
+{
+	"frame": {"x":1391,"y":876,"w":34,"h":31},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":31},
+	"sourceSize": {"w":34,"h":31}
+},
+"spark2.png":
+{
+	"frame": {"x":1509,"y":766,"w":9,"h":9},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":9,"h":9},
+	"sourceSize": {"w":9,"h":9}
+},
+"star1.png":
+{
+	"frame": {"x":1391,"y":942,"w":21,"h":21},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":21,"h":21},
+	"sourceSize": {"w":24,"h":24}
+},
+"star2.png":
+{
+	"frame": {"x":1391,"y":913,"w":23,"h":23},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":23,"h":23},
+	"sourceSize": {"w":24,"h":24}
+}},
+"animations": {
+	"bloodp": ["bloodp1.png","bloodp2.png","bloodp3.png","bloodp4.png"],
+	"star": ["star1.png","star2.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "particles.png",
+	"format": "RGBA8888",
+	"size": {"w":1524,"h":1789},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:45f0d3d771d3e5ffb063a9ae848e0983:2d968272ab2c5ac260486232eecb3f04:767f0aa26e08023d62afa20c0c952bea$"
+}
+}

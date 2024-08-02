@@ -1,0 +1,7 @@
+﻿@font-face {
+    font-family:"Nikumaru";
+    src:    url("../fonts/Nikumaru/Nikumaru.otf")                format("otf"),
+            url("../fonts/Nikumaru/Nikumaru.ttf")                 format("truetype");
+    font-weight:normal;
+    font-style:normal;
+}

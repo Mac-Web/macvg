@@ -1,0 +1,2534 @@
+{
+	"en": {
+		"level": "Level #",
+		"moves": "moves",
+		"collect": "Collect",
+		"quit": "Quit",
+		"quit_subtitle": "You will lose a life.",
+		"tap_to_continue": "Tap to continue",
+		"tap_to_skip": "Tap to skip",
+		"wheel_lock": "The Wheel will be unlocked at level #",
+		"score": "Score: #",
+		"ads": {
+			"no_rewarded_ads": "Video ads are not available.",
+			"adblock_disable": "Please consider disabling AdBlock to support the game",
+			"adblock_rewarded_ads": "Please turn off AdBlock and try again.",
+			"loading": "Loading ads...",
+			"reward_in": "Reward in",
+			"close": "Close"
+		},
+		"confirm_popup": {
+			"question": "Are you sure?",
+			"decline": "No",
+			"accept": "Yes"
+		},
+		"start_level_popup": {
+			"classic_level": "Classic Level",
+			"hard_level": "~ Hard Level ~",
+			"goal": "Goals",
+			"collect": "Collect the sweets",
+			"booster_hint": "Recommended"
+		},
+		"lives": {
+			"title": "Lives",
+			"next_life": "Next life:",
+			"full": "Full",
+			"unlimited": "Unlimited",
+			"request": "Ask a friend",
+			"hint": "You need lives to continue playing..."
+		},
+		"rewards": {
+			"x2": "Double Reward!",
+			"bonus": "Bonus Reward!",
+			"decline": "No, thanks"
+		},
+		"stars_gift": {
+			"collect_popover": "Collect # stars from levels to open the gift!",
+			"ready": "Ready!",
+			"open": "Tap to open the gift!",
+			"claim_rewards": "Tap to claim rewards!"
+		},
+		"out_of_moves": {
+			"title": "Out of moves!",
+			"subtitle": "You still need to collect:",
+			"so_close": "So close!"
+		},
+		"second_chance": {
+			"title": "Second Chance",
+			"description": "Get 5 extra moves and play on",
+			"hint": "Tap here to see the board"
+		},
+		"video_rewards": {
+			"stripes": {
+				"title": "Striped Cookie",
+				"description": "Start the level with a striped cookie"
+			},
+			"bomb": {
+				"title": "Bomb",
+				"description": "Start the level with a Bomb"
+			},
+			"super_sphere": {
+				"title": "Rainbow Bomb",
+				"description": "Start the level with a Rainbow Bomb"
+			},
+			"undo": {
+				"title": "Undo",
+				"description": "Undo rewinds your last move"
+			},
+			"glove": {
+				"title": "Glove",
+				"description": "Glove removes any cookie"
+			},
+			"rolling_pin": {
+				"title": "Rolling Pin",
+				"description": "Rolling Pin removes one row and one column of pieces"
+			},
+			"lollipop": {
+				"title": "Lollipop",
+				"description": "Lollipop removes all pieces of chosen color"
+			}
+		},
+		"level_complete": "Level Complete!",
+		"level_failed": "Level Failed",
+		"victory": "Victory!",
+		"pregame_boosters": {
+			"hint": "Start the level with this power-up",
+			"stripes": "Striped Cookie",
+			"bomb": "Bomb",
+			"super_sphere": "Rainbow Bomb"
+		},
+		"booster_lock": "This booster will be unlocked at Level #.",
+		"booster_hint_cookie": "Tap on any cookie!",
+		"booster_hint_field": "Tap on the field!",
+		"boosters": {
+			"undo": {
+				"title": "Undo",
+				"hint": "Undo rewinds your last move"
+			},
+			"glove": {
+				"title": "Glove",
+				"hint": "Use glove to remove any piece"
+			},
+			"rolling_pin": {
+				"title": "Rolling Pin",
+				"hint": "Use Rolling Pin to remove one row and one column of pieces"
+			},
+			"lollipop": {
+				"title": "Lollipop",
+				"hint": "Use lollipop to remove all pieces of chosen color"
+			}
+		},
+		"tutorial": {
+			"basic_match": "Match 3 pieces of the same type by swapping adjacent ones.",
+			"basic_goals": "Keep collecting the required pieces to beat the level!",
+			"moves": "Every level has a limited number of moves. Try to win before running out of moves!",
+			"stripes_match": "Match 4 pieces and see what happens.",
+			"stripes_use": "We got a Stripes power-up. Match it with the pieces of the same type to activate it.",
+			"bomb_match_1": "You can also make T-shaped matches.",
+			"bomb_use": "This is a Bomb power-up. Match it with the pieces of the same type to blast it.",
+			"bomb_match_2": "An L-shaped match will also create a Bomb.",
+			"sphere_match": "Matching 5 pieces makes my favourite piece, the Rainbow Bomb!",
+			"sphere_use": "Swap the Rainbow Bomb with any adjacent piece to activate it.",
+			"powerup_combo": "You can combine any two power-ups! Try it and see what happens.",
+			"powerup_chef": "To charge the Chef, you need to activate power-ups on the field.",
+			"powerup_chef_2": "Match these pieces to get a bonus from chef.",
+			"licorice": "Unlock the piece by making a match with it.",
+			"licorice_goal": "Remove all of the blockers and collect remaining pieces.",
+			"marshmallow": "Collect Marshmallows by making matches next to them.",
+			"undo_1": "You can undo the last move.",
+			"undo_2": "Look, there is a better match here.",
+			"drop_items": "Bring Gingerbread Cookies down to beat this level.",
+			"booster_glove": "The Glove clears any piece without spending a move.",
+			"booster_rolling_pin": "The Rolling Pin clears one row and one column of pieces.",
+			"booster_lollipop": "The Lollipop clears all pieces of chosen color without spending a move."
+		},
+		"feedback_dialog": {
+			"feedback": "Feedback",
+			"feedback_subtitle": "How can we improve the game?",
+			"email": "Email (optional)",
+			"message": "Message",
+			"send": "Send",
+			"thank_you": "Thank you!"
+		},
+		"piggy_bank": {
+			"title": "Piggy Bank",
+			"warning": "The piggy bank is full! There is no space left to save coins!",
+			"hint": "Complete levels to fill the piggy bank",
+			"open": "Open",
+			"close": "Close",
+			"break_it": "Break it!",
+			"full": "Full",
+			"not_enough": "Collect at least # coins to open the piggy bank."
+		},
+		"graphics_quality": {
+			"title": "Graphics Quality",
+			"high": "High",
+			"medium": "Medium",
+			"low": "Low"
+		},
+		"hint_delay": {
+			"title": "Hints",
+			"value": "#s",
+			"on": "On",
+			"off": "Off"
+		},
+		"shop": {
+			"title": "Shop",
+			"sale": "Sale!",
+			"special_offer": "Special offer!",
+			"best_value": "Best value",
+			"most_popular": "Most popular",
+			"show_more": "More",
+			"ads_hint": "Any purchase removes ads between the levels",
+			"time": "#h",
+			"discount": "#% off"
+		},
+		"reset_data": {
+			"title": "Reset Data",
+			"text": "All progress will be lost!",
+			"press_to_сonfirm": "Press again to confirm"
+		},
+		"greetings": {
+			"title": "Welcome back!",
+			"bonus": "Bonus",
+			"super_bonus": "~ Super Bonus! ~",
+			"take": "Take",
+			"hours": "#h",
+			"minutes": "#min",
+			"greeting": "Hello! Glad to see you again!"
+		},
+		"chapters": {
+			"chapter": "Chapter #",
+			"levels": "Levels #",
+			"complete": "Complete!",
+			"coming_soon": "Coming soon",
+			"play": "Play"
+		},
+		"fullscreen": {
+			"fullscreen": "Fullscreen",
+			"enter": "Enter fullscreen",
+			"exit": "Exit fullscreen"
+		}
+	},
+	"ru": {
+		"level": "Уровень #",
+		"moves": "ходов",
+		"collect": "Собери",
+		"quit": "Выход",
+		"quit_subtitle": "Вы потеряете одну жизнь.",
+		"tap_to_continue": "Нажми, чтобы продолжить",
+		"tap_to_skip": "Нажми, чтобы пропустить",
+		"wheel_lock": "Колесо будет разблокировано на уровне #",
+		"score": "Очки: #",
+		"ads": {
+			"no_rewarded_ads": "Видеореклама недоступна.",
+			"adblock_disable": "Пожалуйста отключите AdBlock, чтобы поддержать игру",
+			"adblock_rewarded_ads": "Попробуйте отключить AdBlock.",
+			"loading": "Загрузка рекламы...",
+			"reward_in": "Награда через",
+			"close": "Закрыть"
+		},
+		"confirm_popup": {
+			"question": "Вы уверены?",
+			"decline": "Нет",
+			"accept": "Да"
+		},
+		"start_level_popup": {
+			"classic_level": "Уровень",
+			"hard_level": "~ Сложный ~",
+			"goal": "Цели",
+			"collect": "Собери все сладости",
+			"booster_hint": "Рекомендую"
+		},
+		"lives": {
+			"title": "Жизни",
+			"next_life": "Следующая жизнь:",
+			"full": "Все",
+			"unlimited": "Безлимит",
+			"request": "Попросить друга",
+			"hint": "Для того, чтобы продолжить играть вам нужны жизни."
+		},
+		"rewards": {
+			"x2": "Двойная Награда!",
+			"bonus": "Бонус!",
+			"decline": "Нет, спасибо"
+		},
+		"stars_gift": {
+			"collect_popover": "Собери # звёзд, чтобы открыть подарок!",
+			"ready": "Готов!",
+			"open": "Нажми, чтобы открыть подарок",
+			"claim_rewards": "Нажми, чтобы забрать призы!"
+		},
+		"out_of_moves": {
+			"title": "Кончились ходы!",
+			"subtitle": "Тебе всё ещё нужно собрать:",
+			"so_close": "Почти"
+		},
+		"second_chance": {
+			"title": "Второй Шанс",
+			"description": "Получи 5 дополнительных ходов и продолжи играть",
+			"hint": "Нажми, чтобы увидеть игровое поле"
+		},
+		"video_rewards": {
+			"stripes": {
+				"title": "Полосы",
+				"description": "Начни уровень с полосатой фишкой"
+			},
+			"bomb": {
+				"title": "Бомба",
+				"description": "Начни уровень с бомбой"
+			},
+			"super_sphere": {
+				"title": "Радужный Шар",
+				"description": "Начни уровень с Радужным Шаром"
+			},
+			"undo": {
+				"title": "Отмена хода",
+				"description": "Отменяет твой последний ход"
+			},
+			"glove": {
+				"title": "Рукавица",
+				"description": "Рукавица удаляет любую фишку на поле"
+			},
+			"rolling_pin": {
+				"title": "Скалка",
+				"description": "Скалка очищает все клетки по горизонтали и по вертикали"
+			},
+			"lollipop": {
+				"title": "Леденец",
+				"description": "Леденец убирает все фишки одного типа на поле"
+			}
+		},
+		"level_complete": "Уровень Пройден!",
+		"level_failed": "О, нет...",
+		"victory": "Победа!",
+		"pregame_boosters": {
+			"hint": "Начни уровень с #",
+			"stripes": "Полосатая фишка",
+			"bomb": "Бомба",
+			"super_sphere": "Радужный Шар"
+		},
+		"booster_lock": "Этот бустер будет разблокирован на уровне #.",
+		"booster_hint_cookie": "Нажми на фишку!",
+		"booster_hint_field": "Нажми на поле!",
+		"boosters": {
+			"undo": {
+				"title": "Отмена хода",
+				"hint": "Отменяет твой последний ход"
+			},
+			"glove": {
+				"title": "Рукавица",
+				"hint": "Используй Рукавицу, чтобы убрать одну фишку с поля"
+			},
+			"rolling_pin": {
+				"title": "Скалка",
+				"hint": "Используй скалку, чтобы очистить все клетки по горизонтали и вертикали"
+			},
+			"lollipop": {
+				"title": "Леденец",
+				"hint": "Используй леденец, чтобы убрать все фишки одного типа с поля"
+			}
+		},
+		"tutorial": {
+			"basic_match": "Создай комбинацию из трех или более фишек одного цвета.",
+			"basic_goals": "Собери нужное количество фишек, чтобы пройти уровень!",
+			"moves": "Постарайся пройти уровень прежде чем закончатся ходы.",
+			"stripes_match": "Попробуй создать комбинацию из 4 фишек.",
+			"stripes_use": "Ты получил бонус - глазурь! Теперь создай комбинацию с этой новой фишкой.",
+			"bomb_match_1": "Можно создавать комбинации фишек в форме буквы T.",
+			"bomb_use": "Новый бонус - Бомба! Создай комбинацию, чтобы увидеть её в действии.",
+			"bomb_match_2": "Комбинация в форме буквы L тоже превратится в Бомбу.",
+			"sphere_match": "Комбинация из 5 фишек превратится в самый мощный бонус!",
+			"sphere_use": "Чтобы активировать Радужный Шар, поменяй его местами с любой соседней фишкой.",
+			"powerup_combo": "Объединяйте бонусы, чтобы получить более мощные эффекты и убрать больше фишек.",
+			"powerup_chef": "Активируй бонусы на поле, чтобы получить бонус от Папы Вишни.",
+			"powerup_chef_2": "Собери эти фишки, чтобы получить бонус от шефа.",
+			"licorice": "Создай комбинацию, чтобы разблокировать фишку.",
+			"licorice_goal": "Удали все блокеры и собери оставшиеся фишки.",
+			"marshmallow": "Собери Зефирки, создав комбинацию рядом с ними.",
+			"undo_1": "Можно отменить последний ход.",
+			"undo_2": "Смотри-ка, есть ход получше.",
+			"drop_items": "Чтобы убрать пряники, их нужно провести до самого низа игрового поля.",
+			"booster_glove": "Рукавица может убрать любую фишку с игрового поля.",
+			"booster_rolling_pin": "Скалка убирает все фишки по горизонтали и вертикали.",
+			"booster_lollipop": "Леденец убирает с поля все фишки одного типа."
+		},
+		"feedback_dialog": {
+			"feedback": "Отзыв",
+			"feedback_subtitle": "Вам понравилась игра?",
+			"email": "Email (необязательно)",
+			"message": "Сообщение",
+			"send": "Отправить",
+			"thank_you": "Спасибо!"
+		},
+		"piggy_bank": {
+			"title": "Копилка",
+			"warning": "Копилка заполнена! Места для монет больше нет.",
+			"hint": "Проходите уровни, чтобы наполнить копилку",
+			"open": "Открыть",
+			"close": "Закрыть",
+			"break_it": "Разбить!",
+			"full": "Полна",
+			"not_enough": "Собери минимум # монет, чтобы открыть копилку."
+		},
+		"graphics_quality": {
+			"title": "Качество графики",
+			"high": "Высокое",
+			"medium": "Среднее",
+			"low": "Низкое"
+		},
+		"hint_delay": {
+			"title": "Подсказки",
+			"value": "# сек",
+			"on": "Вкл",
+			"off": "Выкл"
+		},
+		"shop": {
+			"title": "Магазин",
+			"sale": "Распродажа!",
+			"special_offer": "Акция!",
+			"best_value": "Лучшая цена",
+			"most_popular": "Хит продаж",
+			"show_more": "Больше",
+			"ads_hint": "Любая покупка убирает рекламу между уровнями",
+			"time": "#ч",
+			"discount": "скидка #%"
+		},
+		"reset_data": {
+			"title": "Удалить данные",
+			"text": "Весь прогресс будет потерян!",
+			"press_to_сonfirm": "Нажмите ещё раз для подтверждения"
+		},
+		"greetings": {
+			"title": "С возвращением!",
+			"bonus": "Бонус",
+			"super_bonus": "Супер бонус!",
+			"take": "Забрать",
+			"hours": "#ч",
+			"minutes": "#мин",
+			"greeting": "Привет! Рад снова тебя видеть!"
+		},
+		"chapters": {
+			"chapter": "Глава #",
+			"levels": "Уровни #",
+			"complete": "Пройден!",
+			"coming_soon": "Совсем скоро",
+			"play": "Играть"
+		},
+		"fullscreen": {
+			"fullscreen": "Полноэкранный режим",
+			"enter": "Войти в полноэкранный режим",
+			"exit": "Выйти из полноэкранного режима"
+		}
+	},
+	"fr": {
+		"level": "Niveau #",
+		"moves": "déplacements",
+		"collect": "Obtenir",
+		"quit": "Quitter",
+		"quit_subtitle": "Vous allez perdre une vie.",
+		"tap_to_continue": "Appuyez pour continuer",
+		"tap_to_skip": "Appuyez pour passer",
+		"wheel_lock": "La Roue sera déverrouillée au niveau #",
+		"score": "Score: #",
+		"ads": {
+			"no_rewarded_ads": "Les publicités récompensées ne sont pas disponibles pour le moment",
+			"adblock_disable": "Veuillez envisager de désactiver AdBlock pour soutenir le jeu",
+			"adblock_rewarded_ads": "Veuillez désactiver AdBlock pour activer les publicités vidéo",
+			"loading": "Loading ads...",
+			"reward_in": "Reward in",
+			"close": "Close"
+		},
+		"confirm_popup": {
+			"question": "Êtes-vous sûr ?",
+			"decline": "Non",
+			"accept": "Oui"
+		},
+		"start_level_popup": {
+			"classic_level": "Niveau classique",
+			"hard_level": "~ Niveau difficile ~",
+			"goal": "Objectifs",
+			"collect": "Collectez les bonbons",
+			"booster_hint": "Recommandé"
+		},
+		"lives": {
+			"title": "Vies",
+			"next_life": "Prochaine vie :",
+			"full": "Complet",
+			"unlimited": "Unlimited",
+			"request": "Ask a friend",
+			"hint": "Il faut des vies pour continuer à jouer..."
+		},
+		"rewards": {
+			"x2": "Double récompense !",
+			"bonus": "Récompense bonus !",
+			"decline": "Non, merci."
+		},
+		"stars_gift": {
+			"collect_popover": "Collectez # étoiles dans les niveaux pour ouvrir le cadeau !",
+			"ready": "Prêt !",
+			"open": "Appuyez pour ouvrir le cadeau !",
+			"claim_rewards": "Appuyez pour obtenir les récompenses !"
+		},
+		"out_of_moves": {
+			"title": "Hors des sentiers battus !",
+			"subtitle": "Vous devez encore collecter :",
+			"so_close": "Si proche !"
+		},
+		"second_chance": {
+			"title": "Deuxième chance",
+			"description": "Obtenez 5 déplacements supplémentaires et jouez encore",
+			"hint": "Appuyez ici pour voir le tableau"
+		},
+		"video_rewards": {
+			"stripes": {
+				"title": "Biscuit rayé",
+				"description": "Commencez le niveau avec un biscuit rayé"
+			},
+			"bomb": {
+				"title": "Bombe",
+				"description": "Commencez le niveau avec une bombe"
+			},
+			"super_sphere": {
+				"title": "Bombe arc-en-ciel",
+				"description": "Commencez le niveau avec une bombe arc-en-ciel"
+			},
+			"undo": {
+				"title": "Annuler",
+				"description": "Annuler rembobine votre dernier mouvement"
+			},
+			"glove": {
+				"title": "Gant",
+				"description": "Le gant enlève n'importe quel cookie"
+			},
+			"rolling_pin": {
+				"title": "Rouleau à pâtisserie",
+				"description": "Le rouleau à pâtisserie enlève une rangée et une colonne de pièces"
+			},
+			"lollipop": {
+				"title": "Sucette",
+				"description": "La sucette enlève toutes les pièces de la couleur choisie"
+			}
+		},
+		"level_complete": "Niveau terminé !",
+		"level_failed": "Niveau échoué",
+		"victory": "Victoire !",
+		"pregame_boosters": {
+			"hint": "Commencez le niveau avec un #",
+			"stripes": "Biscuit rayé",
+			"bomb": "Bombe",
+			"super_sphere": "Bombe arc-en-ciel"
+		},
+		"booster_lock": "Ce booster sera débloqué au niveau #.",
+		"booster_hint_cookie": "Appuyez sur n'importe quel cookie !",
+		"booster_hint_field": "Appuyez sur le plateau !",
+		"boosters": {
+			"undo": {
+				"title": "Annuler",
+				"hint": "Annuler rembobine votre dernier mouvement"
+			},
+			"glove": {
+				"title": "Gant",
+				"hint": "Utilisez un gant pour retirer un morceau"
+			},
+			"rolling_pin": {
+				"title": "Rouleau à pâtisserie",
+				"hint": "Utilisez le rouleau à pâtisserie pour retirer une rangée et une colonne de pièces"
+			},
+			"lollipop": {
+				"title": "Sucette",
+				"hint": "Utilisez une sucette pour enlever tous les morceaux de la couleur choisie"
+			}
+		},
+		"tutorial": {
+			"basic_match": "Faites correspondre 3 pièces du même type en échangeant celles qui sont adjacentes.",
+			"basic_goals": "Continuez à collecter les pièces nécessaires pour battre le niveau !",
+			"moves": "Chaque niveau a un nombre limité de mouvements. Essayez de gagner avant d'être à court de mouvements !",
+			"stripes_match": "Faites correspondre 4 pièces et voyez ce qui se passe.",
+			"stripes_use": "Nous avons un power-up Rayures. Faites-le correspondre avec les pièces du même type pour l'activer.",
+			"bomb_match_1": "Vous pouvez également faire des correspondances en forme de T.",
+			"bomb_use": "Il s'agit d'un power-up Bombe. Faites-le correspondre avec les pièces du même type pour le faire exploser.",
+			"bomb_match_2": "Une correspondance en forme de L créera également une Bombe.",
+			"sphere_match": "En associant 5 pièces, vous obtenez ma pièce préférée, la Bombe arc-en-ciel !",
+			"sphere_use": "Échangez la Bombe arc-en-ciel avec n'importe quel autre morceau adjacent pour l'activer.",
+			"powerup_combo": "Vous pouvez combiner deux power-ups au choix ! Essayez-le et voyez ce qui se passe.",
+			"powerup_chef": "Pour charger le chef, vous devez activer les power-ups sur le terrain.",
+			"powerup_chef_2": "Associez ces pièces pour obtenir un bonus du chef.",
+			"licorice": "Déverrouillez la pièce en la faisant correspondre avec celle du chef.",
+			"licorice_goal": "Retirez tous les bloqueurs et récupérez les morceaux restants.",
+			"marshmallow": "Ramassez les guimauves en faisant des correspondances à côté d'eux.",
+			"undo_1": "Vous pouvez annuler le dernier mouvement.",
+			"undo_2": "Regardez, il y a une meilleure correspondance ici.",
+			"drop_items": "Apportez des biscuits en pain d'épices pour battre ce niveau.",
+			"booster_glove": "Le Gant nettoie n'importe quelle pièce sans dépenser un seul mouvement.",
+			"booster_rolling_pin": "Le Rouleau à pâtisserie efface une rangée et une colonne de pièces.",
+			"booster_lollipop": "La Sucette efface toutes les pièces de la couleur choisie sans avoir à jouer."
+		},
+		"feedback_dialog": {
+			"feedback": "Commentaires",
+			"feedback_subtitle": "Nous aimerions avoir de vos nouvelles",
+			"email": "E-mail (facultatif)",
+			"message": "Message",
+			"send": "Envoyer",
+			"thank_you": "Merci !"
+		},
+		"piggy_bank": {
+			"title": "Piggy Bank",
+			"warning": "The piggy bank is full! There is no space left to save coins!",
+			"hint": "Complete levels to fill the piggy bank",
+			"open": "Open",
+			"close": "Close",
+			"break_it": "Break it!",
+			"full": "Full",
+			"not_enough": "Collect at least # coins to open the piggy bank."
+		},
+		"graphics_quality": {
+			"title": "Graphics Quality",
+			"high": "High",
+			"medium": "Medium",
+			"low": "Low"
+		},
+		"hint_delay": {
+			"title": "Conseils",
+			"value": "#s",
+			"on": "On",
+			"off": "Off"
+		},
+		"shop": {
+			"title": "Shop",
+			"sale": "Sale!",
+			"special_offer": "Special offer",
+			"best_value": "Best value",
+			"most_popular": "Most popular",
+			"show_more": "More",
+			"ads_hint": "Any purchase removes ads between the levels",
+			"time": "#h",
+			"discount": "#% off"
+		},
+		"reset_data": {
+			"title": "Reset Data",
+			"text": "All progress will be lost!",
+			"press_to_сonfirm": "Press again to confirm"
+		},
+		"greetings": {
+			"title": "Welcome back!",
+			"bonus": "Bonus",
+			"super_bonus": "~ Super Bonus! ~",
+			"take": "Take",
+			"hours": "#h",
+			"minutes": "#min",
+			"greeting": "Hello! Glad to see you again!"
+		},
+		"chapters": {
+			"chapter": "Chapter #",
+			"levels": "Levels #",
+			"complete": "Complete!",
+			"coming_soon": "Coming soon",
+			"play": "Play"
+		},
+		"fullscreen": {
+			"fullscreen": "Fullscreen",
+			"enter": "Enter fullscreen",
+			"exit": "Exit fullscreen"
+		}
+	},
+	"tr": {
+		"level": "Seviye #",
+		"moves": "hamleler",
+		"collect": "Topla",
+		"quit": "Çıkış",
+		"quit_subtitle": "Bir can kaybedeceksin.",
+		"tap_to_continue": "Devam etmek için dokun",
+		"tap_to_skip": "Geçmek için dokun",
+		"wheel_lock": "Çarkın kilidi #. seviyede açılacak",
+		"score": "Score: #",
+		"ads": {
+			"no_rewarded_ads": "Ödül reklamları şu anda mevcut değil",
+			"adblock_disable": "Lütfen oyunu desteklemek için Adblock'u devre dışı bırakın",
+			"adblock_rewarded_ads": "Lütfen video reklamlarını etkinleştirmek için AdBlock'u kapatın",
+			"loading": "Loading ads...",
+			"reward_in": "Reward in",
+			"close": "Close"
+		},
+		"confirm_popup": {
+			"question": "Emin misiniz?",
+			"decline": "Hayır",
+			"accept": "Evet"
+		},
+		"start_level_popup": {
+			"classic_level": "Klasik Seviye",
+			"hard_level": "~ Zor Seviye ~",
+			"goal": "Hedefler",
+			"collect": "Tatlıları topla",
+			"booster_hint": "Tavsiye edilen"
+		},
+		"lives": {
+			"title": "Canlar",
+			"next_life": "Sonraki can:",
+			"full": "Dolu",
+			"unlimited": "Unlimited",
+			"request": "Ask a friend",
+			"hint": "Oynamaya devam etmek için canlara ihtiyacın var..."
+		},
+		"rewards": {
+			"x2": "Çifte Ödül!",
+			"bonus": "Bonus Ödülü!",
+			"decline": "Hayır, teşekkürler"
+		},
+		"stars_gift": {
+			"collect_popover": "Hediyeyi açmak için seviyelerden # yıldız topla!",
+			"ready": "Hazır!",
+			"open": "Hediye açmak için dokun!",
+			"claim_rewards": "Ödülleri almak için dokun!"
+		},
+		"out_of_moves": {
+			"title": "Hamle kalmadı!",
+			"subtitle": "Hala şunları toplamalısın:",
+			"so_close": "Çok yaklaştın!"
+		},
+		"second_chance": {
+			"title": "İkinci Şans",
+			"description": "5 ekstra hamle al ve oyuna devam et",
+			"hint": "Panoyu görmek için buraya dokun"
+		},
+		"video_rewards": {
+			"stripes": {
+				"title": "Çizgili Çörek",
+				"description": "Seviyeye bir çizgili çörekle başla"
+			},
+			"bomb": {
+				"title": "Bomba",
+				"description": "Seviyeye bir Bombayla başla"
+			},
+			"super_sphere": {
+				"title": "Gökkuşağı Bombası",
+				"description": "Seviyeye bir Gökkuşağı Bombasıyla başla"
+			},
+			"undo": {
+				"title": "Geri al",
+				"description": "Geri al son hamleni geri alır"
+			},
+			"glove": {
+				"title": "Eldiven",
+				"description": "Eldiven her türlü çöreği ortadan kaldırır"
+			},
+			"rolling_pin": {
+				"title": "Oklava",
+				"description": "Oklava, parçaları içeren bir sütunu ve bir satırı ortadan kaldırır"
+			},
+			"lollipop": {
+				"title": "Lolipop",
+				"description": "Lolipop seçilen renkteki tüm parçaları ortadan kaldırır"
+			}
+		},
+		"level_complete": "Seviye Tamamlandı!",
+		"level_failed": "Seviye Başarısız Oldu",
+		"victory": "Zafer!",
+		"pregame_boosters": {
+			"hint": "Seviyeye bir # ile başla",
+			"stripes": "Çizgili Çörek",
+			"bomb": "Bomba",
+			"super_sphere": "Gökkuşağı Bombası"
+		},
+		"booster_lock": "Bu güçlendiricinin kilidi #. Seviyede açılaçak.",
+		"booster_hint_cookie": "Herhangi bir çöreğe dokun!",
+		"booster_hint_field": "Alana dokun!",
+		"boosters": {
+			"undo": {
+				"title": "Geri al",
+				"hint": "Geri al son hamleni geri alır"
+			},
+			"glove": {
+				"title": "Eldiven",
+				"hint": "Eldiven her türlü çöreği ortadan kaldırır"
+			},
+			"rolling_pin": {
+				"title": "Oklava",
+				"hint": "Oklava, parçaları içeren bir sütunu ve bir satırı ortadan kaldırır"
+			},
+			"lollipop": {
+				"title": "Lolipop",
+				"hint": "Lolipop seçilen renkteki tüm parçaları ortadan kaldırır"
+			}
+		},
+		"tutorial": {
+			"basic_match": "Bitişik parçaların yerlerini birbiriyle değiştirerek aynı türden 3 parçayı eşleştir.",
+			"basic_goals": "Seviyeyi geçmek için gerekli parçaları toplamaya devam et!",
+			"moves": "Her seviyede sınırlı sayıda hamle vardır. Hamle bitmeden kazanmaya çalış!",
+			"stripes_match": "4 parçayı eşleştir ve ne olacağını gör.",
+			"stripes_use": "Çizgili bir güçlendiricimiz var. Onu etkinleştirmek için aynı türdeki parçalarla eşleştir.",
+			"bomb_match_1": "Ayrıca T şeklinde eşleşmeler de yapabilirsin.",
+			"bomb_use": "Bu bir Bomba güçlendircidir. Patlatmak için aynı türden parçalarla eşleştir.",
+			"bomb_match_2": "L şekilli bir eşleme de Bomba yaratacaktır.",
+			"sphere_match": "5 parçayı eşleştirmek en sevdiğim parça olan Gökkuşağı Bombasını yaratıyor!",
+			"sphere_use": "Gökkuşağı Bombasının yerini herhangi bir bitişik parçayla değiştirerek etkinleştir.",
+			"powerup_combo": "Herhangi iki güçlendiriciyi birleştirebilirsin! Dene ve ne olacağını gör.",
+			"powerup_chef": "Şefe yüklemek yapmak için alandaki tüm güçlendiricileri etkinleştirmelisin.",
+			"powerup_chef_2": "Şeften bonus almak için bu parçaları eşleştir.",
+			"licorice": "Eşleştirme yaparak parçanın kilidini aç.",
+			"licorice_goal": "Tüm engelleyicileri kaldır ve kalan parçaları topla.",
+			"marshmallow": "Yanlarında eşleştirme yaparak Marşmelovları toplayın.",
+			"undo_1": "Son hareketi geri alabilirsin.",
+			"undo_2": "Bak, burada daha iyi bir eşleşme var.",
+			"drop_items": "Bu seviyeyi geçmek için Zencefilli Çörekleri dize getir.",
+			"booster_glove": "Eldiven hamle harcamadan herhangi bir parçayı temizler.",
+			"booster_rolling_pin": "Oklava, bir satır ve bir sütunluk parçaları temizler.",
+			"booster_lollipop": "Lolipop, bir hamle harcamadan seçilen rengin tüm parçalarını temizler."
+		},
+		"feedback_dialog": {
+			"feedback": "Geri bildirim",
+			"feedback_subtitle": "Sizden haber almak isteriz",
+			"email": "E-posta (isteğe bağlı)",
+			"message": "İleti",
+			"send": "Gönder",
+			"thank_you": "Teşekkür ederim!"
+		},
+		"piggy_bank": {
+			"title": "Piggy Bank",
+			"warning": "The piggy bank is full! There is no space left to save coins!",
+			"hint": "Complete levels to fill the piggy bank",
+			"open": "Open",
+			"close": "Close",
+			"break_it": "Break it!",
+			"full": "Full",
+			"not_enough": "Collect at least # coins to open the piggy bank."
+		},
+		"graphics_quality": {
+			"title": "Graphics Quality",
+			"high": "High",
+			"medium": "Medium",
+			"low": "Low"
+		},
+		"hint_delay": {
+			"title": "Hints",
+			"value": "#s",
+			"on": "On",
+			"off": "Off"
+		},
+		"shop": {
+			"title": "Shop",
+			"sale": "Sale!",
+			"special_offer": "Special offer",
+			"best_value": "Best value",
+			"most_popular": "Most popular",
+			"show_more": "More",
+			"ads_hint": "Any purchase removes ads between the levels",
+			"time": "#h",
+			"discount": "#% off"
+		},
+		"reset_data": {
+			"title": "Reset Data",
+			"text": "All progress will be lost!",
+			"press_to_сonfirm": "Press again to confirm"
+		},
+		"greetings": {
+			"title": "Welcome back!",
+			"bonus": "Bonus",
+			"super_bonus": "~ Super Bonus! ~",
+			"take": "Take",
+			"hours": "#h",
+			"minutes": "#min",
+			"greeting": "Hello! Glad to see you again!"
+		},
+		"chapters": {
+			"chapter": "Chapter #",
+			"levels": "Levels #",
+			"complete": "Complete!",
+			"coming_soon": "Coming soon",
+			"play": "Play"
+		},
+		"fullscreen": {
+			"fullscreen": "Fullscreen",
+			"enter": "Enter fullscreen",
+			"exit": "Exit fullscreen"
+		}
+	},
+	"it": {
+		"level": "Livello #",
+		"moves": "mosse",
+		"collect": "Ricevi",
+		"quit": "Esci",
+		"quit_subtitle": "Perderai una vita.",
+		"tap_to_continue": "Tocca per continuare",
+		"tap_to_skip": "Tocca per saltare",
+		"wheel_lock": "La ruota sará sbloccata al livello #",
+		"score": "Score: #",
+		"ads": {
+			"no_rewarded_ads": "Le inserzioni non sono disponibili al momento",
+			"adblock_disable": "Vorresti togliere il blocco delle inserzioni per sostenere il gioco?",
+			"adblock_rewarded_ads": "Vuoi togliere il blocco delle inserzioni per consentire i video promozionali?",
+			"loading": "Loading ads...",
+			"reward_in": "Reward in",
+			"close": "Close"
+		},
+		"confirm_popup": {
+			"question": "Sei sicuro?",
+			"decline": "No",
+			"accept": "Si"
+		},
+		"start_level_popup": {
+			"classic_level": "Livello classico",
+			"hard_level": "~ Livello difficile ~",
+			"goal": "Scopo",
+			"collect": "Prendi i dolcetti",
+			"booster_hint": "Consigliato"
+		},
+		"lives": {
+			"title": "Vite",
+			"next_life": "Prossima vita:",
+			"full": "Pieno",
+			"unlimited": "Unlimited",
+			"request": "Ask a friend",
+			"hint": "Hai bisogno di vite per continuare a giocare..."
+		},
+		"rewards": {
+			"x2": "Doppio premio!",
+			"bonus": "Premio bonus!",
+			"decline": "No, grazie"
+		},
+		"stars_gift": {
+			"collect_popover": "Prendi # stelle dai livelli per aprire il regalo!",
+			"ready": "Pronto!",
+			"open": "Tocca per aprire il regalo!",
+			"claim_rewards": "Tocca per richiedere i premi!"
+		},
+		"out_of_moves": {
+			"title": "Finite le mosse!",
+			"subtitle": "Devi ancora prendere:",
+			"so_close": "Cosí vicino!"
+		},
+		"second_chance": {
+			"title": "Seconda possibilitá",
+			"description": "Ricevi 5 mosse extra e continua a giocare",
+			"hint": "Tocca qui per vedere la tabella"
+		},
+		"video_rewards": {
+			"stripes": {
+				"title": "Biscotto a strisce",
+				"description": "Inizia il livello con un biscotto a strisce"
+			},
+			"bomb": {
+				"title": "Bomba",
+				"description": "Inizia il livello con una bomba"
+			},
+			"super_sphere": {
+				"title": "Bomba arcobaleno",
+				"description": "Inizia il livello con una bomba arcobaleno"
+			},
+			"undo": {
+				"title": "Annulla",
+				"description": "Annulla ritorno all'ultima mossa"
+			},
+			"glove": {
+				"title": "Guanto",
+				"description": "Il guanto elimina tutti i biscotti"
+			},
+			"rolling_pin": {
+				"title": "Mattarello",
+				"description": "Il mattarello elimina una fila e una colonna di pezzi"
+			},
+			"lollipop": {
+				"title": "Lecca-lecca",
+				"description": "Il lecca-lecca elimina tutti i pezzi del colore scelto"
+			}
+		},
+		"level_complete": "Livello completato!",
+		"level_failed": "Livello non superato",
+		"victory": "Vittoria!",
+		"pregame_boosters": {
+			"hint": "Inizia il livello con #",
+			"stripes": "Biscotto a strisce",
+			"bomb": "Bomba",
+			"super_sphere": "Bomba arcobaleno"
+		},
+		"booster_lock": "Questo booster sará sbloccato al livello #.",
+		"booster_hint_cookie": "Tocca qualunque biscotto!",
+		"booster_hint_field": "Tocca il campo!",
+		"boosters": {
+			"undo": {
+				"title": "Annulla",
+				"hint": "Annulla ritorno all'ultima mossa"
+			},
+			"glove": {
+				"title": "Guanto",
+				"hint": "Usa il guanto per eliminare qualsiasi pezzo"
+			},
+			"rolling_pin": {
+				"title": "Mattarello",
+				"hint": "Usa il mattarello per eliminare una fila e una colonna di pezzi"
+			},
+			"lollipop": {
+				"title": "Lecca-lecca",
+				"hint": "Usa il lecca-lecca per eliminare tutti i pezzi del colore scelto"
+			}
+		},
+		"tutorial": {
+			"basic_match": "Abbina tre pezzi dello stesso tipo scambiandoli con quelli vicini.",
+			"basic_goals": "Continua a prendere i pezzi richiesti per superare il livello!",
+			"moves": "Ciascun livello ha un numero limitato di mosse. Cerca di vincere prima di restare senza mosse!",
+			"stripes_match": "Abbina quattro pezzi e vedi cosa succede.",
+			"stripes_use": "Abbiamo un power-up di strisce. Abbinalo con i pezzi dello stesso tipo per attivarlo.",
+			"bomb_match_1": "Puoi anche fare degli abbinamenti con forma a T.",
+			"bomb_use": "Questo é un power-up per bomba. Abbinalo con i pezzi dello stesso tipo per farlo scoppiare.",
+			"bomb_match_2": "Anche una abbinamento a forma di L crea una bomba.",
+			"sphere_match": "Abbinando cinque pezzi si forma il mio pezzo preferito, la bomba arcobaleno!",
+			"sphere_use": "Scambia la bomba arcobaleno con qualunque pezzo vicino per attivarla.",
+			"powerup_combo": "Puoi combinare due qualsiasi power-up. Prova e vedi cosa succede.",
+			"powerup_chef": "Per caricare lo chef devi attivare i power-up sul campo.",
+			"powerup_chef_2": "Abbina questi pezzi per ricevere un bonus dallo chef.",
+			"licorice": "Sblocca il pezzo abbinandolo.",
+			"licorice_goal": "Elimina tutti i blocker e prendi i pezzi rimanenti.",
+			"marshmallow": "Prendi le caramelle gommose facendo abbinamenti vicino a loro.",
+			"undo_1": "Puoi annullare l'ultima mossa.",
+			"undo_2": "Guarda, c'é un abbinamento migliore qui.",
+			"drop_items": "Per superare questo livello porta giú i biscotti allo zenzero.",
+			"booster_glove": "Il guanto elimina qualsiasi pezzo senza fare nessuna mossa.",
+			"booster_rolling_pin": "Il mattarello elimina una fila e una colonna di pezzi.",
+			"booster_lollipop": "Il lecca-lecca elimina tutti i pezzi del colore scelto senza fare nessuna mossa."
+		},
+		"feedback_dialog": {
+			"feedback": "Commento",
+			"feedback_subtitle": "Saremmo contenti di avere il tuo parere",
+			"email": "E-mail (opzionale)",
+			"message": "Messaggio",
+			"send": "Invia",
+			"thank_you": "Grazie!"
+		},
+		"piggy_bank": {
+			"title": "Salvadanaio",
+			"warning": "Il salvadanaio è pieno! Non c'è più spazio per accumulare monete!",
+			"hint": "Completa livelli per riempire il salvadanaio",
+			"open": "Apri",
+			"close": "Chiudi",
+			"break_it": "Rompi!",
+			"full": "Pieno",
+			"not_enough": "Raccogli almeno # monete per aprire il salvadanaio."
+		},
+		"graphics_quality": {
+			"title": "Graphics Quality",
+			"high": "High",
+			"medium": "Medium",
+			"low": "Low"
+		},
+		"hint_delay": {
+			"title": "Hints",
+			"value": "#s",
+			"on": "On",
+			"off": "Off"
+		},
+		"shop": {
+			"title": "Negozio",
+			"sale": "Svendita!",
+			"special_offer": "Offerta speciale",
+			"best_value": "Miglior valore",
+			"most_popular": "Più popolare",
+			"show_more": "Di più",
+			"ads_hint": "Con qualsiasi acquisto si eliminano annunci tra i livelli",
+			"time": "#h",
+			"discount": "#% di sconto"
+		},
+		"reset_data": {
+			"title": "Reset Data",
+			"text": "All progress will be lost!",
+			"press_to_сonfirm": "Press again to confirm"
+		},
+		"greetings": {
+			"title": "Ben tornato!",
+			"bonus": "Bonus",
+			"super_bonus": "~ Super Bonus! ~",
+			"take": "Prendi",
+			"hours": "#h",
+			"minutes": "#min",
+			"greeting": "Ciao! Che bello rivederti!"
+		},
+		"chapters": {
+			"chapter": "Chapter #",
+			"levels": "Levels #",
+			"complete": "Complete!",
+			"coming_soon": "Coming soon",
+			"play": "Play"
+		},
+		"fullscreen": {
+			"fullscreen": "Fullscreen",
+			"enter": "Enter fullscreen",
+			"exit": "Exit fullscreen"
+		}
+	},
+	"de": {
+		"level": "Level #",
+		"moves": "Züge",
+		"collect": "Sammle",
+		"quit": "Beenden",
+		"quit_subtitle": "Du verlierst ein Leben",
+		"tap_to_continue": "Zum Fortfahren antippen",
+		"tap_to_skip": "Zum Überspringen antippen",
+		"wheel_lock": "Das Rad wird ab Level # verfügbar sein",
+		"score": "Score: #",
+		"ads": {
+			"no_rewarded_ads": "Rewarded Ads sind derzeit nicht verfügbar",
+			"adblock_disable": "Bitte erwäge, AdBlock zu deaktivieren, um das Spiel zu unterstützen",
+			"adblock_rewarded_ads": "Bitte schalte AdBlock aus, um Videoanzeigen zu aktivieren",
+			"loading": "Loading ads...",
+			"reward_in": "Reward in",
+			"close": "Close"
+		},
+		"confirm_popup": {
+			"question": "Bist du sicher?",
+			"decline": "Nein",
+			"accept": "Ja"
+		},
+		"start_level_popup": {
+			"classic_level": "Level",
+			"hard_level": "~ Schwer Level ~",
+			"goal": "Ziele",
+			"collect": "Sammle alle Süßigkeiten",
+			"booster_hint": "Ratsam"
+		},
+		"lives": {
+			"title": "Leben ",
+			"next_life": "Nächstes Leben ",
+			"full": "Voll",
+			"unlimited": "Unlimited",
+			"request": "Ask a friend",
+			"hint": "Du brauchst Leben, um weiter zu spielen..."
+		},
+		"rewards": {
+			"x2": "Doppelte Belohnung!",
+			"bonus": "Bonus Belohnung!",
+			"decline": "Nein, danke"
+		},
+		"stars_gift": {
+			"collect_popover": "Sammle # Sterne von Levels, um das Geschenk zu öffnen!",
+			"ready": "Fertig!",
+			"open": "Tippe, um das Geschenk zu öffnen!",
+			"claim_rewards": "Tippe, um Belohnungen zu erhalten!"
+		},
+		"out_of_moves": {
+			"title": "Keine Züge mehr!",
+			"subtitle": "Oh, das musst du noch sammeln:",
+			"so_close": "So nahe!"
+		},
+		"second_chance": {
+			"title": "Weiterspielen",
+			"description": "Hol dir noch 5 Züge und spiel weiter",
+			"hint": "Tippe um das Spielfeld zu sehen."
+		},
+		"video_rewards": {
+			"stripes": {
+				"title": "Gestreifte Spielsteine",
+				"description": "Starte das Spiel mit einem gestreiften Spielstein"
+			},
+			"bomb": {
+				"title": "Bombe",
+				"description": "Starte das Spiel mit einer Bombe"
+			},
+			"super_sphere": {
+				"title": "Farbbombe",
+				"description": "Starten das Spiel mit einer Farbbombe "
+			},
+			"undo": {
+				"title": "Abbrechen",
+				"description": "Macht den letzten Zug rückgängig"
+			},
+			"glove": {
+				"title": "Handschuh",
+				"description": "Handschuh entfernt einen Spielstein  "
+			},
+			"rolling_pin": {
+				"title": "Nudelholz",
+				"description": "Nudelholz entfernt eine Reihe und eine Spalte Spielsteine "
+			},
+			"lollipop": {
+				"title": "Lollipop",
+				"description": "Lollipop entfernt alle Spielsteine der gewählten Farbe"
+			}
+		},
+		"level_complete": "Level gemeistert!",
+		"level_failed": "Oh nein!",
+		"victory": "Erfolg!",
+		"pregame_boosters": {
+			"hint": "Starte das Spiel mit diesem Powerup",
+			"stripes": "Gestreifte Spielsteine",
+			"bomb": "Bombe",
+			"super_sphere": "Farbbombe"
+		},
+		"booster_lock": "Verfügbar ab Level #. ",
+		"booster_hint_cookie": "Tippe einen beliebigen Spielstein an",
+		"booster_hint_field": "Tippe das Spielfeld an",
+		"boosters": {
+			"undo": {
+				"title": "Abbrechen ",
+				"hint": "Bricht den letzten Zug ab"
+			},
+			"glove": {
+				"title": "Handschuh ",
+				"hint": "Benutze den Handschuh, um beliebige Spielsteine zu entfernen"
+			},
+			"rolling_pin": {
+				"title": "Nudelholz",
+				"hint": "Benutze das Nudelholz, um eine Reihe und eine Spalte Spielsteine zu entfernen"
+			},
+			"lollipop": {
+				"title": "Lollipop",
+				"hint": "Benutze den Lollipop, um alle Spielsteine der gewählten Farbe zu entfernen"
+			}
+		},
+		"tutorial": {
+			"basic_match": "Erziele drei Übereinstimmungen, indem du benachbarte Spielsteine austauschst.  ",
+			"basic_goals": "Erziele weitere Übereinstimmungen, um den Level zu beenden!",
+			"moves": "Du hast in jedem Level nur eine begrenzte Anzahl an Zügen. Versuche den Level zu beenden, bevor die Züge ausgehen!",
+			"stripes_match": "Erziele vier Übereinstimmungen und sieh nach, was passiert.",
+			"stripes_use": "Du hast ein gestreiftes Spielsteine-Powerup. Tausche es mit einen Spielstein des gleichen Typs, um es zu zünden.",
+			"bomb_match_1": "Du kannst auch T-förmige Kombinationen machen.",
+			"bomb_use": "Das ist ein Bomben-Powerup. Tausche es mit einem Spielstein des gleichen Typs, um es zu sprengen.",
+			"bomb_match_2": "L-förmige Kombinationen erzeugen auch ein Bomben-Powerup.",
+			"sphere_match": "Mit 5 Spielsteinen kannst du mein Lieblingspowerup, eine Farbbombe fabrizieren!",
+			"sphere_use": "Tausche die Farbbombe mit einem beliebigen benachbarten Spielstein, um sie zu aktivieren.",
+			"powerup_combo": "Tausche zwei Powerups und sieh nach, was passiert.",
+			"powerup_chef": "Um den Chef aufzuladen, musst du Powerups auf dem Spielfeld aktivieren.",
+			"powerup_chef_2": "Erziele drei Übereinstimmungen, um einen Bonus vom Chef zu bekommen.",
+			"licorice": "Schalte Spielsteine frei, indem du Übereinstimmungen mit ihnen erzielst. ",
+			"licorice_goal": "Schalte alle Spielsteine frei und sammle die restlichen Spielsteine. ",
+			"marshmallow": "Sammle Marshmallows, indem du Kombinationen neben ihnen machst.",
+			"undo_1": "Du kannst den letzten Zug rückgängig machen. ",
+			"undo_2": "Sieh mal, es gibt hier eine bessere Kombination.",
+			"drop_items": "Bring die Lebkuchen ganz nach unten, um dieses Level zu beenden.",
+			"booster_glove": "Mit dem Handschuh kannst du ein beliebiges Feld entfernen, ohne dafür einen Zug zu verwenden. ",
+			"booster_rolling_pin": "Das Nudelholz entfernt eine Reihe und eine Spalte Spielsteine.",
+			"booster_lollipop": "Der Lollipop entfernt alle Spielsteine der gewählten Farbe, ohne dafür einen Zug zu verwenden."
+		},
+		"feedback_dialog": {
+			"feedback": "Feedback",
+			"feedback_subtitle": "Hat dir das Spiel gefallen?",
+			"email": "Email (optional)",
+			"message": "Nachricht",
+			"send": "Senden ",
+			"thank_you": "Danke!"
+		},
+		"piggy_bank": {
+			"title": "Sparschwein",
+			"warning": "Das Sparschwein ist voll! Es ist kein Platz mehr für neue Münzen!",
+			"hint": "Schließe ein Level ab, um das Sparschwein zu füllen",
+			"open": "Öffnen",
+			"close": "Schließen",
+			"break_it": "Zerbrechen!",
+			"full": "Voll",
+			"not_enough": "Sammle mindestens # Münzen, um das Sparschwein zu öffnen."
+		},
+		"graphics_quality": {
+			"title": "Bildqualität ",
+			"high": "Hohe ",
+			"medium": "Mittlere",
+			"low": "Geringe "
+		},
+		"hint_delay": {
+			"title": "Tipps",
+			"value": "#s",
+			"on": "Ein",
+			"off": "Aus"
+		},
+		"shop": {
+			"title": "Shop",
+			"sale": "Ausverkauf!",
+			"special_offer": "Sonderangebot",
+			"best_value": "Am wertvollsten",
+			"most_popular": "Am beliebtesten",
+			"show_more": "Mehr",
+			"ads_hint": "Mit jedem Kauf werden Anzeigen zwischen den Levels entfernt",
+			"time": "# h",
+			"discount": "#% Rabatt"
+		},
+		"reset_data": {
+			"title": "Reset Data",
+			"text": "All progress will be lost!",
+			"press_to_сonfirm": "Press again to confirm"
+		},
+		"greetings": {
+			"title": "Willkommen zurück!",
+			"bonus": "Bonus",
+			"super_bonus": "~ Super-Bonus! ~",
+			"take": "Akzeptieren",
+			"hours": "# h",
+			"minutes": "# min",
+			"greeting": "Hallo! Schön dich wiederzusehen!"
+		},
+		"chapters": {
+			"chapter": "Chapter #",
+			"levels": "Levels #",
+			"complete": "Complete!",
+			"coming_soon": "Coming soon",
+			"play": "Play"
+		},
+		"fullscreen": {
+			"fullscreen": "Fullscreen",
+			"enter": "Enter fullscreen",
+			"exit": "Exit fullscreen"
+		}
+	},
+	"es": {
+		"level": "Nivel #",
+		"moves": "movimientos",
+		"collect": "Juntar",
+		"quit": "Salir",
+		"quit_subtitle": "Perderás una vida.",
+		"tap_to_continue": "Pulsa para continuar",
+		"tap_to_skip": "Pulsa para omitir",
+		"wheel_lock": "La Rueda se desbloqueará en el nivel #",
+		"score": "Score: #",
+		"ads": {
+			"no_rewarded_ads": "Los anuncios con premio no están disponibles en este momento",
+			"adblock_disable": "Puedes deshabilitar AdBlock para apoyar el juego",
+			"adblock_rewarded_ads": "Desactiva AdBlock para activar los anuncios de video",
+			"loading": "Loading ads...",
+			"reward_in": "Reward in",
+			"close": "Close"
+		},
+		"confirm_popup": {
+			"question": "¿Estás seguro?",
+			"decline": "No",
+			"accept": "Sí"
+		},
+		"start_level_popup": {
+			"classic_level": "Nivel clásico",
+			"hard_level": "~ Nivel difícil ~",
+			"goal": "Metas",
+			"collect": "Junta los dulces",
+			"booster_hint": "Recomendado"
+		},
+		"lives": {
+			"title": "Vidas",
+			"next_life": "Próxima vida:",
+			"full": "Llenas",
+			"unlimited": "Unlimited",
+			"request": "Ask a friend",
+			"hint": "Necesitas vidas para seguir jugando..."
+		},
+		"rewards": {
+			"x2": "¡Doble recompensa!",
+			"bonus": "¡Recompensa extra!",
+			"decline": "No, gracias."
+		},
+		"stars_gift": {
+			"collect_popover": "¡Junta # estrellas en los niveles para abrir el regalo!",
+			"ready": "¡Listo!",
+			"open": "¡Pulsa para abrir el regalo!",
+			"claim_rewards": "¡Pulsa para reclamar las recompensas!"
+		},
+		"out_of_moves": {
+			"title": "¡No tienes movimientos!",
+			"subtitle": "Aún debes juntar:",
+			"so_close": "¡Tan cerca!"
+		},
+		"second_chance": {
+			"title": "Segunda oportunidad",
+			"description": "Consigue 5 movimientos extra y sigue jugando",
+			"hint": "Pulsa aquí para ver el tablero"
+		},
+		"video_rewards": {
+			"stripes": {
+				"title": "Galleta a rayas",
+				"description": "Empieza el nivel con una Galleta a rayas"
+			},
+			"bomb": {
+				"title": "Bomba",
+				"description": "Empieza el nivel con una Bomba"
+			},
+			"super_sphere": {
+				"title": "Bomba Arco Iris",
+				"description": "Empieza el nivel con una Bomba arcoíris"
+			},
+			"undo": {
+				"title": "Deshacer",
+				"description": "La opción Deshacer regresa tu último movimiento"
+			},
+			"glove": {
+				"title": "Guante",
+				"description": "El guante elimina cualquier galleta"
+			},
+			"rolling_pin": {
+				"title": "Rodillo",
+				"description": "El rodillo elimina una fila y una columna de piezas"
+			},
+			"lollipop": {
+				"title": "Paleta",
+				"description": "La paleta elimina todas las piezas del color elegido"
+			}
+		},
+		"level_complete": "¡Nivel completado!",
+		"level_failed": "Nivel fallado",
+		"victory": "¡Victoria!",
+		"pregame_boosters": {
+			"hint": "Comienza el nivel con una #",
+			"stripes": "Galleta a rayas",
+			"bomb": "Bomba",
+			"super_sphere": "Bomba Arcoíris"
+		},
+		"booster_lock": "Este booster se desbloqueará en el nivel #.",
+		"booster_hint_cookie": "¡Pulsa en cualquier galleta!",
+		"booster_hint_field": "¡Pulsa en el campo!",
+		"boosters": {
+			"undo": {
+				"title": "Deshacer",
+				"hint": "La opción Deshacer regresa tu último movimiento"
+			},
+			"glove": {
+				"title": "Guante",
+				"hint": "Usa el Guante para eliminar cualquier pieza"
+			},
+			"rolling_pin": {
+				"title": "Rodillo",
+				"hint": "Usar el Rodillo para eliminar una fila y una columna de piezas"
+			},
+			"lollipop": {
+				"title": "Paleta",
+				"hint": "Usa las paletas para eliminar todas las piezas del color elegido"
+			}
+		},
+		"tutorial": {
+			"basic_match": "Combina 3 piezas del mismo tipo intercambiando las adyacentes.",
+			"basic_goals": "¡Sigue juntando las piezas necesarias para superar el nivel!",
+			"moves": "Cada nivel tiene un número limitado de movimientos. ¡Trata de ganar antes de que se te acaben los movimientos!",
+			"stripes_match": "Combina 4 piezas y ve lo que pasa.",
+			"stripes_use": "Tenemos un Booster de rayas. Combínalo con piezas del mismo tipo para activarlo.",
+			"bomb_match_1": "También puedes formar coincidencias en forma de T.",
+			"bomb_use": "Este es un Booster de bomba. Combínalo con piezas del mismo tipo para hacerlo estallar.",
+			"bomb_match_2": "Una combinación en forma de L también creará una bomba.",
+			"sphere_match": "Si combinas 5 piezas crearás mi pieza favorita, ¡la Bomba arcoíris!",
+			"sphere_use": "Intercambia la Bomba arcoíris con cualquier pieza adyacente para activarla.",
+			"powerup_combo": "¡Puedes combinar dos potenciadores cualesquiera! Inténtalo y verás lo que pasa.",
+			"powerup_chef": "Para cargar al Chef, debes activar los boosters en el campo.",
+			"powerup_chef_2": "Combina estas piezas para obtener una bonificación del Chef.",
+			"licorice": "Desbloquea la pieza haciendo una combinación con ella.",
+			"licorice_goal": "Quita todos los bloqueadores y junta las piezas restantes.",
+			"marshmallow": "Recoge los Malvaviscos haciendo combinaciones junto a ellos.",
+			"undo_1": "Puedes deshacer el último movimiento.",
+			"undo_2": "Mira, aquí hay una mejor coincidencia.",
+			"drop_items": "Consigue Galletas de jengibre para superar este nivel.",
+			"booster_glove": "El Guante limpia cualquier pieza sin gastar un movimiento.",
+			"booster_rolling_pin": "El Rodillo limpia una fila y una columna de piezas.",
+			"booster_lollipop": "La Paleta limpia todas las piezas del color elegido sin gastar un movimiento."
+		},
+		"feedback_dialog": {
+			"feedback": "Comentarios",
+			"feedback_subtitle": "Nos encantaría saber de ti",
+			"email": "Correo electrónico (opcional)",
+			"message": "Mensaje",
+			"send": "Enviar",
+			"thank_you": "¡Gracias!"
+		},
+		"piggy_bank": {
+			"title": "Hucha",
+			"warning": "¡La hucha está llena! ¡No queda espacio para guardar monedas!",
+			"hint": "Completa los niveles para llenar la hucha",
+			"open": "Abrir",
+			"close": "Cerrar",
+			"break_it": "¡Rómpela!",
+			"full": "Completa",
+			"not_enough": "Recoge al menos # monedas para abrir la hucha."
+		},
+		"graphics_quality": {
+			"title": "Graphics Quality",
+			"high": "High",
+			"medium": "Medium",
+			"low": "Low"
+		},
+		"hint_delay": {
+			"title": "Pistas",
+			"value": "#s",
+			"on": "On",
+			"off": "Off"
+		},
+		"shop": {
+			"title": "Tienda",
+			"sale": "¡Oferta!",
+			"special_offer": "Oferta especial",
+			"best_value": "El mejor valor",
+			"most_popular": "Más populares",
+			"show_more": "Más",
+			"ads_hint": "Cualquier compra elimina los anuncios entre los niveles",
+			"time": "#h",
+			"discount": "#% de descuento"
+		},
+		"reset_data": {
+			"title": "Reset Data",
+			"text": "All progress will be lost!",
+			"press_to_сonfirm": "Press again to confirm"
+		},
+		"greetings": {
+			"title": "¡Bienvenido!",
+			"bonus": "Bono",
+			"super_bonus": "~ ¡Superbono! ~",
+			"take": "Coger",
+			"hours": "#h",
+			"minutes": "#min",
+			"greeting": "¡Hola! ¡Me alegro de verte de nuevo!"
+		},
+		"chapters": {
+			"chapter": "Chapter #",
+			"levels": "Levels #",
+			"complete": "Complete!",
+			"coming_soon": "Coming soon",
+			"play": "Play"
+		},
+		"fullscreen": {
+			"fullscreen": "Fullscreen",
+			"enter": "Enter fullscreen",
+			"exit": "Exit fullscreen"
+		}
+	},
+	"pt": {
+		"level": "Nível #",
+		"moves": "movimentos",
+		"collect": "Recolher",
+		"quit": "Sair",
+		"quit_subtitle": "Vai perder uma vida..",
+		"tap_to_continue": "para continuar",
+		"tap_to_skip": "Toque para saltar",
+		"wheel_lock": "A Roda será desbloqueada no nível #",
+		"score": "Score: #",
+		"ads": {
+			"no_rewarded_ads": "De momento não estão disponíveis anúncios com recompensa",
+			"adblock_disable": "Considere a possibilidade de desativar o AdBlock para apoiar o jogo",
+			"adblock_rewarded_ads": "Desative o AdBlock para permitir anúncios de vídeo",
+			"loading": "Loading ads...",
+			"reward_in": "Reward in",
+			"close": "Close"
+		},
+		"confirm_popup": {
+			"question": "Tem a certeza?",
+			"decline": "Não",
+			"accept": "Sim"
+		},
+		"start_level_popup": {
+			"classic_level": "Nível Clássico",
+			"hard_level": "~ Nível Difícil ~",
+			"goal": "Objetivos",
+			"collect": "Recolher os rebuçados",
+			"booster_hint": "Recomendado"
+		},
+		"lives": {
+			"title": "Vidas",
+			"next_life": "Próxima vida:",
+			"full": "Completo",
+			"unlimited": "Unlimited",
+			"request": "Ask a friend",
+			"hint": "Necessita de vidas para continuar a jogar..."
+		},
+		"rewards": {
+			"x2": "Dupla Recompensa!",
+			"bonus": "Recompensa de Bónus!",
+			"decline": "Não, obrigado"
+		},
+		"stars_gift": {
+			"collect_popover": "Recolher # estrelas dos níveis para abrir o presente!",
+			"ready": "Pronto!",
+			"open": "Toque para abrir o presente!",
+			"claim_rewards": "Toque para reclamar recompensas!"
+		},
+		"out_of_moves": {
+			"title": "Movimentos esgotados!",
+			"subtitle": "Ainda é necessário recolher:",
+			"so_close": "Tão perto!"
+		},
+		"second_chance": {
+			"title": "Segunda Oportunidade",
+			"description": "Receba 5 jogadas extra e jogue",
+			"hint": "Toque aqui para ver o quadro"
+		},
+		"video_rewards": {
+			"stripes": {
+				"title": "Cookie às riscas",
+				"description": "Comece o nível com um cookie às riscas"
+			},
+			"bomb": {
+				"title": "Bomba",
+				"description": "Comece o nível com uma Bomba"
+			},
+			"super_sphere": {
+				"title": "Bomba Arco-íris",
+				"description": "Comece o nível com uma Bomba Arco-Íris"
+			},
+			"undo": {
+				"title": "Anular",
+				"description": "Desfaz o seu último movimento"
+			},
+			"glove": {
+				"title": "Luva",
+				"description": "A luva remove qualquer cookie"
+			},
+			"rolling_pin": {
+				"title": "Pino Rolante",
+				"description": "O Pino Rolante remove uma fila e uma coluna de peças"
+			},
+			"lollipop": {
+				"title": "Chupa-chupa",
+				"description": "O chupa-chupa remove todas as peças da cor escolhida"
+			}
+		},
+		"level_complete": "Nível Concluído!",
+		"level_failed": "Nível Falhado",
+		"victory": "Vitória!",
+		"pregame_boosters": {
+			"hint": "Iniciar o nível com um #",
+			"stripes": "Cookie às riscas",
+			"bomb": "Bomba",
+			"super_sphere": "Bomba Arco-íris"
+		},
+		"booster_lock": "Este impulsionador será desbloqueado no Nível #.",
+		"booster_hint_cookie": "Toque em qualquer cookie!",
+		"booster_hint_field": "Toque no campo!",
+		"boosters": {
+			"undo": {
+				"title": "Anular",
+				"hint": "Anular desfaz o seu último movimento"
+			},
+			"glove": {
+				"title": "Luva",
+				"hint": "Utilize a luva para remover qualquer peça"
+			},
+			"rolling_pin": {
+				"title": "Pino Rolante",
+				"hint": "Use o Pino Rolante para remover uma linha e uma coluna de peças"
+			},
+			"lollipop": {
+				"title": "Chupa-chupa",
+				"hint": "Utilize o chupa-chupa para remover todas as peças da cor escolhida"
+			}
+		},
+		"tutorial": {
+			"basic_match": "Combinar 3 peças do mesmo tipo, trocando peças adjacentes.",
+			"basic_goals": "Continue a recolher as peças necessárias para ultrapassar o nível!",
+			"moves": "Cada nível tem um número limitado de movimentos. Tente ganhar antes de ficar sem movimentos!",
+			"stripes_match": "Combine 4 peças e veja o que acontece.",
+			"stripes_use": "Temos um detonador de listas. Combine-o com as peças do mesmo tipo para o ativar.",
+			"bomb_match_1": "Também se podem fazer combinações em forma de T.",
+			"bomb_use": "Isto é um detonador de bomba. Combine-o com as peças do mesmo tipo para a rebentar.",
+			"bomb_match_2": "Uma combinação em forma de L também irá criar uma Bomba.",
+			"sphere_match": "Combinar 5 peças faz a minha peça favorita, a Bomba Arco-Íris!",
+			"sphere_use": "Substitua a Bomba Arco-Íris por qualquer peça adjacente para a ativar.",
+			"powerup_combo": "Pode combinar dois detonadores! Experimente e veja o que acontece.",
+			"powerup_chef": "Para carregar o Chef, é necessário ativar os detonadores do campo.",
+			"powerup_chef_2": "Combine estas peças para obter um bónus do chef.",
+			"licorice": "Desbloqueie a peça, fazendo uma combinação com a mesma.",
+			"licorice_goal": "Retire todos os bloqueadores e recolha as peças restantes.",
+			"marshmallow": "Recolha Marshmallows fazendo combinações adjacentes.",
+			"undo_1": "Pode anular o último movimento.",
+			"undo_2": "Veja, há aqui uma combinação melhor.",
+			"drop_items": "Derrube Cookies de Gengibre para ultrapassar este nível.",
+			"booster_glove": "A Luva limpa qualquer peça sem gastar um movimento.",
+			"booster_rolling_pin": "O Pino Rolante limpa uma fila e uma coluna de peças.",
+			"booster_lollipop": "O chupa-chupa limpa todas as peças da cor escolhida sem gastar um movimento."
+		},
+		"feedback_dialog": {
+			"feedback": "Comentário",
+			"feedback_subtitle": "Gostaríamos muito de ouvir de si",
+			"email": "Email (opcional)",
+			"message": "Mensagem",
+			"send": "Enviar",
+			"thank_you": "Obrigado!"
+		},
+		"piggy_bank": {
+			"title": "Piggy Bank",
+			"warning": "The piggy bank is full! There is no space left to save coins!",
+			"hint": "Complete levels to fill the piggy bank",
+			"open": "Open",
+			"close": "Close",
+			"break_it": "Break it!",
+			"full": "Full",
+			"not_enough": "Collect at least # coins to open the piggy bank."
+		},
+		"graphics_quality": {
+			"title": "Graphics Quality",
+			"high": "High",
+			"medium": "Medium",
+			"low": "Low"
+		},
+		"hint_delay": {
+			"title": "Dicas",
+			"value": "#s",
+			"on": "On",
+			"off": "Off"
+		},
+		"shop": {
+			"title": "Shop",
+			"sale": "Sale!",
+			"special_offer": "Special offer",
+			"best_value": "Best value",
+			"most_popular": "Most popular",
+			"show_more": "More",
+			"ads_hint": "Any purchase removes ads between the levels",
+			"time": "#h",
+			"discount": "#% off"
+		},
+		"reset_data": {
+			"title": "Reset Data",
+			"text": "All progress will be lost!",
+			"press_to_сonfirm": "Press again to confirm"
+		},
+		"greetings": {
+			"title": "Welcome back!",
+			"bonus": "Bonus",
+			"super_bonus": "~ Super Bonus! ~",
+			"take": "Take",
+			"hours": "#h",
+			"minutes": "#min",
+			"greeting": "Hello! Glad to see you again!"
+		},
+		"chapters": {
+			"chapter": "Chapter #",
+			"levels": "Levels #",
+			"complete": "Complete!",
+			"coming_soon": "Coming soon",
+			"play": "Play"
+		},
+		"fullscreen": {
+			"fullscreen": "Fullscreen",
+			"enter": "Enter fullscreen",
+			"exit": "Exit fullscreen"
+		}
+	},
+	"br": {
+		"level": "Nível #",
+		"moves": "movimentos",
+		"collect": "Recolher",
+		"quit": "Sair",
+		"quit_subtitle": "Você perderá uma vida.",
+		"tap_to_continue": "Toque para continuar",
+		"tap_to_skip": "Toque para ignorar",
+		"wheel_lock": "A Roda será desbloqueada no nível #",
+		"score": "Score: #",
+		"ads": {
+			"no_rewarded_ads": "Anúncios premiados não estão disponíveis no momento",
+			"adblock_disable": "Por favor, considere desativar o AdBlock para apoiar o jogo",
+			"adblock_rewarded_ads": "Por favor, desative o AdBlock para ativar anúncios em vídeo",
+			"loading": "Loading ads...",
+			"reward_in": "Reward in",
+			"close": "Close"
+		},
+		"confirm_popup": {
+			"question": "Tem certeza?",
+			"decline": "Não",
+			"accept": "Sim"
+		},
+		"start_level_popup": {
+			"classic_level": "Nível Clássico",
+			"hard_level": "~ Nível Difícil ~",
+			"goal": "Metas",
+			"collect": "Recolher os doces",
+			"booster_hint": "Recomendado"
+		},
+		"lives": {
+			"title": "Vidas",
+			"next_life": "Próxima vida:",
+			"full": "Cheio",
+			"unlimited": "Unlimited",
+			"request": "Ask a friend",
+			"hint": "Você precisa de vidas para continuar jogando..."
+		},
+		"rewards": {
+			"x2": "Prêmio Duplo!",
+			"bonus": "Prêmio de Bônus!",
+			"decline": "Não, obrigado"
+		},
+		"stars_gift": {
+			"collect_popover": "Para abrir o presente, junte # estrelas dos níveis!",
+			"ready": "Pronto!",
+			"open": "Toque para abrir o presente!",
+			"claim_rewards": "Toque para reivindicar prêmios!"
+		},
+		"out_of_moves": {
+			"title": "Acabaram os movimentos!",
+			"subtitle": "Você ainda precisa coletar:",
+			"so_close": "Tão perto!"
+		},
+		"second_chance": {
+			"title": "Segunda Chance",
+			"description": "Ganhe 5 movimentos extras e continue jogando",
+			"hint": "Toque aqui para visualizar o tabuleiro"
+		},
+		"video_rewards": {
+			"stripes": {
+				"title": "Biscoito Listrado",
+				"description": "Comece o nível com um biscoito listrado"
+			},
+			"bomb": {
+				"title": "Bomba",
+				"description": "Comece o nível com uma bomba"
+			},
+			"super_sphere": {
+				"title": "Bomba Arco-íris",
+				"description": "Comece o nível com uma Bomba Arco-íris"
+			},
+			"undo": {
+				"title": "Desfazer",
+				"description": "Desfazer desfaz seu último movimento"
+			},
+			"glove": {
+				"title": "Luva",
+				"description": "Luva remove qualquer biscoito"
+			},
+			"rolling_pin": {
+				"title": "Rolo de Massa",
+				"description": "Rolo de Massa remove uma linha e uma coluna de peças"
+			},
+			"lollipop": {
+				"title": "Pirulito",
+				"description": "Pirulito remove todas as peças da cor selecionada"
+			}
+		},
+		"level_complete": "Nível Concluido",
+		"level_failed": "Nível Falhou",
+		"victory": "Vitória",
+		"pregame_boosters": {
+			"hint": "Comece o nível com um #",
+			"stripes": "Biscoito Listrado",
+			"bomb": "Bomba",
+			"super_sphere": "Bomba Arco-íris"
+		},
+		"booster_lock": "Este booster será desbloqueado no Nível #.",
+		"booster_hint_cookie": "Toque em qualquer biscoito!",
+		"booster_hint_field": "Toque no campo!",
+		"boosters": {
+			"undo": {
+				"title": "Desfazer",
+				"hint": "Desfazer desfaz seu último movimento"
+			},
+			"glove": {
+				"title": "Luva",
+				"hint": "Use a luva para remover qualquer peça"
+			},
+			"rolling_pin": {
+				"title": "Rolo de Massa",
+				"hint": "Use o Rolo de Massa para remover uma linha e uma coluna de peças"
+			},
+			"lollipop": {
+				"title": "Pirulito",
+				"hint": "Use o pirulito para remover todas as peças da cor escolhida"
+			}
+		},
+		"tutorial": {
+			"basic_match": "Combine 3 peças do mesmo tipo trocando as adjacentes.",
+			"basic_goals": "Continue juntando as peças necessárias para passar de nível!",
+			"moves": "Cada nível tem um número limitado de movimentos. Tente ganhar antes de ficar sem movimentos!",
+			"stripes_match": "Combine 4 peças e veja o que acontece.",
+			"stripes_use": "Temos um power-up de Listras. Combine com as peças do mesmo tipo para ativar.",
+			"bomb_match_1": "Você também pode fazer combinações em forma de T.",
+			"bomb_use": "Este é um power-up de Bomba. Combine com as peças do mesmo tipo para explodir.",
+			"bomb_match_2": "Um fósforo em forma de L também criará uma Bomba.",
+			"sphere_match": "A combinação de 5 peças cria minha peça favorita, a Bomba Arco-íris!",
+			"sphere_use": "Troque a Bomba Arco-íris por qualquer peça adjacente para ativá-la.",
+			"powerup_combo": "Você pode combinar quaisquer par de power-ups! Experimente e veja o que acontece.",
+			"powerup_chef": "Para carregar o Chef, você precisa ativar os power-ups no campo.",
+			"powerup_chef_2": "Combine estas peças para ganhar um bônus do chef.",
+			"licorice": "Use a peça numa combinação para desbloqueá-la.",
+			"licorice_goal": "Remova todos os bloqueadores e junte as peças restantes.",
+			"marshmallow": "Junte Marshmallows criando combinações ao lado deles.",
+			"undo_1": "Você pode desfazer o último movimento.",
+			"undo_2": "Veja, tem uma combinação melhor aqui.",
+			"drop_items": "Derrube os Biscoitos de Gengibre para superar este nível.",
+			"booster_glove": "A Luva limpa qualquer peça sem gastar um movimento.",
+			"booster_rolling_pin": "O Rolo de Massa limpa uma linha e uma coluna de peças.",
+			"booster_lollipop": "O Pirulito limpa todas as peças da cor escolhida sem gastar um movimento."
+		},
+		"feedback_dialog": {
+			"feedback": "Comentários",
+			"feedback_subtitle": "Adoraríamos saber sua opinião",
+			"email": "E-mail (opcional)",
+			"message": "Mensagem",
+			"send": "Enviar",
+			"thank_you": "Obrigado!"
+		},
+		"piggy_bank": {
+			"title": "Porquinho",
+			"warning": "O porquinho está cheio! Não há mais espaço para guardar moedas!",
+			"hint": "Conclua os níveis para encher o porquinho",
+			"open": "Abrir",
+			"close": "Fechar",
+			"break_it": "Quebrar!",
+			"full": "Cheio",
+			"not_enough": "Recolha pelo menos # moedas para abrir o porquinho"
+		},
+		"graphics_quality": {
+			"title": "Graphics Quality",
+			"high": "High",
+			"medium": "Medium",
+			"low": "Low"
+		},
+		"hint_delay": {
+			"title": "Hints",
+			"value": "#s",
+			"on": "On",
+			"off": "Off"
+		},
+		"shop": {
+			"title": "Loja",
+			"sale": "Oferta!",
+			"special_offer": "Oferta especial",
+			"best_value": "Melhor opção",
+			"most_popular": "Mais popular",
+			"show_more": "Mais",
+			"ads_hint": "qualquer compra removerá os anúncios entre os níveis",
+			"time": "#h",
+			"discount": "#% de desconto"
+		},
+		"reset_data": {
+			"title": "Reset Data",
+			"text": "All progress will be lost!",
+			"press_to_сonfirm": "Press again to confirm"
+		},
+		"greetings": {
+			"title": "Boas-vindas de volta!",
+			"bonus": "Bônus",
+			"super_bonus": "~ Super Bônus! ~",
+			"take": "Aproveitar",
+			"hours": "#h",
+			"minutes": "#min",
+			"greeting": "Olá! Que bom te ver novamente!"
+		},
+		"chapters": {
+			"chapter": "Chapter #",
+			"levels": "Levels #",
+			"complete": "Complete!",
+			"coming_soon": "Coming soon",
+			"play": "Play"
+		},
+		"fullscreen": {
+			"fullscreen": "Fullscreen",
+			"enter": "Enter fullscreen",
+			"exit": "Exit fullscreen"
+		}
+	},
+	"nl": {
+		"level": "Level #",
+		"moves": "zetten",
+		"collect": "Verzamel",
+		"quit": "Afsluiten",
+		"quit_subtitle": "Je verliest een leven.",
+		"tap_to_continue": "Tik om verder te gaan",
+		"tap_to_skip": "Tik om over te slaan",
+		"wheel_lock": "Het rad kun je vrijspelen op level #",
+		"score": "Score: #",
+		"ads": {
+			"no_rewarded_ads": "Videoadvertenties zijn niet beschikbaar.",
+			"adblock_disable": "Overweeg om AdBlock uit te schakelen om het spel te ondersteunen",
+			"adblock_rewarded_ads": "Schakel AdBlock uit en probeer opnieuw.",
+			"loading": "Loading ads...",
+			"reward_in": "Reward in",
+			"close": "Close"
+		},
+		"confirm_popup": {
+			"question": "Weet je het zeker?",
+			"decline": "Nee",
+			"accept": "Ja"
+		},
+		"start_level_popup": {
+			"classic_level": "Klassiek Level",
+			"hard_level": "~ Moeilijk Level ~",
+			"goal": "Doelen",
+			"collect": "Verzamel de snoepjes",
+			"booster_hint": "Aanbevolen"
+		},
+		"lives": {
+			"title": "Levens",
+			"next_life": "Volgende leven:",
+			"full": "Vol",
+			"unlimited": "Unlimited",
+			"request": "Ask a friend",
+			"hint": "Je hebt levens nodig om verder te spelen..."
+		},
+		"rewards": {
+			"x2": "Dubbele beloning!",
+			"bonus": "Bonusbeloning!",
+			"decline": "Nee, bedankt"
+		},
+		"stars_gift": {
+			"collect_popover": "Verzamel # sterren van levels om het cadeau te openen!",
+			"ready": "Klaar!",
+			"open": "Tik om het cadeau te openen!",
+			"claim_rewards": "Tik om beloningen te ontvangen!"
+		},
+		"out_of_moves": {
+			"title": "Geen zetten meer!",
+			"subtitle": "Je moet nog verzamelen:",
+			"so_close": "Bijna!"
+		},
+		"second_chance": {
+			"title": "Tweede kans",
+			"description": "Ontvang 5 extra zetten en ga door",
+			"hint": "Tik hier om het bord te bekijken"
+		},
+		"video_rewards": {
+			"stripes": {
+				"title": "Gestreept Koekje",
+				"description": "Begin het level met een gestreept koekje"
+			},
+			"bomb": {
+				"title": "Bom",
+				"description": "Begin het level met een bom"
+			},
+			"super_sphere": {
+				"title": "Regenboogbom",
+				"description": "Begin het level met een regenboogbom"
+			},
+			"undo": {
+				"title": "Ongedaan maken",
+				"description": "Ongedaan maken maakt je laatste zet ongedaan"
+			},
+			"glove": {
+				"title": "Handschoen",
+				"description": "Handschoen verwijdert een koekje"
+			},
+			"rolling_pin": {
+				"title": "Deegroller",
+				"description": "Deegroller verwijdert een rij en een kolom van stukken"
+			},
+			"lollipop": {
+				"title": "Lollie",
+				"description": "Lollie verwijdert alle stukken van een gekozen kleur"
+			}
+		},
+		"level_complete": "Level Voltooid!",
+		"level_failed": "Level Mislukt",
+		"victory": "Overwinning!",
+		"pregame_boosters": {
+			"hint": "Begin het level met deze power-up",
+			"stripes": "Gestreept Koekje",
+			"bomb": "Bom",
+			"super_sphere": "Regenboogbom"
+		},
+		"booster_lock": "Deze booster wordt ontgrendeld op Level #.",
+		"booster_hint_cookie": "Tik op een koekje!",
+		"booster_hint_field": "Tik op het veld!",
+		"boosters": {
+			"undo": {
+				"title": "Ongedaan maken",
+				"hint": "Ongedaan maken maakt je laatste zet ongedaan"
+			},
+			"glove": {
+				"title": "Handschoen",
+				"hint": "Gebruik handschoen om ieder gewenst stuk te verwijderen"
+			},
+			"rolling_pin": {
+				"title": "Deegroller",
+				"hint": "Gebruik de Deegroller om een rij of een kolom met stukken te verwijderen"
+			},
+			"lollipop": {
+				"title": "Lollie",
+				"hint": "Gebruik de lollie om alle stukken van een gekozen kleur te verwijderen"
+			}
+		},
+		"tutorial": {
+			"basic_match": "Combineer 3 stukken van dezelfde soort door aangrenzende stukken om te wisselen.",
+			"basic_goals": "Blijf de benodigde stukken verzamelen om het level te voltooien!",
+			"moves": "Ieder level heeft een beperkt aantal zetten. Probeer te winnen voordat je geen zetten meer over hebt!",
+			"stripes_match": "Combineer 4 stukken en kijk wat er gebeurt.",
+			"stripes_use": "We hebben een gestreepte power-up. Combineer het met de stukken van dezelfde soort om het te activeren.",
+			"bomb_match_1": "Je kunt ook T-vormige combinaties maken.",
+			"bomb_use": "Dit is een bom-power-up. Combineer het met de stukken van dezelfde soort om het te vernietigen.",
+			"bomb_match_2": "Met een L-vormige combinatie kun je ook een bom maken.",
+			"sphere_match": "Bijpassende 5 stukken maken mijn favoriete stuk, de Regenboogbom!",
+			"sphere_use": "Verwissel de regenboogbom met een aangrenzend stuk om het te activeren.",
+			"powerup_combo": "Je kunt twee power-ups combineren! Probeer het uit en kijk wat er gebeurt.",
+			"powerup_chef": "Om de Chef op te kunnen laden, moet je power-ups op het veld activeren.",
+			"powerup_chef_2": "Combineer deze stukken om een ​​bonus van de chef te ontvangen.",
+			"licorice": "Ontgrendel het stuk door er een combinatie mee te maken.",
+			"licorice_goal": "Verwijder alle blokkades en verzamel de overgebleven stukken.",
+			"marshmallow": "Verzamel Marshmallows door naast elkaar combinaties te maken.",
+			"undo_1": "Je kunt de laatste zet ongedaan maken.",
+			"undo_2": "Kijk, hier is een betere combinatie.",
+			"drop_items": "Haal Peperkoekjes naar beneden om dit level te voltooien.",
+			"booster_glove": "De handschoen wist elk stuk zonder een zet te gebruiken.",
+			"booster_rolling_pin": "De deegroller wist een rij en een kolom met stukken.",
+			"booster_lollipop": "De lolly wist alle stukken van een gekozen kleur zonder een zet te gebruiken."
+		},
+		"feedback_dialog": {
+			"feedback": "Feedback",
+			"feedback_subtitle": "We horen graag van je",
+			"email": "E-mail (optioneel)",
+			"message": "Bericht",
+			"send": "Versturen",
+			"thank_you": "Bedankt!"
+		},
+		"piggy_bank": {
+			"title": "Spaarvarken",
+			"warning": "Het spaarvarken is vol! Er is geen plaats meer om munten te sparen!",
+			"hint": "Voltooi levels om het spaarvarken te vullen",
+			"open": "Openen",
+			"close": "Sluiten",
+			"break_it": "Breek het!",
+			"full": "Vol",
+			"not_enough": "Verzamel minstens # munten om het spaarvarken te openen."
+		},
+		"graphics_quality": {
+			"title": "Grafische kwaliteit",
+			"high": "Hoog",
+			"medium": "Gemiddeld",
+			"low": "Laag"
+		},
+		"hint_delay": {
+			"title": "Hints",
+			"value": "#s",
+			"on": "Aan",
+			"off": "Uit"
+		},
+		"shop": {
+			"title": "Winkel",
+			"sale": "Uitverkoop!",
+			"special_offer": "Speciale aanbieding",
+			"best_value": "Meest voordelig",
+			"most_popular": "Meest populair",
+			"show_more": "Meer",
+			"ads_hint": "Elke aankoop verwijdert advertenties tussen de levels",
+			"time": "# u",
+			"discount": "#% korting"
+		},
+		"reset_data": {
+			"title": "Reset Data",
+			"text": "All progress will be lost!",
+			"press_to_сonfirm": "Press again to confirm"
+		},
+		"greetings": {
+			"title": "Welkom terug!",
+			"bonus": "Bonus",
+			"super_bonus": "~ Superbonus! ~",
+			"take": "Ophalen",
+			"hours": "# u",
+			"minutes": "# min",
+			"greeting": "Hallo! Leuk dat je er weer bent!"
+		},
+		"chapters": {
+			"chapter": "Chapter #",
+			"levels": "Levels #",
+			"complete": "Complete!",
+			"coming_soon": "Coming soon",
+			"play": "Play"
+		},
+		"fullscreen": {
+			"fullscreen": "Fullscreen",
+			"enter": "Enter fullscreen",
+			"exit": "Exit fullscreen"
+		}
+	},
+	"pl": {
+		"level": "Poziom #",
+		"moves": "ruchy",
+		"collect": "Zbierz",
+		"quit": "Wyjdź",
+		"quit_subtitle": "Stracisz życie.",
+		"tap_to_continue": "Dotknij, aby kontynuować",
+		"tap_to_skip": "Dotknij, aby pominąć",
+		"wheel_lock": "Koło zostanie odblokowane na poziomie #",
+		"score": "Score: #",
+		"ads": {
+			"no_rewarded_ads": "Reklamy wideo nie są dostępne.",
+			"adblock_disable": "Prosimy o wyłączenie AdBlocka, aby wspierać grę",
+			"adblock_rewarded_ads": "Wyłącz AdBlock i spróbuj ponownie.",
+			"loading": "Loading ads...",
+			"reward_in": "Reward in",
+			"close": "Close"
+		},
+		"confirm_popup": {
+			"question": "Czy jesteś pewien?",
+			"decline": "Nie",
+			"accept": "Tak"
+		},
+		"start_level_popup": {
+			"classic_level": "Poziom Klasyczny",
+			"hard_level": "~ Poziom Trudny ~",
+			"goal": "Cele",
+			"collect": "Zbierz słodycze",
+			"booster_hint": "Zalecane"
+		},
+		"lives": {
+			"title": "Życia",
+			"next_life": "Następne życie:",
+			"full": "Pełne",
+			"unlimited": "Unlimited",
+			"request": "Ask a friend",
+			"hint": "Potrzebujesz żyć, aby grać dalej..."
+		},
+		"rewards": {
+			"x2": "Podwójna Nagroda!",
+			"bonus": "Bonusowa Nagroda!",
+			"decline": "Nie, dziękuję"
+		},
+		"stars_gift": {
+			"collect_popover": "Zbierz # gwiazdek z poziomów, aby otworzyć prezent!",
+			"ready": "Gotowy!",
+			"open": "Dotknij by otworzyć prezent!",
+			"claim_rewards": "Dotknij, by zgarnąć nagrody!"
+		},
+		"out_of_moves": {
+			"title": "Brak ruchów!",
+			"subtitle": "Wciąż musisz zebrać:",
+			"so_close": "Tak blisko!"
+		},
+		"second_chance": {
+			"title": "Druga Szansa",
+			"description": "Otrzymaj 5 ruchów i graj dalej",
+			"hint": "Dotknij tutaj, aby zobaczyć tablicę"
+		},
+		"video_rewards": {
+			"stripes": {
+				"title": "Ciastko w Paski",
+				"description": "Zacznij poziom z ciastkiem w paski"
+			},
+			"bomb": {
+				"title": "Bomba",
+				"description": "Zacznij poziom z Bombą"
+			},
+			"super_sphere": {
+				"title": "Tęczowa Bomba",
+				"description": "Zacznij poziom z Tęczową Bombą"
+			},
+			"undo": {
+				"title": "Cofnij",
+				"description": "Cofnij cofa twój ostatni ruch"
+			},
+			"glove": {
+				"title": "Rękawica",
+				"description": "Rękawica usuwa dowolne ciastko"
+			},
+			"rolling_pin": {
+				"title": "Wałek",
+				"description": "Wałek usuwa jeden rząd i jedną kolumnę elementów"
+			},
+			"lollipop": {
+				"title": "Lizak",
+				"description": "Lizak usuwa wszystkie elementy danego koloru"
+			}
+		},
+		"level_complete": "Poziom Ukończony!",
+		"level_failed": "Niepowodzenie",
+		"victory": "Zwycięstwo!",
+		"pregame_boosters": {
+			"hint": "Zacznij poziom z tym bonusem",
+			"stripes": "Ciastko w Paski",
+			"bomb": "Bomba",
+			"super_sphere": "Tęczowa Bomba"
+		},
+		"booster_lock": "Ten booster zostanie odblokowany na Poziomie #",
+		"booster_hint_cookie": "Dotknij dowolnego ciastka!",
+		"booster_hint_field": "Dotknij pola!",
+		"boosters": {
+			"undo": {
+				"title": "Cofnij",
+				"hint": "Cofnij cofa twój ostatni ruch"
+			},
+			"glove": {
+				"title": "Rękawica",
+				"hint": "Rękawica usuwa dowolne ciastko"
+			},
+			"rolling_pin": {
+				"title": "Wałek",
+				"hint": "Wałek usuwa jeden rząd i jedną kolumnę elementów"
+			},
+			"lollipop": {
+				"title": "Lizak",
+				"hint": "Lizak usuwa wszystkie elementy danego koloru"
+			}
+		},
+		"tutorial": {
+			"basic_match": "Dobierz 3 elementy tego samego typu, przesuwając sąsiadujące elementy.",
+			"basic_goals": "Zbieraj wymagane elementy by ukończyć poziom!",
+			"moves": "Na każdym poziomie masz ograniczoną liczbę ruchów. Spróbuj wygrać zanim się skończą!",
+			"stripes_match": "Dobierz 4 elementy i zobacz, co się stanie.",
+			"stripes_use": "Masz tu Paskowany bonus. Dołącz go do elementów tego samego typu, aby aktywować.",
+			"bomb_match_1": "Możesz także tworzyć dobrania w kształcie T.",
+			"bomb_use": "To bonus Bomba. Dołącz go do elementów tego samego typu aby zdetonować.",
+			"bomb_match_2": "Dobranie w kształcie L także stworzy Bombę.",
+			"sphere_match": "Dobranie 5 elementów tworzy mój ulubiony, Tęczową Bombę!",
+			"sphere_use": "Zamień Tęczową Bombę z dowolnym sąsiadującym elementem, by ją aktywować.",
+			"powerup_combo": "Możesz połączyć dowolne dwa bonusy! Wypróbuj i zobacz co się stanie!",
+			"powerup_chef": "Aby naładować Szefa Kuchni, musisz aktywować bonusy na polu.",
+			"powerup_chef_2": "Dobierz te elementy by otrzymać bonus od Szefa.",
+			"licorice": "Odblokuj element przez dobranie go.",
+			"licorice_goal": "Usuń wszystkie blokery i zbierz pozostałe elemety.",
+			"marshmallow": "Zbierz Pianki przez dobieranie obok nich.",
+			"undo_1": "Możesz cofnąć ostatni ruch.",
+			"undo_2": "Patrz, tutaj jest lepsze dobranie.",
+			"drop_items": "Zdejmij Pierniczki, aby ukończyć ten poziom.",
+			"booster_glove": "Rękawica usuwa dowolny element bez zużycia ruchu.",
+			"booster_rolling_pin": "Wałek usuwa jeden rząd i jedną kolumnę elementów.",
+			"booster_lollipop": "Lizak usuwa wszystkie elementy danego koloru bez zużycia ruchu."
+		},
+		"feedback_dialog": {
+			"feedback": "Opinia",
+			"feedback_subtitle": "Jesteśmy zainteresowani twoją opinią",
+			"email": "E-mail (opcjonalnie)",
+			"message": "Wiadomość",
+			"send": "Wyślij",
+			"thank_you": "Dziękujemy!"
+		},
+		"piggy_bank": {
+			"title": "Świnka skarbonka",
+			"warning": "Skarbonka jest pełna! Nie ma już miejsca na oszczędzanie monet!",
+			"hint": "Kończ poziomy, aby wypełnić skarbonkę",
+			"open": "Otwórz",
+			"close": "Zamknij",
+			"break_it": "Rozbij ją!",
+			"full": "Pełna",
+			"not_enough": "Aby otworzyć skarbonkę, zbieraj monety (zbierz co najmniej #)"
+		},
+		"graphics_quality": {
+			"title": "Graphics Quality",
+			"high": "High",
+			"medium": "Medium",
+			"low": "Low"
+		},
+		"hint_delay": {
+			"title": "Hints",
+			"value": "#s",
+			"on": "On",
+			"off": "Off"
+		},
+		"shop": {
+			"title": "Sklep",
+			"sale": "Wyprzedaż!",
+			"special_offer": "Oferta specjalna",
+			"best_value": "Największa wartość",
+			"most_popular": "Największa popularność",
+			"show_more": "Więcej",
+			"ads_hint": "Każdy zakup usuwa reklamy między poziomami",
+			"time": "# h",
+			"discount": "#% zniżki"
+		},
+		"reset_data": {
+			"title": "Reset Data",
+			"text": "All progress will be lost!",
+			"press_to_сonfirm": "Press again to confirm"
+		},
+		"greetings": {
+			"title": "Witam ponownie!",
+			"bonus": "Bonus",
+			"super_bonus": "~ Superbonus! ~",
+			"take": "Weź",
+			"hours": "# h",
+			"minutes": "# min",
+			"greeting": "Witaj! Miło znowu cię zobaczyć!"
+		},
+		"chapters": {
+			"chapter": "Chapter #",
+			"levels": "Levels #",
+			"complete": "Complete!",
+			"coming_soon": "Coming soon",
+			"play": "Play"
+		},
+		"fullscreen": {
+			"fullscreen": "Fullscreen",
+			"enter": "Enter fullscreen",
+			"exit": "Exit fullscreen"
+		}
+	},
+	"jp": {
+		"level": "レベル #",
+		"moves": "手数",
+		"collect": "集めよう",
+		"quit": "終了する",
+		"quit_subtitle": "ハートが1つ減ります",
+		"tap_to_continue": "タップして続ける",
+		"tap_to_skip": "タップしてスキップ",
+		"wheel_lock": "レベル#で解除",
+		"score": "Score: #",
+		"ads": {
+			"no_rewarded_ads": "動画広告は利用できません",
+			"adblock_disable": "AdBlockを無効にしてゲームをサポートしてください",
+			"adblock_rewarded_ads": "AdBlockを無効にして再度お試しください",
+			"loading": "Loading ads...",
+			"reward_in": "Reward in",
+			"close": "Close"
+		},
+		"confirm_popup": {
+			"question": "よろしいですか？",
+			"decline": "いいえ",
+			"accept": "はい"
+		},
+		"start_level_popup": {
+			"classic_level": "ノーマルレベル",
+			"hard_level": "~ ハードレベル ~",
+			"goal": "クリア条件",
+			"collect": "集めよう",
+			"booster_hint": "おすすめ"
+		},
+		"lives": {
+			"title": "ハート",
+			"next_life": "次のハート:",
+			"full": "フル",
+			"unlimited": "Unlimited",
+			"request": "Ask a friend",
+			"hint": "ハートがないと プレイできないよ"
+		},
+		"rewards": {
+			"x2": "ダブル リワード！",
+			"bonus": "ボーナス リワード！",
+			"decline": "閉じる"
+		},
+		"stars_gift": {
+			"collect_popover": "スターを#集めて 開けよう！",
+			"ready": "さあ開けよう！",
+			"open": "タップしてプレゼントを開けよう！",
+			"claim_rewards": "タップしてゲットしよう！"
+		},
+		"out_of_moves": {
+			"title": "手数がなくなった！",
+			"subtitle": "まだ足りないもの：",
+			"so_close": "惜しい！"
+		},
+		"second_chance": {
+			"title": "セカンドチャンス",
+			"description": "手数を5追加して 続ける",
+			"hint": "ここをタップでボードに戻る"
+		},
+		"video_rewards": {
+			"stripes": {
+				"title": "しましまクッキー",
+				"description": "しましまクッキーを所持してスタートする"
+			},
+			"bomb": {
+				"title": "爆弾",
+				"description": "爆弾を所持してスタートする"
+			},
+			"super_sphere": {
+				"title": "デコクッキー",
+				"description": "デコクッキーを所持してスタートする"
+			},
+			"undo": {
+				"title": "一手戻す",
+				"description": "最後の一手を元に戻す"
+			},
+			"glove": {
+				"title": "ミトン",
+				"description": "どれか1つ消す"
+			},
+			"rolling_pin": {
+				"title": "めん棒",
+				"description": "縦横一列のピースを消す"
+			},
+			"lollipop": {
+				"title": "ロリポップ",
+				"description": "選んだ色のピースを すべて消す"
+			}
+		},
+		"level_complete": "クリア！",
+		"level_failed": "ゲームオーバー",
+		"victory": "レベルクリア！",
+		"pregame_boosters": {
+			"hint": "パワーアップを所持してスタートする",
+			"stripes": "しましまクッキー",
+			"bomb": "爆弾",
+			"super_sphere": "デコクッキー"
+		},
+		"booster_lock": "レベル#で解除",
+		"booster_hint_cookie": "どれかピース をタップ！",
+		"booster_hint_field": "フィールド内 をタップ！",
+		"boosters": {
+			"undo": {
+				"title": "一手戻す",
+				"hint": "最後の一手を戻す"
+			},
+			"glove": {
+				"title": "ミトン",
+				"hint": "どれか1つ消す"
+			},
+			"rolling_pin": {
+				"title": "めん棒",
+				"hint": "縦横一列のピースを消す"
+			},
+			"lollipop": {
+				"title": "ロリポップ",
+				"hint": "選んだ色のピースを すべて消す"
+			}
+		},
+		"tutorial": {
+			"basic_match": "ピースを入れ替えて 同じピースを 3つ並べよう",
+			"basic_goals": "ピースを集めて クリアしよう！",
+			"moves": "どのレベルも手数が 決まってるよ",
+			"stripes_match": "4つ並べてみよう",
+			"stripes_use": "しましまクッキーは、 同じピースを並べると 発動するよ",
+			"bomb_match_1": "T字にそろえてみよう",
+			"bomb_use": "爆弾ができた。 同じピースを並べると 爆発するよ",
+			"bomb_match_2": "L字も爆弾になるよ",
+			"sphere_match": "5つ並べると デコクッキーになるよ",
+			"sphere_use": "ピースと入れ替えると 発動するよ",
+			"powerup_combo": "2つのアイテムを 合わせてみよう！",
+			"powerup_chef": "アイテムが発動すると チャージするよ",
+			"powerup_chef_2": "チャージがフルになる とボーナスゲットだよ",
+			"licorice": "ピースを並べると ブロックが消えるよ",
+			"licorice_goal": "ブロックをすべて消し てピースを集めよう",
+			"marshmallow": "マシュマロを集める には隣りでピースを 消そう",
+			"undo_1": "一手戻すを使ってみて",
+			"undo_2": "もっといいピースを 見つけたよ",
+			"drop_items": "ジンジャーブレッドを 下に連れていこう",
+			"booster_glove": "ミトンは手数を使わず 1つ消せるよ",
+			"booster_rolling_pin": "めん棒は縦横一列の ピースを消せるよ",
+			"booster_lollipop": "ロリポップは手数を 使わず選んだ色の ピースを消せるよ"
+		},
+		"feedback_dialog": {
+			"feedback": "フィードバック",
+			"feedback_subtitle": "ゲームをより良くするには？",
+			"email": "メール（任意）",
+			"message": "メッセージ",
+			"send": "送信",
+			"thank_you": "ありがとうございます！"
+		},
+		"piggy_bank": {
+			"title": "ブタの貯金箱",
+			"warning": "貯金箱がいっぱいです！コインが貯められません！",
+			"hint": "コンプリートして 貯金箱をいっぱいにしよう",
+			"open": "開く",
+			"close": "閉じる",
+			"break_it": "壊そう！",
+			"full": "フル",
+			"not_enough": "貯金箱を開けるには少なくても#コイン必要です"
+		},
+		"graphics_quality": {
+			"title": "グラフィック",
+			"high": "高",
+			"medium": "中",
+			"low": "低"
+		},
+		"hint_delay": {
+			"title": "Hints",
+			"value": "#秒",
+			"on": "オン",
+			"off": "オフ"
+		},
+		"shop": {
+			"title": "Shop",
+			"sale": "Sale!",
+			"special_offer": "Special offer",
+			"best_value": "Best value",
+			"most_popular": "Most popular",
+			"show_more": "More",
+			"ads_hint": "Any purchase removes ads between the levels",
+			"time": "#h",
+			"discount": "#% off"
+		},
+		"reset_data": {
+			"title": "Reset Data",
+			"text": "All progress will be lost!",
+			"press_to_сonfirm": "Press again to confirm"
+		},
+		"greetings": {
+			"title": "おかえりなさい",
+			"bonus": "Bonus",
+			"super_bonus": "~ Super Bonus! ~",
+			"take": "受け取る",
+			"hours": "#h",
+			"minutes": "#min",
+			"greeting": "また遊んでくれて ありがとう！"
+		},
+		"chapters": {
+			"chapter": "Chapter #",
+			"levels": "Levels #",
+			"complete": "Complete!",
+			"coming_soon": "Coming soon",
+			"play": "Play"
+		},
+		"fullscreen": {
+			"fullscreen": "Fullscreen",
+			"enter": "Enter fullscreen",
+			"exit": "Exit fullscreen"
+		}
+	}
+}

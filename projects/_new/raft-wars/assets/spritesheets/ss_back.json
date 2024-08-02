@@ -1,0 +1,107 @@
+﻿{"frames": {
+
+"cloud01_0000":
+{
+	"frame": {"x":396,"y":786,"w":344,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":344,"h":124},
+	"sourceSize": {"w":344,"h":124}
+},
+"cloud02_0000":
+{
+	"frame": {"x":1,"y":555,"w":651,"h":115},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":651,"h":115},
+	"sourceSize": {"w":651,"h":115}
+},
+"cloud03_0000":
+{
+	"frame": {"x":393,"y":911,"w":290,"h":104},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":290,"h":104},
+	"sourceSize": {"w":290,"h":104}
+},
+"ground1_1_0000":
+{
+	"frame": {"x":486,"y":351,"w":394,"h":164},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":394,"h":164},
+	"sourceSize": {"w":394,"h":164}
+},
+"ground1_2_0000":
+{
+	"frame": {"x":407,"y":185,"w":615,"h":165},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":615,"h":165},
+	"sourceSize": {"w":615,"h":165}
+},
+"ground1_3_0000":
+{
+	"frame": {"x":396,"y":671,"w":504,"h":114},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":504,"h":114},
+	"sourceSize": {"w":504,"h":114}
+},
+"ground2_1_0000":
+{
+	"frame": {"x":1,"y":671,"w":394,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":394,"h":179},
+	"sourceSize": {"w":394,"h":179}
+},
+"ground2_2_0000":
+{
+	"frame": {"x":1,"y":351,"w":484,"h":203},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":484,"h":203},
+	"sourceSize": {"w":484,"h":203}
+},
+"ground2_3_0000":
+{
+	"frame": {"x":407,"y":1,"w":565,"h":183},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":565,"h":183},
+	"sourceSize": {"w":565,"h":183}
+},
+"ground3_1_0000":
+{
+	"frame": {"x":1,"y":851,"w":391,"h":161},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":391,"h":161},
+	"sourceSize": {"w":391,"h":161}
+},
+"palm1_0000":
+{
+	"frame": {"x":741,"y":786,"w":146,"h":232},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":146,"h":232},
+	"sourceSize": {"w":146,"h":232}
+},
+"sky2_0000":
+{
+	"frame": {"x":1,"y":1,"w":405,"h":305},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":405,"h":305},
+	"sourceSize": {"w":405,"h":305}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "16.2.0.24",
+	"image": "ss_back.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1"
+}
+}

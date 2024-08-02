@@ -1,0 +1,10 @@
+{
+    "success": true,
+    "data": {
+        "key": "\/\/kiz10girls.com\/api\/keys\/mrbullet3dgdfix",
+        "create": "cr_createRuntime('c2canvas');",
+        "start": "_startGame(this);",
+        "init": "initRendererAndLoader();",
+        "project": "requestProjectData();"
+    }
+}

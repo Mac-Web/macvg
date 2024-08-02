@@ -1,0 +1,31 @@
+<font>
+  <info face="generator_turns" size="22" bold="0" italic="0" charset="" unicode="" stretchH="100" smooth="1" aa="1" padding="2,2,2,2" spacing="0,0" outline="0"/>
+  <common lineHeight="26" base="16" scaleW="32" scaleH="122" pages="1" packed="0"/>
+  <pages>
+    <page id="0" file="generator_turns.png"/>
+  </pages>
+  <chars count="11">
+    <char id="48" x="2" y="2" width="14" height="17" xoffset="1" yoffset="0" xadvance="14" page="0" chnl="15"/>
+    <char id="57" x="2" y="21" width="13" height="17" xoffset="1" yoffset="0" xadvance="13" page="0" chnl="15"/>
+    <char id="56" x="2" y="40" width="13" height="17" xoffset="1" yoffset="0" xadvance="13" page="0" chnl="15"/>
+    <char id="55" x="2" y="59" width="11" height="17" xoffset="1" yoffset="0" xadvance="11" page="0" chnl="15"/>
+    <char id="54" x="2" y="78" width="13" height="17" xoffset="1" yoffset="0" xadvance="14" page="0" chnl="15"/>
+    <char id="53" x="15" y="59" width="12" height="17" xoffset="0" yoffset="0" xadvance="12" page="0" chnl="15"/>
+    <char id="52" x="17" y="21" width="13" height="17" xoffset="0" yoffset="0" xadvance="13" page="0" chnl="15"/>
+    <char id="51" x="18" y="2" width="12" height="17" xoffset="0" yoffset="0" xadvance="12" page="0" chnl="15"/>
+    <char id="50" x="17" y="40" width="13" height="17" xoffset="1" yoffset="0" xadvance="13" page="0" chnl="15"/>
+    <char id="49" x="2" y="97" width="8" height="17" xoffset="1" yoffset="0" xadvance="8" page="0" chnl="15"/>
+    <char id="45" x="2" y="116" width="9" height="4" xoffset="1" yoffset="8" xadvance="10" page="0" chnl="15"/>
+    <char id="32" x="0" y="0" width="0" height="0" xoffset="1" yoffset="8" xadvance="5" page="0" chnl="15"/>
+  </chars>
+  <kernings count="8">
+    <kerning first="55" second="49" amount="0"/>
+    <kerning first="55" second="45" amount="-1"/>
+    <kerning first="50" second="45" amount="0"/>
+    <kerning first="45" second="49" amount="-1"/>
+    <kerning first="45" second="55" amount="-1"/>
+    <kerning first="45" second="57" amount="0"/>
+    <kerning first="45" second="51" amount="0"/>
+    <kerning first="45" second="50" amount="0"/>
+  </kernings>
+</font>

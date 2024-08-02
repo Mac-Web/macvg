@@ -168,6 +168,160 @@ function changeName() {
 
 //Above are the codes for tab cloaker and panic key
 
+const filterAll = document.getElementById("filter-all");
+const filterAction = document.getElementById("filter-action");
+const filterStrategy = document.getElementById("filter-strategy");
+const filterCasual = document.getElementById("filter-casual");
+const filterDriving = document.getElementById("filter-driving");
+const sortName = document.getElementById("sort-name");
+const sortCatagory = document.getElementById("sort-catagory");
+let filterGamesList = document.getElementById("list");
+
+let newArray = [];
+let secondArray = [];
+let everythingArray = [];
+let data;
+fetch("games.json")
+  .then((response) => response.json())
+  .then((dataa) => {
+    data = dataa.games;
+    for (var i = 0; i < data.length; i++) {
+      newArray.push(data[i]);
+    }
+    everythingArray = newArray;
+    secondArray = newArray;
+    sortStuff(secondArray, "name");
+    targetLabel.innerHTML = "Sort By: Name";
+  })
+  .catch((error) => console.error("Error fetching data:", error));
+
+document.addEventListener("click", (e) => {
+  let eTarget = e.target;
+  let targetLabel = eTarget.parentElement.parentElement.children[0];
+  if (eTarget === filterAction) {
+    filterStuff(everythingArray, "action");
+    targetLabel.innerHTML = "Action & Adventure (150)";
+  } else if (eTarget === filterStrategy) {
+    filterStuff(everythingArray, "strategy");
+    targetLabel.innerHTML = "Strategy & Puzzle (116)";
+  } else if (eTarget === filterCasual) {
+    filterStuff(everythingArray, "casual");
+    targetLabel.innerHTML = "Casual & Idle (52)";
+  } else if (eTarget === filterDriving) {
+    filterStuff(everythingArray, "driving");
+    targetLabel.innerHTML = "Driving & Sports (42)";
+  } else if (eTarget === filterAll) {
+    sortStuff(everythingArray, "name");
+    targetLabel.innerHTML = "Filter All (360)";
+  } else if (eTarget === sortName) {
+    targetLabel.innerHTML = "Sort By: Name";
+    sortStuff(secondArray, "name");
+  } else if (eTarget === sortCatagory) {
+    targetLabel.innerHTML = "Sort By: Catagory";
+    sortStuff(secondArray, "catagory");
+  }
+});
+
+function sortStuff(targetArray, key) {
+  if (key === "name") {
+    targetArray.sort((a, b) => {
+      const nameA = a.name.toUpperCase();
+      const nameB = b.name.toUpperCase();
+      if (nameA < nameB) {
+        return -1;
+      }
+      if (nameA > nameB) {
+        return 1;
+      }
+      return 0;
+    });
+    newArray = targetArray;
+    let finalArrayIds = [];
+    let finalGames = [];
+    targetArray.forEach((item) => {
+      finalArrayIds.push(item.id);
+      finalGames.push(item.name);
+    });
+    arrangeBoxes(finalGames, finalArrayIds);
+  } else if (key === "catagory") {
+    targetArray.sort((a, b) => {
+      const nameA = a.catagory.toUpperCase();
+      const nameB = b.catagory.toUpperCase();
+      if (nameA < nameB) {
+        return -1;
+      }
+      if (nameA > nameB) {
+        return 1;
+      }
+      return 0;
+    });
+    newArray = targetArray;
+    let finalArrayIds = [];
+    let finalGames = [];
+    targetArray.forEach((item) => {
+      finalArrayIds.push(item.id);
+      finalGames.push(item.name);
+    });
+    arrangeBoxes(finalGames, finalArrayIds);
+  }
+}
+
+function filterStuff(colorArray, color) {
+  if (
+    color === "action" ||
+    color === "strategy" ||
+    color === "casual" ||
+    color === "driving"
+  ) {
+    let finalArray = [];
+    let finalArrayIds = [];
+    colorArray.forEach((item) => {
+      if (item.catagory === color) {
+        finalArray.push(item.name);
+        finalArrayIds.push(item.id);
+      }
+    });
+    secondArray = finalArray;
+    arrangeBoxes(finalArray, finalArrayIds);
+  } else {
+    let finalArrayIds = [];
+    let finalArrayNames = [];
+    everythingArray.forEach((item) => {
+      finalArrayIds.push(item.id);
+      finalArrayNames.push(item.name);
+    });
+    arrangeBoxes(finalArrayNames, finalArrayIds);
+  }
+}
+
+function arrangeBoxes(newArrayy, newIds) {
+  filterGamesList.innerHTML = "";
+  let arrayIndex = 0;
+  newArrayy.forEach((element) => {
+    let newBox = document.createElement("a");
+    newBox.classList.add("game");
+    newBox.setAttribute("id", `game${newIds[arrayIndex]}`);
+    newBox.innerHTML = element;
+    filterGamesList.appendChild(newBox);
+    let computedStyle = window.getComputedStyle(newBox).backgroundImage;
+    let computedStylee = computedStyle.substring(
+      computedStyle.indexOf(`url("`) + 5
+    );
+    const projectsPosition = computedStylee.indexOf("projects/");
+    const slashIndex = computedStylee.indexOf(
+      "/",
+      projectsPosition + "projects/".length
+    );
+    let computedStyleee = computedStylee.substring(0, slashIndex);
+    filterGamesList.removeChild(newBox);
+    newBox.setAttribute("href", computedStyleee);
+    filterGamesList.appendChild(newBox);
+    arrayIndex++;
+  });
+}
+
+//Above are the codes for filtering and sorting
+
 function updateTheme() {
   let theme = localStorage.getItem("theme");
   if (theme === "light") {

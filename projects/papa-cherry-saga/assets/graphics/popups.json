@@ -1,0 +1,3395 @@
+{
+	"textures": [
+		{
+			"image": "popups.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1927,
+				"h": 2043
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "popups/lives/popup.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 588,
+						"h": 860
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 588,
+						"h": 860
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 588,
+						"h": 860
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/shop/popup.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 588,
+						"h": 860
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 588,
+						"h": 860
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 588,
+						"h": 860
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/popup_back.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 652,
+						"h": 790
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 638,
+						"h": 776
+					},
+					"frame": {
+						"x": 592,
+						"y": 1,
+						"w": 638,
+						"h": 776
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/popup_small_back.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 646,
+						"h": 555
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 7,
+						"w": 630,
+						"h": 541
+					},
+					"frame": {
+						"x": 1233,
+						"y": 1,
+						"w": 630,
+						"h": 541
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/goals_popup/Small Popup Background.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 749,
+						"h": 235
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 8,
+						"w": 733,
+						"h": 219
+					},
+					"frame": {
+						"x": 1,
+						"y": 864,
+						"w": 733,
+						"h": 219
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/greetings/card_back.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 328,
+						"h": 468
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 328,
+						"h": 468
+					},
+					"frame": {
+						"x": 1,
+						"y": 1086,
+						"w": 328,
+						"h": 468
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/reward/Sale Background.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 524,
+						"h": 222
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 524,
+						"h": 222
+					},
+					"frame": {
+						"x": 1233,
+						"y": 545,
+						"w": 524,
+						"h": 222
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/start_level/goal_panel_back.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 524,
+						"h": 222
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 524,
+						"h": 222
+					},
+					"frame": {
+						"x": 737,
+						"y": 780,
+						"w": 524,
+						"h": 222
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/lives/panel_back.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 483,
+						"h": 206
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 483,
+						"h": 206
+					},
+					"frame": {
+						"x": 1264,
+						"y": 770,
+						"w": 483,
+						"h": 206
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/shop/special_offer_bg.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 483,
+						"h": 206
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 483,
+						"h": 206
+					},
+					"frame": {
+						"x": 1264,
+						"y": 770,
+						"w": 483,
+						"h": 206
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/level_failed/chef_sad.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 326,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 51,
+						"w": 284,
+						"h": 326
+					},
+					"frame": {
+						"x": 1,
+						"y": 1557,
+						"w": 284,
+						"h": 326
+					},
+					"anchor": {
+						"x": 0.466258,
+						"y": 1
+					}
+				},
+				{
+					"filename": "popups/level_failed/popup_panel_wide.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 547,
+						"h": 190
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 544,
+						"h": 188
+					},
+					"frame": {
+						"x": 737,
+						"y": 1005,
+						"w": 544,
+						"h": 188
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/Chef Cherry.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 259,
+						"h": 335
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 13,
+						"w": 244,
+						"h": 322
+					},
+					"frame": {
+						"x": 332,
+						"y": 1086,
+						"w": 244,
+						"h": 322
+					},
+					"anchor": {
+						"x": 0.629344,
+						"y": 0.997015
+					}
+				},
+				{
+					"filename": "popups/quit/popover.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 368,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 2,
+						"w": 358,
+						"h": 163
+					},
+					"frame": {
+						"x": 1284,
+						"y": 979,
+						"w": 358,
+						"h": 163
+					},
+					"anchor": {
+						"x": 0.494565,
+						"y": 0.870057
+					}
+				},
+				{
+					"filename": "popups/start_level/boosters/booster_locked_popover.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 358,
+						"h": 161
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 1,
+						"w": 350,
+						"h": 151
+					},
+					"frame": {
+						"x": 1,
+						"y": 1886,
+						"w": 350,
+						"h": 151
+					},
+					"anchor": {
+						"x": 0.494413,
+						"y": 0.89441
+					}
+				},
+				{
+					"filename": "pregame_boosters_labels.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 98,
+						"h": 377
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 97,
+						"h": 375
+					},
+					"frame": {
+						"x": 579,
+						"y": 1086,
+						"w": 97,
+						"h": 375
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/piggy_bank/piggy_bank_large.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 276,
+						"h": 277
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 276,
+						"h": 277
+					},
+					"frame": {
+						"x": 679,
+						"y": 1196,
+						"w": 276,
+						"h": 277
+					},
+					"anchor": {
+						"x": 0.54710145,
+						"y": 0.99638989
+					}
+				},
+				{
+					"filename": "popups/greetings/popover.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 391,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 2,
+						"w": 379,
+						"h": 141
+					},
+					"frame": {
+						"x": 958,
+						"y": 1196,
+						"w": 379,
+						"h": 141
+					},
+					"anchor": {
+						"x": 0.04092071611253197,
+						"y": 0.46405228758169936
+					}
+				},
+				{
+					"filename": "popups/greetings/title_back.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 349,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 349,
+						"h": 76
+					},
+					"frame": {
+						"x": 958,
+						"y": 1340,
+						"w": 349,
+						"h": 76
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/piggy_bank/button_double.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 300,
+						"h": 127
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 296,
+						"h": 123
+					},
+					"frame": {
+						"x": 1340,
+						"y": 1145,
+						"w": 296,
+						"h": 123
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/greetings/Coins Chest.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 215,
+						"h": 172
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 215,
+						"h": 172
+					},
+					"frame": {
+						"x": 332,
+						"y": 1411,
+						"w": 215,
+						"h": 172
+					},
+					"anchor": {
+						"x": 0.54883721,
+						"y": 0.9244186
+					}
+				},
+				{
+					"filename": "popups/shop/coins_chest.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 214,
+						"h": 203
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 214,
+						"h": 203
+					},
+					"frame": {
+						"x": 288,
+						"y": 1586,
+						"w": 214,
+						"h": 203
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.876847
+					}
+				},
+				{
+					"filename": "popups/lives/separator.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 480,
+						"h": 5
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 480,
+						"h": 5
+					},
+					"frame": {
+						"x": 958,
+						"y": 1419,
+						"w": 480,
+						"h": 5
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/shop/separator.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 480,
+						"h": 5
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 480,
+						"h": 5
+					},
+					"frame": {
+						"x": 958,
+						"y": 1419,
+						"w": 480,
+						"h": 5
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/special_offer/headline_flag_pink.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 282,
+						"h": 87
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 282,
+						"h": 87
+					},
+					"frame": {
+						"x": 1340,
+						"y": 1271,
+						"w": 282,
+						"h": 87
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.471264
+					}
+				},
+				{
+					"filename": "popups/headline_flag_blue.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 278,
+						"h": 81
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 278,
+						"h": 81
+					},
+					"frame": {
+						"x": 958,
+						"y": 1427,
+						"w": 278,
+						"h": 81
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/quit/Green-Button-Long.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 1,
+						"w": 209,
+						"h": 88
+					},
+					"frame": {
+						"x": 288,
+						"y": 1792,
+						"w": 209,
+						"h": 88
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "labels.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 74,
+						"h": 226
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 72,
+						"h": 224
+					},
+					"frame": {
+						"x": 1760,
+						"y": 545,
+						"w": 72,
+						"h": 224
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/start_level/boosters/booster_bubble.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 154,
+						"h": 154
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 6,
+						"w": 141,
+						"h": 143
+					},
+					"frame": {
+						"x": 354,
+						"y": 1883,
+						"w": 141,
+						"h": 143
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/Blue-Button-Long.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 282,
+						"h": 120
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 2,
+						"w": 277,
+						"h": 116
+					},
+					"frame": {
+						"x": 1239,
+						"y": 1427,
+						"w": 277,
+						"h": 116
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/greetings/Coins Bag.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 175,
+						"h": 165
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 175,
+						"h": 165
+					},
+					"frame": {
+						"x": 1645,
+						"y": 979,
+						"w": 175,
+						"h": 165
+					},
+					"anchor": {
+						"x": 0.45,
+						"y": 0.92121212
+					}
+				},
+				{
+					"filename": "popups/particles/circle_fx_2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 215,
+						"h": 212
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 10,
+						"w": 185,
+						"h": 188
+					},
+					"frame": {
+						"x": 1639,
+						"y": 1147,
+						"w": 185,
+						"h": 188
+					},
+					"anchor": {
+						"x": 0.49302326,
+						"y": 0.49056604
+					}
+				},
+				{
+					"filename": "popups/Pink-Button-Long.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 282,
+						"h": 120
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 2,
+						"w": 277,
+						"h": 116
+					},
+					"frame": {
+						"x": 550,
+						"y": 1476,
+						"w": 277,
+						"h": 116
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/headline_flag_pink.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 278,
+						"h": 81
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 278,
+						"h": 81
+					},
+					"frame": {
+						"x": 505,
+						"y": 1595,
+						"w": 278,
+						"h": 81
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/second_chance/button_coins.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 116
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 225,
+						"h": 100
+					},
+					"frame": {
+						"x": 505,
+						"y": 1679,
+						"w": 225,
+						"h": 100
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/labels/piggy_icon.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 83,
+						"h": 84
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 81
+					},
+					"frame": {
+						"x": 592,
+						"y": 780,
+						"w": 80,
+						"h": 81
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/shop/shop_coins.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 66,
+						"h": 211
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 65,
+						"h": 209
+					},
+					"frame": {
+						"x": 1835,
+						"y": 545,
+						"w": 65,
+						"h": 209
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/reward/super_sphere.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 200,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 41,
+						"y": 39,
+						"w": 119,
+						"h": 120
+					},
+					"frame": {
+						"x": 830,
+						"y": 1476,
+						"w": 119,
+						"h": 120
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/goals_popup/Headline Flag.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 250,
+						"h": 73
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 250,
+						"h": 73
+					},
+					"frame": {
+						"x": 952,
+						"y": 1511,
+						"w": 250,
+						"h": 73
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/piggy_bank/coins_label.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 258,
+						"h": 60
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 258,
+						"h": 60
+					},
+					"frame": {
+						"x": 1205,
+						"y": 1546,
+						"w": 258,
+						"h": 60
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/second_chance/button_video.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 116
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 225,
+						"h": 100
+					},
+					"frame": {
+						"x": 952,
+						"y": 1587,
+						"w": 225,
+						"h": 100
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/shop/button_purple.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 163,
+						"h": 72
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 163,
+						"h": 72
+					},
+					"frame": {
+						"x": 786,
+						"y": 1599,
+						"w": 163,
+						"h": 72
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/quit/Pink-Button-Long.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 1,
+						"w": 209,
+						"h": 88
+					},
+					"frame": {
+						"x": 1180,
+						"y": 1609,
+						"w": 209,
+						"h": 88
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/start_level/boosters/bubble_sparks.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 154,
+						"h": 188
+					},
+					"spriteSourceSize": {
+						"x": 43,
+						"y": 4,
+						"w": 68,
+						"h": 176
+					},
+					"frame": {
+						"x": 1750,
+						"y": 772,
+						"w": 68,
+						"h": 176
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.489362
+					}
+				},
+				{
+					"filename": "popups/reward/booster_bubble.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 200,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 10,
+						"w": 183,
+						"h": 175
+					},
+					"frame": {
+						"x": 1519,
+						"y": 1361,
+						"w": 183,
+						"h": 175
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/start_level/piggy_bank/button_piggy_2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 142,
+						"h": 149
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 141,
+						"h": 142
+					},
+					"frame": {
+						"x": 1705,
+						"y": 1338,
+						"w": 141,
+						"h": 142
+					},
+					"anchor": {
+						"x": 0.53521127,
+						"y": 0.89932886
+					}
+				},
+				{
+					"filename": "popups/special_offer/button_pink_large.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 200,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 200,
+						"h": 86
+					},
+					"frame": {
+						"x": 505,
+						"y": 1782,
+						"w": 200,
+						"h": 86
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/labels/label_back.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 186,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 182,
+						"h": 52
+					},
+					"frame": {
+						"x": 1310,
+						"y": 1361,
+						"w": 182,
+						"h": 52
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/shop/coins_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 105,
+						"h": 95
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 105,
+						"h": 95
+					},
+					"frame": {
+						"x": 1821,
+						"y": 772,
+						"w": 105,
+						"h": 95
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.442105
+					}
+				},
+				{
+					"filename": "popups/reward/lollipop.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 200,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 33,
+						"w": 103,
+						"h": 123
+					},
+					"frame": {
+						"x": 1823,
+						"y": 870,
+						"w": 103,
+						"h": 123
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/greetings/watch ad.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 103,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 103,
+						"h": 114
+					},
+					"frame": {
+						"x": 1823,
+						"y": 996,
+						"w": 103,
+						"h": 114
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/lives/watch ad.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 103,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 103,
+						"h": 114
+					},
+					"frame": {
+						"x": 1823,
+						"y": 996,
+						"w": 103,
+						"h": 114
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/piggy_bank/watch ad.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 103,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 103,
+						"h": 114
+					},
+					"frame": {
+						"x": 1823,
+						"y": 996,
+						"w": 103,
+						"h": 114
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/reward/watch ad.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 103,
+						"h": 114
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 103,
+						"h": 114
+					},
+					"frame": {
+						"x": 1823,
+						"y": 996,
+						"w": 103,
+						"h": 114
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/goals_popup/big_skull.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 125,
+						"h": 112
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 10,
+						"w": 99,
+						"h": 84
+					},
+					"frame": {
+						"x": 1827,
+						"y": 1113,
+						"w": 99,
+						"h": 84
+					},
+					"anchor": {
+						"x": 0.488,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/greetings/Pink Button.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 176,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 176,
+						"h": 76
+					},
+					"frame": {
+						"x": 1705,
+						"y": 1483,
+						"w": 176,
+						"h": 76
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/level_failed/Cookie Background Box.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 93,
+						"h": 92
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 93,
+						"h": 92
+					},
+					"frame": {
+						"x": 1827,
+						"y": 1200,
+						"w": 93,
+						"h": 92
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/start_level/Cookie Background Box.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 93,
+						"h": 92
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 93,
+						"h": 92
+					},
+					"frame": {
+						"x": 1827,
+						"y": 1200,
+						"w": 93,
+						"h": 92
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/start_level/boosters/locked.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 98
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 98
+					},
+					"frame": {
+						"x": 1849,
+						"y": 1295,
+						"w": 77,
+						"h": 98
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.42
+					}
+				},
+				{
+					"filename": "popups/start_level/goals/cookie_purple.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 1,
+						"w": 59,
+						"h": 61
+					},
+					"frame": {
+						"x": 675,
+						"y": 780,
+						"w": 59,
+						"h": 61
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/start_level/goals/chocolate.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 62
+					},
+					"frame": {
+						"x": 679,
+						"y": 1086,
+						"w": 55,
+						"h": 62
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/greetings/button_pink.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 176,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 176,
+						"h": 76
+					},
+					"frame": {
+						"x": 500,
+						"y": 1871,
+						"w": 176,
+						"h": 76
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/lives/button_pink.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 176,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 176,
+						"h": 76
+					},
+					"frame": {
+						"x": 498,
+						"y": 1950,
+						"w": 176,
+						"h": 76
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/shop/button_pink.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 176,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 176,
+						"h": 76
+					},
+					"frame": {
+						"x": 498,
+						"y": 1950,
+						"w": 176,
+						"h": 76
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/special_offer/discount_label_back.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 176,
+						"h": 44
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 176,
+						"h": 44
+					},
+					"frame": {
+						"x": 1519,
+						"y": 1539,
+						"w": 176,
+						"h": 44
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/start_level/goals/cookie_blue.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 3,
+						"w": 60,
+						"h": 58
+					},
+					"frame": {
+						"x": 1866,
+						"y": 1,
+						"w": 60,
+						"h": 58
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/start_level/piggy_bank/piggy_bank_popover.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 164,
+						"h": 79
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 1,
+						"w": 154,
+						"h": 68
+					},
+					"frame": {
+						"x": 1698,
+						"y": 1562,
+						"w": 154,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0.48780488,
+						"y": 0.75949367
+					}
+				},
+				{
+					"filename": "popups/black_rect.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 128,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 128,
+						"h": 128
+					},
+					"frame": {
+						"x": 1392,
+						"y": 1609,
+						"w": 128,
+						"h": 128
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/level_failed/broken_heart.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 170,
+						"h": 154
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 15,
+						"w": 152,
+						"h": 124
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1586,
+						"w": 152,
+						"h": 124
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/start_level/widget_button_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 150,
+						"h": 79
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 150,
+						"h": 79
+					},
+					"frame": {
+						"x": 1678,
+						"y": 1633,
+						"w": 150,
+						"h": 79
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 1
+					}
+				},
+				{
+					"filename": "popups/start_level/boosters/booster_hint_popover.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 152,
+						"h": 52
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 152,
+						"h": 52
+					},
+					"frame": {
+						"x": 1523,
+						"y": 1713,
+						"w": 152,
+						"h": 52
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.346154
+					}
+				},
+				{
+					"filename": "popups/lives/life_icon_big.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 146,
+						"h": 141
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 11,
+						"w": 143,
+						"h": 125
+					},
+					"frame": {
+						"x": 1678,
+						"y": 1715,
+						"w": 143,
+						"h": 125
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/reward/extra_moves.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 180,
+						"h": 173
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 32,
+						"w": 102,
+						"h": 116
+					},
+					"frame": {
+						"x": 1824,
+						"y": 1715,
+						"w": 102,
+						"h": 116
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/labels/Coin_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 76,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 76,
+						"h": 76
+					},
+					"frame": {
+						"x": 1849,
+						"y": 1396,
+						"w": 76,
+						"h": 76
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "goal_num_label.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 68,
+						"h": 169
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 67,
+						"h": 167
+					},
+					"frame": {
+						"x": 733,
+						"y": 1679,
+						"w": 67,
+						"h": 167
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/start_level/widget_button.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 132,
+						"h": 143
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 4,
+						"w": 126,
+						"h": 133
+					},
+					"frame": {
+						"x": 803,
+						"y": 1674,
+						"w": 126,
+						"h": 133
+					},
+					"anchor": {
+						"x": 0.969697,
+						"y": 0.944056
+					}
+				},
+				{
+					"filename": "popups/shop/coins_3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 142,
+						"h": 116
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 142,
+						"h": 116
+					},
+					"frame": {
+						"x": 932,
+						"y": 1690,
+						"w": 142,
+						"h": 116
+					},
+					"anchor": {
+						"x": 0.633803,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/reward/rolling_pin.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 101
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 101
+					},
+					"frame": {
+						"x": 1077,
+						"y": 1690,
+						"w": 100,
+						"h": 101
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.45
+					}
+				},
+				{
+					"filename": "popups/shop/coins_5.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 133,
+						"h": 105
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 133,
+						"h": 105
+					},
+					"frame": {
+						"x": 1180,
+						"y": 1700,
+						"w": 133,
+						"h": 105
+					},
+					"anchor": {
+						"x": 0.601504,
+						"y": 0.540541
+					}
+				},
+				{
+					"filename": "popups/particles/circle_fx_3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 151,
+						"h": 150
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 8,
+						"w": 127,
+						"h": 130
+					},
+					"frame": {
+						"x": 803,
+						"y": 1810,
+						"w": 127,
+						"h": 130
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/reward/glove.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 200,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 38,
+						"y": 41,
+						"w": 115,
+						"h": 115
+					},
+					"frame": {
+						"x": 933,
+						"y": 1809,
+						"w": 115,
+						"h": 115
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/start_level/goals/donut.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 71,
+						"h": 59
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 71,
+						"h": 59
+					},
+					"frame": {
+						"x": 1855,
+						"y": 1562,
+						"w": 71,
+						"h": 59
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/start_level/goals/chick.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 75
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 0,
+						"w": 67,
+						"h": 75
+					},
+					"frame": {
+						"x": 1316,
+						"y": 1700,
+						"w": 67,
+						"h": 75
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/shop/popover.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 133,
+						"h": 36
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 133,
+						"h": 36
+					},
+					"frame": {
+						"x": 1386,
+						"y": 1740,
+						"w": 133,
+						"h": 36
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.9375
+					}
+				},
+				{
+					"filename": "popups/start_level/super_sphere_icon.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 50,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 50,
+						"h": 51
+					},
+					"frame": {
+						"x": 1466,
+						"y": 1546,
+						"w": 50,
+						"h": 51
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/start_level/hand.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 131,
+						"h": 111
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 0,
+						"w": 118,
+						"h": 111
+					},
+					"frame": {
+						"x": 1051,
+						"y": 1809,
+						"w": 118,
+						"h": 111
+					},
+					"anchor": {
+						"x": 0.725191,
+						"y": 0.792793
+					}
+				},
+				{
+					"filename": "popups/reward/bomb.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 200,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 46,
+						"y": 41,
+						"w": 109,
+						"h": 109
+					},
+					"frame": {
+						"x": 1172,
+						"y": 1808,
+						"w": 109,
+						"h": 109
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/reward/stripes.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 200,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 47,
+						"y": 47,
+						"w": 107,
+						"h": 106
+					},
+					"frame": {
+						"x": 1284,
+						"y": 1808,
+						"w": 107,
+						"h": 106
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/reward/lives.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 200,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 43,
+						"y": 53,
+						"w": 115,
+						"h": 97
+					},
+					"frame": {
+						"x": 1394,
+						"y": 1779,
+						"w": 115,
+						"h": 97
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/reward/undo.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 200,
+						"h": 192
+					},
+					"spriteSourceSize": {
+						"x": 43,
+						"y": 53,
+						"w": 118,
+						"h": 89
+					},
+					"frame": {
+						"x": 1394,
+						"y": 1879,
+						"w": 118,
+						"h": 89
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/start_level/skull_button.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 121,
+						"h": 112
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 15,
+						"w": 84,
+						"h": 71
+					},
+					"frame": {
+						"x": 677,
+						"y": 1971,
+						"w": 84,
+						"h": 71
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/quit/broken_heart_popover.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 122,
+						"h": 106
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 1,
+						"w": 112,
+						"h": 96
+					},
+					"frame": {
+						"x": 764,
+						"y": 1943,
+						"w": 112,
+						"h": 96
+					},
+					"anchor": {
+						"x": 0.0655738,
+						"y": 0.839623
+					}
+				},
+				{
+					"filename": "popups/start_level/boosters/super_sphere.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 148,
+						"h": 142
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 28,
+						"w": 89,
+						"h": 90
+					},
+					"frame": {
+						"x": 879,
+						"y": 1943,
+						"w": 89,
+						"h": 90
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.48
+					}
+				},
+				{
+					"filename": "popups/shop/coins_4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 109,
+						"h": 100
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 109,
+						"h": 100
+					},
+					"frame": {
+						"x": 971,
+						"y": 1927,
+						"w": 109,
+						"h": 100
+					},
+					"anchor": {
+						"x": 0.505321,
+						"y": 0.55
+					}
+				},
+				{
+					"filename": "popups/start_level/boosters/bomb.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 97,
+						"h": 90
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 91,
+						"h": 89
+					},
+					"frame": {
+						"x": 1083,
+						"y": 1923,
+						"w": 91,
+						"h": 89
+					},
+					"anchor": {
+						"x": 0.48,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/lives/life_icon.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 96,
+						"h": 85
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 96,
+						"h": 85
+					},
+					"frame": {
+						"x": 1177,
+						"y": 1920,
+						"w": 96,
+						"h": 85
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/start_level/boosters/check_button.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 42,
+						"h": 42
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 42,
+						"h": 42
+					},
+					"frame": {
+						"x": 679,
+						"y": 1151,
+						"w": 42,
+						"h": 42
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/particles/star_1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 70,
+						"h": 70
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 10,
+						"w": 42,
+						"h": 46
+					},
+					"frame": {
+						"x": 1884,
+						"y": 1475,
+						"w": 42,
+						"h": 46
+					},
+					"anchor": {
+						"x": 0.47142857,
+						"y": 0.47142857
+					}
+				},
+				{
+					"filename": "popups/start_level/video_icon_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 56,
+						"h": 67
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 56,
+						"h": 67
+					},
+					"frame": {
+						"x": 1866,
+						"y": 62,
+						"w": 56,
+						"h": 67
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/start_level/goals/gummy.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 74
+					},
+					"frame": {
+						"x": 1866,
+						"y": 132,
+						"w": 48,
+						"h": 74
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/labels/Pink-Gift-Icon.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 82,
+						"h": 82
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 82,
+						"h": 82
+					},
+					"frame": {
+						"x": 679,
+						"y": 1871,
+						"w": 82,
+						"h": 82
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/start_level/goals/cookie_pink.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 0,
+						"w": 47,
+						"h": 63
+					},
+					"frame": {
+						"x": 1866,
+						"y": 209,
+						"w": 47,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/level_failed/tear.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 38,
+						"h": 69
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 38,
+						"h": 69
+					},
+					"frame": {
+						"x": 1866,
+						"y": 275,
+						"w": 38,
+						"h": 69
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/start_level/goals/candy.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 100,
+						"h": 67
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 100,
+						"h": 67
+					},
+					"frame": {
+						"x": 1522,
+						"y": 1768,
+						"w": 100,
+						"h": 67
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/start_level/boosters/stripes.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 89,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 89,
+						"h": 88
+					},
+					"frame": {
+						"x": 1515,
+						"y": 1838,
+						"w": 89,
+						"h": 88
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.46
+					}
+				},
+				{
+					"filename": "popups/piggy_bank/button_close.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 87,
+						"h": 87
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 87,
+						"h": 87
+					},
+					"frame": {
+						"x": 1515,
+						"y": 1929,
+						"w": 87,
+						"h": 87
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/second_chance/video_icon_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 47,
+						"h": 52
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 47,
+						"h": 52
+					},
+					"frame": {
+						"x": 1625,
+						"y": 1768,
+						"w": 47,
+						"h": 52
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/start_level/goals/drop_item.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 65,
+						"h": 71
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 65,
+						"h": 71
+					},
+					"frame": {
+						"x": 1276,
+						"y": 1971,
+						"w": 65,
+						"h": 71
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.53
+					}
+				},
+				{
+					"filename": "popups/start_level/goals/cookie_red.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 58,
+						"h": 58
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 58,
+						"h": 58
+					},
+					"frame": {
+						"x": 1866,
+						"y": 347,
+						"w": 58,
+						"h": 58
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/level_failed/restart_icon.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 60,
+						"h": 61
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 56,
+						"h": 57
+					},
+					"frame": {
+						"x": 1866,
+						"y": 408,
+						"w": 56,
+						"h": 57
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/lives/coin.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 59,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 54,
+						"h": 57
+					},
+					"frame": {
+						"x": 1866,
+						"y": 468,
+						"w": 54,
+						"h": 57
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/second_chance/coin.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 59,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 54,
+						"h": 57
+					},
+					"frame": {
+						"x": 1866,
+						"y": 468,
+						"w": 54,
+						"h": 57
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/greetings/watch_ad_icon.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 67,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 67,
+						"h": 74
+					},
+					"frame": {
+						"x": 1831,
+						"y": 1633,
+						"w": 67,
+						"h": 74
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/shop/heart.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 83,
+						"h": 73
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 2,
+						"w": 76,
+						"h": 67
+					},
+					"frame": {
+						"x": 1344,
+						"y": 1971,
+						"w": 76,
+						"h": 67
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/greetings/live_icon.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 81,
+						"h": 71
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 1,
+						"w": 74,
+						"h": 65
+					},
+					"frame": {
+						"x": 1423,
+						"y": 1971,
+						"w": 74,
+						"h": 65
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/labels/life_icon.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 86,
+						"h": 80
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 4,
+						"w": 85,
+						"h": 72
+					},
+					"frame": {
+						"x": 1824,
+						"y": 1834,
+						"w": 85,
+						"h": 72
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/play_icon.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 45,
+						"h": 45
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 45,
+						"h": 45
+					},
+					"frame": {
+						"x": 1284,
+						"y": 1145,
+						"w": 45,
+						"h": 45
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/start_level/goals/biscuit.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1607,
+						"y": 1838,
+						"w": 68,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.515
+					}
+				},
+				{
+					"filename": "popups/shop/coins_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 78,
+						"h": 58
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 58
+					},
+					"frame": {
+						"x": 1678,
+						"y": 1843,
+						"w": 78,
+						"h": 58
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.37931
+					}
+				},
+				{
+					"filename": "popups/start_level/goals/apple.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 62,
+						"h": 72
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 62,
+						"h": 72
+					},
+					"frame": {
+						"x": 1759,
+						"y": 1843,
+						"w": 62,
+						"h": 72
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.53
+					}
+				},
+				{
+					"filename": "popups/Close Button.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 69,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 69,
+						"h": 68
+					},
+					"frame": {
+						"x": 1607,
+						"y": 1909,
+						"w": 69,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/start_level/goals/cookie_yellow.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 63,
+						"h": 62
+					},
+					"frame": {
+						"x": 1605,
+						"y": 1980,
+						"w": 63,
+						"h": 62
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/start_level/goals/licorice.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 70,
+						"h": 70
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1679,
+						"y": 1904,
+						"w": 68,
+						"h": 68
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/piggy_bank/button_close_2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 68,
+						"h": 66
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 68,
+						"h": 66
+					},
+					"frame": {
+						"x": 1750,
+						"y": 1918,
+						"w": 68,
+						"h": 66
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/level_failed/cross.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 26,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 26,
+						"h": 28
+					},
+					"frame": {
+						"x": 550,
+						"y": 1411,
+						"w": 26,
+						"h": 28
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/particles/circle_white_1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 34
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 34,
+						"h": 34
+					},
+					"frame": {
+						"x": 1177,
+						"y": 2008,
+						"w": 34,
+						"h": 34
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/start_level/goals/marshmallow.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 65,
+						"h": 70
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 65,
+						"h": 70
+					},
+					"frame": {
+						"x": 1824,
+						"y": 1909,
+						"w": 65,
+						"h": 70
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/particles/star_particle.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 50,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 5,
+						"w": 34,
+						"h": 36
+					},
+					"frame": {
+						"x": 1892,
+						"y": 1909,
+						"w": 34,
+						"h": 36
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/level_failed/check.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 35,
+						"h": 31
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 35,
+						"h": 31
+					},
+					"frame": {
+						"x": 1884,
+						"y": 1524,
+						"w": 35,
+						"h": 31
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/start_level/goals/cookie_orange.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 63,
+						"h": 63
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 61,
+						"h": 63
+					},
+					"frame": {
+						"x": 1679,
+						"y": 1975,
+						"w": 61,
+						"h": 63
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/start_level/skull_icon.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 54,
+						"h": 45
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 3,
+						"w": 49,
+						"h": 40
+					},
+					"frame": {
+						"x": 1743,
+						"y": 1987,
+						"w": 49,
+						"h": 40
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/particles/star_white_1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 70,
+						"h": 70
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 10,
+						"w": 42,
+						"h": 46
+					},
+					"frame": {
+						"x": 1795,
+						"y": 1987,
+						"w": 42,
+						"h": 46
+					},
+					"anchor": {
+						"x": 0.471429,
+						"y": 0.471429
+					}
+				},
+				{
+					"filename": "popups/start_level/boosters/plus_button.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 42,
+						"h": 42
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 42,
+						"h": 42
+					},
+					"frame": {
+						"x": 1840,
+						"y": 1982,
+						"w": 42,
+						"h": 42
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/greetings/plus_sign.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 18,
+						"h": 19
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 18,
+						"h": 19
+					},
+					"frame": {
+						"x": 1180,
+						"y": 1587,
+						"w": 18,
+						"h": 19
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "popups/shop/plus.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 18,
+						"h": 20
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 18,
+						"h": 20
+					},
+					"frame": {
+						"x": 1625,
+						"y": 1338,
+						"w": 18,
+						"h": 20
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:87fa97d5faf678e9cf1766fa5b750c8b:5c7498592fdaf1831f12b01496dae153:9d61a6fa30fafefb5e003fcd8821034d$"
+	}
+}

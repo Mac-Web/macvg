@@ -1,0 +1,208 @@
+{"frames": {
+
+"backlevelbar.png":
+{
+	"frame": {"x":5,"y":702,"w":466,"h":38},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":466,"h":38},
+	"sourceSize": {"w":466,"h":38}
+},
+"bubbles0001.png":
+{
+	"frame": {"x":197,"y":164,"w":41,"h":31},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":41,"h":31},
+	"sourceSize": {"w":52,"h":35}
+},
+"bubbles0002.png":
+{
+	"frame": {"x":197,"y":116,"w":42,"h":31},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":2,"w":42,"h":31},
+	"sourceSize": {"w":52,"h":35}
+},
+"bubbles0003.png":
+{
+	"frame": {"x":49,"y":1077,"w":39,"h":21},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":0,"w":39,"h":21},
+	"sourceSize": {"w":52,"h":35}
+},
+"bubbles0004.png":
+{
+	"frame": {"x":101,"y":973,"w":41,"h":31},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":2,"w":41,"h":31},
+	"sourceSize": {"w":52,"h":35}
+},
+"chestPin.png":
+{
+	"frame": {"x":162,"y":319,"w":129,"h":61},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":129,"h":61},
+	"sourceSize": {"w":134,"h":78}
+},
+"energy-cap-1.png":
+{
+	"frame": {"x":197,"y":62,"w":32,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":48},
+	"sourceSize": {"w":32,"h":48}
+},
+"goo.png":
+{
+	"frame": {"x":162,"y":211,"w":72,"h":102},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":102},
+	"sourceSize": {"w":72,"h":102}
+},
+"goo/goo-drip0001.png":
+{
+	"frame": {"x":138,"y":875,"w":83,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":83,"h":113},
+	"sourceSize": {"w":89,"h":146}
+},
+"goo/goo-drip0002.png":
+{
+	"frame": {"x":49,"y":795,"w":83,"h":120},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":83,"h":120},
+	"sourceSize": {"w":89,"h":146}
+},
+"goo/goo-drip0003.png":
+{
+	"frame": {"x":143,"y":739,"w":83,"h":130},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":83,"h":130},
+	"sourceSize": {"w":89,"h":146}
+},
+"goo/goo-drip0004.png":
+{
+	"frame": {"x":148,"y":599,"w":83,"h":134},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":83,"h":134},
+	"sourceSize": {"w":89,"h":146}
+},
+"goo/goo-drip0005.png":
+{
+	"frame": {"x":151,"y":454,"w":83,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":83,"h":139},
+	"sourceSize": {"w":89,"h":146}
+},
+"goo/goo-drip0006.png":
+{
+	"frame": {"x":5,"y":613,"w":83,"h":133},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":83,"h":133},
+	"sourceSize": {"w":89,"h":146}
+},
+"goo/goo-drip0007.png":
+{
+	"frame": {"x":5,"y":524,"w":83,"h":137},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":83,"h":137},
+	"sourceSize": {"w":89,"h":146}
+},
+"goo/goo-drip0008.png":
+{
+	"frame": {"x":5,"y":435,"w":83,"h":140},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":83,"h":140},
+	"sourceSize": {"w":89,"h":146}
+},
+"goo/goo-drip0009.png":
+{
+	"frame": {"x":5,"y":346,"w":83,"h":141},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":83,"h":141},
+	"sourceSize": {"w":89,"h":146}
+},
+"level-glow.png":
+{
+	"frame": {"x":5,"y":5,"w":225,"h":51},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":1,"w":225,"h":51},
+	"sourceSize": {"w":232,"h":57}
+},
+"lifebar-front.png":
+{
+	"frame": {"x":49,"y":702,"w":88,"h":87},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":88,"h":87},
+	"sourceSize": {"w":88,"h":87}
+},
+"pin-arrow.png":
+{
+	"frame": {"x":49,"y":921,"w":46,"h":57},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":46,"h":57},
+	"sourceSize": {"w":49,"h":59}
+},
+"player-equipment-container.png":
+{
+	"frame": {"x":49,"y":973,"w":98,"h":46},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":98,"h":46},
+	"sourceSize": {"w":98,"h":46}
+},
+"player-face-container.png":
+{
+	"frame": {"x":5,"y":189,"w":151,"h":151},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":151,"h":151},
+	"sourceSize": {"w":156,"h":156}
+},
+"player-face-mask.png":
+{
+	"frame": {"x":5,"y":62,"w":121,"h":186},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":121,"h":186},
+	"sourceSize": {"w":121,"h":186}
+},
+"player-life-container.png":
+{
+	"frame": {"x":101,"y":1020,"w":97,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":97,"h":97},
+	"sourceSize": {"w":97,"h":97}
+}},
+"animations": {
+	"bubbles": ["bubbles0001.png","bubbles0002.png","bubbles0003.png","bubbles0004.png"],
+	"goo/goo-drip": ["goo/goo-drip0001.png","goo/goo-drip0002.png","goo/goo-drip0003.png","goo/goo-drip0004.png","goo/goo-drip0005.png","goo/goo-drip0006.png","goo/goo-drip0007.png","goo/goo-drip0008.png","goo/goo-drip0009.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "hud.png",
+	"format": "RGBA8888",
+	"size": {"w":239,"h":1173},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:d4f16032b7c0b6c872631e0ed1f32e43:40916fb6401ce579203762312dfbc3bb:1f12e3a3d447c2b9be1f7d9b1846589c$"
+}
+}

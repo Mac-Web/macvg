@@ -1,0 +1,42 @@
+<font>
+  <info face="pregame_boosters_labels" size="40" bold="0" italic="0" charset="" unicode="" stretchH="100" smooth="1" aa="1" padding="2,2,2,2" spacing="0,0" outline="0"/>
+  <common lineHeight="48" base="31" scaleW="98" scaleH="377" pages="1" packed="0"/>
+  <pages>
+    <page id="0" file="pregame_boosters_labels.png"/>
+  </pages>
+  <chars count="16">
+    <char id="120" x="2" y="2" width="33" height="38" xoffset="-1" yoffset="8" xadvance="22" page="0" chnl="15"/>
+    <char id="48" x="2" y="42" width="33" height="40" xoffset="2" yoffset="1" xadvance="26" page="0" chnl="15"/>
+    <char id="49" x="2" y="84" width="23" height="39" xoffset="1" yoffset="2" xadvance="15" page="0" chnl="15"/>
+    <char id="50" x="2" y="125" width="31" height="39" xoffset="1" yoffset="1" xadvance="23" page="0" chnl="15"/>
+    <char id="51" x="2" y="166" width="31" height="40" xoffset="0" yoffset="1" xadvance="23" page="0" chnl="15"/>
+    <char id="52" x="27" y="84" width="31" height="39" xoffset="1" yoffset="2" xadvance="24" page="0" chnl="15"/>
+    <char id="53" x="37" y="2" width="31" height="39" xoffset="1" yoffset="2" xadvance="22" page="0" chnl="15"/>
+    <char id="54" x="2" y="208" width="32" height="40" xoffset="2" yoffset="1" xadvance="25" page="0" chnl="15"/>
+    <char id="55" x="37" y="43" width="29" height="39" xoffset="2" yoffset="2" xadvance="20" page="0" chnl="15"/>
+    <char id="56" x="35" y="125" width="31" height="40" xoffset="1" yoffset="1" xadvance="24" page="0" chnl="15"/>
+    <char id="57" x="2" y="250" width="32" height="40" xoffset="2" yoffset="1" xadvance="24" page="0" chnl="15"/>
+    <char id="45" x="60" y="84" width="25" height="16" xoffset="2" yoffset="16" xadvance="18" page="0" chnl="15"/>
+    <char id="43" x="68" y="43" width="28" height="29" xoffset="1" yoffset="7" xadvance="19" page="0" chnl="15"/>
+    <char id="47" x="70" y="2" width="22" height="39" xoffset="1" yoffset="2" xadvance="13" page="0" chnl="15"/>
+    <char id="33" x="2" y="292" width="20" height="40" xoffset="1" yoffset="0" xadvance="12" page="0" chnl="15"/>
+    <char id="63" x="2" y="334" width="29" height="41" xoffset="2" yoffset="0" xadvance="21" page="0" chnl="15"/>
+    <char id="32" x="0" y="0" width="0" height="0" xoffset="2" yoffset="0" xadvance="9" page="0" chnl="15"/>
+  </chars>
+  <kernings count="14">
+    <kerning first="120" second="45" amount="-1"/>
+    <kerning first="55" second="49" amount="0"/>
+    <kerning first="55" second="45" amount="-1"/>
+    <kerning first="55" second="47" amount="-1"/>
+    <kerning first="55" second="43" amount="0"/>
+    <kerning first="50" second="45" amount="-1"/>
+    <kerning first="45" second="120" amount="-1"/>
+    <kerning first="45" second="49" amount="-1"/>
+    <kerning first="45" second="55" amount="-1"/>
+    <kerning first="45" second="57" amount="0"/>
+    <kerning first="45" second="51" amount="0"/>
+    <kerning first="45" second="50" amount="-1"/>
+    <kerning first="43" second="49" amount="0"/>
+    <kerning first="43" second="55" amount="0"/>
+  </kernings>
+</font>

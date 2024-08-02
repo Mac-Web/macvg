@@ -1,0 +1,46 @@
+{
+    "success": true,
+    "config": {
+        "name": "puddingmonsters",
+        "version": "8",
+        "symbols": "1",
+        "origin": "c++",
+        "engineVersion": "",
+        "runtime": {
+            "aspect": [
+                0.66,
+                0.8
+            ],
+            "orientation": "portrait",
+            "res": [
+                {
+                    "glob": "emscripten/**",
+                    "root": "emscripten/"
+                }
+            ]
+        },
+        "workerScripts": {},
+        "backendVersion": 27,
+        "tinyLoaderScript": "patch/gamepix/tiny-loader.js",
+        "sdkScripts": [
+            "patch/gamepix/sdk.js",
+            "patch/gamepix/gamepix-adapter.js"
+        ],
+        "sizes": {
+            "br/bin.data._.js.br": 1535275,
+            "br/bin.data.js.br": 3833,
+            "br/wbin.js.br": 44841,
+            "br/wbin._.js.br": 276029,
+            "gz/bin.data.js.gz": 5193,
+            "gz/bin.data._.js.gz": 1602134,
+            "gz/wbin.js.gz": 52214,
+            "gz/wbin._.js.gz": 349404,
+            "bin.data._.js": 2882590,
+            "bin.data.js": 24060,
+            "wbin._.js": 1153663,
+            "wbin.js": 203929
+        },
+        "metrics": "https://rt.gamepix.com/metrics/put",
+        "exceptions": "https://rt.gamepix.com/exceptions/put"
+    }
+}

@@ -1,0 +1,275 @@
+﻿{"frames": [
+
+{
+	"filename": "bgGear0 instance 10000",
+	"frame": {"x":183,"y":620,"w":19,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":19,"h":20},
+	"sourceSize": {"w":19,"h":20}
+}
+,{
+	"filename": "bgGear1 instance 10000",
+	"frame": {"x":169,"y":317,"w":61,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":62},
+	"sourceSize": {"w":61,"h":62}
+}
+,{
+	"filename": "bgGear2 instance 10000",
+	"frame": {"x":169,"y":85,"w":81,"h":81},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":81,"h":81},
+	"sourceSize": {"w":81,"h":81}
+}
+,{
+	"filename": "bgGear3 instance 10000",
+	"frame": {"x":169,"y":168,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":74},
+	"sourceSize": {"w":74,"h":74}
+}
+,{
+	"filename": "bgGear4 instance 10000",
+	"frame": {"x":169,"y":244,"w":69,"h":71},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":69,"h":71},
+	"sourceSize": {"w":69,"h":71}
+}
+,{
+	"filename": "bgGear5 instance 10000",
+	"frame": {"x":169,"y":1,"w":81,"h":82},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":81,"h":82},
+	"sourceSize": {"w":81,"h":82}
+}
+,{
+	"filename": "bgGear6 instance 10000",
+	"frame": {"x":169,"y":470,"w":56,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":56,"h":57},
+	"sourceSize": {"w":56,"h":57}
+}
+,{
+	"filename": "bgPart1 instance 10000",
+	"frame": {"x":1,"y":656,"w":202,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":202,"h":43},
+	"sourceSize": {"w":202,"h":43}
+}
+,{
+	"filename": "bgPart2 instance 10000",
+	"frame": {"x":240,"y":244,"w":12,"h":86},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":12,"h":86},
+	"sourceSize": {"w":12,"h":86}
+}
+,{
+	"filename": "buttonLifts instance 10000",
+	"frame": {"x":209,"y":381,"w":44,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":44,"h":45},
+	"sourceSize": {"w":44,"h":45}
+}
+,{
+	"filename": "buttonLifts instance 10001",
+	"frame": {"x":183,"y":573,"w":44,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":44,"h":45},
+	"sourceSize": {"w":44,"h":45}
+}
+,{
+	"filename": "buttonLifts instance 10002",
+	"frame": {"x":205,"y":620,"w":44,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":44,"h":45},
+	"sourceSize": {"w":44,"h":45}
+}
+,{
+	"filename": "buttonTrampoline instance 10000",
+	"frame": {"x":90,"y":701,"w":40,"h":41},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":41},
+	"sourceSize": {"w":40,"h":41}
+}
+,{
+	"filename": "buttonTrampoline instance 10001",
+	"frame": {"x":132,"y":701,"w":40,"h":41},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":41},
+	"sourceSize": {"w":40,"h":41}
+}
+,{
+	"filename": "buttonTrampoline instance 10002",
+	"frame": {"x":174,"y":712,"w":40,"h":41},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":41},
+	"sourceSize": {"w":40,"h":41}
+}
+,{
+	"filename": "fist instance 10000",
+	"frame": {"x":169,"y":381,"w":38,"h":87},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":87},
+	"sourceSize": {"w":38,"h":87}
+}
+,{
+	"filename": "fistSpring1 instance 10000",
+	"frame": {"x":113,"y":744,"w":8,"h":65},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":8,"h":65},
+	"sourceSize": {"w":8,"h":65}
+}
+,{
+	"filename": "fistSpring2 instance 10000",
+	"frame": {"x":245,"y":168,"w":8,"h":65},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":8,"h":65},
+	"sourceSize": {"w":8,"h":65}
+}
+,{
+	"filename": "lift1 instance 10000",
+	"frame": {"x":1,"y":558,"w":180,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":96},
+	"sourceSize": {"w":180,"h":96}
+}
+,{
+	"filename": "lift1Gear instance 10000",
+	"frame": {"x":205,"y":667,"w":43,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":43,"h":43},
+	"sourceSize": {"w":43,"h":43}
+}
+,{
+	"filename": "lift2 instance 10000",
+	"frame": {"x":1,"y":1,"w":166,"h":555},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":166,"h":555},
+	"sourceSize": {"w":166,"h":555}
+}
+,{
+	"filename": "lift2Button instance 10000",
+	"frame": {"x":232,"y":332,"w":21,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":21,"h":36},
+	"sourceSize": {"w":21,"h":36}
+}
+,{
+	"filename": "lift2Button instance 10001",
+	"frame": {"x":229,"y":573,"w":21,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":21,"h":36},
+	"sourceSize": {"w":21,"h":36}
+}
+,{
+	"filename": "lift2Button instance 10002",
+	"frame": {"x":227,"y":458,"w":21,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":21,"h":36},
+	"sourceSize": {"w":21,"h":36}
+}
+,{
+	"filename": "lift2Button instance 10003",
+	"frame": {"x":234,"y":496,"w":21,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":21,"h":36},
+	"sourceSize": {"w":21,"h":36}
+}
+,{
+	"filename": "lift2Button instance 10004",
+	"frame": {"x":234,"y":534,"w":21,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":21,"h":36},
+	"sourceSize": {"w":21,"h":36}
+}
+,{
+	"filename": "lift2Button instance 10005",
+	"frame": {"x":90,"y":744,"w":21,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":21,"h":36},
+	"sourceSize": {"w":21,"h":36}
+}
+,{
+	"filename": "trampoline instance 10000",
+	"frame": {"x":1,"y":701,"w":87,"h":45},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":87,"h":45},
+	"sourceSize": {"w":87,"h":45}
+}
+,{
+	"filename": "trampolineAmor1 instance 10000",
+	"frame": {"x":169,"y":529,"w":10,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":10,"h":21},
+	"sourceSize": {"w":10,"h":21}
+}
+,{
+	"filename": "trampolineAmor2 instance 10000",
+	"frame": {"x":250,"y":428,"w":5,"h":41},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":5,"h":41},
+	"sourceSize": {"w":5,"h":41}
+}
+,{
+	"filename": "trampolineArrow instance 10000",
+	"frame": {"x":216,"y":712,"w":32,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":43},
+	"sourceSize": {"w":32,"h":43}
+}
+,{
+	"filename": "trampolineBgBolt instance 10000",
+	"frame": {"x":209,"y":428,"w":39,"h":28},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":39,"h":28},
+	"sourceSize": {"w":39,"h":28}
+}
+,{
+	"filename": "trampolineBgBtn instance 10000",
+	"frame": {"x":183,"y":529,"w":49,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":49,"h":42},
+	"sourceSize": {"w":49,"h":42}
+}],
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "15.0.0.173",
+	"image": "level10.png",
+	"format": "RGBA8888",
+	"size": {"w":256,"h":1024},
+	"scale": "1"
+}
+}

@@ -1,0 +1,19 @@
+{
+  "platform": "azerion",
+  "gameSlug": "wood-block-puzzle-2",
+  "gameBuild": "1.2.9",
+  "gameTitle": "Wood Block Puzzle 2",
+  "gameID": "cc846d5943ad4f769f22e87f7d00b14d",
+  "interface": "sgSdk",
+  "inAppPurchase": false,
+  "leaderboards": false,
+  "adsConfig": {
+    "adFreeInitialLevels": 0,
+    "interstitialCooldownLevel": 0,
+    "longGameplayCooldownMS": 150000,
+    "enableLongGameplayAds": true,
+    "supportsAdPlayButton": true,
+    "rewarded": true,
+    "freeRewardedCooldown": 300000
+  }
+}

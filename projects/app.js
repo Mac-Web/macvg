@@ -1118,8 +1118,6 @@ document.addEventListener("DOMContentLoaded", function () {
           Super Mario Construct
         </a>
 
-        <a href="/macvg/projects/swerve/" class="game" id="game240"> Swerve </a>
-
         <a href="/macvg/projects/synesthesia/" class="game" id="game241">
           Synesthesia
         </a>

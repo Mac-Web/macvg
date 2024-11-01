@@ -1,0 +1,1667 @@
+﻿{"frames": [
+
+{
+	"filename": "Symbol 1 instance 10000",
+	"frame": {"x":417,"y":67,"w":26,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":26},
+	"sourceSize": {"w":26,"h":26}
+}
+,{
+	"filename": "anton instance 10000",
+	"frame": {"x":148,"y":507,"w":263,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":263,"h":30},
+	"sourceSize": {"w":263,"h":30}
+}
+,{
+	"filename": "art instance 10000",
+	"frame": {"x":658,"y":346,"w":44,"h":23},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":44,"h":23},
+	"sourceSize": {"w":44,"h":23}
+}
+,{
+	"filename": "code instance 10000",
+	"frame": {"x":597,"y":343,"w":59,"h":23},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":59,"h":23},
+	"sourceSize": {"w":59,"h":23}
+}
+,{
+	"filename": "denis instance 10000",
+	"frame": {"x":449,"y":294,"w":236,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":236,"h":47},
+	"sourceSize": {"w":236,"h":47}
+}
+,{
+	"filename": "dialog_mc instance 10000",
+	"frame": {"x":3,"y":3,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-1047,"y":111,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10001",
+	"frame": {"x":978,"y":423,"w":17,"h":16},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":74,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10002",
+	"frame": {"x":978,"y":400,"w":23,"h":21},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":69,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10003",
+	"frame": {"x":978,"y":372,"w":27,"h":26},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":64,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10004",
+	"frame": {"x":976,"y":245,"w":32,"h":31},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":59,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10005",
+	"frame": {"x":981,"y":152,"w":36,"h":36},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":54,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10006",
+	"frame": {"x":976,"y":203,"w":41,"h":40},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":50,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10007",
+	"frame": {"x":888,"y":459,"w":46,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":45,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10008",
+	"frame": {"x":687,"y":294,"w":50,"h":50},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":40,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10009",
+	"frame": {"x":360,"y":67,"w":55,"h":55},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":35,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10010",
+	"frame": {"x":661,"y":678,"w":61,"h":59},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":31,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10011",
+	"frame": {"x":809,"y":656,"w":66,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":26,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10012",
+	"frame": {"x":907,"y":655,"w":70,"h":69},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":21,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10013",
+	"frame": {"x":429,"y":624,"w":74,"h":74},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":16,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10014",
+	"frame": {"x":175,"y":622,"w":79,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10015",
+	"frame": {"x":890,"y":203,"w":84,"h":83},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":7,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10016",
+	"frame": {"x":570,"y":513,"w":84,"h":83},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":7,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10017",
+	"frame": {"x":656,"y":513,"w":82,"h":82},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":8,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10018",
+	"frame": {"x":261,"y":539,"w":82,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":9,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10019",
+	"frame": {"x":740,"y":574,"w":82,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":10,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10020",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10021",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10022",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10023",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10024",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10025",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10026",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10027",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10028",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10029",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10030",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10031",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10032",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10033",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10034",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10035",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10036",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10037",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10038",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10039",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10040",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10041",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10042",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10043",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10044",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10045",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10046",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10047",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10048",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10049",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10050",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10051",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10052",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10053",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10054",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10055",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10056",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10057",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10058",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10059",
+	"frame": {"x":656,"y":597,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10060",
+	"frame": {"x":824,"y":574,"w":81,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10061",
+	"frame": {"x":742,"y":206,"w":146,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":9,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10062",
+	"frame": {"x":593,"y":124,"w":147,"h":82},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":8,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10063",
+	"frame": {"x":742,"y":121,"w":146,"h":83},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":7,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10064",
+	"frame": {"x":153,"y":152,"w":146,"h":82},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":8,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10065",
+	"frame": {"x":450,"y":208,"w":146,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":9,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10066",
+	"frame": {"x":301,"y":211,"w":147,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10067",
+	"frame": {"x":300,"y":292,"w":147,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":13,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10068",
+	"frame": {"x":151,"y":316,"w":147,"h":74},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":16,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10069",
+	"frame": {"x":300,"y":371,"w":146,"h":70},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":20,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10070",
+	"frame": {"x":741,"y":373,"w":147,"h":65},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":25,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10071",
+	"frame": {"x":448,"y":416,"w":147,"h":65},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":25,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10072",
+	"frame": {"x":449,"y":343,"w":146,"h":71},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":19,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10073",
+	"frame": {"x":151,"y":236,"w":147,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":12,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10074",
+	"frame": {"x":742,"y":35,"w":147,"h":84},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":6,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10075",
+	"frame": {"x":445,"y":35,"w":146,"h":90},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10076",
+	"frame": {"x":891,"y":113,"w":88,"h":88},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":2,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10077",
+	"frame": {"x":890,"y":372,"w":86,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":62,"y":5,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10078",
+	"frame": {"x":3,"y":536,"w":84,"h":83},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":64,"y":7,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10079",
+	"frame": {"x":345,"y":542,"w":82,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":66,"y":9,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10080",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10081",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10082",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10083",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10084",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10085",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10086",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10087",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10088",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10089",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10090",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10091",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10092",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10093",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10094",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10095",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10096",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10097",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10098",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10099",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10100",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10101",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10102",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10103",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10104",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10105",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10106",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10107",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10108",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10109",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10110",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10111",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10112",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10113",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10114",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10115",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10116",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10117",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10118",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10119",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10120",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10121",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10122",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10123",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10124",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10125",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10126",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10127",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10128",
+	"frame": {"x":514,"y":598,"w":80,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10129",
+	"frame": {"x":3,"y":153,"w":148,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":9,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10130",
+	"frame": {"x":301,"y":127,"w":147,"h":82},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":8,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10131",
+	"frame": {"x":152,"y":67,"w":147,"h":83},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":7,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10132",
+	"frame": {"x":3,"y":67,"w":147,"h":84},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":6,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10133",
+	"frame": {"x":593,"y":35,"w":147,"h":87},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":4,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10134",
+	"frame": {"x":3,"y":236,"w":146,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":12,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10135",
+	"frame": {"x":3,"y":317,"w":146,"h":72},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":19,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10136",
+	"frame": {"x":741,"y":440,"w":145,"h":65},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":26,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10137",
+	"frame": {"x":424,"y":483,"w":144,"h":57},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":34,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10138",
+	"frame": {"x":3,"y":475,"w":143,"h":59},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":33,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10139",
+	"frame": {"x":597,"y":446,"w":142,"h":65},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":27,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10140",
+	"frame": {"x":597,"y":373,"w":142,"h":71},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":21,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10141",
+	"frame": {"x":450,"y":127,"w":141,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":15,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10142",
+	"frame": {"x":598,"y":208,"w":140,"h":84},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":9,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10143",
+	"frame": {"x":740,"y":289,"w":139,"h":82},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10144",
+	"frame": {"x":881,"y":289,"w":138,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":12,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10145",
+	"frame": {"x":3,"y":621,"w":81,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10146",
+	"frame": {"x":907,"y":574,"w":81,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10147",
+	"frame": {"x":907,"y":574,"w":81,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10148",
+	"frame": {"x":907,"y":574,"w":81,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10149",
+	"frame": {"x":907,"y":574,"w":81,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10150",
+	"frame": {"x":907,"y":574,"w":81,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10151",
+	"frame": {"x":907,"y":574,"w":81,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10152",
+	"frame": {"x":907,"y":574,"w":81,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10153",
+	"frame": {"x":907,"y":574,"w":81,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10154",
+	"frame": {"x":3,"y":621,"w":81,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10155",
+	"frame": {"x":3,"y":621,"w":81,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10156",
+	"frame": {"x":3,"y":621,"w":81,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10157",
+	"frame": {"x":3,"y":621,"w":81,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10158",
+	"frame": {"x":3,"y":621,"w":81,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10159",
+	"frame": {"x":3,"y":621,"w":81,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10160",
+	"frame": {"x":3,"y":621,"w":81,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10161",
+	"frame": {"x":3,"y":621,"w":81,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10162",
+	"frame": {"x":3,"y":621,"w":81,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10163",
+	"frame": {"x":3,"y":621,"w":81,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10164",
+	"frame": {"x":3,"y":621,"w":81,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10165",
+	"frame": {"x":3,"y":621,"w":81,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10166",
+	"frame": {"x":3,"y":621,"w":81,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10167",
+	"frame": {"x":3,"y":621,"w":81,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10168",
+	"frame": {"x":3,"y":621,"w":81,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10169",
+	"frame": {"x":3,"y":621,"w":81,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10170",
+	"frame": {"x":3,"y":621,"w":81,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10171",
+	"frame": {"x":3,"y":621,"w":81,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10172",
+	"frame": {"x":3,"y":621,"w":81,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10173",
+	"frame": {"x":3,"y":621,"w":81,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10174",
+	"frame": {"x":3,"y":621,"w":81,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10175",
+	"frame": {"x":3,"y":621,"w":81,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10176",
+	"frame": {"x":3,"y":621,"w":81,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10177",
+	"frame": {"x":89,"y":539,"w":84,"h":82},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":10,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10178",
+	"frame": {"x":175,"y":539,"w":84,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":11,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10179",
+	"frame": {"x":429,"y":542,"w":83,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":12,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10180",
+	"frame": {"x":256,"y":622,"w":80,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":14,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10181",
+	"frame": {"x":86,"y":623,"w":77,"h":75},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":17,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10182",
+	"frame": {"x":338,"y":625,"w":73,"h":72},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":20,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10183",
+	"frame": {"x":738,"y":656,"w":69,"h":67},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":25,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10184",
+	"frame": {"x":596,"y":678,"w":63,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":30,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10185",
+	"frame": {"x":301,"y":67,"w":57,"h":55},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":37,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10186",
+	"frame": {"x":514,"y":542,"w":48,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":45,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10187",
+	"frame": {"x":981,"y":113,"w":37,"h":37},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":55,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10188",
+	"frame": {"x":704,"y":346,"w":24,"h":23},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":68,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "dialog_mc instance 10189",
+	"frame": {"x":954,"y":28,"w":4,"h":2},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":89,"w":148,"h":93},
+	"sourceSize": {"w":148,"h":93}
+}
+,{
+	"filename": "door instance 10000",
+	"frame": {"x":891,"y":35,"w":119,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":119,"h":76},
+	"sourceSize": {"w":119,"h":76}
+}
+,{
+	"filename": "evgen instance 10000",
+	"frame": {"x":741,"y":507,"w":247,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":247,"h":30},
+	"sourceSize": {"w":247,"h":30}
+}
+,{
+	"filename": "ilya instance 10000",
+	"frame": {"x":740,"y":539,"w":203,"h":33},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":203,"h":33},
+	"sourceSize": {"w":203,"h":33}
+}
+,{
+	"filename": "konstantin instance 10000",
+	"frame": {"x":148,"y":475,"w":274,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":274,"h":30},
+	"sourceSize": {"w":274,"h":30}
+}
+,{
+	"filename": "mus1 instance 10000",
+	"frame": {"x":502,"y":3,"w":450,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":450,"h":30},
+	"sourceSize": {"w":450,"h":30}
+}
+,{
+	"filename": "mus2 instance 10000",
+	"frame": {"x":3,"y":35,"w":440,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":440,"h":30},
+	"sourceSize": {"w":440,"h":30}
+}
+,{
+	"filename": "mus3 instance 10000",
+	"frame": {"x":3,"y":3,"w":497,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":497,"h":30},
+	"sourceSize": {"w":497,"h":30}
+}
+,{
+	"filename": "music instance 10000",
+	"frame": {"x":954,"y":3,"w":63,"h":23},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":23},
+	"sourceSize": {"w":63,"h":23}
+}
+,{
+	"filename": "ruslana instance 10000",
+	"frame": {"x":3,"y":392,"w":281,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":281,"h":30},
+	"sourceSize": {"w":281,"h":30}
+}
+,{
+	"filename": "tatyana instance 10000",
+	"frame": {"x":3,"y":443,"w":325,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":325,"h":30},
+	"sourceSize": {"w":325,"h":30}
+}
+,{
+	"filename": "thanks instance 10000",
+	"frame": {"x":338,"y":700,"w":163,"h":23},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":163,"h":23},
+	"sourceSize": {"w":163,"h":23}
+}
+,{
+	"filename": "wheel_gold instance 10000",
+	"frame": {"x":417,"y":95,"w":26,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":26},
+	"sourceSize": {"w":26,"h":26}
+}],
+"meta": {
+	"app": "Adobe Animate",
+	"version": "16.0.0.112",
+	"image": "level14.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1"
+}
+}

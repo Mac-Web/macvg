@@ -1,0 +1,30 @@
+
+@font-face {
+    font-family: 'baron_neueblack';
+    src: url('baron_neue_black-webfont.eot');
+    src: url('baron_neue_black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('baron_neue_black-webfont.woff') format('woff'),
+         url('baron_neue_black-webfont.ttf') format('truetype'),
+         url('baron_neue_black-webfont.svg#baron_neueblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'framd';
+    src: url('framd.woff') format('woff'),
+    url('framd.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('roboto-medium-webfont.eot');
+    src: url('roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('roboto-medium-webfont.woff') format('woff'),
+    url('roboto-medium-webfont.ttf') format('truetype'),
+    url('roboto-medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,75 @@
+﻿{"frames": [
+
+{
+	"filename": "btnExit",
+	"frame": {"x":132,"y":299,"w":71,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":69},
+	"sourceSize": {"w":71,"h":69}
+}
+,{
+	"filename": "btnLevel",
+	"frame": {"x":274,"y":299,"w":51,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":51},
+	"sourceSize": {"w":51,"h":51}
+}
+,{
+	"filename": "btnLevelBorder",
+	"frame": {"x":204,"y":299,"w":69,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":69,"h":69},
+	"sourceSize": {"w":69,"h":69}
+}
+,{
+	"filename": "lock",
+	"frame": {"x":274,"y":351,"w":24,"h":37},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":37},
+	"sourceSize": {"w":24,"h":37}
+}
+,{
+	"filename": "truck",
+	"frame": {"x":1,"y":1,"w":353,"h":297},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":353,"h":297},
+	"sourceSize": {"w":353,"h":297}
+}
+,{
+	"filename": "truckWheel",
+	"frame": {"x":326,"y":299,"w":34,"h":33},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":33},
+	"sourceSize": {"w":34,"h":33}
+}
+,{
+	"filename": "wheel",
+	"frame": {"x":326,"y":333,"w":31,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":31,"h":32},
+	"sourceSize": {"w":31,"h":32}
+}
+,{
+	"filename": "wheely",
+	"frame": {"x":1,"y":299,"w":130,"h":78},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":130,"h":78},
+	"sourceSize": {"w":130,"h":78}
+}],
+"meta": {
+	"app": "Adobe Animate",
+	"version": "16.0.0.112",
+	"image": "mainMenu.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1"
+}
+}

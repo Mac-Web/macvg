@@ -1,0 +1,211 @@
+﻿{"frames": [
+
+{
+	"filename": "boxes instance 10000",
+	"frame": {"x":484,"y":586,"w":115,"h":119},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":115,"h":119},
+	"sourceSize": {"w":115,"h":119}
+}
+,{
+	"filename": "clockHours instance 10000",
+	"frame": {"x":873,"y":205,"w":12,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":12,"h":26},
+	"sourceSize": {"w":12,"h":26}
+}
+,{
+	"filename": "clockMinutes instance 10000",
+	"frame": {"x":880,"y":233,"w":3,"h":33},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":33},
+	"sourceSize": {"w":3,"h":33}
+}
+,{
+	"filename": "connectAnim instance 10000",
+	"frame": {"x":808,"y":403,"w":34,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":35},
+	"sourceSize": {"w":34,"h":35}
+}
+,{
+	"filename": "house instance 10000",
+	"frame": {"x":1,"y":1,"w":423,"h":458},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":423,"h":458},
+	"sourceSize": {"w":423,"h":458}
+}
+,{
+	"filename": "kranBase instance 10000",
+	"frame": {"x":887,"y":1,"w":136,"h":558},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":136,"h":558},
+	"sourceSize": {"w":136,"h":558}
+}
+,{
+	"filename": "kranButton instance 10000",
+	"frame": {"x":828,"y":327,"w":35,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":35,"h":36},
+	"sourceSize": {"w":35,"h":36}
+}
+,{
+	"filename": "kranButton instance 10001",
+	"frame": {"x":828,"y":365,"w":35,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":35,"h":36},
+	"sourceSize": {"w":35,"h":36}
+}
+,{
+	"filename": "kranButton instance 10002",
+	"frame": {"x":540,"y":400,"w":35,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":35,"h":36},
+	"sourceSize": {"w":35,"h":36}
+}
+,{
+	"filename": "kranChast instance 10000",
+	"frame": {"x":1,"y":555,"w":800,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":800,"h":29},
+	"sourceSize": {"w":800,"h":29}
+}
+,{
+	"filename": "kranConnect instance 10000",
+	"frame": {"x":873,"y":273,"w":9,"h":15},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":9,"h":15},
+	"sourceSize": {"w":9,"h":15}
+}
+,{
+	"filename": "kranMagnet instance 10000",
+	"frame": {"x":724,"y":276,"w":94,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":94,"h":40},
+	"sourceSize": {"w":94,"h":40}
+}
+,{
+	"filename": "kranPovozka10 instance 10000",
+	"frame": {"x":605,"y":400,"w":201,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":201,"h":85},
+	"sourceSize": {"w":201,"h":85}
+}
+,{
+	"filename": "kranPovozka8 instance 10000",
+	"frame": {"x":924,"y":561,"w":83,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":83,"h":85},
+	"sourceSize": {"w":83,"h":85}
+}
+,{
+	"filename": "kranReika instance 10000",
+	"frame": {"x":426,"y":347,"w":400,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":400,"h":51},
+	"sourceSize": {"w":400,"h":51}
+}
+,{
+	"filename": "kranRope instance 10000",
+	"frame": {"x":873,"y":233,"w":5,"h":38},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":5,"h":38},
+	"sourceSize": {"w":5,"h":38}
+}
+,{
+	"filename": "lvl3_tut instance 10000",
+	"frame": {"x":803,"y":561,"w":119,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":119,"h":120},
+	"sourceSize": {"w":119,"h":120}
+}
+,{
+	"filename": "relsa instance 10000",
+	"frame": {"x":1,"y":586,"w":481,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":481,"h":40},
+	"sourceSize": {"w":481,"h":40}
+}
+,{
+	"filename": "sky1 instance 10000",
+	"frame": {"x":1,"y":461,"w":602,"h":92},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":602,"h":92},
+	"sourceSize": {"w":602,"h":92}
+}
+,{
+	"filename": "sky2 instance 10000",
+	"frame": {"x":426,"y":276,"w":296,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":296,"h":69},
+	"sourceSize": {"w":296,"h":69}
+}
+,{
+	"filename": "sky3 instance 10000",
+	"frame": {"x":1,"y":628,"w":311,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":311,"h":42},
+	"sourceSize": {"w":311,"h":42}
+}
+,{
+	"filename": "trainAmortization instance 10000",
+	"frame": {"x":426,"y":400,"w":112,"h":33},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":112,"h":33},
+	"sourceSize": {"w":112,"h":33}
+}
+,{
+	"filename": "trainBase instance 10000",
+	"frame": {"x":426,"y":205,"w":445,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":445,"h":69},
+	"sourceSize": {"w":445,"h":69}
+}
+,{
+	"filename": "trainRoof instance 10000",
+	"frame": {"x":426,"y":1,"w":459,"h":202},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":459,"h":202},
+	"sourceSize": {"w":459,"h":202}
+}
+,{
+	"filename": "trainWheel instance 10000",
+	"frame": {"x":820,"y":276,"w":48,"h":49},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":49},
+	"sourceSize": {"w":48,"h":49}
+}],
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "15.0.0.173",
+	"image": "level8.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1"
+}
+}

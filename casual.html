@@ -33,21 +33,16 @@
     </div>
     <nav class="nav" id="nav">
       <div class="overflowm shoot" id="overflowm">
-        <img src="/macvg/media/bars-solid.svg" alt="Menu" class="shoot" />
+        <img src="media/bars-solid.svg" alt="Menu" class="shoot" />
       </div>
-      <a
-        href="/macvg/"
-        class="logo2"
-        style="background-color: var(--black-color)"
-      >
+      <a href="/macvg/" class="logo2" style="background-color: transparent">
         <img src="/macvg/media/macvg-logo.png" alt="MacVG Logo" />
         <a href="new.html" class="nav-link">New</a></a
       ><a href="trending.html" class="nav-link">Trending</a
-      ><a href="groups.html" class="nav-link">Groups</a
       ><a href="recent.html" class="nav-link">Recent</a
       ><a href="/macvg/originals/" class="nav-link">Originals</a
       ><a href="/macvg/settings.html" class="nav-link">Settings</a>
-      <div class="select secondselect">
+      <!-- <div class="select secondselect">
         <span id="header123">Tabs</span>
         <ul id="cats">
           <a href="new.html">New</a
@@ -57,27 +52,32 @@
           ><a href="/macvg/originals/">Originals</a
           ><a href="/macvg/settings.html">Settings</a>
         </ul>
-      </div>
-      <div class="select">
-        <span id="header123">Catagories</span>
-        <ul id="cats">
-          <a href="featured.html">Featured</a>
-          <a href="action-adventure.html">Action</a>
-          <a href="strategy-puzzle.html">Strategy</a>
-          <a href="driving-sports.html">Driving</a>
-          <a href="casual.html">Casual</a>
-        </ul>
-      </div>
-      <div class="select">
-        <span id="header123">Help</span>
-        <ul id="cats">
-          <a href="/macblog/projects/macvg/" target="_blank">About</a>
-          <a href="/macblog/updates/macvg/" target="_blank">Updates</a>
-          <a href="/macblog/projects/macvg/" target="_blank">Docs</a>
-          <a href="https://forms.gle/UpHgbAmLtUPCD5bs8" target="_blank"
-            >Feedback</a
-          >
-        </ul>
+      </div> -->
+      <div class="right">
+        <div class="select help-menu">
+          <span class="help-label help-menu">Categories</span>
+          <img src="media/caret.svg" class="caret help-menu" id="caret" />
+          <ul id="cats" class="cats help-menu">
+            <a href="featured.html">Featured</a>
+            <a href="action-adventure.html">Action</a>
+            <a href="strategy-puzzle.html">Strategy</a>
+            <a href="driving-sports.html">Driving</a>
+            <a href="casual.html">Casual</a>
+          </ul>
+        </div>
+        <div class="select help-menu">
+          <span class="help-label help-menu">Help</span>
+          <img src="media/caret.svg" class="caret help-menu" id="caret" />
+          <ul id="cats" class="cats help-menu">
+            <a href="/macblog/projects/macvg/" target="_blank">About</a>
+            <a href="/macblog/updates/macvg/" target="_blank">Updates</a>
+            <a href="/macblog/projects/macvg/" target="_blank">Docs</a>
+            <a href="https://forms.gle/UpHgbAmLtUPCD5bs8" target="_blank"
+              >Feedback</a
+            >
+          </ul>
+        </div>
+        <img src="media/profile.svg" class="profile" id="profile" />
       </div>
     </nav>
     <div class="macsidebar" id="sidebar">
@@ -240,6 +240,9 @@
         <a href="projects/particle-clicker/" class="game" id="game172">
           Particle Clicker
         </a>
+        <a href="/macvg/projects/pou/" class="game" id="game419">
+          Pou
+        </a>
         <a href="projects/push-the-square/" class="game" id="game179">
           Push The Square
         </a>
@@ -257,6 +260,9 @@
           Sort The Court
         </a>
 
+        <a href="/macvg/projects/space-bar-clicker/" class="game" id="game429">
+          Space Bar Clicker
+        </a>
         <a href="projects/space-company/" class="game" id="game218">
           Space Company
         </a>

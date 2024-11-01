@@ -168,60 +168,6 @@ function changeName() {
 
 //Above are the codes for tab cloaker and panic key
 
-const filterAll = document.getElementById("filter-all");
-const filterAction = document.getElementById("filter-action");
-const filterStrategy = document.getElementById("filter-strategy");
-const filterCasual = document.getElementById("filter-casual");
-const filterDriving = document.getElementById("filter-driving");
-const sortName = document.getElementById("sort-name");
-const sortCatagory = document.getElementById("sort-catagory");
-let filterGamesList = document.getElementById("list");
-
-let newArray = [];
-let secondArray = [];
-let everythingArray = [];
-let data;
-fetch("games.json")
-  .then((response) => response.json())
-  .then((dataa) => {
-    data = dataa.games;
-    for (var i = 0; i < data.length; i++) {
-      newArray.push(data[i]);
-    }
-    everythingArray = newArray;
-    secondArray = newArray;
-    sortStuff(secondArray, "name");
-    targetLabel.innerHTML = "Sort By: Name";
-  })
-  .catch((error) => console.error("Error fetching data:", error));
-
-document.addEventListener("click", (e) => {
-  let eTarget = e.target;
-  let targetLabel = eTarget.parentElement.parentElement.children[0];
-  if (eTarget === filterAction) {
-    filterStuff(everythingArray, "action");
-    targetLabel.innerHTML = "Action & Adventure (150)";
-  } else if (eTarget === filterStrategy) {
-    filterStuff(everythingArray, "strategy");
-    targetLabel.innerHTML = "Strategy & Puzzle (116)";
-  } else if (eTarget === filterCasual) {
-    filterStuff(everythingArray, "casual");
-    targetLabel.innerHTML = "Casual & Idle (52)";
-  } else if (eTarget === filterDriving) {
-    filterStuff(everythingArray, "driving");
-    targetLabel.innerHTML = "Driving & Sports (42)";
-  } else if (eTarget === filterAll) {
-    sortStuff(everythingArray, "name");
-    targetLabel.innerHTML = "Filter All (360)";
-  } else if (eTarget === sortName) {
-    targetLabel.innerHTML = "Sort By: Name";
-    sortStuff(secondArray, "name");
-  } else if (eTarget === sortCatagory) {
-    targetLabel.innerHTML = "Sort By: Catagory";
-    sortStuff(secondArray, "catagory");
-  }
-});
-
 function sortStuff(targetArray, key) {
   if (key === "name") {
     targetArray.sort((a, b) => {
@@ -314,6 +260,7 @@ function arrangeBoxes(newArrayy, newIds) {
     );
     let computedStyleee = computedStylee.substring(0, slashIndex);
     filterGamesList.removeChild(newBox);
+    console.log(computedStylee);
     newBox.setAttribute("href", computedStyleee);
     filterGamesList.appendChild(newBox);
     arrayIndex++;
@@ -480,3 +427,86 @@ setGameNames();
 changeName();
 updateTheme();
 glowingTitle();
+
+document.addEventListener("DOMContentLoaded", function () {
+  const bar = document.getElementById("sidebar");
+  const helpMenuItems = document.querySelectorAll(".cats");
+  const helpMenus = document.querySelectorAll(".help-label");
+  const helpCarets = document.querySelectorAll(".caret");
+  document.addEventListener("click", function () {
+    bar.classList.remove("movingbar");
+  });
+  document.addEventListener("mousemove", function (event) {
+    if (event.clientX <= 5 && bar.classList.contains("movingbar") !== true) {
+      bar.classList.add("movingbar");
+    }
+  });
+  document.addEventListener("click", (e) => {
+    if (!e.target.classList.contains("help-menu")) {
+      helpMenus.forEach((helpMenu) => {
+        helpMenu.parentElement.querySelector(".cats").style.transform =
+          "scaleY(0)";
+        helpMenu.parentElement.removeAttribute("style");
+        helpMenu.parentElement.querySelector(".caret").removeAttribute("style");
+      });
+    }
+  });
+  helpMenus.forEach((helpMenu) => {
+    helpMenu.addEventListener("click", () => {
+      let transformValue = window
+        .getComputedStyle(helpMenu.parentElement.querySelector(".cats"))
+        .getPropertyValue("transform");
+      console.log(transformValue);
+      if (transformValue !== "matrix(1, 0, 0, 1, 0, 0)") {
+        helpMenu.parentElement.style.backgroundColor = "rgba(15, 15, 15, 0.8)";
+        helpMenu.parentElement.querySelector(".cats").style.transform =
+          "scaleY(1)";
+        helpMenu.parentElement.querySelector(".caret").style.transform =
+          "rotate(0deg)";
+      } else {
+        helpMenu.parentElement.querySelector(".cats").style.transform =
+          "scaleY(0)";
+        helpMenu.parentElement.removeAttribute("style");
+        helpMenu.parentElement.querySelector(".caret").removeAttribute("style");
+      }
+    });
+  });
+  document.addEventListener("click", (e) => {
+    if (e.target.classList.contains("caret")) {
+      let helpMenu = e.target.parentElement.getElementsByTagName("span")[0];
+      let transformValue = window
+        .getComputedStyle(helpMenu.parentElement.querySelector(".cats"))
+        .getPropertyValue("transform");
+      if (transformValue !== "matrix(1, 0, 0, 1, 0, 0)") {
+        helpMenu.parentElement.style.backgroundColor = "rgba(15, 15, 15, 0.8)";
+        helpMenu.parentElement.querySelector(".cats").style.transform =
+          "scaleY(1)";
+        helpMenu.parentElement.querySelector(".caret").style.transform =
+          "rotate(0deg)";
+      } else {
+        helpMenu.parentElement.querySelector(".cats").style.transform =
+          "scaleY(0)";
+        helpMenu.parentElement.removeAttribute("style");
+        helpMenu.parentElement.querySelector(".caret").removeAttribute("style");
+      }
+    }
+    if (e.target.classList.contains("select")) {
+      let helpMenu = e.target.getElementsByTagName("span")[0];
+      let transformValue = window
+        .getComputedStyle(helpMenu.parentElement.querySelector(".cats"))
+        .getPropertyValue("transform");
+      if (transformValue !== "matrix(1, 0, 0, 1, 0, 0)") {
+        helpMenu.parentElement.style.backgroundColor = "rgba(15, 15, 15, 0.8)";
+        helpMenu.parentElement.querySelector(".cats").style.transform =
+          "scaleY(1)";
+        helpMenu.parentElement.querySelector(".caret").style.transform =
+          "rotate(0deg)";
+      } else {
+        helpMenu.parentElement.querySelector(".cats").style.transform =
+          "scaleY(0)";
+        helpMenu.parentElement.removeAttribute("style");
+        helpMenu.parentElement.querySelector(".caret").removeAttribute("style");
+      }
+    }
+  });
+});

@@ -1,0 +1,35 @@
+﻿{"frames": [
+
+{
+	"filename": "logo instance 10000",
+	"frame": {"x":1,"y":1,"w":368,"h":188},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":368,"h":188},
+	"sourceSize": {"w":368,"h":188}
+}
+,{
+	"filename": "wheel instance 10000",
+	"frame": {"x":371,"y":70,"w":31,"h":31},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":31,"h":31},
+	"sourceSize": {"w":31,"h":31}
+}
+,{
+	"filename": "wheely instance 10000",
+	"frame": {"x":371,"y":1,"w":131,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":131,"h":67},
+	"sourceSize": {"w":131,"h":67}
+}],
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "15.0.0.173",
+	"image": "mainMenu.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1"
+}
+}

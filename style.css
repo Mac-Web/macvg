@@ -28,7 +28,9 @@
 }
 
 body {
-  background-color: var(--bg-color);
+  background-color: rgba(25, 25, 25, 0.9);
+  /*
+  background-color: var(--bg-color);*/
 }
 
 .movingbar {
@@ -68,92 +70,47 @@ body {
 
 .wrap {
   background-color: var(--bg-color);
+  background-color: rgba(25, 25, 25, 0.9);
   margin: 0;
 }
 
 #searchInput {
   outline: none;
   border: 2px solid var(--border);
-  background-color: var(--bar-color);
+  background-color: rgb(15, 15, 15);
   padding-block: 10px;
   font-size: 18px;
   height: 100%;
-  border-radius: 10px 0px 0px 10px;
   width: 85%;
+  border-radius: 3px 0px 0px 3px;
   color: var(--text-color);
   padding-inline: 20px;
   transition: border 0.25s ease;
 }
 
-#searchInput:focus {
-  border: 2px solid rgb(100, 100, 100);
-}
-
 .select {
-  background-color: var(--black-color);
   border: none;
   outline: none;
-  color: var(--text-color);
+  color: white;
   font-size: 18px;
-  border-bottom: 2px solid var(--black-color);
   font-weight: bold;
   appearance: none;
-  padding-block: 12px;
+  padding-block: 10px;
   padding-inline: 20px;
-  border-radius: 20px;
+  border-radius: 5px;
   text-align: center;
+  margin-block: 5px;
   z-index: 100000;
   cursor: pointer;
   display: flex;
-  flex-direction: column;
   align-items: center;
   position: relative;
+  gap: 20px;
+  transition: background-color 0.15s ease;
 }
 
-#cats {
-  display: none;
-  flex-direction: column;
-  position: absolute;
-  top: 35px;
-  width: 140px;
-  border-radius: 0px 0px 10px 10px;
-  background-color: var(--black-color);
-  padding-bottom: 10px;
-  z-index: 100000;
-  transition: display 0.3s ease;
-}
-
-.select:hover #cats {
-  display: flex;
-  z-index: 100000;
-  box-shadow: var(--shadow-color);
-}
-
-#cats a {
-  color: var(--text-color);
-  text-decoration: none;
-  padding-block: 10px;
-  font-size: 18px;
-  position: relative;
-}
-
-#cats a::after {
-  content: "";
-  height: 2px;
-  position: absolute;
-  bottom: -2px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 0px;
-  margin: 0;
-  background-color: var(--link);
-  transition: width 0.15s ease;
-}
-
-#cats a:hover::after {
-  width: 50%;
-  background-color: var(--link);
-  transition: width 0.2s ease;
+.select:hover {
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .random {
@@ -162,11 +119,10 @@ body {
   text-align: center;
   border: 2px solid var(--border);
   height: 100%;
-  border-left: 2px solid rgb(190, 190, 190);
   background-color: var(--bar-color);
+  background-color: rgb(15, 15, 15);
   font-size: 21.6666px;
   cursor: pointer;
-  border-radius: 0px 10px 10px 0px;
   width: 15%;
   transition: background-color 0.25s ease;
 }
@@ -180,6 +136,9 @@ body {
   align-items: center;
   margin-bottom: 10px;
   border-radius: 5px;
+  overflow: hidden;
+  gap: 2px;
+  background-color: gray;
 }
 
 .filters {
@@ -192,8 +151,6 @@ body {
 
 .filter {
   height: 46px;
-  border-radius: 10px;
-  background-color: var(--bar-color);
   font-size: 18px;
   color: white;
   font-weight: bold;
@@ -211,17 +168,19 @@ body {
   width: 100%;
   height: 100%;
   display: flex;
+  border-radius: 5px;
   align-items: center;
   justify-content: center;
+  background-color: rgb(15, 15, 15);
 }
 
 .filter-list {
-  background-color: var(--bar-color);
+  background-color: rgb(15, 15, 15);
   width: 100%;
   position: absolute;
   top: 60px;
   z-index: 1000;
-  border-radius: 10px;
+  border-radius: 5px;
   list-style-type: none;
   text-align: center;
   opacity: 0;
@@ -230,10 +189,11 @@ body {
   transition: opacity 0.15s ease;
 }
 
+
 .filter-item {
   padding-block: 10px;
   margin-bottom: 5px;
-  border-radius: 5px;
+  border-radius: 3px;
   transition: background-color 0.2s ease;
 }
 
@@ -242,7 +202,7 @@ body {
 }
 
 .filter-item:hover {
-  background-color: rgb(90, 90, 90);
+  background-color: rgb(30, 30, 30);
 }
 
 .random {
@@ -264,16 +224,12 @@ body {
 }
 
 .random:hover {
-  background-color: rgb(90, 90, 90);
-}
-
-.random:active {
-  background-color: rgb(80, 80, 80);
+  background-color: rgb(25, 25, 25);
 }
 
 .homeheader {
   color: var(--text-color);
-  padding-top: 20px;
+  padding-top: 30px;
   text-align: center;
 }
 
@@ -289,9 +245,11 @@ body {
   );
   background-clip: text;
   z-index: 30;
+  padding-bottom: 15px;
   position: relative;
   -webkit-text-fill-color: transparent;
 }
+
 .title::before {
   content: attr(name);
   position: absolute;
@@ -562,11 +520,9 @@ label:hover {
   margin: 0;
   position: relative;
   color: var(--text-color);
-  border-bottom: 2px solid var(--black-color);
   transition: border-bottom 0.3s;
 }
 
-.nav-link::after,
 .olink::before {
   content: "";
   height: 2px;
@@ -578,12 +534,6 @@ label:hover {
   margin: 0;
   background-color: var(--link);
   transition: width 0.15s ease;
-}
-
-.nav-link:hover::after {
-  width: 80%;
-  background-color: var(--link);
-  transition: width 0.2s ease;
 }
 
 .olink {
@@ -620,7 +570,6 @@ h2 {
 }
 
 .logo2 {
-  margin-inline: 35px;
   height: 32px;
   background-color: white;
 }
@@ -852,7 +801,7 @@ h2 {
   font-weight: bold;
   text-decoration: none;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 5px;
   height: 110px;
   padding-bottom: 10px;
   background-repeat: no-repeat;
@@ -1242,4 +1191,168 @@ hr {
 
 .modal-close:active {
   transform: scale(0.9);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(25, 25, 25);
+}
+
+.movingbar {
+  transform: translateX(0px) !important;
+}
+
+.macsidebar {
+  position: fixed;
+  top: 9vh;
+  left: 3px;
+  transform: translateX(-120%);
+  transition: transform 0.15s ease;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(10, 10, 10, 0.9);
+  padding-inline: 8px;
+  height: 90vh;
+  z-index: 10000000;
+  border-radius: 5px;
+  padding-block: 10px;
+  overflow: auto;
+}
+
+.macsidebar img {
+  width: 38px;
+  margin-top: 2px;
+}
+
+.macsidebar a {
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.macsidebar a:hover {
+  transform: scale(1.15);
+}
+
+.nav {
+  backdrop-filter: blur(10px);
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-inline: 100px;
+  position: sticky;
+  top: 0;
+  background-color: rgba(25, 25, 25, 0.9);
+  gap: 10px;
+}
+
+.nav-link {
+  padding-block: 10px;
+  padding-inline: 15px;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0;
+  margin-block: 5px;
+  position: relative;
+  color: white;
+  transition: background-color 0.15s;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.logo2 {
+  margin-right: 30px;
+  height: 32px;
+}
+
+.logo2 img {
+  height: 32px;
+}
+
+.right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-left: auto;
+}
+
+.profile {
+  box-sizing: content-box;
+  height: 32px;
+  width: 32px;
+  padding: 5px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.select {
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  appearance: none;
+  padding-block: 10px;
+  padding-inline: 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin-block: 5px;
+  z-index: 100000;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 20px;
+  transition: background-color 0.15s ease;
+}
+
+.select:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.caret {
+  width: 10px;
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+#cats {
+  flex-direction: column;
+  border-radius: 0px 0px 5px 5px;
+  background-color: rgba(15, 15, 15, 0.8);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: 33px;
+  width: 100%;
+  transform-origin: top;
+  left: 0;
+  display: flex;
+  transition: transform 0.15s ease !important;
+  padding-bottom: 5px;
+  transform: scaleY(0);
+}
+
+#cats a {
+  color: rgb(130, 130, 130);
+  text-decoration: none;
+  padding-block: 10px;
+  font-size: 17px;
+  transition: color 0.15s ease;
+  font-weight: normal;
+}
+
+#cats a:hover {
+  color: white;
 }

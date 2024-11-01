@@ -1,0 +1,122 @@
+{"frames": [
+{
+	"filename": "Bar",
+	"frame": {"x":51,"y":1,"w":75,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":64},
+	"sourceSize": {"w":77,"h":64},
+	"anchor": {"w":0.49351,"h":0.50000}
+},
+{
+	"filename": "Bomb",
+	"frame": {"x":51,"y":191,"w":54,"h":54},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":54},
+	"sourceSize": {"w":54,"h":54},
+	"anchor": {"w":0.50000,"h":0.50000}
+},
+{
+	"filename": "BombInactive",
+	"frame": {"x":51,"y":247,"w":54,"h":54},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":54},
+	"sourceSize": {"w":54,"h":54},
+	"anchor": {"w":0.50000,"h":0.50000}
+},
+{
+	"filename": "Clock",
+	"frame": {"x":50,"y":415,"w":46,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":46,"h":46},
+	"sourceSize": {"w":46,"h":46},
+	"anchor": {"w":0.50000,"h":0.52174}
+},
+{
+	"filename": "Hint",
+	"frame": {"x":1,"y":303,"w":54,"h":54},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":54},
+	"sourceSize": {"w":54,"h":54},
+	"anchor": {"w":0.50000,"h":0.50000}
+},
+{
+	"filename": "HintInactive",
+	"frame": {"x":57,"y":303,"w":54,"h":54},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":54},
+	"sourceSize": {"w":54,"h":54},
+	"anchor": {"w":0.50000,"h":0.50000}
+},
+{
+	"filename": "Pause",
+	"frame": {"x":51,"y":67,"w":60,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":60},
+	"sourceSize": {"w":60,"h":60},
+	"anchor": {"w":0.50000,"h":0.50000}
+},
+{
+	"filename": "PauseInactive",
+	"frame": {"x":51,"y":129,"w":60,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":60},
+	"sourceSize": {"w":60,"h":60},
+	"anchor": {"w":0.50000,"h":0.50000}
+},
+{
+	"filename": "Score",
+	"frame": {"x":1,"y":415,"w":47,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":47,"h":47},
+	"sourceSize": {"w":47,"h":47},
+	"anchor": {"w":0.48936,"h":0.48936}
+},
+{
+	"filename": "Shuffle",
+	"frame": {"x":1,"y":359,"w":54,"h":54},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":54},
+	"sourceSize": {"w":54,"h":54},
+	"anchor": {"w":0.50000,"h":0.50000}
+},
+{
+	"filename": "ShuffleInactive",
+	"frame": {"x":57,"y":359,"w":54,"h":54},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":54},
+	"sourceSize": {"w":54,"h":54},
+	"anchor": {"w":0.50000,"h":0.50000}
+},
+{
+	"filename": "TimeFill",
+	"frame": {"x":29,"y":1,"w":20,"h":282},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":3,"w":20,"h":282},
+	"sourceSize": {"w":26,"h":288},
+	"anchor": {"w":0.76923,"h":0.50347}
+},
+{
+	"filename": "TimeOutline",
+	"frame": {"x":1,"y":1,"w":26,"h":288},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":288},
+	"sourceSize": {"w":26,"h":288},
+	"anchor": {"w":0.50000,"h":0.50000}
+}],
+"meta": {
+	"app": "Spritor"
+}
+}

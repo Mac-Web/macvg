@@ -1,0 +1,208 @@
+{
+  "stringresources": {
+    "strings": {
+      "string": [
+        {
+          "-id": "InstructionsTitleKey",
+          "en": "Instructions",
+          "de": "Anleitung",
+          "es": "Instrucciones",
+          "fr": "Instructions",
+          "it": "Istruzioni",
+          "br": "Instruções",
+          "ru": "Инструкция"
+        },
+        {
+          "-id": "InstructionsKey",
+          "en": "Get the cars to the finish traffic successfully. Avoid collisions with other cars or trams. Tap on the car to speed up the car and get extra points.  Use the slow down in difficult situations.",
+          "de": "Leite die Autos sicher durch den Verkehr. Vermeide Zusammenstöße mit anderen Autos oder Straßenbahnen. Tippe die Autos an, um sie zu beschleunigen. Das bringt dir zusätzliche Punkte ein. Verlangsame sie in schwierigen Situationen.",
+          "es": "Consigue que los coches lleguen a su destino. Evita los accidentes con otros coches o tranvías. Toca en el coche para que aumente de velocidad y obtener puntos adicionales. Usa el freno en las situaciones complicadas.",
+          "fr": "Amenez les voitures jusqu'à l'arrivée. Évitez les collisions avec d'autres voitures ou tramways. Touchez la voiture pour accélérer et marquer des points supplémentaires. Utilisez le frein dans les situations difficiles.",
+          "it": "Porta le auto fuori dal traffico, fino a destinazione. Evita gli scontri con le altre auto o i tram. Tocca l'auto per accelerare e ottenere punti extra. Rallenta nelle situazioni difficili.",
+          "br": "Leve os carros até a linha de chegada. Evite colisões com outros carros ou bondes. Toque no carro para acelerar e ganhar pontos extras.  Use a desaceleração em situações difíceis.",
+          "ru": "Успешно доведи машины до финиша. Избегай столкновений с другими автомобилями или трамваями. Нажми на машину, чтобы ускорить ее и получить дополнительные очки. Используй замедление в сложных ситуациях."
+        },
+        {
+          "-id": "PausedKey",
+          "en": "PAUSED",
+          "de": "Pause",
+          "es": "Pausa",
+          "fr": "Pause",
+          "it": "Pausa",
+          "br": "Pausar",
+          "ru": "Пауза"
+        },
+        {
+          "-id": "ScoreKey",
+          "en": "Score",
+          "de": "Punkte",
+          "es": "Puntuación",
+          "fr": "Score",
+          "it": "Punteggio",
+          "br": "Pontuação",
+          "ru": "Счёт"
+        },
+        {
+          "-id": "BestScoreKey",
+          "en": "Best Score",
+          "de": "Bestes Ergebnis",
+          "es": "Mejor puntuación",
+          "fr": "Meilleur score",
+          "it": "Miglior punteggio",
+          "br": "Melhor pontuação",
+          "ru": "Лучший результат"
+        },
+        {
+          "-id": "UnlockKey",
+          "en": "Unlock",
+          "de": "Freischalten",
+          "es": "Desbloquear",
+          "fr": "Débloquer",
+          "it": "Sbloccare",
+          "br": "Desbloquear",
+          "ru": "Разблокировать"
+        },
+        {
+          "-id": "OrKey",
+          "en": "Or",
+          "de": "Oder",
+          "es": "O",
+          "fr": "Ou",
+          "it": "O",
+          "br": "Ou",
+          "ru": "Или"
+        },
+        {
+          "-id": "AchievementsTitleKey",
+          "en": "Achievements",
+          "de": "Erfolge",
+          "es": "Logros",
+          "fr": "Succès",
+          "it": "Obiettivi",
+          "br": "Conquistas",
+          "ru": "Достижения"
+        },
+        {
+          "-id": "TotalScoreKey",
+          "en": "Total Score",
+          "de": "Gesamtpunktzahl",
+          "es": "puntuación total",
+          "fr": "score total",
+          "it": "punteggio totale",
+          "br": "pontuação total",
+          "ru": "ОБЩИЙ СЧЕТ"
+        },
+        {
+          "-id": "Achv_1",
+          "en": "FIRST START",
+          "de": "Erster Start",
+          "es": "Primer comienzo",
+          "fr": "premier démarrage",
+          "it": "Primo avvio",
+          "br": "Primeiro começo",
+          "ru": "Первое Начало"
+        },
+        {
+          "-id": "Achv_2",
+          "en": "TOTAL SCORE: [X]",
+          "de": "Gesamtpunktzahl: [X]",
+          "es": "puntuación total: [X]",
+          "fr": "score total: [X]",
+          "it": "punteggio totale: [X]",
+          "br": "pontuação total: [X]",
+          "ru": "ОБЩИЙ СЧЕТ: [X]"
+        },
+        {
+          "-id": "Achv_3",
+          "en": "[X] GAMES PLAYED",
+          "de": "[X] Spiele gespielt",
+          "es": "[X] Juegos jugados",
+          "fr": "[X] Parties jouées",
+          "it": "[X] partite giocate",
+          "br": "[X] jogos disputados",
+          "ru": "[X] игр сыграно"
+        },
+        {
+          "-id": "Achv_4",
+          "en": "[X] CRASHES",
+          "de": "[X] Zusammenstöße",
+          "es": "[X] Accidentes",
+          "fr": "[X] Accidents",
+          "it": "[X] Scontri",
+          "br": "[X] Colisões",
+          "ru": "[X] Аварии"
+        },
+        {
+          "-id": "tut_text_1",
+          "en": "Tap on the car to speed it up",
+          "de": "Tippe das Auto an, um es zu beschleunigen",
+          "es": "Toca el coche para acelerarlo",
+          "fr": "Touchez la voiture pour la faire accélérer",
+          "it": "Tocca l'auto per accelerare!",
+          "br": "Toque no carro para acelerar",
+          "ru": "Нажми на машину, чтобы ускорить ее"
+        },
+        {
+          "-id": "tut_text_2",
+          "en": "Avoid a car accident!",
+          "de": "Vermeide einen Verkehrsunfall!",
+          "es": "¡Evita un accidente!",
+          "fr": "Évitez les accidents de voiture !",
+          "it": "Evita un incidente!",
+          "br": "Evite um acidente de carro!",
+          "ru": "Избегай автомобильной аварии!"
+        },
+        {
+          "-id": "tut_text_3",
+          "en": "Use the slowdown ability to slow the traffic",
+          "de": "Verwende die Verlangsamungsfähigkeit, um den Verkehr zu verlangsamen",
+          "es": "Usa el freno para que el tráfico vaya más despacio",
+          "fr": "Utilisez le frein pour ralentir la circulation",
+          "it": "Usa il rallentamento per rallentare il traffico",
+          "br": "Use a desaceleração para desacelerar o tráfego",
+          "ru": "Используй способность замедления, чтобы замедлить движение"
+        },
+        {
+          "-id": "tut_text_4",
+          "en": "Score [X] points to unlock new level",
+          "de": "Erziele [X] Punkte, um ein neues Level freizuschalten",
+          "es": "Gana [X] puntos para desbloquear un nuevo nivel",
+          "fr": "Obtenez [X] points pour débloquer un nouveau niveau",
+          "it": "Guadagna [X] punti per sbloccare un nuovo livello",
+          "br": "Ganha [X] pontos para desbloquear um novo nível",
+          "ru": "Набери [X] очков, чтобы открыть новый уровень"
+        },
+        {
+          "-id": "LevelKey",
+          "en": "Level",
+          "de": "Stufe",
+          "es": "Nivel",
+          "fr": "Niveau",
+          "it": "Livello",
+          "br": "Nível",
+          "ru": "Уровень"
+        },
+        {
+          "-id": "NewBestScoreKey",
+          "en": "New best score",
+          "de": "Neue Höchstleistung",
+          "es": "Nuevo récord de puntuación",
+          "fr": "Nouveau meilleur score",
+          "it": "Nuovo record",
+          "br": "Nova melhor pontuação",
+          "ru": "Новый рекорд"
+        },
+        {
+          "-id": "MoreGames",
+          "en": "MORE GAMES",
+          "de": "MEHR SPIELE",
+          "es": "MÁS JUEGOS",
+          "fr": "PLUS DE JEUX",
+          "it": "ALTRI GIOCHI",
+          "br": "MAIS JOGOS",
+          "ru": "БОЛЬШЕ ИГР"
+        }
+      ]
+    }
+  }
+}

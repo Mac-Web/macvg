@@ -1,0 +1,182 @@
+{
+    "TXT_SOUND": {
+        "en": "ENABLE SOUND?",
+        "de": "DE_ENABLE SOUND?",
+        "it": "IT_ENABLE SOUND?",
+        "es": "ES_ENABLE SOUND?",
+        "pt": "PT_ENABLE SOUND?",
+        "fr": "FR_ENABLE SOUND?",
+        "tr": "TR_ENABLE SOUND?",
+        "ru": "RU_ENABLE SOUND?"
+    },
+    "TXT_PLAY": {
+        "en": "PLAY",
+        "de": "DE_PLAY",
+        "it": "IT_PLAY",
+        "es": "ES_PLAY",
+        "pt": "PT_PLAY",
+        "fr": "FR_PLAY",
+        "tr": "TR_PLAY",
+        "ru": "RU_PLAY"
+    },
+    "TXT_HELP": {
+        "en": "HELP",
+        "de": "DE_HELP",
+        "it": "IT_HELP",
+        "es": "ES_HELP",
+        "pt": "PT_HELP",
+        "fr": "FR_HELP",
+        "tr": "TR_HELP",
+        "ru": "RU_HELP"
+    },
+    "TXT_HELP_TEXT": {
+        "en": " Find pairs of matching pictures. The path between them can have maximum of two breaks.\n Use hint bonus to show next match, bomb to blast random pair or shuffle bonus to reshuffle whole board.",
+        "de": "DE_Find pairs of matching pictures. The path between them can have maximum of two breaks.\n Use hint bonus to show next match, bomb to blast random pair or shuffle bonus to reshuffle whole board.",
+        "it": "IT_Find pairs of matching pictures. The path between them can have maximum of two breaks.\n Use hint bonus to show next match, bomb to blast random pair or shuffle bonus to reshuffle whole board.",
+        "es": "ES_Find pairs of matching pictures. The path between them can have maximum of two breaks.\n Use hint bonus to show next match, bomb to blast random pair or shuffle bonus to reshuffle whole board.",
+        "pt": "PT_Find pairs of matching pictures. The path between them can have maximum of two breaks.\n Use hint bonus to show next match, bomb to blast random pair or shuffle bonus to reshuffle whole board.",
+        "fr": "FR_Find pairs of matching pictures. The path between them can have maximum of two breaks.\n Use hint bonus to show next match, bomb to blast random pair or shuffle bonus to reshuffle whole board.",
+        "tr": "TR_Find pairs of matching pictures. The path between them can have maximum of two breaks.\n Use hint bonus to show next match, bomb to blast random pair or shuffle bonus to reshuffle whole board.",
+        "ru": "RU_Find pairs of matching pictures. The path between them can have maximum of two breaks.\n Use hint bonus to show next match, bomb to blast random pair or shuffle bonus to reshuffle whole board."
+    },
+    "TXT_MENU": {
+        "en": "MENU",
+        "de": "DE_MENU",
+        "it": "IT_MENU",
+        "es": "ES_MENU",
+        "pt": "PT_MENU",
+        "fr": "FR_MENU",
+        "tr": "TR_MENU",
+        "ru": "RU_MENU"
+    },
+    "TXT_SCORE": {
+        "en": "Score",
+        "de": "DE_Score",
+        "it": "IT_Score",
+        "es": "ES_Score",
+        "pt": "PT_Score",
+        "fr": "FR_Score",
+        "tr": "TR_Score",
+        "ru": "RU_Score"
+    },
+    "TXT_BONUS_TIME": {
+        "en": "Time Bonus",
+        "de": "DE_Time Bonus",
+        "it": "IT_Time Bonus",
+        "es": "ES_Time Bonus",
+        "pt": "PT_Time Bonus",
+        "fr": "FR_Time Bonus",
+        "tr": "TR_Time Bonus",
+        "ru": "RU_Time Bonus"
+    },
+    "TXT_BONUS_LEVEL": {
+        "en": "Level Bonus",
+        "de": "DE_Level Bonus",
+        "it": "IT_Level Bonus",
+        "es": "ES_Level Bonus",
+        "pt": "PT_Level Bonus",
+        "fr": "FR_Level Bonus",
+        "tr": "TR_Level Bonus",
+        "ru": "RU_Level Bonus"
+    },
+    "TXT_BONUS_COMBO": {
+        "en": "Combo Bonus",
+        "de": "DE_Combo Bonus",
+        "it": "IT_Combo Bonus",
+        "es": "ES_Combo Bonus",
+        "pt": "PT_Combo Bonus",
+        "fr": "FR_Combo Bonus",
+        "tr": "TR_Combo Bonus",
+        "ru": "RU_Combo Bonus"
+    },
+    "TXT_SCORE_TOTAL": {
+        "en": "Total Score",
+        "de": "DE_Total Score",
+        "it": "IT_Total Score",
+        "es": "ES_Total Score",
+        "pt": "PT_Total Score",
+        "fr": "FR_Total Score",
+        "tr": "TR_Total Score",
+        "ru": "RU_Total Score"
+    },
+    "TXT_FAIL": {
+        "en": "FAIL!",
+        "de": "DE_FAIL!",
+        "it": "IT_FAIL!",
+        "es": "ES_FAIL!",
+        "pt": "PT_FAIL!",
+        "fr": "FR_FAIL!",
+        "tr": "TR_FAIL!",
+        "ru": "RU_FAIL!"
+    },
+    "TXT_PAUSE": {
+        "en": "PAUSE",
+        "de": "DE_PAUSE",
+        "it": "IT_PAUSE",
+        "es": "ES_PAUSE",
+        "pt": "PT_PAUSE",
+        "fr": "FR_PAUSE",
+        "tr": "TR_PAUSE",
+        "ru": "RU_PAUSE"
+    },
+    "TXT_WIN": {
+        "en": "WIN!",
+        "de": "DE_WIN!",
+        "it": "IT_WIN!",
+        "es": "ES_WIN!",
+        "pt": "PT_WIN!",
+        "fr": "FR_WIN!",
+        "tr": "TR_WIN!",
+        "ru": "RU_WIN!"
+    },
+    "TXT_INGAME_LEVEL": {
+        "en": "lvl ",
+        "de": "DE_lvl ",
+        "it": "IT_lvl ",
+        "es": "ES_lvl ",
+        "pt": "PT_lvl ",
+        "fr": "FR_lvl ",
+        "tr": "TR_lvl ",
+        "ru": "RU_lvl "
+    },
+    "TXT_START_LEVEL_TITLE": {
+        "en": "LEVEL ",
+        "de": "DE_LEVEL ",
+        "it": "IT_LEVEL ",
+        "es": "ES_LEVEL ",
+        "pt": "PT_LEVEL ",
+        "fr": "FR_LEVEL ",
+        "tr": "TR_LEVEL ",
+        "ru": "RU_LEVEL "
+    },
+    "TXT_LEVEL_BEST_SCORE": {
+        "en": "Best Score",
+        "de": "DE_Best Score",
+        "it": "IT_Best Score",
+        "es": "ES_Best Score",
+        "pt": "PT_Best Score",
+        "fr": "FR_Best Score",
+        "tr": "TR_Best Score",
+        "ru": "RU_Best Score"
+    },
+    "TXT_CONGRATS": {
+        "en": "CONGRATULATIONS!\n\nYou successfully finished all levels and completed your WOODVENTURE!",
+        "de": "DE_CONGRATULATIONS!\n\nYou successfully finished all levels and completed your WOODVENTURE!",
+        "it": "IT_CONGRATULATIONS!\n\nYou successfully finished all levels and completed your WOODVENTURE!",
+        "es": "ES_CONGRATULATIONS!\n\nYou successfully finished all levels and completed your WOODVENTURE!",
+        "pt": "PT_CONGRATULATIONS!\n\nYou successfully finished all levels and completed your WOODVENTURE!",
+        "fr": "FR_CONGRATULATIONS!\n\nYou successfully finished all levels and completed your WOODVENTURE!",
+        "tr": "TR_CONGRATULATIONS!\n\nYou successfully finished all levels and completed your WOODVENTURE!",
+        "ru": "RU_CONGRATULATIONS!\n\nYou successfully finished all levels and completed your WOODVENTURE!"
+    },
+    "TXT_MORE_GAMES": {
+        "en": "MORE GAMES",
+        "de": "DE_MORE GAMES",
+        "it": "IT_MORE GAMES",
+        "es": "ES_MORE GAMES",
+        "pt": "PT_MORE GAMES",
+        "fr": "FR_MORE GAMES",
+        "tr": "TR_MORE GAMES",
+        "ru": "БОЛЬШЕ ИГР"
+    }
+}

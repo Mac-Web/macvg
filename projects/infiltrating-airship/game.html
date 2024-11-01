@@ -1,31 +1,57 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <script src="ruffle.js"></script>
-    <title>Infiltrating the Airship | MacVG</title>
-  </head>
-  <body style="margin: 0px">
-    <div id="container" style="width: 100vw; height: 100vh"></div>
-    <script type="text/javascript">
-      function play() {
-        const ruffle = window.RufflePlayer.newest();
-        const player = ruffle.createPlayer();
-        player.config = {
-          contextMenu: "off",
-          autoplay: true,
-          warnOnUnsupportedContent: false,
-          allowScriptAccess: true,
-          maxExecutionDuration: 30,
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Infiltrating The Airship | MacVG</title>
+  <style>
+    body {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+  }
+  </style>
+  <meta name="description" content="Infiltrating The Airship, Infiltrating The Airship Unblocked">
+  <meta property="og:image" content="{game_thumbs}" />
+</head>
+
+<body>
+  <div class="webgl-content">
+    <div id="gameContainer" style="width: 100vw; height: 100vh">
+      <script src="patch/ruffle/ruffle.js"></script>
+      <script>
+        window.RufflePlayer = window.RufflePlayer || {};
+        window.RufflePlayer.config = {
+            warnOnUnsupportedContent: false,
+            autoplay: "on",
+            unmuteOverlay: "hidden",
+            maxExecutionDuration: 30,
+            base: null,
+            forceScale: false,
+            quality: 'high'
         };
-        const container = document.getElementById("container");
-        container.appendChild(player);
-        player.style.cssText = "width:100%; height: 100%;";
-        player.style.display = "block";
-        player.load(
-          "https://files.crazygames.com/infiltrating-the-airship/2/infiltrating_the_airship.swf"
-        );
-      }
-      play();
-    </script>
-  </body>
+      </script>
+      <div id="gamefilearea" class="prestitial-running" style="height:100%;">
+
+      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="900" height="600" id="gamefile" align="middle">
+      <param name="allowScriptAccess" value="always" />
+      <param name="movie" value="infiltrating_the_airship.swf" />
+      <param name="quality" value="high" />
+      <param name="wmode" value="window" />
+      <param name="allowfullscreen" value="false" />
+      <param name="allowfullscreeninteractive" value="false" />
+      <param name="fullScreenAspectRatio" value="" />
+      <param name="quality" value="high" />
+      <param name="play" value="true" />
+      <param name="loop" value="true" />
+      <param name="menu" value="" />
+      <param name="flashvars" value="gameID=13824" />
+      <param name="hasPriority" value="true" />
+
+      <embed src="infiltrating_the_airship.swf" width="100%" height="100%" id="gamefileEmbed" name="gamefile" align="middle" wmode="window" allowfullscreen="false" allowfullscreeninteractive="false" fullScreenAspectRatio="" quality="high" play="true" loop="true" menu="" allowScriptAccess="always" flashvars="gameID=13824" hasPriority="true" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer"></embed>
+      </object>
+
+    </div>
+  </div>
+</body>
 </html>

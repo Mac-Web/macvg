@@ -1,0 +1,194 @@
+/* Debug console styling */
+#debugConsole {
+    position: absolute;
+    width: 100%;
+    min-height: 5px;
+    max-height: 50vh;
+    overflow-y: scroll;
+    z-index: 100;
+    text-align: left;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: small;
+}
+
+#debugConsole .entry {
+    padding: 8px 4px;
+    color: rgb(41, 41, 41);
+    background-color: rgba(230, 230, 230, 0.9);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #3d3d3d;
+}
+
+#debugConsole .entry.info {
+    color: rgb(41, 50, 60);
+    background-color: rgba(172, 204, 224, 0.9);
+}
+
+#debugConsole .entry.warn {
+    color: rgb(82, 70, 3);
+    background-color: rgba(231, 196, 41, 0.9);
+}
+
+#debugConsole .entry.error {
+    color: rgb(97, 15, 9);
+    background-color: rgba(221, 46, 46, 0.9);
+}
+
+#debugConsole .entry .copy-button {
+    position: relative;
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border: 0;
+    background: none;
+}
+
+#debugConsole .entry .copy-button:before {
+    content: 'copied';
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    width: 60px;
+    height: 20px;
+    padding-top: 4px;
+    text-align: center;
+    color: white;
+    background: #333;
+    border-radius: 10px;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+
+#debugConsole .entry .copy-button.active:before {
+    opacity: 1;
+    right: 30px;
+    transition: all 0.2s ease-out;
+}
+
+/* Debug console toggle button */
+.debugToggleMenu {
+    z-index: 101;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0px 1px 3px 2px #CDD9ED;
+    background: #fff;
+    transition: all .3s ease;
+}
+
+.debugToggleMenu .icon {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    background:rgb(128, 128, 128);
+    border-radius: 50%;
+    display: none;
+}
+
+#debugToggle {
+    display: none;
+}
+
+#debugToggle:checked ~ #debugConsole {
+    display: block;
+}
+
+#debugToggle:checked ~ .debugToggleMenu .icon {
+    display: block;
+}
+
+#debugToggle:not(:checked) ~ #debugConsole {
+    display: none;
+}
+
+/* Startup Time interface */
+#infoPanel {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 8px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: left;
+    color: black;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+dt, dd {
+    display: inline;
+}
+
+dt:after{
+    content: ':';
+}
+
+.tracking-seconds:after{
+    content: 's';
+}
+
+.tracking-milliseconds:after{
+    content: 'ms';
+}
+
+/* Hide Milliseconds value, still useful for CI to get exact values */
+.tracking-milliseconds, .tracking-milliseconds:after {
+    display: none;
+}
+
+dl div:after {
+    display: block;
+    content: '';
+}
+
+/* Copy icon from https://css.gg/copy */
+.gg-copy {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 14px;
+    height: 18px;
+    border: 2px solid;
+    margin-top: -4px
+}
+
+.gg-copy::after,
+.gg-copy::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+
+.gg-copy::before {
+    background:
+            linear-gradient( to left,
+            currentColor 5px, transparent 0)
+            no-repeat right top/5px 2px,
+            linear-gradient( to left,
+            currentColor 5px, transparent 0)
+            no-repeat left bottom/ 2px 5px;
+    box-shadow: inset -4px -4px 0 -2px;
+    bottom: -6px;
+    right: -6px;
+    width: 14px;
+    height: 18px
+}
+
+.gg-copy::after {
+    width: 6px;
+    height: 2px;
+    background: currentColor;
+    left: 2px;
+    top: 2px;
+    box-shadow: 0 4px 0,0 8px 0
+}

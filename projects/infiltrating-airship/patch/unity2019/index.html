@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>{title}</title>
+    <meta name="description" content="{description}">
+    <meta property="og:image" content="{thumbs}" />
+    <link rel="shortcut icon" href="patch/unity2021/favicon.ico">
+    <link rel="stylesheet" href="patch/unity2021/style.css">
+    <script src="patch/unity2021/UnityProgress.js"></script>
+    <script src="patch/unity2021/unity2021-loader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate(
+        "gameContainer",
+        "{json}",
+        {
+            onProgress: UnityProgress,Module:{
+                onRuntimeInitialized: function() {
+                    UnityProgress(gameInstance, "complete")
+                }
+            }
+        });
+
+      function fixGameView() {
+            const gameView= document.getElementById("gameView");
+            if (gameView.clientHeight> gameView.clientWidth) {
+                gameView.style.height= Math.floor(gameView.clientWidth)+ "px";
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            margin: 0px;
+            padding:0px;
+        }
+    </style>
+</head>
+<body style="overflow:hidden; margin:0; padding:0;" onload="fixGameView()">
+    <div id="gameView" class="webgl-content" style="position: absolute; width: 100%; height: 100%; margin: 0px; padding:0px;">
+        <div id="gameContainer" style="width: 100%; height: 100%; margin: 0px; padding:0px;"></div>
+        <!--<div class="footer">
+            <div class="webgl-logo"></div>
+            <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+            <div class="title">Tunnel Rush</div>
+        </div>-->
+    </div>
+    <!-- <script src="js/analytics_ubg_v1_4.js"></script>
+    <script src="js/ubg235_client_v1_1.js"></script> -->
+</body>
+</html>

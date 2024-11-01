@@ -1,0 +1,158 @@
+{"frames": [
+{
+	"filename": "ButtonHelp",
+	"frame": {"x":1,"y":1,"w":304,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":304,"h":113},
+	"sourceSize": {"w":304,"h":113},
+	"anchor": {"w":0.50000,"h":0.49558}
+},
+{
+	"filename": "ButtonPlay",
+	"frame": {"x":1,"y":116,"w":304,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":304,"h":113},
+	"sourceSize": {"w":304,"h":113},
+	"anchor": {"w":0.50000,"h":0.49558}
+},
+{
+	"filename": "IconMusicOff",
+	"frame": {"x":307,"y":1,"w":60,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":60},
+	"sourceSize": {"w":60,"h":60},
+	"anchor": {"w":0.50000,"h":0.50000}
+},
+{
+	"filename": "IconMusicOn",
+	"frame": {"x":369,"y":1,"w":60,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":60},
+	"sourceSize": {"w":60,"h":60},
+	"anchor": {"w":0.50000,"h":0.50000}
+},
+{
+	"filename": "IconSoundOff",
+	"frame": {"x":431,"y":1,"w":60,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":60},
+	"sourceSize": {"w":60,"h":60},
+	"anchor": {"w":0.50000,"h":0.50000}
+},
+{
+	"filename": "IconSoundOn",
+	"frame": {"x":307,"y":63,"w":60,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":60},
+	"sourceSize": {"w":60,"h":60},
+	"anchor": {"w":0.50000,"h":0.50000}
+},
+{
+	"filename": "Lang_en",
+	"frame": {"x":369,"y":63,"w":60,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":60},
+	"sourceSize": {"w":60,"h":60},
+	"anchor": {"w":0.50000,"h":0.50000}
+},
+{
+	"filename": "Lang_de",
+	"frame": {"x":431,"y":63,"w":60,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":60},
+	"sourceSize": {"w":60,"h":60},
+	"anchor": {"w":0.50000,"h":0.50000}
+},
+{
+	"filename": "Lang_es",
+	"frame": {"x":307,"y":125,"w":60,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":60},
+	"sourceSize": {"w":60,"h":60},
+	"anchor": {"w":0.50000,"h":0.50000}
+},
+{
+	"filename": "Lang_fr",
+	"frame": {"x":369,"y":125,"w":60,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":60},
+	"sourceSize": {"w":60,"h":60},
+	"anchor": {"w":0.50000,"h":0.50000}
+},
+{
+	"filename": "Lang_it",
+	"frame": {"x":431,"y":125,"w":60,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":60},
+	"sourceSize": {"w":60,"h":60},
+	"anchor": {"w":0.50000,"h":0.50000}
+},
+{
+	"filename": "Lang_pt",
+	"frame": {"x":307,"y":187,"w":60,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":60},
+	"sourceSize": {"w":60,"h":60},
+	"anchor": {"w":0.50000,"h":0.50000}
+},
+{
+	"filename": "Lang_ru",
+	"frame": {"x":369,"y":187,"w":60,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":60},
+	"sourceSize": {"w":60,"h":60},
+	"anchor": {"w":0.50000,"h":0.50000}
+},
+{
+	"filename": "Lang_tr",
+	"frame": {"x":431,"y":187,"w":60,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":60},
+	"sourceSize": {"w":60,"h":60},
+	"anchor": {"w":0.50000,"h":0.50000}
+},
+{
+	"filename": "ButtonMenu",
+	"frame": {"x":1,"y":231,"w":255,"h":96},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":255,"h":96},
+	"sourceSize": {"w":255,"h":96},
+	"anchor": {"w":0.49804,"h":0.50000}
+},
+{
+	"filename": "IconFullscreenOff",
+	"frame": {"x":258,"y":249,"w":60,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":60},
+	"sourceSize": {"w":60,"h":60},
+	"anchor": {"w":0.50000,"h":0.50000}
+},
+{
+	"filename": "IconFullscreenOn",
+	"frame": {"x":320,"y":249,"w":60,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":60,"h":60},
+	"sourceSize": {"w":60,"h":60},
+	"anchor": {"w":0.50000,"h":0.50000}
+}],
+"meta": {
+	"app": "Spritor"
+}
+}

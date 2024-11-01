@@ -1,0 +1,18 @@
+html, body, #game { height: 100%; ;touch-action:none;}
+body{margin: 0; padding: 0;touch-action:none;}
+
+#turn
+{
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../assets/images/screenlock.png");
+    background-size: cover;
+    background-color: #6b0b3b;
+    display:none;
+    
+}

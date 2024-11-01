@@ -1,0 +1,747 @@
+﻿{"frames": [
+
+{
+	"filename": "alpha instance 10000",
+	"frame": {"x":515,"y":1617,"w":294,"h":152},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":294,"h":152},
+	"sourceSize": {"w":294,"h":152}
+}
+,{
+	"filename": "beta instance 10000",
+	"frame": {"x":1844,"y":832,"w":145,"h":296},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":145,"h":296},
+	"sourceSize": {"w":145,"h":296}
+}
+,{
+	"filename": "gamma instance 10000",
+	"frame": {"x":281,"y":1617,"w":232,"h":215},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":215},
+	"sourceSize": {"w":232,"h":215}
+}
+,{
+	"filename": "metP1 instance 10000",
+	"frame": {"x":1993,"y":49,"w":34,"h":38},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":38},
+	"sourceSize": {"w":34,"h":38}
+}
+,{
+	"filename": "metP2 instance 10000",
+	"frame": {"x":2033,"y":1,"w":9,"h":12},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":9,"h":12},
+	"sourceSize": {"w":9,"h":12}
+}
+,{
+	"filename": "metP3 instance 10000",
+	"frame": {"x":1979,"y":121,"w":22,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":22,"h":20},
+	"sourceSize": {"w":22,"h":20}
+}
+,{
+	"filename": "metP4 instance 10000",
+	"frame": {"x":2029,"y":49,"w":18,"h":16},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":18,"h":16},
+	"sourceSize": {"w":18,"h":16}
+}
+,{
+	"filename": "metP5 instance 10000",
+	"frame": {"x":1953,"y":1,"w":38,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":46},
+	"sourceSize": {"w":38,"h":46}
+}
+,{
+	"filename": "metP6 instance 10000",
+	"frame": {"x":1953,"y":49,"w":38,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":46},
+	"sourceSize": {"w":38,"h":46}
+}
+,{
+	"filename": "metP7 instance 10000",
+	"frame": {"x":1993,"y":1,"w":38,"h":46},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":46},
+	"sourceSize": {"w":38,"h":46}
+}
+,{
+	"filename": "metP8 instance 10000",
+	"frame": {"x":1993,"y":89,"w":32,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":30},
+	"sourceSize": {"w":32,"h":30}
+}
+,{
+	"filename": "metP9 instance 10000",
+	"frame": {"x":1953,"y":97,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+}
+,{
+	"filename": "meteorExp instance 10000",
+	"frame": {"x":1271,"y":1256,"w":102,"h":112},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":203,"y":191,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10001",
+	"frame": {"x":1271,"y":1256,"w":102,"h":112},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":203,"y":191,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10002",
+	"frame": {"x":1271,"y":1256,"w":102,"h":112},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":203,"y":191,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10003",
+	"frame": {"x":1824,"y":1408,"w":158,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":190,"y":166,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10004",
+	"frame": {"x":1824,"y":1408,"w":158,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":190,"y":166,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10005",
+	"frame": {"x":1824,"y":1408,"w":158,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":190,"y":166,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10006",
+	"frame": {"x":1824,"y":1219,"w":217,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":136,"y":155,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10007",
+	"frame": {"x":1824,"y":1219,"w":217,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":136,"y":155,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10008",
+	"frame": {"x":1,"y":1613,"w":278,"h":268},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":109,"y":97,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10009",
+	"frame": {"x":1,"y":1613,"w":278,"h":268},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":109,"y":97,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10010",
+	"frame": {"x":1271,"y":1589,"w":353,"h":328},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":84,"y":63,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10011",
+	"frame": {"x":1271,"y":1589,"w":353,"h":328},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":84,"y":63,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10012",
+	"frame": {"x":1,"y":1279,"w":368,"h":332},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":60,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10013",
+	"frame": {"x":1,"y":1279,"w":368,"h":332},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":60,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10014",
+	"frame": {"x":888,"y":1256,"w":381,"h":375},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":67,"y":58,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10015",
+	"frame": {"x":888,"y":1256,"w":381,"h":375},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":67,"y":58,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10016",
+	"frame": {"x":951,"y":827,"w":427,"h":427},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":47,"y":32,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10017",
+	"frame": {"x":951,"y":827,"w":427,"h":427},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":47,"y":32,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10018",
+	"frame": {"x":493,"y":1,"w":461,"h":461},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":15,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10019",
+	"frame": {"x":493,"y":1,"w":461,"h":461},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":15,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10020",
+	"frame": {"x":1,"y":1,"w":490,"h":490},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":0,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10021",
+	"frame": {"x":1,"y":1,"w":490,"h":490},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":0,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10022",
+	"frame": {"x":455,"y":1255,"w":431,"h":360},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":38,"y":52,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10023",
+	"frame": {"x":455,"y":1255,"w":431,"h":360},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":38,"y":52,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10024",
+	"frame": {"x":1380,"y":1219,"w":442,"h":368},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":48,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10025",
+	"frame": {"x":1380,"y":1219,"w":442,"h":368},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":48,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10026",
+	"frame": {"x":1,"y":901,"w":452,"h":376},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":44,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10027",
+	"frame": {"x":1,"y":901,"w":452,"h":376},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":44,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10028",
+	"frame": {"x":1380,"y":832,"w":462,"h":385},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":40,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10029",
+	"frame": {"x":1380,"y":832,"w":462,"h":385},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":40,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10030",
+	"frame": {"x":475,"y":493,"w":474,"h":395},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":35,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10031",
+	"frame": {"x":475,"y":493,"w":474,"h":395},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":35,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10032",
+	"frame": {"x":956,"y":419,"w":487,"h":406},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":30,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10033",
+	"frame": {"x":956,"y":419,"w":487,"h":406},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":30,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10034",
+	"frame": {"x":1455,"y":418,"w":493,"h":412},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":27,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10035",
+	"frame": {"x":1455,"y":418,"w":493,"h":412},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":27,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10036",
+	"frame": {"x":1455,"y":1,"w":496,"h":415},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":26,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10037",
+	"frame": {"x":1455,"y":1,"w":496,"h":415},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":26,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10038",
+	"frame": {"x":956,"y":1,"w":497,"h":416},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":26,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10039",
+	"frame": {"x":956,"y":1,"w":497,"h":416},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":26,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10040",
+	"frame": {"x":1,"y":493,"w":472,"h":406},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":26,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10041",
+	"frame": {"x":1,"y":493,"w":472,"h":406},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":26,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10042",
+	"frame": {"x":475,"y":890,"w":473,"h":363},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":52,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10043",
+	"frame": {"x":475,"y":890,"w":473,"h":363},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":52,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10044",
+	"frame": {"x":1626,"y":1589,"w":402,"h":219},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":70,"y":184,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10045",
+	"frame": {"x":1626,"y":1589,"w":402,"h":219},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":70,"y":184,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10046",
+	"frame": {"x":2029,"y":67,"w":13,"h":12},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":340,"y":392,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10047",
+	"frame": {"x":2029,"y":67,"w":13,"h":12},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":340,"y":392,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10048",
+	"frame": {"x":2033,"y":15,"w":8,"h":8},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":345,"y":398,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10049",
+	"frame": {"x":2033,"y":15,"w":8,"h":8},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":345,"y":398,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10050",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10051",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10052",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10053",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10054",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10055",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10056",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10057",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10058",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10059",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10060",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10061",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10062",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10063",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10064",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10065",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10066",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10067",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10068",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10069",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10070",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10071",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10072",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10073",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10074",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10075",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10076",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10077",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10078",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}
+,{
+	"filename": "meteorExp instance 10079",
+	"frame": {"x":1,"y":1,"w":0,"h":0},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":-301,"y":-1919,"w":506,"h":490},
+	"sourceSize": {"w":506,"h":490}
+}],
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "15.0.0.173",
+	"image": "level13_2.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1"
+}
+}

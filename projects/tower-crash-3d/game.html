@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"
+    />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="manifest" href="manifest.json" />
+    <title>Tower Crash 3D | MacVG</title>
+
+    <!-- ---------------- API Snippet ---------------- -->
+    <script>
+      window.famobi_gameID = "tower-crash-3d"; // the actual GAMEID is added to the final version by Famobi
+      window.famobi_gameJS = ["js/all.js", function () {}];
+      (function (document, url, fgJS, firstJS) {
+        fgJS = document.createElement("script");
+        firstJS = document.getElementsByTagName("script")[0];
+        fgJS.src = url + encodeURIComponent(document.location.href);
+        firstJS.parentNode.insertBefore(fgJS, firstJS);
+      })(document, "v1.js?e=");
+    </script>
+
+    <!-- ---------------- API Snippet end ------------- -->
+  </head>
+  <body></body>
+</html>

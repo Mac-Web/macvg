@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=no"
+    />
+    <meta name="author" content="GamePix" />
+    <title>Pudding Monsters | MacVG</title>
+    <style>
+      html,
+      body {
+        position: fixed;
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+
+      * {
+        -webkit-touch-callout: none;
+        /* iOS Safari */
+        -webkit-user-select: none;
+        /* Safari */
+        -khtml-user-select: none;
+        /* Konqueror HTML */
+        -moz-user-select: none;
+        /* Old versions of Firefox */
+        -ms-user-select: none;
+        /* Internet Explorer/Edge */
+        user-select: none;
+        /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
+        -ms-touch-action: none;
+        -ms-content-zooming: none;
+        touch-action: none;
+        outline: none;
+      }
+
+      #background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+
+      #background,
+      #loading {
+        background-color: linear-gradient(to top, #00395e, #004978);
+        background: linear-gradient(to top, #00395e, #004978);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+
+      body {
+        background: transparent !important;
+      }
+
+      .gpxForce-bckgr-gamefrm {
+        width: 100%;
+        height: 100%;
+        -webkit-filter: blur(20px);
+        filter: blur(20px);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        background-position: 50% !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        position: absolute;
+        top: 0;
+        left: 0;
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+        z-index: -1;
+        opacity: 1;
+      }
+    </style>
+    <script>
+      const alertFn = window.alert;
+      window.alert = (message) => {
+        if (message.startsWith("GamePix SDK log:")) {
+          console.log(message);
+          return;
+        }
+        alertFn(message);
+      };
+    </script>
+    <!-- <script src="https://integration.gamepix.com/sdk/v3/gamepix.sdk.js"></script> -->
+    <!-- <script type="text/javascript" src="https://integration.gamepix.com/sdk/tools/fb.js"></script></head> -->
+  </head>
+  <body>
+    <div id="background"></div>
+    <canvas id="canvas" tabindex="0"></canvas>
+    <script>
+      function getParameterByName(name, url) {
+        name = name.replace(/[\[\]]/g, "\\$&");
+        const regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+          results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return "";
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+      }
+
+      if (getParameterByName("autorun", window.location.href) !== "0") {
+        const createScript = function () {
+          const el = document.createElement("script");
+          el.onload = function () {
+            tinyLoader.load();
+          };
+          el.src = "patch/gamepix/tiny-loader.js";
+          return el;
+        };
+
+        const corsScript = createScript();
+        corsScript.onerror = function () {
+          document.body.removeChild(corsScript);
+          const el = createScript();
+          el.onerror = console.error;
+          document.body.appendChild(el);
+        };
+
+        corsScript.setAttribute("crossorigin", "anonymous");
+        document.body.appendChild(corsScript);
+      }
+    </script>
+    <div class="gpxForce-bckgr-gamefrm"></div>
+  </body>
+</html>

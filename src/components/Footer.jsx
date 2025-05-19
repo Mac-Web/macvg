@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import { logo, email, youtube, github, discord } from "../assets/assets";
 
 function Footer() {
   return (
     <footer className="footer">
       <div className="footer-column">
         <Link to="/" className="footer-logo">
-          <img src="/logo.png" /> MacVG
+          <img src={logo} /> MacVG
         </Link>
         <div className="footer-copy">
           &copy; {new Date().getFullYear()}{" "}
@@ -73,16 +74,16 @@ function Footer() {
         <h2 className="footer-title">Social</h2>
         <div className="footer-social">
           <a href="mailto:mac.web.company@gmail.com" target="_blank" className="footer-icon" title="Email us">
-            <img src="/icons/email.svg" />
+            <img src={email} />
           </a>
           <a href="https://www.youtube.com/@Mac-Web" target="_blank" className="footer-icon" title="YouTube">
-            <img src="/icons/youtube.svg" />
+            <img src={youtube} />
           </a>
           <a href="https://github.com/Mac-Web/macvg" target="_blank" className="footer-icon" title="Source code">
-            <img src="/icons/github.svg" />
+            <img src={github} />
           </a>
           <a href="https://discord.gg/UT7g2S2cBP" target="_blank" className="footer-icon" title="Join our server!">
-            <img src="/icons/discord.svg" />
+            <img src={discord} />
           </a>
         </div>
       </div>

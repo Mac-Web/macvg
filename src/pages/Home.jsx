@@ -1,4 +1,5 @@
 import { useEffect, useState, useRef } from "react";
+import { close, random, up, del, gamesData } from "../assets/assets";
 import NavBar from "../components/NavBar";
 import GameCard from "../components/GameCard";
 import Footer from "../components/Footer";
@@ -27,14 +28,7 @@ function Home() {
   }
 
   useEffect(() => {
-    fetch("/games.json")
-      .then((response) => response.json())
-      .then((data) => {
-        setGames(data.games.sort((a, b) => a.name.localeCompare(b.name)));
-      })
-      .catch((error) => {
-        console.error("Error fetching games:", error);
-      });
+    setGames(gamesData.games.sort((a, b) => a.name.localeCompare(b.name)));
   }, []);
 
   useEffect(() => {
@@ -78,7 +72,7 @@ function Home() {
               {search.length !== 0 && (
                 <div className="hero-search-img">
                   <img
-                    src="/icons/close.svg"
+                    src={close}
                     onClick={() => {
                       setSearch("");
                       searchInput.current.focus();
@@ -88,7 +82,7 @@ function Home() {
                 </div>
               )}
               <div className="hero-search-img">
-                <img src="/icons/random.svg" title="Random game" onClick={selectRandomGame} />
+                <img src={random} title="Random game" onClick={selectRandomGame} />
               </div>
             </div>
             <div className="hero-filters">
@@ -143,7 +137,7 @@ function Home() {
                   setDisplayedGames((c) => [...c].reverse());
                 }}
               >
-                <img src="/icons/up.svg" className="direction-flip" />
+                <img src={up} className="direction-flip" />
               </button>
             </div>
           </div>
@@ -156,7 +150,7 @@ function Home() {
             <div className="favorites-container">
               <h2>Favorites</h2>
               <div className="favorites-delete">
-                <img src="/icons/delete.svg" className="favorites" />
+                <img src={del} className="favorites" />
               </div>
             </div>
           )}

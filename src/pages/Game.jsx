@@ -1,5 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { star, share, download, flag, expand, gamesData } from "../assets/assets";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import "./Game.css";
@@ -25,15 +26,8 @@ function Game() {
   }
 
   useEffect(() => {
-    fetch("/games.json")
-      .then((response) => response.json())
-      .then((data) => {
-        setGame(data.games.find((game) => game.id == id));
-        setGames(data.games);
-      })
-      .catch((error) => {
-        console.error("Error fetching game:", error);
-      });
+        setGame(gamesData.games.find((game) => game.id == id));
+        setGames(gamesData.games);
   }, []);
 
   return (
@@ -51,11 +45,11 @@ function Game() {
                     <h2>{game.name}</h2>
                   </div>
                   <div className="toolbar-icons">
-                    <img className="toolbar-icon" src="/icons/star.svg" />
-                    <img className="toolbar-icon" src="/icons/share.svg" />
-                    {game.download && <img className="toolbar-icon" src="/icons/download.svg" />}
-                    <img className="toolbar-icon" src="/icons/flag.svg" />
-                    <img className="toolbar-icon" src="/icons/expand.svg" />
+                    <img className="toolbar-icon" src={star} />
+                    <img className="toolbar-icon" src={share} />
+                    {game.download && <img className="toolbar-icon" src={download} />}
+                    <img className="toolbar-icon" src={flag} />
+                    <img className="toolbar-icon" src={expand} />
                   </div>
                 </div>
               </div>

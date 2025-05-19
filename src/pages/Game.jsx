@@ -26,8 +26,13 @@ function Game() {
   }
 
   useEffect(() => {
-        setGame(gamesData.games.find((game) => game.id == id));
-        setGames(gamesData.games);
+    setGame(gamesData.games.find((game) => game.id == id));
+    setGames(gamesData.games);
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+      console.error("Ad failed to load", e);
+    }
   }, []);
 
   return (

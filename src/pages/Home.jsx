@@ -29,6 +29,11 @@ function Home() {
 
   useEffect(() => {
     setGames(gamesData.games.sort((a, b) => a.name.localeCompare(b.name)));
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+      console.error("Ad failed to load", e);
+    }
   }, []);
 
   useEffect(() => {

@@ -34,6 +34,7 @@ function Game() {
       console.error("Ad failed to load", e);
     }
   }, []);
+  //TODO: move ads into ad component and add if statement to check if ad loaded
 
   return (
     <>

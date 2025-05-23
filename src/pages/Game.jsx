@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { star, share, download, flag, expand, gamesData } from "../assets/assets";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-import GameAd from "../components/GameAd";
+import Ad from "../components/Ad";
 import "./Game.css";
 import Home from "./Home";
 
@@ -36,7 +36,6 @@ function Game() {
       console.error("Ad failed to load", e);
     }
   }, []);
-  //TODO: move ads into ad component and add if statement to check if ad loaded
 
   return (
     <>
@@ -61,7 +60,7 @@ function Game() {
                   </div>
                 </div>
               </div>
-              <GameAd />
+              <Ad type="3901218615" />
               <div className="game-info">
                 {!game.about.includes("Oops") && (
                   <div className="game-info-section">
@@ -93,7 +92,7 @@ function Game() {
               </div>
             </div>
             <div className="right">
-              <GameAd />
+              <Ad type="3901218615" />
             </div>
           </div>
           <Footer />

@@ -4,7 +4,7 @@ import NavBar from "../components/NavBar";
 import GameCard from "../components/GameCard";
 import Footer from "../components/Footer";
 import Dropdown from "../components/Dropdown";
-import HomeAd from "../components/HomeAd";
+import Ad from "../components/Ad";
 
 function Home() {
   const [search, setSearch] = useState("");
@@ -160,7 +160,7 @@ function Home() {
               </div>
             </div>
           )}
-          <HomeAd />
+          <Ad type="3087664545" />
           <div className="games-container">
             {displayedGames.map((game) => (
               <GameCard key={game.id} game={game} />
@@ -179,7 +179,7 @@ function Home() {
               </div>
             )}
           </div>
-          <HomeAd />
+          <Ad type="3087664545" />
         </div>
         <Footer />
       </div>

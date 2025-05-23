@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-function HomeAd() {
+function GameAd() {
   useEffect(() => {
     try {
       (window.adsbygoogle = window.adsbygoogle || []).push({});
@@ -12,15 +12,16 @@ function HomeAd() {
   return (
     <div className="ad-container">
       <ins
-        class="adsbygoogle"
+        className="adsbygoogle"
         style={{ display: "block" }}
         data-ad-client="ca-pub-5598129470490010"
-        data-ad-slot="3087664545"
+        data-ad-slot="3901218615"
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
     </div>
+    
   );
 }
 
-export default HomeAd;
+export default GameAd;

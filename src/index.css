@@ -289,6 +289,40 @@ body {
   background-color: var(--secondary-bg);
 }
 
+.ad-container {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 20px;
+  position: relative;
+  border: 1px solid gray;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.ad-container::after {
+  content: "ADVERTISEMENT";
+  width: 10%;
+  color: gray;
+  position: absolute;
+  left: 45%;
+  top: 140px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.ad-container ins {
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .games-container {
   display: flex;
   flex-wrap: wrap;

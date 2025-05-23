@@ -3,7 +3,9 @@ import { useEffect, useState } from "react";
 import { star, share, download, flag, expand, gamesData } from "../assets/assets";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import GameAd from "../components/GameAd";
 import "./Game.css";
+import Home from "./Home";
 
 function Game() {
   const { id } = useParams();
@@ -59,16 +61,7 @@ function Game() {
                   </div>
                 </div>
               </div>
-              <div className="ad-container">
-                <ins
-                  className="adsbygoogle"
-                  style={{ display: "block" }}
-                  data-ad-client="ca-pub-5598129470490010"
-                  data-ad-slot="3901218615"
-                  data-ad-format="auto"
-                  data-full-width-responsive="true"
-                ></ins>
-              </div>
+              <GameAd />
               <div className="game-info">
                 {!game.about.includes("Oops") && (
                   <div className="game-info-section">
@@ -100,16 +93,7 @@ function Game() {
               </div>
             </div>
             <div className="right">
-              <div className="ad-container">
-                <ins
-                  className="adsbygoogle"
-                  style={{ display: "block" }}
-                  data-ad-client="ca-pub-5598129470490010"
-                  data-ad-slot="3901218615"
-                  data-ad-format="auto"
-                  data-full-width-responsive="true"
-                ></ins>
-              </div>
+              <GameAd />
             </div>
           </div>
           <Footer />

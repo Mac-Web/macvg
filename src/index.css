@@ -41,6 +41,11 @@ body {
   border-bottom: 1px solid var(--primary-border);
   padding-inline: 100px;
   height: 70px;
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+  background-color: var(--primary-bg);
+  backdrop-filter: blur(5px);
 }
 
 .nav-logo,
@@ -105,8 +110,6 @@ body {
 }
 
 .wrap {
-  height: calc(100vh - 70px);
-  overflow: auto;
   scrollbar-gutter: stable;
 }
 
@@ -206,7 +209,7 @@ body {
 }
 
 .direction img {
-  width: 40%;
+  width: 25px;
   filter: var(--invert);
 }
 

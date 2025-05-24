@@ -4,7 +4,7 @@ import Game from "./pages/Game";
 
 function App() {
   return (
-    <HashRouter basename="/macvg-react">
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/game/:id" element={<Game />} />

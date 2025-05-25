@@ -1,4 +1,4 @@
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { star, share, download, flag, expand, gamesData } from "../assets/assets";
 import NavBar from "../components/NavBar";
@@ -8,6 +8,7 @@ import "./Game.css";
 import Home from "./Home";
 
 function Game() {
+  const location = useLocation();
   const { id } = useParams();
   const [game, setGame] = useState("");
   const [games, setGames] = useState([]);
@@ -28,6 +29,9 @@ function Game() {
   }
 
   useEffect(() => {
+  }, []);
+
+  useEffect(() => {
     setGame(gamesData.games.find((game) => game.id == id));
     setGames(gamesData.games);
     try {
@@ -35,11 +39,12 @@ function Game() {
     } catch (e) {
       console.error("Ad failed to load", e);
     }
-  }, []);
+  }, [location]);
 
   return (
     <>
       <NavBar />
+      {console.log(games, game)}
       {games.length > 0 && (
         <div className="wrap">
           <div className="game-page">

@@ -2,6 +2,7 @@
   --primary-bg: rgb(15, 15, 15);
   --secondary-bg: rgb(30, 30, 30);
   --primary-shadow: rgb(120, 120, 120);
+  --primary-shadow-transparent: rgb(50, 50, 50, 0.6);
   --primary-text: white;
   --secondary-text: rgb(200, 200, 200);
   --primary-border: rgb(40, 40, 40);
@@ -14,6 +15,7 @@
   --primary-bg: rgb(240, 240, 240);
   --secondary-bg: rgb(215, 215, 215);
   --primary-shadow: rgb(135, 135, 135);
+  --primary-shadow-transparent: rgb(135, 135, 135, 0.6);
   --primary-text: black;
   --secondary-text: rgb(55, 55, 55);
   --primary-border: rgb(200, 200, 200);
@@ -292,6 +294,14 @@ body {
   background-color: var(--secondary-bg);
 }
 
+.favorites-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 13px;
+  padding-bottom: 10px;
+}
+
 .ad-container {
   display: flex;
   justify-content: center;
@@ -308,10 +318,9 @@ body {
 
 .ad-container::after {
   content: "ADVERTISEMENT";
-  width: 10%;
   color: gray;
   position: absolute;
-  left: 45%;
+  text-align: center;
   top: 140px;
   font-size: 13px;
   text-align: center;
@@ -332,7 +341,6 @@ body {
   justify-content: center;
   padding-bottom: 50px;
   gap: 10px 13px;
-  color: var(--primary-text);
 }
 
 .games-link {
@@ -422,6 +430,59 @@ body {
   height: 25px;
   cursor: pointer;
   filter: var(--invert);
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20000;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-shadow-transparent);
+  backdrop-filter: blur(5px);
+}
+
+.popup-block {
+  background-color: var(--primary-bg);
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  align-items: center;
+  padding: 30px;
+  gap: 30px;
+  width: 450px;
+}
+
+.popup-title {
+  color: var(--primary-text);
+  text-align: center;
+  font-size: 25px;
+}
+
+.popup-description {
+  color: var(--secondary-text);
+  text-align: center;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.popup-close {
+  background-color: var(--secondary-bg);
+  color: var(--primary-text);
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.popup-close:hover {
+  background-color: var(--primary-border);
 }
 
 @media (max-width: 750px) {

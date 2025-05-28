@@ -12,7 +12,7 @@ function Home() {
   const [displayedGames, setDisplayedGames] = useState([]);
   const [randomGame, setRandomGame] = useState(null);
   const [sortMethod, setSortMethod] = useState("a");
-  const favoritedGames = localStorage.getItem("macvg-favorites") ? JSON.parse(localStorage.getItem("macvg-favorites")) : [];
+  const [favorites, setFavorites] = useState(null);
   const searchInput = useRef();
 
   function handleSearch(e) {
@@ -28,6 +28,13 @@ function Home() {
     setRandomGame(newGame);
   }
 
+  function handleRemoveFavorites() {
+    if (confirm("Are you sure you want to remove all your favorited games? This action cannot be undone.")) {
+      localStorage.removeItem("favorites");
+      setFavorites([]);
+    }
+  }
+
   useEffect(() => {
     setGames(gamesData.games.sort((a, b) => a.name.localeCompare(b.name)));
     try {
@@ -38,10 +45,17 @@ function Home() {
   }, []);
 
   useEffect(() => {
+    setFavorites(
+      localStorage.getItem("favorites")
+        ? games.filter((game) => JSON.parse(localStorage.getItem("favorites")).includes(game.id.toString()))
+        : []
+    );
+  }, [games]);
+
+  useEffect(() => {
     switch (sortMethod) {
       case "a":
         setDisplayedGames([...displayedGames].sort((a, b) => a.name.localeCompare(b.name)));
-        console.log(displayedGames);
         break;
       case "c":
         setDisplayedGames([...displayedGames].sort((a, b) => a.category.localeCompare(b.category)));
@@ -152,11 +166,16 @@ function Home() {
               <GameCard game={randomGame} />
             </div>
           )}
-          {favoritedGames.length > 0 && (
+          {favorites?.length > 0 && (
             <div className="favorites-container">
               <h2>Favorites</h2>
-              <div className="favorites-delete">
+              <div className="favorites-delete" onClick={handleRemoveFavorites}>
                 <img src={del} className="favorites" />
+              </div>
+              <div className="favorites-list">
+                {favorites.map((game) => (
+                  <GameCard key={game.id} game={game} />
+                ))}
               </div>
             </div>
           )}

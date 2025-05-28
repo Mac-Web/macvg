@@ -1,17 +1,27 @@
-import { useParams, Link, useLocation } from "react-router-dom";
-import { useEffect, useState } from "react";
-import { star, share, download, flag, expand, gamesData } from "../assets/assets";
+import { useParams, useNavigate, useLocation } from "react-router-dom";
+import { useEffect, useState, useRef } from "react";
+import { star, starred, share, download, flag, expand, compress, gamesData } from "../assets/assets";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import Ad from "../components/Ad";
+import Popup from "../components/Popup";
 import "./Game.css";
-import Home from "./Home";
 
 function Game() {
   const location = useLocation();
+  const navigate = useNavigate();
+  const gameFrame = useRef();
+  const gameIframe = useRef();
+  const gameActive = useRef(false);
   const { id } = useParams();
   const [game, setGame] = useState("");
   const [games, setGames] = useState([]);
+  const [favorites, setFavorites] = useState(() =>
+    localStorage.getItem("favorites") ? JSON.parse(localStorage.getItem("favorites")) : []
+  );
+  const [isFavorite, setIsFavorite] = useState(false);
+  const [isFullscreen, setIsFullscreen] = useState(false);
+  const [shareOpen, setShareOpen] = useState(false);
 
   function renderCategory(category) {
     switch (category) {
@@ -28,10 +38,73 @@ function Game() {
     }
   }
 
+  function handleFavorite() {
+    if (isFavorite) {
+      setFavorites(favorites.filter((fav) => fav !== id));
+    } else {
+      setFavorites([...favorites, id]);
+    }
+  }
+
+  function handleFullscreen() {
+    setIsFullscreen(!isFullscreen);
+    if (document.fullscreenElement) {
+      document.exitFullscreen();
+    } else {
+      gameFrame.current.requestFullscreen();
+    }
+  }
+
   useEffect(() => {
+    const handleFullscreen = () => {
+      if (!document.fullscreenElement) setIsFullscreen(false);
+    };
+
+    window.addEventListener("fullscreenchange", handleFullscreen);
+    const stored = localStorage.getItem("favorites");
+    setFavorites(stored ? JSON.parse(stored) : []);
+
+    return () => {
+      window.removeEventListener("fullscreenchange", handleFullscreen);
+    };
   }, []);
 
   useEffect(() => {
+    setIsFavorite(favorites.includes(id));
+    localStorage.setItem("favorites", JSON.stringify(favorites));
+  }, [favorites, id]);
+
+  useEffect(() => {
+    if (!gameFrame.current) return;
+
+    const handleMouseEnter = () => {
+      gameActive.current = true;
+    };
+    const handleMouseLeave = () => {
+      gameActive.current = false;
+    };
+    const focusInterval = setInterval(() => {
+      if (gameActive.current && document.activeElement !== gameIframe.current) {
+        if (gameIframe.current) gameIframe.current.focus();
+      }
+    }, 1000);
+
+    gameFrame.current.addEventListener("mouseenter", handleMouseEnter);
+    gameFrame.current.addEventListener("mouseleave", handleMouseLeave);
+
+    return () => {
+      if (gameFrame.current) {
+        gameFrame.current.removeEventListener("mouseenter", handleMouseEnter);
+        gameFrame.current.removeEventListener("mouseleave", handleMouseLeave);
+      }
+      clearInterval(focusInterval);
+    };
+  }, [games.length]);
+
+  useEffect(() => {
+    if (!gamesData.games.find((game) => game.id == id)) {
+      navigate("/");
+    }
     setGame(gamesData.games.find((game) => game.id == id));
     setGames(gamesData.games);
     try {
@@ -44,24 +117,53 @@ function Game() {
   return (
     <>
       <NavBar />
-      {console.log(games, game)}
       {games.length > 0 && (
         <div className="wrap">
           <div className="game-page">
             <div className="game-content">
-              <div className="game-frame">
-                <iframe src={game.link}></iframe>
+              <div className="game-frame" ref={gameFrame}>
+                <iframe src={game.link} ref={gameIframe} tabIndex={-1}></iframe>
                 <div className="toolbar">
                   <div className="game-name">
                     <img src={game.link + game.thumb} />
                     <h2>{game.name}</h2>
                   </div>
                   <div className="toolbar-icons">
-                    <img className="toolbar-icon" src={star} />
-                    <img className="toolbar-icon" src={share} />
-                    {game.download && <img className="toolbar-icon" src={download} />}
-                    <img className="toolbar-icon" src={flag} />
-                    <img className="toolbar-icon" src={expand} />
+                    <img
+                      className="toolbar-icon"
+                      title="Favorite game"
+                      src={isFavorite ? starred : star}
+                      onClick={handleFavorite}
+                    />
+                    <img
+                      className="toolbar-icon"
+                      title="Share game"
+                      src={share}
+                      onClick={() => {
+                        navigator.clipboard.writeText(window.location.href);
+                        setShareOpen(true);
+                      }}
+                    />
+                    {game.download && (
+                      <img
+                        className="toolbar-icon"
+                        title="Download game"
+                        src={download}
+                        onClick={() => window.open(`https://macvg-games.github.io/zips/game${id}.zip`, "_blank")}
+                      />
+                    )}
+                    <img
+                      className="toolbar-icon"
+                      title="Report issues"
+                      src={flag}
+                      onClick={() => window.open("https://forms.gle/GuqaHAETBs4bJtsF6", "_blank")}
+                    />
+                    <img
+                      className="toolbar-icon"
+                      title="Toggle fullscreen"
+                      src={isFullscreen ? compress : expand}
+                      onClick={handleFullscreen}
+                    />
                   </div>
                 </div>
               </div>
@@ -98,10 +200,18 @@ function Game() {
             </div>
             <div className="right">
               <Ad type="3901218615" />
+              <Ad type="3901218615" />
             </div>
           </div>
           <Footer />
         </div>
+      )}
+      {shareOpen && (
+        <Popup
+          title="Share game"
+          description="Link copied! Send the game link to anyone via email, social media, or more to share the fun and enjoy the entertainment together!"
+          setState={setShareOpen}
+        />
       )}
     </>
   );

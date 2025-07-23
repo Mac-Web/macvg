@@ -42,10 +42,10 @@ function Footer() {
       </div>
       <div className="footer-column">
         <h2 className="footer-title">MacVG Information</h2>
-        <a href="https://mac-web.github.io/macblog/apps/macvg/" className="footer-link" target="_blank">
+        <a href="https://mac-web.github.io/macblog/apps/macvg" className="footer-link" target="_blank">
           About
         </a>
-        <a href="https://mac-web.github.io/macblog/updates/macvg/" className="footer-link" target="_blank">
+        <a href="https://mac-web.github.io/macblog/#/apps/macvg/updates" className="footer-link" target="_blank">
           Updates
         </a>
         <a href="https://forms.gle/UpHgbAmLtUPCD5bs8" className="footer-link" target="_blank">

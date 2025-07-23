@@ -1,5 +1,5 @@
 {
-  "homepage": "https://mac-web.github.io/macvg-react",
+  "homepage": "https://mac-web.github.io/macvg",
   "name": "macvg",
   "private": true,
   "version": "0.0.0",
@@ -13,6 +13,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "framer-motion": "^12.17.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.0"

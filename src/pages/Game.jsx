@@ -20,6 +20,9 @@ function Game() {
     localStorage.getItem("favorites") ? JSON.parse(localStorage.getItem("favorites")) : []
   );
   const [isFavorite, setIsFavorite] = useState(false);
+  const [recents, setRecents] = useState(() =>
+    localStorage.getItem("recents") ? JSON.parse(localStorage.getItem("recents")) : []
+  );
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [shareOpen, setShareOpen] = useState(false);
 
@@ -56,6 +59,7 @@ function Game() {
   }
 
   useEffect(() => {
+    document.body.classList.add(localStorage.getItem("theme"));
     const handleFullscreen = () => {
       if (!document.fullscreenElement) setIsFullscreen(false);
     };
@@ -68,6 +72,20 @@ function Game() {
       window.removeEventListener("fullscreenchange", handleFullscreen);
     };
   }, []);
+
+  useEffect(() => {
+    if (!recents.includes(id)) {
+      if (recents.length >= 20) {
+        setRecents([id, recents.slice(0, 19)]);
+      } else {
+        setRecents([id, ...recents]);
+      }
+    }
+  }, [id]);
+
+  useEffect(() => {
+    localStorage.setItem("recents", JSON.stringify(recents));
+  }, [recents]);
 
   useEffect(() => {
     setIsFavorite(favorites.includes(id));
@@ -116,6 +134,7 @@ function Game() {
 
   return (
     <>
+      <title>{`${game.name} | MacVG`}</title>
       <NavBar />
       {games.length > 0 && (
         <div className="wrap">

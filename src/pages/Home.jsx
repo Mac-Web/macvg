@@ -5,6 +5,7 @@ import GameCard from "../components/GameCard";
 import Footer from "../components/Footer";
 import Dropdown from "../components/Dropdown";
 import Ad from "../components/Ad";
+import Modal from "../components/Modal";
 
 function Home() {
   const [search, setSearch] = useState("");
@@ -13,6 +14,7 @@ function Home() {
   const [randomGame, setRandomGame] = useState(null);
   const [sortMethod, setSortMethod] = useState("a");
   const [favorites, setFavorites] = useState(null);
+  const [modal, setModal] = useState(localStorage.getItem("modal") ? JSON.parse(localStorage.getItem("modal")) : true);
   const searchInput = useRef();
 
   function handleSearch(e) {
@@ -36,6 +38,7 @@ function Home() {
   }
 
   useEffect(() => {
+    document.body.classList.add(localStorage.getItem("theme"));
     setGames(gamesData.games.sort((a, b) => a.name.localeCompare(b.name)));
     try {
       (window.adsbygoogle = window.adsbygoogle || []).push({});
@@ -51,6 +54,10 @@ function Home() {
         : []
     );
   }, [games]);
+
+  useEffect(() => {
+    localStorage.setItem("modal", modal);
+  }, [modal]);
 
   useEffect(() => {
     switch (sortMethod) {
@@ -73,6 +80,16 @@ function Home() {
 
   return (
     <>
+      {modal && (
+        <Modal
+          img="/macvg/update.jpg"
+          name="Introducing: MacVG 2.0!"
+          description="Experience gaming like never before with the new upgraded MacVG completely rebuilt, redesigned, and optimized with modern technology."
+          link="https://mac-web.github.io/macblog/#/post/"
+          setModal={setModal}
+          //TODO: update modal release notes link
+        />
+      )}
       <NavBar />
       <div className="wrap">
         <div className="content">

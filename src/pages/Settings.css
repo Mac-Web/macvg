@@ -1,0 +1,71 @@
+.settings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding-block: 20px 50px;
+}
+
+.setting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+}
+
+.setting-name {
+  color: var(--primary-text);
+  font-size: 25px;
+}
+
+.setting-description {
+  font-size: 18px;
+  color: var(--secondary-text);
+}
+
+.setting-description span {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.setting-description span:hover {
+  text-decoration: underline;
+}
+
+.setting-search-img {
+  border: none;
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+  color: var(--primary-text);
+  font-size: 18px;
+}
+
+.setting-search-img:hover {
+  background-color: var(--secondary-bg);
+}
+
+.setting-dropdown {
+  background-color: var(--primary-bg);
+  border: 2px solid var(--primary-border);
+  border-radius: 5px;
+  color: var(--primary-text);
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+  padding-block: 15px;
+  padding-inline: 10px;
+  appearance: none;
+  width: 100px;
+  text-align: center;
+}
+
+.setting-dropdown:hover {
+  background-color: var(--secondary-bg);
+}

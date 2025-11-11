@@ -373,6 +373,18 @@ body {
   border-radius: 5px;
 }
 
+.ad-banner {
+  height: 150px;
+}
+
+.ad-vertical {
+  height: 550px;
+}
+
+.games-container .ad-container {
+  width: 90vw !important;
+}
+
 .ad-container::after {
   content: "ADVERTISEMENT";
   color: gray;
@@ -381,6 +393,14 @@ body {
   top: 140px;
   font-size: 13px;
   text-align: center;
+}
+
+.ad-banner::after {
+  top: 65px;
+}
+
+.ad-vertical::after {
+  top: 240px;
 }
 
 .ad-container ins {
@@ -398,6 +418,7 @@ body {
   justify-content: center;
   padding-bottom: 50px;
   gap: 10px 13px;
+  width: 100%;
   color: var(--secondary-text);
 }
 
@@ -570,8 +591,9 @@ body {
   color: white;
   text-decoration: none;
   font-size: 18px;
-  padding: 10px 30px;
+  padding: 12px 25px;
   border-radius: 5px;
+  font-weight: bold;
   cursor: pointer;
   border: none;
   transition: box-shadow 0.3s ease;
@@ -621,7 +643,7 @@ body {
   color: var(--secondary-text);
   text-align: center;
   line-height: 25px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 @media (max-width: 750px) {

@@ -14,7 +14,8 @@ function Home() {
   const [randomGame, setRandomGame] = useState(null);
   const [sortMethod, setSortMethod] = useState("a");
   const [favorites, setFavorites] = useState(null);
-  const [modal, setModal] = useState(localStorage.getItem("modal") ? JSON.parse(localStorage.getItem("modal")) : true);
+  const [visibleCount, setVisibleCount] = useState(50);
+  const [modal, setModal] = useState(localStorage.getItem("modall") ? JSON.parse(localStorage.getItem("modall")) : true);
   const searchInput = useRef();
 
   function handleSearch(e) {
@@ -37,6 +38,12 @@ function Home() {
     }
   }
 
+  function handleScroll() {
+    if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 200) {
+      setVisibleCount((prev) => Math.min(prev + 50, gamesData.games.length));
+    }
+  }
+
   useEffect(() => {
     document.body.classList.add(localStorage.getItem("theme"));
     setGames(gamesData.games.sort((a, b) => a.name.localeCompare(b.name)));
@@ -45,6 +52,8 @@ function Home() {
     } catch (e) {
       console.error("Ad failed to load", e);
     }
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   useEffect(() => {
@@ -82,12 +91,11 @@ function Home() {
     <>
       {modal && (
         <Modal
-          img="/macvg/update.jpg"
-          name="Introducing: MacVG 2.0!"
-          description="Experience gaming like never before with the new upgraded MacVG completely rebuilt, redesigned, and optimized with modern technology."
-          link="https://mac-web.github.io/macblog/#/post/"
+          img="/macvg/discord.webp"
+          name="MacWeb Discord is Here!"
+          description="Join the official MacWeb Discord server now to connect with gamers from all over the world, chat with the developers, and enjoy custom perks!"
+          link="https://discord.gg/UT7g2S2cBP"
           setModal={setModal}
-          //TODO: update modal release notes link
         />
       )}
       <NavBar />
@@ -198,8 +206,11 @@ function Home() {
           )}
           <Ad type="3087664545" />
           <div className="games-container">
-            {displayedGames.map((game) => (
-              <GameCard key={game.id} game={game} />
+            {displayedGames.slice(0, visibleCount).map((game, index) => (
+              <>
+                <GameCard key={game.id} game={game} />
+                {(index + 1) % 50 === 0 && index + 1 !== displayedGames.slice(0, visibleCount).length && <Ad type="3087664545" />}
+              </>
             ))}
             {displayedGames.length === 0 && (
               <div>

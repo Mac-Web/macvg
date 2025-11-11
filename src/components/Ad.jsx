@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { useLocation } from "react-router-dom";
 
-function Ad({ type }) {
+function Ad({ type,banner=false, vertical=false }) {
   const adRef = useRef(null);
   const location = useLocation();
 
@@ -32,7 +32,7 @@ function Ad({ type }) {
   }, [location]);
 
   return (
-    <div className="ad-container" ref={adRef}>
+    <div className={`ad-container ${banner?"ad-banner":vertical?"ad-vertical":""}`} ref={adRef}>
       <ins
         className="adsbygoogle"
         style={{ display: "block" }}

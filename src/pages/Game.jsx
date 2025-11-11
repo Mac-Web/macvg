@@ -140,6 +140,7 @@ function Game() {
         <div className="wrap">
           <div className="game-page">
             <div className="game-content">
+              <Ad type="3901218615" banner={true} />
               <div className="game-frame" ref={gameFrame}>
                 <iframe src={game.link} ref={gameIframe} tabIndex={-1}></iframe>
                 <div className="toolbar">
@@ -215,11 +216,12 @@ function Game() {
                     <li>Build: {game.build}</li>
                   </ul>
                 </div>
+                <Ad type="3901218615" />
               </div>
             </div>
             <div className="right">
-              <Ad type="3901218615" />
-              <Ad type="3901218615" />
+              <Ad type="3901218615" vertical={true} />
+              <Ad type="3901218615" vertical={true} />
             </div>
           </div>
           <Footer />

@@ -13,7 +13,7 @@ function Modal({ img, name, description, link, setModal }) {
         <h2 className="modal-name">{name}</h2>
         <p className="modal-description">{description}</p>
         <Link to={link} className="action-btn" target="_blank">
-          What's new
+          Join Now!
         </Link>
       </div>
     </div>

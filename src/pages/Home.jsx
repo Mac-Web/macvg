@@ -65,7 +65,7 @@ function Home() {
   }, [games]);
 
   useEffect(() => {
-    localStorage.setItem("modal", modal);
+    localStorage.setItem("modall", modal);
   }, [modal]);
 
   useEffect(() => {

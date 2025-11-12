@@ -4,6 +4,7 @@ import { star, starred, share, download, flag, expand, compress, gamesData } fro
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import Ad from "../components/Ad";
+import BannerAd from "../components/BannerAd";
 import Popup from "../components/Popup";
 import "./Game.css";
 
@@ -140,7 +141,7 @@ function Game() {
         <div className="wrap">
           <div className="game-page">
             <div className="game-content">
-              <Ad type="3901218615" banner={true} />
+              <BannerAd banner={true} />
               <div className="game-frame" ref={gameFrame}>
                 <iframe src={game.link} ref={gameIframe} tabIndex={-1}></iframe>
                 <div className="toolbar">

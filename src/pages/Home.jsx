@@ -15,7 +15,7 @@ function Home() {
   const [sortMethod, setSortMethod] = useState("a");
   const [favorites, setFavorites] = useState(null);
   const [visibleCount, setVisibleCount] = useState(50);
-  const [modal, setModal] = useState(localStorage.getItem("modall") ? JSON.parse(localStorage.getItem("modall")) : true);
+  const [modal, setModal] = useState(localStorage.getItem("modalll") ? JSON.parse(localStorage.getItem("modalll")) : true);
   const searchInput = useRef();
 
   function handleSearch(e) {
@@ -65,7 +65,7 @@ function Home() {
   }, [games]);
 
   useEffect(() => {
-    localStorage.setItem("modall", modal);
+    localStorage.setItem("modalll", modal);
   }, [modal]);
 
   useEffect(() => {
@@ -93,7 +93,7 @@ function Home() {
         <Modal
           img="/macvg/discord.webp"
           name="MacWeb Discord is Here!"
-          description="Join the official MacWeb Discord server now to connect with gamers from all over the world, chat with the developers, and enjoy custom perks!"
+          description="First 100 members to join will receive an exclusive role & channel! Join the official MacWeb Discord server now to connect with gamers from all over the world!"
           link="https://discord.gg/UT7g2S2cBP"
           setModal={setModal}
         />

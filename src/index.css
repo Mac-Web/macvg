@@ -543,7 +543,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--primary-shadow-transparent);
+  background-color: var(--primary-modal-bg);
   backdrop-filter: blur(5px);
 }
 
@@ -586,7 +586,8 @@ body {
   background-color: var(--primary-border);
 }
 
-.action-btn {
+.action-btn,
+.delete-btn {
   background-color: var(--primary-color);
   color: white;
   text-decoration: none;
@@ -594,6 +595,7 @@ body {
   padding: 12px 25px;
   border-radius: 5px;
   font-weight: bold;
+  width: fit-content;
   cursor: pointer;
   border: none;
   transition: box-shadow 0.3s ease;
@@ -601,6 +603,14 @@ body {
 
 .action-btn:hover {
   box-shadow: 0px 0px 10px var(--primary-color);
+}
+
+.delete-btn {
+  background-color: rgb(160, 25, 25);
+}
+
+.delete-btn:hover {
+  box-shadow: 0px 0px 10px rgb(160, 25, 25);
 }
 
 .modal-bg {
@@ -627,6 +637,23 @@ body {
   gap: 20px;
   padding: 30px;
   width: 390px;
+}
+
+.modal-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.modal-input {
+  background-color: var(--secondary-bg);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: var(--primary-text);
+  font-size: 18px;
 }
 
 .modal-img {

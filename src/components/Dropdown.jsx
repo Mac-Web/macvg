@@ -5,6 +5,8 @@ function Dropdown({ label, options }) {
   const [isOpen, setIsOpen] = useState(false);
   const [dropdownLabel, setDropdownLabel] = useState(label);
 
+  console.log(label)
+
   useEffect(() => {
     const handleClickOutside = (e) => {
       if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
@@ -14,6 +16,10 @@ function Dropdown({ label, options }) {
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
+
+  useEffect(() => {
+     setDropdownLabel(label)
+  }, [label]);
 
   return (
     <div className="filter" ref={dropdownRef}>

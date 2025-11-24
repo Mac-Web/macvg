@@ -13,8 +13,9 @@ import share from "./icons/share.svg";
 import star from "./icons/star.svg";
 import starred from "./icons/starred.svg";
 import up from "./icons/up.svg";
+import streak from "./icons/streak.svg";
+import nostreak from "./icons/no-streak.svg";
 import youtube from "./icons/youtube.svg";
-
 import gamesData from "./games.json";
 import logo from "./logo.png";
 
@@ -34,6 +35,8 @@ export {
   star,
   starred,
   up,
+  streak,
+  nostreak,
   youtube,
   gamesData,
   logo,

@@ -140,37 +140,41 @@ function Home() {
                 ]}
               />
               <Dropdown
-                label="Filter All (420)"
+                label={`Filter All (${games.length})`}
                 options={[
-                  { complete: "Filter All (420)", label: "All", onClick: () => setDisplayedGames(games) },
                   {
-                    complete: "Featured Games (50)",
-                    label: "Featured (50)",
+                    complete: `Filter All (${games.length})`,
+                    label: `All (${games.length})`,
+                    onClick: () => setDisplayedGames(games),
+                  },
+                  {
+                    complete: `Featured Games (${games.filter((game) => game.featured).length})`,
+                    label: `Featured (${games.filter((game) => game.featured).length})`,
                     onClick: () => setDisplayedGames(games.filter((game) => game.featured)),
                   },
                   {
-                    complete: "Action & Adventure (165)",
-                    label: "Action (165)",
+                    complete: `Action & Adventure (${games.filter((game) => game.category==="action").length})`,
+                    label: `Action (${games.filter((game) => game.category==="action").length})`,
                     onClick: () => setDisplayedGames(games.filter((game) => game.category === "action")),
                   },
                   {
-                    complete: "Streategy & Puzzle (136)",
-                    label: "Strategy (136)",
+                    complete: `Strategy & Puzzle (${games.filter((game) => game.category==="strategy").length})`,
+                    label: `Strategy (${games.filter((game) => game.category==="strategy").length})`,
                     onClick: () => setDisplayedGames(games.filter((game) => game.category === "strategy")),
                   },
                   {
-                    complete: "Casual & Idle (64)",
-                    label: "Casual (64)",
+                    complete: `Casual & Idle (${games.filter((game) => game.category==="casual").length})`,
+                    label: `Casual (${games.filter((game) => game.category==="casual").length})`,
                     onClick: () => setDisplayedGames(games.filter((game) => game.category === "casual")),
                   },
                   {
-                    complete: "Driving & Sports (55)",
-                    label: "Driving (55)",
+                    complete: `Driving & Sports (${games.filter((game) => game.category==="driving").length})`,
+                    label: `Driving (${games.filter((game) => game.category==="driving").length})`,
                     onClick: () => setDisplayedGames(games.filter((game) => game.category === "driving")),
                   },
                   {
-                    complete: "Downloadable Games (68)",
-                    label: "Downloadable (68)",
+                    complete: `Downloadable Games (${games.filter((game) => game.download).length})`,
+                    label: `Downloadable (${games.filter((game) => game.download).length})`,
                     onClick: () => setDisplayedGames(games.filter((game) => game.download)),
                   },
                 ]}

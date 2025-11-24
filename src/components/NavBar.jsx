@@ -91,6 +91,9 @@ function NavBar() {
       <Link to="/settings" className="nav-link">
         Settings
       </Link>
+      <Link to="/me" className="nav-link">
+        Me
+      </Link>
       <motion.img
         whileHover={{ scale: 1.2, rotate: 360 }}
         whileTap={{ scale: 1.1, rotate: 320 }}

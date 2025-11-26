@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { github, streak, nostreak } from "../assets/assets";
+import { github, streak, nostreak, crine, skull, robot, userpfp, knight, dog, cat, poop } from "../assets/assets";
 import NavBar from "../components/NavBar";
 import Hero from "../components/Hero";
 import Ad from "../components/Ad";
@@ -7,15 +7,29 @@ import Modal from "../components/Modal";
 import Footer from "../components/Footer";
 import "./Me.css";
 
+const pfps = [
+  { img: userpfp, name: "Default user" },
+  { img: crine, name: "Crine" },
+  { img: skull, name: "Skull" },
+  { img: robot, name: "Clanker" },
+  { img: knight, name: "Knight" },
+  { img: dog, name: "Dog" },
+  { img: cat, name: "Cat" },
+  { img: poop, name: "Poopy" },
+  { img: github, name: "GitHub" },
+];
+
 function Me() {
   const [user, setUser] = useState(
     JSON.parse(localStorage.getItem("macvg-user")) || {
       name: "User " + Math.round(Math.random() * 10000),
       bio: "Tell people a bit about yourself",
       streak: 0,
+      pfp: 0,
     }
   );
   const [editing, setEditing] = useState(false);
+  const [pfp, setPfp] = useState(false);
 
   useEffect(() => {
     try {
@@ -47,7 +61,7 @@ function Me() {
             description="This is your gamer profile, where you can keep track of your daily login streaks, earn rare achievements from playing different games, and customize your profile to show off to other gamers on MacVG!"
           />
           <div className="profile">
-            <img src={github} className="profile-icon" />
+            <img src={pfps[user.pfp].img} className="profile-icon" title="Edit profile picture" onClick={() => setPfp(true)} />
             <div className="profile-content">
               <div
                 className={`profile-streak ${user.streak > 0 ? "" : "no-streak"}`}
@@ -77,6 +91,7 @@ function Me() {
           </div>
           <Ad type="3087664545" />
           {editing && <Modal name="Edit user profile" setModal={setEditing} user={user} setUser={setUser} />}
+          {pfp && <Modal name="Edit profile picture" pfps={pfps} setModal={setPfp} user={user} setUser={setUser} />}
         </div>
         <Footer />
       </div>

@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-function Modal({ img = null, name, description = null, link = null, setModal, user = null, setUser = null }) {
+function Modal({ img = null, name, description = null, link = null, setModal, user = null, setUser = null, pfps = null }) {
   const [userName, setUserName] = useState(user?.name);
   const [userBio, setUserBio] = useState(user?.bio);
+  const [selected, setSelected] = useState(user.pfp);
 
   function handleSave(e) {
     e.preventDefault();
@@ -11,6 +12,7 @@ function Modal({ img = null, name, description = null, link = null, setModal, us
       ...user,
       name: userName,
       bio: userBio,
+      pfp: selected,
     });
     setModal(false);
   }
@@ -27,6 +29,19 @@ function Modal({ img = null, name, description = null, link = null, setModal, us
         <h2 className="modal-name">{name}</h2>
         {!user ? (
           <p className="modal-description">{description}</p>
+        ) : pfps ? (
+          <div className="modal-imgs">
+            {pfps.map((pfp, i) => {
+              return (
+                <img
+                  src={pfp.img}
+                  title={pfp.name}
+                  onClick={() => setSelected(i)}
+                  className={`modal-img ${selected == i ? "modal-selected" : ""}`}
+                />
+              );
+            })}
+          </div>
         ) : (
           <div className="modal-inputs">
             <input className="modal-input" placeholder="Username" value={userName} onInput={(e) => setUserName(e.target.value)} />

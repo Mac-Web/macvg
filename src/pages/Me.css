@@ -5,6 +5,14 @@
 
 .profile-icon {
   width: 250px;
+  border: 5px solid var(--primary-border);
+  border-radius: 20%;
+  height: 250px;
+  filter: var(--invert);
+}
+
+.profile-icon:hover {
+  cursor: pointer;
 }
 
 .profile-content {
@@ -29,6 +37,7 @@
 
 .streak-img {
   width: 30px;
+  filter: var(--invert);
 }
 
 .profile-name {

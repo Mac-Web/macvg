@@ -639,6 +639,25 @@ body {
   width: 390px;
 }
 
+.modal-imgs {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.modal-imgs img {
+  width: 70px;
+  cursor: pointer;
+  border: 4px solid var(--primary-bg);
+  border-radius: 50px;
+  filter: var(--invert);
+}
+
+.modal-selected {
+  border-color: var(--primary-color) !important;
+}
+
 .modal-inputs {
   display: flex;
   flex-direction: column;

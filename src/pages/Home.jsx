@@ -15,7 +15,7 @@ function Home() {
   const [sortMethod, setSortMethod] = useState("a");
   const [favorites, setFavorites] = useState(null);
   const [visibleCount, setVisibleCount] = useState(50);
-  const [modal, setModal] = useState(localStorage.getItem("modalll") ? JSON.parse(localStorage.getItem("modalll")) : true);
+  const [modal, setModal] = useState(localStorage.getItem("modallll") ? JSON.parse(localStorage.getItem("modallll")) : true);
   const searchInput = useRef();
 
   function handleSearch(e) {
@@ -65,7 +65,7 @@ function Home() {
   }, [games]);
 
   useEffect(() => {
-    localStorage.setItem("modalll", modal);
+    localStorage.setItem("modallll", modal);
   }, [modal]);
 
   useEffect(() => {
@@ -91,10 +91,10 @@ function Home() {
     <>
       {modal && (
         <Modal
-          img="/macvg/discord.webp"
-          name="MacWeb Discord is Here!"
-          description="First 100 members to join will receive an exclusive role & channel! Join the official MacWeb Discord server now to connect with gamers from all over the world!"
-          link="https://discord.gg/UT7g2S2cBP"
+          img="/macvg/update.jpg"
+          name="MacVG Fall Update!"
+          description="New games, Me Tab, gamer profile, bug fixes, and more! Check out what's new with this massive update!"
+          link="https://mac-web.github.io/macblog/#/post/59"
           setModal={setModal}
         />
       )}
@@ -153,23 +153,23 @@ function Home() {
                     onClick: () => setDisplayedGames(games.filter((game) => game.featured)),
                   },
                   {
-                    complete: `Action & Adventure (${games.filter((game) => game.category==="action").length})`,
-                    label: `Action (${games.filter((game) => game.category==="action").length})`,
+                    complete: `Action & Adventure (${games.filter((game) => game.category === "action").length})`,
+                    label: `Action (${games.filter((game) => game.category === "action").length})`,
                     onClick: () => setDisplayedGames(games.filter((game) => game.category === "action")),
                   },
                   {
-                    complete: `Strategy & Puzzle (${games.filter((game) => game.category==="strategy").length})`,
-                    label: `Strategy (${games.filter((game) => game.category==="strategy").length})`,
+                    complete: `Strategy & Puzzle (${games.filter((game) => game.category === "strategy").length})`,
+                    label: `Strategy (${games.filter((game) => game.category === "strategy").length})`,
                     onClick: () => setDisplayedGames(games.filter((game) => game.category === "strategy")),
                   },
                   {
-                    complete: `Casual & Idle (${games.filter((game) => game.category==="casual").length})`,
-                    label: `Casual (${games.filter((game) => game.category==="casual").length})`,
+                    complete: `Casual & Idle (${games.filter((game) => game.category === "casual").length})`,
+                    label: `Casual (${games.filter((game) => game.category === "casual").length})`,
                     onClick: () => setDisplayedGames(games.filter((game) => game.category === "casual")),
                   },
                   {
-                    complete: `Driving & Sports (${games.filter((game) => game.category==="driving").length})`,
-                    label: `Driving (${games.filter((game) => game.category==="driving").length})`,
+                    complete: `Driving & Sports (${games.filter((game) => game.category === "driving").length})`,
+                    label: `Driving (${games.filter((game) => game.category === "driving").length})`,
                     onClick: () => setDisplayedGames(games.filter((game) => game.category === "driving")),
                   },
                   {

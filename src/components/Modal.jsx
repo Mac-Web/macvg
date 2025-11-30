@@ -4,7 +4,7 @@ import { useState } from "react";
 function Modal({ img = null, name, description = null, link = null, setModal, user = null, setUser = null, pfps = null }) {
   const [userName, setUserName] = useState(user?.name);
   const [userBio, setUserBio] = useState(user?.bio);
-  const [selected, setSelected] = useState(user.pfp);
+  const [selected, setSelected] = useState(user?.pfp);
 
   function handleSave(e) {
     e.preventDefault();
@@ -50,7 +50,7 @@ function Modal({ img = null, name, description = null, link = null, setModal, us
         )}
         {link ? (
           <Link to={link} className="action-btn" target="_blank">
-            Join Now!
+            What's new
           </Link>
         ) : (
           <button type="submit" className="action-btn">

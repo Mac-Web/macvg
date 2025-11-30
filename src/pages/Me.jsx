@@ -61,7 +61,7 @@ function Me() {
             description="This is your gamer profile, where you can keep track of your daily login streaks, earn rare achievements from playing different games, and customize your profile to show off to other gamers on MacVG!"
           />
           <div className="profile">
-            <img src={pfps[user.pfp].img} className="profile-icon" title="Edit profile picture" onClick={() => setPfp(true)} />
+            <img src={pfps[user.pfp||0].img} className="profile-icon" title="Edit profile picture" onClick={() => setPfp(true)} />
             <div className="profile-content">
               <div
                 className={`profile-streak ${user.streak > 0 ? "" : "no-streak"}`}
